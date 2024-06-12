@@ -1,0 +1,2668 @@
+[
+  [
+    {
+      "id": "7.NS.A.2-0-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((29 / 2) * (19 / 28))]]\n[[question f = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the product of (29/2) and (19/28) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (29/2) * (19/28)]]\n[[question b = ['a']]]",
+      "answer": "551/56",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-0-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((29 / 2) * (19 / 28))]]\n[[var s = (z * (8 / 28))]]\n[[question d = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the product of (29/2) and (19/28), multiply your result by (8/28). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (29/2) * (19/28)]]\n[[var b = a * (8/28)]]\n[[question c = ['b']]]",
+      "answer": "551/196",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-0-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((29 / 2) * (19 / 14))]]\n[[question f = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the product of (29/2) and (19/28), reconsider the calculation using (19/14) instead of (19/28). Recalculate the product of (29/2) and (19/14) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var p = (29/2) * (19/28)]]\n[[var q = (29/2) * (19/14)]]\n[[question r = ['q']]]",
+      "answer": "551/28",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-1-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var v = ((7 / 1) * (27 / 12))]]\n[[question m = ['v']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following problem: multiply 7 by the result of dividing 27 by 12. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 7 * (27/12)]]\n[[question b = ['a']]]",
+      "answer": "63/4",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-1-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var v = ((7 / 1) * (26 / 12))]]\n[[question m = ['v']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Let's reconsider the previous question. Instead of multiplying 7 by the result of dividing 27 by 12, calculate the result when you multiply 7 by the division of 26 by 12. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 7 * (26/12)]]\n[[question b = ['a']]]",
+      "answer": "91/6",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-2-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((30 / 30) * (29 / 27))]]\n[[question c = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Susan has a recipe that calls for 30 parts of flour to 27 parts of water. If she decides to use 29 parts of flour instead, and she keeps the water proportion the same, how much water will she use? Calculate this using fraction multiplication: ((30 / 30) * (29 / 27)).",
+      "new symbolic struct": "[[var a = 30/30]]\n[[var b = 29/27]]\n[[var c = a * b]]\n[[question d = ['c']]]",
+      "answer": "29/27",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-2-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((30 / 30) * (29 / 27))]]\n[[var u = ((23 / 4) * a)]]\n[[question h = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following on from the last question: If Susan made 23/4 batches of her recipe, how would the amount of water she used change? Calculate this using fraction multiplication: ((23 / 4) * ((30 / 30) * (29 / 27))).",
+      "new symbolic struct": "[[var a = 30/30]]\n[[var b = 29/27]]\n[[var c = a * b]]\n[[var e = 23/4]]\n[[var f = e * c]]\n[[question g = ['f']]]",
+      "answer": "667/108",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-2-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((30 / 12) * (29 / 27))]]\n[[question c = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following on from the last question: What happens if Susan decides to use 30 parts of flour out of an available 12, while still keeping the water proportion the same? Calculate this using fraction multiplication: ((30 / 12) * (29 / 27)).",
+      "new symbolic struct": "[[var e = 30/12]]\n[[var f = 29/27]]\n[[var g = e * f]]\n[[question h = ['g']]]",
+      "answer": "145/54",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-3-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((24 / 22) * (24 / 17))]]\n[[question z = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following operation: ((24 / 22) * (24 / 17)). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (24/22) * (24/17)]]\n[[question b = ['a']]]",
+      "answer": "288/187",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-3-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((24 / 22) * (24 / 17))]]\n[[var i = ((27 / 18) * s)]]\n[[question o = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the result of ((24 / 22) * (24 / 17)) in the previous problem, multiply the answer you found by (27 / 18). Write the result as a simplified fraction.",
+      "new symbolic struct": "[[var a = (24/22) * (24/17)]]\n[[var c = a * (27/18)]]\n[[question d = ['c']]]",
+      "answer": "432/187",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-3-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((24 / 22) * (24 / 9))]]\n[[question z = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Since the previous problem had you evaluating ((24 / 22) * (24 / 17)), consider this change: What if instead of multiplying (24 / 22) by (24 / 17), you multiplied it by (24 / 9)? Calculate the result of ((24 / 22) * (24 / 9)) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (24/22) * (24/9)]]\n[[question d = ['c']]]",
+      "answer": "32/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-4-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var q = ((25 / 4) / (16 / 6))]]\n[[question c = ['q']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result when you divide 25/4 by 16/6? Please write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 25/4]]\n[[var b = 16/6]]\n[[var c = a/b]]\n[[question d = ['c']]]",
+      "answer": "75/32",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-4-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var q = ((25 / 4) / (16 / 6))]]\n[[var w = ((19 / 6) * q)]]\n[[question t = ['w']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If the result of dividing 25/4 by 16/6 is multiplied by 19/6, what is the new result? Be sure to simplify your answer to lowest terms.",
+      "new symbolic struct": "[[var a = 25/4]]\n[[var b = 16/6]]\n[[var c = a/b]]\n[[var d = 19/6]]\n[[var e = c*d]]\n[[question f = ['e']]]",
+      "answer": "475/64",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-4-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var q = (9 / (16 / 6))]]\n[[question c = ['q']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following up from the previous question, consider the new scenario where instead of dividing 25/4 we are now dividing 9 by 16/6. What is the answer to this problem? Please simplify your final answer.",
+      "new symbolic struct": "[[var e = 9]]\n[[var f = 16/6]]\n[[var g = e/f]]\n[[question h = ['g']]]",
+      "answer": "27/8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-5-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((3 / 7) * (26 / 6))]]\n[[question e = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Determine the result of the following: Multiply the fraction 3/7 by the fraction 26/6 and express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 3/7 * 26/6]]\n[[question q = ['a']]]",
+      "answer": "13/7",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-5-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((3 / 7) * (26 / 6))]]\n[[var n = (a * (23 / 2))]]\n[[question x = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous question, you found the result of (3 / 7) * (26 / 6). Now, take that result and multiply it by the fraction 23/2. What's the result of this calculation, expressed as a simplified fraction?",
+      "new symbolic struct": "[[var a = 3/7 * 26/6]]\n[[var b = a * 23/2]]\n[[question q = ['b']]]",
+      "answer": "299/14",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-5-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((7 / 7) * (26 / 6))]]\n[[question e = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, you multiplied the fraction 3/7 by the fraction 26/6. Now, let's change the fraction a bit. Instead of 3/7, use 7/7 (which is actually 1). Multiply this new fraction 7/7 by the same fraction 26/6. What is the result of this new calculation, expressed as a simplified fraction?",
+      "new symbolic struct": "[[var b = 7/7 * 26/6]]\n[[question p = ['b']]]",
+      "answer": "13/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-6-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var c = ((17 / 10) * (28 / 10))]]\n[[question w = ['c']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the expression (17 / 10) * (28 / 10) and write your answer in decimal form.",
+      "new symbolic struct": "[[var a = (17 / 10) * (28 / 10)]]\n[[question b = ['a']]]",
+      "answer": "119/25",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-6-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var c = ((17 / 10) * (28 / 10))]]\n[[var e = ((11 / 18) * c)]]\n[[question a = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following the previous question, you found the result of (17 / 10) * (28 / 10). Now, multiply that result by (11 / 18). What will the new result be? Write your answer in decimal form.",
+      "new symbolic struct": "[[var a = (17 / 10) * (28 / 10)]]\n[[var c = a * (11 / 18)]]\n[[question d = ['c']]]",
+      "answer": "1309/450",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-6-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var c = ((17 / 24) * (28 / 10))]]\n[[question w = ['c']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, you were asked to calculate the result of (17 / 10) * (28 / 10). But consider this variation: calculate the result of the expression (17 / 24) * (28 / 10) instead. What would be the new result? Write your answer in decimal form.",
+      "new symbolic struct": "[[var a = (17 / 10) * (28 / 10)]]\n[[var b = (17 / 24) * (28 / 10)]]\n[[question c = ['b']]]",
+      "answer": "119/60",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-7-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var n = ((29 / 14) * (23 / 6))]]\n[[question u = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Determine the value of the given expression: ((29 / 14) * (23 / 6))",
+      "new symbolic struct": "[[var x = (29 / 14) * (23 / 6)]]\n[[question y = ['x']]]",
+      "answer": "667/84",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-7-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var n = ((29 / 14) * (23 / 6))]]\n[[var l = ((21 / 21) * n)]]\n[[question k = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "The value of the expression ((29 / 14) * (23 / 6)) was calculated in the previous problem. Now, calculate the result of multiplying the previously found value by (21 / 21).",
+      "new symbolic struct": "[[var x = (29 / 14) * (23 / 6)]]\n[[var z = x * (21 / 21)]]\n[[question y = ['z']]]",
+      "answer": "667/84",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-7-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var n = ((29 / 14) * (23 / 2))]]\n[[question u = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Recall the original problem, which dealt with the expression ((29 / 14) * (23 / 6)). Now, reconsider this problem, but replace the 6 in the denominator of the second fraction with a 2. That is, find the value of the expression ((29 / 14) * (23 / 2)). What's the outcome?",
+      "new symbolic struct": "[[var x = (29 / 14) * (23 / 6)]]\n[[var y = (29 / 14) * (23 / 2)]]\n[[question z = ['y']]]",
+      "answer": "667/28",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-8-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var x = ((18 / 19) * (19 / 6))]]\n[[question n = ['x']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the answer for ((18 / 19) * (19 / 6)) and write the result as a simplified fraction.",
+      "new symbolic struct": "[[var a = (18 / 19) * (19 / 6)]]\n[[question b = ['a']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-8-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var x = ((18 / 19) * (19 / 6))]]\n[[var p = (x * x)]]\n[[question t = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the solution for ((18 / 19) * (19 / 6)), take the result and multiply it by itself. What do you get? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (18 / 19) * (19 / 6)]]\n[[var b = a * a]]\n[[question c = ['b']]]",
+      "answer": "9",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-8-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var x = ((9 / 19) * (19 / 6))]]\n[[question n = ['x']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After you've calculated the solution for ((18 / 19) * (19 / 6)), now consider what would happen if the fraction was instead ((9 / 19) * (19 / 6)). What would be the result? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (18 / 19) * (19 / 6)]]\n[[var c = (9 / 19) * (19 / 6)]]\n[[question d = ['c']]]",
+      "answer": "3/2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-9-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((19 / 12) * (20 / 6))]]\n[[question i = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the multiplication of the fraction 19/12 by 20/6. Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (19/12) * (20/6)]]\n[[question b = ['a']]]",
+      "answer": "95/18",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-9-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((19 / 12) * (20 / 6))]]\n[[var b = (s * s)]]\n[[question y = ['b']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Taking the answer from the previous problem (19/12 * 20/6), multiply this result with itself. What is the resulting fraction when simplified?",
+      "new symbolic struct": "[[var a = (19/12) * (20/6)]]\n[[var c = a * a]]\n[[question d = ['c']]]",
+      "answer": "9025/324",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-9-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((10 / 12) * (20 / 6))]]\n[[question i = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the original problem, you multiplied the fractions 19/12 and 20/6. Now suppose you replace 19/12 with 10/12 and redo the calculation. What is the resulting fraction when it is simplified?",
+      "new symbolic struct": "[[var a = (19/12) * (20/6)]]\n[[var c = (10/12) * (20/6)]]\n[[question d = ['c']]]",
+      "answer": "25/9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-10-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((28 / 21) * (22 / 4))]]\n[[question i = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "A cargo ship carries 28/21 of its capacity in the morning, and 22/4 of its capacity in the afternoon. If the cargo in the morning represents the load allocated to consumer goods and the cargo in the afternoon represents industrial supplies, what is the total fractional representation of these two types of cargo hauled in one day? Calculate ((28 / 21) * (22 / 4)). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (28 / 21) * (22 / 4)]]\n[[question b = ['a']]]",
+      "answer": "22/3",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-10-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((28 / 21) * (22 / 4))]]\n[[var s = ((5 / 24) * d)]]\n[[question m = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the total fractional representation of the cargo hauled in one day, suppose the ship needs to set aside 5/24 of this total fraction for an emergency supply run later in the week. What fraction of the overall cargo does this emergency supply run represent? To find this, calculate ((5 / 24) * your previous answer). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (28 / 21) * (22 / 4)]]\n[[var c = (5 / 24) * a]]\n[[question d = ['c']]]",
+      "answer": "55/36",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-10-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((29 / 21) * (22 / 4))]]\n[[question i = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After recalculating the cargo hauled in one day with the new total of 29/21 representing the consumer goods, how does this change the overall cargo hauled in one day? If the cargo in the morning now represents 29/21 of its capacity, and the cargo in the afternoon still represents 22/4 of its capacity for industrial supplies, what is the new total fractional representation of these two types of cargo hauled in one day? Calculate ((29 / 21) * (22 / 4)). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (29 / 21) * (22 / 4)]]\n[[question d = ['c']]]",
+      "answer": "319/42",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-11-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((16 / 4) / (24 / 21))]]\n[[question x = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Determine the result of the following mathematical expression: (16 / 4) / (24 / 21). Write your answer as a simplified fraction or decimal.",
+      "new symbolic struct": "[[var a = (16 / 4) / (24 / 21)]]\n[[question b = ['a']]]",
+      "answer": "7/2",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-11-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((16 / 4) / (24 / 21))]]\n[[var n = (e * (5 / 13))]]\n[[question l = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After you've calculated the result of the previous problem, which is (16 / 4) / (24 / 21), multiply your answer by (5 / 13). What is the final result in its simplified form?",
+      "new symbolic struct": "[[var a = (16 / 4) / (24 / 21)]]\n[[var b = a * (5 / 13)]]\n[[question c = ['b']]]",
+      "answer": "35/26",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-11-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((16 / 4) / 3)]]\n[[question x = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Suppose you made a mistake when performing the previous calculation. Instead of (16 / 4) / (24 / 21), you should have calculated (16 / 4) / 3. What would the correct answer be if the original problem used this correct operation instead?",
+      "new symbolic struct": "[[var c = (16 / 4) / 3]]\n[[question d = ['c']]]",
+      "answer": "4/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-12-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((5 / 27) * (15 / 2))]]\n[[question o = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the product of the fractions 5/27 and 15/2. Write your answer in the simplest form.",
+      "new symbolic struct": "[[var a = 5/27 * 15/2]]\n[[question b = ['a']]]",
+      "answer": "25/18",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-12-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((5 / 27) * (15 / 2))]]\n[[var g = (i * i)]]\n[[question w = ['g']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the product of the fractions 5/27 and 15/2, take that result and multiply it by itself. What is the result when you write it in simplest form?",
+      "new symbolic struct": "[[var a = 5/27 * 15/2]]\n[[var b = a * a]]\n[[question c = ['b']]]",
+      "answer": "625/324",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-12-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((24 / 27) * (15 / 2))]]\n[[question o = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After previously calculating the product of the fractions 5/27 and 15/2, what if the original number of the numerator in the first fraction was 24 instead of 5? Calculate the new product of the fractions 24/27 and 15/2 and write your answer in simplest form.",
+      "new symbolic struct": "[[var c = 24/27 * 15/2]]\n[[question d = ['c']]]",
+      "answer": "20/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-13-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var h = ((15 / 13) * (19 / 7))]]\n[[question g = ['h']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following product of fractions: (15 / 13) * (19 / 7). Make sure to write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var n = (15 / 13) * (19 / 7)]]\n[[question m = ['n']]]",
+      "answer": "285/91",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-13-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var h = ((15 / 13) * (19 / 7))]]\n[[var i = (h * (23 / 22))]]\n[[question o = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the result of the product of fractions (15 / 13) * (19 / 7), multiply your result by another fraction (23/22). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var n = (15 / 13) * (19 / 7)]]\n[[var o = n * (23/22)]]\n[[question p = ['o']]]",
+      "answer": "6555/2002",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-13-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var h = ((15 / 29) * (19 / 7))]]\n[[question g = ['h']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous task, instead of calculating the product of fractions (15 / 13) * (19 / 7), now calculate the result of a slightly different operation: (15 / 29) * (19 / 7). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var p = (15 / 29) * (19 / 7)]]\n[[question q = ['p']]]",
+      "answer": "285/203",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-14-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var y = ((23 / 22) * (27 / 20))]]\n[[question c = ['y']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the product of the fractions 23/22 and 27/20. Express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var p = 23/22 * 27/20]]\n[[question q = ['p']]]",
+      "answer": "621/440",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-16-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((12 / 25) * (20 / 4))]]\n[[question n = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following operation: (12 / 25) * (20 / 4). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (12/25) * (20/4)]]\n[[question b = ['a']]]",
+      "answer": "12/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-16-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((12 / 25) * (20 / 4))]]\n[[var s = (l * (17 / 17))]]\n[[question p = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the result of (12 / 25) * (20 / 4), now multiply this result by (17 / 17). Report your final answer as a simplified fraction.\n",
+      "new symbolic struct": "[[var a = (12/25) * (20/4)]]\n[[var b = a * (17/17)]]\n[[question c = ['b']]]",
+      "answer": "12/5",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-16-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((10 / 25) * (20 / 4))]]\n[[question n = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After resolving the previous problem, let us consider a slightly different situation. Now, calculate the result of (10 / 25) * (20 / 4) instead of (12 / 25) * (20 / 4). What difference does this make to the result? Write your new answer as a simplified fraction.\n",
+      "new symbolic struct": "[[var a = (10/25) * (20/4)]]\n[[question b = ['a']]]",
+      "answer": "2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-17-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((14 / 10) * (30 / 5))]]\n[[question m = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the following operation: multiply the fraction 14/10 by the fraction 30/5. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = 14/10 * 30/5]]\n[[question y = ['x']]]",
+      "answer": "42/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-17-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((14 / 10) * (30 / 5))]]\n[[var a = (d * (13 / 15))]]\n[[question t = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the multiplication of 14/10 by 30/5, multiply that result by the fraction 13/15. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = 14/10 * 30/5]]\n[[var y = x * 13/15]]\n[[question z = ['y']]]",
+      "answer": "182/25",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-17-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((30 / 10) * (30 / 5))]]\n[[question m = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, suppose that instead of 14/10 we had 30/10. Now, the problem becomes: calculate the multiplication of 30/10 by 30/5. What would be the simplified fraction as an answer?",
+      "new symbolic struct": "[[var a = 30/10]]\n[[var b = 30/5]]\n[[var z = a * b]]\n[[question ans = ['z']]]",
+      "answer": "18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-18-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var c = ((26 / 1) / (29 / 14))]]\n[[question k = ['c']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "A baker is preparing a large batch of cookies that requires 26 cups of sugar per each full batch. If he only has enough sugar to make a fraction of the batch, represented by 29/14 of a full batch, how many batches of cookies can the baker make? Calculate this as ((26 / 1) / (29 / 14)). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 26]]\n[[var b = 29/14]]\n[[var c = a / b]]\n[[question d = ['c']]]",
+      "answer": "364/29",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-18-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var c = (16 / (29 / 14))]]\n[[question k = ['c']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After completing the cookie orders for the event, the baker considers a change in his recipe that will impact how much sugar he uses. Now, instead of 26 cups of sugar per batch, he only plans to use 16 cups of sugar in the recipe. If he still only has enough sugar on hand for 29/14 of a full batch, how many batches can he now prepare with the amount of sugar he has on hand? Calculate this as (16 / (29 / 14)). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var e = 16]]\n[[var f = 29/14]]\n[[var g = e / f]]\n[[question h = ['g']]]",
+      "answer": "224/29",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-19-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((27 / 10) * (9 / 4))]]\n[[question j = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Evaluate the following expression: (27 / 10) * (9 / 4). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (27 / 10) * (9 / 4)]]\n[[question b = ['a']]]",
+      "answer": "243/40",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-19-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((27 / 10) * (9 / 4))]]\n[[var o = ((9 / 13) * s)]]\n[[question i = ['o']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After solving for s in the previous problem, now calculate a new value o, where o = (9 / 13) * s. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var s = (27 / 10) * (9 / 4)]]\n[[var o = (9 / 13) * s]]\n[[question p = ['o']]]",
+      "answer": "2187/520",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-19-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((27 / 10) * (9 / 11))]]\n[[question j = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After having calculated the previous problem where you multiplied (27 / 10) * (9 / 4), consider what would happen if instead of multiplying by (9 / 4), you multiplied by (9 / 11). Calculate the new value of s = ((27 / 10) * (9 / 11)) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var s = ((27 / 10) * (9 / 11))]]\n[[question t = ['s']]]",
+      "answer": "243/110",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-20-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((24 / 11) * (27 / 26))]]\n[[question d = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Evaluate the expression ((24 / 11) * (27 / 26)) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (24 / 11) * (27 / 26)]]\n[[question b = ['a']]]",
+      "answer": "324/143",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-20-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((24 / 11) * (27 / 26))]]\n[[var n = ((14 / 27) * u)]]\n[[question p = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "You've just evaluated the expression ((24 / 11) * (27 / 26)) in the previous question. \n\nNow, go ahead and take the result from that previous operation and multiply it by (14 / 27). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (24 / 11) * (27 / 26)]]\n[[var b = a * (14 / 27)]]\n[[question c = ['b']]]",
+      "answer": "168/143",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-21-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((26 / 9) * (17 / 13))]]\n[[question m = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Find the solution to the following multiplication problem: Multiply the fraction 26/9 by the fraction 17/13. Write your answer in simplest form.",
+      "new symbolic struct": "[[var a = (26/9) * (17/13)]]\n[[question b = ['a']]]",
+      "answer": "34/9",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-21-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((26 / 9) * (17 / 13))]]\n[[var t = ((24 / 30) * d)]]\n[[question b = ['t']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Having solved the previous problem, now multiply your answer by the fraction 24/30. What is the result in simplest form?",
+      "new symbolic struct": "[[var a = (26/9) * (17/13)]]\n[[var c = a * (24/30)]]\n[[question d = ['c']]]",
+      "answer": "136/45",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-21-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((25 / 9) * (17 / 13))]]\n[[question m = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If instead of multiplying the fraction 26/9 by the fraction 17/13, you multiplied 25/9 by 17/13, what would the result be in simplest form?",
+      "new symbolic struct": "[[var c = (25/9) * (17/13)]]\n[[question d = ['c']]]",
+      "answer": "425/117",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-22-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var g = ((28 / 16) / (27 / 24))]]\n[[question m = ['g']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Solve the following problem: What is the result of the expression (28 / 16) / (27 / 24)? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (28 / 16) / (27 / 24)]]\n[[question b = ['a']]]",
+      "answer": "14/9",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-22-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var g = ((28 / 16) / (27 / 24))]]\n[[var j = (g * g)]]\n[[question x = ['j']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After solving for the result of the original expression (28 / 16) / (27 / 24), now multiply this result by itself. What is the outcome? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (28 / 16) / (27 / 24)]]\n[[var c = a * a]]\n[[question d = ['c']]]",
+      "answer": "196/81",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-23-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((15 / 3) * (19 / 26))]]\n[[question b = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the expression ((15 / 3) * (19 / 26)) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (15 / 3) * (19 / 26)]]\n[[question b = ['a']]]",
+      "answer": "95/26",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-23-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((15 / 3) * (19 / 26))]]\n[[var h = ((14 / 24) * s)]]\n[[question o = ['h']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After you calculated ((15 / 3) * (19 / 26)), take that answer and multiply it by the fraction (14 / 24). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (15 / 3) * (19 / 26)]]\n[[var b = a * (14 / 24)]]\n[[question c = ['b']]]",
+      "answer": "665/312",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-23-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((15 / 3) * (27 / 26))]]\n[[question b = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Let's consider a situation where instead of multiplying (15 / 3) by (19 / 26), you are now multiplying it by (27 / 26). What would be the result then? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (15 / 3) * (27 / 26)]]\n[[question d = ['c']]]",
+      "answer": "135/26",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-24-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var x = ((19 / 28) * (30 / 4))]]\n[[question n = ['x']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "The local bakery was making a special order for a customer. The recipe they are using requires 19/28, and they want to make exactly 30/4 of this recipe. How much of the ingredient will they require?",
+      "new symbolic struct": "[[var initial_quantity = 19/28]]\n[[var multiple = 30/4]]\n[[var final_quantity = initial_quantity * multiple]]\n[[question result = ['final_quantity']]]",
+      "answer": "285/56",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-24-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var x = ((19 / 14) * (30 / 4))]]\n[[question n = ['x']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Continuing from the bakery scenario, suppose that the bakery has adjusted their special recipe, and instead of using 19/28, they now use 19/14 of the ingredient for a single cake. If a customer still wants to order 30/4 of this new recipe, how much of the ingredient will the bakery now require for this order?\n",
+      "new symbolic struct": "[[var new_initial_quantity = 19/14]]\n[[var new_multiple = 30/4]]\n[[var new_final_quantity = new_initial_quantity * new_multiple]]\n[[question new_result = ['new_final_quantity']]]",
+      "answer": "285/28",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-25-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var v = ((5 / 2) / (26 / 15))]]\n[[question a = ['v']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Determine the result of ((5 / 2) / (26 / 15)). Write the final answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = ((5 / 2) / (26 / 15))]]\n[[question z = ['x']]]",
+      "answer": "75/52",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-25-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var v = ((5 / 2) / (26 / 15))]]\n[[var m = (v * v)]]\n[[question k = ['m']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After determining the result of ((5 / 2) / (26 / 15)) in the previous problem, take that result and multiply it by itself. What simplified fraction do you get?",
+      "new symbolic struct": "[[var a = ((5 / 2) / (26 / 15))]]\n[[var b = a * a]]\n[[question c = ['b']]]",
+      "answer": "5625/2704",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-25-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var v = (14 / (26 / 15))]]\n[[question a = ['v']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After determining the result of ((5 / 2) / (26 / 15)) in the previous problem, consider a situation where there were initially 14 units instead of 5. What is the result when you divide 14 by (26 / 15)? Write the final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 5 / 2]]\n[[var b = 26 / 15]]\n[[var c = a / b]]\n[[var d = 14]]\n[[var e = d / b]]\n[[question f = ['e']]]",
+      "answer": "105/13",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-26-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var x = ((9 / 3) * (27 / 28))]]\n[[question q = ['x']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the expression (9/3) * (27/28) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (9/3) * (27/28)]]\n[[question y = ['x']]]",
+      "answer": "81/28",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-26-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var x = ((9 / 3) * (27 / 28))]]\n[[var e = (x * x)]]\n[[question g = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After you have calculated the result of the expression (9/3) * (27/28) from the previous problem, calculate the square of your answer. Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (9/3) * (27/28)]]\n[[var b = a * a]]\n[[question c = ['b']]]",
+      "answer": "6561/784",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-26-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var x = ((9 / 3) * (23 / 28))]]\n[[question q = ['x']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, you multiplied the fractions (9/3) * (27/28). Now consider the case where the second fraction has changed from (27/28) to (23/28). How does this change your answer? Recalculate using (9/3) * (23/28) and write your new answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (9/3) * (23/28)]]\n[[question b = ['a']]]",
+      "answer": "69/28",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-27-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var w = ((15 / 13) * (24 / 24))]]\n[[question h = ['w']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the solution to the following equation and write your answer as a simplified fraction: ((15 / 13) * (24 / 24))",
+      "new symbolic struct": "[[var a = ((15 / 13) * (24 / 24))]]\n[[question b = ['a']]]",
+      "answer": "15/13",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-27-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var w = ((15 / 13) * (24 / 24))]]\n[[var t = ((22 / 7) * w)]]\n[[question i = ['t']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the solution to ((15 / 13) * (24 / 24)), multiply your answer with (22 / 7) and write that answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = ((15 / 13) * (24 / 24))]]\n[[var c = a * (22 / 7)]]\n[[question d = ['c']]]",
+      "answer": "330/91",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-27-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var w = ((15 / 2) * (24 / 24))]]\n[[question h = ['w']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the solution to ((15 / 2) * (24 / 24)), consider what would happen if you originally had 15 halves instead of 15 thirteenths. Multiply this new fraction with 1 (represented by (24 / 24)) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = ((15 / 2) * (24 / 24))]]\n[[question b = ['a']]]",
+      "answer": "15/2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-29-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((9 / 7) * (25 / 30))]]\n[[question s = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following multiplication of fractions operation: (9 / 7) * (25 / 30). Express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (9 / 7) * (25 / 30)]]\n[[question b = ['a']]]",
+      "answer": "15/14",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-29-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((9 / 7) * (25 / 30))]]\n[[var d = ((15 / 15) * e)]]\n[[question a = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Using the answer you obtained from the previous problem, multiply it by 15/15. What simplified fraction do you get?",
+      "new symbolic struct": "[[var a = (9 / 7) * (25 / 30)]]\n[[var b = a * (15/15)]]\n[[question c = ['b']]]",
+      "answer": "15/14",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-29-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((9 / 7) * (25 / 21))]]\n[[question s = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "The previous problem involved calculating (9 / 7) * (25 / 30). Now calculate (9 / 7) * (25 / 21) which is similar but with a slight change in the second fraction. What simplified fraction do you get in this scenario?",
+      "new symbolic struct": "[[var c = (9 / 7) * (25 / 21)]]\n[[question d = ['c']]]",
+      "answer": "75/49",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-30-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var q = ((9 / 8) / (20 / 18))]]\n[[question i = ['q']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the problem ((9 / 8) / (20 / 18)). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (9/8) / (20/18)]]\n[[question b = ['a']]]",
+      "answer": "81/80",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-30-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var q = ((9 / 8) / (20 / 18))]]\n[[var r = ((29 / 21) * q)]]\n[[question t = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following the previous question, now calculate the result of multiplying your answer by the fraction (29 / 21). Write your final answer as a simplified fraction. In other words, calculate ((29 / 21) * ((9 / 8) / (20 / 18))).",
+      "new symbolic struct": "[[var a = (9/8) / (20/18)]]\n[[var c = a * (29/21)]]\n[[question d = ['c']]]",
+      "answer": "783/560",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-30-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var q = (9 / (20 / 18))]]\n[[question i = ['q']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous scenario, instead of starting with a fraction of 9/8, let's say we started with a simpler fraction of 9 and divide it by the complex fraction 20/18. What would be the result? In other words, calculate (9 / (20 / 18)). Express your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var p = 9/8]]\n[[var q = 20/18]]\n[[var r = 9 / (20/18)]]\n[[question s = ['r']]]",
+      "answer": "81/10",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-32-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var f = ((30 / 6) / (13 / 9))]]\n[[question h = ['f']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result of performing the operation (30 / 6) / (13 / 9)? Write your answer as a simplified number or fraction.",
+      "new symbolic struct": "[[var a = (30 / 6) / (13 / 9)]]\n[[question b = ['a']]]",
+      "answer": "45/13",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-32-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var f = ((30 / 6) / (13 / 9))]]\n[[var o = ((14 / 4) * f)]]\n[[question u = ['o']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following the result of the previous question, calculate the new result if you multiply the answer you got by (14 / 4). What is your answer now?",
+      "new symbolic struct": "[[var a = (30 / 6) / (13 / 9)]]\n[[var c = a * (14 / 4)]]\n[[question d = ['c']]]",
+      "answer": "315/26",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-33-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var m = ((30 / 18) * (18 / 6))]]\n[[question y = ['m']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If you divide 30 by 18 and then multiply the result by the fraction 18/6, what is the result?",
+      "new symbolic struct": "[[var a = 30 / 18]]\n[[var b = a * (18/6)]]\n[[question c = ['b']]]",
+      "answer": "5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-33-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var m = ((30 / 18) * (18 / 6))]]\n[[var a = (m * (8 / 20))]]\n[[question o = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If you take the result from the previous problem (30 divided by 18, multiplied by 18/6) and multiply this by 8/20, what is the resulting value?",
+      "new symbolic struct": "[[var a = 30 / 18]]\n[[var b = a * (18/6)]]\n[[var d = b * (8/20)]]\n[[question e = ['d']]]",
+      "answer": "2",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-33-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var m = ((30 / 4) * (18 / 6))]]\n[[question y = ['m']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If we adjust the original problem and now divide 30 by 4 and then multiply by the fraction 18/6, how does the result compares to our original calculation? What is the new value?",
+      "new symbolic struct": "[[var d = 30 / 4]]\n[[var e = d * (18/6)]]\n[[question f = ['e']]]",
+      "answer": "45/2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-34-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((20 / 2) * (2 / 18))]]\n[[question s = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following problem: ((20 / 2) * (2 / 18)) and write the answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (20 / 2) * (2 / 18)]]\n[[question b = ['a']]]",
+      "answer": "10/9",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-34-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((20 / 2) * (2 / 18))]]\n[[var u = ((27 / 4) * r)]]\n[[question v = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the result of ((20 / 2) * (2 / 18)), now find the answer for ((27 / 4) * that result). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (20 / 2) * (2 / 18)]]\n[[var b = (27 / 4) * a]]\n[[question c = ['b']]]",
+      "answer": "15/2",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-34-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((20 / 2) * (15 / 18))]]\n[[question s = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the result of ((20 / 2) * (2 / 18)), reconsider your calculation, but this time using (15 / 18) instead of (2 / 18). Thus, find the answer for ((20 / 2) * (15 / 18)). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (20 / 2) * (15 / 18)]]\n[[question d = ['c']]]",
+      "answer": "25/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-35-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = ((11 / 9) * (29 / 6))]]\n[[question o = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Solve the following problem and write your answer as a simplified fraction: ((11 / 9) * (29 / 6))",
+      "new symbolic struct": "[[var s = (11 / 9) * (29 / 6)]]\n[[question t = ['s']]]",
+      "answer": "319/54",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-35-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = ((11 / 9) * (29 / 6))]]\n[[var y = (p * (11 / 5))]]\n[[question n = ['y']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the result of ((11 / 9) * (29 / 6)), multiply your answer by the fraction (11 / 5). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (11 / 9) * (29 / 6)]]\n[[var b = a * (11 / 5)]]\n[[question c = ['b']]]",
+      "answer": "3509/270",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-35-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = ((21 / 9) * (29 / 6))]]\n[[question o = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the result of ((21 / 9) * (29 / 6)), consider what would have happened if the initial calculation involved (21 / 9) instead of (11 / 9). Calculate the new result and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (11 / 9) * (29 / 6)]]\n[[var y = (21 / 9) * (29 / 6)]]\n[[question z = ['y']]]",
+      "answer": "203/18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-36-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var y = ((30 / 7) * (16 / 19))]]\n[[question n = ['y']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result for the following mathematical operation: (30 / 7) * (16 / 19). Express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (30 / 7) * (16 / 19)]]\n[[question y = ['x']]]",
+      "answer": "480/133",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-36-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var y = ((30 / 7) * (16 / 19))]]\n[[var h = (y * (22 / 7))]]\n[[question l = ['h']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Let's proceed with the result found in the previous fraction multiplication task. Now, take that result and multiply it by 22/7. What is the new result? Express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (30 / 7) * (16 / 19)]]\n[[var b = a * (22 / 7)]]\n[[question y = ['b']]]",
+      "answer": "10560/931",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-36-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var y = ((21 / 7) * (16 / 19))]]\n[[question n = ['y']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Recall the earlier problem where we performed a fraction multiplication. If we consider a slight change and now multiply 21/7 (instead of 30/7) with 16/19, what would be the result? Remember to express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 30/7 * 16/19]]\n[[var b = 21/7 * 16/19]]\n[[question c = ['b']]]",
+      "answer": "48/19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-37-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((25 / 22) * (20 / 3))]]\n[[question h = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the product of 25/22 and 20/3 and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var t = 25/22 * 20/3]]\n[[question p = ['t']]]",
+      "answer": "250/33",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-37-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((25 / 22) * (20 / 3))]]\n[[var q = (s * (28 / 29))]]\n[[question c = ['q']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following the previous calculation, take the product result of 25/22 and 20/3. Now multiply that result with 28/29 and write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var t = 25/22 * 20/3]]\n[[var u = t * 28/29]]\n[[question v = ['u']]]",
+      "answer": "7000/957",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-37-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((25 / 15) * (20 / 3))]]\n[[question h = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After reconsidering the calculation from the previous step, if we actually had 25/15 instead of 25/22. Recalculate the product with these new quantities. What is the product of 25/15 and 20/3? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 25/15 * 20/3]]\n[[question b = ['a']]]",
+      "answer": "100/9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-38-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var t = ((29 / 2) / (23 / 19))]]\n[[question l = ['t']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following problem and write your answer as a simplified fraction: ((29 / 2) / (23 / 19))",
+      "new symbolic struct": "[[var a = ((29 / 2) / (23 / 19))]]\n[[question b = ['a']]]",
+      "answer": "551/46",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-38-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var t = ((29 / 2) / (23 / 19))]]\n[[var n = ((29 / 18) * t)]]\n[[question j = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the result of ((29 / 2) / (23 / 19)), multiply your answer by (29 / 18). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = ((29 / 2) / (23 / 19))]]\n[[var c = a * (29 / 18)]]\n[[question d = ['c']]]",
+      "answer": "15979/828",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-39-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((5 / 3) * (27 / 13))]]\n[[question c = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the solution for the following expression: (5 / 3) * (27 / 13) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (5 / 3) * (27 / 13)]]\n[[question y = ['x']]]",
+      "answer": "45/13",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-39-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((5 / 3) * (27 / 13))]]\n[[var d = (i * (8 / 14))]]\n[[question t = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the solution for the previous question ((5 / 3) * (27 / 13)), multiply the result you obtained by (8 / 14) and simplify the fraction that you get. What is your answer?",
+      "new symbolic struct": "[[var x = (5 / 3) * (27 / 13)]]\n[[var y = x * (8 / 14)]]\n[[question z = ['y']]]",
+      "answer": "180/91",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-39-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((5 / 3) * (27 / 9))]]\n[[question c = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After considering the previous problem, there is a slight change. Instead of multiplying (5/3) by (27/13), let's make it a little easy and multiply (5/3) by (27/9). Calculate the new solution and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (5 / 3) * (27 / 13)]]\n[[var a = (5 / 3) * (27 / 9)]]\n[[question b = ['a']]]",
+      "answer": "5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-40-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var w = ((29 / 29) * (1 / 1))]]\n[[question q = ['w']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the answer to the following problem: (29 / 29) * (1 / 1) and write your answer.",
+      "new symbolic struct": "[[var x = (29 / 29) * (1 / 1)]]\n[[question z = ['x']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-40-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var w = ((29 / 29) * (1 / 1))]]\n[[var p = (w * (27 / 27))]]\n[[question a = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Now, use your answer from the last problem and multiply it by (27 / 27) to solve this follow-up problem. What is the result?",
+      "new symbolic struct": "[[var x = (29 / 29) * (1 / 1)]]\n[[var y = x * (27 / 27)]]\n[[question z = ['y']]]",
+      "answer": "1",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-40-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var w = ((29 / 6) * (1 / 1))]]\n[[question q = ['w']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Now, let's change the problem a little bit. Instead of (29 / 29) * (1 / 1), let's use (29 / 6) * (1 / 1). What will the result be?",
+      "new symbolic struct": "[[var y = (29 / 6) * (1 / 1)]]\n[[question z = ['y']]]",
+      "answer": "29/6",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-41-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((11 / 19) * (22 / 7))]]\n[[question j = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the product of the fractions 11/19 and 22/7. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 11/19 * 22/7]]\n[[question b = ['a']]]",
+      "answer": "242/133",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-41-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((11 / 19) * (22 / 7))]]\n[[var l = (a * (25 / 4))]]\n[[question i = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After you find the product of the fractions 11/19 and 22/7, multiply your answer by 25/4. What is the result as a simplified fraction?",
+      "new symbolic struct": "[[var a = 11/19 * 22/7]]\n[[var c = a * 25/4]]\n[[question d = ['c']]]",
+      "answer": "3025/266",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-41-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((11 / 19) * (25 / 7))]]\n[[question j = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After you find the product of the fractions 11/19 and 25/7, suppose that we initially used 25/7 instead of 22/7. How does the result change? Write the new result as a simplified fraction.",
+      "new symbolic struct": "[[var a = 11/19 * 22/7]]\n[[var c = 11/19 * 25/7]]\n[[question d = ['c']]]",
+      "answer": "275/133",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-42-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((21 / 30) * (19 / 5))]]\n[[question a = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result of multiplying 21/30 by 19/5? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = 21/30 * 19/5]]\n[[question y = ['x']]]",
+      "answer": "133/50",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-42-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((21 / 30) * (19 / 5))]]\n[[var g = ((16 / 12) * d)]]\n[[question s = ['g']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If you further multiply the result you got from the last problem ((21/30) * (19/5)) by 16/12, what would be the final result? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 21/30 * 19/5]]\n[[var b = a * 16/12]]\n[[question c = ['b']]]",
+      "answer": "266/75",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-42-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((9 / 30) * (19 / 5))]]\n[[question a = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If in the previous problem, instead of multiplying 21/30 by 19/5, you had to multiply 9/30 by 19/5, what would be the new result? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 9/30 * 19/5]]\n[[question b = ['a']]]",
+      "answer": "57/50",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-43-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var j = ((11 / 15) * (23 / 8))]]\n[[question d = ['j']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result when you multiply the fraction 11/15 by the fraction 23/8? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var r = 11/15 * 23/8]]\n[[question s = ['r']]]",
+      "answer": "253/120",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-43-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var j = ((11 / 15) * (23 / 8))]]\n[[var k = (j * j)]]\n[[question x = ['k']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Based on your previous calculation, what is the result when you multiply the answer you found for 11/15 * 23/8 by itself? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var r = 11/15 * 23/8]]\n[[var t = r * r]]\n[[question u = ['t']]]",
+      "answer": "64009/14400",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-43-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var j = ((11 / 15) * (26 / 8))]]\n[[question d = ['j']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, you multiplied the fractions 11/15 and 23/8. But what if instead, you multiply the fractions 11/15 and 26/8? What would be the result of this change? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var r = 11/15 * 23/8]]\n[[var t = 11/15 * 26/8]]\n[[question s = ['t']]]",
+      "answer": "143/60",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-44-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var c = ((29 / 16) * (21 / 27))]]\n[[question r = ['c']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result of (29 / 16) * (21 / 27)? Present your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (29 / 16) * (21 / 27)]]\n[[question y = ['x']]]",
+      "answer": "203/144",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-44-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var c = ((29 / 16) * (21 / 27))]]\n[[var n = (c * c)]]\n[[question x = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result when the value from the previous problem ((29 / 16) * (21 / 27)) is multiplied by itself? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (29 / 16) * (21 / 27)]]\n[[var b = a * a]]\n[[question c = ['b']]]",
+      "answer": "41209/20736",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-44-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var c = ((29 / 5) * (21 / 27))]]\n[[question r = ['c']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the question before, we considered the multiplication of fractions (29 / 16) and (21 / 27). Now replace the fraction 16 in the denominator with 5. What is the result of this new operation? Present your answer as a simplified fraction. In other words, what is the output of ((29 / 5) * (21 / 27))?",
+      "new symbolic struct": "[[var a = (29 / 5) * (21 / 27)]]\n[[question b = ['a']]]",
+      "answer": "203/45",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-45-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var k = ((28 / 1) / (30 / 27))]]\n[[question q = ['k']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result when (28 / 1) is divided by (30 / 27)? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (28 / 1) / (30 / 27)]]\n[[question b = ['a']]]",
+      "answer": "126/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-45-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var k = ((28 / 1) / (30 / 27))]]\n[[var e = (k * (6 / 19))]]\n[[question v = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the result of (28 / 1) divided by (30 / 27), what is the new result when this is multiplied by (6 / 19)? Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (28 / 1) / (30 / 27)]]\n[[var b = a * (6 / 19)]]\n[[question c = ['b']]]",
+      "answer": "756/95",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-45-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var k = ((28 / 1) / 11)]]\n[[question q = ['k']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Suppose instead of the original calculation, we now have to perform (28 / 1) divided by 11, how would the result change? Write your updated answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (28 / 1) / 11]]\n[[question d = ['c']]]",
+      "answer": "28/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-46-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((25 / 25) * (20 / 7))]]\n[[question o = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result when you multiply ((25 / 25) * (20 / 7))? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (25 / 25) * (20 / 7)]]\n[[question y = ['x']]]",
+      "answer": "20/7",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-46-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((25 / 25) * (20 / 7))]]\n[[var b = (i * i)]]\n[[question f = ['b']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the result of ((25 / 25) * (20 / 7)), what is the result when you multiply this product by itself? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (25 / 25) * (20 / 7)]]\n[[var b = a * a]]\n[[question x = ['b']]]",
+      "answer": "400/49",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-46-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((25 / 25) * (11 / 7))]]\n[[question o = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After reevaluating the previous problem, if you found the result of ((25 / 25) * (11 / 7)) instead of ((25 / 25) * (20 / 7)), what would be the new result? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (25 / 25) * (11 / 7)]]\n[[question b = ['a']]]",
+      "answer": "11/7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-47-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var b = ((5 / 1) * (16 / 27))]]\n[[question w = ['b']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the following: multiply 5 (which is equivalent to the fraction 5/1) with the fraction 16/27. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var p = 5 * 16/27]]\n[[question q = ['p']]]",
+      "answer": "80/27",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-47-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var b = ((30 / 1) * (16 / 27))]]\n[[question w = ['b']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Suppose you initially started with 30 (instead of 5), which is equivalent to the fraction 30/1. You are then required to multiply this with the fraction 16/27. How does this change the result from the previous problem? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var r = 30 * 16/27]]\n[[question s = ['r']]]",
+      "answer": "160/9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-48-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((27 / 3) / (12 / 12))]]\n[[question x = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the expression ((27 / 3) / (12 / 12)) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 27 / 3]]\n[[var b = 12 / 12]]\n[[var c = a / b]]\n[[question d = ['c']]]",
+      "answer": "9",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-48-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((27 / 3) / (12 / 12))]]\n[[var b = ((21 / 17) * s)]]\n[[question j = ['b']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "You previously calculated the result of ((27 / 3) / (12 / 12)) and labeled that answer as 's'. Now, compute the result of multiplying your answer 's' by the fraction (21/17) and report the result as a simplified fraction. This new result will be labeled as 'b'.",
+      "new symbolic struct": "[[var t = 21/17]]\n[[var s = (27 / 3) / (12 / 12)]]\n[[var b = s * t]]\n[[question c = ['b']]]",
+      "answer": "189/17",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-48-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = (24 / (12 / 12))]]\n[[question x = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Earlier, you calculated the result of ((27 / 3) / (12 / 12)) and labeled that answer as 's'. Consider the same scenario, but this time, instead of having 27 items, you only have 24. Calculate the result of (24 / (12 / 12)) and report the answer as a simplified fraction. What effect does this change have on the answer 's'?",
+      "new symbolic struct": "[[var a = 24 / (12 / 12)]]\n[[question b = ['a']]]",
+      "answer": "24",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-49-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((15 / 16) * (29 / 2))]]\n[[question m = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following operation: (15 / 16) * (29 / 2). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (15 / 16) * (29 / 2)]]\n[[question y = ['x']]]",
+      "answer": "435/32",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-49-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((15 / 16) * (29 / 2))]]\n[[var g = ((18 / 18) * u)]]\n[[question k = ['g']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If the result from the previous problem is multiplied by (18/18), what is the new result? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var prev_result = (15 / 16) * (29 / 2)]]\n[[var new_result = prev_result * (18/18)]]\n[[question answer = ['new_result']]]",
+      "answer": "435/32",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-49-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((15 / 16) * (13 / 2))]]\n[[question m = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, instead of multiplying (15/16) by (29/2), what would be the result if we multiply it by (13/2) instead? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (15 / 16) * (13 / 2)]]\n[[question b = ['a']]]",
+      "answer": "195/32",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-50-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((6 / 2) / (13 / 9))]]\n[[question p = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the solution to this mathematical equation: ((6 / 2) / (13 / 9)). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = ((6 / 2) / (13 / 9))]]\n[[question b = ['a']]]",
+      "answer": "27/13",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-50-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((6 / 2) / 3)]]\n[[question p = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following your previous calculation, how would the result change if the first fraction was actually ((6 / 2) / 3) instead of ((6 / 2) / (13 / 9))? Calculate and write your answer as a simplfied fraction.",
+      "new symbolic struct": "[[var d = ((6 / 2) / 3)]]\n[[question e = ['d']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-51-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var m = ((7 / 1) / (15 / 9))]]\n[[question f = ['m']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the answer to the following problem: divide seven wholes, which is the same as 7/1, by 15/9. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 7/1 / (15/9)]]\n[[question b = ['a']]]",
+      "answer": "21/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-51-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var m = ((7 / 1) / (15 / 9))]]\n[[var p = (m * (10 / 5))]]\n[[question a = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following up on the last question, once you have found the result of dividing seven wholes by 15/9, multiply your answer by the fraction 10/5. What do you get as a simplified fraction?",
+      "new symbolic struct": "[[var a = 7/1 / (15/9)]]\n[[var c = a * (10/5)]]\n[[question d = ['c']]]",
+      "answer": "42/5",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-51-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var m = (20 / (15 / 9))]]\n[[question f = ['m']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Previously, you evaluated the result of dividing seven wholes, or 7/1, by 15/9. Now, consider what would happen if instead of seven whole, there were twenty wholes, or 20/1. What would be the result if you divide twenty wholes by 15/9? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = 20/1 / (15/9)]]\n[[question d = ['c']]]",
+      "answer": "12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-52-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var f = ((23 / 10) * (9 / 1))]]\n[[question x = ['f']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result when you multiply (23/10) by (9/1)?",
+      "new symbolic struct": "[[var y = (23/10) * (9/1)]]\n[[question z = ['y']]]",
+      "answer": "207/10",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-52-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var f = ((23 / 10) * (9 / 1))]]\n[[var m = ((1 / 16) * f)]]\n[[question a = ['m']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "You have already calculated the result of (23/10) multiplied by (9/1). Now, multiply this result by (1/16). What is your answer?",
+      "new symbolic struct": "[[var a = (23/10) * (9/1)]]\n[[var b = a * (1/16)]]\n[[question c = ['b']]]",
+      "answer": "207/160",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-52-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var f = ((23 / 10) * (9 / 6))]]\n[[question x = ['f']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Previously, you computed the result of (23/10) multiplied by (9/1). Now, consider what would have happened if instead of (9/1), you had (9/6). Multiply (23/10) by this new fraction. What is your answer?",
+      "new symbolic struct": "[[var a = 23/10]]\n[[var b = 9/1]]\n[[var c = a * b]]\n[[var e = 9/6]]\n[[var f = a * e]]\n[[question g = ['f']]]",
+      "answer": "69/20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-53-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((18 / 4) * (10 / 11))]]\n[[question h = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is ((18 / 4) * (10 / 11))? Write your answer as a simplified fraction.\n",
+      "new symbolic struct": "[[var a = (18 / 4) * (10 / 11)]]\n[[question b = ['a']]]",
+      "answer": "45/11",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-53-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((18 / 4) * (10 / 11))]]\n[[var n = (d * (6 / 4))]]\n[[question u = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the value of ((18 / 4) * (10 / 11)), now multiply this result by the fraction (6 / 4). What is the final value? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (18 / 4) * (10 / 11)]]\n[[var c = a * (6 / 4)]]\n[[question d = ['c']]]",
+      "answer": "135/22",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-53-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((18 / 1) * (10 / 11))]]\n[[question h = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the value of ((18 / 1) * (10 / 11)), consider what would happen if instead of dividing 18 by 4 in the initial step, you were to divide it by 1. Calculate the new result. What is the final answer? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (18 / 1) * (10 / 11)]]\n[[question d = ['c']]]",
+      "answer": "180/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-54-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((24 / 23) * (23 / 3))]]\n[[question m = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the numerical result when the fraction 24/23 is multiplied by the fraction 23/3?",
+      "new symbolic struct": "[[var a = 24/23 * 23/3]]\n[[question x = ['a']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-54-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((24 / 23) * (23 / 3))]]\n[[var u = (r * (30 / 21))]]\n[[question h = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Continuing from the previous problem, if the result is then multiplied by the fraction 30/21, what is the final numerical outcome?",
+      "new symbolic struct": "[[var b = 24/23 * 23/3]]\n[[var c = b * 30/21]]\n[[question d = ['c']]]",
+      "answer": "80/7",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-54-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((24 / 23) * (18 / 3))]]\n[[question m = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Continuing from the previous problem, if we replace the original fraction of 23/3 with 18/3 and keep the 24/23 fraction the same, what now happens to the numerical result when we perform the multiplication?",
+      "new symbolic struct": "[[var a = 24/23]]\n[[var b = 18/3]]\n[[var c = a * b]]\n[[question d = ['c']]]",
+      "answer": "144/23",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-56-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((20 / 13) / (17 / 16))]]\n[[question m = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Determine the solution for the following division of fractions: (20 / 13) / (17 / 16) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (20 / 13) / (17 / 16)]]\n[[question b = ['a']]]",
+      "answer": "320/221",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-56-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((20 / 13) / (17 / 16))]]\n[[var d = (l * (20 / 26))]]\n[[question e = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the solution for the division of fractions (20 / 13) / (17 / 16), now multiply that result by the fraction (20 / 26). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (20 / 13) / (17 / 16)]]\n[[var c = a * (20 / 26)]]\n[[question d = ['c']]]",
+      "answer": "3200/2873",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-57-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var c = ((5 / 5) * (4 / 1))]]\n[[question q = ['c']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following problem: ((5 divided by 5) multiplied by (4 divided by 1))",
+      "new symbolic struct": "[[var x = (5/5) * (4/1)]]\n[[question y = ['x']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-57-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var c = ((5 / 5) * (4 / 1))]]\n[[var n = ((21 / 9) * c)]]\n[[question a = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Given that the result from the previous problem is c, calculate the result of the following formula: ((21 divided by 9) multiplied by c). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (5/5) * (4/1)]]\n[[var d = (21/9) * c]]\n[[question e = ['d']]]",
+      "answer": "28/3",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-57-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var c = ((5 / 15) * (4 / 1))]]\n[[question q = ['c']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Assuming that in the previous problem, the initial amount of oranges was 5 but was changed to 5/15, how would this affect the outcome if it is multiplied by the same fraction (4/1)? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (5/15) * (4/1)]]\n[[question y = ['x']]]",
+      "answer": "4/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-58-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = ((30 / 23) * (19 / 24))]]\n[[question u = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result for the following problem: ((30 / 23) * (19 / 24)). Write the answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (30 / 23) * (19 / 24)]]\n[[question b = ['a']]]",
+      "answer": "95/92",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-58-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = ((30 / 23) * (19 / 24))]]\n[[var a = ((28 / 4) * p)]]\n[[question t = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the previous problem of ((30 / 23) * (19 / 24)) and getting the result, now proceed to multiply this result with (28 / 4). What is your new answer when written as a simplified fraction?",
+      "new symbolic struct": "[[var a = (30 / 23) * (19 / 24)]]\n[[var c = a * (28 / 4)]]\n[[question d = ['c']]]",
+      "answer": "665/92",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-58-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = ((30 / 11) * (19 / 24))]]\n[[question u = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the previous problem and getting a result, let's change the condition. Instead of (30 / 23) which you used last time, now use (30 / 11). Repeat the multiplication with (19 / 24). What is the new result when you write it as a simplified fraction?",
+      "new symbolic struct": "[[var a = (30 / 11) * (19 / 24)]]\n[[question b = ['a']]]",
+      "answer": "95/44",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-59-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var g = ((23 / 26) * (16 / 1))]]\n[[question w = ['g']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Evaluate the expression (23 / 26) * (16 / 1) and express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (23 / 26) * (16 / 1)]]\n[[question b = ['a']]]",
+      "answer": "184/13",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-59-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var g = ((23 / 26) * (16 / 1))]]\n[[var u = ((4 / 7) * g)]]\n[[question f = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Given that you previously calculated (23 / 26) * (16 / 1) as 'g', now find the value of (4 / 7) * g. Express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (23 / 26) * (16 / 1)]]\n[[var g = a]]\n[[var h = (4 / 7) * g]]\n[[question i = ['h']]]",
+      "answer": "736/91",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-59-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var g = ((2 / 26) * (16 / 1))]]\n[[question w = ['g']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, you calculated (23 / 26) * (16 / 1) as 'g'. Now assume that instead of 23/26, you had 2/26. How would that change the value of 'g'? Compute g as (2 / 26) * (16 / 1) and express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var h = (2 / 26) * (16 / 1)]]\n[[question i = ['h']]]",
+      "answer": "16/13",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-60-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var k = ((21 / 1) / (26 / 20))]]\n[[question w = ['k']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Compute the following fractional expression: ((21 / 1) / (26 / 20)), express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = ((21 / 1) / (26 / 20))]]\n[[question y = ['x']]]",
+      "answer": "210/13",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-60-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var k = ((21 / 1) / (26 / 20))]]\n[[var s = (k * (21 / 29))]]\n[[question p = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In continuation to the previous problem, let's assume that the value obtained from the expression ((21 / 1) / (26 / 20)) is multiplied by the fraction (21 / 29). What fraction will the result be?",
+      "new symbolic struct": "[[var a = ((21 / 1) / (26 / 20))]]\n[[var b = a * (21 / 29)]]\n[[question c = ['b']]]",
+      "answer": "4410/377",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-60-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var k = ((21 / 1) / 2)]]\n[[question w = ['k']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Let's revisit the previous problem. Let's assume now that the value obtained from the expression ((21 / 1) / 2). What will the result be now?",
+      "new symbolic struct": "[[var a = ((21 / 1) / 2)]]\n[[question b = ['a']]]",
+      "answer": "21/2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-61-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var m = ((24 / 19) * (21 / 19))]]\n[[question i = ['m']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the following: multiply 24 over 19 by 21 over 19 without simplifying. Write your answer as a fraction.",
+      "new symbolic struct": "[[var r = (24/19) * (21/19)]]\n[[question q = ['r']]]",
+      "answer": "504/361",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-61-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var m = ((20 / 19) * (21 / 19))]]\n[[question i = ['m']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Considering the previous problem, let's make a small change to it. Instead of multiplying 24 over 19, let's multiply 20 over 19 by 21 over 19 but without simplifying. Write your answer as a fraction.",
+      "new symbolic struct": "[[var s = (20/19) * (21/19)]]\n[[question t = ['s']]]",
+      "answer": "420/361",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-62-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((12 / 2) * (17 / 14))]]\n[[question n = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Jim is baking a cake that calls for 12/2 cups of sugar and 17/14 cups of flour. If Jim needs to multiply the amount of sugar and flour he needs for a larger cake, how much sugar and flour does he need in total? Calculate ((12 / 2) * (17 / 14)) and express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var sugar = 12/2]]\n[[var flour = 17/14]]\n[[var total = sugar * flour]]\n[[question t = ['total']]]",
+      "answer": "51/7",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-62-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((12 / 2) * (30 / 14))]]\n[[question n = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Jim realized he made a mistake while measuring components for his cake recipe. He actually needed to use 30/14 cups of flour instead of the 17/14 cups he previously used. Given that the amount of sugar remains the same at 12/2 cups, how much sugar and flour does he actually need? Calculate ((12 / 2) * (30 / 14)) and express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var sugar = 12/2]]\n[[var flour_corrected = 30/14]]\n[[var total_corrected = sugar * flour_corrected]]\n[[question t_corrected = ['total_corrected']]]",
+      "answer": "90/7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-63-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = ((21 / 16) / (27 / 23))]]\n[[question f = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following operation: ((21 / 16) / (27 / 23)) and represent the answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = ((21 / 16) / (27 / 23))]]\n[[question b = ['a']]]",
+      "answer": "161/144",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-63-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = ((21 / 16) / (27 / 23))]]\n[[var n = (p * p)]]\n[[question k = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following the previous problem, if the result obtained from the operation ((21 / 16) / (27 / 23)) was squared, what would be the value of this new operation? Write the result as a simplified fraction.",
+      "new symbolic struct": "[[var a = ((21 / 16) / (27 / 23))]]\n[[var c = a * a]]\n[[question d = ['c']]]",
+      "answer": "25921/20736",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-63-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = (6 / (27 / 23))]]\n[[question f = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Given the previous problem where we multiplied and squared the result of ((21 / 16) / (27 / 23)), let's consider a new scenario. What would be the result if, instead of 21 / 16, we had 6? So, the new calculation would be (6 / (27 / 23)). Write the result as a simplified fraction.",
+      "new symbolic struct": "[[var c = (6 / (27 / 23))]]\n[[question d = ['c']]]",
+      "answer": "46/9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-64-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((11 / 20) * (24 / 12))]]\n[[question z = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the answer to the following problem and write the answer as a simplified fraction: (11 / 20) * (24 / 12)",
+      "new symbolic struct": "[[var a = (11 / 20) * (24 / 12)]]\n[[question b = ['a']]]",
+      "answer": "11/10",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-64-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((11 / 20) * (24 / 12))]]\n[[var e = ((21 / 16) * l)]]\n[[question y = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Continue the previous problem with this next step: Multiply your answer by (21 / 16) and write the result as a simplified fraction.",
+      "new symbolic struct": "[[var a = (11 / 20) * (24 / 12)]]\n[[var c = a * (21 / 16)]]\n[[question d = ['c']]]",
+      "answer": "231/160",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-64-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((11 / 6) * (24 / 12))]]\n[[question z = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, you calculated (11 / 20) * (24 / 12). Now, consider what would happen if you were to calculate (11 / 6) * (24 / 12) instead. What would be the result, expressed as a simplified fraction?",
+      "new symbolic struct": "[[var a = (11 / 20) * (24 / 12)]]\n[[var c = (11 / 6) * (24 / 12)]]\n[[question d = ['c']]]",
+      "answer": "11/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-65-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((6 / 19) * (28 / 2))]]\n[[question l = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the answer to the following problem: ((6 / 19) * (28 / 2)). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var w = (6 / 19) * (28 / 2)]]\n[[question v = ['w']]]",
+      "answer": "84/19",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-65-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((6 / 19) * (28 / 2))]]\n[[var v = ((27 / 17) * i)]]\n[[question n = ['v']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the answer to ((6 / 19) * (28 / 2)), take that result and multiply it by (27 / 17). What is the final answer as a simplified fraction?",
+      "new symbolic struct": "[[var w = (6 / 19) * (28 / 2)]]\n[[var x = w * (27 / 17)]]\n[[question y = ['x']]]",
+      "answer": "2268/323",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-65-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((17 / 19) * (28 / 2))]]\n[[question l = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Previously, you calculated the answer to ((6 / 19) * (28 / 2)). Now, consider if you had originally calculated ((17 / 19) * (28 / 2)) instead of ((6 / 19) * (28 / 2)). What would be the result of this calculation as a simplified fraction?",
+      "new symbolic struct": "[[var p = (17 / 19) * (28 / 2)]]\n[[question q = ['p']]]",
+      "answer": "238/19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-66-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((12 / 14) * (28 / 5))]]\n[[question y = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following operation: (12 / 14) * (28 / 5). Simplify the resulting fraction to its lowest terms.",
+      "new symbolic struct": "[[var a = (12/14) * (28/5)]]\n[[question b = ['a']]]",
+      "answer": "24/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-66-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((12 / 14) * (28 / 5))]]\n[[var d = ((15 / 10) * l)]]\n[[question x = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "You were given a fraction after calculating the result of (12 / 14) * (28 / 5) in a previous problem. Now multiply your result by 15/10. What new fraction do you get? Simplify your answer to the lowest terms.",
+      "new symbolic struct": "[[var a = (12/14) * (28/5)]]\n[[var b = a * (15/10)]]\n[[question c = ['b']]]",
+      "answer": "36/5",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-66-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((3 / 14) * (28 / 5))]]\n[[question y = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, you calculated the result of (12 / 14) * (28 / 5) and then multiplied your result by 15/10. Now consider the situation where instead of 12/14, you have 3/14. What is the result when you multiply 3/14 by 28/5? Simplify your answer to the lowest terms.",
+      "new symbolic struct": "[[var c = (3/14) * (28/5)]]\n[[question d = ['c']]]",
+      "answer": "6/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-67-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var m = ((19 / 3) * (8 / 15))]]\n[[question b = ['m']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following expression: (19 / 3) * (8 / 15). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (19 / 3) * (8 / 15)]]\n[[question y = ['x']]]",
+      "answer": "152/45",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-67-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var m = ((19 / 3) * (8 / 15))]]\n[[var g = (m * (19 / 9))]]\n[[question v = ['g']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After you've calculated the result of (19 / 3) * (8 / 15), multiply your answer by (19 / 9). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (19 / 3) * (8 / 15)]]\n[[var y = x * (19 / 9)]]\n[[question z = ['y']]]",
+      "answer": "2888/405",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-67-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var m = ((19 / 7) * (8 / 15))]]\n[[question b = ['m']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "First, recalculate the previous problem using (19 / 7) instead of (19 / 3). So the new calculation is (19 / 7) * (8 / 15). What is the result? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (19 / 7) * (8 / 15)]]\n[[question b = ['a']]]",
+      "answer": "152/105",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-69-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((15 / 3) * (7 / 25))]]\n[[question s = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following expression: ((15 / 3) * (7 / 25)) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (15 / 3) * (7 / 25)]]\n[[question b = ['a']]]",
+      "answer": "7/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-69-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((15 / 3) * (7 / 25))]]\n[[var x = (d * (28 / 16))]]\n[[question o = ['x']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the result of ((15 / 3) * (7 / 25)), take that result and multiply it by (28 / 16). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (15 / 3) * (7 / 25)]]\n[[var b = a * (28 / 16)]]\n[[question c = ['b']]]",
+      "answer": "49/20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-69-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var d = ((13 / 3) * (7 / 25))]]\n[[question s = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Given the result of the previous problem, let's consider a new scenario. Suppose instead of (15 / 3), we have (13 / 3). Now, multiply (13 / 3) * (7 / 25) and write your answer as a simplified fraction. How does this change in scenario affect the final result?",
+      "new symbolic struct": "[[var c = 15 / 3]]\n[[var d = 7 / 25]]\n[[var e = c * d]]\n[[var f = 13 / 3]]\n[[var g = f * d]]\n[[question h = ['g']]]",
+      "answer": "91/75",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-70-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var x = ((20 / 10) * (10 / 1))]]\n[[question q = ['x']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the following equation: (20 / 10) * (10 / 1) and write your answer as a whole number.",
+      "new symbolic struct": "[[var x = (20 / 10) * (10 / 1)]]\n[[question y = ['x']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-70-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var x = ((20 / 10) * (10 / 1))]]\n[[var z = (x * (19 / 15))]]\n[[question y = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following the previous problem, consider that you got an answer x from calculating (20 / 10) * (10 / 1). Now, evaluate z by multiplying your previous answer x with the fraction (19 / 15). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = (20 / 10) * (10 / 1)]]\n[[var z = x * (19 / 15)]]\n[[question y = ['z']]]",
+      "answer": "76/3",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-71-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var b = ((27 / 18) * (19 / 8))]]\n[[question n = ['b']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the [(27 / 18) * (19 / 8)] and express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (27 / 18) * (19 / 8)]]\n[[question b = ['a']]]",
+      "answer": "57/16",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-71-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var b = ((27 / 18) * (19 / 8))]]\n[[var g = (b * (28 / 16))]]\n[[question q = ['g']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Now, multiplying the result from the previous calculation by the fraction (28 / 16), what do you get? Express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (27 / 18) * (19 / 8)]]\n[[var c = a * (28 / 16)]]\n[[question d = ['c']]]",
+      "answer": "399/64",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-71-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var b = ((27 / 18) * (19 / 17))]]\n[[question n = ['b']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If we change the situation from the previous problem, and instead of the fraction (19 / 8), we now have (19 / 17), what will be the result of the calculation [(27 / 18) * (19 / 17)]? Express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (27 / 18) * (19 / 17)]]\n[[question d = ['c']]]",
+      "answer": "57/34",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-72-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((29 / 5) * (13 / 24))]]\n[[question j = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result of the multiply operation when you multiply the fraction 29/5 by 13/24? Please write your response as a simplified fraction.",
+      "new symbolic struct": "[[var a = (29/5) * (13/24)]]\n[[question b = ['a']]]",
+      "answer": "377/120",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-72-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((29 / 5) * (13 / 24))]]\n[[var n = (l * (25 / 11))]]\n[[question i = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the result of multiplying 29/5 by 13/24, what is the result if you then multiply this answer by 25/11? Please write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (29/5) * (13/24)]]\n[[var d = c * (25/11)]]\n[[question e = ['d']]]",
+      "answer": "1885/264",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-72-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((29 / 8) * (13 / 24))]]\n[[question j = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After recalculating the early problem, suppose we only had 29/8 instead of 29/5. In that case, what would be the result of multiplying the fraction 29/8 by 13/24? Please write your answer in its simplest form.",
+      "new symbolic struct": "[[var a = (29/8) * (13/24)]]\n[[question b = ['a']]]",
+      "answer": "377/192",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-73-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((29 / 17) / (27 / 22))]]\n[[question s = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the value of the expression ((29 / 17) / (27 / 22)). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (29/17) / (27/22)]]\n[[question b = ['a']]]",
+      "answer": "638/459",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-73-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((29 / 17) / (27 / 22))]]\n[[var n = (r * (27 / 2))]]\n[[question y = ['n']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the value of the expression ((29 / 17) / (27 / 22)), now calculate the result of that value when it is multiplied by (27 / 2). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (29/17) / (27/22)]]\n[[var b = a * (27/2)]]\n[[question c = ['b']]]",
+      "answer": "319/17",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-73-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = (4 / (27 / 22))]]\n[[question s = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the value of the expression ((29 / 17) / (27 / 22)), consider how the result would change if instead of 29/17, we had 4/1. Calculate the value of this new expression, 4 / (27 / 22). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (29/17) / (27/22)]]\n[[var b = 4 / (27 / 22)]]\n[[question c = ['b']]]",
+      "answer": "88/27",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-74-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = ((27 / 6) * (25 / 5))]]\n[[question w = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What would be the result of the calculation (27 / 6) * (25 / 5)?",
+      "new symbolic struct": "[[var x = (27/6) * (25/5)]]\n[[question q = ['x']]]",
+      "answer": "45/2",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-74-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = ((27 / 6) * (25 / 5))]]\n[[var y = (p * (20 / 27))]]\n[[question g = ['y']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If the result of (27 / 6) * (25 / 5) was multiplied by (20 / 27), what would be the outcome?",
+      "new symbolic struct": "[[var a = (27/6) * (25/5)]]\n[[var b = a * (20 / 27)]]\n[[question c = ['b']]]",
+      "answer": "50/3",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-74-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var p = ((11 / 6) * (25 / 5))]]\n[[question w = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If instead of the initial calculation with (27 / 6), we used (11 / 6) and repeated the multiplication with (25 / 5), what would the new result be?",
+      "new symbolic struct": "[[var y = (11/6) * (25/5)]]\n[[question z = ['y']]]",
+      "answer": "55/6",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-75-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((13 / 1) * (1 / 6))]]\n[[question v = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate and write your answer as a simplified fraction for the following expression: (13 / 1) * (1 / 6).",
+      "new symbolic struct": "[[var x = (13/1) * (1/6)]]\n[[question y = ['x']]]",
+      "answer": "13/6",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-75-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((13 / 1) * (1 / 6))]]\n[[var g = ((13 / 2) * e)]]\n[[question b = ['g']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the value of the following, given that e = 13/6: (13 / 2) * e. Write your final answer as a simplified fraction. This is a follow-up question to a previous problem.",
+      "new symbolic struct": "[[var e = 13/6]]\n[[var x = (13/2) * e]]\n[[question y = ['x']]]",
+      "answer": "169/12",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-75-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((11 / 1) * (1 / 6))]]\n[[question v = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the value of the following, given the modification to the previous problem: (11 / 1) * (1 / 6). What happens to the result if instead of having 13 of an item as in the previous problem, you only had 11 of it now? Write your new final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (13/1) * (1/6)]]\n[[var b = (11/1) * (1/6)]]\n[[question c = ['b']]]",
+      "answer": "11/6",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-78-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((25 / 20) * (11 / 6))]]\n[[question q = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the product when you multiply 25/20 and 11/6? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var p = 25/20 * 11/6]]\n[[question q = ['p']]]",
+      "answer": "55/24",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-78-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((25 / 20) * (11 / 6))]]\n[[var j = (z * (20 / 26))]]\n[[question r = ['j']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the product of 25/20 and 11/6, now multiply that result by the fraction 20/26. What do you get? Remember to write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var p = 25/20 * 11/6]]\n[[var r = p * 20/26]]\n[[question s = ['r']]]",
+      "answer": "275/156",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-78-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((25 / 17) * (11 / 6))]]\n[[question q = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the product of 25/20 and 11/6 and multiplying that result by 20/26, now consider what would happen if you initially multiplied 25/17 instead of 25/20 by 11/6. What new result do you get? Please write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var p1 = 25/20 * 11/6]]\n[[var p2 = p1 * 20/26]]\n[[var p3 = 25/17 * 11/6]]\n[[question q2 = ['p3']]]",
+      "answer": "275/102",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-79-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var b = ((7 / 2) / (25 / 10))]]\n[[question y = ['b']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Determine the value of (7 / 2) / (25 / 10). Please provide your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (7/2) / (25/10)]]\n[[question b = ['a']]]",
+      "answer": "7/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-79-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var b = ((7 / 2) / (25 / 10))]]\n[[var r = ((5 / 3) * b)]]\n[[question j = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After determining the value of ((7 / 2) / (25 / 10)), now calculate the result when this value is multiplied by (5 / 3). Express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (7/2) / (25/10)]]\n[[var b = a * (5/3)]]\n[[question c = ['b']]]",
+      "answer": "7/3",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-80-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var w = ((15 / 16) * (29 / 27))]]\n[[question t = ['w']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the multiplication of two fractions: Multiply 15/16 by 29/27. Give your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 15/16 * 29/27]]\n[[question b = ['a']]]",
+      "answer": "145/144",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-80-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var w = ((15 / 16) * (29 / 27))]]\n[[var d = (w * (27 / 4))]]\n[[question h = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the multiplication of the fractions 15/16 by 29/27, multiply that answer by the fraction 27/4. What is the result as a simplified fraction?",
+      "new symbolic struct": "[[var a = 15/16 * 29/27]]\n[[var b = a * 27/4]]\n[[question c = ['b']]]",
+      "answer": "435/64",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-80-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var w = ((15 / 10) * (29 / 27))]]\n[[question t = ['w']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, you calculated the multiplication of the fractions 15/16 and 29/27. Now, let's imagine that you initially had a fraction with 15 as the numerator and 10 as the denominator instead of 15/16. How would the result differ if you multiply 15/10 by 29/27? Give your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = 15/10 * 29/27]]\n[[question d = ['c']]]",
+      "answer": "29/18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-81-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((30 / 25) * (25 / 10))]]\n[[question w = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Evaluate the following expression to find the answer: ((30 / 25) * (25 / 10)). Simplify your answer.",
+      "new symbolic struct": "[[var e1 = 30 / 25]]\n[[var e2 = 25 / 10]]\n[[var result = e1 * e2]]\n[[question final_result = ['result']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-81-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((30 / 25) * (25 / 10))]]\n[[var f = (a * (5 / 9))]]\n[[question d = ['f']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the answer to ((30 / 25) * (25 / 10)), multiply your answer by (5 / 9). What is the result? Be sure to simplify your final answer.",
+      "new symbolic struct": "[[var e1 = 30 / 25]]\n[[var e2 = 25 / 10]]\n[[var result = e1 * e2]]\n[[var e3 = 5 / 9]]\n[[var final_result = result * e3]]\n[[question final_answer = ['final_result']]]",
+      "answer": "5/3",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-82-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((27 / 10) * (27 / 3))]]\n[[question p = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the product of the fractions 27/10 and 27/3. Write your answer in simplest form.",
+      "new symbolic struct": "[[var y = (27/10) * (27/3)]]\n[[question z = ['y']]]",
+      "answer": "243/10",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-82-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((27 / 10) * (27 / 3))]]\n[[var y = ((9 / 20) * e)]]\n[[question g = ['y']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "First, calculate the product of the fractions 27/10 and 27/3. Then, multiply the result by 9/20. Write your answer in simplest form.\n",
+      "new symbolic struct": "[[var a = (27/10) * (27/3)]]\n[[var b = a * (9/20)]]\n[[question c = ['b']]]",
+      "answer": "2187/200",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-82-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((27 / 10) * (27 / 21))]]\n[[question p = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "First, calculate the product of the fractions 27/10 and 27/21, instead of 27/3 as we had in the previous question. Write your answer in simplest form.",
+      "new symbolic struct": "[[var a = (27/10) * (27/3)]]\n[[var b = (27/10) * (27/21)]]\n[[question c = ['b']]]",
+      "answer": "243/70",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-83-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var y = ((10 / 8) * (30 / 26))]]\n[[question n = ['y']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following operation: (10 / 8) * (30 / 26). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (10/8) * (30/26)]]\n[[question b = ['a']]]",
+      "answer": "75/52",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-83-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var y = ((10 / 8) * (30 / 26))]]\n[[var j = (y * y)]]\n[[question g = ['j']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the result of the following operation: (10 / 8) * (30 / 26), find the square of your answer by multiplying it with itself. Write the final answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (10/8) * (30/26)]]\n[[var d = c * c]]\n[[question e = ['d']]]",
+      "answer": "5625/2704",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-84-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var o = ((20 / 22) * (14 / 11))]]\n[[question j = ['o']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Evaluate the following expression: ((20 / 22) * (14 / 11)). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var z = (20/22) * (14/11)]]\n[[question r = ['z']]]",
+      "answer": "140/121",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-84-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var o = ((20 / 22) * (14 / 11))]]\n[[var u = ((17 / 3) * o)]]\n[[question z = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After evaluating the expression ((20 / 22) * (14 / 11)), multiply your result by (17/3). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (20 / 22) * (14 / 11)]]\n[[var b = a * (17/3)]]\n[[question c = ['b']]]",
+      "answer": "2380/363",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-84-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var o = ((20 / 22) * (14 / 2))]]\n[[question j = ['o']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Previously, you evaluated ((20 / 22) * (14 / 11)) and multiplied the result by (17/3). Now consider changing the second fraction in the initial multiplication to (14 / 2). Now how does the expression ((20 / 22) * (14 / 2)) differ from the original? Evaluate the new expression and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (20/22) * (14/2)]]\n[[question b = ['a']]]",
+      "answer": "70/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-85-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((25 / 8) * (3 / 4))]]\n[[question x = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Evaluate the following operation: ((25 / 8) * (3 / 4)) and write your answer as a simplified fraction. Does the result signify some form of division amongst a group or sharing something in portions?",
+      "new symbolic struct": "[[var a = ((25 / 8) * (3 / 4))]]\n[[question b = ['a']]]",
+      "answer": "75/32",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-85-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((25 / 8) * (3 / 4))]]\n[[var c = (u * (29 / 23))]]\n[[question l = ['c']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the result of ((25 / 8) * (3 / 4)), now take your answer and multiply it by the fraction (29 / 23). Write this new result as a simplified fraction. What would this additional operation represent in terms of the original division or portion sharing scenario?",
+      "new symbolic struct": "[[var a = ((25 / 8) * (3 / 4))]]\n[[var c = a * (29 / 23)]]\n[[question d = ['c']]]",
+      "answer": "2175/736",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-85-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((25 / 8) * (29 / 4))]]\n[[question x = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After solving the previous problem, now evaluate the new expression ((25 / 8) * (29 / 4)). This means we have changed the second fraction from (3 / 4) to (29 / 4).\n\nUnder the previous scenario where the fractions referred to sharing or dividing amongst a group, consider what would happen if the proportions you multiplied with were changed to this new ratio. \n\nWrite the result of ((25 / 8) * (29 / 4)) as a simplified fraction and reflect on the impact of this change in the real-world scenario.\n",
+      "new symbolic struct": "[[var a = ((25 / 8) * (3 / 4))]]\n[[var c = ((25 / 8) * (29 / 4))]]\n[[question d = ['c']]]",
+      "answer": "725/32",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-86-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((29 / 1) * (8 / 15))]]\n[[question m = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the value of the following expression as a decimal: (29 / 1) * (8 / 15).",
+      "new symbolic struct": "[[var a = (29 / 1) * (8 / 15)]]\n[[question b = ['a']]]",
+      "answer": "232/15",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-86-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((29 / 1) * (8 / 15))]]\n[[var p = ((4 / 7) * u)]]\n[[question v = ['p']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After you have calculated the value of (29 / 1) * (8 / 15), use that result to multiply by 4/7. What is the final decimal result?",
+      "new symbolic struct": "[[var a = (29 / 1) * (8 / 15)]]\n[[var b = a * (4 / 7)]]\n[[question c = ['b']]]",
+      "answer": "928/105",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-86-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((29 / 1) * (11 / 15))]]\n[[question m = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Suppose we change the number of parts in the fraction from the previous question. Instead of (29 / 1) * (8 / 15), suppose we have (29 / 1) * (11 / 15). Again, calculate the value of the new expression as a decimal. What would be the resulting decimal?",
+      "new symbolic struct": "[[var c = (29 / 1) * (11 / 15)]]\n[[question d = ['c']]]",
+      "answer": "319/15",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-87-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((29 / 17) * (26 / 15))]]\n[[question k = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result when you multiply (29/17) by (26/15)?",
+      "new symbolic struct": "[[var t = (29/17) * (26/15)]]\n[[question r = ['t']]]",
+      "answer": "754/255",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-87-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((29 / 17) * (26 / 15))]]\n[[var g = (l * (21 / 9))]]\n[[question u = ['g']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Using the previous result ((29/17) * (26/15)), multiply this answer by (21/9). What is the result when you simplify the final fraction?",
+      "new symbolic struct": "[[var t = (29/17) * (26/15)]]\n[[var u = t * (21/9)]]\n[[question v = ['u']]]",
+      "answer": "5278/765",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-87-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var l = ((15 / 17) * (26 / 15))]]\n[[question k = ['l']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If the original fraction were (15/17) instead of (29/17), what would be the result when you multiply (15/17) by (26/15)?",
+      "new symbolic struct": "[[var s = (15/17) * (26/15)]]\n[[question r_new = ['s']]]",
+      "answer": "26/17",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-88-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var k = ((25 / 5) * (16 / 8))]]\n[[question j = ['k']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the value of the expression ((25 / 5) * (16 / 8)) and provide your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = ((25 / 5) * (16 / 8))]]\n[[question y = ['x']]]",
+      "answer": "10",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-88-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var k = ((25 / 5) * (19 / 8))]]\n[[question j = ['k']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, we used the numbers 25 and 5, and 16 and 8 in our calculations. Now consider a slight change where we keep the '25 and '5', but instead of '16 and 8', we use '19 and 8'. Recalculate the value of k using this new information: ((25 / 5) * (19 / 8)). What is the value of k in this scenario?",
+      "new symbolic struct": "[[var a = 25 / 5]]\n[[var b = 19 / 8]]\n[[var k = a * b]]\n[[question z = ['k']]]",
+      "answer": "95/8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-89-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((23 / 4) * (10 / 12))]]\n[[question b = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the result when you multiply (23 / 4) by (10 / 12)? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (23 / 4) * (10 / 12)]]\n[[question b = ['a']]]",
+      "answer": "115/24",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-89-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var e = ((28 / 4) * (10 / 12))]]\n[[question b = ['e']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What would be the result if you changed the previous problem by multiplying (28 / 4) by (10 / 12) instead of (23 / 4) by (10 / 12)? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (23 / 4) * (10 / 12)]]\n[[var c = (28 / 4) * (10 / 12)]]\n[[question d = ['c']]]",
+      "answer": "35/6",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-90-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((21 / 26) * (20 / 9))]]\n[[question n = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following multiplication of fractions: (21 / 26) * (20 / 9). Write your answer in simplest form.",
+      "new symbolic struct": "[[var a = (21 / 26) * (20 / 9)]]\n[[question b = ['a']]]",
+      "answer": "70/39",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-90-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((21 / 26) * (20 / 9))]]\n[[var o = (z * (15 / 21))]]\n[[question g = ['o']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following multiplication of fractions: (21 / 26) * (20 / 9). Write your answer in simplest form. Then, take that result and multiply it by the fraction (15 / 21). Write the final answer in simplest form.",
+      "new symbolic struct": "[[var a = (21 / 26) * (20 / 9)]]\n[[var b = a * (15 / 21)]]\n[[question c = ['b']]]",
+      "answer": "50/39",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-90-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((21 / 26) * (20 / 4))]]\n[[question n = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Recalculate the previous problem, but this time change the second fraction in the initial multiplication to (20 / 4) instead of (20 / 9). So, your new problem would be to calculate the result of the following multiplication of fractions: (21 / 26) * (20 / 4). Write your answer in simplest form.",
+      "new symbolic struct": "[[var a = (21 / 26) * (20 / 4)]]\n[[question c = ['a']]]",
+      "answer": "105/26",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-91-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var t = ((17 / 13) * (15 / 6))]]\n[[question s = ['t']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the following expression: ((17 / 13) * (15 / 6)). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = ((17 / 13) * (15 / 6))]]\n[[question y = ['x']]]",
+      "answer": "85/26",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-91-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var t = ((17 / 13) * (15 / 6))]]\n[[var b = (t * (8 / 15))]]\n[[question u = ['b']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, you calculated the product of ((17 / 13) * (15 / 6)) and found it as a simplified fraction. Now, use that answer and further multiply it by (8 / 15). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = ((17 / 13) * (15 / 6))]]\n[[var b = a * (8 / 15)]]\n[[question c = ['b']]]",
+      "answer": "68/39",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-93-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((25 / 18) * (17 / 6))]]\n[[question t = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following equation: (25 / 18) * (17 / 6). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (25 / 18) * (17 / 6)]]\n[[question b = ['a']]]",
+      "answer": "425/108",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-93-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((25 / 18) * (17 / 6))]]\n[[var w = (i * (23 / 17))]]\n[[question m = ['w']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the result of the initial problem: (25 / 18) * (17 / 6), proceed to multiply your answer by the fraction (23 / 17). Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (25 / 18) * (17 / 6)]]\n[[var b = a * (23 / 17)]]\n[[question c = ['b']]]",
+      "answer": "575/108",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-93-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var i = ((25 / 18) * (14 / 6))]]\n[[question t = ['i']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After initially calculating the result of the problem: (25 / 18) * (17 / 6), let's consider a change. Assume that instead of 17 portions in the second fraction, you only had 14 portions to begin with. Recalculate the product: (25 / 18) * (14 / 6). Write your updated answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (25 / 18) * (17 / 6)]]\n[[var c = (25 / 18) * (14 / 6)]]\n[[question d = ['c']]]",
+      "answer": "175/54",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-94-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var t = ((9 / 1) * (2 / 17))]]\n[[question z = ['t']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of multiplying 9 (which is a fraction equivalent to 9/1) by 2/17. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = 9 * 2/17]]\n[[question y = ['x']]]",
+      "answer": "18/17",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-94-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var t = ((9 / 1) * (2 / 17))]]\n[[var w = (t * t)]]\n[[question x = ['w']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After solving the earlier problem, you found a result by multiplying the fraction 9/1 by 2/17. Let's denote this result as t. Now, find what happens when you multiply the result with itself (t * t). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var t = 9 * 2/17]]\n[[var u = t * t]]\n[[question v = ['u']]]",
+      "answer": "324/289",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-94-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var t = ((12 / 1) * (2 / 17))]]\n[[question z = ['t']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the earlier problem, you multiplied the fraction 9/1 by 2/17. Now, we consider a similar scenario, but with a change: Instead of starting with 9 (or 9/1), you now start with 12 (or 12/1). Calculate the result of multiplying 12 by the fraction 2/17. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var y = 12 * 2/17]]\n[[question z = ['y']]]",
+      "answer": "24/17",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-95-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((27 / 14) * (19 / 14))]]\n[[question g = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the multiplication: (27 / 14) * (19 / 14). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (27 / 14) * (19 / 14)]]\n[[question b = ['a']]]",
+      "answer": "513/196",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-95-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((27 / 14) * (19 / 14))]]\n[[var t = (z * (17 / 23))]]\n[[question s = ['t']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Having found the value of z from the previous problem ((27 / 14) * (19 / 14)), now multiply your answer by the fraction 17/23. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (27/14) * (19/14)]]\n[[var b = a * (17/23)]]\n[[question c = ['b']]]",
+      "answer": "8721/4508",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-95-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((15 / 14) * (19 / 14))]]\n[[question g = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Previously, you calculated the result of the multiplication (27 / 14) * (19 / 14). Now, what if instead of 27, we had a value of 15? So calculate the new result for the multiplication problem (15 / 14) * (19 / 14). Write your answer as a simplified fraction.\n",
+      "new symbolic struct": "[[var c = (15 / 14) * (19 / 14)]]\n[[question d = ['c']]]",
+      "answer": "285/196",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-96-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((16 / 5) * (5 / 15))]]\n[[question d = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result for the expression: (16 / 5) * (5 / 15) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (16/5) * (5/15)]]\n[[question b = ['a']]]",
+      "answer": "16/15",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-96-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((16 / 5) * (5 / 15))]]\n[[var v = ((30 / 24) * s)]]\n[[question y = ['v']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After finding the solution to the previous problem, which was (16 / 5) * (5 / 15), multiply your answer with the fraction (30 / 24) and again write your result as a simplified fraction.",
+      "new symbolic struct": "[[var a = (16/5) * (5/15)]]\n[[var c = a * (30 / 24)]]\n[[question d = ['c']]]",
+      "answer": "4/3",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-96-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((16 / 5) * (5 / 7))]]\n[[question d = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "The previous problem involved calculating an expression (16 / 5) * (5 / 15). But what if the situation changed slightly and instead of (16 / 5) * (5 / 15), you now have to calculate (16 / 5) * (5 / 7). What would the result be now? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (16/5) * (5/7)]]\n[[question d = ['c']]]",
+      "answer": "16/7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-97-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((8 / 3) * (18 / 21))]]\n[[question w = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following fraction multiplication: (8 / 3) * (18 / 21). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (8 / 3) * (18 / 21)]]\n[[question b = ['a']]]",
+      "answer": "16/7",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-97-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((8 / 3) * (18 / 21))]]\n[[var j = (s * (23 / 20))]]\n[[question p = ['j']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "As a follow-up to the previous problem, suppose the result you obtained from the multiplication (8 / 3) * (18 / 21) is then multiplied by the fraction (23 / 20). Calculate the new result and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (8 / 3) * (18 / 21)]]\n[[var b = a * (23 / 20)]]\n[[question c = ['b']]]",
+      "answer": "92/35",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-97-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((8 / 3) * (11 / 21))]]\n[[question w = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Previously, you calculated the result of the multiplication (8 / 3) * (18 / 21). Now, let's consider a slightly different scenario. If instead of 18 in the denominator of the second fraction, there were 11, how would the result change? Recalculate the multiplication (8 / 3) * (11 / 21). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = (8 / 3) * (11 / 21)]]\n[[question d = ['c']]]",
+      "answer": "88/63",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-98-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((14 / 6) / (22 / 16))]]\n[[question d = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Evaluate the following expression and write the answer as a simplified fraction: ((14 / 6) / (22 / 16))",
+      "new symbolic struct": "[[var y = ((14/6) / (22/16))]]\n[[question z = ['y']]]",
+      "answer": "56/33",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-98-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((14 / 6) / (22 / 16))]]\n[[var h = ((9 / 4) * r)]]\n[[question y = ['h']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Based on the previous problem, you found the value of r by evaluating the fraction ((14 / 6) / (22 / 16)). For this problem, multiply the result you obtained previously by 9/4 and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var r = ((14/6) / (22/16))]]\n[[var y = r * (9/4)]]\n[[question z = ['y']]]",
+      "answer": "42/11",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-98-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = (13 / (22 / 16))]]\n[[question d = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, we evaluated the expression (14 / 6) / (22 / 16). Now, suppose we changed the 14/6 to 13. How would this change the result? Evaluate the new expression, 13 / (22 / 16), and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 13]]\n[[var b = (22 / 16)]]\n[[var c = a / b]]\n[[question d = ['c']]]",
+      "answer": "104/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-99-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((16 / 3) * (25 / 26))]]\n[[question h = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following fraction multiplication: (16 / 3) * (25 / 26)",
+      "new symbolic struct": "[[var x = (16 / 3) * (25 / 26)]]\n[[question z = ['x']]]",
+      "answer": "200/39",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-99-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var s = ((10 / 3) * (25 / 26))]]\n[[question h = ['s']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Given the same situation as the previous problem, imagine that you started with (10 / 3) instead of (16 / 3). Multiply (10 / 3) with (25 / 26). What fraction do you end up with in this situation?",
+      "new symbolic struct": "[[var y = (10 / 3) * (25 / 26)]]\n[[question z = ['y']]]",
+      "answer": "125/39",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-100-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((16 / 16) * (26 / 22))]]\n[[question j = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Solve the following problem, writing the answer as a simplified fraction: (16 / 16) * (26 / 22)",
+      "new symbolic struct": "[[var a = (16 / 16) * (26 / 22)]]\n[[question b = ['a']]]",
+      "answer": "13/11",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-100-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((16 / 16) * (26 / 22))]]\n[[var d = (a * a)]]\n[[question r = ['d']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Now, consider what happens when you square the result of the previous problem. Solve for (a * a), where 'a' is the answer to the previous problem: (16 / 16) * (26 / 22). Write the answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (16 / 16) * (26 / 22)]]\n[[var c = a * a]]\n[[question d = ['c']]]",
+      "answer": "169/121",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-100-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var a = ((16 / 12) * (26 / 22))]]\n[[question j = ['a']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Now, modify the previous problem by changing the numerator of the first fraction. Instead of following the first procedure using (16 / 16), consider what would happen if we used (16 / 12) instead. Solve (16 / 12) * (26 / 22) and write the result as a simplified fraction.",
+      "new symbolic struct": "[[var c = (16 / 12) * (26 / 22)]]\n[[question d = ['c']]]",
+      "answer": "52/33",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-101-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var j = ((17 / 5) * (5 / 14))]]\n[[question e = ['j']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following operation: (17 / 5) * (5 / 14). Write your answer as a simplest form fraction.",
+      "new symbolic struct": "[[var x = (17 / 5) * (5 / 14)]]\n[[question l = ['x']]]",
+      "answer": "17/14",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-101-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var j = ((17 / 5) * (5 / 14))]]\n[[var z = ((21 / 25) * j)]]\n[[question l = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After calculating the result of the previous operation: (17 / 5) * (5 / 14), now take that result and multiply it by the fraction 21 / 25. What is your final answer, written as a simplified fraction?",
+      "new symbolic struct": "[[var x = (17 / 5) * (5 / 14)]]\n[[var y = x * (21 / 25)]]\n[[question z = ['y']]]",
+      "answer": "51/50",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-101-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var j = ((17 / 5) * (5 / 12))]]\n[[question e = ['j']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "After performing the prior operation: (17 / 5) * (5 / 14), consider what would happen if instead of multiplying the value by 5 / 14, we multiplied it by 5 / 12. What would be the result, written as a simplified fraction, in this case?",
+      "new symbolic struct": "[[var a = (17 / 5) * (5 / 14)]]\n[[var b = (17 / 5) * (5 / 12)]]\n[[question z = ['b']]]",
+      "answer": "17/12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-102-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var h = ((16 / 6) * (29 / 27))]]\n[[question q = ['h']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "What is the fraction you get when you multiply (16 / 6) with (29 / 27)? Write your answer in simplest form.",
+      "new symbolic struct": "[[var x = (16 / 6) * (29 / 27)]]\n[[question y = ['x']]]",
+      "answer": "232/81",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-102-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var h = ((16 / 6) * (29 / 10))]]\n[[question q = ['h']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous problem, you multiplied (16 / 6) with (29 / 27). Now, let's consider if the fraction you multiplied by was (29 / 10) instead. What fraction would you get if you multiply (16 / 6) with (29 / 10)? Write your answer in simplest form.",
+      "new symbolic struct": "[[var x = (16 / 6) * (29 / 10)]]\n[[question y = ['x']]]",
+      "answer": "116/15",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-104-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((16 / 10) * (13 / 17))]]\n[[question k = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "If a car consumes 16/10 gallons of petrol every mile and you have to drive a route that is 13/17 of a mile long, how many gallons of petrol will the car have consumed when you finish the drive? Express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var p = 16/10]]\n[[var d = 13/17]]\n[[var c = p * d]]\n[[question x = ['c']]]",
+      "answer": "104/85",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-104-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((16 / 10) * (13 / 7))]]\n[[question k = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In the previous scenario, you drove a route that was 13/17 miles long. This time, suppose that you have to drive a route that is slightly longer, at 13/7 miles long. If your car still consumes 16/10 gallons of petrol every mile, calculate how many gallons of petrol will the car have consumed when you finish this drive? Express your answer as a simplified fraction.\n",
+      "new symbolic struct": "[[var p = 16/10]]\n[[var d_new = 13/7]]\n[[var c_new = p * d_new]]\n[[question x = ['c_new']]]",
+      "answer": "104/35",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-105-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((29 / 10) / (18 / 16))]]\n[[question u = ['z']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the result of the following problem and express your answer as a simplified fraction: (29 / 10) / (18 / 16)",
+      "new symbolic struct": "[[var q = (29 / 10) / (18 / 16)]]\n[[question r = ['q']]]",
+      "answer": "116/45",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-105-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var z = ((29 / 10) / (18 / 16))]]\n[[var v = (z * (8 / 17))]]\n[[question t = ['v']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Suppose you took the result of the previous problem ((29 / 10) / (18 / 16)) and then you further multiplied this result by (8 / 17). Calculate this new result and express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var s = (29 / 10) / (18 / 16)]]\n[[var t = s * (8 / 17)]]\n[[question u = ['t']]]",
+      "answer": "928/765",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-106-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((15 / 12) * (27 / 3))]]\n[[question f = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Jeremy is trying to solve a complex fraction problem. He needs to find out the result of multiplying (15/12) by (27/3). Can you help Jeremy solve this problem? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (15/12) * (27/3)]]\n[[question n = ['a']]]",
+      "answer": "45/4",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-106-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((15 / 12) * (27 / 3))]]\n[[var t = ((22 / 14) * r)]]\n[[question a = ['t']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Following up on Jeremy's previous question, he now faces another complex problem. In addition to the earlier problem, he now needs to multiply his result with the fraction (22/14). Can you help Jeremy solve this problem? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var b = (15/12) * (27/3)]]\n[[var c = b * (22/14)]]\n[[question d = ['c']]]",
+      "answer": "495/28",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-106-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((15 / 12) * (27 / 5))]]\n[[question f = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Jeremy realized he made a mistake in his calculations. Instead of multiplying the fraction (15/12) by (27/3) as previously thought, he actually needs to multiply it by (27/5). What is the resulting simplified fraction, now that Jeremy has corrected his mistake?",
+      "new symbolic struct": "[[var a_correction = (15/12) * (27/5)]]\n[[question n_correction = ['a_correction']]]",
+      "answer": "27/4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-107-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((7 / 7) * (12 / 12))]]\n[[question v = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Calculate the answer to the following math problem: (7 / 7) * (12 / 12)",
+      "new symbolic struct": "[[var a = (7/7) * (12/12)]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-107-1",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((7 / 7) * (12 / 12))]]\n[[var o = (u * (27 / 15))]]\n[[question t = ['o']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Given your previous answer, now multiply it by the fraction 27/15. What is the resulting value when simplified?",
+      "new symbolic struct": "[[var a = (7/7) * (12/12)]]\n[[var c = a * (27/15)]]\n[[question d = ['c']]]",
+      "answer": "9/5",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.2-107-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var u = ((7 / 7) * (16 / 12))]]\n[[question v = ['u']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "In your previous calculation where you multiplied (7 / 7) * (12 / 12), what if instead of 12 in the denominator of the second fraction you have 16? What would be the result of the expression (7 / 7) * (16 / 12)?",
+      "new symbolic struct": "[[var a = (7 / 7) * (16 / 12)]]\n[[question b = ['a']]]",
+      "answer": "4/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.2-108-0",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((28 / 6) * (16 / 24))]]\n[[question a = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Find the result of ((28 / 6) * (16 / 24)). Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 28 / 6]]\n[[var b = 16 / 24]]\n[[var c = a * b]]\n[[question d = ['c']]]",
+      "answer": "28/9",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.2-108-2",
+      "standard": "7.NS.A.2",
+      "symbolic-struct": "[[var r = ((22 / 6) * (16 / 24))]]\n[[question a = ['r']]]\nmath concept: Write a question about multiplying and dividing fractions",
+      "statement": "Suppose you reevaluate the previous problem but use 22 instead of 28 when you perform the multiplication ((22 / 6) * (16 / 24)). What would be the result this time? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 22 / 6]]\n[[var b = 16 / 24]]\n[[var c = a * b]]\n[[question d = ['c']]]",
+      "answer": "22/9",
+      "tag": "modified information follow up"
+    }
+  ]
+]

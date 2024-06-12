@@ -1,0 +1,1102 @@
+[
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-0-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 324 = ((2 * 83) + (2 * y))]]\n[[question f = ['y']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a rectangular swimming pool is 324 meters. The length of the pool is 83 meters. What is the width of the pool?",
+      "new symbolic struct": "[[var 324 = 2 * 83 + 2 * w]]\n[[question s = ['w']]]",
+      "answer": "79",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-1-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 40 = (4 * b)]]\n[[question u = ['b']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 40m. What is the length of each side?",
+      "new symbolic struct": "[[var 40 = 4 * side_length]]\n[[question answer = ['side_length']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-2-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 344 = (4 * s)]]\n[[question l = ['s']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 344m. What is the length of each side of the square?",
+      "new symbolic struct": "[[var 344 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "86",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-3-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 348 = (4 * x)]]\n[[question p = ['x']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 348m. What would be the length of each side of the square?",
+      "new symbolic struct": "[[var 348 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "87",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-4-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 194 = ((2 * a) + (2 * 49))]]\n[[question s = ['a']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a perimeter of 194 cm. The length of one of its sides is 49 cm. Can you determine the length of its other side?",
+      "new symbolic struct": "[[var 194 = 2 * 49 + 2 * b]]\n[[question q = ['b']]]",
+      "answer": "48",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-6-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 192 = (4 * t)]]\n[[question j = ['t']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 192m. What is the length of one side?",
+      "new symbolic struct": "[[var 192 = 4 * a]]\n[[question b = ['a']]]",
+      "answer": "48",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-7-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 68 = (4 * r)]]\n[[question v = ['r']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 68cm. What is the length of one side?",
+      "new symbolic struct": "[[var 68 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "17",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-8-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 52 = ((2 * x) + (2 * 4))]]\n[[question h = ['x']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a perimeter of 52 meters. If one of the sides measures 4 meters, how long is the other side?",
+      "new symbolic struct": "[[var 52 = 2 * x + 2 * 4]]\n[[question y = ['x']]]",
+      "answer": "22",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-9-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 229 = ((93 + 98) + (36 + h))]]\n[[question m = ['h']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 229m. Two sides of the quadrilateral have lengths of 93m and 98m respectively. The third side of the quadrilateral is 36m long. What is the length of the fourth side?",
+      "new symbolic struct": "[[var 229 = 93 + 98 + 36 + x]]\n[[question t = ['x']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-11-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 16 = (4 * h)]]\n[[question m = ['h']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a square is 16m. What is the length of each side of this square?",
+      "new symbolic struct": "[[var 16 = 4 * a]]\n[[question s = ['a']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-12-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 272 = (4 * a)]]\n[[question b = ['a']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 272m. What is the length of each side of the square?",
+      "new symbolic struct": "[[var 272 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "68",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-13-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 244 = (4 * x)]]\n[[question r = ['x']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 244m. What is the length of each side of the square?",
+      "new symbolic struct": "[[var 244 = 4 * a]]\n[[question y = ['a']]]",
+      "answer": "61",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-14-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 227 = ((70 + 29) + (61 + k))]]\n[[question q = ['k']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 227m. The lengths of three of its sides are 70m, 29m, and 61m. What is the length of the fourth side of the quadrilateral?",
+      "new symbolic struct": "[[var 227 = 70 + 29 + 61 + x]]\n[[question t = ['x']]]",
+      "answer": "67",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-16-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 280 = (4 * h)]]\n[[question e = ['h']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 280m. What is the length of the side of that square?",
+      "new symbolic struct": "[[var 280 = 4 * x]]\n[[question s = ['x']]]",
+      "answer": "70",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-17-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 219 = ((37 + e) + (98 + 41))]]\n[[question r = ['e']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 219cm. Two of its sides have lengths of 37cm and 98cm, and a third side is known to be 41cm. How long is the fourth side?",
+      "new symbolic struct": "[[var 219 = 37 + 98 + 41 + x]]\n[[question t = ['x']]]",
+      "answer": "43",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-19-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 44 = (4 * o)]]\n[[question m = ['o']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 44m. Can you calculate the length of one side?",
+      "new symbolic struct": "[[var 44 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-20-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 282 = ((2 * 71) + (2 * f))]]\n[[question u = ['f']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular garden has a perimeter of 282 meters. The longer side measures 71 meters. What is the length of the shorter side?",
+      "new symbolic struct": "[[var 282 = 2 * a + 2 * 71]]\n[[question h = ['a']]]",
+      "answer": "70",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-21-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 128 = ((2 * p) + (2 * 57))]]\n[[question y = ['p']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular garden has a total perimeter of 128 meters. If the shorter side of the garden has a length of 57 meters, how long is the other side?",
+      "new symbolic struct": "[[var 128 = 2 * a + 2 * 57]]\n[[question b = ['a']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-22-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 392 = (4 * v)]]\n[[question s = ['v']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 392m. What is the length of each side of the square?",
+      "new symbolic struct": "[[var 392 = 4 * a]]\n[[question t = ['a']]]",
+      "answer": "98",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-23-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 204 = ((2 * 16) + (2 * i))]]\n[[question v = ['i']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a perimeter of 204m. If one of its sides has a length of 16m, what is the length of the other side?",
+      "new symbolic struct": "[[var 204 = 2 * a + 2 * 16]]\n[[question h = ['a']]]",
+      "answer": "86",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-24-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 336 = (4 * m)]]\n[[question q = ['m']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 336cm. What is the length of one of its sides?",
+      "new symbolic struct": "[[var 336 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "84",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-25-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 144 = (4 * b)]]\n[[question m = ['b']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 144 meters. What is the length of one side of the square?",
+      "new symbolic struct": "[[var 144 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "36",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-26-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 236 = ((69 + l) + (50 + 39))]]\n[[question e = ['l']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 236 cm. Two of its sides measure 69 cm and 50 cm respectively, and a third side measures 39 cm. What is the length of the fourth side?",
+      "new symbolic struct": "[[var 236 = 69 + 50 + 39 + x]]\n[[question u = ['x']]]",
+      "answer": "78",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-27-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 193 = ((37 + 14) + (73 + t))]]\n[[question j = ['t']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 193cm. Two of its sides measure 37cm and 14cm, while the other two sides measure 73cm and an unknown length. What is the length of the side of the quadrilateral that is unknown?",
+      "new symbolic struct": "[[var 193 = 37 + 14 + 73 + x]]\n[[question t = ['x']]]",
+      "answer": "69",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-28-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 160 = (4 * r)]]\n[[question u = ['r']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 160m. What is the length of one of its sides?",
+      "new symbolic struct": "[[var 160 = 4 * a]]\n[[question t = ['a']]]",
+      "answer": "40",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-29-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 228 = ((2 * 90) + (2 * g))]]\n[[question a = ['g']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a perimeter of 228 meters. The length of the rectangle is 90 meters. What is the width of the rectangle?",
+      "new symbolic struct": "[[var 228 = 2 * 90 + 2 * w]]\n[[question t = ['w']]]",
+      "answer": "24",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-30-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 136 = (4 * k)]]\n[[question q = ['k']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a square field is 136 meters. Given that all sides are equal in a square, What is the length of one side of the field?",
+      "new symbolic struct": "[[var a = 136 / 4]]\n[[question h = ['a']]]",
+      "answer": "34",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-31-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 236 = ((2 * r) + (2 * 43))]]\n[[question g = ['r']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a total perimeter of 236 meters. If one side of the rectangle is 43 meters, can you determine the length of the opposite side?",
+      "new symbolic struct": "[[var 236 = 2 * 43 + 2 * y]]\n[[question u = ['y']]]",
+      "answer": "75",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-32-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 206 = ((f + 58) + (54 + 1))]]\n[[question m = ['f']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 206m. Two of its sides together have a length of 58m, and the other two sides together have a length of 54m and 1m, respectively. What is the length of the missing portion of the perimeter?",
+      "new symbolic struct": "[[var 206 = 58 + 54 + 1 + x]]\n[[question t = ['x']]]",
+      "answer": "93",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-33-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 284 = (4 * l)]]\n[[question f = ['l']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square field has a total perimeter of 284 meters. How long is each side of the square field?",
+      "new symbolic struct": "[[var 284 = 4 * s]]\n[[question l = ['s']]]",
+      "answer": "71",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-34-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 150 = ((2 * 69) + (2 * z))]]\n[[question j = ['z']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a perimeter of 150 feet. If the length of the rectangle is 69 feet, what is the width of the rectangle?",
+      "new symbolic struct": "[[var 150 = 2 * a + 2 * 69]]\n[[question w = ['a']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-35-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 166 = ((2 * m) + (2 * 35))]]\n[[question k = ['m']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a rectangle is 166m. If one of the sides measures 35m, how long is the other side?",
+      "new symbolic struct": "[[var 166 = 2 * a + 2 * 35]]\n[[question b = ['a']]]",
+      "answer": "48",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-36-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 124 = (4 * z)]]\n[[question a = ['z']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 124m. What is the length of each side?",
+      "new symbolic struct": "[[var 124 = 4 * s]]\n[[question t = ['s']]]",
+      "answer": "31",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-37-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 336 = ((2 * x) + (2 * 79))]]\n[[question g = ['x']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular field has a perimeter of 336 feet. The length of one of its sides is 79 feet. What is the length of the opposite side?",
+      "new symbolic struct": "[[var 336 = 2 * a + 2 * 79]]\n[[question h = ['a']]]",
+      "answer": "89",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-38-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 132 = (4 * t)]]\n[[question r = ['t']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square plot of land has a perimeter of 132 meters. What is the length of one side of the square?",
+      "new symbolic struct": "[[var 132 = 4 * a]]\n[[question t = ['a']]]",
+      "answer": "33",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-39-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 138 = ((2 * q) + (2 * 46))]]\n[[question h = ['q']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a perimeter of 138 feet. If the length of the rectangle is 46 feet, what is the width of the rectangle?",
+      "new symbolic struct": "[[var 138 = 2 * 46 + 2 * w]]\n[[question h = ['w']]]",
+      "answer": "23",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-40-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 200 = ((2 * 49) + (2 * f))]]\n[[question z = ['f']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular field has a total perimeter of 200 meters. The length of the field is known to be 49 meters. What is the width of the field in meters?",
+      "new symbolic struct": "[[var 200 = 2 * 49 + 2 * w]]\n[[question t = ['w']]]",
+      "answer": "51",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-41-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 200 = (4 * u)]]\n[[question k = ['u']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 200m. What is the length of each side?",
+      "new symbolic struct": "[[var 200 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "50",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-42-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 199 = ((9 + 30) + (71 + z))]]\n[[question i = ['z']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 199m. The length of one side is 9m, the length of the second side is 30m, and the length of the third side is 71m. What is the length of the fourth side?",
+      "new symbolic struct": "[[var 199 = 9 + 30 + 71 + a]]\n[[question x = ['a']]]",
+      "answer": "89",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-43-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 207 = ((35 + y) + (62 + 70))]]\n[[question p = ['y']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 207m. The lengths of three of its sides are 35m, 62m and 70m respectively. What is the length of the fourth side?",
+      "new symbolic struct": "[[var 207 = 35 + 62 + 70 + x]]\n[[question y = ['x']]]",
+      "answer": "40",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-44-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 384 = ((2 * u) + (2 * 99))]]\n[[question q = ['u']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a perimeter of 384cm. If one of the shorter sides of the rectangle is measured to be 99cm, what would be the length of the longer sides of the rectangle?",
+      "new symbolic struct": "[[var 384 = 2 * 99 + 2 * x]]\n[[question t = ['x']]]",
+      "answer": "93",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-45-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 255 = ((78 + 15) + (63 + g))]]\n[[question t = ['g']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral shape has a perimeter of 255 m. The first and the second sides have lengths of 78m and 15m respectively, while the third side has a length of 63m. What is the length of the fourth side?",
+      "new symbolic struct": "[[var 255 = 78 + 15 + 63 + x]]\n[[question t = ['x']]]",
+      "answer": "99",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-46-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 128 = (4 * z)]]\n[[question g = ['z']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 128m. What is the length of one of its sides?",
+      "new symbolic struct": "[[var 128 = 4 * a]]\n[[question t = ['a']]]",
+      "answer": "32",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-47-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 96 = ((2 * 33) + (2 * s))]]\n[[question q = ['s']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "Imagine a rectangle with a perimeter of 96 feet. You know that one pair of opposite sides are each 33 feet long. Can you find the length of the other pair of opposite sides?",
+      "new symbolic struct": "[[var 96 = 2 * a + 2 * 33]]\n[[question h = ['a']]]",
+      "answer": "15",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-48-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 112 = (4 * c)]]\n[[question f = ['c']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a square field is 112 meters. What is the length of each side?",
+      "new symbolic struct": "[[var 112 = 4 * a]]\n[[question b = ['a']]]",
+      "answer": "28",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-49-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 32 = (4 * w)]]\n[[question o = ['w']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a square is 32 cm. Can you find the length of one of its sides?",
+      "new symbolic struct": "[[var 32 = 4 * x]]\n[[question s = ['x']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-50-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 364 = (4 * x)]]\n[[question g = ['x']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 364m. What is the length of each side of the square?",
+      "new symbolic struct": "[[var 364 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "91",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-51-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 144 = ((2 * u) + (2 * 38))]]\n[[question l = ['u']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The total perimeter of a rectangle is found to be 144 feet. The length of one side is known to be 38 feet. What is the length of the other side of the rectangle in feet?",
+      "new symbolic struct": "[[var 144 = 2 * 38 + 2 * a]]\n[[question h = ['a']]]",
+      "answer": "34",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-52-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 205 = ((54 + z) + (22 + 37))]]\n[[question w = ['z']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 205m. Two of its sides add up to 54m and the other two sides add up to 22m and 37m respectively. What is the length of the remaining side to complete the perimeter?",
+      "new symbolic struct": "[[var 205 = 54 + 22 + 37 + x]]\n[[question t = ['x']]]",
+      "answer": "92",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-53-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 174 = ((2 * 65) + (2 * y))]]\n[[question q = ['y']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a rectangular field is 174m. If the length of the field is 65m, what is the width of the field?",
+      "new symbolic struct": "[[var 174 = 2 * 65 + 2 * w]]\n[[question t = ['w']]]",
+      "answer": "22",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-55-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 176 = ((25 + 89) + (17 + n))]]\n[[question p = ['n']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 176 cm. The lengths of three sides are 25 cm, 17 cm and 89 cm respectively. What is the length of the fourth side?",
+      "new symbolic struct": "[[var 176 = 25 + 17 + 89 + x]]\n[[question t = ['x']]]",
+      "answer": "45",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-56-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 372 = (4 * y)]]\n[[question e = ['y']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 372 meters. What is the length of each side?",
+      "new symbolic struct": "[[var 372 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "93",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-58-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 240 = (4 * m)]]\n[[question g = ['m']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square field has a perimeter of 240 meters. Can you find out the length of one side of the field?",
+      "new symbolic struct": "[[var 240 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "60",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-60-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 242 = ((2 * y) + (2 * 97))]]\n[[question b = ['y']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a rectangle is 242 meters. Knowing that one of the sides of this rectangle is 97 meters, can you determine the length of the other side?",
+      "new symbolic struct": "[[var 242 = 2 * a + 2 * 97]]\n[[question h = ['a']]]",
+      "answer": "24",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-61-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 316 = (4 * f)]]\n[[question r = ['f']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "Tom has constructed a square with a total perimeter of 316 meters. Can you determine the length of each side of this square?",
+      "new symbolic struct": "[[var 316 = 4*a]]\n[[question h = ['a']]]",
+      "answer": "79",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-62-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 268 = (4 * b)]]\n[[question i = ['b']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 268cm. What is the length of each side of the square?\n",
+      "new symbolic struct": "[[var 268 = 4 * a]]\n[[question b = ['a']]]",
+      "answer": "67",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-63-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 348 = (4 * j)]]\n[[question g = ['j']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 348m. What is the length of each side of the square?",
+      "new symbolic struct": "[[var 348 = 4 * a]]\n[[question m = ['a']]]",
+      "answer": "87",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-64-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 400 = (4 * x)]]\n[[question h = ['x']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 400m. What is the length of one of its sides?",
+      "new symbolic struct": "[[var 400 = 4 * a]]\n[[question w = ['a']]]",
+      "answer": "100",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-65-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 243 = ((81 + 100) + (19 + t))]]\n[[question m = ['t']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has sides with lengths of 81m, 100m, and 19m. If its perimeter is 243m, what is the length of the fourth side?",
+      "new symbolic struct": "[[var 243 = 81 + 100 + 19 + x]]\n[[question q = ['x']]]",
+      "answer": "43",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-66-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 186 = ((2 * 50) + (2 * a))]]\n[[question q = ['a']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a perimeter of 186cm. If one of its sides is 50cm long, how long is the other side?",
+      "new symbolic struct": "[[var 186 = 2 * a + 2 * 50]]\n[[question h = ['a']]]",
+      "answer": "43",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-67-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 224 = ((2 * 78) + (2 * l))]]\n[[question j = ['l']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a perimeter of 224 cm. If the length of one of its sides is 78 cm, what is the length of the adjacent side?",
+      "new symbolic struct": "[[var 224 = 2 * 78 + 2 * a]]\n[[question h = ['a']]]",
+      "answer": "34",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-68-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 235 = ((79 + r) + (97 + 51))]]\n[[question d = ['r']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has two sides measuring 79m and 97m. Another side measures 51m. The total perimeter of the quadrilateral is 235m. What is the length of the fourth side?",
+      "new symbolic struct": "[[var 235 = 79 + 97 + 51 + x]]\n[[question t = ['x']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-69-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 28 = (4 * a)]]\n[[question q = ['a']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 28m. Can you calculate the length of one side of this square?",
+      "new symbolic struct": "[[var 28 = 4 * l]]\n[[question t = ['l']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-72-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 48 = (4 * f)]]\n[[question o = ['f']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 48cm. What is the length of each side?",
+      "new symbolic struct": "[[var 48 = 4 * a]]\n[[question s = ['a']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-73-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 184 = (4 * c)]]\n[[question n = ['c']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square plot of land has a perimeter of 184 meters. Can you find the length of one side of the plot?",
+      "new symbolic struct": "[[var 184 = 4 * a]]\n[[question t = ['a']]]",
+      "answer": "46",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-74-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 56 = (4 * x)]]\n[[question z = ['x']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 56 meters. What is the length of each side?",
+      "new symbolic struct": "[[var 56 = 4 * a]]\n[[question t = ['a']]]",
+      "answer": "14",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-75-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 157 = ((k + 97) + (5 + 30))]]\n[[question c = ['k']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 157m. If one of its sides is 97m long, and the other two sides are 5m and 30m, respectively, what is the length of the fourth side to complete the perimeter?",
+      "new symbolic struct": "[[var 157 = 97 + 5 + 30 + x]]\n[[question t = ['x']]]",
+      "answer": "25",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-76-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 173 = ((46 + c) + (50 + 35))]]\n[[question g = ['c']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 173m. The length of the first side is 46m, second side is 50m and third side is 35m. What is the length of the fourth side?",
+      "new symbolic struct": "[[var 173 = 46 + 50 + 35 + x]]\n[[question t = ['x']]]",
+      "answer": "42",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-78-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 72 = (4 * o)]]\n[[question q = ['o']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 72 cm. What is the length of one of its sides?",
+      "new symbolic struct": "[[var 72 = 4 * a]]\n[[question n = ['a']]]",
+      "answer": "18",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-80-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 352 = (4 * r)]]\n[[question v = ['r']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 352m. What is the length of each side of the square?",
+      "new symbolic struct": "[[var 352 = 4 * a]]\n[[question s = ['a']]]",
+      "answer": "88",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-81-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 116 = ((2 * v) + (2 * 23))]]\n[[question n = ['v']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has 23m for its length and has a total perimeter of 116m. What is the length of its width?",
+      "new symbolic struct": "[[var 116 = 2 * 23 + 2 * w]]\n[[question h = ['w']]]",
+      "answer": "35",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-82-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 124 = (4 * c)]]\n[[question y = ['c']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 124m. What is the length of each side?",
+      "new symbolic struct": "[[var 124 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "31",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-83-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 131 = ((24 + 57) + (17 + t))]]\n[[question i = ['t']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a total perimeter of 131m. Three of its sides have lengths 24m, 57m, and 17m respectively. What is the length of the fourth side?",
+      "new symbolic struct": "[[var 131 = 24 + 57 + 17 + x]]\n[[question x = ['x']]]",
+      "answer": "33",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-84-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 254 = ((2 * z) + (2 * 89))]]\n[[question k = ['z']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a perimeter of 254m. One of its sides has a length of 89m. What is the length of the other side?",
+      "new symbolic struct": "[[var 254 = 2 * b + 2 * 89]]\n[[question h = ['b']]]",
+      "answer": "38",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-85-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 208 = (4 * c)]]\n[[question s = ['c']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 208m. What is the length of each side?",
+      "new symbolic struct": "[[var 208 = 4 * x]]\n[[question t = ['x']]]",
+      "answer": "52",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-86-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 64 = (4 * a)]]\n[[question w = ['a']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 64m. What is the length of each side of the square?",
+      "new symbolic struct": "[[var 64 = 4 * a ]]\n[[question h = ['a']]]",
+      "answer": "16",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-87-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 196 = ((92 + y) + (29 + 62))]]\n[[question t = ['y']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a total perimeter of 196 meters. The lengths of three of its sides combined is 183 meters (with one side being 92 meters and the other two sides being 29 and 62 meters respectively). Can you figure out the length of the fourth side?",
+      "new symbolic struct": "[[var 183 = 92 + 29 + 62]]\n[[var 196 = 183 + y]]\n[[question t = ['y']]]",
+      "answer": "13",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-88-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 191 = ((u + 35) + (76 + 5))]]\n[[question c = ['u']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a quadrilateral is 191 units. If one side is 35 units in length, another side is 76 units, and the third side is 5 units, what is the length of the fourth side in units?",
+      "new symbolic struct": "[[var 191 = 35 + 76 + 5 + x]]\n[[question t = ['x']]]",
+      "answer": "75",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-89-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 104 = (4 * v)]]\n[[question t = ['v']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 104m. What is the length of each side?",
+      "new symbolic struct": "[[var 104 = 4 * s]]\n[[question h = ['s']]]",
+      "answer": "26",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-90-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 198 = ((2 * 90) + (2 * c))]]\n[[question n = ['c']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a rectangle is 198 cm. If the length of this rectangle is 90 cm, what is the width?",
+      "new symbolic struct": "[[var 198 = 2 * 90 + 2 * w]]\n[[question t = ['w']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-93-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 128 = ((2 * u) + (2 * 47))]]\n[[question a = ['u']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "Jack is designing a rectangular garden with a total perimeter of 128 feet. He has already planned for one pair of opposite sides to be 47 feet each. What should be the length of the remaining two opposite sides?",
+      "new symbolic struct": "[[var 128 = 2*47 + 2*x]]\n[[question t = ['x']]]",
+      "answer": "17",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-94-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 356 = (4 * n)]]\n[[question m = ['n']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 356m. What is the length of one of its sides?",
+      "new symbolic struct": "[[var a = 356 / 4]]\n[[question b = ['a']]]",
+      "answer": "89",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-95-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 236 = ((89 + 1) + (87 + q))]]\n[[question n = ['q']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 236 units. Two sides of the quadrilateral measure 89 units and 87 units respectively, while the third side is 1 unit long. What is the length of the fourth side?",
+      "new symbolic struct": "[[var 236 = 89 + 87 + 1 + x]]\n[[question t = ['x']]]",
+      "answer": "59",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-96-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 340 = (4 * f)]]\n[[question z = ['f']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 340 meters. What is the length of each side of this square?",
+      "new symbolic struct": "[[var 340 = 4 * a]]\n[[question t = ['a']]]",
+      "answer": "85",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-97-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 16 = (4 * f)]]\n[[question p = ['f']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 16m. What is the length of each side?",
+      "new symbolic struct": "[[var 16 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-98-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 81 = ((1 + 54) + (9 + i))]]\n[[question x = ['i']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has four sides. The length of the first side is 1m, the second side is 54m, and the third side is 9m. The total perimeter of this quadrilateral is 81m. What would be the length of the fourth side in meters?",
+      "new symbolic struct": "[[var 81 = 1 + 54 + 9 + x]]\n[[question t = ['x']]]",
+      "answer": "17",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-99-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 316 = (4 * n)]]\n[[question r = ['n']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral, which is a perfect square, has a total perimeter of 316m. What is the length of each side of this square?",
+      "new symbolic struct": "[[var 316 = 4 * a]]\n[[question t = ['a']]]",
+      "answer": "79",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-100-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 300 = (4 * h)]]\n[[question o = ['h']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 300m. How long is each side of the square?",
+      "new symbolic struct": "[[var 300 = 4 * a]]\n[[question t = ['a']]]",
+      "answer": "75",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-102-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 198 = ((19 + o) + (57 + 22))]]\n[[question n = ['o']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 198m. Two of the sides have lengths of 19m and 57m respectively, another side is 22m, what is the length of the remaining side?",
+      "new symbolic struct": "[[var 198 = 19 + 57 + 22 + x]]\n[[question t = ['x']]]",
+      "answer": "100",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-103-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 172 = (4 * x)]]\n[[question n = ['x']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 172m. What is the length of each side of the square?",
+      "new symbolic struct": "[[var 172 = 4 * s]]\n[[question t = ['s']]]",
+      "answer": "43",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-104-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 304 = (4 * d)]]\n[[question v = ['d']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 304 cm. What is the length of one of its sides?",
+      "new symbolic struct": "[[var 304 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "76",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-105-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 158 = ((2 * 51) + (2 * x))]]\n[[question y = ['x']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a total perimeter of 158 meters. Each of the shorter sides is 51 meters long. What is the length of each of the longer sides?",
+      "new symbolic struct": "[[var 158 = 2 * 51 + 2 * x]]\n[[question h = ['x']]]",
+      "answer": "28",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-106-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 72 = (4 * u)]]\n[[question g = ['u']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 72m. What is the length of one its sides?",
+      "new symbolic struct": "[[var 72 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "18",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-107-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 166 = ((2 * 19) + (2 * e))]]\n[[question d = ['e']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular playground is bordered by a fence. Two opposite sides of the fence are 19m each. If the total length of the fence is 166m, what is the length of each of the other two sides?",
+      "new symbolic struct": "[[var 166 = 2 * 19 + 2 * b]]\n[[question h = ['b']]]",
+      "answer": "64",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-108-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 246 = ((40 + b) + (32 + 95))]]\n[[question f = ['b']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 246m. You know that two of its sides are 40m and 32m long, another side is 95m long. What is the length of the fourth side?",
+      "new symbolic struct": "[[var 246 = 40 + 32 + 95 + x]]\n[[question h = ['x']]]",
+      "answer": "79",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-109-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 32 = (4 * r)]]\n[[question i = ['r']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 32m. What is the length of one of its sides?",
+      "new symbolic struct": "[[var 32 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-110-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 12 = (4 * r)]]\n[[question k = ['r']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A square has a perimeter of 12 meters. Can you find the length of one side of the square?",
+      "new symbolic struct": "[[var 12 = 4 * a]]\n[[question h = ['a']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-111-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 160 = ((29 + t) + (16 + 41))]]\n[[question x = ['t']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A quadrilateral has a perimeter of 160m. If the three known sides have lengths of 29m, 16m, and 41m, what is the length of the fourth side?",
+      "new symbolic struct": "[[var 160 = 29 + 16 + 41 + x]]\n[[question u = ['x']]]",
+      "answer": "74",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-112-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 98 = ((2 * o) + (2 * 5))]]\n[[question t = ['o']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a perimeter of 98m. If one of its sides is 5m long, what is the length of the other side?",
+      "new symbolic struct": "[[var 98 = 2 * a + 2 * 5]]\n[[question t = ['a']]]",
+      "answer": "44",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-quadrilateral-113-0",
+      "standard": "3.MD.D.8-quadrilateral",
+      "symbolic-struct": "[[var 210 = ((2 * 45) + (2 * z))]]\n[[question q = ['z']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has two sides measuring 45m each. If the total perimeter of the rectangle is 210m, what is the length of each of the other two sides?",
+      "new symbolic struct": "[[var 210 = 2 * 45 + 2 * a]]\n[[question y = ['a']]]",
+      "answer": "60",
+      "tag": "original problem"
+    }
+  ]
+]

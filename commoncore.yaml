@@ -1,0 +1,1289 @@
+- id: K.CC.C.7
+  description: "Compare two numbers between 1 and 10 presented as written numerals."
+  filters: [ ]
+  transforms: [ ]
+  expressions: ["compare"]
+  min_value: 1
+  max_value: 10
+  min_number: 1
+  max_number: 10
+  max_depth: 1
+  min_length: 0
+  max_length: 0
+  unknowns: False
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: Compare
+  number_type: ["Int"]
+  types_of_fup: [2]
+  math_concept: Compare two numbers.
+  samples: ["[[question a = ['2 _ 8 ']]]\nmath concept: Compare two numbers.",
+            "Compare the values of the following numbers by filling in the blank with <, >, or =. \n2 _ 8",
+            "[[question l = ['10 _ 10']]]\nmath concept: Compare two numbers.",
+            "Fill in the blank in the question \n10 _ 10\nwith ether a <, >, or = to compare the two numbers."]
+
+
+- id: K.OA.A.4
+  description: "For any number from 1 to 9, find the number that makes 10 when added to the given number, e.g., by using objects or drawings, and record the answer with a drawing or equation."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables", "ContainsTen"]
+  transforms: ["NoUselessVariables"]
+  expressions: ["addition"]
+  min_value: 1
+  max_value: 10
+  min_number: 1
+  max_number: 10
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: True
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: []
+  math_concept: None
+  samples: ["[[var 10 = 2 + x]][[question a = ['x']]]\ntheme: Pizza",
+            "Lucy made 10 cookies in one night. Her first round consisted of 2 cookies. How many cookies did she make in the second round?",
+            "[[var y = (5 + z))]]\n[[question d = ['z']]]\ntheme: Building blocks",
+            "Bob has purple and red building blocks. If he has 5 purple building blocks, how many red building blocks does he have?"]
+
+
+- id: K.OA.A.5
+  description: "Fluently add and subtract within 5."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: ["NoUselessVariables", "Simplify"]
+  expressions: ["number", "addition", "subtraction", "variable"]
+  min_value: 1
+  max_value: 5
+  min_number: 1
+  max_number: 5
+  max_depth: 2
+  min_length: 1
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var lunch_dinner_pizzas = 2 + 1]]\n[[question result = ['lunch_dinner_pizzas']]]\ntheme: Pizza",
+            "Lucy ordered 2 cheese pizzas for lunch. Later that evening she orders 1 pepperoni pizza for dinner. How many pizzas did she order in total in the day?",
+            "[[var purple_minus_lost = (5 - 3))]]\n[[question result = ['purple_minus_lost']]]\ntheme: Building blocks",
+            "Bob has 5 purple building blocks, but loses 2 of them under the couch. How many building blocks does Bob have left?"]
+
+- id: K.NBT.A.1
+  description: "Compose and decompose numbers from 11 to 19 Into ten ones and some further ones, e.g., by using objects or drawings, and record each composition or decomposition by a drawing or equation (e.g., 18 = 10 + 8); understand that these numbers are composed of ten ones and one, two, three, four, five, six, seven, eight, or nine ones."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables", "ContainsTen" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: [ "addition" ]
+  min_value: 1
+  max_value: 19
+  min_number: 1
+  max_number: 19
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: True
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: [ "[[var x = 2 + 10]]\n[[question l =['x']]]\ntheme: Pizza",
+             "Lucy ordered 2 pizzas for lunch. Later that evening she orders 10 more pizzas for a party she is throwing. How many pizzas did she order in total in the day?",
+             "[[var y = 10 + 9]]\n[[question z = ['y']]]\ntheme: Building blocks",
+             "Arya has 10 building blocks, and receives 9 more from her grandma as a gift. How many blocks does she have in total now?" ]
+
+- id: 1.OA.A.1
+  description: "Use addition and subtraction within 20 to solve word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions, e.g., by using objects, drawings, and equations with a symbol for the unknown number to represent the problem."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: [ "number", "addition", "subtraction", "variable" ]
+  min_value: 1
+  max_value: 20
+  min_number: 1
+  max_number: 20
+  max_depth: 1
+  min_length: 1
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var x = 2]]\n[[var r = 13]]\n[[question l = ['r + x']]]\ntheme: Pizza",
+            "Lucy ordered 2 pizzas for lunch. Later that evening she orders 13 more pizzas for a party she is throwing. How many pizzas did she order in total in the day?",
+            "[[var y = 9]]\n[[var x = (20 - y)]]\n[[question z = ['x']]]\ntheme: Building blocks",
+            "Arya has 20 building blocks, and uses 9 of them to create a mini building. How many blocks does she have left over to build other things?"]
+  
+- id: 1.OA.A.2
+  description: "Solve word problems that call for addition of three whole numbers whose sum is less than or equal to 20, e.g., by using objects, drawings, and equations with a symbol for the unknown number to represent the problem."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "variable"]
+  min_value: 1
+  max_value: 20
+  min_number: 1
+  max_number: 20
+  max_depth: 2
+  min_length: 1
+  max_length: 3
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var roadtrip_balloons = 8]]\n[[var entrance_balloons = 8]]\n[[var park_balloons = 2]]\n[[var total_balloons = roadtrip_balloons + entrance_balloons + park_balloons]]\n[[question result = ['total_baloons']]]\ntheme: balloons",
+            "Arnav spots 8 balloons on a roadtrip to DisneyLand. At the entrance, he sees 8 balloons. During his time at the park, he sees 2 balloons. How many balloons did Arnav see in total?",
+            "[[var bharat_and_mother_flowers = (3 + 9)]]\n[[var total_flowers = (bharat_and_mother_flowers + 3)]]\n[[question result = ['total_flowers']]]\ntheme: flower",
+            "Bharat grows 3 flowers in his garden, and his mother helps him grow 9 more. Their neighbor Tim comes in and helps them grow 3 more flowers in their garden. How many flowers are in the garden now?",
+            "[[var OG_num_books = 7]]\n[[var birthday_books = OG_num_books + 11]]\n[[var total_books = OG_num_books + birthday_books]]\n[[question result = ['total_books']]]\ntheme: book",
+            "Tom has 7 books. At his birthday, he receives a number of books equal to 11 plus the number of books he already has. How many books does Tom have now?"]
+  
+- id: 1.OA.D.8
+  description: "Determine the unknown whole number in an addition or subtraction equation relating three whole numbers."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["addition", "subtraction"]
+  min_value: 1
+  max_value: 20
+  min_number: 1
+  max_number: 20
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: True
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: []
+  math_concept: None
+  samples: ["[[var 7 = (2 + y)]]\n[[question i = ['y']]]\ntheme: Pizza",
+            "A pizza shop starts their day with 2 leftover cheese pizzas from the day before. By noon, they end up with a total of 7 cheese pizzas by baking a number of fresh ones. How many fresh cheese pizzas did they bake this morning?",
+            "[[var 13 = (17 - j)]]\n[[question h = ['j']]]\ntheme: book",
+            "A free book pick up stand started with 17 books one morning. By the end of the day, it had 13 books left. How many books did people pick up during the day?"]
+- id: 2.OA.A.1
+  description: "Use addition and subtraction within 100 to solve one- and two-step word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: [ "addition", "subtraction" ]
+  min_value: 1
+  max_value: 100
+  min_number: 1
+  max_number: 100
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: True
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: []
+  math_concept: None
+  samples: ["[[var g = (35 + 13)]]\n[[var n = (g + 22)]]\n[[question y = ['n']]]\ntheme: candy",
+            "Max starts halloween with 35 pieces of candy. On his street, he receives 13 more pieces of candy from his neighbors. Later in the evening, on another street, Max gets 22 more pieces of candy. How many pieces of candy does Max have in total now?",
+            "[[var e = 18]]\n[[var y = (e - 5)]]\n[[question t = ['y']]]\ntheme: Toy car",
+            "Ana has 18 toy cars in her collection. She decides to donate 5 of these toy cars. How many toy cars does Ana have left over?"]
+  
+- id: 2.NBT.B.5
+  description: "Fluently add and subtract within 100 using strategies based on place value, properties of operations, and/or the relationship between addition and subtraction."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "variable"]
+  min_value: 1
+  max_value: 100
+  min_number: 1
+  max_number: 100
+  max_depth: 1
+  min_length: 1
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var g = 66]]\n[[var b = (32 + g)]]\n[[question n = ['b']]]\ntheme: box",
+            "Movers and Packers Co. moves 66 boxes on Monday. They move an additional 32 boxes on Tuesday. How many boxes did they move in total over the two days?",
+            "[[var t = (99 - 87)]]\n[[question i = ['t']]]\ntheme: dolls",
+            "A small toy store stocks 99 of the newest Barbie doll. Within the first day, they sell 87 of those dolls. How many dolls do they have left over to sell?"]
+
+
+- id: 2.NBT.B.6
+  description: "Add up to four two-digit numbers using strategies based on place value and properties of operations."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "variable"]
+  min_value: 1
+  max_value: 396
+  min_number: 1
+  max_number: 99
+  max_depth: 2
+  min_length: 2
+  max_length: 3
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var initial_books = 2]]\n[[var street_books = 73]]\n[[var mom_books = 7]]\n[[question result = ['(initial_books + street_books) + mom_books']]]\ntheme: books",
+            "Jonathan wants to start his own library. He buys two books to start it off. He goes to door-to-door on his street, and people donate 73 more books to help him with the library. His mom gives him 7 more books for his library. How many books does Jonathan's library have now?",
+              "[[var math_teacher_game_ideas = 5]]\n[[var science_teacher_game_ideas = math_teacher_game_ideas]]\n[[var history_teacher_game_ideas = 16]]\n[[var total_ideas = math_teacher_game_ideas + science_teacher_game_ideas + history_teacher_game_ideas]]\n[[question result = ['total_ideas']]]\ntheme: games",
+            "A math teacher suggests 5 game ideas for the school picnic. The science teachers suggests just as many additional game ideas. The history teacher has a lot of ideas, so he suggests 16 as well. How many total games were suggested for the school picnic?"]
+            
+- id: 2.NBT.B.7
+  description: "Add and subtract within 1000, using concrete models or drawings and strategies based on place value, properties of operations, and/or the relationship between addition and subtraction; relate the strategy to a written method. Understand that in adding or subtracting three-digit numbers, one adds or subtracts hundreds and hundreds, tens and tens, ones and ones; and sometimes it is necessary to compose or decompose tens or hundreds."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "variable"]
+  min_value: 1
+  max_value: 1000
+  min_number: 1
+  max_number: 1000
+  max_depth: 1
+  min_length: 1
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var e = (681 - 157)]]\n[[question j = ['e']]]\ntheme: Pizza",
+            "On their grand opening, a pizza store sells 681 pizzas. The day after, they sell 157 fewer pizzas than they sold on the first day. How many pizzas did the pizza store sell on the second day?",
+            "[[var m = 498]]\n[[var x = (6 + m)]]\n[[question i = ['x']]]\ntheme: Train",
+            "During the day, 498 passenger and cargo trains pass through a station. At night, only 6 cargo trains pass through. How many trains in total pass through this train station in a day?"]
+            
+- id: 2.MD.B.5
+  description: "Use addition and subtraction within 100 to solve word problems involving lengths that are given in the same units, e.g., by using drawings (such as drawings of rulers) and equations with a symbol for the unknown number to represent the problem."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: ["NoUselessVariables"]
+  expressions: ["number", "addition", "subtraction", "variable"]
+  min_value: 1
+  max_value: 100
+  min_number: 1
+  max_number: 100
+  max_depth: 1
+  min_length: 1
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: create a problem that is about lengths. the lengths should be measured in the same units.
+  samples: ["[[var e = (95 - 75)]]\n[[question j = ['e']]]\nmatch concept: create a problem that is about lengths. the lengths should be measured in the same units.",
+            "Barney is traveling 95 miles from his house to see his friend. If he travels 75 miles by train, how many miles does he need to travel by car to reach his friend's house?",
+            "[[var m = 15]]\n[[var x = (7 + m)]]\n[[question i = ['x']]]\nmath concept: create a problem that is about lengths. the lengths should be measured in the same units.",
+            "Susie's grandma buys 15 yards of cloth to make curtains for Susie's room. However, after making the curtains, she realizes that she needs to buy 7 more yards of cloth to make them longer. How many yards of cloth did Susie's grandma buy in total?"]
+
+- id: 2.MD.C.8
+  description: "Solve word problems involving dollar bills, quarters, dimes, nickels, and pennies, using $ and ¢ symbols appropriately."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "variable"]
+  min_value: 1
+  max_value: 100
+  min_number: 1
+  max_number: 100
+  max_depth: 2
+  min_length: 1
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: create a problem that is about money. all amounts in the problem should be measured in the same units ($ or ¢). alternatively, the problem could use dollar bills, quarters, dimes, nickels, and pennies.
+  samples: ["[[var e = (25 + 25)]]\n[[question j = ['e']]]\nmath concept: create a problem that is about money. all amounts in the problem should be measured in the same units ($ or ¢). alternatively, the problem could use dollar bills, quarters, dimes, nickels, and pennies.",
+           "Jose receives $25 from his grandma on Christmas. His grandpa also gives him $25 dollars for Christmas. How much money did Jose receive in total from his grandparents?",
+            "[[var m = 54]]\n[[var x = (m - 17)]]\n[[question i = ['x']]]\nmath concept: create a problem that is about money. all amounts in the problem should be measured in the same units ($ or ¢). alternatively, the problem could use dollar bills, quarters, dimes, nickels, and pennies.",
+            "Kayla goes to the store with 54 dimes. She spends 17 dimes on vegetables her mom asked her to buy. How many dimes should she get back if she hands over all 54 dimes to the cashier?"]
+
+- id: 3.OA.A.3
+  description: "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "multiplication", "division", "variable"]
+  min_value: 1
+  max_value: 100
+  min_number: 1
+  max_number: 12
+  max_depth: 1
+  min_length: 1
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var teddy_bears = 12]]\n[[var doubled_collection = teddy_bears * 2]]\n[[question result = ['doubled_collection']]]\ntheme: Teddy bear",
+            "Billy has 12 teddy bears. He decided to double his collection because he loves teddy bears. How many teddy bears does he have now?",
+            "[[var books_per_stack = (88 / 8)]]\n[[question result = ['books_per_stacj']]]\ntheme: book",
+            "Jenna found a box filled with books. Each stack inside the box contains 8 books. If there are 88 books in total, how many stacks of books are there?",
+            "[[var OG_num_books = 7]]\n[[var birthday_books = OG_num_books * 11]]\n[[var total_books = OG_num_books + birthday_books]]\n[[question result = ['total_books']]]\ntheme: book",
+            "Tom has 7 books. He gets 11 times as many more books for his 11th birthday. How many books does Tom have now?"]
+            
+
+- id: 3.OA.A.4
+  description: "Determine the unknown whole number in a multiplication or division equation relating three whole numbers."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["multiplication", "division"]
+  min_value: 1
+  max_value: 100
+  min_number: 1
+  max_number: 12
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: True
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: []
+  math_concept: None
+  samples: ["[[var 9 = (63 / num_baskets)]]\n[[question result = ['num_baskets']]]\ntheme: Apple",
+            "There are 63 apples in the orchard. If we divide them equally Into separate baskets, and each basket contains 9 apples, how many baskets are there?",
+            "[[var 20 = (2 * num_types_of_robots)]]\n[[question result = ['num_types_of_robots']]]\ntheme:robot",
+            "A robot scientist has created a few new types of robots. There are 20 robots in total and each type of robot appears exactly twice in the total population. How many types of robots did the scientist create?"]
+  
+- id: 3.OA.C.7
+  description: "Fluently multiply and divide within 100, using strategies such as the relationship between multiplication and division (e.g., knowing that 8 × 5 = 40, one knows 40 ÷ 5 = 8) or properties of operations. By the end of Grade 3, know from memory all products of two one-digit numbers."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "multiplication", "division", "variable"]
+  min_value: 1
+  max_value: 100
+  min_number: 1
+  max_number: 12
+  max_depth: 1
+  min_length: 1
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var books_per_shelf = (28 / 7)]]\n[[question result = ['books_per_shelf']]]\ntheme: Book",
+            "Maya has 28 books and wants to divide them equally among the 7 shelves in her bookcase. How many books will be on each shelf?",
+            "[[var children_per_bus = 9]]\n[[var busses = 4]]\n[[var total_children = children_per_bus * busses]]\n[[question result = ['total_children']]]\ntheme: School bus",
+            "Every school bus in the district can carry 9 children. If there are 4 school buses in total, how many children can all the school buses in the district carry all together?"]
+            
+- id: 3.OA.D.8
+  description: "Solve two-step word problems using the four operations. Represent these problems using equations with a letter standing for the unknown quantity. Assess the reasonableness of answers using mental computation and estimation strategies including rounding."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "multiplication", "division", "variable"]
+  min_value: 1
+  max_value: 100
+  min_number: 1
+  max_number: 100
+  max_depth: 2
+  min_length: 2
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var 9 = (63 / b)]]\n[[question t = ['b + 5']]]\ntheme: Apple",
+            "There are 63 apples in the orchard. We divide the apples equally so that each basket has 9 apples. The orchard receives another special gift of 5 baskets of apples. How many baskets does the orchard have in total?",
+            "[[var 20 = (2 * j)]]\n[[question h = ['j']]]\ntheme: robot",
+            "A robot scientist has created a few new types of robots. There are 20 robots in total and each type of robot appears exactly twice in the total population. How many types of robots did the scientist create?"]
+
+- id: 3.MD.D.8-triangle
+  description: "Solve real world and mathematical problems involving perimeters of polygons, including finding the perimeter given the side lengths, finding an unknown side length, and exhibiting rectangles with the same perimeter and different areas or with the same area and different perimeters."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["triangle_perimeter"]
+  min_value: 1
+  max_value: 1000
+  min_number: 1
+  max_number: 1000
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: True
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: []
+  math_concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length
+  samples: ["[[var 25 = 5 + 7 + x)]]\n[[question t = ['x']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+            "A triangle has a perimeter of 25m. You know that one of its sides is 5m long, and the other side is 7m long. What is the length of the third side?",
+            "[[var 21 = 3 * a)]]\n[[question h = ['a']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+            "An equilateral triangle has a perimeter of 21m. What is the length of each of its sides?"]
+
+- id: 3.MD.D.8-quadrilateral
+  description: "Solve real world and mathematical problems involving perimeters of polygons, including finding the perimeter given the side lengths, finding an unknown side length, and exhibiting rectangles with the same perimeter and different areas or with the same area and different perimeters."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["quadrilateral_perimeter"]
+  min_value: 1
+  max_value: 1000
+  min_number: 1
+  max_number: 100
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: True
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: []
+  math_concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length
+  samples: ["[[var 25 = 5 + 7 + 2 + x)]]\n[[question t = ['x']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+            "A quadrilateral has a perimeter of 25m. You know that one of its sides is 5m long, another side is 7m long, anf the third side is 2m long. What is the length of the fourth side?",
+            "[[var 22 = 2 * a + 2 * 3)]]\n[[question h = ['a']]]\nmath concept: create a math problem involving perimeters of squares, rectangles, and quadrilaterals, including finding the perimeter given the side lengths, or finding an unknown side length",
+            "A rectangle has a perimeter of 22m. If one of its sides has length 3, what is the length of the other side?"]
+
+- id: 3.MD.D.8-polygon
+  description: "Solve real world and mathematical problems involving perimeters of polygons, including finding the perimeter given the side lengths, finding an unknown side length, and exhibiting rectangles with the same perimeter and different areas or with the same area and different perimeters."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["polygon_perimeter"]
+  min_value: 1
+  max_value: 1000
+  min_number: 1
+  max_number: 100
+  max_depth: 10
+  min_length: 1
+  max_length: 1
+  unknowns: True
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: []
+  math_concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length
+  samples: ["[[var h = 6 * 13)]]\n[[question t = ['h']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+            "A regular hexagon has a side length of 13m. What is its perimeter?",
+            "[[var 21 = 4 + 6 + 2 + 5 + a)]]\n[[question h = ['a']]]\nmath concept: create a math problem involving perimeters of shapes like like triangles, squares, rectangles, and regular polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+            "A pentagon has side lengths of 4cm, 6cm, 2cm, and 5cm. What is the length of its fifth side?"]
+
+- id: 3.NBT.A.2
+  description: "Fluently add and subtract within 1000 using strategies and algorithms based on place value, properties of operations, and/or the relationship between addition and subtraction."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "variable"]
+  min_value: 1
+  max_value: 1000
+  min_number: 1
+  max_number: 1000
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var v = (289 + 430)]]\n[[var g = (v + 69)]]\n[[question m = ['g']]]\ntheme: School",
+            "There are 289 students in Greenwood school and 430 students in Riverdale school. An additional 69 students are joining Greenwood from the neighboring town's school. How many students are enrolled in the two schools?",
+            "[[var f = (328 + 574)]]\n[[var d = (f - 291)]]\n[[question h = ['d']]]\ntheme: Toy car",
+            "In a big toy store, there were initially 328 toy cars. During the holiday season, an additional 574 toy cars were added to the collection. But after some time, 291 toy cars were sold. How many toy cars are there in the store now?"]
+
+- id: 4.OA.A.3
+  description: "Solve multistep word problems posed with whole numbers and having whole-number answers using the four operations, including problems in which remainders must be Interpreted. Represent these problems using equations with a letter standing for the unknown quantity. Assess the reasonableness of answers using mental computation and estimation strategies including rounding."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "multiplication", "division", "variable"]
+  min_value: 1
+  max_value: 1000
+  min_number: 1
+  max_number: 50
+  max_depth: 3
+  min_length: 2
+  max_length: 6
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var g = 4598]]\n[[var p = (3779 + g + g)]]\n[[question s = ['p']]]\ntheme: trees",
+            "A sustainability-focused non-profit planted 4598 Oak trees during their first year. In their second year, they planted 3779 more Maple trees, and just as many additional Oak trees as last year. How many trees did they plant during their first two years.",
+            "[[var h = 3100]]\n[[var u = 248]]\n[[question x = ['h - u']]]\ntheme: car",
+            "On a busy day, 3100 cars cross a certain bridge. On its least busy day, 248 cars cross that bridge. What is the difference in the number of cars crossed between the busiest and least busy day?"]
+
+- id: 4.OA.B.4
+  description: "Find all factor pairs for a whole number in the range 1-100. Recognize that a whole number is a multiple of each of its factors. Determine whether a given whole number in the range 1-100 is a multiple of a given one-digit number. Determine whether a given whole number in the range 1-100 is prime or composite."
+  filters: [ ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number"]
+  min_value: 2
+  max_value: 100
+  min_number: 2
+  max_number: 100
+  max_depth: 1
+  min_length: 0
+  max_length: 0
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: Factor Pairs
+  number_type: ["Int"]
+  types_of_fup: []
+  math_concept: Figuring our all factor pairs of a given number.
+  samples: ["[[question l = ['44']]]\nmath concept: Figuring our all factor pairs of a given number.",
+            "Write down all factor pairs of 44.",
+            "[[question d = ['32']]]\nmath concept: Figuring our all factor pairs of a given number.",
+            "What are all factor pairs of 32?"]
+
+
+- id: 4.NBT.B.4
+  description: "Fluently add and subtract multi-digit whole numbers using the standard algorithm."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "variable"]
+  min_value: 1
+  max_value: 9999
+  min_number: 0
+  max_number: 9999
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var g = 4598]]\n[[var p = (3779 + g)]]\n[[question s = ['p']]]\ntheme: trees",
+            "A sustainability-focused non-profit planted 4598 trees during their first year. In their second year, they planted 3779 more trees. How many trees did they plant during their first two years.",
+            "[[var h = 3100]]\n[[var u = 248]]\n[[question x = ['h - u']]]\ntheme: car",
+            "On a busy day, 3100 cars cross a certain bridge. On its least busy day, 248 cars cross that bridge. What is the difference in the number of cars crossed between the busiest and least busy day?"]
+
+- id: 4.NBT.B.5
+  description: "Multiply a whole number of up to four digits by a one-digit whole number, and multiply two two-digit numbers, using strategies based on place value and the properties of operations. Illustrate and explain the calculation by using equations, rectangular arrays, and/or area models."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["mult_4nbtb5", "variable"]
+  min_value: 1
+  max_value: 99999
+  min_number: 0
+  max_number: 9999
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [2]
+  math_concept: None
+  samples: ["[[var a = (5 * 8594)]]\n[[question h = ['a']]]\ntheme:robot",
+            "A robot factory manufactures 8594 robots every day for 5 days. How many robots have they manufactured?",
+            "[[var h = (3752 * 3)]]\n[[question g = ['h']]]\ntheme:book",
+            "An author writes 3 books, each with 3752 pages. How many pages did they write?"]
+
+- id: 4.NBT.B.6
+  description: "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division. Illustrate and explain the calculation by using equations, rectangular arrays, and/or area models."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: [ "number", "remainder", "variable" ]
+  min_value: 1
+  max_value: 999
+  min_number: 1
+  max_number: 999
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [2]
+  math_concept: None
+  samples: [ "[[var u = (750 % 182)]]\n[[question k = ['u']]]\ntheme: Farmer",
+             "A farmer wants to plant 750 trees. He plants 182 rows with the same number of trees. How many trees go in the last row?",
+             "[[var e = (733 % 368)]]\n[[question p = ['e']]]\ntheme: car",
+             "There are 733 cars waiting to be shipped to various destinations. Each car carrier can hold 368 cars. If all the cars are evenly distributed among the carriers, how many cars will be left over after all the carriers are filled?"]
+
+- id: 4.NF.A.2
+  description: "Compare two fractions with different numerators and different denominators, e.g., by creating common denominators or numerators, or by comparing to a benchmark fraction such as 1/2. Recognize that comparisons are valid only when the two fractions refer to the same whole. Record the results of comparisons with symbols >, =, or <, and justify the conclusions, e.g., by using a visual fraction model."
+  filters: [ ]
+  transforms: [ ]
+  expressions: ["compare"]
+  min_value: 1
+  max_value: 10
+  min_number: 1
+  max_number: 10
+  max_depth: 1
+  min_length: 0
+  max_length: 0
+  unknowns: False
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: Compare
+  number_type: ["Fraction"]
+  types_of_fup: [2]
+  math_concept: Compare two fractions.
+  samples: ["[[question a = ['2 / 2 _ 8 / 7']]]\nmath concept: Compare two fractions.",
+            "Compare the values of the following fractions by filling in the blank with <, >, or =. \n2 / 2 _ 8 / 7",
+            "[[question l = ['9 / 10 _ 1 / 10']]]\nmath concept: Compare two fractions.",
+            "Fill in the blank in the question \n9 / 10 _ 1 / 10\nwith ether a <, >, or = to compare the two fractions."]
+
+
+- id: 4.MD.A.2-decimal
+  description: "Use the four operations to solve word problems involving distances, Intervals of time, liquid volumes, masses of objects, and money, including problems involving simple fractions or decimals, and problems that require expressing measurements given in a larger unit in terms of a smaller unit. Represent measurement quantities using diagrams such as number line diagrams that feature a measurement scale."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "multiplication", "division", "variable"]
+  min_value: 1
+  max_value: 1000
+  min_number: 1
+  max_number: 50
+  max_depth: 2
+  min_length: 1
+  max_length: 3
+  unknowns: False
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Decimal-2", "Int"]
+  types_of_fup: [1, 2]
+  math_concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.
+  samples: ["[[var b = (63.3 / 3)]]\n[[question t = ['b']]]\ntheme: Apple",
+            "There are 63.3 ounces of apple in three pies. How any ounces of apple are there in each pie?",
+            "[[var j = (2.7 * 8)]]\n[[question h = ['j']]]\ntheme:robot",
+            "There are 8 cartons of milk in a box, and each carton has 2.7 liters of milk. What is the total volume of the milk in the box?"]
+
+- id: 4.MD.A.2-fraction
+  description: "Use the four operations to solve word problems involving distances, Intervals of time, liquid volumes, masses of objects, and money, including problems involving simple fractions or decimals, and problems that require expressing measurements given in a larger unit in terms of a smaller unit. Represent measurement quantities using diagrams such as number line diagrams that feature a measurement scale."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "multiplication", "division", "variable"]
+  min_value: 1
+  max_value: 1000
+  min_number: 1
+  max_number: 50
+  max_depth: 2
+  min_length: 1
+  max_length: 3
+  unknowns: False
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Fraction", "Int"]
+  types_of_fup: [1, 2]
+  math_concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.
+  samples: ["[[var b = (3/4)]]\n[[question t = ['b * 5']]]\ntheme: Apple",
+            "There are 3/4 ounces of apple in a pie. How many ounces of apple are required to bake 5 pies?",
+            "[[var j = (27/10 * 8)]]\n[[question h = ['j']]]\ntheme:robot",
+            "There are 8 cartons of milk in a box, and each carton has 27/10 liters of milk. What is the total volume of the milk in the box?"]
+
+
+- id: 4.MD.A.3
+  description: "Apply the area and perimeter formulas for rectangles in real world and mathematical problems."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["rectangle_perimeter", "rectangle_area"]
+  min_value: 1
+  max_value: 1000
+  min_number: 1
+  max_number: 50
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [2]
+  math_concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length
+  samples: ["[[var 22 = 2 * a + 2 * 3)]]\n[[question h = ['a']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+            "A rectangle has a perimeter of 22m. If one of its sides has length 3, what is the length of the other side?",
+            "[[var g = (13 * 67)]]\n[[question h = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+            "A rectangle has an width of 13m and a length of 67m. What is the area of this rectangle?"]
+
+- id: 5.OA.A.1
+  description: "Use parentheses, brackets, or braces in numerical expressions, and evaluate expressions with these symbols."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "multiplication", "division", "variable"]
+  min_value: 1
+  max_value: 9999
+  min_number: 1
+  max_number: 100
+  max_depth: 4
+  min_length: 1
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var k = 2090]]\n[[var r = (3478 * k)]]\n[[question a = ['r']]]\ntheme: Book",
+            "An author earns 2090 dollars in royalties for every book they sell. If they sold 3478 books, how much did they earn in royalties?",
+            "[[var q = 2857]]\n[[var e = 215]]\n[[question k = ['q * e']]]\ntheme: car",
+            "On average, a car factory produces 2857 cars in one day. If the factory is only open 215 days in a year, how many cars does the factory produce in that time?"]
+
+
+- id: 5.NBT.B.5
+  description: "Fluently multiply multi-digit whole numbers using the standard algorithm."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "multiplication", "variable"]
+  min_value: 1
+  max_value: 99999
+  min_number: 1
+  max_number: 9999
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var k = 2090]]\n[[var r = (3478 * k)]]\n[[question a = ['r']]]\ntheme: Book",
+            "An author earns 2090 dollars in royalties for every book they sell. If they sold 3478 books, how much did they earn in royalties?",
+            "[[var q = 2857]]\n[[var e = 215]]\n[[question k = ['q * e']]]\ntheme: car",
+            "On average, a car factory produces 2857 cars in one day. If the factory is only open 215 days in a year, how many cars does the factory produce in that time?"]
+
+- id: 5.NBT.B.6
+  description: "Find whole-number quotients of whole numbers with up to four-digit dividends and two-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division. Illustrate and explain the calculation by using equations, rectangular arrays, and/or area models."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["div_5nbtb6", "variable"]
+  min_value: 1
+  max_value: 9999
+  min_number: 1
+  max_number: 9999
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [2]
+  math_concept: None
+  samples: ["[[var u = (1824 / 57)]]\n[[question i = ['u']]]\ntheme: Book",
+            "A book has 1824 pages split evenly among 57 chapters. How many pages are there in each chapter??",
+            "[[var i = (5073 / 89)]]\n[[question z = ['i']]]\ntheme: car",
+            "Over the first 89 days of a year, a car manufacturer produces a total of 5073 cars. If they produced the same number of cars each day, how many cars were manufactured daily?"]
+
+- id: 5.NBT.B.7
+  description: "Add, subtract, multiply, and divide decimals to hundredths, using concrete models or drawings and strategies based on place value, properties of operations, and/or the relationship between addition and subtraction; relate the strategy to a written method and explain the reasoning used."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "multiplication", "div_5nbtb7", "variable"]
+  min_value: 1
+  max_value: 9999
+  min_number: 1
+  max_number: 99
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Decimal-2"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var u = (1824 / 57)]]\n[[question i = ['u']]]\ntheme: Book",
+            "A book has 1824 pages split evenly among 57 chapters. How many pages are there in each chapter??",
+            "[[var i = (5073 / 89)]]\n[[question z = ['i']]]\ntheme: car",
+            "Over the first 89 days of a year, a car manufacturer produces a total of 5073 cars. If they produced the same number of cars each day, how many cars were manufactured daily?"]
+
+- id: 5.NF.A.1
+  description: "Add and subtract fractions with unlike denominators (including mixed numbers) by replacing given fractions with equivalent fractions in such a way as to produce an equivalent sum or difference of fractions with like denominators."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: ["NoUselessVariables"]
+  expressions: [ "addition", "subtraction", "variable" ]
+  min_value: 1
+  max_value: 100
+  min_number: 1
+  max_number: 100
+  max_depth: 2
+  min_length: 1
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Fraction"]
+  types_of_fup: [1, 2]
+  math_concept: Write a question about adding and subtracting fractions.
+  samples: ["[[var x = 2/5 + 1/7]]\n[[question l = ['x']]]\nmath concept: Write a question about adding and subtracting fractions.",
+            "What is 2/5 + 1/7? Answer as a simplified fraction.",
+            "[[var y = 5/17 - 3/8]]\n[[question z = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+            "Solve 5/17 - 3/8, and answer as a simple fraction."]
+
+- id: 5.NF.A.2
+  description: "Solve word problems involving addition and subtraction of fractions referring to the same whole, including cases of unlike denominators, e.g., by using visual fraction models or equations to represent the problem. Use benchmark fractions and number sense of fractions to estimate mentally and assess the reasonableness of answers."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: ["NoUselessVariables"]
+  expressions: [ "addition", "subtraction", "variable" ]
+  min_value: 1
+  max_value: 20
+  min_number: 1
+  max_number: 20
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Fraction"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var x = 2/5 + 1/7]]\n[[question l = ['x']]]\ntheme: snail",
+            "If Mr. Snail walks 2/5 miles, and then walks 1/7 more miles, how many miles did they walk in total?",
+            "[[var y = 5/8 - 3/8]]\n[[question z = ['y']]]\ntheme: rope",
+            "Laya has a rope that is 5/8 m long. She cuts out a piece that is 3/8 long from this. What is the length of the rope left over?"]
+
+- id: 5.NF.B.4
+  description: "Apply and extend previous understandings of multiplication to multiply a fraction or whole number by a fraction."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: [ "multiplication", "variable" ]
+  min_value: 1
+  max_value: 20
+  min_number: 1
+  max_number: 20
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: [ "Fraction", "Int" ]
+  types_of_fup: [1, 2]
+  math_concept: Write a question about multiplying fractions and/or whole numbers.
+  samples: [ "[[var x = 2/5 * 1/7]]\n[[question l = ['x']]]\nmath concept: Write a word problem about multiplying fractions.",
+             "Evaluate 2/5 * 1/7 and write your answer as a simplified fraction.",
+             "[[var y = 5/8 * 3]]\n[[question z = ['y']]]\nmath concept: Write a word problem about adding and subtracting fractions.",
+             "Calculate the answer to the following problem. and write the answer as a simplified fraction: 5/8 * 3" ]
+
+
+- id: 6.NS.B.2
+  description: "Fluently divide multi-digit numbers using the standard algorithm."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "division", "variable"]
+  min_value: 1
+  max_value: 99999
+  min_number: 1
+  max_number: 9999
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: [2]
+  math_concept: None
+  samples: ["[[var u = (3267 / 121)]]\n[[question i = ['u']]]\ntheme: Book",
+            "A book has 3267 pages split evenly among 121 chapters. How many pages are there in each chapter??",
+            "[[var i = (5073 / 89)]]\n[[question z = ['i']]]\ntheme: car",
+            "Over the first 89 days of a year, a car manufacturer produces a total of 5073 cars. If they produced the same number of cars each day, how many cars were manufactured daily?"]
+
+- id: 6.NS.B.3
+  description: "Add, subtract, multiply, and divide decimals to hundredths, using concrete models or drawings and strategies based on place value, properties of operations, and/or the relationship between addition and subtraction; relate the strategy to a written method and explain the reasoning used."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["number", "addition", "subtraction", "multiplication", "div_5nbtb7", "variable"]
+  min_value: 1
+  max_value: 9999
+  min_number: 1
+  max_number: 99
+  max_depth: 1
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Decimal-2"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var l = 20.48 * 58.2]]\n[[question c = ['l']]]\ntheme: Skirt",
+            "A certain design of skirt requires 20.48 yards of fabric per skirt. If a tailoring shop wants to make 58.2 skirts of the same design, how many yards of fabric will they need in total?",
+            "[[var r = (2040.91 / 49.9)]]\n[[question a = ['r']]]\ntheme: candy",
+            "A candy factory produced 2040.91 kilograms of candy distributed equally among 49.9 stores. How many kilograms of candy did each store receive?"]
+
+- id: 6.EE.A.1
+  description: "Write and evaluate numerical expressions involving whole-number exponents."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: [ "number", "square", "cube" , "exponent", "variable"]
+  min_value: 1
+  max_value: 1000
+  min_number: 1
+  max_number: 10
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: [ "Int" ]
+  types_of_fup: [2]
+  math_concept: Write a question about evaluating exponents.
+  samples: [ "[[var k = 5 ** 3]]\n[[question r = ['k']]]\n\nmath concept: Write a question about evaluating exponents.",
+             "What is the value of 5^3?",
+             "[[var q = 2 ** 2]]\n[[question k = ['q']]]\nmath concept: Write a question about evaluating exponents",
+             "Evaluate 2^2." ]
+
+- id : 6.EE.B.7
+  description: "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers."
+  filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
+  transforms: [ "NoUselessVariables" ]
+  expressions: [ "addition", "multiplication" ]
+  min_value: 1
+  max_value: 9999
+  min_number: 1
+  max_number: 400
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: True
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: [ "Int" ]
+  types_of_fup: []
+  math_concept: None
+  samples: [ "[[var 453 = k * 3]]\n[[question r = ['k']]]\n\ntheme: robots",
+             "If a robot factory produced 453 robots over the span of 3 days, how many robots did they produce every day?",
+             "[[var 782 = 361 + q]]\n[[question k = ['q']]]\ntheme: snails",
+             "On a farm, there are 782 total snails. If 361 of those snails are buried underground, how many snails are above ground?" ]
+
+- id: 7.NS.A.1-fraction
+  description: "Apply and extend previous understandings of addition and subtraction to add and subtract rational numbers; represent addition and subtraction on a horizontal or vertical number line diagram."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: ["NoUselessVariables"]
+  expressions: [ "addition", "subtraction", "variable" ]
+  min_value: 1
+  max_value: 100
+  min_number: 1
+  max_number: 100
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Fraction"]
+  types_of_fup: [1, 2]
+  math_concept: Write a question about adding and subtracting fractions.
+  samples: ["[[var x = 2/5 + 1/7]]\n[[question l = ['x']]]\nmath concept: Write a question about adding and subtracting fractions.",
+            "What is 2/5 + 1/7? Answer as a simplified fraction.",
+            "[[var y = 5/17 - 3/8]]\n[[question z = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+            "Solve 5/17 - 3/8."]
+
+- id: 7.NS.A.1-decimal
+  description: "Apply and extend previous understandings of addition and subtraction to add and subtract rational numbers; represent addition and subtraction on a horizontal or vertical number line diagram."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: ["NoUselessVariables"]
+  expressions: [ "addition", "subtraction", "variable" ]
+  min_value: 1
+  max_value: 100
+  min_number: 1
+  max_number: 100
+  max_depth: 2
+  min_length: 1
+  max_length: 2
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Decimal-3"]
+  types_of_fup: [1, 2]
+  math_concept: Write a question about adding and subtracting decimals.
+  samples: ["[[var x = 0.348 + 0.27]]\n[[question l = ['x']]]\nmath concept: Write a question about adding and subtracting decimals.",
+            "What is 0.348 + 0.27?",
+            "[[var y = 2.992 - 0.231]]\n[[question z = ['y']]]\nmath concept: Write a question about adding and subtracting decimals.",
+            "Solve 2.992 - 0.231."]
+
+- id: 7.NS.A.2
+  description: "Apply and extend previous understandings of multiplication and division and of fractions to multiply and divide rational numbers."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: ["NoUselessVariables"]
+  expressions: [ "multiplication", "division", "variable" ]
+  min_value: 1
+  max_value: 30
+  min_number: 1
+  max_number: 30
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Fraction"]
+  types_of_fup: [1, 2]
+  math_concept: Write a question about multiplying and dividing fractions
+  samples: ["[[var x = 2/5 * 1/7]]\n[[question l = ['x']]]\nmath concept: Write a word problem about multiplying fractions.",
+             "Evaluate 2/5 * 1/7 and write your answer as a simplified fraction.",
+             "[[var y = (5/8) / (2/3)]]\n[[question z = ['y']]]\nmath concept: Write a word problem about adding and subtracting fractions.",
+             "Calculate the answer to the following problem and write the answer as a simplified fraction: (5/8) / (2/3)" ]
+
+- id: 7.NS.A.3-fraction
+  description: "Solve real-world and mathematical problems involving the four operations with rational numbers."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: ["NoUselessVariables"]
+  expressions: [ "number", "addition", "subtraction", "multiplication", "division", "variable" ]
+  min_value: 1
+  max_value: 30
+  min_number: 1
+  max_number: 30
+  max_depth: 2
+  min_length: 1
+  max_length: 3
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Fraction"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var x = 2/5 * 1/7]]\n[[question l = ['x']]]\nmath concept: Write a word problem about multiplying fractions.",
+             "Evaluate 2/5 * 1/7 and write your answer as a simplified fraction.",
+             "[[var y = (5/8) / (2/3)]]\n[[question z = ['y']]]\nmath concept: Write a word problem about adding and subtracting fractions.",
+             "Calculate the answer to the following problem. and write the answer as a simplified fraction: (5/8) / (2/3)" ]
+
+- id: 7.NS.A.3-decimal
+  description: "Solve real-world and mathematical problems involving the four operations with rational numbers."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: ["NoUselessVariables"]
+  expressions: [ "number", "addition", "subtraction", "multiplication", "division", "variable" ]
+  min_value: 1
+  max_value: 30
+  min_number: 1
+  max_number: 30
+  max_depth: 2
+  min_length: 1
+  max_length: 3
+  unknowns: False
+  num_unknowns: 0
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Decimal-3"]
+  types_of_fup: [1, 2]
+  math_concept: None
+  samples: ["[[var x = 2.5 * 1.7]]\n[[question l = ['x']]]\ntheme: paper",
+             "A specific size of paper is 2.5 inches in length and 1.7 inches in width. What is the area of the paper?",
+             "[[var y = 5.63 - 3.29]]\n[[var a = y * 3]][[question z = ['h']]]\ntheme: toya",
+             "At a toy store, a doll costs $5.63, but has a sale for $3.29 off the original price. If Carl wants to buy three dolls, how much deos he pay?" ]
+
+- id: 8.EE.A.2
+  description: "Use square root and cube root symbols to represent solutions to equations of the form x² = p and x³ = p, where p is a positive rational number. Evaluate square roots of small perfect squares and cube roots of small perfect cubes. Know that the square root of 2 is irrational."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["square", "cube"]
+  min_value: 1
+  max_value: 1000
+  min_number: 1
+  max_number: 10
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: True
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 1
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: []
+  math_concept: None
+  samples: ["[[var 27 = u ** 3]]\n[[question n = ['u']]]\ntheme: House",
+            "A house with a cube shape has a volume of 27 cubic meters. What is the length of each side of the house in meters?",
+            "[[var 81 = b ** 2]]\n[[question m = ['b']]]\ntheme: car",
+            "A car does donuts around a square parking space. The driver notices that the area of the parking space is 81m^2. What is the length of a side of this square parking space?"]
+
+
+- id: 8.EE.C.7
+  description: "Solve linear equations in one variable."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["addition", "subtraction"]
+  min_value: 1
+  max_value: 5000
+  min_number: 1
+  max_number: 99
+  max_depth: 2
+  min_length: 1
+  max_length: 1
+  unknowns: True
+  num_unknowns: 1
+  min_coeff: 1
+  max_coeff: 99
+  skip_count: None
+  custom_final_answer: None
+  number_type: ["Int"]
+  types_of_fup: []
+  math_concept: Write a problem about linear equations in one variable.
+  samples: ["[[var 5830 = 2090 + 34 * k]]\n[[question a = ['k']]]\nmath concept: Write a problem about linear equations in one variable.",
+            "Solve the following equation: 5830 = 2090 + 34 * k",
+            "[[var 104 = 41 + 10 * g]]\n[[question n = ['g']]]\nmath concept: Write a problem about linear equations in one variable.",
+            "Solve the following linear equation for the value of g: \n 104 = 41 + 10 * g"]
+
+
+- id: 8.EE.C.8
+  description: "Analyze and solve pairs of simultaneous linear equations."
+  filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
+  transforms: [ "NoUselessVariables" ]
+  expressions: ["addition", "subtraction"]
+  min_value: 1
+  max_value: 5000
+  min_number: 1
+  max_number: 99
+  max_depth: 2
+  min_length: 2
+  max_length: 2
+  unknowns: True
+  num_unknowns: 2
+  min_coeff: 1
+  max_coeff: 99
+  skip_count: None
+  custom_final_answer: System of Equations
+  number_type: ["Int"]
+  types_of_fup: []
+  math_concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.
+  samples: ["[[var -114 = 68 - y - z]]\n[[var -11 = y - z - 5]]\n[[question x = ['z', 'y']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+            "Solve the following system of equations for the values of y and z: 68 - y - z = -114 \n y - z - 5 = -11.",
+            "[[var 51 = 61 - i + j]]\n[[var 147 = j - 26 + i]]\n[[question b = ['i', 'j']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+            "Given the following system of equations, what are the values of i and j? System of equations: 61 - i + j = 51\n j - 26 + i = 147."]
+
+

@@ -1,0 +1,1975 @@
+[
+  [
+    {
+      "id": "6.EE.A.1-0-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var a = (5 ** 4)]]\n[[question g = ['a']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 5^4?",
+      "new symbolic struct": "[[var a = 5 ** 4]]\n[[question result = ['a']]]",
+      "answer": "625",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-0-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var a = (4 ** 4)]]\n[[question g = ['a']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would the result be if instead of raising 5 to the 4th power, you raised the number 4 to the 4th power?",
+      "new symbolic struct": "[[var b = 4 ** 4]]\n[[question result_two = ['b']]]",
+      "answer": "256",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-1-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (9 ** 3)]]\n[[question e = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is 9 raised to the power of 3?",
+      "new symbolic struct": "[[var k = 9 ** 3]]\n[[question r = ['k']]]",
+      "answer": "729",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-1-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (6 ** 3)]]\n[[question e = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would the outcome be if we raise 6 to the power of 3, instead of 9?",
+      "new symbolic struct": "[[var k = 6 ** 3]]\n[[question r = ['k']]]",
+      "answer": "216",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-3-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var x = (5 ** 3)]]\n[[question e = ['x']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the cube of 5?",
+      "new symbolic struct": "[[var k = 5 ** 3]]\n[[question r = ['k']]]",
+      "answer": "125",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-3-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var x = (7 ** 3)]]\n[[question e = ['x']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value if we are cubing 7 instead of 5?",
+      "new symbolic struct": "[[var k = 7 ** 3]]\n[[question r = ['k']]]",
+      "answer": "343",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-4-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var j = (9 ** 2)]]\n[[question r = ['j']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of raising 9 to the power of 2?",
+      "new symbolic struct": "[[var p = 9 ** 2]]\n[[question r = ['p']]]",
+      "answer": "81",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-4-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var j = (8 ** 2)]]\n[[question r = ['j']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if we raise 8 to the power of 2 instead of 9?",
+      "new symbolic struct": "[[var p = 8 ** 2]]\n[[question r = ['p']]]",
+      "answer": "64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-7-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var c = (3 ** 3)]]\n[[question v = ['c']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Determine the value of 3 to the power of 3.",
+      "new symbolic struct": "[[var a = 3 ** 3]]\n[[question r = ['a']]]",
+      "answer": "27",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-7-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var c = (5 ** 3)]]\n[[question v = ['c']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "In the previous problem, you found the value of 3 to the power of 3. Now, consider what would happen if the base was 5 instead of 3. What is the value of 5 to the power of 3?",
+      "new symbolic struct": "[[var b = 5 ** 3]]\n[[question r = ['b']]]",
+      "answer": "125",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-8-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (9 ** 2)]]\n[[question w = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value when 9 is raised to the power of 2?",
+      "new symbolic struct": "[[var a = 9 ** 2]]\n[[question b = ['a']]]",
+      "answer": "81",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-8-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (4 ** 2)]]\n[[question w = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Considering our previous problem, if instead of 9 we raise 4 to the power of 2, what would be the value?",
+      "new symbolic struct": "[[var c = 4 ** 2]]\n[[question d = ['c']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-9-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var g = (9 ** 2)]]\n[[question l = ['g']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Calculate the result of 9^2.",
+      "new symbolic struct": "[[var a = 9 ** 2]]\n[[question b = ['a']]]",
+      "answer": "81",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-9-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var g = (7 ** 2)]]\n[[question l = ['g']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "After learning about the calculation of 9^2, can you now tell me what is the result of 7^2?",
+      "new symbolic struct": "[[var b = 7 ** 2]]\n[[question c = ['b']]]",
+      "answer": "49",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-10-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var n = (10 ** 3)]]\n[[question w = ['n']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Determine the value of 10^3.",
+      "new symbolic struct": "[[var q = 10 ** 3]]\n[[question r = ['q']]]",
+      "answer": "1000",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-10-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var n = (4 ** 3)]]\n[[question w = ['n']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "If we changed the base in the previous question to 4 while keeping the exponent as 3, what value would we get for 4^3?",
+      "new symbolic struct": "[[var q_new = 4 ** 3]]\n[[question r_new = ['q_new']]]",
+      "answer": "64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-11-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var k = (6 ** 2)]]\n[[question u = ['k']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 6 squared, or 6^2?",
+      "new symbolic struct": "[[var q = 6 ** 2]]\n[[question k = ['q']]]",
+      "answer": "36",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-11-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var k = (4 ** 2)]]\n[[question u = ['k']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would the value be if instead of 6, we have 4 squared or 4^2?",
+      "new symbolic struct": "[[var p = 4 ** 2]]\n[[question k = ['p']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-12-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var l = (3 ** 3)]]\n[[question n = ['l']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 3 raised to the power of 3?",
+      "new symbolic struct": "[[var p = 3 ** 3]]\n[[question r = ['p']]]",
+      "answer": "27",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-12-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var l = (6 ** 3)]]\n[[question n = ['l']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "In the previous problem, we found the cube of 3. Now, what would be the value if we raise 6 to the power of 3 instead?",
+      "new symbolic struct": "[[var m = 6 ** 3]]\n[[question r = ['m']]]",
+      "answer": "216",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-13-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var j = (10 ** 2)]]\n[[question h = ['j']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is 10 raised to the power of 2?",
+      "new symbolic struct": "[[var p = 10 ** 2]]\n[[question r = ['p']]]",
+      "answer": "100",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-13-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var j = (4 ** 2)]]\n[[question h = ['j']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What happens if we instead consider 4 raised to the power of 2?",
+      "new symbolic struct": "[[var p = 4 ** 2]]\n[[question r = ['p']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-14-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var b = (9 ** 3)]]\n[[question n = ['b']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 9 raised to the power of 3?",
+      "new symbolic struct": "[[var p = 9 ** 3]]\n[[question r = ['p']]]",
+      "answer": "729",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-14-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var b = (5 ** 3)]]\n[[question n = ['b']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Earlier, we found out the value for 9 raised to the third power, right? Now, considering the same scenario, what would be the value if you raise 5 instead of 9 to the power of 3?",
+      "new symbolic struct": "[[var q = 5 ** 3]]\n[[question k = ['q']]]",
+      "answer": "125",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-15-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (2 ** 2)]]\n[[question p = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 2^2?",
+      "new symbolic struct": "[[var y = 2 ** 2]]\n[[question k = ['y']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-15-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (5 ** 2)]]\n[[question p = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "In the previous situation we evaluated the square of 2. Now, consider what would the value be if instead of 2, we needed to evaluate the square of 5?",
+      "new symbolic struct": "[[var z = 5 ** 2]]\n[[question r = ['z']]]",
+      "answer": "25",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-16-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var b = (7 ** 2)]]\n[[question a = ['b']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value when the number 7 is raised to the power of 2?",
+      "new symbolic struct": "[[var p = 7 ** 2]]\n[[question r = ['p']]]",
+      "answer": "49",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-16-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var b = (2 ** 2)]]\n[[question a = ['b']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following the previous question, what would be the value if we raised the number 2 to the power of 2 instead of 7?",
+      "new symbolic struct": "[[var p1 = 7 ** 2]]\n[[var p2 = 2 ** 2]]\n[[question r2 = ['p2']]]",
+      "answer": "4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-17-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var s = (8 ** 3)]]\n[[question o = ['s']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 8 raised to the power of 3?",
+      "new symbolic struct": "[[var p = 8 ** 3]]\n[[question r = ['p']]]",
+      "answer": "512",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-17-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var s = (7 ** 3)]]\n[[question o = ['s']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "In the previous problem, we evaluated 8 raised to the power of 3. What if we changed the base and considered 7 instead of 8? What is the value of 7 raised to the power of 3?",
+      "new symbolic struct": "[[var q = 7 ** 3]]\n[[question r = ['q']]]",
+      "answer": "343",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-18-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var e = (3 ** 2)]]\n[[question d = ['e']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 3^2?",
+      "new symbolic struct": "[[var n = 3 ** 2]]\n[[question answer = ['n']]]",
+      "answer": "9",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-18-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var e = (8 ** 2)]]\n[[question d = ['e']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Now, what if instead you were to calculate the square of 8? What would be the value of 8^2?",
+      "new symbolic struct": "[[var k = 8 ** 2]]\n[[question answer = ['k']]]",
+      "answer": "64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-19-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (9 ** 2)]]\n[[question i = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value when 9 is raised to the power of 2?",
+      "new symbolic struct": "[[var k = 9 ** 2]]\n[[question r = ['k']]]",
+      "answer": "81",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-19-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (6 ** 2)]]\n[[question i = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if instead of raising 9 to the power of 2, we raised 6 to the power of 2?",
+      "new symbolic struct": "[[var k = 6 ** 2]]\n[[question r = ['k']]]",
+      "answer": "36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-20-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var d = (5 ** 3)]]\n[[question h = ['d']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 5 cubed?",
+      "new symbolic struct": "[[var t = 5 ** 3]]\n[[question n = ['t']]]",
+      "answer": "125",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-20-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var d = (8 ** 3)]]\n[[question h = ['d']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value if we consider a cube with a side length of 8 units instead of 5 units?",
+      "new symbolic struct": "[[var u = 8 ** 3]]\n[[question v = ['u']]]",
+      "answer": "512",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-21-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var j = (5 ** 2)]]\n[[question s = ['j']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the outcome when 5 is raised to the power of 2?",
+      "new symbolic struct": "[[var a = 5 ** 2]]\n[[question r = ['a']]]",
+      "answer": "25",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-21-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var j = (4 ** 2)]]\n[[question s = ['j']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the outcome when 4 is raised to the power of 2, instead of 5?",
+      "new symbolic struct": "[[var b = 4 ** 2]]\n[[question r = ['b']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-22-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var i = (5 ** 2)]]\n[[question w = ['i']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value when you raise 5 to the power of 2?",
+      "new symbolic struct": "[[var k = 5 ** 2]]\n[[question r = ['k']]]",
+      "answer": "25",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-22-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var i = (8 ** 2)]]\n[[question w = ['i']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following from the previous problem, what would be the value if we raised 8 to the power of 2 instead of 5?",
+      "new symbolic struct": "[[var l = 8 ** 2]]\n[[question r = ['l']]]",
+      "answer": "64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-23-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var y = (2 ** 3)]]\n[[question w = ['y']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 2 raised to the power of 3?",
+      "new symbolic struct": "[[var q = 2 ** 3]]\n[[question r = ['q']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-23-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var y = (10 ** 3)]]\n[[question w = ['y']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "You previously calculated 2 raised to the power of 3. Now, what would be the result if we raise 10 to the power of 3 instead?",
+      "new symbolic struct": "[[var a = 2 ** 3]]\n[[var b = 10 ** 3]]\n[[question r = ['b']]]",
+      "answer": "1000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-24-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var c = (1 ** 3)]]\n[[question x = ['c']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 1^3?",
+      "new symbolic struct": "[[var m = 1 ** 3]]\n[[question n = ['m']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-24-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var c = (3 ** 3)]]\n[[question x = ['c']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Given what you have learned, what happens if you take the new number 3 and raise it to the power of 3 instead?",
+      "new symbolic struct": "[[var m = 3 ** 3]]\n[[question n = ['m']]]",
+      "answer": "27",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-27-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var z = (1 ** 9)]]\n[[question y = ['z']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 1 raised to the power of 9?",
+      "new symbolic struct": "[[var a = 1 ** 9]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-27-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var z = (1 ** 6)]]\n[[question y = ['z']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would the result be if we change the exponent from 9 to 6 and compute the value of 1 raised to the power of 6 instead?",
+      "new symbolic struct": "[[var a = 1 ** 6]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-28-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var h = (8 ** 3)]]\n[[question p = ['h']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 8^3?",
+      "new symbolic struct": "[[var k = 8 ** 3]]\n[[question r = ['k']]]",
+      "answer": "512",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-28-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var h = (5 ** 3)]]\n[[question p = ['h']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Previously, we raised 8 to the power of 3. Now, what if we raise 5 to the power of 3, what would be the result?",
+      "new symbolic struct": "[[var m = 5 ** 3]]\n[[question n = ['m']]]",
+      "answer": "125",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-29-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var k = (1 ** 2)]]\n[[question e = ['k']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result when 1 is raised to the power of 2?",
+      "new symbolic struct": "[[var a = 1 ** 2]]\n[[question r = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-29-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var k = (4 ** 2)]]\n[[question e = ['k']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Given the understanding that 1 raised to the power of 2 gives us 1, what would be the result if we raised 4 to the power of 2 instead?",
+      "new symbolic struct": "[[var a = 1 ** 2]]\n[[var b = 4 ** 2]]\n[[question r = ['b']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-30-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var r = (2 ** 2)]]\n[[question d = ['r']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 2^2?",
+      "new symbolic struct": "[[var q = 2 ** 2]]\n[[question k = ['q']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-30-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var r = (2 ** 7)]]\n[[question d = ['r']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Previously, you evaluated 2^2. Now, what's the result of performing an identical operation, but instead of squared (2^2), it is raised to the 7th power (2^7)?",
+      "new symbolic struct": "[[var q1 = 2 ** 2]]\n[[var q2 = 2 ** 7]]\n[[question k = ['q2']]]",
+      "answer": "128",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-31-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var s = (8 ** 2)]]\n[[question v = ['s']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is 8 raised to the power of 2?",
+      "new symbolic struct": "[[var k = 8 ** 2]]\n[[question r = ['k']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-31-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var s = (1 ** 2)]]\n[[question v = ['s']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if we took one instead of eight and raised it to the power of 2?",
+      "new symbolic struct": "[[var k = 1 ** 2]]\n[[question r = ['k']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-32-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (2 ** 3)]]\n[[question s = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 2 raised to the power of 3?",
+      "new symbolic struct": "[[var q = 2 ** 3]]\n[[question k = ['q']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-32-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (7 ** 3)]]\n[[question s = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would the result be if you raised 7 to the power of 3 instead of 2 in the previous problem?",
+      "new symbolic struct": "[[var p = 7 ** 3]]\n[[question k = ['p']]]",
+      "answer": "343",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-33-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var b = (8 ** 2)]]\n[[question s = ['b']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 8^2?",
+      "new symbolic struct": "[[var z = 8 ** 2]]\n[[question y = ['z']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-33-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var b = (1 ** 2)]]\n[[question s = ['b']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the value if you squared 1 instead of 8?",
+      "new symbolic struct": "[[var a = 1 ** 2]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-34-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var r = (6 ** 3)]]\n[[question b = ['r']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 6 to the power of 3?",
+      "new symbolic struct": "[[var b = 6 ** 3]]\n[[question a = ['b']]]",
+      "answer": "216",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-34-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var r = (6 ** 1)]]\n[[question b = ['r']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following the previous problem, what would be the result if we evaluate 6 to the power of 1 instead of 3?",
+      "new symbolic struct": "[[var c = 6 ** 1]]\n[[question d = ['c']]]",
+      "answer": "6",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-35-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var g = (7 ** 1)]]\n[[question f = ['g']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value when 7 is raised to the power of 1?",
+      "new symbolic struct": "[[var a = 7 ** 1]]\n[[question b = ['a']]]",
+      "answer": "7",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-35-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var g = (7 ** 3)]]\n[[question f = ['g']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Now, consider what will be the value when 7 is not just raised to the power of 1, but to the power of 3 instead?",
+      "new symbolic struct": "[[var c = 7 ** 3]]\n[[question d = ['c']]]",
+      "answer": "343",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-36-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var n = (2 ** 2)]]\n[[question m = ['n']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 2 raised to the power of 2?",
+      "new symbolic struct": "[[var q = 2 ** 2]]\n[[question k = ['q']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-36-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var n = (4 ** 2)]]\n[[question m = ['n']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "In the previous problem, you found the result of 2 raised to the power of 2. Now, what is the result of 4 raised to the power of 2?",
+      "new symbolic struct": "[[var q = 4 ** 2]]\n[[question k = ['q']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-37-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (4 ** 2)]]\n[[question z = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 4^2?",
+      "new symbolic struct": "[[var a = 4**2]]\n[[question b = ['a']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-37-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (10 ** 2)]]\n[[question z = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following up on our previous question, what would be the result if we raised 10, instead of 4, to the power of 2?",
+      "new symbolic struct": "[[var a = 10**2]]\n[[question b = ['a']]]",
+      "answer": "100",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-38-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var c = (9 ** 2)]]\n[[question z = ['c']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 9^2?",
+      "new symbolic struct": "[[var k = 9 ** 2]]\n[[question r = ['k']]]",
+      "answer": "81",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-38-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var c = (4 ** 2)]]\n[[question z = ['c']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the value if instead of 9^2, we calculated 4^2?",
+      "new symbolic struct": "[[var m = 4 ** 2]]\n[[question n = ['m']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-39-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (5 ** 3)]]\n[[question l = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 5^3?",
+      "new symbolic struct": "[[var k = 5 ** 3]]\n[[question r = ['k']]]",
+      "answer": "125",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-39-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (7 ** 3)]]\n[[question l = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value if we consider raising 7 to the power of 3 instead of 5^3?",
+      "new symbolic struct": "[[var h = 7 ** 3]]\n[[question s = ['h']]]",
+      "answer": "343",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-40-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var q = (7 ** 3)]]\n[[question e = ['q']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result when 7 is raised to the power of 3?",
+      "new symbolic struct": "[[var a = 7 ** 3]]\n[[question r = ['a']]]",
+      "answer": "343",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-40-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var q = (9 ** 3)]]\n[[question e = ['q']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if instead of raising 7 to the power of 3, you raised 9 to the power of 3?",
+      "new symbolic struct": "[[var b = 9 ** 3]]\n[[question r = ['b']]]",
+      "answer": "729",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-41-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var l = (2 ** 2)]]\n[[question k = ['l']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the calculation result of 2^2?",
+      "new symbolic struct": "[[var a = 2 ** 2]]\n[[question b = ['a']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-41-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var l = (1 ** 2)]]\n[[question k = ['l']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Suppose instead of 2 units, you only had a single unit. What would be the result if you squared that single unit (1^2)?",
+      "new symbolic struct": "[[var a = 1 ** 2]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-42-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var y = (4 ** 3)]]\n[[question p = ['y']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value when 4 is raised to the power of 3?",
+      "new symbolic struct": "[[var q = 4 ** 3]]\n[[question k = ['q']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-42-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var y = (3 ** 3)]]\n[[question p = ['y']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Now imagine if we raised 3 to the power of 3 instead, what would be the result?",
+      "new symbolic struct": "[[var q = 3 ** 3]]\n[[question k = ['q']]]",
+      "answer": "27",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-44-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var h = (2 ** 3)]]\n[[question d = ['h']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Calculate the value of 2^3.",
+      "new symbolic struct": "[[var h = 2 ** 3]]\n[[question x = ['h']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-44-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var h = (3 ** 3)]]\n[[question d = ['h']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "In the previous problem, we evaluated 2^3. Now consider if it were 3^3 instead. What value would that give?",
+      "new symbolic struct": "[[var a = 3 ** 3]]\n[[question b = ['a']]]",
+      "answer": "27",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-45-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var x = (5 ** 4)]]\n[[question s = ['x']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 5^4?",
+      "new symbolic struct": "[[var k = 5 ** 4]]\n[[question r = ['k']]]",
+      "answer": "625",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-46-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (7 ** 3)]]\n[[question t = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 7^3?",
+      "new symbolic struct": "[[var p = 7 ** 3]]\n[[question r = ['p']]]",
+      "answer": "343",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-46-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (6 ** 3)]]\n[[question t = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would the value be if we have 6^3 instead of 7^3?",
+      "new symbolic struct": "[[var b = 6 ** 3]]\n[[question h = ['b']]]",
+      "answer": "216",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-49-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (10 ** 2)]]\n[[question z = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 10^2?",
+      "new symbolic struct": "[[var a = 10 ** 2]]\n[[question v = ['a']]]",
+      "answer": "100",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-49-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (8 ** 2)]]\n[[question z = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result if we have 8 groups, not 10, of spiders, each group having a power of 2?",
+      "new symbolic struct": "[[var a = 8 ** 2]]\n[[question v = ['a']]]",
+      "answer": "64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-50-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (1 ** 2)]]\n[[question q = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 1 raised to the power of 2?",
+      "new symbolic struct": "[[var p = 1 ** 2]]\n[[question k = ['p']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-50-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (6 ** 2)]]\n[[question q = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What if, instead of 1, the base was changed to 6? What would be the result of 6 raised to the power of 2?",
+      "new symbolic struct": "[[var r = 6 ** 2]]\n[[question s = ['r']]]",
+      "answer": "36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-51-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (9 ** 3)]]\n[[question h = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Find the value of 9^3.",
+      "new symbolic struct": "[[var m = 9 ** 3]]\n[[question r = ['m']]]",
+      "answer": "729",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-51-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (7 ** 3)]]\n[[question h = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Now consider this: What would be the result if we were to raise 7 to the power of 3 instead of 9? Calculate 7^3.",
+      "new symbolic struct": "[[var n = 7 ** 3]]\n[[question t = ['n']]]",
+      "answer": "343",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-54-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (1 ** 2)]]\n[[question p = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is 1^2 equal to?",
+      "new symbolic struct": "[[var q = 1 ** 2]]\n[[question k = ['q']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-54-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (3 ** 2)]]\n[[question p = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is 3^2? In other words, if now you're considering 3 instances of a number being multiplied by itself instead of the single instance we previously evaluated, what would the new result be?",
+      "new symbolic struct": "[[var q = 3 ** 2]]\n[[question k = ['q']]]",
+      "answer": "9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-55-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var m = (2 ** 2)]]\n[[question k = ['m']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result when you evaluate 2 raised to the power 2?",
+      "new symbolic struct": "[[var a = 2 ** 2]]\n[[question b = ['a']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-55-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var m = (1 ** 2)]]\n[[question k = ['m']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would the result be if we now consider 1 raised to the power 2 instead of 2 raised to the power 2?",
+      "new symbolic struct": "[[var a = 1 ** 2]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-56-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var d = (4 ** 2)]]\n[[question w = ['d']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result when 4 is squared?",
+      "new symbolic struct": "[[var q = 4 ** 2]]\n[[question k = ['q']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-56-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var d = (7 ** 2)]]\n[[question w = ['d']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What happens to the result when instead of squaring 4, you square 7?",
+      "new symbolic struct": "[[var q = 7 ** 2]]\n[[question k = ['q']]]",
+      "answer": "49",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-57-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (7 ** 3)]]\n[[question h = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 7 raised to the power of 3?",
+      "new symbolic struct": "[[var p = 7 ** 3]]\n[[question r = ['p']]]",
+      "answer": "343",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-57-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (8 ** 3)]]\n[[question h = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if we raise 8 instead of 7 to the power of 3?",
+      "new symbolic struct": "[[var a = 8 ** 3]]\n[[question b = ['a']]]",
+      "answer": "512",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-58-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var k = (4 ** 3)]]\n[[question t = ['k']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 4^3?",
+      "new symbolic struct": "[[var n = 4 ** 3]]\n[[question r = ['n']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-58-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var k = (5 ** 3)]]\n[[question t = ['k']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following the previous question, consider that instead of taking 4^3, we take 5^3. What is now the value?",
+      "new symbolic struct": "[[var n1 = 5 ** 3]]\n[[question r1 = ['n1']]]",
+      "answer": "125",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-59-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (1 ** 2)]]\n[[question v = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 1^2?",
+      "new symbolic struct": "[[var z = 1 ** 2]]\n[[question y = ['z']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-59-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (7 ** 2)]]\n[[question v = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the value if you raised 7 to the power of 2 instead of 1?",
+      "new symbolic struct": "[[var a = 7 ** 2]]\n[[question m = ['a']]]",
+      "answer": "49",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-60-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var a = (6 ** 2)]]\n[[question x = ['a']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of computing 6^2?",
+      "new symbolic struct": "[[var t = 6 ** 2]]\n[[question r = ['t']]]",
+      "answer": "36",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-60-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var a = (3 ** 2)]]\n[[question x = ['a']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Suppose you originally had 3 square blocks instead of 6. What is the result of squaring the number of these blocks now, i.e., what is 3^2?",
+      "new symbolic struct": "[[var x = 3 ** 2]]\n[[question y = ['x']]]",
+      "answer": "9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-61-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var l = (2 ** 2)]]\n[[question a = ['l']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 2 raised to the power of 2?",
+      "new symbolic struct": "[[var a = 2 ** 2]]\n[[question b = ['a']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-61-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var l = (3 ** 2)]]\n[[question a = ['l']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "In the previous problem, we calculated the square of 2. But what if we had 3 instead of 2 to begin with? What would be the result of 3 raised to the power of 2?",
+      "new symbolic struct": "[[var c = 3 ** 2]]\n[[question d = ['c']]]",
+      "answer": "9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-63-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var a = (4 ** 2)]]\n[[question t = ['a']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 4^2?",
+      "new symbolic struct": "[[var a = 4 ** 2]]\n[[question b = ['a']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-63-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var a = (9 ** 2)]]\n[[question t = ['a']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Now, consider what will be the value if instead of 4, we square 9? What will 9^2 be?",
+      "new symbolic struct": "[[var b = 9 ** 2]]\n[[question m = ['b']]]",
+      "answer": "81",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-64-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var h = (3 ** 2)]]\n[[question t = ['h']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 3^2?",
+      "new symbolic struct": "[[var j = 3 ** 2]]\n[[question k = ['j']]]",
+      "answer": "9",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-64-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var h = (8 ** 2)]]\n[[question t = ['h']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following the previous problem, what if, instead of 3, we raised 8 to the power of 2? What would be the value?",
+      "new symbolic struct": "[[var l = 8 ** 2]]\n[[question m = ['l']]]",
+      "answer": "64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-65-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var t = (10 ** 3)]]\n[[question c = ['t']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 10 raised to the power of 3?",
+      "new symbolic struct": "[[var j = 10 ** 3]]\n[[question r = ['j']]]",
+      "answer": "1000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-66-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (10 ** 3)]]\n[[question y = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 10 raised to the power of 3?",
+      "new symbolic struct": "[[var p = 10 ** 3]]\n[[question r = ['p']]]",
+      "answer": "1000",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-66-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (9 ** 3)]]\n[[question y = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if we change the base number from 10 to 9, and compute 9 raised to the power of 3?",
+      "new symbolic struct": "[[var q = 9 ** 3]]\n[[question r = ['q']]]",
+      "answer": "729",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-67-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var z = (8 ** 1)]]\n[[question h = ['z']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What's the value of 8^1?",
+      "new symbolic struct": "[[var q = 8 ** 1]]\n[[question k = ['q']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-67-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var z = (10 ** 1)]]\n[[question h = ['z']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following our previous calculation, let's change the numbers a bit. What's the value now if we evaluate 10^1?",
+      "new symbolic struct": "[[var q = 10 ** 1]]\n[[question k = ['q']]]",
+      "answer": "10",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-68-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var r = (7 ** 3)]]\n[[question u = ['r']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 7 to the power of 3?",
+      "new symbolic struct": "[[var z = 7 ** 3]]\n[[question y = ['z']]]",
+      "answer": "343",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-68-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var r = (2 ** 3)]]\n[[question u = ['r']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What if instead of elevating 7 to the power of 3, we changed the base and elevated 2 to the power of 3? What would be the result then?",
+      "new symbolic struct": "[[var z = 2 ** 3]]\n[[question y = ['z']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-69-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (2 ** 2)]]\n[[question d = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 2 raised to the power of 2?",
+      "new symbolic struct": "[[var q = 2 ** 2]]\n[[question r = ['q']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-69-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (6 ** 2)]]\n[[question d = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What happens if we consider 6 instead of 2 and raise it to the power of 2?",
+      "new symbolic struct": "[[var s = 6 ** 2]]\n[[question t = ['s']]]",
+      "answer": "36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-70-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var c = (5 ** 3)]]\n[[question a = ['c']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 5 raised to the power of 3?",
+      "new symbolic struct": "[[var k = 5 ** 3]]\n[[question r = ['k']]]",
+      "answer": "125",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-70-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var c = (4 ** 3)]]\n[[question a = ['c']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Next, consider what happens if instead of 5, we have 4 in the base. What would be the new value if 4 is raised to the power of 3?",
+      "new symbolic struct": "[[var k1 = 5 ** 3]]\n[[var k2 = 4 ** 3]]\n[[question r = ['k2']]]",
+      "answer": "64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-72-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var u = (5 ** 4)]]\n[[question o = ['u']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of raising 5 to the power of 4?",
+      "new symbolic struct": "[[var p = 5 ** 4]]\n[[question r = ['p']]]",
+      "answer": "625",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-72-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var u = (1 ** 4)]]\n[[question o = ['u']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Consider the original finding where we raised 5 to the power of 4. Now, what would be the result if we raised 1 to the power of 4 instead?",
+      "new symbolic struct": "[[var p = 1 ** 4]]\n[[question r = ['p']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-73-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var b = (3 ** 5)]]\n[[question i = ['b']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 3 raised to the power of 5?",
+      "new symbolic struct": "[[var x = 3 ** 5]]\n[[question y = ['x']]]",
+      "answer": "243",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-73-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var b = (2 ** 5)]]\n[[question i = ['b']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Considering the previous problem where we calculated 3^5, what would be the result if we instead calculated 2^5?",
+      "new symbolic struct": "[[var a = 2 ** 5]]\n[[question b = ['a']]]",
+      "answer": "32",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-75-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var e = (2 ** 2)]]\n[[question m = ['e']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the output of 2^2?",
+      "new symbolic struct": "[[var q = 2 ** 2]]\n[[question k = ['q']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-75-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var e = (5 ** 2)]]\n[[question m = ['e']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if we raised 5 to the power of 2 instead of 2?",
+      "new symbolic struct": "[[var t = 5 ** 2]]\n[[question r = ['t']]]",
+      "answer": "25",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-76-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var q = (4 ** 2)]]\n[[question n = ['q']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 4^2?",
+      "new symbolic struct": "[[var z = 4 ** 2]]\n[[question r = ['z']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-76-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var q = (9 ** 2)]]\n[[question n = ['q']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the value if originally, instead of 4^2, it was calculated as 9^2?",
+      "new symbolic struct": "[[var y = 9 ** 2]]\n[[question r = ['y']]]",
+      "answer": "81",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-77-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (6 ** 2)]]\n[[question e = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 6^2?",
+      "new symbolic struct": "[[var t = 6 ** 2]]\n[[question r = ['t']]]",
+      "answer": "36",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-77-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (7 ** 2)]]\n[[question e = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the value if we considered 7^2 instead of 6^2?",
+      "new symbolic struct": "[[var f = 7 ** 2]]\n[[question r = ['f']]]",
+      "answer": "49",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-78-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var y = (10 ** 3)]]\n[[question n = ['y']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 10^3?",
+      "new symbolic struct": "[[var y = 10 ** 3]]\n[[question u = ['y']]]",
+      "answer": "1000",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-78-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var y = (7 ** 3)]]\n[[question n = ['y']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result if we replace the base number from the previous problem (which was 10), with 7? In other words, what is the value of 7^3?",
+      "new symbolic struct": "[[var z = 7 ** 3]]\n[[question v = ['z']]]",
+      "answer": "343",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-79-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var g = (4 ** 2)]]\n[[question y = ['g']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 4 ^ 2 in mathematics?",
+      "new symbolic struct": "[[var a = 4 ** 2]]\n[[question value = ['a']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-79-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var g = (6 ** 2)]]\n[[question y = ['g']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following up from your last computation, how would the outcome change if you raised 6 to the power of 2 instead of 4?",
+      "new symbolic struct": "[[var b = 6 ** 2]]\n[[question new_value = ['b']]]",
+      "answer": "36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-80-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var d = (10 ** 3)]]\n[[question w = ['d']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the outcome when 10 is raised to the power of 3?",
+      "new symbolic struct": "[[var r = 10 ** 3]]\n[[question t = ['r']]]",
+      "answer": "1000",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-80-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var d = (1 ** 3)]]\n[[question w = ['d']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the outcome if instead of 10, we raised 1 to the power of 3?",
+      "new symbolic struct": "[[var s = 1 ** 3]]\n[[question u = ['s']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-81-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var u = (7 ** 3)]]\n[[question e = ['u']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 7 raised to the power of 3?",
+      "new symbolic struct": "[[var a = 7 ** 3]]\n[[question x = ['a']]]",
+      "answer": "343",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-81-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var u = (3 ** 3)]]\n[[question e = ['u']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following up from the previous question, what would the result be if we raised 3 to the power of 3 instead of 7?",
+      "new symbolic struct": "[[var b = 3 ** 3]]\n[[question y = ['b']]]",
+      "answer": "27",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-82-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (8 ** 2)]]\n[[question k = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 8 raised to the power of 2?",
+      "new symbolic struct": "[[var n = 8 ** 2]]\n[[question r = ['n']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-82-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (7 ** 2)]]\n[[question k = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would the result be if instead of raising 8 to the power of 2, we raised 7 to the power of 2?",
+      "new symbolic struct": "[[var n = 7 ** 2]]\n[[question r = ['n']]]",
+      "answer": "49",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-85-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var e = (7 ** 3)]]\n[[question m = ['e']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the cubed value of 7?",
+      "new symbolic struct": "[[var p = 7 ** 3]]\n[[question r = ['p']]]",
+      "answer": "343",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-85-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var e = (6 ** 3)]]\n[[question m = ['e']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if instead of cubing 7, you cubed 6?",
+      "new symbolic struct": "[[var l = 6 ** 3]]\n[[question r = ['l']]]",
+      "answer": "216",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-87-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (8 ** 2)]]\n[[question u = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 8 raised to the power of 2?",
+      "new symbolic struct": "[[var a = 8 ** 2]]\n[[question r = ['a']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-87-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (6 ** 2)]]\n[[question u = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Considering the same calculation, what is the result if we raise 6 to the power of 2 instead of 8?",
+      "new symbolic struct": "[[var a = 8 ** 2]]\n[[var b = 6 ** 2]]\n[[question r = ['b']]]",
+      "answer": "36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-88-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var y = (2 ** 3)]]\n[[question b = ['y']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 2 raised to the power 3?",
+      "new symbolic struct": "[[var t = 2 ** 3]]\n[[question result = ['t']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-88-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var y = (5 ** 3)]]\n[[question b = ['y']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Previously, you computed the value of 2 raised to the power 3. Now, calculate what happens if you raise 5 to the power 3 instead.",
+      "new symbolic struct": "[[var v = 5 ** 3]]\n[[question new_result = ['v']]]",
+      "answer": "125",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-89-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var n = (5 ** 2)]]\n[[question q = ['n']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Calculate the value of 5 raised to the power of 2.",
+      "new symbolic struct": "[[var p = 5 ** 2]]\n[[question r = ['p']]]",
+      "answer": "25",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-89-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var n = (4 ** 2)]]\n[[question q = ['n']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "In continuation of the previous problem, now calculate the value of 4 raised to the power of 2.",
+      "new symbolic struct": "[[var p1 = 5 ** 2]]\n[[var p2 = 4 ** 2]]\n[[question r = ['p2']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-90-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var t = (7 ** 2)]]\n[[question q = ['t']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result when 7 is raised to the power of 2?",
+      "new symbolic struct": "[[var a = 7 ** 2]]\n[[question b = ['a']]]",
+      "answer": "49",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-90-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var t = (10 ** 2)]]\n[[question q = ['t']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would happen if instead of 7, we raised 10 to the power of 2?",
+      "new symbolic struct": "[[var c = 10 ** 2]]\n[[question d = ['c']]]",
+      "answer": "100",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-91-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var i = (10 ** 2)]]\n[[question e = ['i']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 10 raised to the power of 2?",
+      "new symbolic struct": "[[var k = 10 ** 2]]\n[[question r = ['k']]]",
+      "answer": "100",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-91-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var i = (2 ** 2)]]\n[[question e = ['i']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Now consider what happens if instead of raising 10 to the power of 2, we instead raise 2 to the power of 2. What would be the value?",
+      "new symbolic struct": "[[var j = 2 ** 2]]\n[[question r = ['j']]]",
+      "answer": "4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-92-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var q = (6 ** 2)]]\n[[question u = ['q']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 6^2?",
+      "new symbolic struct": "[[var z = 6 ** 2]]\n[[question r = ['z']]]",
+      "answer": "36",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-92-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var q = (9 ** 2)]]\n[[question u = ['q']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the value if you raise 9 to the power of 2 instead of 6?",
+      "new symbolic struct": "[[var y = 9 ** 2]]\n[[question r = ['y']]]",
+      "answer": "81",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-93-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var s = (3 ** 3)]]\n[[question o = ['s']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of the expression 3^3?",
+      "new symbolic struct": "[[var p = 3 ** 3]]\n[[question r = ['p']]]",
+      "answer": "27",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-93-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var s = (5 ** 3)]]\n[[question o = ['s']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if, instead of 3, we raised 5 to the power of 3?",
+      "new symbolic struct": "[[var k = 5 ** 3]]\n[[question r = ['k']]]",
+      "answer": "125",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-94-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var y = (1 ** 3)]]\n[[question u = ['y']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result when you calculate 1^3?",
+      "new symbolic struct": "[[var a = 1 ** 3]]\n[[question c = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-94-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var y = (9 ** 3)]]\n[[question u = ['y']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if we raised 9 to the power of 3 instead of 1?",
+      "new symbolic struct": "[[var b = 9 ** 3]]\n[[question d = ['b']]]",
+      "answer": "729",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-96-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var t = (3 ** 6)]]\n[[question h = ['t']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 3 raised to the power of 6?",
+      "new symbolic struct": "[[var r = 3 ** 6]]\n[[question k = ['r']]]",
+      "answer": "729",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-96-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var t = (3 ** 1)]]\n[[question h = ['t']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the value if we instead raised 3 to the power of 1?",
+      "new symbolic struct": "[[var s = 3 ** 1]]\n[[question m = ['s']]]",
+      "answer": "3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-97-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var q = (3 ** 5)]]\n[[question n = ['q']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 3^5?",
+      "new symbolic struct": "[[var k = 3 ** 5]]\n[[question r = ['k']]]",
+      "answer": "243",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-97-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var q = (3 ** 1)]]\n[[question n = ['q']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following the previous problem, what would be the result if we consider 3 raised to the power of 1?",
+      "new symbolic struct": "[[var q = 3 ** 1]]\n[[question t = ['q']]]",
+      "answer": "3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-98-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (8 ** 3)]]\n[[question m = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the cubic value of 8, expressed as 8^3?",
+      "new symbolic struct": "[[var m = 8 ** 3]]\n[[question n = ['m']]]",
+      "answer": "512",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-98-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (1 ** 3)]]\n[[question m = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result if instead of cubic value of 8, we calculate the cubic value of 1, expressed as 1^3?",
+      "new symbolic struct": "[[var a = 1 ** 3]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-99-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (9 ** 2)]]\n[[question z = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Calculate the value of 9^2.",
+      "new symbolic struct": "[[var j = 9 ** 2]]\n[[question r = ['j']]]",
+      "answer": "81",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-99-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var v = (5 ** 2)]]\n[[question z = ['v']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following our previous calculation of 9^2, let's change the number. What is the value of 5^2?",
+      "new symbolic struct": "[[var j = 9 ** 2]]\n[[var k = 5 ** 2]]\n[[question r = ['k']]]",
+      "answer": "25",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-101-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var q = (2 ** 2)]]\n[[question f = ['q']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the exponential value of 2 to the power of 2?",
+      "new symbolic struct": "[[var x = 2 ** 2]]\n[[question y = ['x']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-101-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var q = (2 ** 1)]]\n[[question f = ['q']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result if the base 2 is raised to the power of 1 instead of 2?",
+      "new symbolic struct": "[[var a = 2 ** 1]]\n[[question b = ['a']]]",
+      "answer": "2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-103-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var g = (5 ** 2)]]\n[[question k = ['g']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Calculate the value of 5 squared.",
+      "new symbolic struct": "[[var k = 5 ** 2]]\n[[question r = ['k']]]",
+      "answer": "25",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-103-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var g = (3 ** 2)]]\n[[question k = ['g']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "If we reconsider the previous concept but instead use 3 as the base, what would be the value of 3 squared?",
+      "new symbolic struct": "[[var k = 3 ** 2]]\n[[question r = ['k']]]",
+      "answer": "9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-104-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var k = (8 ** 2)]]\n[[question e = ['k']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 8 raised to the power 2?",
+      "new symbolic struct": "[[var p = 8 ** 2]]\n[[question r = ['p']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-104-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var k = (7 ** 2)]]\n[[question e = ['k']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the square of 7?",
+      "new symbolic struct": "[[var s = 7 ** 2]]\n[[question t = ['s']]]",
+      "answer": "49",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-105-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (8 ** 3)]]\n[[question x = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value when 8 is raised to the power of 3?",
+      "new symbolic struct": "[[var a = 8 ** 3]]\n[[question b = ['a']]]",
+      "answer": "512",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-105-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var w = (7 ** 3)]]\n[[question x = ['w']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "In the previous problem, you calculated the value when 8 was raised to the power of 3. What would the value be if instead we raise 7 to the power of 3?",
+      "new symbolic struct": "[[var c = 7 ** 3]]\n[[question d = ['c']]]",
+      "answer": "343",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-107-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var m = (3 ** 3)]]\n[[question d = ['m']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 3 raised to the power of 3?",
+      "new symbolic struct": "[[var x = 3 ** 3]]\n[[question y = ['x']]]",
+      "answer": "27",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-107-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var m = (2 ** 3)]]\n[[question d = ['m']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What happens if we change the situation a bit and instead of 3, we use 2 and raise it to the power of 3? What would be the result?",
+      "new symbolic struct": "[[var a = 2 ** 3]]\n[[question b = ['a']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-108-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var t = (9 ** 3)]]\n[[question x = ['t']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the cube of 9?",
+      "new symbolic struct": "[[var w = 9 ** 3]]\n[[question r = ['w']]]",
+      "answer": "729",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-108-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var t = (3 ** 3)]]\n[[question x = ['t']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would the cube be if we considered 3 instead of 9?",
+      "new symbolic struct": "[[var w = 3 ** 3]]\n[[question r = ['w']]]",
+      "answer": "27",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-109-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var a = (9 ** 3)]]\n[[question l = ['a']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of raising 9 to the third power?",
+      "new symbolic struct": "[[var n = 9 ** 3]]\n[[question r = ['n']]]",
+      "answer": "729",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-109-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var a = (3 ** 3)]]\n[[question l = ['a']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "In the previous problem, you found the result of raising 9 to the third power. Now, what if instead of raising 9, you raise 3 to the third power? What would be the result then?",
+      "new symbolic struct": "[[var m = 3 ** 3]]\n[[question s = ['m']]]",
+      "answer": "27",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-110-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var u = (6 ** 3)]]\n[[question o = ['u']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result of 6 raised to the power of 3?",
+      "new symbolic struct": "[[var f = 6 ** 3]]\n[[question r = ['f']]]",
+      "answer": "216",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-110-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var u = (10 ** 3)]]\n[[question o = ['u']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "\"What would be the result if instead of raising 6 to the power of 3, we raised 10 to the power of 3?\"",
+      "new symbolic struct": "[[var z = 10 ** 3]]\n[[question t = ['z']]]",
+      "answer": "1000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-112-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var h = (9 ** 2)]]\n[[question s = ['h']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is 9 squared, or 9^2?",
+      "new symbolic struct": "[[var n = 9 ** 2]]\n[[question r = ['n']]]",
+      "answer": "81",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-112-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var h = (4 ** 2)]]\n[[question s = ['h']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would the result be if we squared a smaller number, like 4^2?",
+      "new symbolic struct": "[[var s = 4 ** 2]]\n[[question r = ['s']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-113-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var u = (5 ** 3)]]\n[[question a = ['u']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Evaluate the expression 5^3.",
+      "new symbolic struct": "[[var a = 5 ** 3]]\n[[question b = ['a']]]",
+      "answer": "125",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-114-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (8 ** 2)]]\n[[question e = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 8 raised to the power of 2?",
+      "new symbolic struct": "[[var a = 8 ** 2]]\n[[question val = ['a']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-114-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (10 ** 2)]]\n[[question e = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Continuing from the previous question, what would be the value if instead of 8 raised to the power of 2, we now have 10 raised to the power of 2?",
+      "new symbolic struct": "[[var a = 8 ** 2]]\n[[var b = 10 ** 2]]\n[[question val = ['b']]]",
+      "answer": "100",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-115-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var s = (10 ** 3)]]\n[[question p = ['s']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value when 10 is raised to the power of 3?",
+      "new symbolic struct": "[[var w = 10 ** 3]]\n[[question z = ['w']]]",
+      "answer": "1000",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-115-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var s = (2 ** 3)]]\n[[question p = ['s']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Based on the previous problem, let's consider a different scenario. What will be the value when 2 raised to the power of 3 instead of 10?",
+      "new symbolic struct": "[[var a = 2 ** 3]]\n[[question y = ['a']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-116-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var z = (9 ** 3)]]\n[[question h = ['z']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 9 raised to the power of 3?",
+      "new symbolic struct": "[[var a = 9 ** 3]]\n[[question res = ['a']]]",
+      "answer": "729",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-116-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var z = (7 ** 3)]]\n[[question h = ['z']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Now reflect on the previous problem but this time think about what would happen if it was 7 that was raised to the power of 3. What would be the value then?",
+      "new symbolic struct": "[[var b = 7 ** 3]]\n[[question ans = ['b']]]",
+      "answer": "343",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-117-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var a = (7 ** 3)]]\n[[question n = ['a']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 7^3?",
+      "new symbolic struct": "[[var p = 7 ** 3]]\n[[question k = ['p']]]",
+      "answer": "343",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-117-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var a = (1 ** 3)]]\n[[question n = ['a']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if there was only 1 number instead of 7, and it was raised to the power of 3?",
+      "new symbolic struct": "[[var p = 1 ** 3]]\n[[question k = ['p']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-118-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var t = (5 ** 3)]]\n[[question x = ['t']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 5 raised to the power of 3?",
+      "new symbolic struct": "[[var a = 5 ** 3]]\n[[question val = ['a']]]",
+      "answer": "125",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-118-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var t = (2 ** 3)]]\n[[question x = ['t']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "In the previous problem, we evaluated what happens when 5 is raised to the power of 3. Now, suppose we had started with 2 instead of 5. What would be the result if 2 were raised to the power of 3?",
+      "new symbolic struct": "[[var b = 2 ** 3]]\n[[question result = ['b']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-119-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (7 ** 3)]]\n[[question s = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the value of 7^3?",
+      "new symbolic struct": "[[var t = 7 ** 3]]\n[[question r = ['t']]]",
+      "answer": "343",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-119-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var p = (9 ** 3)]]\n[[question s = ['p']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "Following on from the previous question, what would the outcome be if we replaced 7 with 9 in our exponent calculation? In other words, what is the value of 9^3?",
+      "new symbolic struct": "[[var u = 9 ** 3]]\n[[question s = ['u']]]",
+      "answer": "729",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.A.1-120-0",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (1 ** 5)]]\n[[question b = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What is the result when 1 is raised to the 5th power?",
+      "new symbolic struct": "[[var a = 1 ** 5]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.EE.A.1-120-2",
+      "standard": "6.EE.A.1",
+      "symbolic-struct": "[[var o = (1 ** 9)]]\n[[question b = ['o']]]\nmath concept: Write a question about evaluating exponents.",
+      "statement": "What would be the result if 1 is raised to the 9th power instead of the 5th power?",
+      "new symbolic struct": "[[var c = 1 ** 9]]\n[[question d = ['c']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ]
+]

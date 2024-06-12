@@ -1,0 +1,2002 @@
+[
+  [
+    {
+      "id": "K.CC.C.7-0-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question p = ['10 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with <, >, or = to compare the numbers in the following:\n\n10 _ 7",
+      "new symbolic struct": "[[question m = ['10 _ 7']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-0-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question p = ['10 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Assume the number of gold coins in a treasure chest is 10 and the number of silver coins is 3. Fill in the blank with <, >, or = to demonstrate the comparison between the two quantities:\n\n10 _(gold coins) 3 (silver coins)",
+      "new symbolic struct": "[var a = '10 (gold coins)']\n[var b = '3 (silver coins)']\n[question c = ['a _ b']]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-1-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question w = ['10 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers using <, >, or =.\n10 _ 8",
+      "new symbolic struct": "[[question m = ['10 _ 8']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-1-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question w = ['9 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Now consider a situation in which we change the previous comparison. Let's say instead of 10, you now have 9. How does this change the comparison?\nComplete the following: 9 _ 8. Fill in the blank with <, >, or =.",
+      "new symbolic struct": "[[question n = ['9 _ 8']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-2-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question p = ['3 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Determine the relationship between the numbers by filling in the blank with either <, >, or =. Here is your question: \n3 _ 7",
+      "new symbolic struct": "[[question a = ['3 _ 7 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-2-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question p = ['5 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the change in our previous situation. If originally there were 5 cats and 7 dogs in the park, we compared the number of each. Now let's say there are 5 rabbits instead of the cats. Fill in the blank with <, >, or = to compare in this new situation:\n\n5 _ 7",
+      "new symbolic struct": "[[question b = ['5 _ 7']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-3-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question u = ['4 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "In the following problem, fill in the blank with <, >, or = to make a correct statement:\n4 _ 1",
+      "new symbolic struct": "[[question a = ['4 _ 1 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-3-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question u = ['4 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the following situation as a follow-up to the previous problem. If we look at it this way: \n4 _ 7\nFill in the blank with <, >, or = to correctly compare the two numbers again just like you did the first time.",
+      "new symbolic struct": "[[question a = ['4 _ 1 ']],\n [question b = ['4 _ 7 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-4-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['8 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Complete the following statement by filling in the blank with <, >, or =. \n8 _ 8",
+      "new symbolic struct": "[[question n = ['8 _ 8']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-4-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['8 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "As a follow up to the previous question where you compared value of two identical numbers (8 _ 8), consider now the following:\n\nFill in the blank with <, >, or = to compare two different numbers:\n8 _ 7",
+      "new symbolic struct": "[[question m = ['8 _ 7']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-5-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['8 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "In the following question, complete the comparison by filling in the blank with <, >, or =. \n\n8 _ 8",
+      "new symbolic struct": "[[question l = ['8 _ 8']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-5-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['8 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "In a similar manner, consider this follow-up question:\n\n8 _ 2 \n\nComplete the comparison by filling in the blank with <, >, or =.",
+      "new symbolic struct": "[[question l = ['8 _ 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-6-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question m = ['8 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following digits by filling in the blank with <, >, or =.\n8 _ 4",
+      "new symbolic struct": "[[question a = ['8 _ 4 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-6-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question m = ['8 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the previous problem where you compared the numbers 8 and 4. Now let's change the second number to 2. \n\nFill in the blank with <, >, or = to compare the two numbers.\n8 _ 2",
+      "new symbolic struct": "[[var a = '8 _ 4'], [question b = ['8 _ 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-7-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question g = ['8 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare these two numbers by filling in the blank with one of these operators: <, >, or =.\n8 _ 10",
+      "new symbolic struct": "[[question b = ['8 _ 10']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-7-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question g = ['4 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Following up on our previous comparison, now consider these two numbers and fill in the blank with one of these operators: <, >, or =.\n4 _ 10 \n\nFor instance, if in our previous question we were comparing the heights of two trees (8 feet and 10 feet respectively), this question would now be comparing a shrub of 4 feet to that same 10 feet tree. Which symbol would be appropriate now?",
+      "new symbolic struct": "[[question d = ['4 _ 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-8-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question x = ['2 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with <, >, or = . \n\n2 _ 1",
+      "new symbolic struct": "[[question d = ['2 _ 1']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-8-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question x = ['5 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Now, consider the following: \n\n5 _ 1\n\nHow does this comparison change if we change the first number from 2 to 5? Fill in the blank with <, >, or =.",
+      "new symbolic struct": "[[question e = ['5 _ 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-9-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question m = ['9 _ 9']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the following with the appropriate symbol (<, >, =):\n\n9 _ 9",
+      "new symbolic struct": "[[question m = ['9 _ 9']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-9-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question m = ['9 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "After comparing 9 _ 9 in the previous problem, let's change one number. Now compare the numbers in the following:\n\n9 _ 2",
+      "new symbolic struct": "[[question n = ['9 _ 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-10-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['2 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers and fill in the blank with either <, >, or = to make a true statement:\n\n2 _ 10",
+      "new symbolic struct": "[[question a = ['2 _ 10 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-10-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['2 _ 9']]]\nmath concept: Compare two numbers.",
+      "statement": "Now, let's revise the last question. Instead of comparing 2 and 10, we are going to compare 2 and 9. Fill in the blank with either <, >, or = to make a true statement:\n\n2 _ 9",
+      "new symbolic struct": "[[question a = ['2 _ 9 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-11-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question w = ['7 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with the correct element, <, >, or =, to compare the numbers in the phrase \n\n7 _ 7",
+      "new symbolic struct": "[[question m = ['7 _ 7']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-11-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question w = ['7 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Considering our previous example, if there were 7 cookies in one jar and 7 cookies in another jar, now suppose there are only 2 cookies in the second jar. Use the symbols <, >, or = to compare the number of cookies in the two jars. Fill in the following statement:\n\n7 _ 2",
+      "new symbolic struct": "[[question n = ['7 _ 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-12-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['7 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank to compare these two numbers. Use either <, >, or =.\n7 _ 8",
+      "new symbolic struct": "[[question n = ['7 _ 8']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-12-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['7 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Earlier, you compared the numbers 7 and 8. Now, consider this change. Fill in the blank to compare these two numbers. Use either <, >, or =.\n7 _ 5",
+      "new symbolic struct": "[[question n = ['7 _ 5']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-13-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question x = ['8 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "Please compare the following numbers by inserting the correct symbol (<, >, or =) \n\n8 _ 6",
+      "new symbolic struct": "[[question m = ['8 _ 6']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-13-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question x = ['8 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Reconsider the previous comparison, but now compare the following:\n\n8 _ 10\n\nInsert the correct symbol (<, >, or =) to accurately compare the numbers.",
+      "new symbolic struct": "[[question n = ['8 _ 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-14-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question r = ['2 _ 9']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following numbers by filling in the blank with <, >, or =. \n2 _ 9",
+      "new symbolic struct": "[[question a = ['2 _ 9 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-14-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question r = ['2 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Recall the previous problem where we compared the numbers 2 and 9. Now suppose you replace the number 9 with the number 4. What would the comparison look like now? Fill in the blank with <, >, or =. \n\n2 _ 4",
+      "new symbolic struct": "[[question a = ['2 _ 4 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-15-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question w = ['3 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the statement below with <, >, or = to compare the two numbers.\n\n3 _ 4",
+      "new symbolic struct": "[[question a = ['3 _ 4 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-15-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question w = ['3 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Continuing from the previous comparison, now consider two new numbers:\n\n3 _ 8\n\nFill in the blank with <, >, or = to complete the comparison. For example, if previously you were comparing the heights of two trees, consider this comparison for a scenario where the first tree is now shorter, standing at 3 meters instead of 4. How does this change your comparison?",
+      "new symbolic struct": "[[question b = ['3 _ 8']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-16-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question y = ['3 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following two numbers by filling in the blank with <, >, or =: \n\n3 _ 7",
+      "new symbolic struct": "[[question a = ['3 _ 7']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-16-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question y = ['1 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Suppose we now change the numbers in the previous question. Fill in the blank with <, >, or = :\n\n1 _ 7\n\nIf the previous question involved comparing 3 apples and 7 oranges, consider this as a follow-up question contemplating what would happen if there were originally only 1 apple instead of 3.",
+      "new symbolic struct": "[[question b = ['1 _ 7']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-17-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['2 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare these numbers by filling in the blank with the appropriate symbol (<, >, or =): \n\n2 _ 2",
+      "new symbolic struct": "[[question l = ['2 _ 2']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-17-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['2 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the following change to the previous numbers: \n\n2 _ 5\n\nIf before we compared two identical numbers (2 and 2), now let's compare a smaller number with a larger one. Fill in the blank with the appropriate symbol: <, >, or =.",
+      "new symbolic struct": "[[question m = ['2 _ 5']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-18-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['2 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the numbers by filling in the blank with either <, >, or =.\n2 _ 10",
+      "new symbolic struct": "[[question m = ['2 _ 10']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-18-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['10 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Following the previous comparison, let's consider another one. If in the last problem, 2 represented the number of apples you saw and 10 represented the number of oranges, suppose now the scenario changes. You now observe that the number of apples is the same as the number of oranges. How would you compare these two quantities? Write it in this form:\n10 _ 10",
+      "new symbolic struct": "[[question n = ['10 _ 10']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-19-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['1 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare these numbers by putting an appropriate symbol (<, >, or =) in the blank:\n\n1 _ 1",
+      "new symbolic struct": "[[question l = ['1 _ 1']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-19-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['7 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "In the previous problem, you compared the numbers 1 and 1. Now, adjust your thinking and compare the numbers 7 and 1. Fill in the gap with the correct symbol (<, >, or =):\n\n7 _ 1",
+      "new symbolic struct": "[[question l = ['7 _ 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-20-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['3 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Complete the following task by choosing the correct comparison symbol (<, >, =): \n\n3 _ 4",
+      "new symbolic struct": "[[question cmp = ['3 _ 4']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-20-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['3 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the following situation:\n\nIn the previous problem, we compared 3 with 4. Now, let's consider a different scenario. How would your answer change if instead of comparing 3 with 4, we compared 3 with itself? \n\nSo, your task is to fill in the blank with the appropriate symbol (<, >, =):\n\n3 _ 3",
+      "new symbolic struct": "[[question cmp = ['3 _ 3']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-21-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question m = ['2 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with one of the following symbols: <, >, or = . \n\n2 _ 10",
+      "new symbolic struct": "[[question g = ['2 _ 10 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-21-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question m = ['4 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Now consider this scenario: \n\nInstead of 2, we now have 4. Fill in the blank with one of the following symbols: <, >, or =.\n\n4 _ 10",
+      "new symbolic struct": "[[question g = ['4 _ 10 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-22-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question h = ['3 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the following equation with one of the symbols \"<\", \">\", \"=\" :\n3 _ 5\n\nWhich expression is correct?",
+      "new symbolic struct": "[[question m = ['3 _ 5']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-22-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question h = ['3 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Using the same concept of comparing numbers, consider this situation:\n\nIn the previous scenario, we compared 3 objects to 5 objects. Now, let's change it up. We have 3 dollars and 2 dollars. \n\nFill in the blank in the following equation with one of the symbols \"<\", \">\", \"=\" :\n3 _ 2\n\nWhich expression is correct?",
+      "new symbolic struct": "[[question n = ['3 _ 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-23-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question d = ['6 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following numbers by filling in the blank with <, >, or =. \n\n6 _ 10",
+      "new symbolic struct": "[[question a = ['6 _ 10']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-23-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question d = ['9 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Following the previous problem, now consider the situation where there are 9 tickets for a concert instead of 6. Fill in the blank with <, >, or = to compare this to the total of 10 tickets originally available. \n\n9 _ 10",
+      "new symbolic struct": "[[question a = ['9 _ 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-24-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question r = ['8 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "In the equation below, compare the values of the numbers by filling in the blank with the appropriate symbol (<, >, or =).\n\n8 _ 7",
+      "new symbolic struct": "[[question m = ['8 _ 7 ']]]\nmath concept: Compare two numbers.",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-24-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question r = ['7 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Now consider the numbers in this comparison:\n\n7 _ 7\n\nSimilar to the previous problem, fill in the blank with the appropriate symbol (<, >, or =) to construct the correct equation. Instead of comparing 8 to 7 as in the previous problem, now we are comparing 7 to itself. What symbol should replace the blank now?",
+      "new symbolic struct": "[[question n = ['7 _ 7 ']]]\nmath concept: Compare two numbers.",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-25-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['7 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Complete the following by choosing from <, >, or =: \n\n7 _ 3",
+      "new symbolic struct": "[[question a = ['7 _ 3 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-25-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['7 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the same scenario as previously mentioned, but this time compare the following numbers instead:\n\n7 _ 2",
+      "new symbolic struct": "[[question a = ['7 _ 2 ']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-26-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question y = ['3 _ 9']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the following mathematical comparison. Determine whether 3 is less than, equal to, or greater than 9 by filling in the blank with the correct symbol (<, =, >) :\n\n3 _ 9",
+      "new symbolic struct": "[[question m = ['3 _ 9']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-26-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question y = ['3 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Following from the previous question where we compared 3 and 9. Now, adjust the comparison to the new numbers. Determine whether 3 is less than, equal to, or greater than 4 by filling in the blank with the correct symbol (<, =, >):\n\n3 _ 4",
+      "new symbolic struct": "[[question n = ['3 _ 4']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-27-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question k = ['7 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Complete the following comparison between the numbers by using <, >, or =:\n\n7 _ 4",
+      "new symbolic struct": "[[question c = ['7 _ 4']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-27-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question k = ['6 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Following up on the previous question comparing 7 and 4, now compare the following two numbers using the symbols <, > or =:\n\n6 _ 4",
+      "new symbolic struct": "[[var c = '7 _ 4'], [question d = '6 _ 4']]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-28-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question r = ['2 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with the right symbol (>, <, =) to correctly compare these two numbers: 2 _ 7",
+      "new symbolic struct": "[[question a = ['2 _ 7 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-28-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question r = ['2 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Following up on our previous question, let's consider a different set of numbers. Use the correct symbol (>, <, =) to compare these two numbers: 2 _ 8",
+      "new symbolic struct": "[[question a = ['2 _ 8 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-29-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question l = ['7 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Please complete the following comparison.\n7 _ 8\nFill in the blank with one of these symbols: <, >, =.",
+      "new symbolic struct": "[[question m = ['7 _ 8']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-29-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question l = ['7 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Let's consider a variation of the previous problem. This time, compare:\n7 _ 2\nAgain, fill in the blank with one of these symbols: <, >, =. Think about how this is similar to, and different from, the previous comparison between 7 and 8.",
+      "new symbolic struct": "[[question n = ['7 _ 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-30-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question d = ['9 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following two numbers by filling in the blank with either <, >, or =.\n\n9 _ 7",
+      "new symbolic struct": "[[question a = ['9 _ 7 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-30-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question d = ['8 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "In the previous problem, we compared the numbers 9 and 7. Now, consider this new scenario:\n\n8 _ 7\n\nFill in the blank with <, >, or = to correctly compare these two numbers.",
+      "new symbolic struct": "[[question b = ['8 _ 7']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-31-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['8 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the following two numbers: \n8 _ 5\nCompare the two numbers by filling in the blank with <, >, or =.",
+      "new symbolic struct": "[[question m = ['8 _ 5 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-31-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['8 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider this change: \n8 _ 10\nNow compare these two numbers by filling in the blank with <, >, or =. In the previous task, the number 8 was greater than 5. How about now when it's 8 compared to 10?",
+      "new symbolic struct": "[[question n = ['8 _ 10 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-32-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['2 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers by filling in the blank with either <, >, or =:\n2 _ 5",
+      "new symbolic struct": "[[question a = ['2 _ 5 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-32-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['2 _ 9']]]\nmath concept: Compare two numbers.",
+      "statement": "Considering the change from the previous problem, compare the following numbers by filling in the blank with either <, >, or =. How would your answer change if it was:\n2 _ 9 instead of 2 _ 5?",
+      "new symbolic struct": "[[question a = ['2 _ 9 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-33-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question f = ['10 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the following comparison with either a <, >, or =. \n\n10 _ 3",
+      "new symbolic struct": "[[question z = ['10 _ 3']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-33-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question f = ['10 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "In the last question, you compared the numbers 10 and 3. Now, let's compare 10 to a different number. Fill in the blank to make the comparison accurate:\n\n10 _ 6",
+      "new symbolic struct": "[[question z1 = ['10 _ 6']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-34-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['7 _ 9']]]\nmath concept: Compare two numbers.",
+      "statement": "Place the correct symbol in the blank to compare these two numbers. \n7 _ 9\nIs it a <, >, or = ?",
+      "new symbolic struct": "[[question k = ['7 _ 9']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-34-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['3 _ 9']]]\nmath concept: Compare two numbers.",
+      "statement": "Building on the previous question, consider this scenario: \nInstead of having 7 toys to compare, let's say a child only has 3 toys. Now compare this number with 9 using the appropriate symbol. So, complete this:\n3 _ 9\nwith one of the symbols <, >, or =.",
+      "new symbolic struct": "[[question w = ['3 _ 9']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-35-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question k = ['6 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Complete the following problem using <, >, or =:\n6 _ 10",
+      "new symbolic struct": "[[question m = ['6 _ 10']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-35-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question k = ['4 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Continuing from the previous problem, consider this:\n\nInstead of comparing 6 and 10, what if we are comparing 4 and 10? Complete the following problem:\n\n4 _ 10",
+      "new symbolic struct": "[[question n = ['4 _ 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-36-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question x = ['7 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Complete the comparison between the two numbers by filling in the missing symbol: less than (<), greater than (>), or equals (=).\n\n7 _ 10",
+      "new symbolic struct": "[[question m = ['7 _ 10']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-36-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question x = ['1 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Let's consider a modification to the previous question. Instead of comparing 7 and 10, now compare these two numbers:\n\n1 _ 10\n\nRemember, you should fill in the blank with either a lower than (<), greater than (>), or equals (=) to complete the comparison.",
+      "new symbolic struct": "[[question n = ['1 _ 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-37-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['3 _ 9']]]\nmath concept: Compare two numbers.",
+      "statement": "Check the following statement and complete it with the correct sign (<, >, or =):\n\n3 _ 9",
+      "new symbolic struct": "[[question a = ['3 _ 9 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-37-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['3 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Let's consider a new pair of numbers. Again, complete the comparison by filling in the appropriate symbol (<, >, or =):\n\n3 _ 10",
+      "new symbolic struct": "[[question a = ['3 _ 10 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-38-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['5 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers by filling in the blank with <, >, or =.\n\n5 _ 2",
+      "new symbolic struct": "[[question a = ['5 _ 2 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-38-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['5 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Given the change from the previous problem, now compare the following numbers by filling in the blank with <, >, or =.\n\n5 _ 4\n\nDoes the sign change when the number changes from 2 to 4?",
+      "new symbolic struct": "[[question a = ['5 _ 4 ']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-39-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['5 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following numbers by inserting the appropriate sign (<, >, or =) in the blank: \n5 _ 2",
+      "new symbolic struct": "[[question a = ['5 _ 2 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-39-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['5 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "In the previous question, you compared the numbers 5 and 2. Now, consider a new situation: what if there were 5 oranges and 4 apples instead? Fill in the blank with the correct symbol to compare the numbers.\n5 _ 4",
+      "new symbolic struct": "[[question b = ['5 _ 4']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-40-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question q = ['9 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following numbers by filling in the blank with <, >, or =. \n\n9 _ 1",
+      "new symbolic struct": "[[question a = ['9 _ 1 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-40-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question q = ['9 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Continuing from the previous comparison problem where we compared 9 and 1, let's consider a new scenario. Now instead of considering a value of 9, we are considering a value of 3. Please fill in the blank with <, >, or = in the following:\n\n3 _ 1",
+      "new symbolic struct": "[[question a = ['3 _ 1 ']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-41-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question k = ['7 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Determine the relationship between the following numbers:\n\n7 _ 5\n\nFill in the blank space with one of the following symbols: <, > or =.",
+      "new symbolic struct": "[[question a = ['7 _ 5 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-41-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question k = ['3 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider that instead of 7, you now have 3:\n\n3 _ 5\n\nUsing the same symbols as before (<, >, or =), determine the relationship between these two numbers.",
+      "new symbolic struct": "[[question a = ['3 _ 5 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-42-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question n = ['2 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with one of these symbols: <, >, or =. \n2 _ 8. Compare these two numbers based on their values.",
+      "new symbolic struct": "[[question a = ['2 _ 8 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-42-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question n = ['2 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Imagine using the same two numbers instead of different numbers in the previous problem. Now consider this: \n2 _ 2 \nFill in the blank with one of these symbols: <, >, or =. Compare these two numbers based on their values.",
+      "new symbolic struct": "[[question a = ['2 _ 2 ']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-43-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question l = ['6 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the question \n6 _ 7\nwith either a <, >, or = to compare the two numbers.",
+      "new symbolic struct": "[[question w = ['6 _ 7']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-43-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question l = ['6 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Following the previous task where you compared 6 and 7, now try to compare the two numbers in this scenario:\n6 _ 5\n\nRemember, you need to use one of the following symbols to compare: <, >, or =.",
+      "new symbolic struct": "[[question x = ['6 _ 5']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-44-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question r = ['2 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following numbers by filling in the blank with either <, >, or =.\n2 _ 8",
+      "new symbolic struct": "[[question a = ['2 _ 8']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-44-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question r = ['5 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "In the previous problem, you compared the numbers 2 and 8. Using the same comparison concept, fill in the blank in the following question with either <, >, or =.\n5 _ 8",
+      "new symbolic struct": "[[question b = ['5 _ 8']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-45-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['6 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the following equation to compare the values of the numbers:\n6 _ 6",
+      "new symbolic struct": "[[question m = ['6 _ 6']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-45-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['6 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Let's consider a different situation now. Fill in the blank in the following equation to compare the new values of the numbers:\n6 _ 10",
+      "new symbolic struct": "[[question n = ['6 _ 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-46-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['8 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with <, >, or = to compare the numbers in the following:\n8 _ 7",
+      "new symbolic struct": "[[question m = ['8 _ 7']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-46-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['8 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "In a follow-up to the previous question, consider the same comparison but with different numbers. Fill in the blank with <, >, or = to complete the comparison:\n8 _ 2",
+      "new symbolic struct": "[[question n = ['8 _ 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-47-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question q = ['1 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following numbers by filling in the blank with <, >, or =. \n1 _ 8",
+      "new symbolic struct": "[[question a = ['1 _ 8 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-47-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question q = ['2 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Remember the previous comparison where you had to compare the numbers 1 and 8. Now consider a different set of numbers. \n\nFill in the blank with <, >, or = to make the comparison accurate: \n2 _ 8",
+      "new symbolic struct": "[[var a = '1 _ 8 '],\n[question b = ['2 _ 8 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-48-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['2 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following numbers by filling in the blank with <, >, or =. \n2 _ 6",
+      "new symbolic struct": "[[question a = ['2 _ 6 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-48-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['2 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "In our previous comparison, we compared 2 and 6. Now consider a new scenario:\nCompare the values of the following numbers by filling in the blank with <, >, or =.\n2 _ 1",
+      "new symbolic struct": "[[var a = '2 _ 6 '],\n [question b = ['2 _ 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-49-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['9 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following numbers by supplying the appropriate symbol (<, >, or =) \n9 _ 4",
+      "new symbolic struct": "[[question b = ['9 _ 4 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-49-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['3 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the following situation: \n\nNow, instead of comparing 9 and 4 as in the previous exercise, you are asked to compare these two different numbers. Fill in the blank with the correct symbol (<, >, or =):\n\n3 _ 4",
+      "new symbolic struct": "[[question c = ['3 _ 4 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-50-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question g = ['9 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with <, >, or = to compare these two numbers: \n9 _ 3",
+      "new symbolic struct": "[[question a = ['9 _ 3 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-50-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question g = ['8 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the quantities from the last problem again. This time, let's compare different numbers. \n\nFill in the blank with <, >, or = to compare these two numbers:\n8 _ 3",
+      "new symbolic struct": "[[question b = ['8 _ 3']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-51-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['4 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill the blank in the following with <, >, or = to correctly compare the numbers.\n4 _ 7",
+      "new symbolic struct": "[[question j = ['4 _ 7']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-51-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['4 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the following scenario:\n\nIn the previous question, we compared the numbers 4 and 7. Now let's change the second number.\n\nCompare the following two numbers again by filling the blank with <, > or =\n\n4 _ 1",
+      "new symbolic struct": "[[question m = ['4 _ 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-52-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['10 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with <, >, or = to compare the two numbers. Here is the problem: \n10 _ 8",
+      "new symbolic struct": "[[question l = ['10 _ 8']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-52-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['10 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the previous comparison of 10 and 8. Now let's alter it slightly. In this case, compare the following two numbers:\n10 _ 1\nFill in the blank with <, >, or =.",
+      "new symbolic struct": "[[question m = ['10 _ 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-53-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question h = ['1 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with <, >, or = to compare these two numbers:\n1 _ 10",
+      "new symbolic struct": "[[question a = ['1 _ 10']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-53-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question h = ['9 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Considering the previous comparison between 1 and 10, let's now compare the following two numbers:\n9 _ 10\nFill in the blank with <, >, or = to compare these numbers.",
+      "new symbolic struct": "[[question a_previous = ['1 _ 10']],\n[var a = ['9 _ 10']],\n[question a_new = ['9 _ 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-54-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question x = ['8 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Complete the following expression with the appropriate symbol (<, >, or =):\n\n8 _ 7",
+      "new symbolic struct": "[[question c = ['8 _ 7']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-54-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question x = ['1 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the change in the following number comparison:\n\n1 _ 7\n\nJust as how we compared 8 to 7 before, now compare 1 to 7 using the appropriate symbol (<, >, or =).",
+      "new symbolic struct": "[[question d = ['1 _ 7']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-55-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question o = ['10 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers by placing <, >, or = in the blank space.\n\n10 _ 3",
+      "new symbolic struct": "[[question l = ['10 _ 3']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-55-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question o = ['4 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Following the previous comparison, examine the following set of numbers and fill in the blank with <, >, or = to compare them.\n\n4 _ 3",
+      "new symbolic struct": "[[question l = ['4 _ 3']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-56-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['2 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following numbers by filling in the blank with <, >, or =. \n2 _ 7",
+      "new symbolic struct": "[[question a = ['2 _ 7']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-56-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['10 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Now, imagine if instead of 2, you had 10 items to start with. Compare that to the originally given 7 items by filling in the blank with <, >, or =. \n10 _ 7",
+      "new symbolic struct": "[[question b = ['10 _ 7']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-57-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question l = ['3 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Determine how the values of the following numbers compare. Fill in the blank with <, >, or =: \n\n3 _ 2",
+      "new symbolic struct": "[[question l = ['3 _ 2']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-57-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question l = ['3 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Imagine you had 3 apples instead of 2 from the previous problem. With this change, how do the numbers compare now? Fill in the blank with <, >, or =.\n\n3 _ 3",
+      "new symbolic struct": "[[question l = ['3 _ 3']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-58-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['10 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the following statement using <, >, or = to compare the two numbers:\n10 _ 5",
+      "new symbolic struct": "[[question k = ['10 _ 5']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-58-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['2 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "In the previous problem, you compared 10 and 5. Now, consider a different scenario: \n\nFill in the blank in the following statement using <, >, or = to compare the two numbers:\n2 _ 5",
+      "new symbolic struct": "[[question k = ['10 _ 5']],\n [question j = ['2 _ 5']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-59-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question h = ['3 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the two numbers by filling in the blank with <, >, or =.\n3 _ 6",
+      "new symbolic struct": "[[question b = ['3 _ 6']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-59-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question h = ['7 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "Following the same concept of comparing numbers, consider the following question:\nCompare the values by filling in the blank with <, >, or =. \n7 _ 6",
+      "new symbolic struct": "[[question c = ['7 _ 6']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-60-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['7 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the following comparison with <, >, or =:\n\n7 _ 2",
+      "new symbolic struct": "[[question k = ['7 _ 2']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-60-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['7 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the previous comparison between 7 and 2. How would the comparison change if we now compare 7 and 1 instead? Please fill in the blank with <, >, or =:\n\n7 _ 1",
+      "new symbolic struct": "[[question z = ['7 _ 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-61-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['5 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following pair of numbers by inserting <, >, or = in the gap.\n5 _ 4",
+      "new symbolic struct": "[[question a = ['5 _ 4 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-61-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['1 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Remember the previous situation where we compared 5 and 4. Now, let's consider a situation where we only have 1 instead of 5. So, compare the following pair of numbers by inserting <, >, or = in the gap.\n1 _ 4",
+      "new symbolic struct": "[[question a = ['5 _ 4 ']],\n[var b = '1'],\n[question c = ['b _ 4']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-62-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['1 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the numbers by filling in the blank with <, >, or =:\n\n1 _ 3",
+      "new symbolic struct": "[[question b = ['1 _ 3']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-62-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['10 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Continuing from the previous exercise where you compared 1 and 3, modify the comparison. This time, compare the following numbers by filling in the blank with <, >, or =:\n\n10 _ 3",
+      "new symbolic struct": "[[question c = ['10 _ 3']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-63-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question d = ['7 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "Determine the relationship between the following two numbers by filling in the blank with <, >, or =.\n7 _ 6",
+      "new symbolic struct": "[[question l = ['7 _ 6']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-63-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question d = ['4 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the following change in the structure of the previous problem. \n\nNow compare the following two numbers, filling in the blank with <, >, or =.\n4 _ 6\n\nWhat changes with this new comparison compared to when we were evaluating 7 _ 6?",
+      "new symbolic struct": "[[question l = ['4 _ 6']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-64-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question o = ['6 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers by placing <, > or = in the blank.\n6 _ 3",
+      "new symbolic struct": "[[question a = ['6 _ 3 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-64-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question o = ['2 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Now consider the following. Instead of 6 in the previous comparison, use 2 instead. Fill in the blank with either <, >, or = to properly compare the two numbers.\n\n2 _ 3",
+      "new symbolic struct": "[[question a = ['2 _ 3 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-65-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question u = ['1 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Determine which symbol (<, >, or =) should be used to accurately compare these you numbers:\n1 _ 7",
+      "new symbolic struct": "[[question a = ['1 _ 7 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-65-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question u = ['6 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Continuing from the previous problem, adjust the first number and now decide which symbol (<, >, or =) should be used to compare these two numbers:\n6 _ 7",
+      "new symbolic struct": "[[var a = '1 _ 7'],\n [question b = ['6 _ 7']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-66-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question l = ['8 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the following comparison:\n8 _ 3\nUse either <, >, or = to correctly compare the two numbers.",
+      "new symbolic struct": "[[question k = ['8 _ 3']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-66-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question l = ['8 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Considering our earlier comparison of 8 and 3, let's change one of the numbers. Now, let's fill in the correct symbol (<, >, or =) in the following comparison:\n8 _ 1",
+      "new symbolic struct": "[[var a = '8 _ 3'],\n[question b = ['8 _ 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-67-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['3 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with <, >, or = to complete the comparison: \n\n3 _ 7",
+      "new symbolic struct": "[[question a = ['3 _ 7 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-67-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['5 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the previous comparison where you compared 3 to 7. Now, instead of 3, let's use 5. Fill in the blank with <, >, or = to complete the new comparison:\n\n5 _ 7",
+      "new symbolic struct": "[[question a = ['3 _ 7 ']],\n[var a1 = '5'],\n[question a2 = ['5 _ 7 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-68-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['9 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the numerical values in the next question and fill in the blank with <, >, or =.\n9 _ 1",
+      "new symbolic struct": "[[question l = ['9 _ 1']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-68-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['9 _ 9']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the previous comparison of numbers, 9 and 1. Now, instead of 1, consider another 9. Make the comparison again by filling in the blank with <, >, or =. \n9 _ 9",
+      "new symbolic struct": "[[question l = ['9 _ 9']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-69-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question q = ['5 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "In the following math problem, compare two numbers and fill in the blank with either <, > or =. \n\n5 _ 1",
+      "new symbolic struct": "[[question s = ['5 _ 1']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-69-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question q = ['9 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Earlier, we compared 5 and 1. Now, consider this comparison instead:\n\n9 _ 1\n\nUsing the symbols <, >, or =, determine the relationship between these two numbers.",
+      "new symbolic struct": "[[var s = '5 _ 1'], [question t = ['9 _ 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-70-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question q = ['4 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers by filling in the blank with <, >, or =.\n4 _ 8",
+      "new symbolic struct": "[[question b = ['4 _ 8']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-70-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question q = ['8 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "In the previous problem, we compared the numbers 4 and 8. Now, consider if both numbers were 8. Fill in the blank with the appropriate symbol (<, >, or =) to compare the numbers. \n\n8 _ 8",
+      "new symbolic struct": "[[question g = ['8 _ 8']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-71-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question f = ['4 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with one of the following signs: <, >, = to compare the two numbers:\n\n4 _ 10",
+      "new symbolic struct": "[[question m = ['4 _ 10']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-71-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question f = ['4 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "As a follow up to the previous comparison, let's consider another pair of numbers. Fill the blank with one of the following signs: <, >, = to compare these two numbers:\n\n4 _ 2",
+      "new symbolic struct": "[[question n = ['4 _ 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-72-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question v = ['5 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers by filling in the blank with <, >, or =:\n5 _ 5",
+      "new symbolic struct": "[[question k = ['5 _ 5']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-72-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question v = ['5 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Now consider the following comparison:\n\n5 _ 10\n\nJust as before, fill in the blank with <, >, or =. This time, think about how your conclusion would change if you compared 5 to 10 instead of comparing 5 to 5.",
+      "new symbolic struct": "[[question m = ['5 _ 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-73-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question l = ['4 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following two numbers by filling in the blank with either <, >, or =.\n4 _ 8",
+      "new symbolic struct": "[[question a = ['4 _ 8 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-73-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question l = ['6 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Considering the earlier problem where you compared 4 and 8, now let's compare a new set of numbers. Fill in the blank in the following problem statement with <, >, or =:\n6 _ 8",
+      "new symbolic struct": "[[question b = ['6 _ 8']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-74-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['8 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank to compare the two numbers: \n\n8 _ 3 \n\nYou can use <, >, or =.",
+      "new symbolic struct": "[[question b = ['8 _ 3']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-74-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['2 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the following: \n\nInstead of 8, you now only have 2 items. Fill in the blank to compare the two quantities:\n\n2 _ 3 \n\nYou can use <, >, or =.",
+      "new symbolic struct": "[[question c = ['2 _ 3']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-75-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['1 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers by filling in the blank with <, >, or =. \n1 _ 5",
+      "new symbolic struct": "[[question a = ['1 _ 5 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-75-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question b = ['3 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "After comparing 1 and 5, let's look at a similar scenario. Consider the numbers below and fill in the blank to correctly compare them: \n3 _ 5",
+      "new symbolic struct": "[[question a = ['3 _ 5 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-76-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question m = ['4 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the operation in the expression\n4 _ 5\nChoose from the operations <, >, or = to compare these two numbers accurately.",
+      "new symbolic struct": "[[question l = ['4 _ 5 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-76-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question m = ['5 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "In following up to the previous question, now consider the new values and fill in the missing operation again:\n5 _ 5 \nChoose from <, >, or = to correctly indicate the comparison of these two numbers. Does the relationship change from the previous problem where the comparison was 4 _ 5?",
+      "new symbolic struct": "[[question n = ['5 _ 5 ']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-77-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question f = ['7 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following two numbers by filling in the blank with <, >, or =.\n7 _ 8",
+      "new symbolic struct": "[[question a = ['7 _ 8 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-77-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question f = ['7 _ 9']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the comparison you just made between 7 and 8. Now, let's change one of the numbers. Compare the following two numbers by filling in the blank with <, >, or =.\n\n7 _ 9",
+      "new symbolic struct": "[[question a = ['7 _ 9 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-78-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['3 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following two numbers by putting either <, >, or = in between:\n\n3 _ 5",
+      "new symbolic struct": "[[question a = ['3 _ 5 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-78-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['3 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the same scenario as before, but now the number has changed. Compare the following two numbers by putting either <, >, or = in between:\n\n3 _ 6",
+      "new symbolic struct": "[[question b = ['3 _ 6 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-79-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['10 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Determine whether 10 is less than, greater than, or equal to 4. Use the symbols <, >, or = to fill in the blank:\n10 _ 4",
+      "new symbolic struct": "[[question t = ['10 _ 4']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-79-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question t = ['10 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "In continuation to the previous problem where you compared 10 with 4, now determine whether 10 is less than, greater than, or equal to 6. Use the symbols <, >, or = to fill in the blank:\n10 _ 6",
+      "new symbolic struct": "[[question t1 = ['10 _ 4'], question t2 = ['10 _ 6']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-80-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question y = ['9 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "Decide whether the following inequality is true or false by filling in the blank space with <, >, or =.\n9 _ 6",
+      "new symbolic struct": "[[question a = ['9 _ 6 ']]]\nmath concept: Compare two numbers.",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-80-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question y = ['9 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Considering the previous scenario, now see if this inequality is true or false by filling in the blank with <, >, or =.\n9 _ 2",
+      "new symbolic struct": "[[question b = ['9 _ 2 ']]]\nmath concept: Compare two numbers.",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-81-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question w = ['1 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with <, >, or = to compare the numbers:\n1 _ 7",
+      "new symbolic struct": "[[question m = ['1 _ 7']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-81-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question w = ['5 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "In the first question, you were asked to compare the numbers 1 and 7. Now, let's consider a slight change. Assume that instead of one item, you had five items initially. \nFill in the blank with <, >, or = to compare the numbers:\n5 _ 7",
+      "new symbolic struct": "[[question n = ['5 _ 7']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-82-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question v = ['9 _ 5']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank with '<', '>', or '=' to make a correct comparison between these two numbers:\n9 _ 5",
+      "new symbolic struct": "[[question a = ['9 _ 5 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-82-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question v = ['9 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Following the previous question where you compared 9 and 5, now consider a new scenario. Fill in the blank with '<', '>', or '=' to make a correct comparison between these two numbers:\n9 _ 8",
+      "new symbolic struct": "[[question a = ['9 _ 8 ']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-83-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question x = ['10 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Determine the relationship between the two numbers by filling in the blank with <, >, or =.\n10 _ 2",
+      "new symbolic struct": "[[question m = ['10 _ 2']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-83-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question x = ['10 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the same scenario as before but this time compare these two numbers.\n10 _ 6",
+      "new symbolic struct": "[[question n = ['10 _ 6']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-84-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question p = ['3 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Determine which symbol to place between the following two numbers to accurately compare them: \n3 _ 8 \nThe symbol can either be <, >, or =.",
+      "new symbolic struct": "[[question p = ['3 _ 8']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-84-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question p = ['9 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Determine which symbol to place between the following two numbers to accurately compare them: \n9 _ 8 \nThe symbol can either be <, >, or =.\n\nRecall the previous question where we were comparing 3 and 8. Now consider what happens if the first number changes to 9 instead of 3. How would you compare 9 and 8?",
+      "new symbolic struct": "[[question p = ['3 _ 8'], question q = ['9 _ 8']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-85-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question k = ['3 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers: \n\n3 _ 8 \n\nFill in the blank with either <, >, or =.",
+      "new symbolic struct": "[[question a = ['3 _ 8 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-85-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question k = ['3 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "Continuing from the previous question where you compared 3 and 8, now let's consider a slight change. \n\nCompare the following numbers: \n\n3 _ 4\n\nFill in the blank with either <, >, or =. What changes when 8 is replaced by 4?",
+      "new symbolic struct": "[[question b = ['3 _ 4']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-86-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question p = ['6 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following numbers by filling in the blank with <, >, or =.\n6 _ 1",
+      "new symbolic struct": "[[question a = ['6 _ 1 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-86-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question p = ['6 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the values of the following numbers by filling in the blank with <, >, or =.\n6 _ 3 \nThis continues from the previous problem, now consider if the number was 6 and we are comparing it to 3 instead of 1.",
+      "new symbolic struct": "[[question a = ['6 _ 3 ']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-87-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['10 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "In the following comparison, fill in the blank with either <, >, or =:\n10 _ 2",
+      "new symbolic struct": "[[question l = ['10 _ 2']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-87-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['10 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the same comparison as before, but this time replace the number 2 with 1. What would the comparison be between 10 _ 1? Fill in the blank with either <, >, or =.",
+      "new symbolic struct": "[[question l = ['10 _ 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-88-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question h = ['5 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers by filling in the blank with <, >, or =: \n\n5 _ 1",
+      "new symbolic struct": "[[question m = ['5 _ 1 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-88-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question h = ['10 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Now consider a similar comparison, but this time with different numbers\n\n10 _ 1\n\nHow does this comparison change compared to the previous comparison (5 _ 1)? Fill in the blank with <, >, or = to complete the comparison.",
+      "new symbolic struct": "[[question n = ['10 _ 1 ']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-89-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question u = ['8 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the following question with either <, >, or = to compare the two numbers: \n\n8 _ 3",
+      "new symbolic struct": "[[question k = ['8 _ 3 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-89-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question u = ['8 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the original challenge where you compared 8 and 3. Now, think about what would happen if you were to compare 8 to a different number. Fill in the blank with <, >, or = in the following: \n\n8 _ 10",
+      "new symbolic struct": "[[question l = ['8 _ 10 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-90-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question k = ['4 _ 6']]]\nmath concept: Compare two numbers.",
+      "statement": "Determine the relationship between the two numbers by filling in the blank with <, >, or =. \n4 _ 6",
+      "new symbolic struct": "[[question a = ['4 _ 6 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-90-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question k = ['4 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Re-evaluate the relationship between the two numbers by filling in the blank with <, >, or =. If the number were changed, how would the result differ? \n4 _ 1",
+      "new symbolic struct": "[[question a = ['4 _ 1 ']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-91-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['6 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers by filling in the blank with <, >, or =.\n6 _ 1",
+      "new symbolic struct": "[[question b = ['6 _ 1 ']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-91-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question i = ['3 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Considering the last problem where you compared 6 and 1, now consider a different scenario. Compare the following numbers by filling in the blank with <, >, or =.\n3 _ 1",
+      "new symbolic struct": "[[question c = ['3 _ 1 ']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-92-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question f = ['7 _ 3']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the equation below with <, >, or = to compare the two numbers:\n\n7 _ 3",
+      "new symbolic struct": "[[question m = ['7 _ 3']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-92-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question f = ['7 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Consider the scenario from the previous problem, but now, instead of comparing 7 and 3, we are comparing two identical numbers. \n\nFill in the blank in the equation below with <, >, or = to compare the two numbers:\n\n7 _ 7",
+      "new symbolic struct": "[[question n = ['7 _ 7']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-93-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question y = ['8 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Complete the following statement by substituting the blank with <, > or =.\n8 _ 8",
+      "new symbolic struct": "[[question l = ['8 _ 8']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-93-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question y = ['9 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Following the previous comparison, let's consider a new pair of numbers. Fill in the blank in the question:\n9 _ 8\nwith either a <, >, or = to compare these two numbers.",
+      "new symbolic struct": "[[question m = ['9 _ 8']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-94-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question u = ['3 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following numbers by filling in the blank with the correct symbol (>, <, or =):\n3 _ 1",
+      "new symbolic struct": "[[question l = ['3 _ 1']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-94-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question u = ['2 _ 1']]]\nmath concept: Compare two numbers.",
+      "statement": "Continuing from the previous problem, now consider these two numbers:\n2 _ 1\n\nJust like before, fill in the blank with the correct symbol (>, <, or =) to compare the two numbers.",
+      "new symbolic struct": "[[question l = ['2 _ 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-95-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['7 _ 2']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare the following two numbers by using either <, >, or =:\n7 _ 2",
+      "new symbolic struct": "[[question a = ['7 _ 2 ']]]\nmath concept: Compare two numbers.",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-95-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question c = ['7 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Now consider the scenario with the same comparison concept: \n\nIs the following statement true or false? \n\"Seven is _ than seven.\" Fill in the blank with either <, >, or =.",
+      "new symbolic struct": "[[question l = ['7 _ 7 ']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-96-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question j = ['4 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Please compare the following numbers by filling in the blank with <, >, or =:\n4 _ 10",
+      "new symbolic struct": "[[question l = ['4 _ 10']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-96-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question j = ['2 _ 10']]]\nmath concept: Compare two numbers.",
+      "statement": "Following up from the previous question where we compared 4 with 10, let's make a slight change.\n\nPlease compare the following numbers by filling in the blank with <, >, or =:\n2 _ 10\n\nConsider the scenario where we only had two items instead of four. Could your comparison from the earlier problem help you in this situation?",
+      "new symbolic struct": "[[question l = ['2 _ 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-97-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question h = ['2 _ 9']]]\nmath concept: Compare two numbers.",
+      "statement": "Please compare these two numbers 2 and 9 using the symbols <, >, or =. Complete the following equation:\n2 _ 9",
+      "new symbolic struct": "[[question a = ['2 _ 9 ']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-97-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question h = ['2 _ 4']]]\nmath concept: Compare two numbers.",
+      "statement": "In the above comparison you made between 2 and 9, now let's change the second number. Suppose we change the number 9 to 4. Compare them using the symbols <, >, or =. So, the new equation to solve will be:\n\n2 _ 4",
+      "new symbolic struct": "[[question b = ['2 _ 4 ']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-98-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question w = ['6 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "Compare these two numbers by filling in the blank with <, >, or =: \n6 _ 8",
+      "new symbolic struct": "[[question c = ['6 _ 8']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-98-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question w = ['9 _ 8']]]\nmath concept: Compare two numbers.",
+      "statement": "In the previous problem, you compared the numbers 6 and 8. Now consider a similar comparison:\n\nCompare these two numbers by filling in the blank with <, >, or =: \n9 _ 8",
+      "new symbolic struct": "[[question d = ['9 _ 8']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "K.CC.C.7-99-0",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['8 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "Fill in the blank in the question \n8 _ 7\nwith either a <, >, or = sign to compare the numbers.",
+      "new symbolic struct": "[[question l = ['8 _ 7']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "K.CC.C.7-99-2",
+      "standard": "K.CC.C.7",
+      "symbolic-struct": "[[question a = ['5 _ 7']]]\nmath concept: Compare two numbers.",
+      "statement": "In the previous statement, you compared the numbers 8 and 7. Now consider a different scenario: \n\nFill in the blank in the statement \n5 _ 7\nwith either a <, >, or = sign to compare the numbers. How does this comparison differ from the earlier one?",
+      "new symbolic struct": "[[var l1 = '8 _ 7'],\n[var l2 = '5 _ 7'],\n[question comparision = ['l1', 'l2']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ]
+]

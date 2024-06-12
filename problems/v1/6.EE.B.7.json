@@ -1,0 +1,1102 @@
+[
+  [
+    {
+      "id": "6.EE.B.7-0-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 12 = (6 + k)]]\n[[question c = ['k']]]\ntheme: Binoculars",
+      "statement": "James has a pair of binoculars that allows him to see 12 miles. If the basic binoculars only see 6 miles, how much additional distance does James's binoculars cover?",
+      "new symbolic struct": "[[var 12 = 6 + d]]\n[[question k = ['d']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-1-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 641 = (l + 284)]]\n[[question x = ['l']]]\ntheme: Ball",
+      "statement": "A box has 641 balls in total. If 284 of those balls are yellow, how many balls are not yellow?",
+      "new symbolic struct": "[[var 641 = 284 + q]]\n[[question k = ['q']]]",
+      "answer": "357",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-2-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 355 = (44 + i)]]\n[[question h = ['i']]]\ntheme: Ball",
+      "statement": "In a bag, there are total 355 balls. If there are already 44 green balls, how many red balls should be added to the bag?",
+      "new symbolic struct": "[[var 355 = 44 + r]]\n[[question k = ['r']]]",
+      "answer": "311",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-3-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 601 = (321 + b)]]\n[[question x = ['b']]]\ntheme: Toy car",
+      "statement": "In a toy shop, there is a total of 601 toy cars. If 321 toy cars are blue, how many toy cars are not blue?",
+      "new symbolic struct": "[[var 601 = 321 + c]]\n[[question k = ['c']]]",
+      "answer": "280",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-4-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 7592 = (104 * t)]]\n[[question j = ['t']]]\ntheme: Mouse",
+      "statement": "A certain breed of mouse has a metabolic rate such that it needs to consume 104 food units every day. If a group of these mice require 7592 units of food for one day, how many mice are there in the group?",
+      "new symbolic struct": "[[var 7592 = 104 * m]]\n[[question n = ['m']]]",
+      "answer": "73",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-6-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 311 = (d + 159)]]\n[[question h = ['d']]]\ntheme: Jungle gym",
+      "statement": "In a park, there are 311 kids playing. If 159 of them are playing on the jungle gym, how many kids are not using the jungle gym?",
+      "new symbolic struct": "[[var 311 = 159 + q]]\n[[question k = ['q']]]",
+      "answer": "152",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-7-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 168 = (166 + m)]]\n[[question v = ['m']]]\ntheme: Food",
+      "statement": "In a basket, there are 168 apples. If a person just added 166 apples, how many apples were there in the basket before they were added?",
+      "new symbolic struct": "[[var 168 = 166 + a]]\n[[question b = ['a']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-8-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 380 = (333 + x)]]\n[[question e = ['x']]]\ntheme: Dragon",
+      "statement": "In a fantasy world, a dragon currently owns 380 gold coins in his treasure pile. If he had previously collected 333 gold coins, how many gold coins did he just add to his treasure pile?",
+      "new symbolic struct": "[[var 380 = 333 + r]]\n[[question g = ['r']]]",
+      "answer": "47",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-10-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 9234 = (171 * q)]]\n[[question i = ['q']]]\ntheme: Drum",
+      "statement": "An accomplished drummer practices 9234 beats per day. If they play each drum solo 171 times a day, how many beats do they play during each solo?",
+      "new symbolic struct": "[[var 9234 = 171 * s]]\n[[question k = ['s']]]",
+      "answer": "54",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-11-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 373 = (55 + z)]]\n[[question s = ['z']]]\ntheme: Tiger",
+      "statement": "A zoo has 373 tigers in total. If the zoo added 55 new tigers and that made the total number of tigers 373, how many tigers were there in the zoo before the new ones arrived?",
+      "new symbolic struct": "[[var 373 = 55 + t]]\n[[question b = ['t']]]",
+      "answer": "318",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-12-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 352 = (182 + t)]]\n[[question h = ['t']]]\ntheme: Sunglasses",
+      "statement": "A sunglasses store has 352 pairs of sunglasses in total. If 182 pairs are for men, how many pairs are for women?",
+      "new symbolic struct": "[[var 352 = 182 + s]]\n[[question k = ['s']]]",
+      "answer": "170",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-14-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 157 = (e + 1)]]\n[[question a = ['e']]]\ntheme: Cloud",
+      "statement": "If the cloudiness index of city A was 1 point more than city B and city A had a cloudiness index of 157, what was the cloudiness index of city B?",
+      "new symbolic struct": "[[var 157 = 1 + b]]\n[[question k = ['b']]]",
+      "answer": "156",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-15-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 3660 = (60 * g)]]\n[[question k = ['g']]]\ntheme: UFO",
+      "statement": "A UFO was captured flying at a consistent speed. It was calculated that it traveled 3660 kilometers in 60 minutes. What was the speed of the UFO in kilometers per minute?",
+      "new symbolic struct": "[[var 3660 = k * 60]]\n[[question r = ['k']]]",
+      "answer": "61",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-16-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 655 = (q + 386)]]\n[[question w = ['q']]]\ntheme: Juice",
+      "statement": "You have a juice store that has a total of 655 bottles of juice. If 386 are apple juice, how many bottles of other types of juice are there?",
+      "new symbolic struct": "[[var 655 = 386 + j]]\n[[question k = ['j']]]",
+      "answer": "269",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-17-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 401 = (m + 82)]]\n[[question f = ['m']]]\ntheme: Star",
+      "statement": "In a faraway galactic system a star radiates energy at 401 units per hour. If this amount includes 82 background units, how much energy does the star itself radiate per hour?",
+      "new symbolic struct": "[[var 401 = 82 + e]]\n[[question x = ['e']]]",
+      "answer": "319",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-18-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 414 = (78 + c)]]\n[[question d = ['c']]]\ntheme: Grapes",
+      "statement": "A farmer had 414 grapes. After selling 78 of them, how many grapes do they have left?",
+      "new symbolic struct": "[[var 414 = 78 + g]]\n[[question k = ['g']]]",
+      "answer": "336",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-19-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 107 = (d + 34)]]\n[[question y = ['d']]]\ntheme: Candy",
+      "statement": "In a candy store, there are 107 total lollipops. If there are 34 apple-flavored lollipops, how many lollipops are of other flavors?",
+      "new symbolic struct": "[[var 107 = 34 + l]]\n[[question k = ['l']]]",
+      "answer": "73",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-20-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 352 = (b + 36)]]\n[[question e = ['b']]]\ntheme: Tent",
+      "statement": "In a summer camp, there is a huge tent which takes up a total space of 352 square meters. If the space inside the tent is 36 square meters lesser than the total space, what is the actual inner space of the tent?",
+      "new symbolic struct": "[[var 352 = 36 + i]]\n[[question s = ['i']]]",
+      "answer": "316",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-21-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 95 = (c + 27)]]\n[[question v = ['c']]]\ntheme: Drum",
+      "statement": "In a drumming competition, the total score a participant can earn is 95 points. If a drummer received a score of 27 points less than the total possible score, what was their score?",
+      "new symbolic struct": "[[var 95 = s + 27]]\n[[question e = ['s']]]",
+      "answer": "68",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-23-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 211 = (29 + a)]]\n[[question q = ['a']]]\ntheme: Wizard",
+      "statement": "In a magical world, a wizard cast a spell which resulted in 211 magical sparks. If he started with 29 sparks, how many sparks did his spell create?",
+      "new symbolic struct": "[[var 211 = 29 + s]]\n[[question t = ['s']]]",
+      "answer": "182",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-24-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 327 = (231 + f)]]\n[[question j = ['f']]]\ntheme: Police",
+      "statement": "A police station has 327 police officers in total. If 231 officers are in the detective department, how many officers make up the rest of the police station's personnel?",
+      "new symbolic struct": "[[var 327 = 231 + p]]\n[[question r = ['p']]]",
+      "answer": "96",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-25-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 5536 = (16 * w)]]\n[[question e = ['w']]]\ntheme: Jungle gym",
+      "statement": "There are 5536 bars in total to construct a large jungle gym. If each section of the jungle gym requires 16 bars, how many sections can be constructed?",
+      "new symbolic struct": "[[var 5536 = 16 * n]]\n[[question s = ['n']]]",
+      "answer": "346",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-26-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 9282 = (d * 91)]]\n[[question h = ['d']]]\ntheme: Mermaid",
+      "statement": "A mermaid finds 9282 beautiful seashells during her 91-day vacation. How many seashells does she find each day?",
+      "new symbolic struct": "[[var 9282 = 91 * s]]\n[[question shells_per_day = ['s']]]",
+      "answer": "102",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-27-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 726 = (345 + s)]]\n[[question y = ['s']]]\ntheme: Phone",
+      "statement": "John had 726 contacts in his phone. If he previously had 345, how many new contacts did he add?",
+      "new symbolic struct": "[[var 726 = 345 + n]]\n[[question c = ['n']]]",
+      "answer": "381",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-28-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 540 = (u + 191)]]\n[[question m = ['u']]]\ntheme: River",
+      "statement": "A river's length is 540 kilometers. If the upper part of the river is 191 kilometers, what is the length of the lower part of the river?",
+      "new symbolic struct": "[[var 540 = 191 + l]]\n[[question k = ['l']]]",
+      "answer": "349",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-29-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 348 = (c + 219)]]\n[[question y = ['c']]]\ntheme: Farmer",
+      "statement": "If a farmer stored some apples and the total count became 348 after adding another 219 apples, how many apples did the farmer initially have?",
+      "new symbolic struct": "[[var 348 = a + 219]]\n[[question k = ['a']]]",
+      "answer": "129",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-30-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 258 = (7 + g)]]\n[[question f = ['g']]]\ntheme: Paint",
+      "statement": "An artist uses 258 bottles of paint in a month. If she has used 7 bottles already, how many more does she need to meet her monthly goal?",
+      "new symbolic struct": "[[var 258 = 7 + p]]\n[[question k = ['p']]]",
+      "answer": "251",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-31-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 334 = (124 + n)]]\n[[question c = ['n']]]\ntheme: Helicopter",
+      "statement": "A helicopter started flying at an elevation of 124 feet. It continued to ascend until it reached an altitude of 334 feet. How many feet did the helicopter ascend after the initial 124 feet?",
+      "new symbolic struct": "[[var 334 = 124 + h]]\n[[question a = ['h']]]",
+      "answer": "210",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-32-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 161 = (g + 22)]]\n[[question p = ['g']]]\ntheme: Boat",
+      "statement": "A sailor is 22 miles into his journey and ends up 161 miles away from his starting point. How much farther did he travel from the point he was at 22 miles?",
+      "new symbolic struct": "[[var 161 = 22 + d]]\n[[question r = ['d']]]",
+      "answer": "139",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-33-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 482 = (q + 357)]]\n[[question k = ['q']]]\ntheme: Ice cream",
+      "statement": "An ice cream shop made a total of 482 ice cream scoops. If 357 of those scoops are vanilla, how many scoops of other flavors did the shop make?",
+      "new symbolic struct": "[[var 482 = 357 + q]]\n[[question k = ['q']]]",
+      "answer": "125",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-34-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 113 = (105 + t)]]\n[[question i = ['t']]]\ntheme: Circus",
+      "statement": "During a circus performance, a juggler tossed 113 juggling balls into the air. If she started with 105 balls, how many additional balls did she add to the routine?",
+      "new symbolic struct": "[[var 113 = 105 + a]]\n[[question k = ['a']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-35-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 267 = (p + 80)]]\n[[question f = ['p']]]\ntheme: Ring",
+      "statement": "A jeweler has a total of 267 gemstones. If 80 of these gemstones have already been attached to rings, how many gemstones has the jeweler not yet attached to any rings?",
+      "new symbolic struct": "[[var 267 = 80 + g]]\n[[question k = ['g']]]",
+      "answer": "187",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-36-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 743 = (r + 357)]]\n[[question j = ['r']]]\ntheme: Car",
+      "statement": "A car can drive a total of 743 miles on its full tank. If the first half of the tank will get it 357 miles, how many miles will the second half of the tank get it?",
+      "new symbolic struct": "[[var 743 = 357 + d]]\n[[question m = ['d']]]",
+      "answer": "386",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-37-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 447 = (273 + h)]]\n[[question e = ['h']]]\ntheme: Circus",
+      "statement": "In a circus, a juggling act has a total of 447 pieces to juggle. If 273 pieces are already in use, how many extra pieces do they have left?",
+      "new symbolic struct": "[[var 447 = 273 + p]]\n[[question e = ['p']]]",
+      "answer": "174",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-39-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 396 = (2 * s)]]\n[[question c = ['s']]]\ntheme: Glasses",
+      "statement": "At an eyewear shop, there are 396 eyeglasses. If all the eyeglasses are manufactured in pairs, how many pairs of eyeglasses does the shop have?",
+      "new symbolic struct": "[[var 396 = p * 2]]\n[[question k = ['p']]]",
+      "answer": "198",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-40-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 366 = (d + 314)]]\n[[question x = ['d']]]\ntheme: Wind",
+      "statement": "You're attempting to measure the wind speed in knots. Today, your device indicates a speed of 366 knots. Knowing that the device happens to add 314 knots to the actual speed due to a calibration error, can you calculate the actual wind speed today?",
+      "new symbolic struct": "[[var 366 = 314 + a]]\n[[question actual_speed = ['a']]]",
+      "answer": "52",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-41-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 139 = (f + 126)]]\n[[question j = ['f']]]\ntheme: Door",
+      "statement": "A door manufacturer has a target to make 139 doors today. If they have already made 126 doors, how many more do they need to make to reach their target?",
+      "new symbolic struct": "[[var 139 = 126 + d]]\n[[question t = ['d']]]",
+      "answer": "13",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-42-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 200 = (x + 8)]]\n[[question n = ['x']]]\ntheme: Friend",
+      "statement": "If you have 200 pictures and your friend gives you 8 more, how many pictures did you start with?",
+      "new symbolic struct": "[[var 200 = x + 8]]\n[[question y = ['x']]]",
+      "answer": "192",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-43-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 195 = (95 + p)]]\n[[question l = ['p']]]\ntheme: Police",
+      "statement": "The police department has a total of 195 officers. If 95 of those officers are on vacation, how many are on active duty?",
+      "new symbolic struct": "[[var 195 = 95 + a]]\n[[question k = ['a']]]",
+      "answer": "100",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-44-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 578 = (z + 206)]]\n[[question a = ['z']]]\ntheme: Word",
+      "statement": "In a Word document, there are a total of 578 words in it. If you know that you already wrote 206 words, how many more words will you have to write?",
+      "new symbolic struct": "[[var 578 = 206 + w]]\n[[question k = ['w']]]",
+      "answer": "372",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-45-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 498 = (i + 251)]]\n[[question b = ['i']]]\ntheme: Helicopter",
+      "statement": "A helicopter is carrying supplies for a total weight of 498 pounds. If the gear, excluding the weight of the supplies, weighs 251 pounds, how many pounds of supplies is the helicopter carrying?",
+      "new symbolic struct": "[[var 498 = 251 + s]]\n[[question q = ['s']]]",
+      "answer": "247",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-46-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 632 = (b + 271)]]\n[[question u = ['b']]]\ntheme: Teacher",
+      "statement": "In a school, there are 632 books in total. If the English teacher has 271 of those books, how many books do the other teachers have?",
+      "new symbolic struct": "[[var 632 = 271 + b]]\n[[question o = ['b']]]",
+      "answer": "361",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-47-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 161 = (142 + z)]]\n[[question v = ['z']]]\ntheme: Bubble",
+      "statement": "In a bubble-making competition, a contestant created 161 bubbles. If he already had 142 bubbles and then blew more, how many additional bubbles did he blow?",
+      "new symbolic struct": "[[var 161 = 142 + b]]\n[[question n = ['b']]]",
+      "answer": "19",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-48-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 254 = (41 + p)]]\n[[question v = ['p']]]\ntheme: Chicken",
+      "statement": "In a chicken farm, there are 254 chickens. If there were originally 41 chickens and the rest were newly hatched, how many chickens were newly hatched?",
+      "new symbolic struct": "[[var 254 = 41 + h]]\n[[question k = ['h']]]",
+      "answer": "213",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-50-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 619 = (b + 227)]]\n[[question s = ['b']]]\ntheme: Unicorn",
+      "statement": "In the magical land of unicorns, there are 619 unicorns in total. If 227 of those unicorns are baby unicorns, how many unicorns are grown adults?",
+      "new symbolic struct": "[[var 619 = 227 + a]]\n[[question k = ['a']]]",
+      "answer": "392",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-51-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 425 = (298 + z)]]\n[[question n = ['z']]]\ntheme: Money",
+      "statement": "If the total amount of money in your bank account is $425, and $298 of it is still available after paying bills, how much did you spend on bills?",
+      "new symbolic struct": "[[var 425 = 298 + b]]\n[[question k = ['b']]]",
+      "answer": "127",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-53-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 127 = (29 + w)]]\n[[question r = ['w']]]\ntheme: Eraser",
+      "statement": "After sharpening a number of pencils, a total of 127 bits of eraser were cut off. If 29 of them came from blue pencils, how many came from red pencils?",
+      "new symbolic struct": "[[var 127 = 29 + b]]\n[[question b = ['b']]]",
+      "answer": "98",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-54-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 399 = (j + 262)]]\n[[question o = ['j']]]\ntheme: Watch",
+      "statement": "Angela's watch is fast by 262 minutes. If it is showing a time that's 399 minutes later than it actually is, then how many minutes ahead was it initially set?",
+      "new symbolic struct": "[[var 399 = 262 + m]]\n[[question n = ['m']]]",
+      "answer": "137",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-55-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 1891 = (61 * d)]]\n[[question o = ['d']]]\ntheme: Fireplace",
+      "statement": "In a fireplace factory, a special type of fireplace is produced. If 1891 fireplaces were produced in a certain period of time and each day during that period produced 61 fireplaces, how many days did this period last?",
+      "new symbolic struct": "[[var 1891 = 61 * d]]\n[[question t = ['d']]]",
+      "answer": "31",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-56-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 497 = (266 + j)]]\n[[question g = ['j']]]\ntheme: Star",
+      "statement": "A star in the outer space is emitting 497 units of light in total. If 266 units are perceived by our naked eye, how many units of light are only detected by special instruments?",
+      "new symbolic struct": "[[var 497 = 266 + i]]\n[[question l = ['i']]]",
+      "answer": "231",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-57-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 508 = (f + 142)]]\n[[question a = ['f']]]\ntheme: Chocolate",
+      "statement": "In a chocolate factory, a mixer made 508 kg chocolate mixture for the day. If the chocolate without the added flavorings weighted 142 kg, how much kg of flavorings did the mixer add to the chocolate?",
+      "new symbolic struct": "[[var 508 = 142 + f]]\n[[question k = ['f']]]",
+      "answer": "366",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-59-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 327 = (4 + a)]]\n[[question d = ['a']]]\ntheme: Butterfly",
+      "statement": "A butterfly has 327 spots on its wings. If we subtract 4 from the number of spots, we will get another kind of butterfly. How many spots does this new type of butterfly have?",
+      "new symbolic struct": "[[var 327 = s + 4]]\n[[question t = ['s']]]",
+      "answer": "323",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-60-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 402 = (261 + i)]]\n[[question y = ['i']]]\ntheme: Watch",
+      "statement": "The price of a luxury wristwatch is $402. If the manufacturing cost of the watch is $261, how much is the profit gained from selling the watch?",
+      "new symbolic struct": "[[var 402 = 261 + p]]\n[[question k = ['p']]]",
+      "answer": "141",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-61-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 4082 = (d * 157)]]\n[[question e = ['d']]]\ntheme: House",
+      "statement": "A house needs 4082 bricks for its front wall. If each row utilizes 157 bricks, how many rows of bricks were used to complete the wall?",
+      "new symbolic struct": "[[var 4082 = 157 * r]]\n[[question k = ['r']]]",
+      "answer": "26",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-62-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 344 = (67 + h)]]\n[[question l = ['h']]]\ntheme: Teacher",
+      "statement": "A teacher has 344 books. If she already had 67 books and was given some more as a gift, how many books did she receive as a gift?",
+      "new symbolic struct": "[[var 344 = 67 + g]]\n[[question k = ['g']]]",
+      "answer": "277",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-63-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 524 = (i + 376)]]\n[[question h = ['i']]]\ntheme: Police",
+      "statement": "In a police department, 524 police officers are currently on the force. If 376 of them are on duty, how many officers are off duty?",
+      "new symbolic struct": "[[var 524 = 376 + q]]\n[[question k = ['q']]]",
+      "answer": "148",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-65-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 1190 = (q * 35)]]\n[[question f = ['q']]]\ntheme: Tomato",
+      "statement": "A farmer counted that he has 1190 tomatoes overall. If each of his tomato plants produced exactly 35 tomatoes, how many tomato plants does the farmer have?",
+      "new symbolic struct": "[[var 1190 = 35 * p]]\n[[question t = ['p']]]",
+      "answer": "34",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-66-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 297 = (280 + a)]]\n[[question z = ['a']]]\ntheme: Chair",
+      "statement": "In a furniture showroom, there are a total of 297 chairs. If 280 of these chairs are wooden, how many chairs are not made of wood?",
+      "new symbolic struct": "[[var 297 = 280 + n]]\n[[question k = ['n']]]",
+      "answer": "17",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-67-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 1504 = (q * 32)]]\n[[question m = ['q']]]\ntheme: Cat",
+      "statement": "A cat catches 32 mice every day. If the cat catches a total of 1504 mice, how many days did it take the cat to catch all the mice?",
+      "new symbolic struct": "[[var 1504 = 32 * d]]\n[[question k = ['d']]]",
+      "answer": "47",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-68-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 440 = (a + 325)]]\n[[question e = ['a']]]\ntheme: Bubble",
+      "statement": "A bubble blower machine blows 440 bubbles in one minute. If it blows 325 bubbles in the first half minute, how many bubbles does it blow in the second half minute?",
+      "new symbolic struct": "[[var 440 = 325 + b]]\n[[question k = ['b']]]",
+      "answer": "115",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-69-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 430 = (261 + y)]]\n[[question g = ['y']]]\ntheme: Truck",
+      "statement": "A truck has a total weight capacity of 430 kg. If 261 kg is already being used up, how much more weight can it carry?",
+      "new symbolic struct": "[[var 430 = 261 + q]]\n[[question k = ['q']]]",
+      "answer": "169",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-70-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 554 = (156 + s)]]\n[[question t = ['s']]]\ntheme: Cheese",
+      "statement": "If a cheesemaker has 554 kilograms of cheese and it includes 156 kilograms of cheddar cheese, how many kilograms of the remaining cheese is not cheddar cheese?",
+      "new symbolic struct": "[[var 554 = 156 + c]]\n[[question k = ['c']]]",
+      "answer": "398",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-71-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 433 = (t + 71)]]\n[[question r = ['t']]]\ntheme: Cow",
+      "statement": "A dairy farm has 433 cows in total. If 71 of them are still calves, how many of them are fully grown adult cows?",
+      "new symbolic struct": "[[var 433 = 71 + a]]\n[[question k = ['a']]]",
+      "answer": "362",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-72-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 8640 = (i * 45)]]\n[[question l = ['i']]]\ntheme: Wind",
+      "statement": "In a wind-turbine farm, there's a turbine which is able to generate 8640 kWh of electricity everyday when wind speed is steady at 45 kph. How many kWh does each kph of wind speed generate?",
+      "new symbolic struct": "[[var 8640 = 45 * w]]\n[[question p = ['w']]]",
+      "answer": "192",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-73-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 5040 = (t * 45)]]\n[[question d = ['t']]]\ntheme: Crayon",
+      "statement": "A crayon factory is running a special production line that produces 5040 crayons in one day by operating for 't' hours. If the factory machine can produce 45 crayons every hour, for how many hours was the machine operating?",
+      "new symbolic struct": "[[var 5040 = 45 * t]]\n[[question k = ['t']]]",
+      "answer": "112",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-74-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 298 = (h + 201)]]\n[[question p = ['h']]]\ntheme: Hat",
+      "statement": "In a hat store, there are 298 hats in total. If 201 of those hats are baseball hats, how many are not baseball hats?",
+      "new symbolic struct": "[[var 298 = 201 + h]]\n[[question k = ['h']]]",
+      "answer": "97",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-75-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 242 = (v * 22)]]\n[[question t = ['v']]]\ntheme: Cucumber",
+      "statement": "A particular type of cucumber plant produces 242 cucumbers. If each plant has 22 fruits, how many plants are there?",
+      "new symbolic struct": "[[var 242 = 22 * p]]\n[[question c = ['p']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-76-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 750 = (359 + i)]]\n[[question s = ['i']]]\ntheme: Rain",
+      "statement": "A city received 750 millimeters of rainfall during the monsoon season. If, in the first half of the season, there were 359 millimeters of rainfall, how much rainfall did the city receive in the second half of the season?",
+      "new symbolic struct": "[[var 750 = 359 + r]]\n[[question s = ['r']]]",
+      "answer": "391",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-77-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 573 = (c + 254)]]\n[[question u = ['c']]]\ntheme: Balloon",
+      "statement": "The weight of a fully inflated balloon is 573 grams. If the weight of the balloon itself is 254 grams, what is the weight of the air inside the balloon?",
+      "new symbolic struct": "[[var 573 = 254 + a]]\n[[question w = ['a']]]",
+      "answer": "319",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-78-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 434 = (179 + s)]]\n[[question z = ['s']]]\ntheme: Balloon",
+      "statement": "A balloon seller just inflated a new batch of balloons, bringing the total number of balloons to 434. If the seller had 179 balloons already, how many new balloons did they inflate?",
+      "new symbolic struct": "[[var 434 = 179 + b]]\n[[question r = ['b']]]",
+      "answer": "255",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-79-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 631 = (k + 362)]]\n[[question q = ['k']]]\ntheme: Bus",
+      "statement": "A bus operator counted 631 passengers in total today. If 362 passengers boarded the bus in the morning, how many passengers boarded the bus in the afternoon?",
+      "new symbolic struct": "[[var 631 = 362 + p]]\n[[question a = ['p']]]",
+      "answer": "269",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-80-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 280 = (l + 8)]]\n[[question x = ['l']]]\ntheme: Paint",
+      "statement": "If you added 8 liters of blue paint to some amount of yellow paint to make 280 liters of green paint, how many liters of yellow paint did you use?",
+      "new symbolic struct": "[[var 280 = 8 + p]]\n[[question y = ['p']]]",
+      "answer": "272",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-81-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 419 = (e + 132)]]\n[[question a = ['e']]]\ntheme: Telescope",
+      "statement": "Through a telescope, an astronomer spots 419 celestial bodies in the sky. If 132 of those bodies are discovered to be stars, how many bodies are not stars?",
+      "new symbolic struct": "[[var 419 = 132 + x]]\n[[question y = ['x']]]",
+      "answer": "287",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-82-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 588 = (147 * a)]]\n[[question l = ['a']]]\ntheme: Lion",
+      "statement": "In a wild, one lion is eating 147 pounds of food each week. If the total amount of food eaten in four weeks is 588 pounds, how many weeks is accounted for?",
+      "new symbolic struct": "[[var 588 = 147 * w]]\n[[question k = ['w']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-83-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 4440 = (30 * b)]]\n[[question v = ['b']]]\ntheme: Money",
+      "statement": "John earns money by babysitting. He babysitted for 30 hours and earned a total of 4440 dollars. How much does he earn per hour?",
+      "new symbolic struct": "[[var 4440 = 30 * h]]\n[[question p = ['h']]]",
+      "answer": "148",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-84-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 3360 = (q * 120)]]\n[[question p = ['q']]]\ntheme: Cow",
+      "statement": "If a cow produces 3360 pounds of milk over a period of time and the average amount of milk the cow produces per day is 120 pounds, how many days was the milk collected for?",
+      "new symbolic struct": "[[var 3360 = 120 * d]]\n[[question d = ['d']]]",
+      "answer": "28",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-85-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 380 = (a + 81)]]\n[[question c = ['a']]]\ntheme: Tiger",
+      "statement": "A tiger sanctuary has a total of 380 tigers. If 81 of them are Siberian tigers, how many are non-Siberian tigers?",
+      "new symbolic struct": "[[var 380 = 81 + t]]\n[[question n = ['t']]]",
+      "answer": "299",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-86-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 361 = (151 + i)]]\n[[question c = ['i']]]\ntheme: Wind",
+      "statement": "A wind turbine generated 361 kilowatts of electricity in a day. During the morning, it generated 151 kilowatts. How many kilowatts were generated by the wind turbine in the afternoon?",
+      "new symbolic struct": "[[var 361 = 151 + k]]\n[[question a = ['k']]]",
+      "answer": "210",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-87-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 76 = (41 + y)]]\n[[question q = ['y']]]\ntheme: Rain",
+      "statement": "In a city, the total rainfall over the course of a month was 76mm. If it rained 41mm in the first half of the month, how much did it rain in the second half of the month?",
+      "new symbolic struct": "[[var 76 = 41 + r]]\n[[question k = ['r']]]",
+      "answer": "35",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-88-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 6690 = (30 * w)]]\n[[question c = ['w']]]\ntheme: Park",
+      "statement": "The local park has installed 30 new benches. If the total cost of installation was $6690, what was the cost to install each bench?",
+      "new symbolic struct": "[[var 6690 = 30 * c]]\n[[question cost_per_bench = ['c']]]",
+      "answer": "223",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-89-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 4554 = (m * 46)]]\n[[question t = ['m']]]\ntheme: Mermaid",
+      "statement": "A mermaid found a treasure chest containing 4554 pearls. If she found 46 pearls each time she dived, how many times did she dive to collect all the pearls?",
+      "new symbolic struct": "[[var 4554 = 46 * d]]\n[[question n = ['d']]]",
+      "answer": "99",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-90-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 62 = (m + 28)]]\n[[question p = ['m']]]\ntheme: Butterfly",
+      "statement": "In a garden, there are 62 beautiful butterflies. If 28 of them are painted lady butterflies, how many are not painted lady butterflies?",
+      "new symbolic struct": "[[var 62 = 28 + b]]\n[[question n = ['b']]]",
+      "answer": "34",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-91-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 644 = (310 + z)]]\n[[question v = ['z']]]\ntheme: Princess",
+      "statement": "Princess Serena has a total of 644 charms in her collection. If she gained 310 silver charms over the last year, how many gold charms did she already have in her collection?",
+      "new symbolic struct": "[[var 644 = 310 + g]]\n[[question k = ['g']]]",
+      "answer": "334",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-92-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 276 = (i + 4)]]\n[[question b = ['i']]]\ntheme: Bracelet",
+      "statement": "One of Mary's bracelets is made out of individual pieces, and she counted that there are 276 pieces in total. If Mary only adds pieces in sets of 4, what was the original count of pieces before she added the last set?",
+      "new symbolic struct": "[[var 276 = 4 * c + 4]]\n[[question original_pieces = ['4 * c']]]",
+      "answer": "272",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-93-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 716 = (m + 380)]]\n[[question e = ['m']]]\ntheme: Doll",
+      "statement": "A doll collector has 716 dolls in total. If 380 of those dolls are porcelain dolls, how many dolls are not porcelain?",
+      "new symbolic struct": "[[var 716 = 380 + n]]\n[[question d = ['n']]]",
+      "answer": "336",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-94-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 456 = (228 + y)]]\n[[question c = ['y']]]\ntheme: Guitar",
+      "statement": "A music store has 456 guitars in total. If 228 of those guitars are electric, how many of the guitars are acoustic?",
+      "new symbolic struct": "[[var 456 = 228 + g]]\n[[question a = ['g']]]",
+      "answer": "228",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-95-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 457 = (t + 103)]]\n[[question s = ['t']]]\ntheme: Mountain",
+      "statement": "At the base of a mountain, hikers start at an elevation of 103 meters. By the end of their climb, they reach a total elevation of 457 meters. How many meters did the hikers climb?",
+      "new symbolic struct": "[[var 457 = 103 + d]]\n[[question m = ['d']]]",
+      "answer": "354",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-96-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 264 = (234 + r)]]\n[[question y = ['r']]]\ntheme: Castle",
+      "statement": "In a castle, there are 264 total rooms. If 234 of those rooms are occupied, how many rooms are unoccupied?",
+      "new symbolic struct": "[[var 264 = 234 + u]]\n[[question r = ['u']]]",
+      "answer": "30",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-97-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 359 = (w + 286)]]\n[[question i = ['w']]]\ntheme: Ball",
+      "statement": "In a ball factory, the number of soccer balls is 359. If that number includes 286 made yesterday, how many were made today?",
+      "new symbolic struct": "[[var 359 = 286 + q]]\n[[question k = ['q']]]",
+      "answer": "73",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-98-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 326 = (246 + f)]]\n[[question m = ['f']]]\ntheme: Beach ball",
+      "statement": "There are 326 beach balls at a seaside resort. If one part of the beach already has 246 beach balls, how many beach balls are there in the other part?",
+      "new symbolic struct": "[[var 326 = 246 + b]]\n[[question k = ['b']]]",
+      "answer": "80",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-99-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 9287 = (h * 251)]]\n[[question l = ['h']]]\ntheme: Bus",
+      "statement": "There are 9287 passengers that took the bus this week. If each bus can carry 251 passengers, how many buses were needed to carry all the passengers?",
+      "new symbolic struct": "[[var 9287 = 251 * b]]\n[[question j = ['b']]]",
+      "answer": "37",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-100-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 438 = (69 + q)]]\n[[question h = ['q']]]\ntheme: Cucumber",
+      "statement": "A farmer harvested 438 cucumbers in total. If he previously harvested 69 cucumbers, how many cucumbers did he harvest this time?",
+      "new symbolic struct": "[[var 438 = 69 + h]]\n[[question x = ['h']]]",
+      "answer": "369",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-101-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 424 = (208 + a)]]\n[[question z = ['a']]]\ntheme: Chair",
+      "statement": "In a warehouse, there are 424 chairs. If 208 chairs are already loaded onto the truck, how many chairs are left in the warehouse to be loaded?",
+      "new symbolic struct": "[[var 424 = 208 + c]]\n[[question l = ['c']]]",
+      "answer": "216",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-102-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 198 = (c + 19)]]\n[[question q = ['c']]]\ntheme: Superhero",
+      "statement": "Superhero Flash can run 198 miles in an hour. If the total miles he can run is increased by 19 miles per hour compared to his previous speed, what was his previous speed?",
+      "new symbolic struct": "[[var 198 = p + 19]]\n[[question k = ['p']]]",
+      "answer": "179",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-103-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 727 = (342 + j)]]\n[[question h = ['j']]]\ntheme: Farm",
+      "statement": "On a farm, there are a total of 727 animals. If 342 of those animals are chickens, how many animals are not chickens?",
+      "new symbolic struct": "[[var 727 = 342 + a]]\n[[question n = ['a']]]",
+      "answer": "385",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-104-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 385 = (h + 230)]]\n[[question g = ['h']]]\ntheme: Chocolate",
+      "statement": "A chocolate factory has a daily production of 385 chocolate bars. If 230 bars are dark chocolate, how many bars are milk chocolate?",
+      "new symbolic struct": "[[var 385 = 230 + m]]\n[[question k = ['m']]]",
+      "answer": "155",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-105-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 357 = (289 + z)]]\n[[question s = ['z']]]\ntheme: Mountain",
+      "statement": "The initial altitude of a mountain is 289 meters above sea level but after some tectonic activity, it is now 357 meters above sea level. By how many meters did the altitude increase after the tectonic activity?",
+      "new symbolic struct": "[[var 357 = 289 + a]]\n[[question d = ['a']]]",
+      "answer": "68",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-106-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 4572 = (m * 36)]]\n[[question p = ['m']]]\ntheme: Zoo",
+      "statement": "If a zoo needs 4572 pounds of food to feed every monkey over a month and every single monkey eats 36 pounds of food in a month, how many monkeys are there in the zoo?",
+      "new symbolic struct": "[[var 4572 = 36 * m]]\n[[question z = ['m']]]",
+      "answer": "127",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-107-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 832 = (f * 16)]]\n[[question v = ['f']]]\ntheme: Doll",
+      "statement": "A doll house can hold 16 dolls in each room. If it can house a total of 832 dolls, how many rooms are in the doll house?",
+      "new symbolic struct": "[[var 832 = r * 16]]\n[[question d = ['r']]]",
+      "answer": "52",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.EE.B.7-108-0",
+      "standard": "6.EE.B.7",
+      "symbolic-struct": "[[var 422 = (200 + f)]]\n[[question r = ['f']]]\ntheme: Watch",
+      "statement": "A luxurious watch costs $422. If the manufacturing cost is $200, how much is charged for brand value, sales profits, and other overheads?",
+      "new symbolic struct": "[[var 422 = 200 + x]]\n[[question y = ['x']]]",
+      "answer": "222",
+      "tag": "original problem"
+    }
+  ]
+]

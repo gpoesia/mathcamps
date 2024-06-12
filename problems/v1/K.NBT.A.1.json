@@ -1,0 +1,1102 @@
+[
+  [
+    {
+      "id": "K.NBT.A.1-0-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (3 + p)]]\n[[question r = ['p']]]\ntheme: Dolphin",
+      "statement": "A dolphin trainer has a total of 10 dolphins. 3 of them are mature dolphins while the rest are young dolphins. How many young dolphins does the trainer have?",
+      "new symbolic struct": "[[var d = 10 - 3]]\n[[question y = ['d']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-1-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (4 + o)]]\n[[question c = ['o']]]\ntheme: Friend",
+      "statement": "Sarah had 4 candies. After her friend gave her some more, she had a total of 10 candies. How many candies did her friend give her?",
+      "new symbolic struct": "[[var a = 4]]\n[[var b = 10]]\n[[question c = ['b - a']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-2-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (4 + s)]]\n[[question f = ['s']]]\ntheme: Book",
+      "statement": "There are 10 books put together on a shelf. If 4 of them are fantasy novels, how many of the books are science fiction novels?",
+      "new symbolic struct": "[[var a = 10 - 4]]\n[[question b = ['a']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-3-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (3 + o)]]\n[[question y = ['o']]]\ntheme: Bike",
+      "statement": "Billy has 10 bikes in his shop. If 3 of them are racing bikes, how many of them are mountain bikes?",
+      "new symbolic struct": "[[var y = 10 - 3]]\n[[question z = ['y']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-4-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 16 = (f + 10)]]\n[[question v = ['f']]]\ntheme: Bear",
+      "statement": "Barry the bear has some honey jars. If Barry the bear finds 10 more honey jars, he has a total of 16 honey jars. How many honey jars did Barry the bear have to begin with?",
+      "new symbolic struct": "[[var x = 16 - 10]]\n[[question y = ['x']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-5-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (6 + c)]]\n[[question l = ['c']]]\ntheme: Potato",
+      "statement": "Brad bought 10 kg of potatoes from the store. He had previously consumed 6 kg. How many kg of potatoes does he have left?",
+      "new symbolic struct": "[[var a = 10 - 6]]\n[[question b = ['a']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-6-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (9 + e)]]\n[[question s = ['e']]]\ntheme: Wallet",
+      "statement": "John had 10 dollars in his wallet. After spending 9 dollars, how much money does he have left in his wallet?",
+      "new symbolic struct": "[[var y = 10 - 9]]\n[[question z = ['y']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-7-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (u + 5)]]\n[[question b = ['u']]]\ntheme: Window",
+      "statement": "A building has 10 windows in total. 5 of those windows are on its upper floor. How many windows are there on the lower floor?",
+      "new symbolic struct": "[[var a = 10 - 5]]\n[[question b = ['a']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-8-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 17 = (n + 10)]]\n[[question u = ['n']]]\ntheme: Letter",
+      "statement": "Sean wrote 17 letters. If the number of letters he wrote is equal to the number of letters he wrote yesterday plus 10, how many letters did he write yesterday?",
+      "new symbolic struct": "[[var t = 17 - 10]]\n[[question y = ['t']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-9-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 18 = (e + 10)]]\n[[question x = ['e']]]\ntheme: Skirt",
+      "statement": "Joyce bought a skirt for 10 dollars and she spent some money to get it altered. The total amount she spent for the skirt, including alterations, was 18 dollars. How much did Joyce spend on the alterations?",
+      "new symbolic struct": "[[var y = 18 - 10]]\n[[question z = ['y']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-10-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 16 = (10 + o)]]\n[[question v = ['o']]]\ntheme: Toy",
+      "statement": "Barry had 10 toy cars. He received some more toy cars for his birthday and now he has 16. How many toy cars did he receive for his birthday?",
+      "new symbolic struct": "[[var b = 10]]\n[[var c = 16]]\n[[var d = c - b]]\n[[question e = ['d']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-11-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (u + 1)]]\n[[question a = ['u']]]\ntheme: Ballerina",
+      "statement": "A ballerina has just finished a breathtaking performance and has received 10 bouquets of flowers. If we know that the ballerina received one bouquet from her coach, how many bouquets did she receive from her fans?",
+      "new symbolic struct": "[[var b = 10 - 1]]\n[[question f=['b']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-13-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (6 + n)]]\n[[question z = ['n']]]\ntheme: Number",
+      "statement": "If you start with the number 6 and want to add a number n to it so that it equals 10, what is the value of n?",
+      "new symbolic struct": "[[var n = 10 - 6]]\n[[question value = ['n']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-14-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (8 + g)]]\n[[question e = ['g']]]\ntheme: Elephant",
+      "statement": "An elephant walked 8 miles in the morning. It walked a few more miles in the afternoon to total up its distance to 10 miles. How many miles did the elephant walk in the afternoon?",
+      "new symbolic struct": "[[var a = 10 - 8]]\n[[question b = ['a']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-15-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 13 = (10 + w)]]\n[[question i = ['w']]]\ntheme: Robot",
+      "statement": "A robot needs 10 units of energy to start and run for 1 hour, but to keep running for another hour, it needs additional 'w' units of energy. If the total energy required for the robot to run for 2 hours is 13 units, how many extra units of energy does it need to run for the additional hour?",
+      "new symbolic struct": "[[var x = 10]]\n[[var y = 13]]\n[[var w = y - x]]\n[[question z = ['w']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-17-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 19 = (10 + a)]]\n[[question b = ['a']]]\ntheme: Ice skates",
+      "statement": "There are 19 pairs of ice skates in the shop. If 10 of them are black, how many of them are white?",
+      "new symbolic struct": "[[var w = 19 - 10]]\n[[question x = ['w']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-18-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 17 = (z + 10)]]\n[[question x = ['z']]]\ntheme: Princess",
+      "statement": "A princess has 17 magic gemstones. She uses 10 of them to create a magical shield. How many gemstones does she have left?",
+      "new symbolic struct": "[[var a = 17 - 10]]\n[[question b = ['a']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-19-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 11 = (10 + w)]]\n[[question a = ['w']]]\ntheme: Flower",
+      "statement": "Tim has 10 roses right now. Later, he receives 'w' more roses, totaling his count up to 11 roses. How many roses did Tim receive?",
+      "new symbolic struct": "[[var w = 11 - 10]]\n[[question answer = ['w']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-20-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (1 + n)]]\n[[question a = ['n']]]\ntheme: House",
+      "statement": "There is 10 person in a house including 1 homeowner. How many guests are there in the house?",
+      "new symbolic struct": "[[var x = 10 - 1]]\n[[question y = ['x']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-22-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 19 = (10 + e)]]\n[[question j = ['e']]]\ntheme: Marshmallow",
+      "statement": "Judy has 19 marshmallows in her bag. She had 10 marshmallows initially and then added some more. How many marshmallows did she add in her bag?",
+      "new symbolic struct": "[[var a = 19 - 10]]\n[[question b = ['a']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-23-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (v + 9)]]\n[[question y = ['v']]]\ntheme: Zoo",
+      "statement": "The zoo has 10 monkeys in total. If 9 of them are brown, how many of the monkeys are not brown?",
+      "new symbolic struct": "[[var x = 10 - 9]]\n[[question y = ['x']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-24-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 18 = (10 + h)]]\n[[question i = ['h']]]\ntheme: Ring",
+      "statement": "A jeweler has 10 rings on display. He later adds h more rings to his display and the total number of rings becomes 18. How many rings did the jeweler add?",
+      "new symbolic struct": "[[var h = 18 - 10]]\n[[question i = ['h']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-25-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (f + 9)]]\n[[question h = ['f']]]\ntheme: Snowman",
+      "statement": "A snowman requires 10 lbs of snow for its bottom half. However, the half was initially built with 9 lbs and then more snow was added. How much additional snow was added to the bottom half of the snowman?",
+      "new symbolic struct": "[[var a = 10]]\n[[var b = 9]]\n[[question c = ['a - b']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-26-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (d + 3)]]\n[[question n = ['d']]]\ntheme: Wind",
+      "statement": "A wind speed increases by 3 miles per hour from the morning to the afternoon. If the wind speed in the afternoon is 10 miles per hour, what was the wind speed in the morning?",
+      "new symbolic struct": "[[var a = 10 -3]]\n[[question m = ['a']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-27-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 14 = (h + 10)]]\n[[question i = ['h']]]\ntheme: Candy",
+      "statement": "Jonny had some candies with him. Then his mom gave him 10 more candies. Now, Jonny has a total of 14 candies. How many candies did Jonny initially have?",
+      "new symbolic struct": "[[var a = 14 - 10]]\n[[question j = ['a']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-28-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (c + 5)]]\n[[question b = ['c']]]\ntheme: Window",
+      "statement": "A building has 10 windows in total. If 5 of these are on the ground floor, how many windows are there on the other floors?",
+      "new symbolic struct": "[[var a = 10 - 5]]\n[[question b = ['a']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-29-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 15 = (10 + p)]]\n[[question y = ['p']]]\ntheme: Star",
+      "statement": "A constellation has 10 stars. If the total number of stars in the constellation is 15, then how many more stars were added to it?",
+      "new symbolic struct": "[[var a = 10]]\n[[var b = 15]]\n[[var c = b - a]]\n[[question d = ['c']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-30-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (4 + c)]]\n[[question w = ['c']]]\ntheme: Scooter",
+      "statement": "Max has 4 scooters. His friend lends him some more and now Max has 10 scooters. How many scooters did his friend lend him?",
+      "new symbolic struct": "[[var n = 10 - 4]]\n[[question m = ['n']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-31-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (9 + g)]]\n[[question k = ['g']]]\ntheme: Piano",
+      "statement": "Sam has a piano with 9 working keys. But his piano isn't complete and needs some additional keys. If a complete piano has 10 keys, how many additional keys does Sam's piano need?",
+      "new symbolic struct": "[[var a = 10 - 9]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-32-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 11 = (k + 10)]]\n[[question w = ['k']]]\ntheme: Chair",
+      "statement": "A room initially had 10 chairs. After adding some more, the total count lifts to 11 chairs. How many chairs were added?",
+      "new symbolic struct": "[[var a = 10]]\n[[var b = 11]]\n[[question c = ['b - a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-33-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 12 = (10 + i)]]\n[[question l = ['i']]]\ntheme: Chicken",
+      "statement": "A farmer has 12 chickens on his farm. He brought 10 from the market but the rest were hatched on the farm. How many chickens were hatched on the farm?",
+      "new symbolic struct": "[[var x = 12 - 10]]\n[[question y =['x']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-34-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 19 = (o + 10)]]\n[[question f = ['o']]]\ntheme: Farm",
+      "statement": "At a farm, there are 19 geese in total. In the morning 10 geese were seen at the pond. How many more geese arrived at the pond by the end of the day to make the total number 19?",
+      "new symbolic struct": "[[var g = 19 - 10]]\n[[question h = ['g']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-35-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (a + 8)]]\n[[question m = ['a']]]\ntheme: Turtle",
+      "statement": "A turtle walks a total of 10 feet every morning. If today it started 8 feet ahead of its usual starting position, how far did it walk from that position?",
+      "new symbolic struct": "[[var p = 10 - 8]]\n[[question q = ['p']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-36-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 16 = (10 + v)]]\n[[question p = ['v']]]\ntheme: Letter",
+      "statement": "In a game of scrabble, Jane has 10 letters. She needs 16 letters to spell out the phrase she has planned to get maximum points. How many more letters does she need?",
+      "new symbolic struct": "[[var x = 16 - 10]]\n[[question y = ['x']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-37-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (j + 7)]]\n[[question m = ['j']]]\ntheme: Letter",
+      "statement": "James has some letters in his mail box. After receiving 7 more letters, he finds that he has a total of 10 letters. How many letters were there in James' mailbox originally?",
+      "new symbolic struct": "[[var a = 10 - 7]]\n[[question b = ['a']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-38-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 17 = (10 + t)]]\n[[question g = ['t']]]\ntheme: Glasses",
+      "statement": "A glasses store originally had 10 glasses on display. By the end of the day, the store had 17 glasses on display. How many glasses were added to the display throughout the day?",
+      "new symbolic struct": "[[var a = 17 - 10]]\n[[question b = ['a']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-39-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 13 = (d + 10)]]\n[[question p = ['d']]]\ntheme: Towel",
+      "statement": "A hotel room initially has 13 towels. After some guests leave, there are now 10 remaining. How many towels had the guest taken with them when they left?",
+      "new symbolic struct": "[[var a = 13 - 10]]\n[[question b = ['a']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-40-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 15 = (n + 10)]]\n[[question p = ['n']]]\ntheme: Ring",
+      "statement": "Jane keeps her rings in a jewelry box. If she has 15 rings in total and she had already placed 10 rings in the box, how many more rings does she need to put in the box?",
+      "new symbolic struct": "[[var x = 15 - 10]]\n[[question y = ['x']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-42-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 11 = (10 + s)]]\n[[question p = ['s']]]\ntheme: Bed",
+      "statement": "John has 10 pillows on his bed. He buys some more and after adding them, he has 11 pillows in total on his bed. How many pillows did John buy?",
+      "new symbolic struct": "[[var a = 10]]\n[[var b = 11]]\n[[var c = b - a]]\n[[question d = ['c']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-43-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (2 + j)]]\n[[question d = ['j']]]\ntheme: Alien",
+      "statement": "An alien has 10 eyes but 2 of them got damaged in a battle. How many eyes does the alien have left now?",
+      "new symbolic struct": "[[var x = 10 - 2]]\n[[question y = ['x']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-44-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 18 = (u + 10)]]\n[[question a = ['u']]]\ntheme: Eraser",
+      "statement": "Henry had a certain number of erasers. He then bought 10 more erasers from a store. Now, he has 18 erasers in total. How many erasers did Henry have initially?",
+      "new symbolic struct": "[[var a = 18 - 10]]\n[[question init_erasers = ['a']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-45-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (6 + r)]]\n[[question a = ['r']]]\ntheme: Pants",
+      "statement": "Liam had 10 pairs of pants. He donated 6 pairs, and was left with the rest. How many pairs of pants did he keep?",
+      "new symbolic struct": "[[var p = 10 - 6]]\n[[question q = ['p']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-46-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 12 = (v + 10)]]\n[[question d = ['v']]]\ntheme: Binoculars",
+      "statement": "A scientist sees 12 birds with his binoculars. He first counted 10 in one tree and then noticed the rest on another branch. How many birds were on the other branch?",
+      "new symbolic struct": "[[var a =12 - 10]]\n[[question b = ['a']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-47-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 18 = (10 + o)]]\n[[question p = ['o']]]\ntheme: Sandbox",
+      "statement": "In a sandbox, there are 10 toys buried. When a child stopped playing, it was discovered that there were actually 18 toys. How many toys were missed out or not noticed by the child while playing?",
+      "new symbolic struct": "[[var a = 18 - 10]]\n[[question b = ['a']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-48-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 17 = (10 + n)]]\n[[question o = ['n']]]\ntheme: Door",
+      "statement": "A particular model of a door is installed in 10 rooms of a hotel. If there are 17 rooms with this type of door installed in total, how many more rooms have the same door installed?",
+      "new symbolic struct": "[[var x = 17 - 10]]\n[[question y = ['x']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-49-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 12 = (10 + w)]]\n[[question x = ['w']]]\ntheme: Dolphin",
+      "statement": "A dolphin trainer trains 10 dolphins. He then decides to train some more and ends up with 12 trained dolphins in total. How many additional dolphins did he train?",
+      "new symbolic struct": "[[var x = 12 - 10]]\n[[question y = ['x']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-50-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 11 = (10 + o)]]\n[[question x = ['o']]]\ntheme: Ice cream",
+      "statement": "Tim had 10 scoops of ice cream. He decided to add some more scoops to his ice cream sundae to make it 11 scoops in total. How many additional scoops of ice cream did he add?",
+      "new symbolic struct": "[[var i = 11 - 10]]\n[[question j = ['i']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-51-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 12 = (10 + t)]]\n[[question p = ['t']]]\ntheme: Slide",
+      "statement": "A slide in the park is 12 feet tall. If the top part measures 10 feet, what is the length of the lower section of the slide?",
+      "new symbolic struct": "[[var a = 12 - 10]]\n[[question b = ['a']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-52-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (q + 3)]]\n[[question w = ['q']]]\ntheme: Marshmallow",
+      "statement": "A marshmallow package usually contains 10 pieces. However, after sharing some with her friends, Lila only has 3 marshmallows left. How many marshmallows did she share with her friends?",
+      "new symbolic struct": "[[var a = 10 - 3]]\n[[question b = ['a']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-53-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (e + 6)]]\n[[question c = ['e']]]\ntheme: Guitar",
+      "statement": "John has a guitar with 10 strings. Some of the strings broke, but you know that being left with (e + 6) strings meant the guitar still had 10 strings. What is the value of e, i.e., how many strings were broken?",
+      "new symbolic struct": "[[var e = 10 - 6]]\n[[question e = ['e']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-54-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (4 + a)]]\n[[question w = ['a']]]\ntheme: Game",
+      "statement": "In the first round of a game, Jacob scored 4 points. At the end of this round, his total points scored was 10. How many points did he score in the second round of the game?",
+      "new symbolic struct": "[[var a = 10 - 4]]\n[[question b = ['a']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-55-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (9 + u)]]\n[[question e = ['u']]]\ntheme: Balloon",
+      "statement": "Tommy has 10 balloons, but 9 of them flew away. How many balloons does he have left?",
+      "new symbolic struct": "[[var a = 10 - 9]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-58-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (g + 1)]]\n[[question f = ['g']]]\ntheme: Dolphin",
+      "statement": "In a marine park, the number of dolphins increased by 1 and the total number of dolphins became 10. How many dolphins were there originally in the park?",
+      "new symbolic struct": "[[var d = 10 - 1]]\n[[question o = ['d']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-59-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (d + 5)]]\n[[question h = ['d']]]\ntheme: Treasure",
+      "statement": "A pirate buried a treasure of gold coins in an island. He buried 'd' gold coins and then buried 5 more coins the next day. If the total number of buried coins is 10, how many coins did the pirate bury the first day?",
+      "new symbolic struct": "[[var d = 10 - 5]]\n[[question d = ['d']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-60-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (8 + w)]]\n[[question m = ['w']]]\ntheme: Firefighter",
+      "statement": "A firefighter had to climb 10 flights of stairs to put out the fire. If he already climbed 8 floors, how many more floors does he have left to climb?",
+      "new symbolic struct": "[[var a = 10 - 8]]\n[[question b = ['a']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-61-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (h + 8)]]\n[[question r = ['h']]]\ntheme: Dragon",
+      "statement": "A dragon had 10 scales. But it lost some and now it has 8 scales left. How many scales did the dragon lose?",
+      "new symbolic struct": "[[var s = 10 - 8]]\n[[question t = ['s']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-62-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 18 = (g + 10)]]\n[[question k = ['g']]]\ntheme: Flower",
+      "statement": "A florist has 18 roses in a vase. If she had added 10 roses to what she originally had, how many roses did she have to start with?",
+      "new symbolic struct": "[[var x = 18 - 10]]\n[[question y = ['x']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-63-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 17 = (10 + o)]]\n[[question a = ['o']]]\ntheme: Map",
+      "statement": "On his map, John sees that the distance from his house to the park is 10 miles. If the total distance from his house to the movie theater is 17 miles, how far away is the park from the movie theater?",
+      "new symbolic struct": "[[var d = 17 - 10]]\n[[question d1 = ['d']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-64-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (d + 8)]]\n[[question j = ['d']]]\ntheme: Keys",
+      "statement": "John has 10 keys in total. If 8 of these are house keys, how many of his keys are not house keys?",
+      "new symbolic struct": "[[var a = 10 - 8]]\n[[question b = ['a']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-65-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (z + 1)]]\n[[question u = ['z']]]\ntheme: Crayon",
+      "statement": "You already have a collection of some crayons. You found one more and now you have a total of 10 crayons. How many crayons did you have before you found the extra one?",
+      "new symbolic struct": "[[var x = 10 - 1]]\n[[question y = ['x']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-66-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 11 = (o + 10)]]\n[[question y = ['o']]]\ntheme: Party",
+      "statement": "At a party, there were 10 people initially present. Then, some more people arrived and the total number of people at the party increased to 11. How many extra people arrived at the party?",
+      "new symbolic struct": "[[var a = 11 - 10]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-67-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 11 = (i + 10)]]\n[[question u = ['i']]]\ntheme: Dragon",
+      "statement": "A dragon hoarded a fresh treasure of 11 gold coins in its lair. If it already had 10 gold coins, how many new coins did the dragon add to his hoard?",
+      "new symbolic struct": "[[var a = 11 - 10]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-68-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 16 = (10 + u)]]\n[[question h = ['u']]]\ntheme: Grapes",
+      "statement": "A bunch of grapes has 10 fruits. If we add 'u' more grapes to it, the total number of grapes equals 16. How many grapes do we need to add to the bunch initially containing 10 grapes to make it 16?",
+      "new symbolic struct": "[[var u = 16 - 10]]\n[[question v = ['u']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-69-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 12 = (10 + h)]]\n[[question r = ['h']]]\ntheme: Milk",
+      "statement": "A dairy farmer gathers milk from his cows. He already has 10 liters of milk and collects some more. After gathering the additional amount, he ends up with 12 liters of milk in total. How much milk did he collect this time?",
+      "new symbolic struct": "[[var m1 = 10]]\n[[var m2 = 12]]\n[[var m3 = m2 - m1]]\n[[question m = ['m3']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-70-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (a + 9)]]\n[[question m = ['a']]]\ntheme: Game",
+      "statement": "In a video game, a player needs 10 coins to unlock a special item. The player already has 9 coins. How many more coins does the player need to unlock the item?",
+      "new symbolic struct": "[[var y = 10 - 9]]\n[[question z = ['y']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-71-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 11 = (d + 10)]]\n[[question n = ['d']]]\ntheme: Book",
+      "statement": "Samantha has a total of 11 books. If she had 10 books and then gets a few more as a gift, how many books did she receive as a gift?",
+      "new symbolic struct": "[[var x = 11 - 10]]\n[[question y = ['x']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-72-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 18 = (f + 10)]]\n[[question s = ['f']]]\ntheme: Toothpaste",
+      "statement": "John has 18 tubes of toothpaste in total. If he bought 10 of those tubes last week, how many did he have before his purchase?",
+      "new symbolic struct": "[[var a = 18 - 10]]\n[[question b = ['a']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-73-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 15 = (o + 10)]]\n[[question c = ['o']]]\ntheme: Cucumber",
+      "statement": "In a grocery shop, there are some cucumbers on a shelf. If 10 more cucumbers are added to the shelf, there will be a total of 15 cucumbers. How many cucumbers were originally on the shelf before the addition?",
+      "new symbolic struct": "[[var original = 15 - 10]]\n[[question x = ['original']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-74-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 19 = (k + 10)]]\n[[question v = ['k']]]\ntheme: Puzzle",
+      "statement": "In a puzzle competition, Kathy completed 10 puzzles and then continues to solve more. If her final tally for the day is 19 puzzles solved, how many more puzzles did she solve after the initial 10?",
+      "new symbolic struct": "[[var p = 19 - 10]]\n[[question q = ['p']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-75-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (4 + x)]]\n[[question g = ['x']]]\ntheme: Stuffed animal",
+      "statement": "Billy has 10 stuffed animals in total. If 4 of them are teddy bears, how many of the stuffed animals aren't teddy bears?",
+      "new symbolic struct": "[[var x = 10 - 4]]\n[[question y = ['x']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-76-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 17 = (10 + q)]]\n[[question j = ['q']]]\ntheme: Tiger",
+      "statement": "There are 17 tigers in a wildlife reserve. 10 of them are adults, how many of them are cubs?",
+      "new symbolic struct": "[[var t = 17 - 10]]\n[[question c = ['t']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-78-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (t + 5)]]\n[[question g = ['t']]]\ntheme: Unicorn",
+      "statement": "A magical unicorn has an unknown number of rainbow-colored gems (let's call this number 't'). If he finds 5 more gems, he will have 10 gems in total. How many gems does the unicorn currently have?",
+      "new symbolic struct": "[[var t = 10 - 5]]\n[[question u = ['t']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-79-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 11 = (b + 10)]]\n[[question v = ['b']]]\ntheme: Strawberry",
+      "statement": "Ella is making a strawberry pie that requires 11 strawberries. She already has 10 strawberries. How many more strawberries does she need to make the pie?",
+      "new symbolic struct": "[[var a = 11 - 10]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-80-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (2 + v)]]\n[[question y = ['v']]]\ntheme: Lamp",
+      "statement": "In a store, there are 10 lamps. 2 of them are floor lamps, and the rest are table lamps. How many table lamps are there in the store?",
+      "new symbolic struct": "[[var a = 10 - 2]]\n[[question b = ['a']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-81-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (3 + z)]]\n[[question v = ['z']]]\ntheme: Ballerina",
+      "statement": "A ballerina has 3 green tutus. She needs to have 10 in total for an upcoming series of performances. How many more tutus does she need to get?",
+      "new symbolic struct": "[[var a = 3]]\n[[var b = 10]]\n[[var c = b - a]]\n[[question d = ['c']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-82-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 12 = (a + 10)]]\n[[question w = ['a']]]\ntheme: School bus",
+      "statement": "The school bus stops to pick up students. Initially, it has 10 students on board. After picking up some more students, there are 12 students in total on the bus. How many students did the bus pick up?",
+      "new symbolic struct": "[[var a = 12 - 10]]\n[[question b = ['a']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-83-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (2 + d)]]\n[[question c = ['d']]]\ntheme: Penguin",
+      "statement": "A penguin lays 2 eggs in the morning and some more in the afternoon. If she laid a total of 10 eggs for the day, how many did she lay in the afternoon?",
+      "new symbolic struct": "[[var a = 10 - 2]]\n[[question b = ['a']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-84-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 14 = (e + 10)]]\n[[question r = ['e']]]\ntheme: School bus",
+      "statement": "The school bus initially had 10 students. Then it stops at the next stop and several more students come on board and after that, there are 14 students on the bus. How many students came on the bus at the second stop?",
+      "new symbolic struct": "[[var a = 14 - 10]]\n[[question b = ['a']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-85-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 12 = (10 + s)]]\n[[question k = ['s']]]\ntheme: Sock",
+      "statement": "If Billy has 12 pairs of socks and he started with 10 pairs. How many pairs of socks was he given?",
+      "new symbolic struct": "[[var x = 12 - 10]]\n[[question y = ['x']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-86-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (f + 1)]]\n[[question y = ['f']]]\ntheme: Door",
+      "statement": "There are 10 doors on a corridor. One is the janitor's door and rest are room doors. How many room doors are there?",
+      "new symbolic struct": "[[var x = 10 - 1]]\n[[question y = ['x']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-87-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 14 = (w + 10)]]\n[[question h = ['w']]]\ntheme: Book",
+      "statement": "In a library, you found a stack of 14 books. This stack includes 10 books that are from the non-fiction section, the rest are from the fiction section. How many books from the fiction section are present in the stack?",
+      "new symbolic struct": "[[var a = 14 - 10]]\n[[question b = ['a']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-88-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (7 + j)]]\n[[question w = ['j']]]\ntheme: Letter",
+      "statement": "A mailman delivers 7 letters in the morning. By the end of the day, he has delivered 10 letters in total. How many letters did he deliver after the morning?",
+      "new symbolic struct": "[[var a = 7]]\n[[var b = 10]]\n[[var c = b - a]]\n[[question d = ['c']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-89-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (8 + l)]]\n[[question f = ['l']]]\ntheme: Color",
+      "statement": "A color palette consists of 10 colors in total. It starts with 8 base colors and some additional colors are added. If the total number of colors remains 10, how many additional colors were added to the 8 base colors palette?",
+      "new symbolic struct": "[[var x = 10 - 8]]\n[[question y =['x']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-90-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (k + 9)]]\n[[question j = ['k']]]\ntheme: Bear",
+      "statement": "A bear ate 9 fish from the river. If the bear needs to have eaten 10 fish in a day to be full, how many more fish does the bear need to catch?",
+      "new symbolic struct": "[[var a = 10 - 9]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-91-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 15 = (10 + l)]]\n[[question z = ['l']]]\ntheme: Slide",
+      "statement": "There are 15 kids at the playground. 10 kids are playing sandbox, the rest are sliding on the slide. How many kids are sliding on the slide?",
+      "new symbolic struct": "[[var a = 15 - 10]]\n[[question b = ['a']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-93-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (d + 9)]]\n[[question x = ['d']]]\ntheme: Ball",
+      "statement": "Jay had a total of 10 balls. Unfortunately, 9 of them got lost while he was playing. How many balls did Jay originally have?",
+      "new symbolic struct": "[[var a = 10 - 9]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-94-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (4 + b)]]\n[[question d = ['b']]]\ntheme: Circus",
+      "statement": "In a circus, there are 4 clowns performing in the morning. In the afternoon, some more clowns join them such that the total number of clowns performing at the circus becomes 10. Find out how many clowns joined in the afternoon?",
+      "new symbolic struct": "[[var a = 10 - 4]]\n[[question b =['a']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-95-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (1 + y)]]\n[[question u = ['y']]]\ntheme: Star",
+      "statement": "A constellation is made up of 10 stars. If one of the stars is hidden behind the moon, how many stars are left to be seen in that constellation?",
+      "new symbolic struct": "[[var x = 10 - 1]]\n[[question y = ['x']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-96-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 14 = (b + 10)]]\n[[question d = ['b']]]\ntheme: Toothpaste",
+      "statement": "A toothpaste brand packs 10 tubes of toothpaste into each box. If a store receives 14 tubes of toothpaste, how many did not come from a full box?",
+      "new symbolic struct": "[[var x = 14 % 10]]\n[[question y = ['x']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-97-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (i + 5)]]\n[[question q = ['i']]]\ntheme: Toy",
+      "statement": "Timmy had a certain number of toy cars. His friend gifted him 5 more, bringing the total number of toy cars to 10. How many toy cars did Timmy have initially?",
+      "new symbolic struct": "[[var x = 10 - 5]]\n[[question initial = ['x']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-98-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 13 = (u + 10)]]\n[[question n = ['u']]]\ntheme: Beach ball",
+      "statement": "At a summer beach party, there were 10 beach balls already present. Then, a few more beach balls were added and the total number became 13. How many more beach balls were added at the party?",
+      "new symbolic struct": "[[var a = 13 - 10]]\n[[question b = ['a']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-100-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (g + 2)]]\n[[question k = ['g']]]\ntheme: Watch",
+      "statement": "James has a total of 10 hours on his watch. He watches a movie for 2 hours and spends the other time chatting online. How long in hours did James chat online?",
+      "new symbolic struct": "[[var x = 10 - 2]]\n[[question y = ['x']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-102-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 14 = (g + 10)]]\n[[question i = ['g']]]\ntheme: Balloon",
+      "statement": "There are 14 balloons at a party. If 10 balloons pop, how many balloons will be left?",
+      "new symbolic struct": "[[var p = 14 - 10]]\n[[question q = ['p']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-103-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 12 = (10 + c)]]\n[[question z = ['c']]]\ntheme: Beach ball",
+      "statement": "John has a total of 12 beach balls. He just purchased 10 more to add to his collection. How many beach balls did he have originally?",
+      "new symbolic struct": "[[var b = 12 - 10]]\n[[question original = ['b']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-105-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (p + 7)]]\n[[question q = ['p']]]\ntheme: Backpack",
+      "statement": "Harris found 7 books in his backpack. If the total number of books he has is 10, how many books did he originally have in his backpack?",
+      "new symbolic struct": "[[var c = 10 - 7]]\n[[question d = ['c']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-106-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (9 + n)]]\n[[question r = ['n']]]\ntheme: Party",
+      "statement": "At a party, there are 9 people already present when a few more people arrive to make the total attendance 10. How many people arrived at the party?",
+      "new symbolic struct": "[[var a = 10 - 9]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-107-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (q + 8)]]\n[[question k = ['q']]]\ntheme: Dragon",
+      "statement": "A dragon had 10 gold coins in his cave. But a brave knight came and took 8 coins. How many gold coins does the dragon have left now?",
+      "new symbolic struct": "[[var a = 10 - 8]]\n[[question b = ['a']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-109-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (9 + w)]]\n[[question b = ['w']]]\ntheme: Dolphin",
+      "statement": "A dolphin trainer currently has 9 dolphins and later acquires some additional ones, making the total number of dolphins in his care 10. How many dolphins did the trainer acquire?",
+      "new symbolic struct": "[[var a = 10 - 9]]\n[[question b = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-111-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 10 = (6 + r)]]\n[[question l = ['r']]]\ntheme: Butterfly",
+      "statement": "A butterfly starts her day with 6 flowers and visits r more in the afternoon to get her total daily quota of 10 flowers. How many more flowers does she need to visit in the afternoon?",
+      "new symbolic struct": "[[var r = 10 - 6]]\n[[question q = ['r']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "K.NBT.A.1-112-0",
+      "standard": "K.NBT.A.1",
+      "symbolic-struct": "[[var 11 = (o + 10)]]\n[[question b = ['o']]]\ntheme: Sandbox",
+      "statement": "Eli has 10 toy cars in the sandbox. If he found a total of 11 toy cars in there, how many toy cars had been buried in the sandbox that he did not initially see?",
+      "new symbolic struct": "[[var a = 10]]\n[[var b = 11]]\n[[var c = b - a]]\n[[question d = ['c']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ]
+]

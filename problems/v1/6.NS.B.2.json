@@ -1,0 +1,1930 @@
+[
+  [
+    {
+      "id": "6.NS.B.2-0-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (73841 / 41)]]\n[[question v = ['k']]]\ntheme: Beach ball",
+      "statement": "There are 73841 cubic centimeters of air needed to inflate a large beach ball. If we fill the ball up at a rate of 41 cubic centimeters per second, how many seconds will it take to fully inflate the beach ball?",
+      "new symbolic struct": "[[var t = (73841 / 41)]]\n[[question s = ['t']]]",
+      "answer": "1801",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-0-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (1310 / 41)]]\n[[question v = ['k']]]\ntheme: Beach ball",
+      "statement": "If we had a smaller beach ball that only required 1310 cubic centimeters of air to fully inflate, and we continue to fill it up at a rate of 41 cubic centimeters per second, how many seconds will it then take to inflate this smaller beach ball?",
+      "new symbolic struct": "[[var t2 = (1310 / 41)]]\n[[question s2 = ['t2']]]",
+      "answer": "1310/41",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-1-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (73528 / 707)]]\n[[question k = ['d']]]\ntheme: Juice",
+      "statement": "A juice company produced 73528 liters of juice. If they filled the same amount of juice into 707 containers, how many liters of juice are there in each container?",
+      "new symbolic struct": "[[var j = (73528 / 707)]]\n[[question c = ['j']]]",
+      "answer": "104",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-1-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (2858 / 707)]]\n[[question k = ['d']]]\ntheme: Juice",
+      "statement": "In the previous problem, the juice company produced 73528 liters of juice filled into 707 containers. Now consider instead that the juice company produced a new batch of fresh juice, a total of 2858 liters. If the new batch was also filled the same way into 707 containers, how many liters of juice are now in each container?",
+      "new symbolic struct": "[[var j_new = (2858 / 707)]]\n[[question c_new = ['j_new']]]",
+      "answer": "2858/707",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-2-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (87780 / 110)]]\n[[question n = ['m']]]\ntheme: Pants",
+      "statement": "A pants factory produced a total of 87780 pants and equally distributed them to 110 wholesale clothing stores. How many pants did each store receive?",
+      "new symbolic struct": "[[var p = (87780 / 110)]]\n[[question s = ['p']]]",
+      "answer": "798",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-2-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (4003 / 110)]]\n[[question n = ['m']]]\ntheme: Pants",
+      "statement": "If the pants factory had produced a total of 4003 pants instead of 87780, and still equally distributed them to the 110 wholesale clothing stores, how many pants would each store have received now?",
+      "new symbolic struct": "[[var p = (4003 / 110)]]\n[[question s = ['p']]]",
+      "answer": "4003/110",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-3-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var l = (71820 / 684)]]\n[[question q = ['l']]]\ntheme: Carrot",
+      "statement": "Farmer Bob has grown 71820 carrots this season and wants to sell them in bundles. If he makes each bundle consist of 684 carrots, how many bundles of carrots will he have?",
+      "new symbolic struct": "[[var b = (71820 / 684)]]\n[[question n = ['b']]]",
+      "answer": "105",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-3-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var l = (71820 / 2486)]]\n[[question q = ['l']]]\ntheme: Carrot",
+      "statement": "Farmer Bob reconsiders and decides to increase the size of each bundle. If he now distributes his 71820 carrots into bundles of 2486 each, how many bundles will he have?",
+      "new symbolic struct": "[[var b2 = (71820 / 2486)]]\n[[question n2 = ['b2']]]",
+      "answer": "35910/1243",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-4-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var f = (85860 / 54)]]\n[[question z = ['f']]]\ntheme: Slide",
+      "statement": "A popular slide has been used 85860 times over 54 consecutive days. If the usage rate is constant, how many times per day has the slide been used?",
+      "new symbolic struct": "[[var u = (85860 / 54)]]\n[[question i = ['u']]]",
+      "answer": "1590",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-4-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var f = (9018 / 54)]]\n[[question z = ['f']]]\ntheme: Slide",
+      "statement": "After maintaining a consistent usage rate, the same slide has been used 9018 times over 54 consecutive days. Under this rate, how many times per day has the slide been used?",
+      "new symbolic struct": "[[var u = (9018 / 54)]]\n[[question i = ['u']]]",
+      "answer": "167",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-5-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (31950 / 225)]]\n[[question o = ['k']]]\ntheme: Snow",
+      "statement": "A ski resort receives a total of 31950 inches of snowfall evenly spread throughout 225 days of winter. How many inches of snow does the ski resort receive each day?",
+      "new symbolic struct": "[[var a = (31950 / 225)]]\n[[question x = ['a']]]",
+      "answer": "142",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-5-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (31950 / 1814)]]\n[[question o = ['k']]]\ntheme: Snow",
+      "statement": "What if the snow was spread out not over 225 days, but over a period of 1814 days? How many inches of snow would the ski resort receive each day in this case?",
+      "new symbolic struct": "[[var b = (31950 / 1814)]]\n[[question y = ['b']]]",
+      "answer": "15975/907",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-6-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (63802 / 38)]]\n[[question j = ['d']]]\ntheme: Ring",
+      "statement": "A jewelry manufacturer has 63802 grams of gold, and they want to make rings each of which will weigh exactly the same. If they plan to make 38 rings, how many grams of gold will be in each ring?",
+      "new symbolic struct": "[[var a = (63802 / 38)]]\n[[question b = ['a']]]",
+      "answer": "1679",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-6-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (5240 / 38)]]\n[[question j = ['d']]]\ntheme: Ring",
+      "statement": "The jewelry manufacturer now has 5240 grams of gold instead of 63802 grams. If they still want to make each ring weigh exactly the same and produce 38 rings, how many grams of gold will be in each ring now?",
+      "new symbolic struct": "[[var c = (5240 / 38)]]\n[[question d = ['c']]]",
+      "answer": "2620/19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-7-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (60544 / 5504)]]\n[[question i = ['d']]]\ntheme: Ring",
+      "statement": "A goldsmith has a total of 60544 milligrams of gold. If each ring the goldsmith makes requires exactly 5504 milligrams of gold, how many full rings can the goldsmith make?",
+      "new symbolic struct": "[[var r = (60544 / 5504)]]\n[[question n = ['r']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-8-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var r = (10489 / 617)]]\n[[question a = ['r']]]\ntheme: Zoo",
+      "statement": "In a zoo, there are 10489 animals, and they are evenly distributed in 617 cages. What is the average number of animals in each cage?",
+      "new symbolic struct": "[[var a = (10489 / 617)]]\n[[question b = ['a']]]",
+      "answer": "17",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-8-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var r = (10489 / 5130)]]\n[[question a = ['r']]]\ntheme: Zoo",
+      "statement": "Now consider that instead of 617 cages, the 10,489 animals are evenly distributed in 5130 cages. How does the average number of animals per cage change now?",
+      "new symbolic struct": "[[var c = (10489 / 5130)]]\n[[question d = ['c']]]",
+      "answer": "10489/5130",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-9-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var t = (21652 / 5413)]]\n[[question q = ['t']]]\ntheme: Carrot",
+      "statement": "A farmer has 21652 grams of carrots, and he wants to evenly distribute them into 5413 bags. How many grams of carrots will be in each bag?",
+      "new symbolic struct": "[[var c = (21652 / 5413)]]\n[[question b = ['c']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-9-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var t = (5652 / 5413)]]\n[[question q = ['t']]]\ntheme: Carrot",
+      "statement": "The farmer had initially thought he had 21652 grams of carrots. However, upon recounting, he realizes he actually has 5652 grams of carrots. If he still wants to distribute the carrots evenly into 5413 bags, how many grams of carrots will now be in each bag?",
+      "new symbolic struct": "[[var d = (5652 / 5413)]]\n[[question b = ['d']]]",
+      "answer": "5652/5413",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-10-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (38745 / 5)]]\n[[question b = ['m']]]\ntheme: Astronaut",
+      "statement": "An astronaut's spaceship travels a total distance of 38745 miles on its space mission. The journey is divided into 5 equal stages. How many miles does the spaceship travel in each stage?",
+      "new symbolic struct": "[[var t = (38745 / 5)]]\n[[question c = ['t']]]",
+      "answer": "7749",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-10-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (38745 / 3113)]]\n[[question b = ['m']]]\ntheme: Astronaut",
+      "statement": "In the previous space mission scenario, if instead, the spaceship had to divide its total travel distance of 38745 miles into 3113 equal stages, how many miles would it now have to travel in each stage?",
+      "new symbolic struct": "[[var x = (38745 / 3113)]]\n[[question y = ['x']]]",
+      "answer": "38745/3113",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-11-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var t = (84564 / 261)]]\n[[question g = ['t']]]\ntheme: Bottle",
+      "statement": "A factory needs to distribute 84,564 liters of water evenly into 261 bottles. If each bottle gets the same amount of water, how many liters does each bottle contain?",
+      "new symbolic struct": "[[var b = (84564 / 261)]]\n[[question l = ['b']]]",
+      "answer": "324",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-11-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var t = (84564 / 1779)]]\n[[question g = ['t']]]\ntheme: Bottle",
+      "statement": "If the factory instead needed to distribute 84,564 liters of water evenly into 1,779 bottles, how many liters would each bottle contain now?",
+      "new symbolic struct": "[[var k = (84564 / 1779)]]\n[[question m = ['k']]]",
+      "answer": "28188/593",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-12-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var u = (13467 / 201)]]\n[[question i = ['u']]]\ntheme: Book",
+      "statement": "A massive book series contains a total of 13467 pages, divided equally among 201 volumes. How many pages would you find in each volume?",
+      "new symbolic struct": "[[var p = (13467 / 201)]]\n[[question v = ['p']]]",
+      "answer": "67",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-13-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var y = (56888 / 2188)]]\n[[question j = ['y']]]\ntheme: Fireplace",
+      "statement": "A fireplace uses 56888 BTU (British Thermal Units) of energy in 2188 hours when it is working continuously. How many BTU of energy does the fireplace use per hour?",
+      "new symbolic struct": "[[var e = (56888 / 2188)]]\n[[question h = ['e']]]",
+      "answer": "26",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-13-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var y = (56888 / 3809)]]\n[[question j = ['y']]]\ntheme: Fireplace",
+      "statement": "If instead of 2188 hours, the fireplace was working continuously for 3809 hours with the same total energy consumption of 56888 BTU, how many BTU of energy would the fireplace use per hour then?",
+      "new symbolic struct": "[[var f = (56888 / 3809)]]\n[[question j = ['f']]]",
+      "answer": "4376/293",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-14-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var t = (36900 / 82)]]\n[[question h = ['t']]]\ntheme: Snowman",
+      "statement": "Across the span of 82 days in winter, a town recorded a total snowfall of 36900 inches. If the snow fell at a constant rate every day, how many inches of snow did the town receive each day?",
+      "new symbolic struct": "[[var s = (36900 / 82)]]\n[[question d = ['s']]]",
+      "answer": "450",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-14-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var t = (36900 / 7138)]]\n[[question h = ['t']]]\ntheme: Snowman",
+      "statement": "In the same town, in another winter period, the total snowfall recorded was 36900 inches as well but this time across 7138 days. If the snow fell at a constant rate every day, how many inches of snow did the town receive each day during this period?",
+      "new symbolic struct": "[[var s = (36900 / 7138)]]\n[[question d = ['s']]]",
+      "answer": "18450/3569",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-15-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var z = (71292 / 2742)]]\n[[question a = ['z']]]\ntheme: Giraffe",
+      "statement": "A wildlife reserve spans an area of 71292 square kilometers and is home to 2742 giraffes. If each giraffe has an equal amount of space, how many square kilometers does each giraffe get?",
+      "new symbolic struct": "[[var a = (71292 / 2742)]]\n[[question g = ['a']]]",
+      "answer": "26",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-15-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var z = (71292 / 8787)]]\n[[question a = ['z']]]\ntheme: Giraffe",
+      "statement": "Suppose the wildlife reserve instead held 8787 giraffes that were spread out evenly across the 71292 square kilometers. In this case, how many square kilometers would each giraffe get?",
+      "new symbolic struct": "[[var b = (71292 / 8787)]]\n[[question g2 = ['b']]]",
+      "answer": "23764/2929",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-16-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var q = (96187 / 13)]]\n[[question f = ['q']]]\ntheme: Lion",
+      "statement": "A lion conservation project has successfully protected 96187 lions over a span of 13 years. If the project saved the same number of lions each year, how many lions were saved per year on average?",
+      "new symbolic struct": "[[var p = (96187 / 13)]]\n[[question y = ['p']]]",
+      "answer": "7399",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-16-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var q = (96187 / 6279)]]\n[[question f = ['q']]]\ntheme: Lion",
+      "statement": "The lion conservation project now realizes that they actually saved 96187 lions over a span of 6279 days, not 13 years. If they were still saving the same number of lions every day, how many lions were saved daily on average?",
+      "new symbolic struct": "[[var d = (96187 / 6279)]]\n[[question x = ['d']]]",
+      "answer": "1057/69",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-17-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (32812 / 631)]]\n[[question i = ['m']]]\ntheme: Mermaid",
+      "statement": "A mermaid has found a total of 32812 pearls on the ocean floor and wants to divide them evenly among her 631 mermaid friends. How many pearls will each friend receive?",
+      "new symbolic struct": "[[var p = (32812 / 631)]]\n[[question f = ['p']]]",
+      "answer": "52",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-17-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (32812 / 4198)]]\n[[question i = ['m']]]\ntheme: Mermaid",
+      "statement": "The mermaid realized that she had miscalculated and there are actually only 4198 mermaid friends, not 631. If she divides the 32812 pearls evenly among her 4198 friends now, how many pearls will each friend receive?",
+      "new symbolic struct": "[[var p2 = (32812 / 4198)]]\n[[question f2 = ['p2']]]",
+      "answer": "16406/2099",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-18-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (36784 / 19)]]\n[[question d = ['m']]]\ntheme: Farm",
+      "statement": "A farm produces a total of 36,784 apples during the 19 weeks of its growing season. If the amount of harvested apples is the same each week, how many apples does the farm produce weekly?",
+      "new symbolic struct": "[[var a = (36784 / 19)]]\n[[question w = ['a']]]",
+      "answer": "1936",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-18-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (36784 / 152)]]\n[[question d = ['m']]]\ntheme: Farm",
+      "statement": "Considering the previous situation, what if the farm actually produced the same number of apples over a much longer period of 152 weeks rather than 19 weeks? How many apples does the farm now produce weekly?",
+      "new symbolic struct": "[[var a_new = (36784 / 152)]]\n[[question w_new = ['a_new']]]",
+      "answer": "242",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-19-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var a = (63245 / 695)]]\n[[question i = ['a']]]\ntheme: Train",
+      "statement": "A train travels 63245 miles over a period of 695 days. If the train travels the same distance each day, how many miles does it cover in a day?",
+      "new symbolic struct": "[[var u = (63245 / 695)]]\n[[question i = ['u']]]",
+      "answer": "91",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-19-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var a = (6280 / 695)]]\n[[question i = ['a']]]\ntheme: Train",
+      "statement": "Suppose the train now travels a total of 6280 miles over the same period of 695 days. If the train still travels the same distance each day, how many miles will it cover in a day now?",
+      "new symbolic struct": "[[var j = (6280 / 695)]]\n[[question z = ['j']]]",
+      "answer": "1256/139",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-20-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var h = (41772 / 708)]]\n[[question y = ['h']]]\ntheme: Doll",
+      "statement": "A doll factory produced a total of 41772 dolls over a period of 708 days. If the factory kept up with the same daily production rate, how many dolls were being made in a day?",
+      "new symbolic struct": "[[var p = (41772 / 708)]]\n[[question d = ['p']]]",
+      "answer": "59",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-20-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var h = (41772 / 4664)]]\n[[question y = ['h']]]\ntheme: Doll",
+      "statement": "What if the same doll factory initially planned to produce the same total number of 41772 dolls, but now over a longer period of 4664 days? If so, how many dolls would have been produced daily then?",
+      "new symbolic struct": "[[var p_new = (41772 / 4664)]]\n[[question d_new = ['p_new']]]",
+      "answer": "10443/1166",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-21-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var p = (61019 / 7)]]\n[[question q = ['p']]]\ntheme: Drum",
+      "statement": "A drummer has a goal to hit his drum 61019 times. If he plans to do this over the course of 7 days, how many times will he need to hit the drum each day to meet his goal?",
+      "new symbolic struct": "[[var h = (61019 / 7)]]\n[[question d = ['h']]]",
+      "answer": "8717",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-21-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var p = (7454 / 7)]]\n[[question q = ['p']]]\ntheme: Drum",
+      "statement": "The drummer realized that his initial goal was too lofty, and decided to reduce his goal to hitting his drum 7454 times instead. If he still plans to do this over the course of 7 days, how many times will he need to hit the drum each day to meet his new goal?",
+      "new symbolic struct": "[[var h1 = (7454 / 7)]]\n[[question d1 = ['h1']]]",
+      "answer": "7454/7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-22-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var c = (98816 / 128)]]\n[[question h = ['c']]]\ntheme: Dolphin",
+      "statement": "In a particular marine park, a dolphin can swim an average of 98816 meters in 128 hours. How many meters can the dolphin swim in an hour?",
+      "new symbolic struct": "[[var d = (98816 / 128)]]\n[[question h = ['d']]]",
+      "answer": "772",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-22-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var c = (6186 / 128)]]\n[[question h = ['c']]]\ntheme: Dolphin",
+      "statement": "Following the change, suppose now that the dolphin swam a total of 6186 meters within the same 128 hours. How many meters is the dolphin now swimming in an hour?",
+      "new symbolic struct": "[[var d_new = (6186 / 128)]]\n[[question h_new = ['d_new']]]",
+      "answer": "3093/64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-24-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var c = (71532 / 1987)]]\n[[question h = ['c']]]\ntheme: Song",
+      "statement": "A song was streamed 71532 times in the first 1987 days after its release. How many streams did it average per day?",
+      "new symbolic struct": "[[var s = (71532 / 1987)]]\n[[question d = ['s']]]",
+      "answer": "36",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-24-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var c = (4862 / 1987)]]\n[[question h = ['c']]]\ntheme: Song",
+      "statement": "The same song was streamed 4862 times in the first 1987 days on a less popular platform. How many streams did it average per day on this platform?",
+      "new symbolic struct": "[[var t = (4862 / 1987)]]\n[[question q = ['t']]]",
+      "answer": "4862/1987",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-25-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var b = (33046 / 1066)]]\n[[question p = ['b']]]\ntheme: Compass",
+      "statement": "A compass salesman has 33046 compasses that he wants to distribute evenly among 1066 stores. How many compasses will each store receive if they are divided equally?",
+      "new symbolic struct": "[[var c = (33046 / 1066)]]\n[[question s = ['c']]]",
+      "answer": "31",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-25-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var b = (33046 / 6456)]]\n[[question p = ['b']]]\ntheme: Compass",
+      "statement": "Suppose the compass salesman later realizes he made a mistake and that he actually has to distribute the 33046 compasses equally among 6456 stores, not 1066. How many compasses will each store receive now, if they are divided equally?",
+      "new symbolic struct": "[[var d = (33046 / 6456)]]\n[[question s_prime = ['d']]]",
+      "answer": "16523/3228",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-26-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var q = (49822 / 58)]]\n[[question w = ['q']]]\ntheme: Carrot",
+      "statement": "In a large farm, a total of 49822 carrots are harvested from 58 similar plots. If each plot yielded the same number of carrots, how many carrots did each plot yield?",
+      "new symbolic struct": "[[var n = (49822 / 58)]]\n[[question k = ['n']]]",
+      "answer": "859",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-26-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var q = (9653 / 58)]]\n[[question w = ['q']]]\ntheme: Carrot",
+      "statement": "Suppose in the same large farm, they only managed to produce a total of 9653 carrots from the same 58 plots the next year. If these plots yielded the same number of carrots, how many carrots did each plot yield this time?",
+      "new symbolic struct": "[[var m = (9653 / 58)]]\n[[question s = ['m']]]",
+      "answer": "9653/58",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-27-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var s = (8744 / 8744)]]\n[[question q = ['s']]]\ntheme: Cloud",
+      "statement": "There is a cloud which covers 8744 square meters of the sky and exactly the same area is revealed when the cloud dispels. If the revealed area is divided equally over the original area, what is the ratio of the revealed area to the original area?",
+      "new symbolic struct": "[[var a = 8744]]\n[[var b = 8744]]\n[[var r = (b / a)]]\n[[question z = ['r']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-28-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (97506 / 18)]]\n[[question o = ['d']]]\ntheme: Scooter",
+      "statement": "A scooter travels a total distance of 97506 meters on a full charge. If the battery life of the scooter is 18 hours on a full charge, how many meters does the scooter travel per hour?",
+      "new symbolic struct": "[[var s = (97506 / 18)]]\n[[question t = ['s']]]",
+      "answer": "5417",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-28-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (7727 / 18)]]\n[[question o = ['d']]]\ntheme: Scooter",
+      "statement": "If the scooter's total distance on a full charge was instead 7727 meters, keeping the battery life at 18 hours, how many meters would the scooter travel per hour now?",
+      "new symbolic struct": "[[var x = (7727 / 18)]]\n[[question y = ['x']]]",
+      "answer": "7727/18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-29-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var h = (94548 / 7879)]]\n[[question m = ['h']]]\ntheme: Star",
+      "statement": "A star emits a total of 94548 units of light energy over a period of 7879 hours. If the star emits a constant amount of light energy every hour, how much light energy does it emit every hour?",
+      "new symbolic struct": "[[var e = (94548 / 7879)]]\n[[question i = ['e']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-29-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var h = (94548 / 3349)]]\n[[question m = ['h']]]\ntheme: Star",
+      "statement": "If instead, the star emitted a total of 94548 units of light energy over a shorter period of 3349 hours, still at a constant rate, how much light energy would it emit every hour now?",
+      "new symbolic struct": "[[var e = (94548 / 3349)]]\n[[question i = ['e']]]",
+      "answer": "94548/3349",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-30-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (80752 / 412)]]\n[[question l = ['m']]]\ntheme: Forest",
+      "statement": "A forest contains a total of 80752 trees and it is split evenly into 412 sections. How many trees are there in each section?",
+      "new symbolic struct": "[[var i = (80752 / 412)]]\n[[question z = ['i']]]",
+      "answer": "196",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-30-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (80752 / 1778)]]\n[[question l = ['m']]]\ntheme: Forest",
+      "statement": "Given the same forest as before with 80752 trees, what if it was divided into 1778 sections instead of 412? How many trees would there be in each section now?",
+      "new symbolic struct": "[[var i = (80752 / 1778)]]\n[[question z = ['i']]]",
+      "answer": "5768/127",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-31-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var q = (44280 / 216)]]\n[[question w = ['q']]]\ntheme: Cucumber",
+      "statement": "A farm harvested 44280 cucumbers over 216 days. If they harvested an equal amount of cucumbers each day, how many cucumbers were harvested each day?",
+      "new symbolic struct": "[[var c = (44280 / 216)]]\n[[question d = ['c']]]",
+      "answer": "205",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-31-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var q = (4076 / 216)]]\n[[question w = ['q']]]\ntheme: Cucumber",
+      "statement": "If instead of 44280 cucumbers, the farm only harvested 4076 cucumbers over the same 216 days, how many cucumbers were harvested each day given this new quantity?",
+      "new symbolic struct": "[[var c_new = (4076 / 216)]]\n[[question d_new = ['c_new']]]",
+      "answer": "1019/54",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-32-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var w = (77545 / 1193)]]\n[[question n = ['w']]]\ntheme: Cookie",
+      "statement": "A cookie factory produced a total of 77545 cookies that were evenly divided into 1193 packages. How many cookies are there in each package?",
+      "new symbolic struct": "[[var p = (77545 / 1193)]]\n[[question c = ['p']]]",
+      "answer": "65",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-32-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var w = (77545 / 1834)]]\n[[question n = ['w']]]\ntheme: Cookie",
+      "statement": "Considering the same scenario where the cookie factory is producing cookies, imagine now they increased their packaging capabilities and packaged the same 77545 cookies into 1834 packages instead of 1193. How many cookies are there in each package now?",
+      "new symbolic struct": "[[var p = (77545 / 1834)]]\n[[question c = ['p']]]",
+      "answer": "77545/1834",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-33-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var s = (51750 / 125)]]\n[[question a = ['s']]]\ntheme: Star",
+      "statement": "A star emits 51750 units of light energy every 125 seconds. How much light energy does the star emit every second?",
+      "new symbolic struct": "[[var i = (51750 / 125)]]\n[[question z = ['i']]]",
+      "answer": "414",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-33-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var s = (51750 / 8670)]]\n[[question a = ['s']]]\ntheme: Star",
+      "statement": "If instead, over a different period, the star emitted 51750 units of light energy every 8670 seconds, how much light energy would it be emitting per second?",
+      "new symbolic struct": "[[var i = (51750 / 8670)]]\n[[question z = ['i']]]",
+      "answer": "1725/289",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-34-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var a = (25144 / 56)]]\n[[question l = ['a']]]\ntheme: Candy",
+      "statement": "A candy factory produced 25144 candies evenly over 56 days. How many candies did the factory make each day?",
+      "new symbolic struct": "[[var c = (25144 / 56)]]\n[[question d = ['c']]]",
+      "answer": "449",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-34-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var a = (25144 / 4290)]]\n[[question l = ['a']]]\ntheme: Candy",
+      "statement": "In the previous scenario, suppose that the candy factory had instead produced 25144 candies evenly over 4290 days. How many candies would they have made each day in this case?",
+      "new symbolic struct": "[[var c2 = (25144 / 4290)]]\n[[question d2 = ['c2']]]",
+      "answer": "12572/2145",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-35-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var n = (34240 / 10)]]\n[[question b = ['n']]]\ntheme: Sandwich",
+      "statement": "A party needs 34240 slices of bread for sandwiches. If each loaf of bread contains 10 slices, how many loaves of bread are needed for the party?",
+      "new symbolic struct": "[[var j = (34240 / 10)]]\n[[question k = ['j']]]",
+      "answer": "3424",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-35-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var n = (7638 / 10)]]\n[[question b = ['n']]]\ntheme: Sandwich",
+      "statement": "If instead the party needed 7638 slices of bread for sandwiches, still considering that each loaf of bread contains 10 slices, how many loaves of bread would then be needed for the party?",
+      "new symbolic struct": "[[var m = (7638 / 10)]]\n[[question n = ['m']]]",
+      "answer": "3819/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-36-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var z = (20111 / 119)]]\n[[question y = ['z']]]\ntheme: Forest",
+      "statement": "A forest ranger has noticed that over 119 days, 20111 trees have sprouted throughout the forest. If each day has the same number of new trees sprouting, how many new trees sprout each day?",
+      "new symbolic struct": "[[var n = (20111 / 119)]]\n[[question t = ['n']]]",
+      "answer": "169",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-36-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var z = (6216 / 119)]]\n[[question y = ['z']]]\ntheme: Forest",
+      "statement": "The same forest ranger now considers a different area of the forest. This time, over a period of 119 days, he noticed that 6216 new trees had sprouted. If the same number of new trees sprouted each day, how many new trees sprouted each day in this different area of the forest?",
+      "new symbolic struct": "[[var m = (6216 / 119)]]\n[[question p = ['m']]]",
+      "answer": "888/17",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-37-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var v = (91104 / 52)]]\n[[question f = ['v']]]\ntheme: Dog",
+      "statement": "A dog food factory distributed 91,104 cans of dog food uniformly over 52 weeks. How many cans of dog food did they distribute per week?",
+      "new symbolic struct": "[[var i = (91104 / 52)]]\n[[question z = ['i']]]",
+      "answer": "1752",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-37-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var v = (5981 / 52)]]\n[[question f = ['v']]]\ntheme: Dog",
+      "statement": "Following the previous question, now consider that the same dog food factory distributed a different brand of dog food, this time totaling 5,981 cans, uniformly over the same 52 weeks. How many cans of this different brand of dog food did they distribute per week?",
+      "new symbolic struct": "[[var j = (5981 / 52)]]\n[[question k = ['j']]]",
+      "answer": "5981/52",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-38-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var y = (19944 / 18)]]\n[[question m = ['y']]]\ntheme: Blanket",
+      "statement": "A blanket manufacturing company has 19944 yards of fabric. They use the same amount of fabric to produce each blanket, and from this total amount of fabric, they can make 18 blankets. How many yards of fabric is used for each blanket?",
+      "new symbolic struct": "[[var d = (19944 / 18)]]\n[[question f = ['d']]]",
+      "answer": "1108",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-39-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var r = (45764 / 2692)]]\n[[question p = ['r']]]\ntheme: Potato",
+      "statement": "A farmer has harvested a total of 45764 potatoes from his 2692 plants. On average, how many potatoes does each plant produce?",
+      "new symbolic struct": "[[var a = (45764 / 2692)]]\n[[question z = ['a']]]",
+      "answer": "17",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-39-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var r = (7664 / 2692)]]\n[[question p = ['r']]]\ntheme: Potato",
+      "statement": "Following up on the previous scenario, the farmer discovered that he actually harvested a total of 7664 potatoes, not 45764. With the same number of plants (2692), what would be the new average of potatoes each plant produces?",
+      "new symbolic struct": "[[var b = (7664 / 2692)]]\n[[question x = ['b']]]",
+      "answer": "1916/673",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-40-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var n = (85560 / 713)]]\n[[question h = ['n']]]\ntheme: Marshmallow",
+      "statement": "A marshmallow factory produced 85560 marshmallows in 713 hours. If the factory produces the same amount every hour, how many marshmallows are made each hour?",
+      "new symbolic struct": "[[var h = (85560 / 713)]]\n[[question m = ['h']]]",
+      "answer": "120",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-40-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var n = (85560 / 7544)]]\n[[question h = ['n']]]\ntheme: Marshmallow",
+      "statement": "In the same marshmallow factory, another batch of marshmallows was made over a longer production period. This time, 85560 marshmallows were produced in 7544 hours. If the factory produces the same amount each hour during this period, how many marshmallalls were made each hour now?",
+      "new symbolic struct": "[[var j = (85560 / 7544)]]\n[[question n = ['j']]]",
+      "answer": "465/41",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-41-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var a = (49928 / 6241)]]\n[[question c = ['a']]]\ntheme: Farm",
+      "statement": "On a farm, there is a total area of 49,928 square meters to plant crops. If this area is divided into uniform plots of 6,241 square meters each, how many plots are there on the farm?",
+      "new symbolic struct": "[[var z = (49928 / 6241)]]\n[[question h = ['z']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-41-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var a = (49928 / 23)]]\n[[question c = ['a']]]\ntheme: Farm",
+      "statement": "Instead of subdividing the total area of 49,928 square meters into plots of 6,241 square meters each, the farmer decides to subdivide it into smaller plots, each measuring 23 square meters. How many plots are there on the farm now?",
+      "new symbolic struct": "[[var y = (49928 / 23)]]\n[[question g = ['y']]]",
+      "answer": "49928/23",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-42-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var b = (62118 / 2142)]]\n[[question i = ['b']]]\ntheme: Cookie",
+      "statement": "A baker used 62118 grams of flour to make cookies over the course of 2142 days. How many grams of flour were used to make cookies each day?",
+      "new symbolic struct": "[[var f = (62118 / 2142)]]\n[[question g = ['f']]]",
+      "answer": "29",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-42-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var b = (62118 / 2755)]]\n[[question i = ['b']]]\ntheme: Cookie",
+      "statement": "The baker realized that he actually used a total of 62118 grams of flour over the course of 2755 days, not 2142 days as previously thought. How does the daily use of flour for cookies change with this correction?",
+      "new symbolic struct": "[[var c = (62118 / 2755)]]\n[[question d = ['c']]]",
+      "answer": "2142/95",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-43-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var x = (91100 / 3644)]]\n[[question g = ['x']]]\ntheme: Shoes",
+      "statement": "A shoemaker has 91100 centimeters of shoelaces and he distributes them equally in 3644 pairs of shoes. How many centimeters of shoelace does each pair get?",
+      "new symbolic struct": "[[var s = (91100 / 3644)]]\n[[question p = ['s']]]",
+      "answer": "25",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-43-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var x = (91100 / 9498)]]\n[[question g = ['x']]]\ntheme: Shoes",
+      "statement": "If the shoemaker only had 9498 pairs of shoes but the same amount of shoelace (91100 centimeters), how many centimeters of shoelace would each pair get then?",
+      "new symbolic struct": "[[var t = (91100 / 9498)]]\n[[question u = ['t']]]",
+      "answer": "45550/4749",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-44-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var h = (505 / 5)]]\n[[question k = ['h']]]\ntheme: Farmer",
+      "statement": "A farmer harvests 505 bushels of apples and equally distributes them into 5 bins. How many bushels of apples does each bin contain?",
+      "new symbolic struct": "[[var a = (505 / 5)]]\n[[question b = ['a']]]",
+      "answer": "101",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-44-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var h = (7798 / 5)]]\n[[question k = ['h']]]\ntheme: Farmer",
+      "statement": "The farmer has now harvested a bigger lot of 7798 bushels of apples and once again distributes them equally into 5 bins. Now, how many bushels of apples does each bin contain?",
+      "new symbolic struct": "[[var a = (7798 / 5)]]\n[[question b = ['a']]]",
+      "answer": "7798/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-45-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var f = (65325 / 5025)]]\n[[question u = ['f']]]\ntheme: Party",
+      "statement": "At a party, there were a total of 65325 confetti pieces and they were equally spread across 5025 square feet of area. How many confetti pieces were there per square foot?",
+      "new symbolic struct": "[[var c = (65325 / 5025)]]\n[[question p = ['c']]]",
+      "answer": "13",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-45-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var f = (65325 / 9944)]]\n[[question u = ['f']]]\ntheme: Party",
+      "statement": "What if instead, the total confetti pieces at the party were spread across 9944 square feet of area instead of 5025? How many confetti pieces would be there per square foot in that case?",
+      "new symbolic struct": "[[var v = (65325 / 9944)]]\n[[question q = ['v']]]",
+      "answer": "65325/9944",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-46-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var n = (26691 / 123)]]\n[[question r = ['n']]]\ntheme: Crayon",
+      "statement": "A crayon factory produced 26691 crayons which are evenly distributed into 123 boxes. How many crayons are there in each box?",
+      "new symbolic struct": "[[var c = (26691 / 123)]]\n[[question m = ['c']]]",
+      "answer": "217",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-46-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var n = (4521 / 123)]]\n[[question r = ['n']]]\ntheme: Crayon",
+      "statement": "Suppose the crayon factory now produced 4521 crayons instead of 26691, and these were still evenly distributed into 123 boxes. How many crayons would there be in each box under this new scenario?",
+      "new symbolic struct": "[[var n = (4521 / 123)]]\n[[question b = ['n']]]",
+      "answer": "1507/41",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-47-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var q = (45843 / 413)]]\n[[question z = ['q']]]\ntheme: Firefighter",
+      "statement": "A firefighter unit extinguished a total of 45843 fires over the course of 413 weeks. If the firefighter unit extinguished the same number of fires each week, how many fires did they extinguish per week?",
+      "new symbolic struct": "[[var f = (45843 / 413)]]\n[[question p = ['f']]]",
+      "answer": "111",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-47-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var q = (45843 / 4913)]]\n[[question z = ['q']]]\ntheme: Firefighter",
+      "statement": "Following the previous scenario of the firefighter unit, suppose the total number of fires they actually extinguished over the period was 45843, but the time frame was 4913 weeks instead of 413 weeks. If they extinguished the same number of fires each week, how many fires did they extinguish per week now?",
+      "new symbolic struct": "[[var g = (45843 / 4913)]]\n[[question q = ['g']]]",
+      "answer": "45843/4913",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-48-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var u = (57546 / 9591)]]\n[[question d = ['u']]]\ntheme: Park",
+      "statement": "A park is 57546 square meters large and is divided into 9591 identical sections. What is the area of each section in square meters?",
+      "new symbolic struct": "[[var a = (57546 / 9591)]]\n[[question i = ['a']]]",
+      "answer": "6",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-48-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var u = (57546 / 131)]]\n[[question d = ['u']]]\ntheme: Park",
+      "statement": "After re-evaluating the park layout, the park authority has decided to divide the 57546 square meter park into 131 identical sections instead of 9591. What is the area of each section in square meters now?",
+      "new symbolic struct": "[[var b = (57546 / 131)]]\n[[question j = ['b']]]",
+      "answer": "57546/131",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-49-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (93822 / 4938)]]\n[[question n = ['k']]]\ntheme: Toothpaste",
+      "statement": "A toothpaste company produced 93822 tubes of toothpaste using 4938 boxes of raw materials. If each box of raw materials can produce the same amount of toothpaste tubes, how many toothpaste tubes are generated from one box of raw materials?",
+      "new symbolic struct": "[[var a = (93822 / 4938)]]\n[[question b = ['a']]]",
+      "answer": "19",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-49-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (9206 / 4938)]]\n[[question n = ['k']]]\ntheme: Toothpaste",
+      "statement": "Suppose the toothpaste company changes its manufacturing process and is now able to produce only 9206 tubes of toothpaste with the same 4938 boxes of raw materials. If each box of raw materials still produces the same number of toothpaste tubes, how many toothpaste tubes are now generated from one box of raw materials?",
+      "new symbolic struct": "[[var a = (9206 / 4938)]]\n[[question b = ['a']]]",
+      "answer": "4603/2469",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-50-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var v = (40740 / 84)]]\n[[question w = ['v']]]\ntheme: Jungle gym",
+      "statement": "A park's Jungle gym is used by a total of 40740 children over the span of 84 days. If the Jungle gym is used by the same number of kids each day, how many children use the Jungle gym each day?",
+      "new symbolic struct": "[[var i = (40740 / 84)]]\n[[question z = ['i']]]=",
+      "answer": "485",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-50-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var v = (8576 / 84)]]\n[[question w = ['v']]]\ntheme: Jungle gym",
+      "statement": "Imagine now that over a period of 84 days, 8576 children use the park's Jungle gym instead of 40740 children. If the Jungle gym is used equally by kids each day, how many children are now using the Jungle gym per day?",
+      "new symbolic struct": "[[var i = (8576 / 84)]]\n[[question z = ['i']]]",
+      "answer": "2144/21",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-51-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var i = (39482 / 38)]]\n[[question v = ['i']]]\ntheme: Snowman",
+      "statement": "A snowman competition uses 39482 cc (cubic centimeters) of snow to make 38 identical snowmen. How many cubic centimeters of snow are used for each snowman?",
+      "new symbolic struct": "[[var v = (39482 / 38)]]\n[[question u = ['v']]]",
+      "answer": "1039",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-51-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var i = (5895 / 38)]]\n[[question v = ['i']]]\ntheme: Snowman",
+      "statement": "In the previous snowman competition, suppose that the organizers used only 5895 cc (cubic centimeters) of snow to make the same 38 identical snowmen. How many cubic centimeters of snow would be used for each snowman in this scenario?",
+      "new symbolic struct": "[[var w = (5895 / 38)]]\n[[question x = ['w']]]",
+      "answer": "5895/38",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-52-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var r = (67673 / 1147)]]\n[[question o = ['r']]]\ntheme: Window",
+      "statement": "A large window spanning 67673 square inches is being divided into 1147 equally sized smaller squares. Find the area in square inches of each of these smaller squares.",
+      "new symbolic struct": "[[var s = (67673 / 1147)]]\n[[question a = ['s']]]",
+      "answer": "59",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-52-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var r = (7562 / 1147)]]\n[[question o = ['r']]]\ntheme: Window",
+      "statement": "If the large window instead spanned a smaller area of 7562 square inches, and it is still being divided into 1147 equally sized smaller squares, now what would be the area in square inches of each of these smaller squares?",
+      "new symbolic struct": "[[var s = (7562 / 1147)]]\n[[question a = ['s']]]",
+      "answer": "7562/1147",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-53-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var i = (49920 / 195)]]\n[[question y = ['i']]]\ntheme: Orange",
+      "statement": "A farmer has a large field of orange trees. In total, the trees produce 49,920 oranges. If the oranges are evenly distributed among the 195 trees, how many oranges does each tree produce?",
+      "new symbolic struct": "[[var o = (49920 / 195)]]\n[[question t = ['o']]]",
+      "answer": "256",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-53-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var i = (49920 / 9289)]]\n[[question y = ['i']]]\ntheme: Orange",
+      "statement": "Now, the farmer decided to distribute the same total number of 49,920 oranges but now only among 9,289 of his best-performing trees. How many oranges does each of these selected trees produce?",
+      "new symbolic struct": "[[var o = (49920 / 9289)]]\n[[question t_best = ['o']]]",
+      "answer": "49920/9289",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-54-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (34160 / 4270)]]\n[[question x = ['m']]]\ntheme: Sandwich",
+      "statement": "A consumption study found that 34160 children had a sandwich for lunch out of the total 4270 schools in the country. If every school has an equal number of children, how many children in each school had a sandwich for lunch?",
+      "new symbolic struct": "[[var e = (34160 / 4270)]]\n[[question t = ['e']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-54-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (34160 / 7823)]]\n[[question x = ['m']]]\ntheme: Sandwich",
+      "statement": "In the same consumption study, it was later revealed that the actual number of children who had a sandwich for lunch is 34160, but among a total of 7823 schools in the country. With this revised information, how many children in each school had a sandwich for lunch now?",
+      "new symbolic struct": "[[var e = (34160 / 7823)]]\n[[question t = ['e']]]",
+      "answer": "34160/7823",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-55-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (3366 / 306)]]\n[[question g = ['d']]]\ntheme: Toothpaste",
+      "statement": "A toothpaste tube contains 3366 grams of paste and each brushing uses an average of 306 grams. How many times can you brush your teeth with this tube of toothpaste?",
+      "new symbolic struct": "[[var j = (3366 / 306)]]\n[[question w = ['j']]]",
+      "answer": "11",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-55-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (9060 / 306)]]\n[[question g = ['d']]]\ntheme: Toothpaste",
+      "statement": "Consider the previous toothpaste problem, but this time, the toothpaste tube contains 9060 grams of paste. How many times can you now brush your teeth with this tube of toothpaste if each brushing still uses an average of 306 grams?",
+      "new symbolic struct": "[[var t = (9060 / 306)]]\n[[question x = ['t']]]",
+      "answer": "1510/51",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-56-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var y = (49742 / 1309)]]\n[[question o = ['y']]]\ntheme: Towel",
+      "statement": "A textile factory produces 49742 towels, evenly distributed among 1309 boxes. How many towels are in each box?",
+      "new symbolic struct": "[[var t = (49742 / 1309)]]\n[[question b = ['t']]]",
+      "answer": "38",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-56-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var y = (8337 / 1309)]]\n[[question o = ['y']]]\ntheme: Towel",
+      "statement": "Now consider that the textile factory actually produced 8337 towels, still evenly distributed among 1309 boxes. How many towels are now in each box?",
+      "new symbolic struct": "[[var t2 = (8337 / 1309)]]\n[[question b2 = ['t2']]]",
+      "answer": "1191/187",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-57-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var e = (43134 / 3318)]]\n[[question o = ['e']]]\ntheme: Alien",
+      "statement": "An alien civilization sends 43134 messages over a period of 3318 Earth days. If they send exactly the same number of messages each day, how many messages do they send per day?",
+      "new symbolic struct": "[[var m = (43134 / 3318)]]\n[[question p = ['m']]]",
+      "answer": "13",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-57-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var e = (43134 / 8212)]]\n[[question o = ['e']]]\ntheme: Alien",
+      "statement": "Instead of 3318 Earth days, consider that the alien civilization uses a different form of time measurement, where each of their \"days\" represents 8212 of our Earth days. In this scenario, if they were still sending 43134 messages throughout this period, how many messages would they be sending per their \"day\"?",
+      "new symbolic struct": "[[var m = (43134 / 8212)]]\n[[question p = ['m']]]",
+      "answer": "21567/4106",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-58-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var w = (80011 / 31)]]\n[[question l = ['w']]]\ntheme: School bus",
+      "statement": "A school district has 80,011 students who are equally distributed across 31 school buses. How many students are there per bus?",
+      "new symbolic struct": "[[var s = (80011 / 31)]]\n[[question b = ['s']]]",
+      "answer": "2581",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-58-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var w = (80011 / 2069)]]\n[[question l = ['w']]]\ntheme: School bus",
+      "statement": "The initial bus route was adjusted and the same 80,011 students are now equally distributed across 2069 buses due to a new policy. How many students are there per bus now?",
+      "new symbolic struct": "[[var t = (80011 / 2069)]]\n[[question b_new = ['t']]]",
+      "answer": "80011/2069",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-59-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (54020 / 730)]]\n[[question a = ['d']]]\ntheme: Camera",
+      "statement": "A camera store sold 54020 cameras over a period of 730 days. If they sell the same number of cameras each day, how many cameras are sold daily?",
+      "new symbolic struct": "[[var a = (54020 / 730)]]\n[[question b = ['a']]]",
+      "answer": "74",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-59-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (54020 / 5546)]]\n[[question a = ['d']]]\ntheme: Camera",
+      "statement": "After a successful marketing campaign, the camera store's sales increased, and they were able to sell 54020 cameras in just 5546 days. If they still sold the same number of cameras each day, how many cameras are now sold daily?",
+      "new symbolic struct": "[[var a = (54020 / 5546)]]\n[[question b = ['a']]]",
+      "answer": "27010/2773",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-60-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var l = (25774 / 526)]]\n[[question c = ['l']]]\ntheme: Ice cream",
+      "statement": "An ice cream factory makes 25774 liters of ice cream that were packed into 526 containers evenly. How many liters of ice cream does each container accommodate?",
+      "new symbolic struct": "[[var c = (25774 / 526)]]\n[[question y = ['c']]]",
+      "answer": "49",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-60-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var l = (25774 / 418)]]\n[[question c = ['l']]]\ntheme: Ice cream",
+      "statement": "Instead of packing the 25774 liters of ice cream into 526 containers, the factory decides to use only 418 containers. If they divide the ice cream evenly among these containers, how many liters of ice cream does each container now accommodate?",
+      "new symbolic struct": "[[var b = (25774 / 418)]]\n[[question y = ['b']]]",
+      "answer": "12887/209",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-61-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var t = (85300 / 3412)]]\n[[question m = ['t']]]\ntheme: Bus",
+      "statement": "A city's public transportation system logs a total of 85300 miles driven among its fleet of 3412 buses in a week. Assuming each bus travels the same distance, how many miles does each bus drive in a week?",
+      "new symbolic struct": "[[var m = (85300 / 3412)]]\n[[question b = ['m']]]",
+      "answer": "25",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-61-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var t = (3940 / 3412)]]\n[[question m = ['t']]]\ntheme: Bus",
+      "statement": "With the same fleet of 3412 buses, the city's public transportation system only logs a total of 3940 miles driven next week. If each bus shared the work evenly again, how many miles did each bus drive in this week?",
+      "new symbolic struct": "[[var w = (3940 / 3412)]]\n[[question bNext = ['w']]]",
+      "answer": "985/853",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-62-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var t = (92250 / 75)]]\n[[question n = ['t']]]\ntheme: Wind",
+      "statement": "A wind turbine generates a total of 92250 kilowatts of energy over 75 hours. How much energy does it produce per hour?",
+      "new symbolic struct": "[[var eph = (92250 / 75)]]\n[[question epha = ['eph']]]",
+      "answer": "1230",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-62-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var t = (5837 / 75)]]\n[[question n = ['t']]]\ntheme: Wind",
+      "statement": "If the same wind turbine instead generates a total of 5837 kilowatts of energy over the same 75 hours, how much energy does it now produce per hour?",
+      "new symbolic struct": "[[var eph = (5837 / 75)]]\n[[question epha = ['eph']]]",
+      "answer": "5837/75",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-63-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (3734 / 1867)]]\n[[question v = ['m']]]\ntheme: Baby",
+      "statement": "A baby gained a total of 3734 grams over a span of 1867 days. How many grams did the baby gain daily on average?",
+      "new symbolic struct": "[[var g = (3734 / 1867)]]\n[[question avg = ['g']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-63-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var m = (3734 / 1651)]]\n[[question v = ['m']]]\ntheme: Baby",
+      "statement": "Suppose the baby's weight gain was recalculated over a span of 1651 days. If the total weight gain was still 3734 grams, what would be the average daily weight gain now?",
+      "new symbolic struct": "[[var g1 = (3734 / 1651)]]\n[[question avg1 = ['g1']]]",
+      "answer": "3734/1651",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-64-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var v = (33532 / 8383)]]\n[[question n = ['v']]]\ntheme: Firefighter",
+      "statement": "A firefighter uses a hose that releases 33,532 liters of water. If the hose releases the same amount of water each minute for 8,383 minutes, how many liters of water are released per minute?",
+      "new symbolic struct": "[[var h = (33532 / 8383)]]\n[[question i = ['h']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-64-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var v = (33532 / 7845)]]\n[[question n = ['v']]]\ntheme: Firefighter",
+      "statement": "If the firefighter instead uses a different hose that releases the same total amount of water, 33,532 liters, but this time it's over 7,845 minutes, how many liters of water are released per minute with this hose?",
+      "new symbolic struct": "[[var j = (33532 / 7845)]]\n[[question k = ['j']]]",
+      "answer": "33532/7845",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-66-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var j = (96120 / 20)]]\n[[question i = ['j']]]\ntheme: Chicken",
+      "statement": "A farmer collects eggs from her chickens. She collects a total of 96,120 eggs evenly from 20 chickens. How many eggs does each chicken contribute?",
+      "new symbolic struct": "[[var e = (96120 / 20)]]\n[[question c = ['e']]]",
+      "answer": "4806",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-66-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var j = (96120 / 9046)]]\n[[question i = ['j']]]\ntheme: Chicken",
+      "statement": "The farmer realizes that she miscalculated and she actually collected a total of 96,120 eggs but it was from 9,046 chickens, not 20. How many eggs did each chicken actually contribute?",
+      "new symbolic struct": "[[var e = (96120 / 9046)]]\n[[question c = ['e']]]",
+      "answer": "48060/4523",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-67-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var j = (11458 / 17)]]\n[[question o = ['j']]]\ntheme: Rain",
+      "statement": "A town receives 11458 millimeters of rain over 17 days. How much rain does the town receive each day if it rains the same amount every day?",
+      "new symbolic struct": "[[var r = (11458 / 17)]]\n[[question d = ['r']]]",
+      "answer": "674",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-67-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var j = (11458 / 8513)]]\n[[question o = ['j']]]\ntheme: Rain",
+      "statement": "Instead of 11458 millimeters of rain falling over 17 days, suppose now that 11458 millimeters of rain fell over 8513 days. How much rain does the town now receive each day if it rains the same amount every day?",
+      "new symbolic struct": "[[var r = (11458 / 8513)]]\n[[question d = ['r']]]",
+      "answer": "11458/8513",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-68-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var b = (2526 / 842)]]\n[[question g = ['b']]]\ntheme: Pen",
+      "statement": "A pen factory produced 2526 pens in 842 hours. If they produced pens at an equal pace all the time, how many pens were produced every hour?",
+      "new symbolic struct": "[[var x = (2526 / 842)]]\n[[question y = ['x']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-68-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var b = (2526 / 547)]]\n[[question g = ['b']]]\ntheme: Pen",
+      "statement": "If the pen factory had instead produced 2526 pens in 547 hours under the same even-paced conditions, how many pens would have been produced each hour?",
+      "new symbolic struct": "[[var a = (2526 / 547)]]\n[[question b = ['a']]]",
+      "answer": "2526/547",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-69-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (285 / 19)]]\n[[question b = ['k']]]\ntheme: Eraser",
+      "statement": "A school decided to equally distribute 285 erasers among 19 classrooms. How many erasers does each classroom get?",
+      "new symbolic struct": "[[var e = (285 / 19)]]\n[[question c = ['e']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-69-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (4681 / 19)]]\n[[question b = ['k']]]\ntheme: Eraser",
+      "statement": "Initially a school decided to equally distribute 285 erasers among 19 classrooms. But later, the school received a donation and the total number of erasers increased to 4681. If these erasers are equally distributed among the same 19 classrooms, how many erasers does each classroom get now?",
+      "new symbolic struct": "[[var e1 = (285 / 19)]]\n[[var e2 = (4681 / 19)]]\n[[question c = ['e2']]]",
+      "answer": "4681/19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-70-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var x = (41020 / 5)]]\n[[question o = ['x']]]\ntheme: Penguin",
+      "statement": "A penguin slides down a glacier at a constant speed and covers a distance of 41020 feet in 5 hours. What is the penguin's speed in feet per hour?",
+      "new symbolic struct": "[[var s = (41020 / 5)]]\n[[question v = ['s']]]",
+      "answer": "8204",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-70-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var x = (4325 / 5)]]\n[[question o = ['x']]]\ntheme: Penguin",
+      "statement": "In the last problem, the penguin covered a distance of 41020 feet in 5 hours. Now, consider a situation where the penguin only covered a distance of 4325 feet in the same 5 hours. What would be the penguin's speed in feet per hour in this new scenario?",
+      "new symbolic struct": "[[var s_new = (4325 / 5)]]\n[[question v_new = ['s_new']]]",
+      "answer": "865",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-71-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var y = (63360 / 576)]]\n[[question r = ['y']]]\ntheme: Water",
+      "statement": "A water company has a reservoir that can hold 63360 gallons of water. If the reservoir is divided into 576 equal sections, how many gallons of water does each section hold?",
+      "new symbolic struct": "[[var r = (63360 / 576)]]\n[[question s = ['r']]]",
+      "answer": "110",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-71-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var y = (63360 / 9999)]]\n[[question r = ['y']]]\ntheme: Water",
+      "statement": "Suppose instead the reservoir could hold 63360 gallons of water but now it's divided into 9999 equal sections. How many gallons of water does each section then hold?",
+      "new symbolic struct": "[[var t = (63360 / 9999)]]\n[[question u = ['t']]]",
+      "answer": "640/101",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-72-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var w = (21868 / 77)]]\n[[question e = ['w']]]\ntheme: Skirt",
+      "statement": "A fashion company made a total of 21868 skirts distributed equally among 77 stores. How many skirts did each store get?",
+      "new symbolic struct": "[[var s = (21868 / 77)]]\n[[question f = ['s']]]",
+      "answer": "284",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-73-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var x = (56109 / 59)]]\n[[question e = ['x']]]\ntheme: TV",
+      "statement": "A TV channel broadcasts a total of 56109 minutes of advertisements over a 59-day period. On average, how many minutes of advertisements are shown each day?",
+      "new symbolic struct": "[[var b = (56109 / 59)]]\n[[question d = ['b']]]",
+      "answer": "951",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-73-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var x = (5352 / 59)]]\n[[question e = ['x']]]\ntheme: TV",
+      "statement": "Suppose the TV channel decided to reduce the total minutes of advertisements. Now, over a 59-day period, they only broadcast a total of 5352 minutes of advertisements. What is the new average of advertisement minutes shown each day?",
+      "new symbolic struct": "[[var a = (5352 / 59)]]\n[[question n = ['a']]]",
+      "answer": "5352/59",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-74-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var p = (59748 / 1149)]]\n[[question j = ['p']]]\ntheme: Teacher",
+      "statement": "A teacher marks a total of 59748 marks distributed evenly over 1149 exam papers. How many marks are in each exam paper?",
+      "new symbolic struct": "[[var a = (59748 / 1149)]]\n[[question b = ['a']]]",
+      "answer": "52",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-74-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var p = (7117 / 1149)]]\n[[question j = ['p']]]\ntheme: Teacher",
+      "statement": "If the teacher, instead of marking 59748 marks, marked a total of 7117 marks distributed evenly over the same 1149 exam papers, how many marks would be in each exam paper now?",
+      "new symbolic struct": "[[var c = (7117 / 1149)]]\n[[question d = ['c']]]",
+      "answer": "7117/1149",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-75-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var c = (44840 / 76)]]\n[[question e = ['c']]]\ntheme: Water",
+      "statement": "A reservoir holds 44840 liters of water. If this water is equally distributed across 76 houses in a village, how many liters of water will each house get?",
+      "new symbolic struct": "[[var w = (44840 / 76)]]\n[[question h = ['w']]]",
+      "answer": "590",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-75-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var c = (44840 / 6614)]]\n[[question e = ['c']]]\ntheme: Water",
+      "statement": "Suppose the reservoir now has 6614 houses to supply. If the reservoir still holds 44840 liters of water, how many liters can be distributed to each house?",
+      "new symbolic struct": "[[var new_w = (44840 / 6614)]]\n[[question new_h = ['new_w']]]",
+      "answer": "22420/3307",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-76-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var e = (5385 / 359)]]\n[[question d = ['e']]]\ntheme: Butterfly",
+      "statement": "A butterfly during its lifetime lay 5385 eggs, and she spread these eggs evenly across 359 flowers. How many eggs did she lay on each flower?",
+      "new symbolic struct": "[[var e = (5385 / 359)]]\n[[question f = ['e']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-76-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var e = (9710 / 359)]]\n[[question d = ['e']]]\ntheme: Butterfly",
+      "statement": "Suppose the butterfly had instead spread a total of 9710 eggs across the same 359 flowers. How many eggs did she lay on each flower in this case?",
+      "new symbolic struct": "[[var e = (9710 / 359)]]\n[[question f = ['e']]]",
+      "answer": "9710/359",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-77-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var r = (95038 / 61)]]\n[[question u = ['r']]]\ntheme: Camera",
+      "statement": "A camera has a total of 95038 pixels divided evenly into 61 rows. How many pixels are there in each row?",
+      "new symbolic struct": "[[var p = (95038 / 61)]]\n[[question r = ['p']]]",
+      "answer": "1558",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-77-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var r = (2122 / 61)]]\n[[question u = ['r']]]\ntheme: Camera",
+      "statement": "Suppose instead of 95038 pixels, the camera has only 2122 pixels and still divides them evenly into 61 rows. How many pixels would there be in each row now?",
+      "new symbolic struct": "[[var p_new = (2122 / 61)]]\n[[question r_new = ['p_new']]]",
+      "answer": "2122/61",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-78-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (45580 / 53)]]\n[[question u = ['k']]]\ntheme: Ice cream",
+      "statement": "An ice cream factory produces a total of 45580 cones of ice cream over a period of 53 days. If the ice cream cones are produced uniformly across these days, how many ice cream cones are made each day?",
+      "new symbolic struct": "[[var i = (45580 / 53)]]\n[[question z = ['i']]]",
+      "answer": "860",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-78-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (4660 / 53)]]\n[[question u = ['k']]]\ntheme: Ice cream",
+      "statement": "The same ice cream factory has adjusted their volume and now makes a total of 4660 cones over the same 53 day period. If production is still uniform, how many ice cream cones are they making each day now?",
+      "new symbolic struct": "[[var j = (4660 / 53)]]\n[[question k = ['j']]]",
+      "answer": "4660/53",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-79-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var s = (36135 / 219)]]\n[[question z = ['s']]]\ntheme: Towel",
+      "statement": "A textile factory produces 36135 square inches of towel fabric that is divided evenly among 219 towels. How many square inches of fabric is each towel?",
+      "new symbolic struct": "[[var t = (36135 / 219)]]\n[[question f = ['t']]]",
+      "answer": "165",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-80-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var l = (36300 / 4)]]\n[[question h = ['l']]]\ntheme: Fireplace",
+      "statement": "A fireplace burns 36300 kilojoules of energy in 4 hours. How much energy does it burn in one hour?",
+      "new symbolic struct": "[[var e = (36300 / 4)]]\n[[question h = ['e']]]",
+      "answer": "9075",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-80-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var l = (8712 / 4)]]\n[[question h = ['l']]]\ntheme: Fireplace",
+      "statement": "In another scenario, a different fireplace burns 8712 kilojoules of energy in 4 hours. Assuming it also burns energy at a constant rate, how much energy does this fireplace burn in one hour?",
+      "new symbolic struct": "[[var e2 = (8712 / 4)]]\n[[question h2 = ['e2']]]",
+      "answer": "2178",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-81-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var g = (51156 / 9)]]\n[[question s = ['g']]]\ntheme: Snowman",
+      "statement": "A snowman-making competition has 9 teams, each of them was provided an equal amount of snow weighing up to 51156 kilograms in total. How much snow, in kilograms, did each team get to make their snowman?",
+      "new symbolic struct": "[[var s = (51156 / 9)]]\n[[question m = ['s']]]",
+      "answer": "5684",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-81-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var g = (6407 / 9)]]\n[[question s = ['g']]]\ntheme: Snowman",
+      "statement": "Suppose instead of 51156 kilograms of snow, only 6407 kilograms of snow was available for the same 9 teams in the snowman-making competition. How much snow, in kilograms, would each team get to make their snowman now?",
+      "new symbolic struct": "[[var t = (6407 / 9)]]\n[[question n = ['t']]]",
+      "answer": "6407/9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-82-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var r = (56250 / 30)]]\n[[question t = ['r']]]\ntheme: Apple",
+      "statement": "An apple orchard yielded a total of 56250 apples. Over the course of 30 days, they managed to harvest the same number of apples every day. How many apples were harvested each day?",
+      "new symbolic struct": "[[var d = (56250 / 30)]]\n[[question a = ['d']]]",
+      "answer": "1875",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-82-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var r = (56250 / 3028)]]\n[[question t = ['r']]]\ntheme: Apple",
+      "statement": "Instead of the original 30 days, the workers actually took 3028 days to harvest a total of 56250 apples, harvesting the same number of apples every day. In light of this new information, how many apples were actually harvested each day?",
+      "new symbolic struct": "[[var e = (56250 / 3028)]]\n[[question b = ['e']]]",
+      "answer": "28125/1514",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-83-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var p = (82992 / 1729)]]\n[[question q = ['p']]]\ntheme: Baby",
+      "statement": "A baby spoke her first word after 82992 seconds of being awake in her life. If one day is considered 1729 seconds, after how many days did she speak her first word?",
+      "new symbolic struct": "[[var v = (82992 / 1729)]]\n[[question y = ['v']]]",
+      "answer": "48",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-83-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var p = (8741 / 1729)]]\n[[question q = ['p']]]\ntheme: Baby",
+      "statement": "Considering the baby from the previous problem, suppose now that she spoke her first word after being awake for a shorter time of 8741 seconds. Keeping our day duration constant at 1729 seconds, after how many days in this scenario did she speak her first word?",
+      "new symbolic struct": "[[var w = (8741 / 1729)]]\n[[question y = ['w']]]",
+      "answer": "8741/1729",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-84-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var f = (91368 / 216)]]\n[[question x = ['f']]]\ntheme: Map",
+      "statement": "A map has a scale of 91368 centimeters representing 216 kilometers. How many centimeters on the map represent 1 kilometer in real life?",
+      "new symbolic struct": "[[var a = (91368 / 216)]]\n[[question b = ['a']]]",
+      "answer": "423",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-84-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var f = (6884 / 216)]]\n[[question x = ['f']]]\ntheme: Map",
+      "statement": "Following the previous scenario, the map maker decides to make a new map where 6884 centimeters represent the same 216 kilometers. Now, how many centimeters on this new map would represent 1 kilometer in real life?",
+      "new symbolic struct": "[[var c = (6884 / 216)]]\n[[question d = ['c']]]",
+      "answer": "1721/54",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-85-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var y = (33536 / 131)]]\n[[question s = ['y']]]\ntheme: Dress",
+      "statement": "A fashion designer plans to use 33536 beads to embellish a dress uniformly across 131 different sections. How many beads will be used for each section?",
+      "new symbolic struct": "[[var b = (33536 / 131)]]\n[[question x = ['b']]]",
+      "answer": "256",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-85-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var y = (33536 / 3206)]]\n[[question s = ['y']]]\ntheme: Dress",
+      "statement": "Now, imagine that the fashion designer decides to use the same total number of 33536 beads, but wants to distribute them uniformly over a larger number of sections. If they decides to spread these beads over 3206 different sections on the dress, how many beads will there be in each section?",
+      "new symbolic struct": "[[var c = (33536 / 3206)]]\n[[question y = ['c']]]",
+      "answer": "16768/1603",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-86-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (69966 / 299)]]\n[[question m = ['k']]]\ntheme: Firefighter",
+      "statement": "A firefighter sprays 69966 gallons of water on a fire in 299 minutes. If the firefighter sprays the same amount of water every minute, how many gallons does he spray each minute?",
+      "new symbolic struct": "[[var i = (69966 / 299)]]\n[[question z = ['i']]]",
+      "answer": "234",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-86-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var k = (8749 / 299)]]\n[[question m = ['k']]]\ntheme: Firefighter",
+      "statement": "After the fire is controlled, a firefighter continues to spray 8749 gallons of water to cool down the area over the next 299 minutes. If the firefighter sprays the same amount of water every minute as before, how many gallons does he spray each minute now?",
+      "new symbolic struct": "[[var i = (8749 / 299)]]\n[[question z = ['i']]]",
+      "answer": "673/23",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-87-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var p = (6354 / 2118)]]\n[[question h = ['p']]]\ntheme: Window",
+      "statement": "The latest model of window that a company has designed will require 6354 square inches of glass material. The manufacturer's current stock can cover 2118 same-sized windows. How many square inches of glass are required for a single window?",
+      "new symbolic struct": "[[var i = (6354 / 2118)]]\n[[question z = ['i']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-87-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var p = (6354 / 6122)]]\n[[question h = ['p']]]\ntheme: Window",
+      "statement": "After revising their design slightly, the company now finds that they will only need 6354 square inches of glass material to produce 6122 of the new model of windows. How many square inches of glass are now required for each of the new model windows?",
+      "new symbolic struct": "[[var i = (6354 / 6122)]]\n[[question z = ['i']]]",
+      "answer": "3177/3061",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-89-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var l = (12288 / 512)]]\n[[question e = ['l']]]\ntheme: Frog",
+      "statement": "A frog jumps a total of 12288 centimeters in 512 jumps. If the frog jumps the same distance each time, how many centimeters does the frog jump per jump?",
+      "new symbolic struct": "[[var j = (12288 / 512)]]\n[[question f = ['j']]]",
+      "answer": "24",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-89-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var l = (9064 / 512)]]\n[[question e = ['l']]]\ntheme: Frog",
+      "statement": "After practicing for a while, the frog now jumps a total of 9064 centimeters in the same 512 jumps. If the frog jumps the same distance each time, how many centimeters does the frog now jump per jump?",
+      "new symbolic struct": "[[var j = (9064 / 512)]]\n[[question f = ['j']]]",
+      "answer": "1133/64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-90-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var s = (1392 / 116)]]\n[[question y = ['s']]]\ntheme: Flower",
+      "statement": "A gardener planted a total of 1392 flowers evenly into 116 pots. How many flowers are there in each pot?",
+      "new symbolic struct": "[[var p = (1392 / 116)]]\n[[question f = ['p']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-90-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var s = (7275 / 116)]]\n[[question y = ['s']]]\ntheme: Flower",
+      "statement": "If instead of planting a total of 1392 flowers, the gardener planted a total of 7275 flowers evenly into the 116 pots, then how many flowers would there be in each pot now?",
+      "new symbolic struct": "[[var q = (7275 / 116)]]\n[[question f = ['q']]]",
+      "answer": "7275/116",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-91-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var i = (31176 / 9)]]\n[[question c = ['i']]]\ntheme: Ice cream",
+      "statement": "An ice cream shop sold a total of 31,176 scoops of ice cream over 9 weeks. How many scoops of ice cream did they sell each week?",
+      "new symbolic struct": "[[var s = (31176 / 9)]]\n[[question w = ['s']]]",
+      "answer": "3464",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-91-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var i = (31176 / 4035)]]\n[[question c = ['i']]]\ntheme: Ice cream",
+      "statement": "Suppose instead of 9 weeks, it took the ice cream shop 4035 days to sell a total of 31,176 scoops of ice cream. How many scoops of ice cream did they sell each day?",
+      "new symbolic struct": "[[var s = (31176 / 4035)]]\n[[question d = ['s']]]",
+      "answer": "10392/1345",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-92-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var u = (14824 / 4)]]\n[[question n = ['u']]]\ntheme: Mouse",
+      "statement": "A very active mouse runs 14824 meters in 4 hours. If he runs at a constant rate, how many meters per hour does he run?",
+      "new symbolic struct": "[[var r = (14824 / 4)]]\n[[question m = ['r']]]",
+      "answer": "3706",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-93-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var u = (88508 / 406)]]\n[[question j = ['u']]]\ntheme: Monkey",
+      "statement": "In a large monkey sanctuary, there are 88,508 bananas to be split evenly among 406 monkeys. If every monkey will receive an equal number of bananas, how many bananas would each monkey get?",
+      "new symbolic struct": "[[var b = (88508 / 406)]]\n[[question m = ['b']]]",
+      "answer": "218",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-93-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var u = (9073 / 406)]]\n[[question j = ['u']]]\ntheme: Monkey",
+      "statement": "What if the sanctuary in the previous problem had only 9,073 bananas instead of 88,508? How many bananas would each monkey get then, if they still had to be split evenly among the 406 monkeys?",
+      "new symbolic struct": "[[var b_new = (9073 / 406)]]\n[[question m_new = ['b_new']]]",
+      "answer": "9073/406",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-94-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var o = (15110 / 2)]]\n[[question t = ['o']]]\ntheme: Table",
+      "statement": "A furniture maker has a large order placed by a hotel owner for tables. The order is for 15110 table legs, making the assumption that each table will have 2 legs. How many tables is the hotel owner ordering?",
+      "new symbolic struct": "[[var t = (15110 / 2)]]\n[[question i = ['t']]]",
+      "answer": "7555",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-94-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var o = (3774 / 2)]]\n[[question t = ['o']]]\ntheme: Table",
+      "statement": "The furniture maker later realizes that there was a mistake in the initial order, and the hotel owner actually only wanted 3774 table legs, with each table having 2 legs. With this corrected order, how many tables is the hotel owner actually ordering?",
+      "new symbolic struct": "[[var t2 = (3774 / 2)]]\n[[question i2 = ['t2']]]",
+      "answer": "1887",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-95-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var y = (3560 / 890)]]\n[[question x = ['y']]]\ntheme: Hat",
+      "statement": "A hat maker has 3560 feathers which will be used to decorate hats. If each hat will have 890 feathers, how many hats can be made?",
+      "new symbolic struct": "[[var h = (3560 / 890)]]\n[[question f = ['h']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-95-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var y = (1416 / 890)]]\n[[question x = ['y']]]\ntheme: Hat",
+      "statement": "In the previous scenario, suppose the hat maker did not have 3560 feathers, but only had 1416 feathers instead. If each hat will still have 890 feathers, how many hats can be produced now?",
+      "new symbolic struct": "[[var h_new = (1416 / 890)]]\n[[question f_new = ['h_new']]]",
+      "answer": "708/445",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-96-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var u = (17394 / 3)]]\n[[question b = ['u']]]\ntheme: Card",
+      "statement": "A card game involves a total of 17394 points distributed equally over 3 players. How many points does each player have?",
+      "new symbolic struct": "[[var p = (17394 / 3)]]\n[[question x = ['p']]]",
+      "answer": "5798",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-96-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var u = (17394 / 7489)]]\n[[question b = ['u']]]\ntheme: Card",
+      "statement": "Now, consider a similar game where the total of 17394 points is now distributed evenly among 7489 players instead. In this case, how many points would each player have?",
+      "new symbolic struct": "[[var q = (17394 / 7489)]]\n[[question y = ['q']]]",
+      "answer": "17394/7489",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-97-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var u = (3276 / 126)]]\n[[question y = ['u']]]\ntheme: Park",
+      "statement": "The central park covers a big land area of 3276 acres divided into 126 identical sections. How many acres does each section have?",
+      "new symbolic struct": "[[var a = (3276 / 126)]]\n[[question s = ['a']]]",
+      "answer": "26",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-97-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var u = (139 / 126)]]\n[[question y = ['u']]]\ntheme: Park",
+      "statement": "If instead of the original size, the park was smaller, covering only 139 acres, but the sections remained the same, each with an equal area, how many acres would each section cover?",
+      "new symbolic struct": "[[var b = (139 / 126)]]\n[[question s = ['b']]]",
+      "answer": "139/126",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-98-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (54736 / 11)]]\n[[question v = ['d']]]\ntheme: Pants",
+      "statement": "A pants manufacturer has 54736 yards of fabric. If they are planning to make each pair of pants using the same amount of fabric and each will consume an equal portion of the total fabric, how many yards of fabric are needed for each pair if they intend to produce 11 pairs?",
+      "new symbolic struct": "[[var f = (54736 / 11)]]\n[[question p = ['f']]]",
+      "answer": "4976",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-98-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (4769 / 11)]]\n[[question v = ['d']]]\ntheme: Pants",
+      "statement": "The pants manufacturer now only has 4769 yards of fabric left. If they still plan on making 11 pairs of pants with this fabric, and each pair will still consume an equal portion of the total fabric, how many yards of fabric are needed for each pair now?",
+      "new symbolic struct": "[[var f_new = (4769 / 11)]]\n[[question p_new = ['f_new']]]",
+      "answer": "4769/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-99-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var l = (49716 / 18)]]\n[[question h = ['l']]]\ntheme: Clock",
+      "statement": "The minute hand of a clock rotates 49716 degrees throughout 18 hours. If the rotation is uniform, how many degrees does it rotate each hour?",
+      "new symbolic struct": "[[var i = (49716 / 18)]]\n[[question z = ['i']]]",
+      "answer": "2762",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-99-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var l = (49716 / 9706)]]\n[[question h = ['l']]]\ntheme: Clock",
+      "statement": "Considering that the minute hand of the clock actually rotates 49716 degrees throughout 9706 hours instead of 18, how many degrees does it rotate each hour?",
+      "new symbolic struct": "[[var i = (49716 / 9706)]]\n[[question z = ['i']]]",
+      "answer": "24858/4853",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-100-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var z = (1865 / 373)]]\n[[question f = ['z']]]\ntheme: Stuffed animal",
+      "statement": "A toy company has made 1865 stuffed animals spread over 373 different designs. If each design has the same number of stuffed animals, how many stuffed animals are there for each design?",
+      "new symbolic struct": "[[var t = (1865 / 373)]]\n[[question x = ['t']]]",
+      "answer": "5",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-100-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var z = (2542 / 373)]]\n[[question f = ['z']]]\ntheme: Stuffed animal",
+      "statement": "In an alternate scenario, the toy company made 2542 stuffed animals, still spread over 373 different designs. If each design had the same number of stuffed animals in this scenario, how many stuffed animals would there be for each design?",
+      "new symbolic struct": "[[var t = (2542 / 373)]]\n[[question x = ['t']]]",
+      "answer": "2542/373",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-101-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (31470 / 30)]]\n[[question b = ['d']]]\ntheme: Bear",
+      "statement": "A bear travels a total of 31470 feet in 30 days. If the bear travels the same distance each day, how many feet does it travel each day?",
+      "new symbolic struct": "[[var d = (31470 / 30)]]\n[[question z = ['d']]]",
+      "answer": "1049",
+      "tag": "original problem"
+    },
+    {
+      "id": "6.NS.B.2-101-2",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var d = (31470 / 1406)]]\n[[question b = ['d']]]\ntheme: Bear",
+      "statement": "Considering our previous calculation, if a bear travels a total of 31470 feet but this time over 1406 days instead of 30 days and still travels the same distance each day, how many feet does it travel each day now?",
+      "new symbolic struct": "[[var d2 = (31470 / 1406)]]\n[[question z2 = ['d2']]]",
+      "answer": "15735/703",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "6.NS.B.2-102-0",
+      "standard": "6.NS.B.2",
+      "symbolic-struct": "[[var u = (9636 / 44)]]\n[[question e = ['u']]]\ntheme: Pen",
+      "statement": "A pen manufacturer produced 9636 pen units and distributed them equally among its 44 retailers. How many pen units did each retailer receive?",
+      "new symbolic struct": "[[var p = (9636 / 44)]]\n[[question q = ['p']]]",
+      "answer": "219",
+      "tag": "original problem"
+    }
+  ]
+]

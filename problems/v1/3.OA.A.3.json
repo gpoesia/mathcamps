@@ -1,0 +1,2074 @@
+[
+  [
+    {
+      "id": "3.OA.A.3-2-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var x = 12]]\n[[var s = (8 * x)]]\n[[question f = ['s']]]\ntheme: Chair",
+      "statement": "John has 12 tables. Each table requires 8 chairs. How many chairs does John need to accommodate all the tables?",
+      "new symbolic struct": "[[var tables = 12]]\n[[var chairs_per_table = 8]]\n[[var total_chairs = tables * chairs_per_table]]\n[[question result = ['total_chairs']]]",
+      "answer": "96",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-2-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var x = 2]]\n[[var s = (8 * x)]]\n[[question f = ['s']]]\ntheme: Chair",
+      "statement": "Suppose now, John only has 2 tables instead of 12. Using the same number of chairs per table, how many chairs would John need now to accommodate these tables?",
+      "new symbolic struct": "[[var tables = 2]]\n[[var chairs_per_table = 8]]\n[[var total_chairs = tables * chairs_per_table]]\n[[question result = ['total_chairs']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-3-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var f = (4 * 3)]]\n[[var a = (f * 5)]]\n[[question s = ['a']]]\ntheme: Fairy",
+      "statement": "In a magical fairy world, there are 4 fairies per house and 3 houses in a cluster. Each fairy creates 5 magic dust particles a day. How many magic dust particles are created in one day by all the fairies in a cluster?",
+      "new symbolic struct": "[[var fairies_per_house = 4]]\n[[var houses_per_cluster = 3]]\n[[var dust_per_fairy = 5]]\n[[var total_fairies = fairies_per_house * houses_per_cluster]]\n[[var total_dust = total_fairies * dust_per_fairy]]\n[[question result = ['total_dust']]]",
+      "answer": "60",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-3-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var f = (4 * 3)]]\n[[var a = (f * 5)]]\n[[var w = (a * 1)]]\n[[question b = ['w']]]\ntheme: Fairy",
+      "statement": "In the magical fairy world, each magic dust particle created lasts for 1 whole week. How many magic dust particles will be available in a cluster of houses after a week?",
+      "new symbolic struct": "[[var fairies_per_house = 4]]\n[[var houses_per_cluster = 3]]\n[[var dust_per_fairy = 5]]\n[[var total_fairies = fairies_per_house * houses_per_cluster]]\n[[var total_dust = total_fairies * dust_per_fairy]]\n[[question result = ['total_dust']]]",
+      "answer": "60",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-3-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var f = (4 * 3)]]\n[[var a = (f * 8)]]\n[[question s = ['a']]]\ntheme: Fairy",
+      "statement": "Previously, we discovered that each fairy creates 5 magic dust particles a day. But what happens if instead, each fairy creates 8 magic dust particles a day? How many magic dust particles are then created in one day by all the fairies in a cluster?",
+      "new symbolic struct": "[[var fairies_per_house = 4]]\n[[var houses_per_cluster = 3]]\n[[var dust_per_fairy = 8]]\n[[var total_fairies = fairies_per_house * houses_per_cluster]]\n[[var total_dust_new = total_fairies * dust_per_fairy]]\n[[question result = ['total_dust_new']]]",
+      "answer": "96",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-4-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = (9 * 7)]]\n[[question y = ['e']]]\ntheme: Building blocks",
+      "statement": "Harry has 9 sets of building blocks, each set contains 7 blocks. How many building blocks does Harry have in total?",
+      "new symbolic struct": "[[var blocks_per_set = 7]]\n[[var total_sets = 9]]\n[[var total_blocks = blocks_per_set * total_sets]]\n[[question result = ['total_blocks']]]",
+      "answer": "63",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-6-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var s = (4 * 12)]]\n[[question r = ['s']]]\ntheme: Zoo",
+      "statement": "In the zoo, there are 12 peacocks in every enclosure. If there are 4 enclosures, how many peacocks are in the zoo in total?",
+      "new symbolic struct": "[[var peacocks_per_enclosure = 12]]\n[[var total_enclosures = 4]]\n[[var total_peacocks = peacocks_per_enclosure * total_enclosures]]\n[[question result = ['total_peacocks']]]",
+      "answer": "48",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-6-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var s = (7 * 12)]]\n[[question r = ['s']]]\ntheme: Zoo",
+      "statement": "Let's imagine that instead of 4 enclosures, the zoo originally had 7 enclosures. The same rule was followed: 12 peacocks were placed in each enclosure. How many peacocks would there be in the zoo in this scenario?",
+      "new symbolic struct": "[[var peacocks_per_enclosure = 12]]\n[[var original_enclosures = 7]]\n[[var original_total_peacocks = peacocks_per_enclosure * original_enclosures]]\n[[question result = ['original_total_peacocks']]]",
+      "answer": "84",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-7-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = (24 / 12)]]\n[[question c = ['t']]]\ntheme: Jungle gym",
+      "statement": "There are 24 children at the park and want to play on the jungle gym. If each jungle gym can accommodate 12 children at a time, how many turns must they take so that everyone gets a chance to play?",
+      "new symbolic struct": "[[var children = 24]]\n[[var capacity = 12]]\n[[var turns = children / capacity]]\n[[question result = ['turns']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-7-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = (24 / 2)]]\n[[question c = ['t']]]\ntheme: Jungle gym",
+      "statement": "Suppose now that there are 24 children at the park, but the jungle gym has been upgraded and can now accommodate 2 children at a time. How many turns would they now need to make sure everyone gets a chance to play?",
+      "new symbolic struct": "[[var children = 24]]\n[[var upgraded_capacity = 2]]\n[[var upgraded_turns = children / upgraded_capacity]]\n[[question result = ['upgraded_turns']]]",
+      "answer": "12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-9-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var c = (7 * 1)]]\n[[var f = (9 * c)]]\n[[question o = ['f']]]\ntheme: Farm",
+      "statement": "On the farm, there are 7 groups of chicks. Each group consists of just 1 chick. The farmer then brought 9 times that amount of chicks. How many chicks did the farmer bring?",
+      "new symbolic struct": "[[var OG_num_chicks = 7]]\n[[var added_chicks = OG_num_chicks * 9]]\n[[question result = ['added_chicks']]]",
+      "answer": "63",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-9-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var c = (7 * 1)]]\n[[var f = (4 * c)]]\n[[question o = ['f']]]\ntheme: Farm",
+      "statement": "Initially, there were around 7 groups of chicks on the farm, with each group consisting of just 1 chick. But what if the farmer's original flock was smaller? Let's say he initially started with 4 times that amount of chicks. How many chicks would he have started with then?",
+      "new symbolic struct": "[[var initial_num_chicks = 7]]\n[[var initial_smaller_flock = initial_num_chicks * 4]]\n[[question result = ['initial_smaller_flock']]]",
+      "answer": "28",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-10-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (10 * 1)]]\n[[question q = ['h']]]\ntheme: Teacher",
+      "statement": "Mr. Hansen, a very organized teacher, likes to keep ten copies of each handout for his class. If he is preparing a new handout for the next class, how many copies will he make?",
+      "new symbolic struct": "[[var copies_per_handout = 10]]\n[[question result = ['copies_per_handout']]]",
+      "answer": "10",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-10-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (4 * 1)]]\n[[question q = ['h']]]\ntheme: Teacher",
+      "statement": "Following the first problem, let's assume that Mr. Hansen changed his mind and decided to make only four copies of each handout instead of ten for his next class. How many copies of the handout will he now prepare?",
+      "new symbolic struct": "[[var OG_copies_per_handout = 10]]\n[[var new_copies_per_handout = 4]]\n[[question result = ['new_copies_per_handout']]]",
+      "answer": "4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-11-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (4 * 5)]]\n[[question r = ['h']]]\ntheme: Snowman",
+      "statement": "A snowman has a top hat that is 5 inches tall. The snowman himself, without his hat, is 4 times as tall as his hat. How tall is the snowman without his hat?",
+      "new symbolic struct": "[[var hat_height = 5]]\n[[var snowman_height = hat_height * 4]]\n[[question result = ['snowman_height']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-11-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (4 * 2)]]\n[[question r = ['h']]]\ntheme: Snowman",
+      "statement": "In the initial scenario, the snowman without his hat was 4 times as tall as his 5-inch hat, giving us a snowman's height of 20 inches. Now, in our revised scenario, let's consider that the snowman without his hat is instead only 4 times as tall as a 2-inch hat. How tall is the snowman without his hat in this new scenario?",
+      "new symbolic struct": "[[var initial_hat_height = 5]]\n[[var initial_snowman_height = initial_hat_height * 4]]\n[[var revised_hat_height = 2]]\n[[var revised_snowman_height = revised_hat_height * 4]]\n[[question result = ['revised_snowman_height']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-12-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = (45 / 9)]]\n[[question s = ['a']]]\ntheme: Game",
+      "statement": "In a video game, Susan collected 45 diamonds. If she divided those diamonds evenly among her 9 game characters, how many diamonds does each character get?",
+      "new symbolic struct": "[[var total_diamonds = 45]]\n[[var characters = 9]]\n[[var diamonds_per_character = total_diamonds / characters]]\n[[question result = ['diamonds_per_character']]]",
+      "answer": "5",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-12-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = (12 / 9)]]\n[[question s = ['a']]]\ntheme: Game",
+      "statement": "Suppose initially, Susan had only found 12 diamonds instead of 45. If she still divided those diamonds evenly among her 9 game characters, how many diamonds would each character receive then?",
+      "new symbolic struct": "[[var initial_diamonds = 12]]\n[[var characters = 9]]\n[[var diamonds_per_character_initial = initial_diamonds / characters]]\n[[question result = ['diamonds_per_character_initial']]]",
+      "answer": "4/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-13-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var i = (12 / 12)]]\n[[question k = ['i']]]\ntheme: Guitar",
+      "statement": "Jim has 12 guitar picks. He divided them equally among his 12 bandmates. How many guitar picks did each bandmate get?",
+      "new symbolic struct": "[[var total_picks = 12]]\n[[var num_bandmates = 12]]\n[[var picks_per_bandmate = total_picks / num_bandmates]]\n[[question result = ['picks_per_bandmate']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-13-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var i = (12 / 12)]]\n[[var b = (11 * i)]]\n[[question w = ['b']]]\ntheme: Guitar",
+      "statement": "After dividing his guitar picks among his bandmates, Jim got a package from a fan. In the package, there were 11 more sets of guitar picks, each set having the same number of picks as each bandmate initially received. How many guitar picks were there in the package?",
+      "new symbolic struct": "[[var total_picks = 12]]\n[[var num_bandmates = 12]]\n[[var picks_per_bandmate = total_picks / num_bandmates]]\n[[var new_sets = 11]]\n[[var picks_per_set = picks_per_bandmate]]\n[[var picks_in_package = new_sets * picks_per_set]]\n[[question result = ['picks_in_package']]]",
+      "answer": "11",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-13-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var i = (12 / 6)]]\n[[question k = ['i']]]\ntheme: Guitar",
+      "statement": "Considering the scenario when Jim initially had 12 guitar picks but instead of dividing them among 12 bandmates, he divided them among 6 bandmates. How many guitar picks did each bandmate get?",
+      "new symbolic struct": "[[var total_picks = 12]]\n[[var num_bandmates = 6]]\n[[var picks_per_bandmate = total_picks / num_bandmates]]\n[[question result = ['picks_per_bandmate']]]",
+      "answer": "2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-14-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var k = 5]]\n[[var x = (k * 12)]]\n[[question q = ['x']]]\ntheme: Fish",
+      "statement": "Suzie has 5 aquariums. Each aquarium has 12 fish. How many fish does Suzie have in total?",
+      "new symbolic struct": "[[var fish_per_aquarium = 12]]\n[[var total_aquariums = 5]]\n[[var total_fish = fish_per_aquarium * total_aquariums]]\n[[question result = ['total_fish']]]",
+      "answer": "60",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-14-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var k = 4]]\n[[var x = (k * 12)]]\n[[question q = ['x']]]\ntheme: Fish",
+      "statement": "After buying the new batch, Suzie realized her first count was wrong. She actually started with 4 aquariums, not 5, before she bought the new fish. With each aquarium having 12 fish, how many fish did Suzie initially have?",
+      "new symbolic struct": "[[var fish_per_aquarium = 12]]\n[[var initial_aquariums = 4]]\n[[var initial_fish = fish_per_aquarium * initial_aquariums]]\n[[question result = ['initial_fish']]]",
+      "answer": "48",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-15-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = (2 * 9)]]\n[[question v = ['a']]]\ntheme: Treasure",
+      "statement": "A pirate found a treasure map. The map indicated that the treasure chest was buried at a spot marked by 2 stones multiplied by 9. How many stones mark the hiding place of the treasure chest?",
+      "new symbolic struct": "[[var stones = 2]]\n[[var treasure_spot = stones * 9]]\n[[question result = ['treasure_spot']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-15-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = (3 * 9)]]\n[[question v = ['a']]]\ntheme: Treasure",
+      "statement": "The pirate, now intrigued, discovered a third map in the larger treasure chest. This map was slightly different, indicating that the next treasure chest was marked by a spot identified not by 2 stones multiplied by 9, but by 3 stones multiplied by 9. How many stones mark the hiding spot of this third treasure chest?",
+      "new symbolic struct": "[[var stones = 3]]\n[[var treasure_spot = stones * 9]]\n[[question result = ['treasure_spot']]]",
+      "answer": "27",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-16-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (6 * 4)]]\n[[question d = ['g']]]\ntheme: Butterfly",
+      "statement": "A special type of butterfly lays eggs in batches of 6. If a butterfly lays 4 batches of eggs, how many eggs does she lay in total?",
+      "new symbolic struct": "[[var eggs_per_batch = 6]]\n[[var batches = 4]]\n[[var total_eggs = eggs_per_batch*batches]]\n[[question result = ['total_eggs']]]",
+      "answer": "24",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-16-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (4 * 4)]]\n[[question d = ['g']]]\ntheme: Butterfly",
+      "statement": "After further research, it was discovered that the butterfly was actually laying eggs in batches of 4 instead of 6 as previously thought. If there were still 4 batches of eggs, how many eggs would the butterfly have laid in total then?",
+      "new symbolic struct": "[[var new_eggs_per_batch = 4]]\n[[var batches = 4]]\n[[var total_new_eggs = new_eggs_per_batch*batches]]\n[[question result = ['total_new_eggs']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-18-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var r = (54 / 9)]]\n[[question h = ['r']]]\ntheme: Pillow",
+      "statement": "Anna has 54 feathers she wants to use to stuff some pillows. If each pillow needs 9 feathers, how many pillows can she stuff?",
+      "new symbolic struct": "[[var feathers = 54]]\n[[var feathers_per_pillow = 9]]\n[[var stuffed_pillows = feathers / feathers_per_pillow]]\n[[question result = ['stuffed_pillows']]]",
+      "answer": "6",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-18-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var r = (54 / 9)]]\n[[var b = (8 * r)]]\n[[question m = ['b']]]\ntheme: Pillow",
+      "statement": "Following from the previous problem, Anna managed to stuff the pillows with the 54 feathers. If each stuffed pillow now needs to be sewn with 8 buttons, how many buttons will Anna need in total?",
+      "new symbolic struct": "[[var feathers = 54]]\n[[var feathers_per_pillow = 9]]\n[[var stuffed_pillows = feathers / feathers_per_pillow]]\n[[var buttons_per_pillow = 8]]\n[[var total_buttons = stuffed_pillows * buttons_per_pillow]]\n[[question result = ['total_buttons']]]",
+      "answer": "48",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-20-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = 1]]\n[[var l = (t * 9)]]\n[[question e = ['l']]]\ntheme: Strawberry",
+      "statement": "Tom has 1 strawberry plant. Each strawberry plant can produce 9 strawberries. How many strawberries can Tom's plant produce?",
+      "new symbolic struct": "[[var strawberry_plant = 1]]\n[[var strawberries = strawberry_plant * 9]]\n[[question result = ['strawberries']]]",
+      "answer": "9",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-20-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = 5]]\n[[var l = (t * 9)]]\n[[question e = ['l']]]\ntheme: Strawberry",
+      "statement": "Continuing from the earlier problem, let's say now Tom decides to increase his strawberry plant count to 5 plants. Given that each plant can produce 9 strawberries without any fertilizer, how many strawberries can all of Tom's plants now produce together?",
+      "new symbolic struct": "[[var strawberry_plant = 1]]\n[[var strawberries_per_plant = strawberry_plant * 9]]\n[[var total_plants = 5]]\n[[var total_strawberries = total_plants * strawberries_per_plant]]\n[[question result = ['total_strawberries']]]",
+      "answer": "45",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-22-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var y = (96 / 8)]]\n[[question i = ['y']]]\ntheme: Fireplace",
+      "statement": "In a large mansion, each room has 8 fireplaces. If there are 96 fireplaces in total, how many rooms are there in the mansion?",
+      "new symbolic struct": "[[var fireplaces_per_room = 8]]\n[[var total_fireplaces = 96]]\n[[var total_rooms = total_fireplaces / fireplaces_per_room]]\n[[question result = ['total_rooms']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-22-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var y = (96 / 8)]]\n[[var k = (7 * y)]]\n[[question a = ['k']]]\ntheme: Fireplace",
+      "statement": "Following the last question, if each room in the mansion requires 7 workers to clean all of the fireplaces, how many workers are needed in total to clean all the fireplaces in the mansion?",
+      "new symbolic struct": "[[var fireplaces_per_room = 8]]\n[[var total_fireplaces = 96]]\n[[var total_rooms = total_fireplaces / fireplaces_per_room]]\n[[var workers_per_room = 7]]\n[[var total_workers = total_rooms * workers_per_room]]\n[[question result = ['total_workers']]]",
+      "answer": "84",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-23-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (10 / 5)]]\n[[question i = ['w']]]\ntheme: Truck",
+      "statement": "John has 10 boxes he needs to transport in a truck. However, his truck can only hold 5 boxes at a time. How many trips does he need to make to transport all the boxes?",
+      "new symbolic struct": "[[var boxes = 10]]\n[[var boxes_per_trip = 5]]\n[[var trips_needed = boxes / boxes_per_trip]]\n[[question result = ['trips_needed']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-23-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (10 / 5)]]\n[[var v = (w * 6)]]\n[[question y = ['v']]]\ntheme: Truck",
+      "statement": "John has finished his trips and transported all the boxes. However, he realizes that each round trip he makes consumes 6 liters of fuel. How many liters of fuel has he used to make all of his trips?",
+      "new symbolic struct": "[[var boxes = 10]]\n[[var boxes_per_trip = 5]]\n[[var trips_needed = boxes / boxes_per_trip]]\n[[var fuel_per_trip = 6]]\n[[var total_fuel = trips_needed * fuel_per_trip]]\n[[question result = ['total_fuel']]]",
+      "answer": "12",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-24-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var c = (63 / 9)]]\n[[question m = ['c']]]\ntheme: Toy car",
+      "statement": "Charlie has a total of 63 toy cars. If he groups them equally into 9 big boxes, how many toy cars will be in each box?",
+      "new symbolic struct": "[[var total_cars = 63]]\n[[var boxes = 9]]\n[[var cars_per_box = total_cars / boxes]]\n[[question result = ['cars_per_box']]]",
+      "answer": "7",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-24-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var c = (63 / 5)]]\n[[question m = ['c']]]\ntheme: Toy car",
+      "statement": "Let's reconsider the organization of Charlie's toy cars. This time, instead of grouping them into 9 boxes, imagine he grouped the original 63 toy cars into only 5 boxes. How many toy cars will be in each box now?",
+      "new symbolic struct": "[[var total_cars = 63]]\n[[var new_boxes = 5]]\n[[var new_cars_per_box = total_cars / new_boxes]]\n[[question result = ['new_cars_per_box']]]",
+      "answer": "63/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-25-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var j = (24 / 12)]]\n[[question h = ['j']]]\ntheme: Farm",
+      "statement": "On the farm, there are 24 hens. Each coop holds 12 hens. How many coops are needed to house all the hens?",
+      "new symbolic struct": "[[var total_hens = 24]]\n[[var hens_per_coop = 12]]\n[[var total_coops = total_hens / hens_per_coop]]\n[[question result = ['total_coops']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-25-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var j = (24 / 8)]]\n[[question h = ['j']]]\ntheme: Farm",
+      "statement": "After reconsidering, the farmer decides to place the hens into larger coops where each coop can hold 8 hens. How many coops would he need now to house all the hens?",
+      "new symbolic struct": "[[var total_hens = 24]]\n[[var hens_per_large_coop = 8]]\n[[var large_coop_need = total_hens / hens_per_large_coop]]\n[[question result = ['large_coop_need']]]",
+      "answer": "3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-26-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var u = (3 / 1)]]\n[[question l = ['u']]]\ntheme: Letter",
+      "statement": "If 3 large postcards are placed in 1 envelope, how many large postcards are in each envelope?",
+      "new symbolic struct": "[[question result = ['3']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-26-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var u = (3 / 1)]]\n[[var b = (6 * u)]]\n[[question z = ['b']]]\ntheme: Letter",
+      "statement": "Following the previous question - if 3 large postcards are placed in 1 envelope, and Macy decided to distribute 6 envelopes of the same kind, how many large postcards did she distribute in total?",
+      "new symbolic struct": "[[var postcards_per_envelope = 3]]\n[[var total_envelopes = 6]]\n[[var total_postcards = postcards_per_envelope * total_envelopes]]\n[[question result = ['total_postcards']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-26-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var u = (2 / 1)]]\n[[question l = ['u']]]\ntheme: Letter",
+      "statement": "Following the previous question - suppose that instead of placing 3 large postcards in each envelope, Macy starts to put only 2 large postcards in each envelope. How many large postcards are there in each envelope now?",
+      "new symbolic struct": "[[question result = ['2']]]",
+      "answer": "2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-27-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var k = (12 * 2)]]\n[[question a = ['k']]]\ntheme: Sleeping bag",
+      "statement": "Tommy is going camping and he needs sleeping bags. He took 12 sleeping bags from the storage and he remembered that he needs twice as many. How many sleeping bags does he need in total?",
+      "new symbolic struct": "[[var sleeping_bags_taken = 12]]\n[[var total_sleeping_bags_needed = sleeping_bags_taken * 2]]\n[[question result = ['total_sleeping_bags_needed']]]",
+      "answer": "24",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-27-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var k = (6 * 2)]]\n[[question a = ['k']]]\ntheme: Sleeping bag",
+      "statement": "Tommy remembered that he actually only had 6 sleeping bags in storage, not 12 as he had previously thought. He still needs twice as many sleeping bags as originally counted. How many sleeping bags does he need in total now?",
+      "new symbolic struct": "[[var corrected_sleeping_bags = 6]]\n[[var total_needed_now = corrected_sleeping_bags * 2]]\n[[question result = ['total_needed_now']]]",
+      "answer": "12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-30-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = 3]]\n[[var s = (t * 5)]]\n[[question u = ['s']]]\ntheme: Game",
+      "statement": "In a new game, Tina earns 3 points per level. If she successfully completes 5 levels, how many total points does she earn?",
+      "new symbolic struct": "[[var points_per_level = 3]]\n[[var levels_completed = 5]]\n[[var total_points = points_per_level * levels_completed]]\n[[question result = ['total_points']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-30-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = 3]]\n[[var s = (t * 5)]]\n[[var c = (s * 1)]]\n[[question d = ['c']]]\ntheme: Game",
+      "statement": "In the same game, Tina decides to convert her points into game coins. If the current rate of conversion is 1 coin per point, how many game coins will she have after the conversion?",
+      "new symbolic struct": "[[var points_per_level = 3]]\n[[var levels_completed = 5]]\n[[var total_points = points_per_level * levels_completed]]\n[[var conversion_rate = 1]]\n[[var game_coins = total_points * conversion_rate]]\n[[question result = ['game_coins']]]",
+      "answer": "15",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-31-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (4 * 9)]]\n[[question c = ['h']]]\ntheme: Game",
+      "statement": "In a video game, Tim needs 4 points to advance to the next level. If there are 9 levels in total, how many points does Tim need in total to finish the game?",
+      "new symbolic struct": "[[var points_per_level = 4]]\n[[var total_levels = 9]]\n[[var total_points = points_per_level * total_levels]]\n[[question result = ['total_points']]]",
+      "answer": "36",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-31-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (4 * 11)]]\n[[question c = ['h']]]\ntheme: Game",
+      "statement": "In the new season of the video game, the number of points needed to advance to the next level increased. Now, Tim needs 4 points to advance each of the 11 levels. What is the total number of points Tim needs now to finish the game?",
+      "new symbolic struct": "[[var new_points_per_level = 4]]\n[[var new_total_levels = 11]]\n[[var new_total_points = new_points_per_level * new_total_levels]]\n[[question result = ['new_total_points']]]",
+      "answer": "44",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-34-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var v = (2 / 1)]]\n[[question a = ['v']]]\ntheme: Bubble",
+      "statement": "Sophie has a bubble blowing machine. The machine blows bubbles at a rate of 2 bubbles per second. How many bubbles will be blown in one second?",
+      "new symbolic struct": "[[var bubbles_per_second = 2]]\n[[question result = ['bubbles_per_second']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-34-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var v = (2 / 1)]]\n[[var b = (v * 9)]]\n[[question c = ['b']]]\ntheme: Bubble",
+      "statement": "Sophie lets her bubble blowing machine run for another 9 seconds. How many more bubbles does the machine blow?",
+      "new symbolic struct": "[[var initial_bubbles_per_second = 2]]\n[[var additional_seconds = 9]]\n[[var additional_bubbles = initial_bubbles_per_second * additional_seconds]]\n[[question result = ['additional_bubbles']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-34-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var v = (7 / 1)]]\n[[question a = ['v']]]\ntheme: Bubble",
+      "statement": "Sophie changes the setting on her bubble blowing machine so that it now blows 7 bubbles per second instead of 2. How many bubbles will now be blown in one second?",
+      "new symbolic struct": "[[var new_bubbles_per_second = 7]]\n[[question result = ['new_bubbles_per_second']]]",
+      "answer": "7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-36-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = 6]]\n[[var b = (w * 12)]]\n[[question s = ['b']]]\ntheme: Cow",
+      "statement": "Farmer Mike has 6 cows. Each of them gives 12 liters of milk every day. How many liters of milk does Farmer Mike get in a day?",
+      "new symbolic struct": "[[var cows = 6]]\n[[var milk_per_cow = 12]]\n[[var total_milk = cows * milk_per_cow]]\n[[question result = ['total_milk']]]",
+      "answer": "72",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-36-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = 7]]\n[[var b = (w * 12)]]\n[[question s = ['b']]]\ntheme: Cow",
+      "statement": "Farmer Mike decided to buy an additional cow, increasing his herd to 7 cows. If each cow still produces 12 liters of milk every day, how many liters of milk does Farmer Mike get in a day now?",
+      "new symbolic struct": "[[var old_cows = 6]]\n[[var added_cow = 1]]\n[[var new_cows = old_cows + added_cow]]\n[[var milk_per_cow = 12]]\n[[var new_total_milk = new_cows * milk_per_cow]]\n[[question result = ['new_total_milk']]]",
+      "answer": "84",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-37-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var d = (9 / 9)]]\n[[question q = ['d']]]\ntheme: Sunglasses",
+      "statement": "John has 9 sunglasses in a line. He decided to divide his collection into equal parts. If each part contains 9 sunglasses, how many parts would he get?",
+      "new symbolic struct": "[[var sunglasses_in_line = 9]]\n[[var sunglasses_per_part = 9]]\n[[var total_parts = sunglasses_in_line / sunglasses_per_part]]\n[[question result = ['total_parts']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-37-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var d = (9 / 1)]]\n[[question q = ['d']]]\ntheme: Sunglasses",
+      "statement": "After assigning sunglasses to the group, John considers dividing his original collection differently. If he divides the initial 9 sunglasses by 1 instead of 9, how many sunglasses would he have in each group?",
+      "new symbolic struct": "[[var original_sunglasses = 9]]\n[[var divide_by_one = original_sunglasses / 1]]\n[[question result = ['divide_by_one']]]",
+      "answer": "9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-38-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var n = (9 * 11)]]\n[[question b = ['n']]]\ntheme: Rocket",
+      "statement": "A rocket scientist needs to calculate the fuel consumption of his rocket. Each second, the rocket uses 9 units of fuel. After 11 seconds of flight, how much fuel has been consumed?",
+      "new symbolic struct": "[[var fuel_per_sec = 9]]\n[[var flight_time = 11]]\n[[var total_fuel = fuel_per_sec * flight_time]]\n[[question result = ['total_fuel']]]",
+      "answer": "99",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-39-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var x = (4 * 3)]]\n[[question k = ['x']]]\ntheme: Swing",
+      "statement": "In the park, there are 4 swings available. Every swing can seat 3 children. How many children can the swings in the park seat altogether?",
+      "new symbolic struct": "[[var swings = 4]]\n[[var children_per_swing = 3]]\n[[var total_children = swings * children_per_swing]]\n[[question result = ['total_children']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-39-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var x = (1 * 3)]]\n[[question k = ['x']]]\ntheme: Swing",
+      "statement": "In reconsideration, the first park actually only has 1 swing that can seat 3 children, not 4 swings. Given this new information, how many children can the swings in the first park seat now?",
+      "new symbolic struct": "[[var swings_first_park = 1]]\n[[var children_per_swing_first_park = 3]]\n[[var total_children_first_park = swings_first_park * children_per_swing_first_park]]\n[[question result = ['total_children_first_park']]]",
+      "answer": "3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-40-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var m = 3]]\n[[var d = (3 * m)]]\n[[question c = ['d']]]\ntheme: Fairy",
+      "statement": "There are 3 magical fairies in Fairyland. Each fairy has a unique ability to create triplets of herself. How many fairies will there be after each of them uses their ability?",
+      "new symbolic struct": "[[var initial_fairies = 3]]\n[[var fairies_created = initial_fairies * 3]]\n[[question result = ['fairies_created']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-41-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var v = 4]]\n[[var e = (3 * v)]]\n[[question z = ['e']]]\ntheme: Song",
+      "statement": "James, a songwriter, loves to include the word \"love\" in his songs. In one song, he mentioned the word \"love\" 4 times in each verse. How many times did he mention \"love\" if the song has 3 verses?",
+      "new symbolic struct": "[[var love_per_verse = 4]]\n[[var num_verses = 3]]\n[[var total_love = love_per_verse * num_verses]]\n[[question result = ['total_love']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-41-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var v = 4]]\n[[var e = (3 * v)]]\n[[var g = (4 * e)]]\n[[question c = ['g']]]\ntheme: Song",
+      "statement": "Following the last problem, after James wrote his song, he decided to dedicate four performances to his beloved. In each performance, he sings the song once. How many times will the word \"love\" be mentioned if he sings the song in all four performances?",
+      "new symbolic struct": "[[var love_per_verse = 4]]\n[[var num_verses = 3]]\n[[var total_love_per_song = love_per_verse * num_verses]]\n[[var performances = 4]]\n[[var total_love = total_love_per_song * performances]]\n[[question result = ['total_love']]]",
+      "answer": "48",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-41-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var v = 4]]\n[[var e = (10 * v)]]\n[[question z = ['e']]]\ntheme: Song",
+      "statement": "Continuing from the previous scenarios, James decided to rewrite his song. Now, he included the word \"love\" 4 times in each verse, but this time he expanded his song to include 10 verses. How many times does he mention \"love\" in this new version of his song?",
+      "new symbolic struct": "[[var love_per_verse = 4]]\n[[var num_verses = 10]]\n[[var total_love = love_per_verse * num_verses]]\n[[question result = ['total_love']]]",
+      "answer": "40",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-45-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var j = (48 / 8)]]\n[[question y = ['j']]]\ntheme: Phone",
+      "statement": "Mark has 48 apps on his phone. He likes to organize his apps into folders, and he can fit exactly 8 apps in each folder. How many folders does he need to organize all of his apps?",
+      "new symbolic struct": "[[var apps = 48]]\n[[var apps_per_folder = 8]]\n[[var folders_needed = apps / apps_per_folder]]\n[[question result = ['folders_needed']]]",
+      "answer": "6",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-45-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var j = (48 / 6)]]\n[[question y = ['j']]]\ntheme: Phone",
+      "statement": "Mark realized that he could fit more apps into each folder. If he reorganizes his apps so that each folder contains 6 apps instead of 8, how many folders will he need now to store all of his 48 apps?",
+      "new symbolic struct": "[[var apps = 48]]\n[[var new_apps_per_folder = 6]]\n[[var new_folders_needed = apps / new_apps_per_folder]]\n[[question result = ['new_folders_needed']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-46-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var i = (3 * 12)]]\n[[question z = ['i']]]\ntheme: Candy",
+      "statement": "If Johnny wants to distribute candies to his friends at school and he decides to give each friend 12 candies, and there are 3 friends, how many candies does he need in total?",
+      "new symbolic struct": "[[var candies_per_friend = 12]]\n[[var num_friends = 3]]\n[[var total_candies_needed = candies_per_friend * num_friends]]\n[[question result = ['total_candies_needed']]]",
+      "answer": "36",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-46-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var i = (3 * 12)]]\n[[var g = (2 * i)]]\n[[question v = ['g']]]\ntheme: Candy",
+      "statement": "After distributing candies to his friends at school, Johnny decides to double the amount of candies he gave for the next day. How many candies will he need in total for the next day?",
+      "new symbolic struct": "[[var candies_per_friend_day_1 = 12]]\n[[var num_friends = 3]]\n[[var total_candies_needed_day_1 = candies_per_friend_day_1 * num_friends]]\n[[var total_candies_needed_day_2 = total_candies_needed_day_1 * 2]]\n[[question result = ['total_candies_needed_day_2']]]",
+      "answer": "72",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-54-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = (10 / 5)]]\n[[question s = ['t']]]\ntheme: Toy car",
+      "statement": "Tommy has a racetrack that he plans to race his toy cars on. If he can race 10 cars in total and he races 5 cars at a time, how many turns does it take for him to race all his cars?",
+      "new symbolic struct": "[[var total_cars = 10]]\n[[var cars_per_turn = 5]]\n[[var number_of_turns = total_cars / cars_per_turn]]\n[[question result = ['number_of_turns']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-54-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = (10 / 5)]]\n[[var n = (8 * t)]]\n[[question b = ['n']]]\ntheme: Toy car",
+      "statement": "Following the previous scenario, Tommy decided to organize multiple rounds of races. If he performs 8 rounds of races, with each round involving the same number of turns as before, how many turns in total will he need to complete all the rounds?",
+      "new symbolic struct": "[[var total_cars = 10]]\n[[var cars_per_turn = 5]]\n[[var turns_per_round = total_cars / cars_per_turn]]\n[[var total_rounds = 8]]\n[[var total_turns = turns_per_round * total_rounds]]\n[[question result = ['total_turns']]]",
+      "answer": "16",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-55-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (40 / 10)]]\n[[question u = ['g']]]\ntheme: Chicken",
+      "statement": "Sally has 40 feathers from her chickens. If she arranged the feathers in groups of 10, how many groups would she have?",
+      "new symbolic struct": "[[var total_feathers = 40]]\n[[var groups_feathers = total_feathers / 10]]\n[[question result = ['groups_feathers']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-55-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (40 / 10)]]\n[[var h = (2 * g)]]\n[[question d = ['h']]]\ntheme: Chicken",
+      "statement": "Sally sorts her 40 chicken feathers into groups of 10. Then, she decided to double the number of groups. How many groups does she have now?",
+      "new symbolic struct": "[[var total_feathers = 40]]\n[[var groups_feathers_initial = total_feathers / 10]]\n[[var groups_feathers_doubled = groups_feathers_initial * 2]]\n[[question result = ['groups_feathers_doubled']]]",
+      "answer": "8",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-55-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (40 / 11)]]\n[[question u = ['g']]]\ntheme: Chicken",
+      "statement": "Sally originally thought she had sorted her 40 chicken feathers into groups of 10, but then she realized she actually sorted them into groups of 11 instead. How many groups does she have now?",
+      "new symbolic struct": "[[var total_feathers = 40]]\n[[var groups_feathers = total_feathers / 11]]\n[[question result = ['groups_feathers']]]",
+      "answer": "40/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-56-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = 1]]\n[[var h = (l * 11)]]\n[[question k = ['h']]]\ntheme: Fairy",
+      "statement": "Fairy Lily is 1 inch tall. However, when she uses her magical fairy dust, she can become 11 times her original size. How tall is Fairy Lily when she uses her magical dust?",
+      "new symbolic struct": "[[var original_size = 1]]\n[[var magical_size = original_size * 11]]\n[[question result = ['magical_size']]]",
+      "answer": "11",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-56-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = 1]]\n[[var h = (l * 11)]]\n[[var w = (h * 7)]]\n[[question u = ['w']]]\ntheme: Fairy",
+      "statement": "After using her magical dust to grow 11 times her original size, Fairy Lily decides to add another element to her spells. She casts a spell that multiplies her height by 7. How tall is Fairy Lily now?",
+      "new symbolic struct": "[[var original_size = 1]]\n[[var magical_size = original_size * 11]]\n[[var spell_height = magical_size * 7]]\n[[question result = ['spell_height']]]",
+      "answer": "77",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-56-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = 1]]\n[[var h = (l * 6)]]\n[[question k = ['h']]]\ntheme: Fairy",
+      "statement": "In a different scenario, if Fairy Lily only grows to 6 times her original size rather than 11 times using her magical dust, how tall would she become then?",
+      "new symbolic struct": "[[var original_size = 1]]\n[[var different_scenario_size = original_size * 6]]\n[[question result = ['different_scenario_size']]]",
+      "answer": "6",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-58-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var s = (5 / 1)]]\n[[question a = ['s']]]\ntheme: Bee",
+      "statement": "In a beehive, one female bee can produce 5 new bees every day. How many bees would she produce in 1 day?",
+      "new symbolic struct": "[[var bees_produced = 5]]\n[[question result = ['bees_produced']]]",
+      "answer": "5",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-58-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var s = (5 / 1)]]\n[[var p = (s * 11)]]\n[[question v = ['p']]]\ntheme: Bee",
+      "statement": "Following the previous problem, if this female bee continues to produce bees at the same rate, how many bees will she have produced after 11 days?",
+      "new symbolic struct": "[[var bees_produced_per_day = 5]]\n[[var days = 11]]\n[[var total_bees_produced = bees_produced_per_day * days]]\n[[question result = ['total_bees_produced']]]",
+      "answer": "55",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-58-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var s = (5 / 3)]]\n[[question a = ['s']]]\ntheme: Bee",
+      "statement": "Following the previous problems, consider if the female bee instead produced new bees at a slower rate, making only 5 bees every 3 days. How many bees would she produce in one day at this new rate?",
+      "new symbolic struct": "[[var bees_produced_in_3_days = 5]]\n[[var bees_produced_in_1_day = bees_produced_in_3_days / 3]]\n[[question result = ['bees_produced_in_1_day']]]",
+      "answer": "5/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-60-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var b = (35 / 7)]]\n[[question e = ['b']]]\ntheme: Piano",
+      "statement": "Thomas has 35 piano sheets in his music stand. If he wants to evenly distribute his music sheets into 7 piano books, how many sheets will each book have?",
+      "new symbolic struct": "[[var total_sheets = 35]]\n[[var books = 7]]\n[[var sheets_per_book = total_sheets / books]]\n[[question result = ['sheets_per_book']]]",
+      "answer": "5",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-60-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var b = (35 / 7)]]\n[[var m = (8 * b)]]\n[[question o = ['m']]]\ntheme: Piano",
+      "statement": "After arranging his music sheets into the piano books, Thomas decided to purchase 8 more books, each with the same number of sheets as the books he has now. How many more piano sheets did he buy?",
+      "new symbolic struct": "[[var total_sheets = 35]]\n[[var books = 7]]\n[[var sheets_per_book = total_sheets / books]]\n[[var new_books = 8]]\n[[var new_sheets = new_books * sheets_per_book]]\n[[question result = ['new_sheets']]]",
+      "answer": "40",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-60-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var b = (9 / 7)]]\n[[question e = ['b']]]\ntheme: Piano",
+      "statement": "Instead, suppose originally Thomas had 9 piano sheets. If he evenly distributes his music sheets into 7 piano books as before, how many sheets will each book have now?",
+      "new symbolic struct": "[[var original_sheets = 9]]\n[[var books = 7]]\n[[var sheets_per_book = original_sheets / books]]\n[[question result = ['sheets_per_book']]]",
+      "answer": "9/7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-61-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (8 * 2)]]\n[[question u = ['w']]]\ntheme: Cookie",
+      "statement": "Mom baked 2 batches of cookies. Each batch contains 8 cookies. How many cookies did mom bake in total?",
+      "new symbolic struct": "[[var batch_of_cookies = 8]]\n[[var total_batches = 2]]\n[[var total_cookies = batch_of_cookies * total_batches]]\n[[question result = ['total_cookies']]]",
+      "answer": "16",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-62-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = 3]]\n[[var o = (3 * e)]]\n[[question t = ['o']]]\ntheme: Moon",
+      "statement": "Earth has 3 natural satellites. If the number of moon rocks collected each year is triple the total number of these satellites, how many moon rocks would be collected in one year?",
+      "new symbolic struct": "[[var satelites = 3]]\n[[var moon_rocks = satelites * 3]]\n[[question result = ['moon_rocks']]]",
+      "answer": "9",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-62-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = 3]]\n[[var o = (3 * e)]]\n[[var d = (1 * o)]]\n[[question q = ['d']]]\ntheme: Moon",
+      "statement": "Following the previous scenario, if each moon rock collected in a year is stored in a separate storage bin, how many storage bins would be needed to store all the rocks collected in one year?",
+      "new symbolic struct": "[[var satelites_previous = 3]]\n[[var moon_rocks_previous = satelites_previous * 3]]\n[[var storage_bins = moon_rocks_previous]]\n[[question result = ['storage_bins']]]",
+      "answer": "9",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-62-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = 5]]\n[[var o = (3 * e)]]\n[[question t = ['o']]]\ntheme: Moon",
+      "statement": "Continuing from the previous scenario, suppose that instead of 3, the Earth had 5 natural satellites. In this case, if the number of moon rocks collected each year is triple the total number of these satellites, how many moon rocks would be collected in one year?",
+      "new symbolic struct": "[[var satelites_new = 5]]\n[[var moon_rocks_new = satelites_new * 3]]\n[[question result = ['moon_rocks_new']]]",
+      "answer": "15",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-64-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (10 * 5)]]\n[[question u = ['h']]]\ntheme: Doctor",
+      "statement": "Doctor Thomas needs to visit 10 patients. He spends 5 minutes with each patient. How many minutes does he spend with all of his patients?",
+      "new symbolic struct": "[[var patients = 10]]\n[[var minutes_per_patient = 5]]\n[[var total_minutes = patients * minutes_per_patient]]\n[[question result = ['total_minutes']]]",
+      "answer": "50",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-64-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (10 * 5)]]\n[[var v = (2 * h)]]\n[[question b = ['v']]]\ntheme: Doctor",
+      "statement": "After visiting his patients, Doctor Thomas then spends twice the amount of time he spent with his patients on paperwork. How many minutes does he spend on paperwork?",
+      "new symbolic struct": "[[var patients = 10]]\n[[var minutes_per_patient = 5]]\n[[var total_minutes_with_patients = patients * minutes_per_patient]]\n[[var minutes_on_paperwork = total_minutes_with_patients * 2]]\n[[question result = ['minutes_on_paperwork']]]",
+      "answer": "100",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-64-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (10 * 6)]]\n[[question u = ['h']]]\ntheme: Doctor",
+      "statement": "In a different scenario, Doctor Thomas spends 6 minutes with each patient instead of 5 minutes. If he still has the same number of patients to visit, how many minutes will he spend with all his patients?",
+      "new symbolic struct": "[[var patients = 10]]\n[[var minutes_per_patient_new_scen = 6]]\n[[var total_minutes_new_scen = patients * minutes_per_patient_new_scen]]\n[[question result = ['total_minutes_new_scen']]]",
+      "answer": "60",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-66-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (55 / 11)]]\n[[var o = (12 * g)]]\n[[question v = ['o']]]\ntheme: Pants",
+      "statement": "Jerry was thinking of purchasing new pants and he noticed a special offer. The shop was selling 11 pants for $55. After calculating the price for each pant, he decided to buy 12. How much would he spend?",
+      "new symbolic struct": "[[var price_per_pant = 55 / 11]]\n[[var total_price = price_per_pant * 12]]\n[[question result = ['total_price']]]",
+      "answer": "60",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-67-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var k = 8]]\n[[var b = (k * k)]]\n[[question l = ['b']]]\ntheme: Juice",
+      "statement": "Molly has 8 bottles of apple juice. She decides to multiply her collection of apple juice bottles by the same number she has. How many bottles of apple juice does Molly have now?",
+      "new symbolic struct": "[[var initial_bottles = 8]]\n[[var multiplied_bottles = initial_bottles * initial_bottles]]\n[[question result = ['multiplied_bottles']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-67-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var k = 6]]\n[[var b = (k * k)]]\n[[question l = ['b']]]\ntheme: Juice",
+      "statement": "Molly later decided that 8 bottles of apple juice were too many. So, she reduced her collection to 6 bottles. Then, she once again decided to increase her apple juice collection by multiplying the number of bottles she has by the same number. How many bottles of apple juice does Molly have now?",
+      "new symbolic struct": "[[var initial_bottles = 6]]\n[[var multiplied_bottles = initial_bottles * initial_bottles]]\n[[question result = ['multiplied_bottles']]]",
+      "answer": "36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-68-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var m = (32 / 8)]]\n[[question x = ['m']]]\ntheme: Moon",
+      "statement": "There are few craters on one of the sections of the moon. If that section is divided into 8 equal parts and we count 32 craters in total, how many craters are there in each part?",
+      "new symbolic struct": "[[var total_craters = 32]]\n[[var parts_of_moon = 8]]\n[[var craters_per_part = total_craters / parts_of_moon]]\n[[question result = ['craters_per_part']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-68-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var m = (32 / 5)]]\n[[question x = ['m']]]\ntheme: Moon",
+      "statement": "Let's think back to the moon section with craters we discussed earlier. Suppose instead that the moon's section was divided into 5 equal parts with a total of 32 craters. How many craters would there be in each part then?",
+      "new symbolic struct": "[[var total_craters = 32]]\n[[var new_parts_of_moon = 5]]\n[[var new_craters_per_part = total_craters / new_parts_of_moon]]\n[[question result = ['new_craters_per_part']]]",
+      "answer": "32/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-70-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var f = (4 * 7)]]\n[[question o = ['f']]]\ntheme: Monkey",
+      "statement": "There are 4 monkeys in the jungle. Each monkey has 7 bananas. How many bananas do the monkeys have in total?",
+      "new symbolic struct": "[[var monkeys = 4]]\n[[var bananas_per_monkey = 7]]\n[[var total_bananas = monkeys * bananas_per_monkey]]\n[[question result = ['total_bananas']]]",
+      "answer": "28",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-70-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var f = (9 * 7)]]\n[[question o = ['f']]]\ntheme: Monkey",
+      "statement": "Let's imagine that originally there were 9 monkeys instead of 4. If each monkey has 7 bananas, how many bananas do all the monkeys have in total now?",
+      "new symbolic struct": "[[var monkeys = 9]]\n[[var bananas_per_monkey = 7]]\n[[var total_bananas = monkeys * bananas_per_monkey]]\n[[question result = ['total_bananas']]]",
+      "answer": "63",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-71-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = (32 / 4)]]\n[[question g = ['a']]]\ntheme: Cheese",
+      "statement": "Fiona has a block of cheese that weighs 32 ounces. If she wants to divide it into equal pieces which each weigh 4 ounces, how many pieces of cheese will she have?",
+      "new symbolic struct": "[[var cheese_weight = 32]]\n[[var cheese_pieces = cheese_weight / 4]]\n[[question result = ['cheese_pieces']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-71-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = (32 / 9)]]\n[[question g = ['a']]]\ntheme: Cheese",
+      "statement": "Fiona later found a smaller block of cheese that weighs 32 ounces. If she wants to cut this one into equal pieces which each weigh 9 ounces, how many pieces of cheese will she get from this block?",
+      "new symbolic struct": "[[var small_cheese_weight = 32]]\n[[var small_cheese_pieces = small_cheese_weight / 9]]\n[[question result = ['small_cheese_pieces']]]",
+      "answer": "32/9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-72-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = 6]]\n[[var f = (1 * e)]]\n[[question j = ['f']]]\ntheme: Milk",
+      "statement": "Bob has 6 cups. If he wants to fill each cup with 1 glass of milk, how many glasses of milk does he need?",
+      "new symbolic struct": "[[var cups = 6]]\n[[var glasses_of_milk = cups]]\n[[question result = ['glasses_of_milk']]]",
+      "answer": "6",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-72-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = 2]]\n[[var f = (1 * e)]]\n[[question j = ['f']]]\ntheme: Milk",
+      "statement": "Bob just realized he only has 2 cups instead of 6. If he still wants to fill each cup with 1 glass of milk, how many glasses of milk does he need now?",
+      "new symbolic struct": "[[var cups_initial = 6]]\n[[var cups_current = 2]]\n[[var glasses_of_milk_initial = cups_initial]]\n[[var glasses_of_milk_current = cups_current]]\n[[question result = ['glasses_of_milk_current']]]",
+      "answer": "2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-73-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (36 / 9)]]\n[[var b = (2 * h)]]\n[[question w = ['b']]]\ntheme: Zoo",
+      "statement": "In the zoo, there are 36 new-born rabbits divided evenly into 9 cages. Each cage is then assigned to two caretakers. How many caretakers are assigned per cage?",
+      "new symbolic struct": "[[var cages = 36 / 9]]\n[[var caretakers_per_cage = cages * 2]]\n[[question result = ['caretakers_per_cage']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-75-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (42 / 7)]]\n[[question g = ['w']]]\ntheme: Cheese",
+      "statement": "Farmer Brown has made 42 blocks of cheese. Each wheel of cheese requires 7 blocks to make. How many whole wheels of cheese can he make with the current blocks he has?",
+      "new symbolic struct": "[[var blocks_of_cheese = 42]]\n[[var blocks_per_wheel = 7]]\n[[var whole_wheels = blocks_of_cheese / blocks_per_wheel]]\n[[question result = ['whole_wheels']]]",
+      "answer": "6",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-75-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (42 / 7)]]\n[[var d = (w * 2)]]\n[[question z = ['d']]]\ntheme: Cheese",
+      "statement": "After making the cheese wheels, Farmer Brown decides to double his production in order to have enough for the upcoming village fair. Based on his current production rate, how many cheese wheels will he have after doubling his output?",
+      "new symbolic struct": "[[var original_wheels = 42 / 7]]\n[[var doubled_wheels = original_wheels * 2]]\n[[question result = ['doubled_wheels']]]",
+      "answer": "12",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-76-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (2 * 4)]]\n[[question z = ['g']]]\ntheme: Kite",
+      "statement": "John has a square kite. Each side of the kite is 4 feet long. What is the total length of two sides of the kite in feet?",
+      "new symbolic struct": "[[var side_kite = 4]]\n[[var total_length = side_kite * 2]]\n[[question result = ['total_length']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-76-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (2 * 4)]]\n[[var i = (2 * g)]]\n[[question s = ['i']]]\ntheme: Kite",
+      "statement": "John wants to make another identical kite. How many feet of string will he need for the two sides of both kites?",
+      "new symbolic struct": "[[var side_kite = 4]]\n[[var total_length_per_kite = side_kite * 2]]\n[[var kites = 2]]\n[[var total_string = total_length_per_kite * kites]]\n[[question result = ['total_string']]]",
+      "answer": "16",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-76-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (2 * 1)]]\n[[question z = ['g']]]\ntheme: Kite",
+      "statement": "Suppose that John decides to make a very small kite with each side only 1 foot long. What is the total length of two sides of this smaller kite in feet?",
+      "new symbolic struct": "[[var side_small_kite = 1]]\n[[var total_length_small = side_small_kite * 2]]\n[[question result = ['total_length_small']]]",
+      "answer": "2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-77-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var i = (3 * 4)]]\n[[question a = ['i']]]\ntheme: Candy",
+      "statement": "Anna has 4 bags of candy, each containing 3 candies. How many candies does she have in total?",
+      "new symbolic struct": "[[var candies_per_bag = 3]]\n[[var total_bags = 4]]\n[[var total_candies = candies_per_bag * total_bags]]\n[[question result = ['total_candies']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-77-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var i = (3 * 1)]]\n[[question a = ['i']]]\ntheme: Candy",
+      "statement": "In the previous situation, what if Anna initially had only 1 bag of candy, each containing 3 candies? How many candies would she have initially?",
+      "new symbolic struct": "[[var initial_candies_per_bag = 3]]\n[[var initial_total_bags = 1]]\n[[var initial_total_candies = initial_candies_per_bag * initial_total_bags]]\n[[question result = ['initial_total_candies']]]",
+      "answer": "3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-80-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (6 * 3)]]\n[[question q = ['g']]]\ntheme: Butterfly",
+      "statement": "A garden has 6 patches of flowers. Each patch attracts 3 butterflies. How many butterflies are there in total in the garden?",
+      "new symbolic struct": "[[var butterflies_per_patch = 3]]\n[[var patches = 6]]\n[[var total_butterflies = butterflies_per_patch * patches]]\n[[question result = ['total_butterflies']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-80-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (8 * 3)]]\n[[question q = ['g']]]\ntheme: Butterfly",
+      "statement": "In a similar situation, imagine if initially there were 8 patches of flowers instead of 6 and each patch still attracts 3 butterflies. How many butterflies would there be in total then?",
+      "new symbolic struct": "[[var butterflies_per_patch = 3]]\n[[var patches = 8]]\n[[var total_butterflies = butterflies_per_patch * patches]]\n[[question result = ['total_butterflies']]]",
+      "answer": "24",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-82-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var p = (72 / 8)]]\n[[var f = (p * 5)]]\n[[question d = ['f']]]\ntheme: Party",
+      "statement": "Sophia is having a party. She wants to divide 72 cookies evenly among her 8 friends, giving them an equal number. She then decides to gift each friend 5 times the amount they initially received. How many cookies will each friend get in total?",
+      "new symbolic struct": "[[var cookies_per_friend = 72 / 8]]\n[[var final_cookies_per_friend = cookies_per_friend * 5]]\n[[question result = ['final_cookies_per_friend']]]",
+      "answer": "45",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-82-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var p = (72 / 10)]]\n[[var f = (p * 5)]]\n[[question d = ['f']]]\ntheme: Party",
+      "statement": "Sophia revisited her party plans and decided to invite two more friends, resulting in a total of 10 friends. Now she wants to divide the same 72 cookies evenly among all her friends, and again, give each friend 5 times the initial amount. How many cookies will each friend get in total now?",
+      "new symbolic struct": "[[var new_cookies_per_friend = 72 / 10]]\n[[var new_final_cookies_per_friend = new_cookies_per_friend * 5]]\n[[question result = ['new_final_cookies_per_friend']]]",
+      "answer": "36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-83-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var q = (1 * 3)]]\n[[var b = (5 * q)]]\n[[question y = ['b']]]\ntheme: Camera",
+      "statement": "John has 3 cameras. Each camera can take 1 picture per second. If John uses all his cameras to take pictures for 5 seconds, how many pictures will he have taken in total?",
+      "new symbolic struct": "[[var cameras = 3]]\n[[var pictures_per_second_per_camera = 1]]\n[[var seconds = 5]]\n[[var total_pictures = cameras * pictures_per_second_per_camera * seconds]]\n[[question result = ['total_pictures']]]",
+      "answer": "15",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-84-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = (3 * 9)]]\n[[question f = ['t']]]\ntheme: Toy",
+      "statement": "Tommy has 3 boxes of toys. Each box contains 9 toys. How many toys does Tommy have in total?",
+      "new symbolic struct": "[[var toys_per_box = 9]]\n[[var boxes = 3]]\n[[var total_toys = toys_per_box * boxes]]\n[[question result = ['total_toys']]]",
+      "answer": "27",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-84-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = (10 * 9)]]\n[[question f = ['t']]]\ntheme: Toy",
+      "statement": "Tommy realized he made a mistake when counting his toys. Instead of having 3 boxes of toys, he actually had 10 boxes. Each box still contains 9 toys. Now, how many toys does Tommy really have?",
+      "new symbolic struct": "[[var toys_per_box = 9]]\n[[var boxes = 10]]\n[[var total_toys = toys_per_box * boxes]]\n[[question result = ['total_toys']]]",
+      "answer": "90",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-85-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var q = (10 / 5)]]\n[[question p = ['q']]]\ntheme: Shirt",
+      "statement": "Joanna has a clothing store and packs 10 shirts into 5 boxes. How many shirts does each box contain?",
+      "new symbolic struct": "[[var shirts_in_store = 10]]\n[[var boxes_in_store = 5]]\n[[var shirts_per_box = shirts_in_store / boxes_in_store]]\n[[question result = ['shirts_per_box']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-85-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var q = (7 / 5)]]\n[[question p = ['q']]]\ntheme: Shirt",
+      "statement": "What if Joanna originally had 7 shirts instead of 10 and she still wants to distribute them evenly into 5 boxes? How many shirts will each box contain then?",
+      "new symbolic struct": "[[var OG_num_shirts = 7]]\n[[var boxes_in_store = 5]]\n[[var shirts_per_box = OG_num_shirts / boxes_in_store]]\n[[question result = ['shirts_per_box']]]",
+      "answer": "7/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-86-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = 9]]\n[[var g = (7 * a)]]\n[[question j = ['g']]]\ntheme: Scooter",
+      "statement": "Jack has 9 scooters. Harry, seeing Jack's love for scooters, decided to give him seven times as many scooters for his birthday. How many scooters did Harry give to Jack?",
+      "new symbolic struct": "[[var OG_num_scooters = 9]]\n[[var birthday_scooters = OG_num_scooters * 7]]\n[[question result = ['birthday_scooters']]]",
+      "answer": "63",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-86-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = 6]]\n[[var g = (7 * a)]]\n[[question j = ['g']]]\ntheme: Scooter",
+      "statement": "Suppose instead of having 9 scooters originally, Jack started with 6 scooters. How many scooters would Harry give to Jack now, following Harry's original plan of giving seven times as many scooters as Jack initially had?",
+      "new symbolic struct": "[[var OG_num_scooters = 6]]\n[[var birthday_scooters = OG_num_scooters * 7]]\n[[question result = ['birthday_scooters']]]",
+      "answer": "42",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-87-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = (7 * 4)]]\n[[var u = (3 * t)]]\n[[question q = ['u']]]\ntheme: Clock",
+      "statement": "There are 7 hours on a clock. Each hour has 4 quarters. How many quarters are there in three clocks?",
+      "new symbolic struct": "[[var quarters_in_hour = 4]]\n[[var hours_in_clock = 7]]\n[[var quarters_in_clock = quarters_in_hour * hours_in_clock]]\n[[var total_quarters = quarters_in_clock * 3]]\n[[question result = ['total_quarters']]]",
+      "answer": "84",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-88-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (35 / 5)]]\n[[question p = ['g']]]\ntheme: Ice cream",
+      "statement": "Liam has 35 scoops of ice cream. If he puts an equal amount of ice cream into 5 cones, how many scoops of ice cream does each cone get?",
+      "new symbolic struct": "[[var total_scoops = 35]]\n[[var cones = 5]]\n[[var scoops_per_cone = total_scoops / cones]]\n[[question result = ['scoops_per_cone']]]",
+      "answer": "7",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-88-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var g = (8 / 5)]]\n[[question p = ['g']]]\ntheme: Ice cream",
+      "statement": "In the previous problem, we had 35 scoops of ice cream to start with. But what if we start with only 8 scoops of ice cream, and we are still trying to divide it equally into 5 cones? How many scoops of ice cream would each cone hold then?",
+      "new symbolic struct": "[[var total_scoops = 8]]\n[[var cones = 5]]\n[[var scoops_per_cone = total_scoops / cones]]\n[[question result = ['scoops_per_cone']]]",
+      "answer": "8/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-89-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var x = 8]]\n[[var p = (x * 9)]]\n[[question k = ['p']]]\ntheme: Train",
+      "statement": "Billy has 8 toy trains at his house. He went to a train festival and got 9 times more trains than he originally had. How many trains did Billy get at the festival?",
+      "new symbolic struct": "[[var OG_trains = 8]]\n[[var trains_at_festival = OG_trains * 9]]\n[[question result = ['trains_at_festival']]]",
+      "answer": "72",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-89-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var x = 8]]\n[[var p = (x * 8)]]\n[[question k = ['p']]]\ntheme: Train",
+      "statement": "If Billy originally had 8 toy trains, but at the train festival, he was able to gather 8 times more trains than he originally had instead of 9, how many trains did Billy get at the festival?",
+      "new symbolic struct": "[[var OG_trains = 8]]\n[[var trains_at_festival_new = OG_trains * 8]]\n[[question result = ['trains_at_festival_new']]]",
+      "answer": "64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-90-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var m = 8]]\n[[var g = (m * m)]]\n[[question z = ['g']]]\ntheme: Book",
+      "statement": "A librarian decided to arrange books on a shelf. She placed 8 books in a row and made sure every row had the same number of books. How many books were there if the arrangement was square (i.e., the same number of rows as there were books in a row)?",
+      "new symbolic struct": "[[var books_in_row = 8]]\n[[var total_books = books_in_row * books_in_row]]\n[[question result = ['total_books']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-90-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var m = 4]]\n[[var g = (m * m)]]\n[[question z = ['g']]]\ntheme: Book",
+      "statement": "Following the previous problem about the librarian, let's consider a different scenario. This time, she decides to arrange a smaller square of books with only 4 books in a row. Each row still has the same number of books. So, how many books does she need for this smaller square arrangement?",
+      "new symbolic struct": "[[var books_in_row_small = 4]]\n[[var total_books_small = books_in_row_small * books_in_row_small]]\n[[question result = ['total_books_small']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-91-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var m = (10 / 1)]]\n[[question n = ['m']]]\ntheme: Skirt",
+      "statement": "Lisa had 10 yards of fabric. If it takes 1 yard of fabric to make a skirt, how many skirts can Lisa make?",
+      "new symbolic struct": "[[var fabric = 10]]\n[[var skirt = 1]]\n[[var total_skirts = fabric / skirt]]\n[[question result = ['total_skirts']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-93-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var x = (12 / 4)]]\n[[question z = ['x']]]\ntheme: Phone",
+      "statement": "Sarah receives 12 phone calls every day on her work phone. But, she only answers a quarter of those phone calls. How many phone calls does she answer a day?",
+      "new symbolic struct": "[[var total_calls = 12]]\n[[var answered_calls = total_calls / 4]]\n[[question result = ['answered_calls']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-93-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var x = (12 / 4)]]\n[[var b = (11 * x)]]\n[[question q = ['b']]]\ntheme: Phone",
+      "statement": "Following up on the previous problem, if for each phone call Sarah answered, she received 11 more calls as a response, how many additional calls did she receive in a day?",
+      "new symbolic struct": "[[var initial_calls_answered = 12 / 4]]\n[[var additional_calls = initial_calls_answered * 11]]\n[[question result = ['additional_calls']]]",
+      "answer": "33",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-94-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var y = (3 * 4)]]\n[[question c = ['y']]]\ntheme: Sleeping bag",
+      "statement": "Melanie is planning for a camping trip and she needs 3 sleeping bags for each of her 4 friends. How many sleeping bags does Melanie need in total?",
+      "new symbolic struct": "[[var sleeping_bags_per_friend = 3]]\n[[var number_of_friends = 4]]\n[[var total_sleeping_bags = sleeping_bags_per_friend * number_of_friends]]\n[[question result = ['total_sleeping_bags']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-94-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var y = (3 * 6)]]\n[[question c = ['y']]]\ntheme: Sleeping bag",
+      "statement": "Suppose Melanie originally planned to bring 3 sleeping bags for each of her 6 friends instead of 4, for the camping trip. How many sleeping bags would Melanie need in total for the camping trip now?",
+      "new symbolic struct": "[[var sleeping_bags_per_friend = 3]]\n[[var original_number_of_friends = 4]]\n[[var new_number_of_friends = 6]]\n[[var original_total_sleeping_bags = sleeping_bags_per_friend * original_number_of_friends]]\n[[var new_total_sleeping_bags = sleeping_bags_per_friend * new_number_of_friends]]\n[[question result = ['new_total_sleeping_bags']]]",
+      "answer": "18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-95-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = (3 * 6)]]\n[[question a = ['e']]]\ntheme: Snowball",
+      "statement": "Johnny has 3 times the amount of snowballs that Billy does. If Billy has 6 snowballs, how many snowballs does Johnny have?",
+      "new symbolic struct": "[[var billy_snowballs = 6]]\n[[var johnny_snowballs = billy_snowballs * 3]]\n[[question result = ['johnny_snowballs']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-95-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = (3 * 11)]]\n[[question a = ['e']]]\ntheme: Snowball",
+      "statement": "Consider now that initially, Johnny had 3 times the amount of snowballs that Billy does, not 5 times. If Billy still has 11 snowballs, how many snowballs does Johnny have now?",
+      "new symbolic struct": "[[var billy_snowballs = 11]]\n[[var johnny_snowballs = billy_snowballs * 3]]\n[[question result = ['johnny_snowballs']]]",
+      "answer": "33",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-97-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var c = 5]]\n[[var s = (c * 1)]]\n[[question j = ['s']]]\ntheme: Game",
+      "statement": "In a game, each star is equivalent to 5 points. If Tom collected 1 star, how many points does he have?",
+      "new symbolic struct": "[[var points_per_star = 5]]\n[[var stars_collected = 1]]\n[[var total_points = points_per_star * stars_collected]]\n[[question result = ['total_points']]]",
+      "answer": "5",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-97-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var c = 5]]\n[[var s = (c * 1)]]\n[[var f = (4 * s)]]\n[[question d = ['f']]]\ntheme: Game",
+      "statement": "Tom decided to play more of the game and managed to collect 4 more stars. Considering that each star is equivalent to 5 points, how many additional points has he earned now?",
+      "new symbolic struct": "[[var points_per_star = 5]]\n[[var new_stars_collected = 4]]\n[[var additional_points = points_per_star * new_stars_collected]]\n[[question result = ['additional_points']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-97-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var c = 7]]\n[[var s = (c * 1)]]\n[[question j = ['s']]]\ntheme: Game",
+      "statement": "In the game, what if initially each star was equivalent to 7 points instead of 5? If Tom collected 1 star as before, how many points would he have now?",
+      "new symbolic struct": "[[var initial_points_per_star = 7]]\n[[var stars_collected = 1]]\n[[var total_initial_points = initial_points_per_star * stars_collected]]\n[[question result = ['total_initial_points']]]",
+      "answer": "7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-99-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var i = 4]]\n[[var b = (i * 12)]]\n[[question d = ['b']]]\ntheme: Pirate ship",
+      "statement": "Captain Jack has 4 cannons on his pirate ship. If each cannon fires 12 cannonballs, how many cannonballs were fired in total?",
+      "new symbolic struct": "[[var cannons = 4]]\n[[var cannonballs_per_cannon = 12]]\n[[var total_cannonballs = cannons * cannonballs_per_cannon]]\n[[question result = ['total_cannonballs']]]",
+      "answer": "48",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-99-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var i = 4]]\n[[var b = (i * 3)]]\n[[question d = ['b']]]\ntheme: Pirate ship",
+      "statement": "Given that Captain Jack actually had 4 cannons, but each can fire only 3 cannonballs, how many cannonballs were fired in total now?",
+      "new symbolic struct": "[[var cannons = 4]]\n[[var cannonballs_per_cannon = 3]]\n[[var total_cannonballs = cannons * cannonballs_per_cannon]]\n[[question result = ['total_cannonballs']]]",
+      "answer": "12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-104-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var y = 10]]\n[[var w = (y * y)]]\n[[question p = ['w']]]\ntheme: Colored pencil",
+      "statement": "Emma has a pack of 10 colored pencils. She wants to have as many colored pencils as the square of the number she currently has. How many colored pencils will she have then?",
+      "new symbolic struct": "[[var current_pencils = 10]]\n[[var squared_pencils = current_pencils * current_pencils]]\n[[question result = ['squared_pencils']]]",
+      "answer": "100",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-104-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var y = 4]]\n[[var w = (y * y)]]\n[[question p = ['w']]]\ntheme: Colored pencil",
+      "statement": "Now consider if Emma had started with a pack of only 4 colored pencils instead. If she still wants to have as many colored pencils as the square of the number she currently has, how many colored pencils will she have then?",
+      "new symbolic struct": "[[var current_pencils = 4]]\n[[var squared_pencils = current_pencils * current_pencils]]\n[[question result = ['squared_pencils']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-109-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = (70 / 7)]]\n[[var k = (6 * e)]]\n[[question p = ['k']]]\ntheme: Sleeping bag",
+      "statement": "Emily had 70 cookies. She decided to pack them in bags with each bag containing 7 cookies. After getting the number of bags, she decided to multiply it by 6 for a camping trip. How many cookies does she need for her intended number of sleeping bag sets?",
+      "new symbolic struct": "[[var cookies = 70]]\n[[var cookies_per_bag = 7]]\n[[var number_of_bags = cookies / cookies_per_bag]]\n[[var needed_for_camping_trip = number_of_bags * 6]]\n[[question result = ['needed_for_camping_trip']]]",
+      "answer": "60",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-109-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = (9 / 7)]]\n[[var k = (6 * e)]]\n[[question p = ['k']]]\ntheme: Sleeping bag",
+      "statement": "Let's consider a different scenario. Emily originally had 9 cookies instead of 70. She still wants to pack them in bags, with each bag containing 7 cookies. She still wants to multiply the number of bags by 6 for a camping trip. How many cookies does she need now for her intended number of sleeping bag sets?",
+      "new symbolic struct": "[[var cookies = 9]]\n[[var cookies_per_bag = 7]]\n[[var number_of_bags = cookies / cookies_per_bag]]\n[[var needed_for_camping_trip = number_of_bags * 6]]\n[[question result = ['needed_for_camping_trip']]]",
+      "answer": "54/7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-110-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var d = (6 * 4)]]\n[[question l = ['d']]]\ntheme: Pirate ship",
+      "statement": "Captain Redbeard has 6 cannons on one side of his pirate ship. Each cannon fires 4 cannonballs at a time when the ship goes into battle. During a sea fight, with one shot from each of the cannons on one side of the ship, how many cannonballs are fired in total?",
+      "new symbolic struct": "[[var cannons_per_side = 6]]\n[[var cannonballs_per_cannon = 4]]\n[[var total_cannonballs = cannons_per_side * cannonballs_per_cannon]]\n[[question result = ['total_cannonballs']]]",
+      "answer": "24",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-110-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var d = (6 * 11)]]\n[[question l = ['d']]]\ntheme: Pirate ship",
+      "statement": "In a different battle, Captain Redbeard decided to increase his firepower and loaded each cannon with 11 cannonballs. With one shot from each of the 6 cannons on one side of his ship, how many cannonballs would be fired in total from that side?",
+      "new symbolic struct": "[[var cannons_per_side = 6]]\n[[var cannonballs_per_cannon_enhanced = 11]]\n[[var total_cannonballs_enhanced = cannons_per_side * cannonballs_per_cannon_enhanced]]\n[[question result = ['total_cannonballs_enhanced']]]",
+      "answer": "66",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-111-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (72 / 12)]]\n[[question b = ['h']]]\ntheme: Unicorn",
+      "statement": "A magical unicorn walks 72 miles every day. If it takes the unicorn 12 hours to cover that distance. How many miles does the unicorn cover every hour?",
+      "new symbolic struct": "[[var total_miles = 72]]\n[[var total_hours = 12]]\n[[var miles_per_hour = total_miles / total_hours]]\n[[question result = ['miles_per_hour']]]",
+      "answer": "6",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-111-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var h = (72 / 12)]]\n[[var c = (3 * h)]]\n[[question i = ['c']]]\ntheme: Unicorn",
+      "statement": "In a magical turn of events, the unicorn's speed is tripled for an enchanting hour. Given the unicorn's new pace, how many miles would it cover in that enchanted hour?",
+      "new symbolic struct": "[[var old_speed = 72 / 12]]\n[[var new_speed = old_speed * 3]]\n[[question result = ['new_speed']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-112-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var i = (3 * 10)]]\n[[question e = ['i']]]\ntheme: Potato",
+      "statement": "Sue has 3 potato plants and each plant yields 10 potatoes. How many potatoes does Sue have in total?",
+      "new symbolic struct": "[[var potato_plants = 3]]\n[[var potatoes_per_plant = 10]]\n[[var total_potatoes = potato_plants * potatoes_per_plant]]\n[[question result = ['total_potatoes']]]",
+      "answer": "30",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-112-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var i = (3 * 3)]]\n[[question e = ['i']]]\ntheme: Potato",
+      "statement": "Suppose that Sue originally planted 3 potato plants instead of 10, and each of those plants still produced 3 potatoes. How many potatoes would Sue have harvested from her original planting?",
+      "new symbolic struct": "[[var orig_potato_plants = 3]]\n[[var potatoes_per_orig_plant = 3]]\n[[var orig_total_potatoes = orig_potato_plants * potatoes_per_orig_plant]]\n[[question result = ['orig_total_potatoes']]]",
+      "answer": "9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-113-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = (20 / 5)]]\n[[question e = ['l']]]\ntheme: Moon",
+      "statement": "An astronaut walks a distance of 20 kilometers per day on the lunar surface. If they decide to only walk for 1/5 of the day, how many kilometers do they cover?",
+      "new symbolic struct": "[[var daily_walk = 20]]\n[[var fraction_day = 1/5]]\n[[var walk_portion = daily_walk * fraction_day]]\n[[question result = ['walk_portion']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-113-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = (20 / 5)]]\n[[var c = (12 * l)]]\n[[question p = ['c']]]\ntheme: Moon",
+      "statement": "Following up on the previous problem, let's say on a particular day, the astronaut decides to increase their walking duration from 1/5 of a day to 12/5 of a day. How many kilometers would they cover on that day?",
+      "new symbolic struct": "[[var daily_walk = 20]]\n[[var fraction_day = 12/5]]\n[[var walk_portion = daily_walk * fraction_day]]\n[[question result = ['walk_portion']]]",
+      "answer": "48",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-113-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = (20 / 6)]]\n[[question e = ['l']]]\ntheme: Moon",
+      "statement": "In a new scenario, let's say the astronaut now walks a distance of 20 kilometers per day on the lunar surface but decides to walk for only 1/6 of the day instead of 1/5. How many kilometers would they cover in this case?",
+      "new symbolic struct": "[[var daily_walk = 20]]\n[[var fraction_day = 1/6]]\n[[var walk_portion = daily_walk * fraction_day]]\n[[question result = ['walk_portion']]]",
+      "answer": "10/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-114-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (10 / 5)]]\n[[question i = ['w']]]\ntheme: Lemon",
+      "statement": "Mr. Lemon has 10 lemons and he wants to evenly distribute them into 5 boxes. How many lemons will there be in each box?",
+      "new symbolic struct": "[[var lemons = 10]]\n[[var boxes = 5]]\n[[var lemons_per_box = lemons / boxes]]\n[[question result = ['lemons_per_box']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-114-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (10 / 5)]]\n[[var t = (2 * w)]]\n[[question b = ['t']]]\ntheme: Lemon",
+      "statement": "Mr. Lemon decides to add 2 more lemons to each box, because he wants to share more lemons with his friends. How many lemons will there be in each box now?",
+      "new symbolic struct": "[[var initial_lemons_per_box = 10 / 5]]\n[[var additional_lemons = 2]]\n[[var new_lemons_per_box = initial_lemons_per_box + additional_lemons]]\n[[question result = ['new_lemons_per_box']]]",
+      "answer": "4",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-114-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (10 / 6)]]\n[[question i = ['w']]]\ntheme: Lemon",
+      "statement": "After some thought, Mr. Lemon considers distributing the ten lemons among six boxes instead of five. How many lemons would there be in each box if he decides to distribute them in this way?",
+      "new symbolic struct": "[[var lemons = 10]]\n[[var new_boxes = 6]]\n[[var new_lemons_per_box = lemons / new_boxes]]\n[[question result = ['new_lemons_per_box']]]",
+      "answer": "5/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-115-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var o = (4 * 11)]]\n[[question c = ['o']]]\ntheme: Helicopter",
+      "statement": "A helicopter pad can hold 4 helicopters at a time. The city has decided to build 11 new helicopter pads. How many helicopters can all of the helicopter pads hold when combined?",
+      "new symbolic struct": "[[var helicopters_per_pad = 4]]\n[[var new_pads = 11]]\n[[var total_helicopters = helicopters_per_pad * new_pads]]\n[[question result = ['total_helicopters']]]",
+      "answer": "44",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-115-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var o = (4 * 11)]]\n[[var h = (o * 1)]]\n[[question j = ['h']]]\ntheme: Helicopter",
+      "statement": "If each of the helicopters that the city's helicopter pads can hold requires just one helipad to park, how many helipads will be occupied when all the helicopters are parked?",
+      "new symbolic struct": "[[var helicopters_per_pad = 4]]\n[[var new_pads = 11]]\n[[var total_helicopters = helicopters_per_pad * new_pads]]\n[[var occupied_helipads = total_helicopters]]\n[[question result = ['occupied_helipads']]]",
+      "answer": "44",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-117-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var k = (1 * 12)]]\n[[question l = ['k']]]\ntheme: Bed",
+      "statement": "John decided to re-arrange his room and he has a single bed that takes the space of 1 large carpet tile. If his room size requires 12 such carpet tiles fully side by side, how many bed spaces does John's room have?",
+      "new symbolic struct": "[[var room_size_in_tiles = 12]]\n[[var bed_size_in_tiles = 1]]\n[[var bed_spaces = room_size_in_tiles / bed_size_in_tiles]]\n[[question result = ['bed_spaces']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-117-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var k = (3 * 12)]]\n[[question l = ['k']]]\ntheme: Bed",
+      "statement": "In a different layout, John realized he could fit 3 beds in the space currently occupied by 1 large carpet tile due to the smaller size of new bunk beds he purchased. If his room size still requires 12 large carpet tiles side by side, then, how many new bunk beds can he fit in his room now?",
+      "new symbolic struct": "[[var room_size_in_tiles = 12]]\n[[var beds_per_tile = 3]]\n[[var total_beds = room_size_in_tiles * beds_per_tile]]\n[[question result = ['total_beds']]]",
+      "answer": "36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-122-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var r = 8]]\n[[var k = (3 * r)]]\n[[question b = ['k']]]\ntheme: Flower",
+      "statement": "Sophie has 8 flowerpots. In each flowerpot, she plans to plant 3 flowers. How many flowers will Sophie plant in total?",
+      "new symbolic struct": "[[var flowerpots = 8]]\n[[var flowers_per_pot = 3]]\n[[var total_flowers = flowerpots * flowers_per_pot]]\n[[question result = ['total_flowers']]]",
+      "answer": "24",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-122-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var r = 8]]\n[[var k = (3 * r)]]\n[[var p = (k * 2)]]\n[[question c = ['p']]]\ntheme: Flower",
+      "statement": "After successfully planting flowers in her 8 flowerpots, Sophie decided to double the total number of flowers she planted. How many flowers does she have now?",
+      "new symbolic struct": "[[var flowerpots = 8]]\n[[var flowers_per_pot = 3]]\n[[var total_flowers = flowerpots * flowers_per_pot]]\n[[var doubled_flowers = total_flowers * 2]]\n[[question result = ['doubled_flowers']]]",
+      "answer": "48",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-122-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var r = 12]]\n[[var k = (3 * r)]]\n[[question b = ['k']]]\ntheme: Flower",
+      "statement": "Now imagine if Sophie originally had 12 flowerpots instead of 8. How many flowers would she have planted if she still planted 3 flowers per flowerpot?",
+      "new symbolic struct": "[[var original_flowerpots = 12]]\n[[var flowers_per_pot = 3]]\n[[var total_flowers_new = original_flowerpots * flowers_per_pot]]\n[[question result = ['total_flowers_new']]]",
+      "answer": "36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-124-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (12 * 6)]]\n[[question o = ['w']]]\ntheme: Gift",
+      "statement": "Shawn has 12 gift boxes and each box contains 6 presents inside. How many presents does Shawn have in total?",
+      "new symbolic struct": "[[var gift_boxes = 12]]\n[[var presents_per_box = 6]]\n[[var total_presents = gift_boxes * presents_per_box]]\n[[question result = ['total_presents']]]",
+      "answer": "72",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-124-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (2 * 6)]]\n[[question o = ['w']]]\ntheme: Gift",
+      "statement": "What if Shawn had only 2 gift boxes instead of 12 and each box still contained 6 presents. How many presents does Shawn have in total now?",
+      "new symbolic struct": "[[var gift_boxes = 2]]\n[[var presents_per_box = 6]]\n[[var total_presents = gift_boxes * presents_per_box]]\n[[question result = ['total_presents']]]",
+      "answer": "12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-125-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var j = (8 * 12)]]\n[[question o = ['j']]]\ntheme: Robot",
+      "statement": "In the factory, each RoboFalcon assembler can build 8 robots per hour. How many robots can it build in 12 hours?",
+      "new symbolic struct": "[[var robots_per_hour = 8]]\n[[var total_hours = 12]]\n[[var total_robots = robots_per_hour * total_hours]]\n[[question result = ['total_robots']]]",
+      "answer": "96",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-125-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var j = (6 * 12)]]\n[[question o = ['j']]]\ntheme: Robot",
+      "statement": "Suppose the RoboFalcon assembler had a minor update and the efficiency slightly reduced. Now, it can only build 6 robots per hour. How many robots can it build in 12 hours now?",
+      "new symbolic struct": "[[var updated_robots_per_hour = 6]]\n[[var total_hours = 12]]\n[[var updated_total_robots = updated_robots_per_hour * total_hours]]\n[[question result = ['updated_total_robots']]]",
+      "answer": "72",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-127-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var c = (2 * 8)]]\n[[var y = (c * 6)]]\n[[question z = ['y']]]\ntheme: Tent",
+      "statement": "Tom has setup 2 tents and each tent has 8 poles. If each pole has 6 strengths attached, how many strings are there in total?",
+      "new symbolic struct": "[[var tents = 2]]\n[[var poles_per_tent = 8]]\n[[var strings_per_pole = 6]]\n[[var total_strings = tents * poles_per_tent * strings_per_pole]]\n[[question result = ['total_strings']]]",
+      "answer": "96",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-127-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var c = (2 * 3)]]\n[[var y = (c * 6)]]\n[[question z = ['y']]]\ntheme: Tent",
+      "statement": "Let's change the scenario a bit. What if Tom had set up only 2 tents but each tent had 3 poles instead of 8. If each pole still has 6 strings attached, how many strings are there in total now?",
+      "new symbolic struct": "[[var tents = 2]]\n[[var poles_per_tent = 3]]\n[[var strings_per_pole = 6]]\n[[var total_strings = tents * poles_per_tent * strings_per_pole]]\n[[question result = ['total_strings']]]",
+      "answer": "36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-130-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var v = (10 / 5)]]\n[[question z = ['v']]]\ntheme: Camera",
+      "statement": "Jane received a set of 10 camera filters as a gift. She decided to equally distribute these between her 5 cameras. How many filters would each camera get?",
+      "new symbolic struct": "[[var total_filters = 10]]\n[[var cameras = 5]]\n[[var filters_per_camera = total_filters / cameras]]\n[[question result = ['filters_per_camera']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-130-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var v = (6 / 5)]]\n[[question z = ['v']]]\ntheme: Camera",
+      "statement": "In retrospect, Jane realized that she had initially given 6 filters to each camera instead of 10. If she continued to distribute the filters equally between her 5 cameras, how many filters would each camera get initially?",
+      "new symbolic struct": "[[var total_filters_initial = 6]]\n[[var cameras = 5]]\n[[var filters_per_camera_initial = total_filters_initial / cameras]]\n[[question result = ['filters_per_camera_initial']]]",
+      "answer": "6/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-131-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = 1]]\n[[var i = (1 * l)]]\n[[question e = ['i']]]\ntheme: Elephant",
+      "statement": "An elephant takes 1 hour to drink 1 gallon of water. If the elephant spends 1 hour by the waterhole, how many gallons of water did the elephant drink?",
+      "new symbolic struct": "[[var gallons_per_hour = 1]]\n[[var time_spent = 1]]\n[[var total_gallons = gallons_per_hour * time_spent]]\n[[question result = ['total_gallons']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-131-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = 1]]\n[[var i = (1 * l)]]\n[[var b = (i * 1)]]\n[[question x = ['b']]]\ntheme: Elephant",
+      "statement": "Given that each gallon of water weighs approximately 1 pound, if the elephant drank 1 gallon of water, how many pounds did the elephant gain from drinking?",
+      "new symbolic struct": "[[var gallons_drank = 1]]\n[[var pound_per_gallon = 1]]\n[[var weight_gain = gallons_drank * pound_per_gallon]]\n[[question result = ['weight_gain']]]",
+      "answer": "1",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-131-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = 1]]\n[[var i = (5 * l)]]\n[[question e = ['i']]]\ntheme: Elephant",
+      "statement": "If instead of spending 1 hour by the waterhole, the elephant spent 5 hours there, how many gallons of water would the elephant have drank?",
+      "new symbolic struct": "[[var gallons_per_hour = 1]]\n[[var time_spent_new = 5]]\n[[var total_gallons_new = gallons_per_hour * time_spent_new]]\n[[question result = ['total_gallons_new']]]",
+      "answer": "5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-132-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var n = (4 / 2)]]\n[[question j = ['n']]]\ntheme: Milk",
+      "statement": "If one gallon of milk can fill up 2 large containers, how many gallons of milk will be needed to fill 4 large containers?",
+      "new symbolic struct": "[[var containers_per_gallon = 2]]\n[[var total_containers = 4]]\n[[var required_gallons = total_containers / containers_per_gallon]]\n[[question result = ['required_gallons']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-132-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var n = (11 / 2)]]\n[[question j = ['n']]]\ntheme: Milk",
+      "statement": "Now, instead of having 4 large containers to fill with milk, imagine if we had 11 containers instead. Given the same rate of 2 containers per gallon, how many gallons of milk will we need to fill all 11 containers?",
+      "new symbolic struct": "[[var containers_per_gallon = 2]]\n[[var total_containers = 11]]\n[[var required_gallons = total_containers / containers_per_gallon]]\n[[question result = ['required_gallons']]]",
+      "answer": "11/2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-133-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = 3]]\n[[var m = (e * 1)]]\n[[question b = ['m']]]\ntheme: Pirate",
+      "statement": "Eddy the pirate has 3 pieces of gold. For every gold coin he has, he gets a matching emerald from the captain. How many emeralds does Eddy have now?",
+      "new symbolic struct": "[[var gold = 3]]\n[[var matching_emeralds = gold]]\n[[question result = ['matching_emeralds']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-133-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = 3]]\n[[var m = (e * 1)]]\n[[var r = (m * 4)]]\n[[question y = ['r']]]\ntheme: Pirate",
+      "statement": "Eddy was very happy with his emerald collection. Seeing this, the captain decided to award him with 4 rubies for each emerald he had. How many rubies did Eddy get from the captain?",
+      "new symbolic struct": "[[var emeralds = 3]]\n[[var rubies_per_emerald = 4]]\n[[var total_rubies = emeralds * rubies_per_emerald]]\n[[question result = ['total_rubies']]]",
+      "answer": "12",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-134-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (20 / 10)]]\n[[question o = ['w']]]\ntheme: Dolphin",
+      "statement": "A dolphin can jump 20 feet above water. Given that every 10 feet is considered a level, what level does the dolphin reach when it jumps?",
+      "new symbolic struct": "[[var dolphin_jump = 20]]\n[[var levels = dolphin_jump / 10]]\n[[question result = ['levels']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-134-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (20 / 10)]]\n[[var c = (11 * w)]]\n[[question v = ['c']]]\ntheme: Dolphin",
+      "statement": "After observing the dolphin's jumping level, researchers discovered that dolphins can increase their jump level by 11 times when aided by a strong wave. What would be the dolphin's level if it gets help from a strong wave?",
+      "new symbolic struct": "[[var original_level = 20 / 10]]\n[[var wave_aided_jump = original_level * 11]]\n[[question result = ['wave_aided_jump']]]",
+      "answer": "22",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-134-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var w = (20 / 11)]]\n[[question o = ['w']]]\ntheme: Dolphin",
+      "statement": "In light winds, the jumping level of the dolphin decreases to 20 feet instead of the usual 20 feet per level. Given that every 11 feet is still considered a level, what level does the dolphin now reach when it jumps in light winds?",
+      "new symbolic struct": "[[var dolphin_jump_light_winds = 20]]\n[[var new_levels = dolphin_jump_light_winds / 11]]\n[[question result = ['new_levels']]]",
+      "answer": "20/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-136-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var j = (28 / 7)]]\n[[question b = ['j']]]\ntheme: Ball",
+      "statement": "Jill has 28 balls which she wants to distribute equally among her 7 friends. How many balls will each friend get?",
+      "new symbolic struct": "[[var total_balls = 28]]\n[[var friends = 7]]\n[[var balls_per_friend = total_balls / friends]]\n[[question result = ['balls_per_friend']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-136-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var j = (28 / 10)]]\n[[question b = ['j']]]\ntheme: Ball",
+      "statement": "In the previous problem, Jill divided her 28 balls equally among her 7 friends. But what if Jill decided to divide the 28 balls equally among 10 friends instead? How many balls will each friend get then?",
+      "new symbolic struct": "[[var total_balls_orig = 28]]\n[[var new_friends = 10]]\n[[var new_balls_per_friend = total_balls_orig / new_friends]]\n[[question result = ['new_balls_per_friend']]]",
+      "answer": "14/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-139-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var k = 8]]\n[[var b = (k * k)]]\n[[question q = ['b']]]\ntheme: Robot",
+      "statement": "In a robotic factory, there are 8 machines on the assembly line. Each of these machines can manufacture the same number of robots per day as there are machines. How many robots can the entire factory produce in one day?",
+      "new symbolic struct": "[[var machines = 8]]\n[[var robots_per_machine = machines]]\n[[var total_robots_per_day = machines * robots_per_machine]]\n[[question result = ['total_robots_per_day']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-139-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var k = 7]]\n[[var b = (k * k)]]\n[[question q = ['b']]]\ntheme: Robot",
+      "statement": "After assessing the weekly production, the robotic factory's management decided to replace one of the machines with a maintenance station, bringing the total number of machines down to 7. Now, if each of these 7 machines can manufacture the same number of robots per day as there are machines, how many robots would the factory produce in a day?",
+      "new symbolic struct": "[[var old_machines = 8]]\n[[var machines_removed = 1]]\n[[var machines = old_machines - machines_removed]]\n[[var robots_per_machine = machines]]\n[[var total_robots_per_day = machines * robots_per_machine]]\n[[question result = ['total_robots_per_day']]]",
+      "answer": "49",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-140-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var z = (15 / 5)]]\n[[question d = ['z']]]\ntheme: Shape",
+      "statement": "In a geometry class, Maya was given a task to divide a line segment into smaller segments. Initially, the line segment was 15 cm long. She decided to cut it into equal parts each 5 cm long. How many segments did Maya get in the end?",
+      "new symbolic struct": "[[var initial_line_length = 15]]\n[[var length_each_slice = 5]]\n[[var number_segments = initial_line_length / length_each_slice]]\n[[question result = ['number_segments']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-140-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var z = (15 / 7)]]\n[[question d = ['z']]]\ntheme: Shape",
+      "statement": "Maya realized that if she had divided the original 15 cm line segment into 7 cm pieces, the number of segments would have been different. If she cut the 15 cm line into equal pieces of 7 cm each, how many segments would she have obtained then?",
+      "new symbolic struct": "[[var initial_line_length = 15]]\n[[var length_each_slice_2 = 7]]\n[[var number_segments_2 = initial_line_length / length_each_slice_2]]\n[[question result = ['number_segments_2']]]",
+      "answer": "15/7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-141-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = 5]]\n[[var m = (t * 5)]]\n[[question v = ['m']]]\ntheme: Cheese",
+      "statement": "Tommy has 5 types of cheese. He multiplies this by 5 to provide variety on his cheese platter for a party. How many types of cheese does Tommy have for his cheese platter now?",
+      "new symbolic struct": "[[var initial_cheese_types = 5]]\n[[var cheese_platter_variety = initial_cheese_types * 5]]\n[[question result = ['cheese_platter_variety']]]",
+      "answer": "25",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-141-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var t = 7]]\n[[var m = (t * 5)]]\n[[question v = ['m']]]\ntheme: Cheese",
+      "statement": "If Tommy originally had 7 types of cheese instead of 5, and he still intended to multiply this by 5 to provide variety on his cheese platter, how many types of cheese would Tommy have for his cheese platter then?",
+      "new symbolic struct": "[[var initial_cheese_types = 7]]\n[[var cheese_platter_variety = initial_cheese_types * 5]]\n[[question result = ['cheese_platter_variety']]]",
+      "answer": "35",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-143-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = (10 * 9)]]\n[[question v = ['e']]]\ntheme: River",
+      "statement": "The width of a river increases by 10 feet every year. After 9 years, how much has the width of the river increased?",
+      "new symbolic struct": "[[var increase_per_year = 10]]\n[[var years = 9]]\n[[var total_increase = increase_per_year * years]]\n[[question result = ['total_increase']]]",
+      "answer": "90",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-143-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = (10 * 3)]]\n[[question v = ['e']]]\ntheme: River",
+      "statement": "If the width of the river only increases by 10 feet every 3 years instead of every year, how much does the river's width increase after 9 years?",
+      "new symbolic struct": "[[var increase_per_3_years = 10]]\n[[var years = 9]]\n[[var total_increase = (years / 3) * increase_per_3_years]]\n[[question result = ['total_increase']]]",
+      "answer": "30",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-147-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var v = (20 / 4)]]\n[[question m = ['v']]]\ntheme: Stuffed animal",
+      "statement": "Jessica has a collection of stuffed animals. She currently groups them in sets of 4. If she has 20 stuffed animals in total, how many groups does she have?",
+      "new symbolic struct": "[[var total_animals = 20]]\n[[var animals_per_group = 4]]\n[[var total_groups = total_animals / animals_per_group]]\n[[question result = ['total_groups']]]",
+      "answer": "5",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-147-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var v = (9 / 4)]]\n[[question m = ['v']]]\ntheme: Stuffed animal",
+      "statement": "Originally, Jessica decided to group her collection of 20 stuffed animals into sets of 4. But what if she had originally decided to group her stuffed animals into sets of 4, but she only had 9 stuffed animals instead of 20? How many groups would she have then?",
+      "new symbolic struct": "[[var total_animals = 9]]\n[[var animals_per_group = 4]]\n[[var total_groups = total_animals / animals_per_group]]\n[[question result = ['total_groups']]]",
+      "answer": "9/4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-148-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = 8]]\n[[var s = (l * 5)]]\n[[question i = ['s']]]\ntheme: Drum",
+      "statement": "Tom has a set of 5 drums. Each of the drums has a length of 8 inches. Find out, How long would it be if he put all of his drums side by side?",
+      "new symbolic struct": "[[var number_of_drums = 5]]\n[[var length_of_each_drum = 8]]\n[[var total_length = number_of_drums * length_of_each_drum]]\n[[question result = ['total_length']]]",
+      "answer": "40",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-148-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = 8]]\n[[var s = (l * 5)]]\n[[var c = (s * 2)]]\n[[question u = ['c']]]\ntheme: Drum",
+      "statement": "Following the last question, Tom decided to add a second row of drums beneath the first. If he maintains the same length of 8 inches per drum and the same number of 5 drums per row, how long will the two rows of drums combined be if placed side by side?",
+      "new symbolic struct": "[[var number_of_drums = 5]]\n[[var length_of_each_drum = 8]]\n[[var total_length_single_row = number_of_drums * length_of_each_drum]]\n[[var number_of_rows = 2]]\n[[var total_length_double_rows = total_length_single_row * number_of_rows]]\n[[question result = ['total_length_double_rows']]]",
+      "answer": "80",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-148-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var l = 11]]\n[[var s = (l * 5)]]\n[[question i = ['s']]]\ntheme: Drum",
+      "statement": "Following the previous question, let's consider a different scenario. Suppose, initially, each of Tom's 5 drums were 11 inches long instead of 8. How long would it be if he put all of his drums side by side?",
+      "new symbolic struct": "[[var number_of_drums = 5]]\n[[var new_length_of_each_drum = 11]]\n[[var new_total_length = number_of_drums * new_length_of_each_drum]]\n[[question result = ['new_total_length']]]",
+      "answer": "55",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-149-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var u = 5]]\n[[var a = (u * 6)]]\n[[question q = ['a']]]\ntheme: Food",
+      "statement": "Jack has 5 apples and decides to multiply it by 6 to get the total number of oranges he can trade them for. How many oranges can he get?",
+      "new symbolic struct": "[[var apples = 5]]\n[[var oranges_conversion_rate = 6]]\n[[var oranges = apples * oranges_conversion_rate]]\n[[question result = ['oranges']]]",
+      "answer": "30",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-149-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var u = 12]]\n[[var a = (u * 6)]]\n[[question q = ['a']]]\ntheme: Food",
+      "statement": "Now consider if Jack started with 12 apples instead of 5. He decides to multiply it by 6 again to see how many oranges he can get. How many oranges can he now get?",
+      "new symbolic struct": "[[var apples_2 = 12]]\n[[var oranges_conversion_rate = 6]]\n[[var oranges_2 = apples_2 * oranges_conversion_rate]]\n[[question result = ['oranges_2']]]",
+      "answer": "72",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-150-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var z = (72 / 6)]]\n[[question p = ['z']]]\ntheme: Color",
+      "statement": "A set of marker pens come with 6 different colors. If a whole pack contains 72 marker pens, how many sets of different colors are there in it?",
+      "new symbolic struct": "[[var marker_per_set = 6]]\n[[var total_marker = 72]]\n[[var set_of_markers = total_marker / marker_per_set]]\n[[question result = ['set_of_markers']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-151-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = (80 / 8)]]\n[[question z = ['a']]]\ntheme: Dragon",
+      "statement": "A dragon guards a cave that contains 80 pieces of gold. The dragon decided to equally distribute the gold into 8 separate piles. How many pieces of gold does each pile contain?",
+      "new symbolic struct": "[[var gold_pieces = 80]]\n[[var piles = 8]]\n[[var gold_per_pile = gold_pieces / piles]]\n[[question result = ['gold_per_pile']]]",
+      "answer": "10",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-151-1",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = (80 / 8)]]\n[[var c = (a * 4)]]\n[[question j = ['c']]]\ntheme: Dragon",
+      "statement": "After dividing the gold into 8 piles, the dragon decided to protect the most important treasure trove, which contains 4 times the number of gold pieces in each pile. How much gold is in the dragon's special pile?",
+      "new symbolic struct": "[[var gold_per_pile = 80 / 8]]\n[[var special_pile = gold_per_pile * 4]]\n[[question result = ['special_pile']]]",
+      "answer": "40",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "3.OA.A.3-151-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = (80 / 11)]]\n[[question z = ['a']]]\ntheme: Dragon",
+      "statement": "Let's reconsider the original situation. Suppose the dragon initially had 80 pieces of gold but decided to divide them into 11 piles instead of 8. How many pieces of gold would each pile contain in this scenario?",
+      "new symbolic struct": "[[var gold_pieces = 80]]\n[[var new_piles = 11]]\n[[var gold_per_new_pile = gold_pieces / new_piles]]\n[[question result = ['gold_per_new_pile']]]",
+      "answer": "80/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-152-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var c = (44 / 11)]]\n[[var x = (12 * c)]]\n[[question b = ['x']]]\ntheme: Tent",
+      "statement": "John wants to divide his camping area of 44 square meters into 11 equal sections. Each of these sections would host a tent. If each tent can accommodate 12 campers, how many campers can camp in total?",
+      "new symbolic struct": "[[var area_per_tent = 44 / 11]]\n[[var campers_per_tent = 12]]\n[[var total_campers = campers_per_tent * area_per_tent]]\n[[question result = ['total_campers']]]",
+      "answer": "48",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-154-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = 6]]\n[[var v = (3 * e)]]\n[[question u = ['v']]]\ntheme: Tiger",
+      "statement": "A tiger can travel 6 miles in an hour. How far can it travel in 3 hours?",
+      "new symbolic struct": "[[var tiger_speed = 6]]\n[[var hours_traveling = 3]]\n[[var distance_traveled = tiger_speed * hours_traveling]]\n[[question result = ['distance_traveled']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-154-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var e = 6]]\n[[var v = (7 * e)]]\n[[question u = ['v']]]\ntheme: Tiger",
+      "statement": "In the previous problem we found out that a tiger can travel 6 miles in an hour. But what if the tiger could cover more ground in the same time span? If the tiger can travel 7 times as far in an hour, how far can it travel then?",
+      "new symbolic struct": "[[var tiger_speed = 6]]\n[[var new_tiger_speed = tiger_speed * 7]]\n[[question result = ['new_tiger_speed']]]",
+      "answer": "42",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-156-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var q = (6 * 7)]]\n[[question a = ['q']]]\ntheme: Number",
+      "statement": "A number sets of 6 are multiplied by 7. What is the resulting product?",
+      "new symbolic struct": "[[var number_sets = 6]]\n[[var multiplied_sets = number_sets * 7]]\n[[question result = ['multiplied_sets']]]",
+      "answer": "42",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-156-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var q = (4 * 7)]]\n[[question a = ['q']]]\ntheme: Number",
+      "statement": "Following the previous problem. Consider that instead of multiplying 6 sets by 7, we multiply 4 sets by 7. What is the resulting product now?",
+      "new symbolic struct": "[[var number_sets_previous = 6]]\n[[var multiplier_previous = 7]]\n[[var multiplied_sets_previous = number_sets_previous * multiplier_previous]]\n[[var number_sets = 4]]\n[[var multiplied_sets = number_sets * multiplier_previous]]\n[[question result = ['multiplied_sets']]]",
+      "answer": "28",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-157-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = (6 * 2)]]\n[[question t = ['a']]]\ntheme: Doctor",
+      "statement": "A doctor works double shift every day. If one shift is 6 hours, for how many hours does the doctor work each day?",
+      "new symbolic struct": "[[var single_shift = 6]]\n[[var double_shift = single_shift * 2]]\n[[question result = ['double_shift']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-157-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var a = (11 * 2)]]\n[[question t = ['a']]]\ntheme: Doctor",
+      "statement": "Following his extra shifts, the doctor wants to reduce his workload. He decides to work 11 hours a day instead. How many hours does he work in a two-day period now?",
+      "new symbolic struct": "[[var hours_per_day = 11]]\n[[var hours_in_twoday = hours_per_day * 2]]\n[[question result = ['hours_in_twoday']]]",
+      "answer": "22",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-159-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var d = (11 * 6)]]\n[[question b = ['d']]]\ntheme: Farmer",
+      "statement": "A farmer plants 6 seeds in each row of his field. If he has 11 rows total, how many seeds did he plant?",
+      "new symbolic struct": "[[var seeds_per_row = 6]]\n[[var total_rows = 11]]\n[[var total_seeds = seeds_per_row * total_rows]]\n[[question result = ['total_seeds']]]",
+      "answer": "66",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.3-161-0",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var d = (10 * 5)]]\n[[question n = ['d']]]\ntheme: Baby",
+      "statement": "Mommy has a tradition that for every month, she buys 5 new toys for her baby. If the baby is 10 months old, how many toys has Mommy bought in total?",
+      "new symbolic struct": "[[var toys_per_month = 5]]\n[[var baby_age_months = 10]]\n[[var total_toys = toys_per_month * baby_age_months]]\n[[question result = ['total_toys']]]",
+      "answer": "50",
+      "tag": "original problem"
+    },
+    {
+      "id": "3.OA.A.3-161-2",
+      "standard": "3.OA.A.3",
+      "symbolic-struct": "[[var d = (9 * 5)]]\n[[question n = ['d']]]\ntheme: Baby",
+      "statement": "After reflecting on her toy buying habits, Mommy realizes that she bought too many toys in the beginning. Instead of buying 5 new toys every month for 10 months, she now remembers that there was a month when she didn't buy any toys. Therefore, she only bought 5 toys per month for 9 months. How many toys did she actually buy during that period?",
+      "new symbolic struct": "[[var toys_per_month = 5]]\n[[var corrected_months = 9]]\n[[var corrected_total_toys = toys_per_month * corrected_months]]\n[[question result = ['corrected_total_toys']]]",
+      "answer": "45",
+      "tag": "modified information follow up"
+    }
+  ]
+]

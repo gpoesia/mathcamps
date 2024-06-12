@@ -1,0 +1,1102 @@
+[
+  [
+    {
+      "id": "1.OA.D.8-0-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 14 = (13 + t)]]\n[[question x = ['t']]]\ntheme: Number",
+      "statement": "A number game starts with the number 13. To reach the number 14, a certain number must be added. What is that number?",
+      "new symbolic struct": "[[var 14 = (13 + y)]]\n[[question i = ['y']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-1-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 4 = (17 - m)]]\n[[question w = ['m']]]\ntheme: Car",
+      "statement": "A car rental company had a total of 17 cars available in the morning. By the end of the day, they only had 4 cars left. How many cars were rented out during the day?\n",
+      "new symbolic struct": "[[var 4 = (17 - x)]]\n[[question y = ['x']]]",
+      "answer": "13",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-2-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 6 = (13 - s)]]\n[[question g = ['s']]]\ntheme: Butterfly",
+      "statement": "A butterfly collector managed to catch 13 beautiful butterflies one morning. If at the end of the day there are only 6 butterflies in his collection, how many butterflies flew away during the day?",
+      "new symbolic struct": "[[var 6 = (13 - b)]]\n[[question h = ['b']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-3-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 1 = (h - 12)]]\n[[question y = ['h']]]\ntheme: Cake",
+      "statement": "After a birthday party, you see one piece of cake left. If you originally had a whole cake that was cut into h slices, and each slice was equal in size, then how many slices were there in the whole cake, given that 12 pieces have been eaten during the party?",
+      "new symbolic struct": "[[var h = (12 + 1)]]\n[[question i = ['h']]]",
+      "answer": "13",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-4-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 20 = (d + 15)]]\n[[question t = ['d']]]\ntheme: Sock",
+      "statement": "Anne has a collection of socks. She bought 15 new pairs and now she has a total of 20 pairs of socks. How many pairs did she originally have?",
+      "new symbolic struct": "[[var 20 = (15 + p)]]\n[[question i = ['p']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-5-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 1 = (8 - n)]]\n[[question r = ['n']]]\ntheme: Balloon",
+      "statement": "A party decorator started with 8 helium balloons. After several accidents, only 1 balloon remained uninflated. How many balloons did the decorator accidentally inflate?",
+      "new symbolic struct": "[[var 1 = (8 - d)]]\n[[question i = ['d']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-6-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 5 = (4 + z)]]\n[[question a = ['z']]]\ntheme: Pencil",
+      "statement": "Jane started with 4 pencils. By the end of the day, she had 5 pencils. How many pencils did she find during the day?",
+      "new symbolic struct": "[[var 5 = (4 + p)]]\n[[question i = ['p']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-7-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 1 = (o - 19)]]\n[[question j = ['o']]]\ntheme: Dog",
+      "statement": "Oliver the dog has collected a total of 'o' bones in his backyard. If he would give 19 of these bones to his friend, he would be left with only 1 bone. How many bones did Oliver originally have in his backyard?",
+      "new symbolic struct": "[[var 1 = (o - 19)]]\n[[question y = ['o']]]",
+      "answer": "20",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-8-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 12 = (1 + o)]]\n[[question l = ['o']]]\ntheme: Superhero",
+      "statement": "A superhero has a base super strength level of 1. However, when our superhero dons their super strength amulet, their strength level enhances to a total of 12 units. How many extra strength units does the super strength amulet provide?",
+      "new symbolic struct": "[[var 12 = (1 + a)]]\n[[question extra_strength = ['a']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-9-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 15 = (17 - h)]]\n[[question x = ['h']]]\ntheme: Train",
+      "statement": "A train station has 17 trains scheduled for departure in a day. By late evening, only 15 are left to depart. How many trains have already departed during the day?",
+      "new symbolic struct": "[[var 15 = (17 - t)]]\n[[question j = ['t']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-10-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 16 = (x + 11)]]\n[[question c = ['x']]]\ntheme: Pencil",
+      "statement": "A pencil factory had 11 pencils ready in the morning. By the end of the day, they had a total of 16 pencils after making a few more. How many more pencils did the factory make during the day?",
+      "new symbolic struct": "[[var 16 = (11 + p)]]\n[[question m = ['p']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-11-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 10 = (r - 9)]]\n[[question d = ['r']]]\ntheme: Towel",
+      "statement": "The lifeguard started the day with a certain number of towels, but after handing some out, he only had 10 remaining. If he originally had 9 more than the remaining amount, how many towels did the lifeguard start with?",
+      "new symbolic struct": "[[var m = (10 + 9)]]\n[[question k = ['m']]]",
+      "answer": "19",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-12-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 10 = (14 - q)]]\n[[question k = ['q']]]\ntheme: Number",
+      "statement": "There were originally 14 candy bars in the candy jar. After a few hours, there are only 10 candy bars left. How many candy bars were taken?",
+      "new symbolic struct": "[[var 10 = (14 - c)]]\n[[question i = ['c']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-14-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 14 = (19 - s)]]\n[[question b = ['s']]]\ntheme: Swing",
+      "statement": "In a park, there were originally 19 swings. After some use, there were only 14 swings left undamaged. How many swings were damaged?",
+      "new symbolic struct": "[[var 14 = (19 - s)]]\n[[question d = ['s']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-15-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 12 = (5 + m)]]\n[[question b = ['m']]]\ntheme: Bottle",
+      "statement": "A bottle manufacturing factory had already produced 5 bottles this morning, but their daily goal was to produce 12 bottles. How many more bottles need to be produced to reach the goal?",
+      "new symbolic struct": "[[var 5 = (12 - b)]]\n[[question h = ['b']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-17-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 15 = (g + 13)]]\n[[question t = ['g']]]\ntheme: Color",
+      "statement": "Samantha has 13 green crayons. In total, she has 15 crayons. How many of her crayons are not green?",
+      "new symbolic struct": "[[var 13 = 15 - c]]\n[[question i = ['c']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-18-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 14 = (d + 9)]]\n[[question p = ['d']]]\ntheme: Camera",
+      "statement": "A photography store starts the day with 9 digital cameras in stock. By the end of the day, they have 14 digital cameras in the store after receiving new stock. How many new digital cameras did they receive?",
+      "new symbolic struct": "[[var 14 = (9 + d)]]\n[[question t = ['d']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-19-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 11 = (y + 4)]]\n[[question x = ['y']]]\ntheme: Sleeping bag",
+      "statement": "A camper has 4 sleeping bags in their tent. Later on, they find 11 sleeping bags in total after their friends drop off their bags. How many sleeping bags did the camper's friends bring?",
+      "new symbolic struct": "[[var 11 = (4 + s)]]\n[[question i = ['s']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-20-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 20 = (a + 7)]]\n[[question f = ['a']]]\ntheme: Cat",
+      "statement": "A crazy cat lady had 7 cats. After adopting a number of stray cats, her total number of cats increased to 20. How many stray cats did she adopt?",
+      "new symbolic struct": "[[var 20 = (7 + s)]]\n[[question a = ['s']]]",
+      "answer": "13",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-21-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 19 = (1 + j)]]\n[[question c = ['j']]]\ntheme: Binoculars",
+      "statement": "Bill found 1 pair of binoculars in his drawer. He then realized that his total number of binoculars is 19 pairs when he added the ones he found in the attic. How many binoculars did Bill find in his attic?",
+      "new symbolic struct": "[[var 19 = (1 + b)]]\n[[question a = ['b']]]",
+      "answer": "18",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-22-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 16 = (14 + u)]]\n[[question b = ['u']]]\ntheme: Elephant",
+      "statement": "In a wildlife sanctuary, at the start of the day, there were 14 elephants hanging around the water hole. By afternoon, the number of elephants increased to 16. How many new elephants arrived at the water hole?",
+      "new symbolic struct": "[[var 16 = (14 + e)]]\n[[question i = ['e']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-23-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 10 = (m - 4)]]\n[[question o = ['m']]]\ntheme: Mountain",
+      "statement": "A mountain climber starts at a point that is m feet high. After climbing downwards for a while, they reach a point that's 10 feet high. If they had climbed down 4 feet to reach this point, how high was the point where they started?",
+      "new symbolic struct": "[[var 10 = (m - 4)]]\n[[question i = ['m']]]",
+      "answer": "14",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-24-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 12 = (r + 6)]]\n[[question s = ['r']]]\ntheme: Color",
+      "statement": "The color palette had a total of 12 color options. If 6 of those colors were warm colors, how many were cool colors?",
+      "new symbolic struct": "[[var 6 = (12 - c)]]\n[[question h = ['c']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-25-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 14 = (8 + w)]]\n[[question v = ['w']]]\ntheme: Pirate",
+      "statement": "A pirate had 8 shiny gold coins in his treasure chest in the morning. By sunset, he had a total of 14 shiny gold coins in his chest. How many shiny gold coins did the pirate find during the day?",
+      "new symbolic struct": "[[var 14 = (8 + c)]]\n[[question k = ['c']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-26-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 19 = (b + 8)]]\n[[question p = ['b']]]\ntheme: Turtle",
+      "statement": "A turtle starts with 8 pieces of lettuce. After eating some more lettuce, it ends up with a total of 19 pieces of lettuce. How many pieces of lettuce does the turtle eat?",
+      "new symbolic struct": "[[var 19 = (8 + l)]]\n[[question i = ['l']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-27-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 6 = (q + 4)]]\n[[question t = ['q']]]\ntheme: River",
+      "statement": "A river was flowing at a speed of 6 km/hr by late morning. In the early morning, its speed was 4 km/hr less. What was the speed of the river in the early morning?",
+      "new symbolic struct": "[[var 6 = (x + 4)]]\n[[question y = ['x']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-28-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 1 = (6 - q)]]\n[[question m = ['q']]]\ntheme: Letter",
+      "statement": "In a children's alphabet game,  there were initially 6 letter blocks. After a while, only 1 letter block remained on the game station. How many letter blocks were removed from the game station?",
+      "new symbolic struct": "[[var 1 = (6 - l)]]\n[[question m = ['l']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-29-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 15 = (m - 3)]]\n[[question q = ['m']]]\ntheme: Party",
+      "statement": "At a party, 3 people decided to leave early. After their departure, 15 people remained at the party. How many people were originally at the party before anyone left?",
+      "new symbolic struct": "[[var 15 = (x - 3)]]\n[[question y = ['x']]]",
+      "answer": "18",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-30-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 19 = (m + 9)]]\n[[question f = ['m']]]\ntheme: Letter",
+      "statement": "Lucy has 9 letters in her mailbox initially. By the end of the day, she receives some more letters and the total number of letters in the mailbox is 19. How many letters does Lucy receive during the day?",
+      "new symbolic struct": "[[var 19 = (9 + l)]]\n[[question i = ['l']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-31-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 13 = (17 - q)]]\n[[question i = ['q']]]\ntheme: Food",
+      "statement": "In the food pantry, there were originally 17 cans of beans. Over the course of the day, some cans were distributed to people, and at the end of the day, there were 13 cans left. How many cans of beans were distributed that day?",
+      "new symbolic struct": "[[var 17 = (13 + b)]]\n[[question i = ['b']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-32-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 15 = (3 + y)]]\n[[question p = ['y']]]\ntheme: Sock",
+      "statement": "A sock store started their day with 3 pairs of red socks. During the day, they decided to add more of the same socks following a new shipment. By the end of the day, they had 15 pairs of red socks. How many pairs of red socks did they add to their inventory?",
+      "new symbolic struct": "[[var 15 = (3 + s)]]\n[[question i = ['s']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-33-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 18 = (9 + l)]]\n[[question z = ['l']]]\ntheme: Apple",
+      "statement": "A farmer has 9 apple trees in his orchard already. Later, he decides to plant a number of new apple trees. After the planting, the total number of apple trees he has is 18. How many new apple trees did he plant?",
+      "new symbolic struct": "[[var 18 = (9 + t)]]\n[[question t = ['t']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-35-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 8 = (k + 3)]]\n[[question j = ['k']]]\ntheme: Pen",
+      "statement": "A stationery store displayed 3 pens at the start of the day. By the end of the day, they had 8 pens on the display. How many pens did they add to the display during the day?",
+      "new symbolic struct": "[[var 8 = (3 + p)]]\n[[question i = ['p']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-36-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 8 = (e + 7)]]\n[[question w = ['e']]]\ntheme: Shark",
+      "statement": "A marine biologist counts that there are 8 sharks currently swimming around the deep sea observatory. If the observatory initially had 7 sharks, how many new sharks arrived?",
+      "new symbolic struct": "[[var 8 = (7 + n)]]\n[[question m = ['n']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-37-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 8 = (r + 5)]]\n[[question h = ['r']]]\ntheme: Slide",
+      "statement": "A kid's slide has 5 steps. By adding some more steps, the total becomes 8. How many steps were added to the slide?",
+      "new symbolic struct": "[[var 8 = (5 + s)]]\n[[question i = ['s']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-38-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 8 = (o - 4)]]\n[[question w = ['o']]]\ntheme: Skateboard",
+      "statement": "Chris has a collection of skateboards. After giving away 4 of his skateboards to friends, he ends up with 8 skateboards left. How many skateboards did Chris have at the beginning?",
+      "new symbolic struct": "[[var 8 = (x - 4)]]\n[[question i = ['x']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-39-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 6 = (i - 5)]]\n[[question j = ['i']]]\ntheme: Pirate ship",
+      "statement": "A pirate ship had a certain number of cannons. After a rough sea battle, it was left with 6 cannons. If the ship lost 5 cannons during the fight, how many cannons did it have before the battle?",
+      "new symbolic struct": "[[var 6 = (c - 5)]]\n[[question i = ['c']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-40-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 10 = (16 - p)]]\n[[question t = ['p']]]\ntheme: Police",
+      "statement": "A police department started the day with 16 patrol cars. As the day went on, some patrol cars were sent out on various assignments. By the afternoon, there were only 10 patrol cars left at the station. How many patrol cars were sent out on assignments?",
+      "new symbolic struct": "[[var 10 = (16 - p)]]\n[[question a = ['p']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-41-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 6 = (12 - c)]]\n[[question s = ['c']]]\ntheme: Pillow",
+      "statement": "Initially, there were 12 pillows in a store. By the end of the day, there were only 6 pillows left. How many pillows were sold during the day?",
+      "new symbolic struct": "[[var 6 = (12 - p)]]\n[[question i = ['p']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-42-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 10 = (y + 4)]]\n[[question w = ['y']]]\ntheme: Backpack",
+      "statement": "Billy began packing for a camping trip. He already had 4 items in his backpack. By the time he stopped packing, there were 10 items total in his backpack. How many additional items did Billy add to his backpack?",
+      "new symbolic struct": "[[var 10 = (4 + b)]]\n[[question j = ['b']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-43-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 20 = (8 + q)]]\n[[question a = ['q']]]\ntheme: Jungle gym",
+      "statement": "A jungle gym has 8 swings installed. Later in the day, more swings were added and the total number of swings became 20. How many more swings were added to the jungle gym?",
+      "new symbolic struct": "[[var 20 = (8 + s)]]\n[[question j = ['s']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-44-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 17 = (m + 15)]]\n[[question g = ['m']]]\ntheme: Wind",
+      "statement": "In a wind energy farm, there are 15 wind turbines already operational. The total number of wind turbines in the farm is 17. How many more wind turbines were constructed and added to the farm?",
+      "new symbolic struct": "[[var 17 = (15 + w)]]\n[[question t = ['w']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-45-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 20 = (18 + i)]]\n[[question j = ['i']]]\ntheme: Juice",
+      "statement": "James owns a juice bar where he had 18 bottles of apple juice. After restocking, he counts a total of 20 bottles. How many bottles of apple juice did he add to the stock?",
+      "new symbolic struct": "[[var 20 = (18 + j)]]\n[[question i = ['j']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-46-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 6 = (z - 1)]]\n[[question p = ['z']]]\ntheme: Guitar",
+      "statement": "John started his guitar lessons with a collection of certain number of guitar picks. After playing for a while, he noticed that he has only 6 picks left, having lost 1. How many guitar picks did John originally start with?",
+      "new symbolic struct": "[[var 6 = (x - 1)]]\n[[question p = ['x']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-47-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 9 = (7 + o)]]\n[[question m = ['o']]]\ntheme: Flower",
+      "statement": "A florist starts their day with 7 daisies in their display. During the day they add some more daisies and by the end of the day, the total count of daisies is 9. How many daisies did they add during the day?",
+      "new symbolic struct": "[[var 9 = (7 + d)]]\n[[question i = ['d']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-49-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 6 = (k + 4)]]\n[[question m = ['k']]]\ntheme: Firefighter",
+      "statement": "A firefighter hears a total of 6 alarms in one day. If he had heard 4 alarms before lunch, how many alarms did he hear after lunch?",
+      "new symbolic struct": "[[var 6 = (4 + a)]]\n[[question i = ['a']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-50-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 17 = (18 - q)]]\n[[question x = ['q']]]\ntheme: Cat",
+      "statement": "A crazy cat lady starts the day with 18 cats in her living room. After letting some of them go outside to play, only 17 cats remain in the living room. How many cats went outside to play?",
+      "new symbolic struct": "[[var 17 = (18 - c)]]\n[[question i = ['c']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-51-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 4 = (3 + b)]]\n[[question m = ['b']]]\ntheme: Snowman",
+      "statement": "A small snowman is built using 3 large snowballs. Over time, the snowman grows by an additional number of snowballs and becomes comprised of a total of 4 large snowballs. How many more snowballs were added to the snowman?",
+      "new symbolic struct": "[[var 4 = (3 + s)]]\n[[question m = ['s']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-52-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 16 = (d + 14)]]\n[[question p = ['d']]]\ntheme: Orange",
+      "statement": "A fruit seller had 14 oranges in his basket. After some time, he found that he had 16 oranges in total after collecting some from his garden. How many oranges did he collect from his garden?",
+      "new symbolic struct": "[[var 16 = (14 + o)]]\n[[question g = ['o']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-53-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 16 = (k + 13)]]\n[[question i = ['k']]]\ntheme: Crayon",
+      "statement": "At the start of an art project, you already have 13 red crayons in your art box. By the end of the day, after adding some more red crayons, you have a total of 16 red crayons. How many red crayons did you add in during the day?",
+      "new symbolic struct": "[[var 16 = (13 + c)]]\n[[question p = ['c']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-54-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 20 = (11 + y)]]\n[[question i = ['y']]]\ntheme: Puzzle",
+      "statement": "A puzzle maker had finished creating 11 picture puzzles by the end of last month. This month, he created a few more and now has a total of 20 picture puzzles. How many picture puzzles did the puzzle maker create this month?",
+      "new symbolic struct": "[[var 20 = (11 + p)]]\n[[question j = ['p']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-55-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 1 = (11 - y)]]\n[[question a = ['y']]]\ntheme: Flower",
+      "statement": "In a garden, there were originally 11 red roses. But by the end of the week, only 1 red rose was left after some were picked. How many red roses were picked from the garden during the week?",
+      "new symbolic struct": "[[var 1 = (11 - r)]]\n[[question g = ['r']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-56-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 5 = (16 - d)]]\n[[question s = ['d']]]\ntheme: Apple",
+      "statement": "A farmer had 16 apples in his basket. After some time, he noticed that there were only 5 apples left in his basket. How many apples were taken from the basket?",
+      "new symbolic struct": "[[var 5 = (16 - a)]]\n[[question t = ['a']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-57-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 8 = (f + 5)]]\n[[question v = ['f']]]\ntheme: UFO",
+      "statement": "An Unidentified Flying Object (UFO) was initially having 5 alien occupants on board. After some universal travels, the UFO had 8 alien occupants. How many extra aliens joined the UFO during its journey?",
+      "new symbolic struct": "[[var 8 = (5 + a)]]\n[[question c = ['a']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-58-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 1 = (13 - t)]]\n[[question r = ['t']]]\ntheme: Toy",
+      "statement": "A toy store had 13 toy cars at the beginning of the day. By the end of the day, there was only 1 toy car left on the shelf. How many toy cars were sold during the day?",
+      "new symbolic struct": "[[var 1 = (13 - t)]]\n[[question s = ['t']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-59-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 16 = (18 - d)]]\n[[question i = ['d']]]\ntheme: Robot",
+      "statement": "A robot factory had 18 fully operational robots at the beginning of the day. But by the end of the day, there were only 16 operational robots left. How many robots stopped functioning during the day?",
+      "new symbolic struct": "[[var 16 = (18 - r)]]\n[[question i = ['r']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-60-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 8 = (t - 3)]]\n[[question u = ['t']]]\ntheme: Circus",
+      "statement": "A circus has a certain number of tigers. After selling 3 of them to a zoo, they have 8 tigers left. How many tigers did the circus have originally?",
+      "new symbolic struct": "[[var 8 = (x - 3)]]\n[[question i = ['x']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-61-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 5 = (15 - f)]]\n[[question m = ['f']]]\ntheme: Tiger",
+      "statement": "The tiger population in a nature reserve was originally 15. Over time, perilous conditions led to the demise of some of the tigers, leaving only 5 tigers in the reserve. How many tigers were lost?",
+      "new symbolic struct": "[[var 5 = (15 - t)]]\n[[question l = ['t']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-62-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 12 = (6 + u)]]\n[[question n = ['u']]]\ntheme: Jacket",
+      "statement": "The Jackson family has 6 jackets to begin with but they purchased some more at a yard sale. If they now have 12 jackets total, how many jackets did they purchase at the yard sale?",
+      "new symbolic struct": "[[var 12 = (6 + j)]]\n[[question h = ['j']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-63-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 8 = (16 - c)]]\n[[question n = ['c']]]\ntheme: Train",
+      "statement": "A train initially has 16 cars. Part way through its journey, it detaches some cars and continues on with only 8 cars. How many train cars were detached during the journey?",
+      "new symbolic struct": "[[var 8 = (16 - t)]]\n[[question c = ['t']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-64-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 4 = (a + 1)]]\n[[question s = ['a']]]\ntheme: Bracelet",
+      "statement": "A jewelry store has 1 bracelet in stock. Later, the store receives a fresh shipment, and the total number of bracelets increases to 4. How many bracelets were in the new shipment?",
+      "new symbolic struct": "[[var 4 = (1 + b)]]\n[[question i = ['b']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-66-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 7 = (14 - d)]]\n[[question p = ['d']]]\ntheme: School bus",
+      "statement": "A school bus started its morning route with 14 students on board. After dropping off some students at their respective schools, there were only 7 students left on the bus. How many students were dropped off in the morning?",
+      "new symbolic struct": "[[var 7 = (14 - s)]]\n[[question d = ['s']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-67-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 16 = (d + 9)]]\n[[question g = ['d']]]\ntheme: Cheese",
+      "statement": "A cheese maker produced 9 pounds of swiss cheese one morning. By the end of the day, the total cheese production was 16 pounds. How much more cheese (in pounds) was produced by the end of the day?",
+      "new symbolic struct": "[[var 16 = (9 + c)]]\n[[question m = ['c']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-68-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 6 = (u + 4)]]\n[[question x = ['u']]]\ntheme: Pillow",
+      "statement": "Sarah counted her pillows and found out that she has a total of 6 pillows. If she recalls correctly, 4 of them are stuffed with feathers and the rest are stuffed with foam. How many of her pillows are stuffed with foam?",
+      "new symbolic struct": "[[var 6 = (4 + f)]]\n[[question i = ['f']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-69-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 11 = (7 + u)]]\n[[question f = ['u']]]\ntheme: Binoculars",
+      "statement": "A binoculars maker started with 7 binoculars in the morning. By late afternoon, she had added few more, making a total of 11 binoculars. How many binoculars did she make in the afternoon?",
+      "new symbolic struct": "[[var 11 = (7 + b)]]\n[[question i = ['b']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-70-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 8 = (3 + k)]]\n[[question e = ['k']]]\ntheme: Ball",
+      "statement": "In a playground, there are originally 3 balls. As the day progresses, kids bring in some more balls and by the end of day, the total number of balls in the playground is 8. How many balls did kids bring to the playground?",
+      "new symbolic struct": "[[var 8 = (3 + b)]]\n[[question i = ['b']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-71-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 2 = (u - 13)]]\n[[question j = ['u']]]\ntheme: Dress",
+      "statement": "A fashion designer started with a total of a certain number of blue dresses. After selling 13 of them, there were only 2 left in stock. How many blue dresses did the designer start with?",
+      "new symbolic struct": "[[var 2 = (x - 13)]]\n[[question i = ['x']]]",
+      "answer": "15",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-72-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 1 = (2 - d)]]\n[[question w = ['d']]]\ntheme: Balloon",
+      "statement": "In a party, there were 2 helium balloons floating above a child. Suddenly one of them popped, leaving just 1 balloon. How many balloons popped?",
+      "new symbolic struct": "[[var 1 = (2 - x)]]\n[[question y = ['x']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-73-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 1 = (x - 4)]]\n[[question c = ['x']]]\ntheme: Pirate ship",
+      "statement": "A pirate has stashed away 4 of his gold coins and now has only 1 left with him. How many gold coins did the pirate originally have before stashing them away?",
+      "new symbolic struct": "[[var 1 = (n - 4)]]\n[[question f = ['n']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-74-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 12 = (z + 6)]]\n[[question t = ['z']]]\ntheme: Pen",
+      "statement": "A desk drawer had 6 pens at the beginning of the day. At the end of the day, it acquired a total of 12 pens because some were dropped off in the drawer by office workers. How many pens did office workers drop off in the drawer throughout the day?",
+      "new symbolic struct": "[[var 12 = (6 + p)]]\n[[question i = ['p']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-75-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 11 = (15 - u)]]\n[[question p = ['u']]]\ntheme: Shape",
+      "statement": "A shape enthusiast begins with a collection of 15 different types of shapes. Later, she decides to give some away and is left with 11 types of shapes. How many different types of shapes did she give away?",
+      "new symbolic struct": "[[var 11 = (15 - s)]]\n[[question i = ['s']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-76-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 20 = (3 + x)]]\n[[question w = ['x']]]\ntheme: Backpack",
+      "statement": "A student has a backpack that initially contains 3 pencils. Later in the day, the student adds some more pencils to the backpack, bringing the total count to 20 pencils. How many additional pencils did the student put in the backpack?",
+      "new symbolic struct": "[[var 20 = (3 + p)]]\n[[question i = ['p']]]",
+      "answer": "17",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-77-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 7 = (n + 6)]]\n[[question z = ['n']]]\ntheme: Monkey",
+      "statement": "A zookeeper has 6 monkeys in one enclosure. Later in the day, some more monkeys are transferred into the enclosure, making a total of 7 monkeys. How many monkeys were transferred?",
+      "new symbolic struct": "[[var 7 = (6 + m)]]\n[[question i = ['m']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-78-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 1 = (13 - b)]]\n[[question t = ['b']]]\ntheme: Sleeping bag",
+      "statement": "You were packing for a camping trip and counted 13 sleeping bags at the start. But when you finished packing, only 1 sleeping bag was left behind. How many sleeping bags did you pack for the trip?",
+      "new symbolic struct": "[[var 1 = (13 - x)]]\n[[question w = ['x']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-79-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 10 = (9 + q)]]\n[[question o = ['q']]]\ntheme: Park",
+      "statement": "A public park starts the day with 9 benches. By afternoon, they install some new ones making the total number of benches 10. How many new benches were installed?",
+      "new symbolic struct": "[[var 10 = (9 + b)]]\n[[question i = ['b']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-80-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 4 = (9 - w)]]\n[[question k = ['w']]]\ntheme: Mermaid",
+      "statement": "A mermaid has 9 shimmering scales on her tail. But after a tough underwater race, she realizes that she has lost some, leaving her with just 4 intact scales. How many scales did the mermaid lose during the race?\n",
+      "new symbolic struct": "[[var 4 = (9 - s)]]\n[[question l = ['s']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-81-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 17 = (8 + t)]]\n[[question j = ['t']]]\ntheme: Song",
+      "statement": "A band has prepared 8 songs for a live performance. By the end of the concert, they've played 17 songs, due to audience requests and encore performances. How many additional songs did they end up playing?",
+      "new symbolic struct": "[[var 17 = (8 + s)]]\n[[question a = ['s']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-82-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 9 = (q - 6)]]\n[[question e = ['q']]]\ntheme: Hat",
+      "statement": "A hat maker starts a day with a certain number of wool hats in his shop. By noon, he sold 6 of these hats and was left with 9 hats. How many wool hats did he start the day with?",
+      "new symbolic struct": "[[var 9 = (x - 6)]]\n[[question y = ['x']]]",
+      "answer": "15",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-83-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 19 = (14 + k)]]\n[[question b = ['k']]]\ntheme: Soap",
+      "statement": "A soap shop has 14 soaps in their inventory at the start of the day. By the end of the day, the total inventory counts to 19 soaps after making some more. How many soaps did they make during the day?",
+      "new symbolic struct": "[[var 19 = (14 + s)]]\n[[question p = ['s']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-84-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 14 = (10 + c)]]\n[[question n = ['c']]]\ntheme: Soap",
+      "statement": "Sylvia starts making soap with 10 bars from her last huge batch. By the end of the day, she ends up with 14 bars of soap by creating a few new ones. How many new bars of soap did Sylvia make?",
+      "new symbolic struct": "[[var 14 = (10 + s)]]\n[[question b = ['s']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-85-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 19 = (13 + m)]]\n[[question f = ['m']]]\ntheme: Rope",
+      "statement": "A rope factory starts the day producing a rope of 13 meters long. By the end of the day, another rope, combined with the first one, makes up a total of 19 meters of rope. How long is the second rope they produced?",
+      "new symbolic struct": "[[var 19 = (13 + x)]]\n[[question q = ['x']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-86-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 12 = (2 + o)]]\n[[question d = ['o']]]\ntheme: Beach ball",
+      "statement": "There were 2 beach balls scattered around the beach early in the morning. As the day progressed, there were 12 beach balls all over the beach. How many beach balls did the beach visitors bring with them?",
+      "new symbolic struct": "[[var 12 = (2 + b)]]\n[[question i = ['b']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-87-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 10 = (1 + n)]]\n[[question x = ['n']]]\ntheme: Campfire",
+      "statement": "A group of friends on a camping trip only had 1 piece of firewood left early in the night. By the end of the night, they managed to find and collect 10 pieces of firewood altogether. How many extra pieces of firewood did they find that night?",
+      "new symbolic struct": "[[var 10 = (1 + f)]]\n[[question h = ['f']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-88-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 16 = (18 - r)]]\n[[question g = ['r']]]\ntheme: Guitar",
+      "statement": "You have a music store with 18 guitars in stock. During the day, a customer comes and buys a number of guitars. By the end of the day, you count and find that you have 16 guitars left. How many guitars did the customer buy?",
+      "new symbolic struct": "[[var 16 = (18 - g)]]\n[[question c = ['g']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-89-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 14 = (4 + y)]]\n[[question c = ['y']]]\ntheme: Bike",
+      "statement": "A bike shop has 4 mountain bikes on hand at the beginning of the day. By the end of the day, they have a total of 14 mountain bikes, as some new shipments have arrived. How many new mountain bikes were shipped to the shop today?",
+      "new symbolic struct": "[[var 14 = (4 + b)]]\n[[question s = ['b']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-90-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 3 = (2 + p)]]\n[[question l = ['p']]]\ntheme: Colored pencil",
+      "statement": "A child starts with 2 blue colored pencils, and then a classmate gives them some more. In the end, they have 3 blue colored pencils. How many colored pencils did their classmate give them?",
+      "new symbolic struct": "[[var 3 = (2 + x)]]\n[[question y = ['x']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-91-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 19 = (p + 15)]]\n[[question k = ['p']]]\ntheme: Tent",
+      "statement": "The campsite initially had 15 tents. By the end of the day, 19 tents were pitched in total. How many more tents were set up during the day?",
+      "new symbolic struct": "[[var 19 = (15 + t)]]\n[[question u = ['t']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-92-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 16 = (c + 7)]]\n[[question i = ['c']]]\ntheme: Pirate",
+      "statement": "A pirate found 7 gold coins in one of the treasure chests. By the end of his looting, he had a total of 16 gold coins. How many gold coins were in the other treasure chests he looted?",
+      "new symbolic struct": "[[var 16 = (7 + x)]]\n[[question z = ['x']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-95-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 16 = (12 + a)]]\n[[question m = ['a']]]\ntheme: Wallet",
+      "statement": "You start with 12 dollars in your wallet. By the end of a shopping trip, you find that you now have 16 dollars left in your wallet after receiving some change. How much money in dollars did you receive as change during the trip?",
+      "new symbolic struct": "[[var 16 = (12 + c)]]\n[[question d = ['c']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-96-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 17 = (s + 11)]]\n[[question m = ['s']]]\ntheme: Rope",
+      "statement": "A rope manufacturing task is ongoing. From several short pieces, a worker succeeds in creating a rope that is 17 feet long. If one of these pieces was 11 feet long, how long were the rest of the pieces together?",
+      "new symbolic struct": "[[var 17 = (11 + r)]]\n[[question q = ['r']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-97-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 13 = (1 + u)]]\n[[question s = ['u']]]\ntheme: Colored pencil",
+      "statement": "An artist had one blue colored pencil in her collection. After adding a pack of new pencils, she now has 13 colored pencils. How many colored pencils were there in the new pack?",
+      "new symbolic struct": "[[var 13 = (1 + p)]]\n[[question n = ['p']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-98-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 2 = (17 - c)]]\n[[question i = ['c']]]\ntheme: Guitar",
+      "statement": "A musician starts off with 17 guitar strings in his collection. After restringing some guitars, he is left with only 2 strings. How many guitar strings did the musician use?",
+      "new symbolic struct": "[[var 2 = (17 - g)]]\n[[question h = ['g']]]",
+      "answer": "15",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-99-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 13 = (l + 7)]]\n[[question p = ['l']]]\ntheme: Rainbow",
+      "statement": "There are 7 colors visible in a typical rainbow. If you have a special prism that shows a total of 13 colors in the rainbow, how many additional colors are visible through the prism?",
+      "new symbolic struct": "[[var 13 = (7 + c)]]\n[[question i = ['c']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-100-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 1 = (x - 3)]]\n[[question n = ['x']]]\ntheme: Giraffe",
+      "statement": "A full grown giraffe typically grows to a height of x meters. But a young giraffe was just 1 meter shorter than a full grown one when it was 3 meters tall. What is the typical height of a fully grown giraffe in meters?",
+      "new symbolic struct": "[[var x = (3 + 1)]]\n[[question y = ['x']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-101-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 14 = (10 + l)]]\n[[question u = ['l']]]\ntheme: Pencil",
+      "statement": "In a pencil box, there were initially 10 pencils. Later, a student added some more pencils into the box and the total became 14. How many pencils did the student add to the box?",
+      "new symbolic struct": "[[var 14 = (10 + p)]]\n[[question i = ['p']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-103-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 4 = (14 - u)]]\n[[question o = ['u']]]\ntheme: Pillow",
+      "statement": "A pillow factory has a stock of 14 feather pillows. After a small order is shipped, they have 4 feather pillows left. How many feather pillows were in the shipped order?",
+      "new symbolic struct": "[[var 4 = (14 - j)]]\n[[question h = ['j']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-104-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 16 = (z + 15)]]\n[[question m = ['z']]]\ntheme: Pizza",
+      "statement": "A pizzeria has 15 pepperoni pizzas ready to be served. Throughout the day, they bake a number of additional pepperoni pizzas, bringing the total to 16 by the evening. How many additional pepperoni pizzas did they bake throughout the day?",
+      "new symbolic struct": "[[var 16 = (15 + p)]]\n[[question a = ['p']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-105-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 7 = (11 - p)]]\n[[question j = ['p']]]\ntheme: Song",
+      "statement": "A band had prepared 11 songs to perform at a concert. However, they only managed to perform 7 songs due to technical problems. How many songs were they not able to perform at the concert?",
+      "new symbolic struct": "[[var 7 = (11 - t)]]\n[[question s = ['t']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-106-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 11 = (z - 7)]]\n[[question h = ['z']]]\ntheme: Snowman",
+      "statement": "A snowman has a certain number of snowballs stacked to form its shape. If 7 snowballs are removed, only 11 snowballs remain. How many snowballs were used to build the snowman originally?",
+      "new symbolic struct": "[[var 11 = (x - 7)]]\n[[question s = ['x']]]",
+      "answer": "18",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.D.8-107-0",
+      "standard": "1.OA.D.8",
+      "symbolic-struct": "[[var 20 = (10 + q)]]\n[[question g = ['q']]]\ntheme: Mermaid",
+      "statement": "In underwater kingdom, there were 10 mermaids at the beginning. After a while, there were 20 mermaids. How many new mermaids joined the kingdom?",
+      "new symbolic struct": "[[var 20 = (10 + m)]]\n[[question n = ['m']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ]
+]

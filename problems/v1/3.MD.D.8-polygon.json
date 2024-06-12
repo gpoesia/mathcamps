@@ -1,0 +1,1102 @@
+[
+  [
+    {
+      "id": "3.MD.D.8-polygon-0-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 368 = ((((((41 + 28) + 90) + 32) + 10) + m) + 98)]]\n[[question c = ['m']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A sum of several measurements taken along the edge of a plot of land totals to 368 miles. The individual measurements are 41 miles, 28 miles, 90 miles, 32 miles, 10 miles, and 98 miles. What is the remaining measurement that hasn't been included in the total yet?",
+      "new symbolic struct": "[[var partial_sum = 41 + 28 + 90 + 32 + 10 + 98]]\n[[var remaining_measurement = 368 - partial_sum]]\n[[question m = ['remaining_measurement']]]",
+      "answer": "69",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-2-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 300 = ((((70 + 36) + z) + 53) + 45)]]\n[[question q = ['z']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular pentagon has side lengths of 70cm, 36cm, 53cm, and 45cm. If the total perimeter of the pentagon is 300cm, what is the length of its fifth side?",
+      "new symbolic struct": "[[var s1 = 70]]\n[[var s2 = 36]]\n[[var s3 = 53]]\n[[var s4 = 45]]\n[[var p = 300]]\n[[var s5 = p - s1 - s2 - s3 - s4]]\n[[question z = ['s5']]]",
+      "answer": "96",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-3-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 521 = ((((((((14 + 94) + 3) + 20) + 57) + 83) + g) + 96) + 85)]]\n[[question z = ['g']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular nonagon (9-sided polygon) has side lengths of 14cm, 94cm, 3cm, 20cm, 57cm, 83cm, 96cm, and 85cm. If the perimeter of the nonagon is 521cm, what is the length of the ninth side?",
+      "new symbolic struct": "[[var totalSides = 14 + 94 + 3 + 20 + 57 + 83 + 96 + 85]]\n[[var perimeter = 521]]\n[[var ninthSide = perimeter - totalSides]]\n[[question n = ['ninthSide']]]",
+      "answer": "69",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-4-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 274 = (((((54 + 51) + v) + 5) + 22) + 93)]]\n[[question c = ['v']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A polygon has sides measuring 54cm, 51cm, 5cm, 22cm, and 93cm. If the total perimeter of the polygon is 274cm, what is the length of the sixth side?",
+      "new symbolic struct": "[[var x = 274 - (54 + 51 + 5 + 22 + 93)]]\n[[question a = ['x']]]",
+      "answer": "49",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-5-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 310 = (5 * i)]]\n[[question m = ['i']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular pentagon has a perimeter of 310 m. What is the length of each side?",
+      "new symbolic struct": "[[var p = 310 / 5]]\n[[question s = ['p']]]",
+      "answer": "62",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-6-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 315 = (((((78 + 93) + 21) + 4) + r) + 21)]]\n[[question v = ['r']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A polygon has side lengths of 78cm, 93cm, 21cm, 4cm, and 21cm. If the total perimeter of the shape is 315cm, then what is the length of the last side?",
+      "new symbolic struct": "[[var tot_side = 78 + 93 + 21 + 4 + 21]]\n[[var rem_side = 315 - tot_side]]\n[[question last_side = ['rem_side']]]",
+      "answer": "98",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-7-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 160 = (8 * n)]]\n[[question c = ['n']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular 8-sided polygon, an octagon, has a perimeter of 160m. What is the length of each side?",
+      "new symbolic struct": "[[var p = 160]]\n[[var s = 8]]\n[[question x = ['p / s']]]",
+      "answer": "20",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-8-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 224 = (((((((6 + g) + 4) + 95) + 34) + 19) + 14) + 26)]]\n[[question b = ['g']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "Consider an octagon. Its seven sides have lengths 6cm, 4cm, 95cm, 34cm, 19cm, 14cm, and 26cm. What is the length of the other side if the total perimeter of the octagon is 224cm?",
+      "new symbolic struct": "[[var 198 = 6 + 4 + 95 + 34 + 19 + 14 + 26]]\n[[var 224 = 198 + a]]\n[[question h = ['a']]]",
+      "answer": "26",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-10-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 174 = (6 * m)]]\n[[question e = ['m']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has a perimeter of 174 meters. If all sides are equal, what is the length of one side?",
+      "new symbolic struct": "[[var p = 174 / 6]]\n[[question s = ['p']]]",
+      "answer": "29",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-14-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 538 = ((((((((((65 + 22) + p) + 32) + 31) + 78) + 88) + 7) + 29) + 36) + 54)]]\n[[question h = ['p']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A dodecagon has side lengths of 65cm, 22cm, 32cm, 31cm, 78cm, 88cm, 7cm, 29cm, 36cm, and 54cm. The total perimeter of the dodecagon is 538cm. What is the length of the 11th side?",
+      "new symbolic struct": "[[var a = 65+22+32+31+78+88+7+29+36+54]]\n[[var b = 538 - a]]\n[[question c = ['b']]]",
+      "answer": "96",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-15-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 357 = (((((61 + 84) + 80) + 11) + s) + 71)]]\n[[question q = ['s']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A hexagon has five side lengths of 61 cm, 84 cm, 80 cm, 11 cm, and 71 cm. What should be the length of the last side so that the sum of lengths of all sides is 357 cm?",
+      "new symbolic struct": "[[var s = 61 + 84 + 80 + 11 + 71]]\n[[var t = 357 - s]]\n[[question l = ['t']]]",
+      "answer": "50",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-17-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 544 = (8 * b)]]\n[[question g = ['b']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular octagon has a perimeter of 544m. What is the length of one side?",
+      "new symbolic struct": "[[var s = 544 / 8]]\n[[question p = ['s']]]",
+      "answer": "68",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-19-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 960 = (10 * q)]]\n[[question w = ['q']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a regular decagon (10-sided polygon) is 960m. Find the length of one side.",
+      "new symbolic struct": "[[var s = 960 / 10]]\n[[question a = ['s']]]",
+      "answer": "96",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-20-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 203 = (7 * e)]]\n[[question h = ['e']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular heptagon (7-sided polygon) has an unknown side length. If its total perimeter is 203m, how long is each side?",
+      "new symbolic struct": "[[var total = 203]]\n[[var sides = 7]]\n[[var p = total / sides]]\n[[question q = ['p']]]",
+      "answer": "29",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-24-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 49 = (7 * e)]]\n[[question g = ['e']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular heptagon (7-sided polygon) has a perimeter of 49 meters. What is the length of each side?",
+      "new symbolic struct": "[[var p = 49 / 7]]\n[[question s = ['p']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-25-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 329 = (7 * m)]]\n[[question e = ['m']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a regular heptagon is 329m. What is the length of each side?",
+      "new symbolic struct": "[[var side = 329 / 7]]\n[[question s = ['side']]]",
+      "answer": "47",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-26-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 486 = (((((86 + 80) + 47) + v) + 93) + 99)]]\n[[question l = ['v']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The sides of a heptagon have lengths of 86m, 80m, 47m, 93m, and 99m. If the total perimeter of the heptagon is 486m, what is the length of the sixth side?",
+      "new symbolic struct": "[[var t = 486]]\n[[var s = 86 + 80 + 47 + 93 + 99]]\n[[var a = t - s]]\n[[question h = ['a']]]",
+      "answer": "81",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-29-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 546 = (7 * a)]]\n[[question s = ['a']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular heptagon has a perimeter of 546m. What is the length of each side?",
+      "new symbolic struct": "[[var a = 546 / 7]]\n[[question h = ['a']]]",
+      "answer": "78",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-30-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 532 = (((((((26 + 45) + 75) + 68) + 63) + p) + 80) + 100)]]\n[[question f = ['p']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A nonagon (nine-sided polygon) has 8 of its sides with lengths 26cm, 45cm, 75cm, 68cm, 63cm, 80cm, and 100cm, respectively. If the perimeter of the nonagon is 532cm, what is the length of the ninth side?",
+      "new symbolic struct": "[[var a = 26 + 45 + 75 + 68 + 63 + 80 + 100]]\n[[var b = 532 - a]]\n[[question c = ['b']]]",
+      "answer": "75",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-31-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 452 = ((((((((62 + 76) + 98) + 74) + y) + 54) + 4) + 24) + 48)]]\n[[question l = ['y']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The sides of a decagon are 62m, 76m, 98m, 74m, another unknown side, 54m, 4m, 24m, and 48m respectively. All sides are equal in length. If the perimeter of the shape is 452m, what is the length of the unknown side?",
+      "new symbolic struct": "[[var total_lengths_known = 62 + 76 + 98 + 74 + 54 + 4 + 24 + 48]]\n[[var perimeter = 452]]\n[[var unknown_side = perimeter - total_lengths_known]]\n[[question u = ['unknown_side']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-34-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 78 = (6 * r)]]\n[[question k = ['r']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has a perimeter of 78m. What is the length of each side?",
+      "new symbolic struct": "[[var a = 78 / 6]]\n[[question b = ['a']]]",
+      "answer": "13",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-36-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 171 = (9 * h)]]\n[[question d = ['h']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular nonagon has a perimeter of 171m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 171 / 9]]\n[[question sideLength = ['s']]]",
+      "answer": "19",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-39-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 318 = (((((((8 + 17) + 30) + u) + 17) + 86) + 55) + 68)]]\n[[question s = ['u']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A nonagon has the following side lengths: 8 cm, 17 cm, 30 cm, 17 cm, 86 cm, 55cm, and 68cm. It also has one unknown side length. The overall perimeter of the nonagon is 318 cm. What is the length of the unknown side?",
+      "new symbolic struct": "[[var total_known_sides = 8 + 17 + 30 + 17 + 86 + 55 + 68]]\n[[var unknown_side = 318 - total_known_sides]]\n[[question a = ['unknown_side']]]",
+      "answer": "37",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-40-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 858 = (11 * l)]]\n[[question t = ['l']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "An 11-sided regular polygon has a perimeter of 858m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 858 / 11]]\n[[question j = ['s']]]",
+      "answer": "78",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-41-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 360 = (10 * l)]]\n[[question r = ['l']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular decagon has a perimeter of 360m. What is the length of each side?",
+      "new symbolic struct": "[[var d = 360 / 10]]\n[[question s = ['d']]]",
+      "answer": "36",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-44-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 522 = (6 * c)]]\n[[question e = ['c']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has a perimeter of 522m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 522 / 6]]\n[[question t = ['s']]]",
+      "answer": "87",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-45-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 418 = (11 * t)]]\n[[question a = ['t']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular polygon has a perimeter of 418m. If each side is the same length, what is the length of each side? Assume the polygon has 11 sides.",
+      "new symbolic struct": "[[var a = 418 / 11]]\n[[question s = ['a']]]",
+      "answer": "38",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-46-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 278 = (((((56 + 73) + 39) + d) + 24) + 26)]]\n[[question x = ['d']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A polygon has side lengths of 56m, 73m, 39m, 24m, and 26m. If the total perimeter of the polygon is 278m, what is the length of the sixth side?",
+      "new symbolic struct": "[[var tt = 56 + 73 + 39 + 24 + 26]]\n[[var x = 278 - tt]]\n[[question p = ['x']]]",
+      "answer": "60",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-47-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 385 = (5 * m)]]\n[[question f = ['m']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular pentagon has a perimeter of 385cm. How long is each side?",
+      "new symbolic struct": "[[var a = 385 / 5]]\n[[question b = ['a']]]",
+      "answer": "77",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-49-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 663 = ((((((((((97 + 93) + 35) + 1) + 27) + 86) + i) + 68) + 96) + 45) + 61)]]\n[[question f = ['i']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a very irregular eleven-sided polygon is 663m. Of those eleven sides, ten are known to be 97m, 93m, 35m, 1m, 27m, 86m, 68m, 96m, 45m, and 61m respectively. What is the length of the unknown eleventh side?",
+      "new symbolic struct": "[[var p1 = 97]]\n[[var p2 = 93]]\n[[var p3 = 35]]\n[[var p4 = 1]]\n[[var p5 = 27]]\n[[var p6 = 86]]\n[[var p7 = 68]]\n[[var p8 = 96]]\n[[var p9 = 45]]\n[[var p10 = 61]]\n[[var pTotal = 663]]\n[[var pSum = p1 + p2 + p3 + p4 + p5 + p6 + p7 + p8 + p9 + p10]]\n[[var p11 = pTotal - pSum]]\n[[question h = ['p11']]]",
+      "answer": "54",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-51-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 575 = (((((((((54 + 49) + 85) + o) + 48) + 85) + 19) + 94) + 44) + 54)]]\n[[question j = ['o']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A decagon has side lengths of 54m, 49m, 85m, 48m, 85m, 19m, 94m, 44m, and 54m respectively. The length of the tenth side is not known. What is the length of this side if the total perimeter of the decagon is 575m?",
+      "new symbolic struct": "[[var s = 54 + 49 + 85 + 48 + 85 + 19 + 94 + 44 + 54]]\n[[var t = 575 - s]]\n[[question x = ['t']]]",
+      "answer": "43",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-54-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 248 = (8 * s)]]\n[[question t = ['s']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "Given a regular octagon with a perimeter of 248m, what is the length of each side?",
+      "new symbolic struct": "[[var s = 248 / 8]]\n[[question t = ['s']]]",
+      "answer": "31",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-57-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 390 = (5 * q)]]\n[[question a = ['q']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular pentagon has a perimeter of 390m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 390 / 5]]\n[[question t = ['s']]]",
+      "answer": "78",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-59-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 522 = (((((((((6 + 85) + 83) + 73) + j) + 25) + 66) + 54) + 87) + 21)]]\n[[question f = ['j']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A decagon has nine side lengths given as 6m, 85m, 83m, 73m, 25m, 66m, 54m, 87m, and 21m. If the total perimeter is 522m, find the length of the tenth side.",
+      "new symbolic struct": "[[var a = 6 + 85 + 83 + 73 + 25 + 66 + 54 + 87 + 21]]\n[[var p = 522]]\n[[question t = ['p - a']]]",
+      "answer": "22",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-62-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 408 = (8 * c)]]\n[[question f = ['c']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular octagon has a perimeter of 408m. What is the length of each side?",
+      "new symbolic struct": "[[var a = 408 / 8]]\n[[question b = ['a']]]",
+      "answer": "51",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-64-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 696 = (8 * g)]]\n[[question b = ['g']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "An octagon has an equal length of sides. If the perimeter of the octagon is 696m, what is the length of each side?",
+      "new symbolic struct": "[[var p = 696]]\n[[var n = 8]]\n[[var s = p / n]]\n[[question l = ['s']]]",
+      "answer": "87",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-65-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 744 = (8 * v)]]\n[[question b = ['v']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "An octagon has a perimeter of 744m. What is the length of each side if all sides are equal?",
+      "new symbolic struct": "[[var 744 = 8 * a]]\n[[question h = ['a']]]",
+      "answer": "93",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-66-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 270 = (9 * w)]]\n[[question i = ['w']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular nonagon (9-sided polygon) has a perimeter of 270m. What is the length of one side?",
+      "new symbolic struct": "[[var s = 270 / 9]]\n[[question l = ['s']]]",
+      "answer": "30",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-67-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 350 = ((((((((30 + u) + 18) + 68) + 23) + 72) + 57) + 33) + 19)]]\n[[question d = ['u']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A nonagon nine-sided polygon has eight known side lengths: 30cm, 18cm, 68cm, 23cm, 72cm, 57cm, 33cm, and 19cm. If the total perimeter of the nonagon is 350cm, what is the length of the unknown ninth side?",
+      "new symbolic struct": "[[var s = 350 - (30 + 18 + 68 + 23 + 72 + 57 + 33 + 19)]]\n[[question n = ['s']]]",
+      "answer": "30",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-68-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 188 = (((((((19 + 7) + 10) + 16) + 32) + 15) + 70) + k)]]\n[[question n = ['k']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A nonagon has eight side lengths known which are 19m, 7m, 10m, 16m, 32m, 15m and 70m. What is the length of the ninth side if the total perimeter of the nonagon is 188m?",
+      "new symbolic struct": "[[var total_known_sides = 19 + 7 + 10 + 16 + 32 + 15 + 70]]\n[[var 188 = total_known_sides + a]]\n[[question h = ['a']]]",
+      "answer": "19",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-70-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 90 = (6 * e)]]\n[[question l = ['e']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has a perimeter of 90m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 90 / 6]]\n[[question h = ['s']]]",
+      "answer": "15",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-71-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 287 = (7 * i)]]\n[[question c = ['i']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular heptagon (7-sided polygon) has a perimeter of 287m. What is the length of each side?",
+      "new symbolic struct": "[[var h = 287 / 7]]\n[[question t = ['h']]]",
+      "answer": "41",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-73-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 50 = (5 * e)]]\n[[question f = ['e']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular pentagon has a perimeter of 50m. What is the length of each side?",
+      "new symbolic struct": "[[var h = 50 / 5]]\n[[question t = ['h']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-75-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 63 = (9 * k)]]\n[[question f = ['k']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular nonagon has a perimeter of 63m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 63 / 9]]\n[[question r = ['s']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-76-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 354 = (6 * o)]]\n[[question s = ['o']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has a perimeter of 354m. What is the length of one side of this hexagon?",
+      "new symbolic struct": "[[var side = 354 / 6]]\n[[question side_length = ['side']]]",
+      "answer": "59",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-77-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 286 = ((((((((59 + 16) + 15) + 35) + 89) + j) + 16) + 43) + 7)]]\n[[question d = ['j']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A polygon has side lengths of 59m, 16m, 15m, 35m, 89m, 16m, 43m and 7m. If the total perimeter of the polygon is 286m, what is the length of the last unknown side?",
+      "new symbolic struct": "[[var total_sides = 59 + 16 + 15 + 35 + 89 + 16 + 43 + 7]]\n[[var unknown_side = 286 - total_sides]]\n[[question last_side = ['unknown_side']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-78-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 616 = (7 * q)]]\n[[question l = ['q']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular heptagon (7-sided polygon) has a perimeter of 616m. What is the length of each side?",
+      "new symbolic struct": "[[var p = 616 / 7]]\n[[question s = ['p']]]",
+      "answer": "88",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-79-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 36 = (6 * j)]]\n[[question k = ['j']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has a perimeter of 36m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 36 / 6]]\n[[question t = ['s']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-81-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 492 = (((((((((88 + 24) + 83) + 64) + 16) + r) + 14) + 90) + 36) + 47)]]\n[[question t = ['r']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A dodecagon has 11 of its 12 sides already measured. The lengths are 88cm, 24cm, 83cm, 64cm, 16cm, 14cm, 90cm, 36cm, and 47cm respectively. If the total perimeter of the dodecagon is 492cm, what is the length of the twelfth side?",
+      "new symbolic struct": "[[var a = 88 + 24 + 83 + 64 + 16 + 14 + 90 + 36 + 47]]\n[[var b = 492]]\n[[var c = b - a]]\n[[question d = ['c']]]",
+      "answer": "30",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-82-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 306 = (6 * f)]]\n[[question z = ['f']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has a perimeter of 306m. What is the length of each side?",
+      "new symbolic struct": "[[var a = 306 / 6]]\n[[question b = ['a']]]",
+      "answer": "51",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-83-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 238 = (7 * l)]]\n[[question m = ['l']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular heptagon (7-sided polygon) has a perimeter of 238 meters. What is the length of each side?",
+      "new symbolic struct": "[[var p = 238/7]]\n[[question s = ['p']]]",
+      "answer": "34",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-84-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 42 = (6 * l)]]\n[[question o = ['l']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has a total perimeter of 42m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 42 / 6]]\n[[question t = ['s']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-85-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 624 = (8 * v)]]\n[[question n = ['v']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular octagon has a perimeter of 624m. What is the length of each side of the octagon?",
+      "new symbolic struct": "[[var s = 624 / 8]]\n[[question t = ['s']]]",
+      "answer": "78",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-89-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 468 = (((((((((17 + 13) + 61) + 16) + 11) + 83) + x) + 28) + 48) + 93)]]\n[[question u = ['x']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A polygon with nine sides has lengths of 17m, 13m, 61m, 16m, 11m, 83m, 28m, 48m, and 93m. What is the length of the tenth side if the total perimeter of the polygon is 468 meters?",
+      "new symbolic struct": "[[var total_length = 17 + 13 + 61 + 16 + 11 + 83 + 28 + 48 + 93]]\n[[var tenth_side = 468 - total_length]]\n[[question side10 = ['tenth_side']]]",
+      "answer": "98",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-90-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 380 = (5 * c)]]\n[[question y = ['c']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular pentagon has a perimeter of 380m. What is the length of each side?",
+      "new symbolic struct": "[[var a = 380 / 5]]\n[[question b = ['a']]]",
+      "answer": "76",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-92-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 104 = (8 * i)]]\n[[question l = ['i']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular octagon has a perimeter of 104cm. What is the length of one of its sides?",
+      "new symbolic struct": "[[var s = 104 / 8]]\n[[question t = ['s']]]",
+      "answer": "13",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-93-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 637 = (7 * x)]]\n[[question r = ['x']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular heptagon (7-sided polygon) has a perimeter of 637m. What is the length of each side?",
+      "new symbolic struct": "[[var a = 637 / 7]]\n[[question s = ['a']]]",
+      "answer": "91",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-98-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 35 = (5 * p)]]\n[[question z = ['p']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular pentagon has a perimeter of 35m. What is the length of each side?",
+      "new symbolic struct": "[[var a = 35 / 5]]\n[[question b = ['a']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-99-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 223 = ((((i + 45) + 93) + 36) + 22)]]\n[[question q = ['i']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a pentagon is 223cm. The lengths of four of its sides are 45cm, 93cm, 36cm, and 22cm respectively. What is the length of the fifth side?",
+      "new symbolic struct": "[[var p = 223]]\n[[var s1 = 45]]\n[[var s2 = 93]]\n[[var s3 = 36]]\n[[var s4 = 22]]\n[[var s5 = p - s1 - s2 - s3 - s4]]\n[[question h = ['s5']]]",
+      "answer": "27",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-100-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 423 = ((((((75 + 81) + 22) + 94) + 91) + 10) + a)]]\n[[question x = ['a']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A polygon has sides measuring 75cm, 81cm, 22cm, 94cm, 91cm, and 10cm. If the perimeter of the polygon is 423cm, what is the length of the last unknown side?",
+      "new symbolic struct": "[[var total_sides = 75 + 81 + 22 + 94 + 91 + 10]]\n[[var unknown_side = 423 - total_sides]]\n[[question final_side = ['unknown_side']]]",
+      "answer": "50",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-102-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 600 = (10 * r)]]\n[[question n = ['r']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular decagon (10-sided polygon) has a perimeter of 600m. What is the length of each side?",
+      "new symbolic struct": "[[var p = 600 / 10]]\n[[question s = ['p']]]",
+      "answer": "60",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-105-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 632 = (8 * s)]]\n[[question u = ['s']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a regular octagon is 632m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var p = 632 / 8]]\n[[question s = ['p']]]",
+      "answer": "79",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-106-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 161 = (7 * a)]]\n[[question w = ['a']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular septagon (7-sided polygon) has a total perimeter of 161m. What is the length of each side?",
+      "new symbolic struct": "[[var p = 161 / 7]]\n[[question s = ['p']]]",
+      "answer": "23",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-107-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 96 = (6 * g)]]\n[[question u = ['g']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has a perimeter of 96m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 96 / 6]]\n[[question t = ['s']]]",
+      "answer": "16",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-108-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 402 = ((((((((50 + 31) + 24) + 28) + 13) + 97) + y) + 63) + 88)]]\n[[question x = ['y']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A nonagon (9-sided polygon), has sides with length 50m, 31m, 24m, 28m, 13m, 97m, 63m and 88m. Find the length of the ninth side if the total perimeter of the nonagon is 402m.",
+      "new symbolic struct": "[[var sum_sides = 50 + 31 + 24 + 28 + 13 + 97 + 63 + 88]]\n[[var ninth_side = 402 - sum_sides]]\n[[question l = ['ninth_side']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-110-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 385 = (7 * o)]]\n[[question b = ['o']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular heptagon (7-sided polygon) has a perimeter of 385m. What is the length of each side?",
+      "new symbolic struct": "[[var perimeter = 385]]\n[[var side_count = 7]]\n[[var side_length = perimeter / side_count]]\n[[question length = ['side_length']]]",
+      "answer": "55",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-111-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 358 = ((((((l + 89) + 2) + 10) + 48) + 94) + 59)]]\n[[question b = ['l']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "The total perimeter of a polygon is 358 meters. The lengths of five of its sides are 89 meters, 2 meters, 10 meters, 48 meters, and 94 meters respectively, and another side measures 59 meters. What is the length of the remaining side?",
+      "new symbolic struct": "[[var total = 89 + 2 + 10 + 48 + 94 + 59]]\n[[var remaining = 358 - total]]\n[[question r = ['remaining']]]",
+      "answer": "56",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-114-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 496 = (8 * u)]]\n[[question k = ['u']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "An octagon has a equal sides and its total perimeter is 496m. What is the length of each side?",
+      "new symbolic struct": "[[var n = 496 / 8]]\n[[question m = ['n']]]",
+      "answer": "62",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-115-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 800 = (8 * b)]]\n[[question p = ['b']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular octagon has a perimeter of 800m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 800 / 8]]\n[[question t = ['s']]]",
+      "answer": "100",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-116-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 702 = (9 * z)]]\n[[question v = ['z']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular nonagon has a certain side length. If the perimeter of the nonagon is 702 m, what is the length of one side?",
+      "new symbolic struct": "[[var n = 702 / 9]]\n[[question s = ['n']]]",
+      "answer": "78",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-117-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 855 = (9 * x)]]\n[[question w = ['x']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular nonagon has a perimeter of 855cm. What is the length of one side?",
+      "new symbolic struct": "[[var a = 855 / 9]]\n[[question b = ['a']]]",
+      "answer": "95",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-118-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 504 = (7 * w)]]\n[[question g = ['w']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "If a regular heptagon has a perimeter of 504 meters, find the length of its side.",
+      "new symbolic struct": "[[var s = 504 / 7]]\n[[question h = ['s']]]",
+      "answer": "72",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-120-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 657 = (9 * k)]]\n[[question w = ['k']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular nonagon has a perimeter of 657m. What is the length of each side?",
+      "new symbolic struct": "[[var a = 657 / 9]]\n[[question b = ['a']]]",
+      "answer": "73",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-122-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 48 = (8 * c)]]\n[[question x = ['c']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "Given a regular octagon where the total perimeter is 48 cm, what is the length of each side?",
+      "new symbolic struct": "[[var s = 48 / 8]]\n[[question t = ['s']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-125-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 399 = ((((((((28 + 37) + 51) + u) + 84) + 54) + 31) + 94) + 12)]]\n[[question w = ['u']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A polygon has eight sides with lengths: 28m, 37m, 51m, 84m, 54m, 31m, 94m, and 12m. If the total perimeter of the polygon is 399m, what is the length of the remaining unknown side?",
+      "new symbolic struct": "[[var t = 28 + 37 + 51 + 84 + 54 + 31 + 94 + 12]]\n[[var u = 399 - t]]\n[[question s = ['u']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-128-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 342 = (9 * g)]]\n[[question p = ['g']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular nonagon has a perimeter of 342m. What is the length of one side?",
+      "new symbolic struct": "[[var A = 342 / 9]]\n[[question B = ['A']]]",
+      "answer": "38",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-130-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 330 = (((((((7 + 59) + u) + 49) + 38) + 53) + 21) + 34)]]\n[[question r = ['u']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "In a polygon with 8 sides, 7 of the side lengths are given as follows: 7 m, 59 m, 49 m, 38 m, 53 m, 21 m, and 34 m. Given that the total perimeter of the polygon is 330 m, what is the length of the eighth side?",
+      "new symbolic struct": "[[var s = 7 + 59 + 49 + 38 + 53 + 21 + 34]]\n[[var t = 330]]\n[[question e = ['t - s']]]",
+      "answer": "69",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-131-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 682 = (((((((((88 + w) + 96) + 74) + 52) + 45) + 74) + 85) + 85) + 43)]]\n[[question i = ['w']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A decagon has side lengths of 88m, 96m, 74m, 52m, 45m, 74m, 85m, 85m, and 43m. What is the length of the tenth side if the total perimeter of the decagon is 682m?",
+      "new symbolic struct": "[[var p = 88 + 96 + 74 + 52 + 45 + 74 + 85 + 85 + 43 + x]]\n[[var 682 = p]]\n[[question t10 = ['x']]]",
+      "answer": "40",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-134-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 161 = (7 * o)]]\n[[question l = ['o']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular septagon (7-sided polygon) has a constant perimeter of 161m. If all sides are equal, what is the length of each side?",
+      "new symbolic struct": "[[var p = 161 / 7]]\n[[question s = ['p']]]",
+      "answer": "23",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-135-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 324 = (6 * b)]]\n[[question a = ['b']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has a perimeter of 324m. What is the length of each side?",
+      "new symbolic struct": "[[var side_length = 324 / 6]]\n[[question s = ['side_length']]]",
+      "answer": "54",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-136-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 385 = (5 * t)]]\n[[question i = ['t']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular pentagon's perimeter is 385 meters. What is the length of one side?",
+      "new symbolic struct": "[[var a = 385 / 5]]\n[[question s = ['a']]]",
+      "answer": "77",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-139-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 245 = (7 * p)]]\n[[question t = ['p']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular septagon (7-sided polygon) has a perimeter of 245m. What is the length of each side?",
+      "new symbolic struct": "[[var septagon_perimeter = 245]]\n[[var sides = 7]]\n[[var side_length = septagon_perimeter / sides]]\n[[question s = ['side_length']]]",
+      "answer": "35",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-140-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 25 = (5 * c)]]\n[[question s = ['c']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular pentagon has a perimeter of 25cm. What is the length of one of its sides?",
+      "new symbolic struct": "[[var s = 25 / 5]]\n[[question l = ['s']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-141-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 380 = (((((9 + 49) + 100) + t) + 73) + 84)]]\n[[question q = ['t']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has five of its sides measuring 9m, 49m, 100m, 73m, and 84m respectively. If the total perimeter of the hexagon is 380m, find the length of the sixth side.",
+      "new symbolic struct": "[[var sum_sides = 9 + 49 + 100 + 73 + 84]]\n[[var side_six = 380 - sum_sides]]\n[[question g = ['side_six']]]",
+      "answer": "65",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-143-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 419 = (((((((23 + 67) + 57) + 94) + x) + 93) + 18) + 30)]]\n[[question c = ['x']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "An irregular polygon has seven sides with lengths of 23m, 67m, 57m, 94m, 93m, 18m and 30m respectively. If the total perimeter of the polygon is 419m, what is the length of the missing side?",
+      "new symbolic struct": "[[var t = 23 + 67 + 57 + 94 + 93 + 18 + 30]]\n[[var u = 419 - t ]]\n[[question v = ['u']]]",
+      "answer": "37",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-144-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 287 = (7 * f)]]\n[[question k = ['f']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular heptagon (7-sided polygon) has a perimeter of 287m. What is the length of each side?",
+      "new symbolic struct": "[[var p = 287 / 7]]\n[[question q = ['p']]]",
+      "answer": "41",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-146-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 55 = (5 * n)]]\n[[question s = ['n']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular pentagon has a perimeter of 55m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 55 / 5]]\n[[question t = ['s']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-149-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 657 = (9 * f)]]\n[[question h = ['f']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular nonagon, which is a nine-sided polygon, has equal side lengths. If the entire perimeter of the nonagon is 657 meters, how long is each side?",
+      "new symbolic struct": "[[var n = 657 / 9]]\n[[question s = ['n']]]",
+      "answer": "73",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-151-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 78 = (6 * a)]]\n[[question y = ['a']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular hexagon has a perimeter of 78m. What is the length of each side?",
+      "new symbolic struct": "[[var h = 78 / 6]]\n[[question t = ['h']]]",
+      "answer": "13",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-153-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 600 = (8 * n)]]\n[[question u = ['n']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular octagon has a total perimeter of 600 meters. What is the length of one of its sides?",
+      "new symbolic struct": "[[var n = 600 / 8]]\n[[question s = ['n']]]",
+      "answer": "75",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-154-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 356 = (((((((39 + 26) + 47) + 52) + 66) + 17) + 34) + a)]]\n[[question b = ['a']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A polygon has side lengths of 39m, 26m, 47m, 52m, 66m, 17m, and 34m. If the overall perimeter of the polygon is 356m, what is the length of the last side?",
+      "new symbolic struct": "[[var t = 39 + 26 + 47 + 52 + 66 + 17 + 34]]\n[[var p = 356]]\n[[var l = p - t]]\n[[question a = ['l']]]",
+      "answer": "75",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-155-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 930 = (10 * l)]]\n[[question y = ['l']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular decagon has a perimeter of 930 cm. What is the length of each side?",
+      "new symbolic struct": "[[var length = 930 / 10]]\n[[question lengthVariable = ['length']]]",
+      "answer": "93",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-156-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 359 = (((((((24 + 25) + 75) + 38) + 18) + x) + 42) + 61)]]\n[[question e = ['x']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A decagon has eight of its sides measuring 24m, 25m, 75m, 38m, 18m, 42m and 61m. If the total perimeter of the decagon is 359m, can you find the length of one of the unknown sides?",
+      "new symbolic struct": "[[var s_total = 24 + 25 + 75 + 38 + 18 + 42 + 61]]\n[[var unknown_side = 359 - s_total]]\n[[question s = ['unknown_side']]]",
+      "answer": "76",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-157-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 368 = ((((((((52 + 52) + 44) + 53) + c) + 41) + 91) + 25) + 2)]]\n[[question w = ['c']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A nonagon has side lengths of 52m, 52m, 44m, 53m, 41m, 91m, 25m, and 2m and the total perimeter of the nonagon is 368m. What is the length of the final side?",
+      "new symbolic struct": "[[var s = 52 + 52 + 44 + 53 + 41 + 91 + 25 + 2]]\n[[var p = 368]]\n[[var a = p - s]]\n[[question l = ['a']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-158-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 592 = (8 * a)]]\n[[question g = ['a']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular octagon has a perimeter of 592cm. What is the length of one side?",
+      "new symbolic struct": "[[var s = 592 / 8]]\n[[question t = ['s']]]",
+      "answer": "74",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-159-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 245 = (7 * g)]]\n[[question s = ['g']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular heptagon has a perimeter of 245m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 245/7]]\n[[question t = ['s']]]",
+      "answer": "35",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-160-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 140 = (10 * c)]]\n[[question p = ['c']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A regular decagon has a perimeter of 140m. What is the length of each side?",
+      "new symbolic struct": "[[var s = 140 / 10]]\n[[question t = ['s']]]",
+      "answer": "14",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-168-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 655 = ((((((((((44 + 5) + 96) + 78) + 49) + 84) + 72) + 74) + 21) + w) + 39)]]\n[[question c = ['w']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A polygon has side lengths of 44cm, 5cm, 96cm, 78cm, 49cm, 84cm, 72cm, 74cm, 21cm, and 39cm. If the total perimeter of the polygon is 655cm. What is the length of its 11th side?",
+      "new symbolic struct": "[[var total = 44 + 5 + 96 + 78 + 49 + 84 + 72 + 74 + 21 + 39]]\n[[var unknown_side = 655 - total]]\n[[question eleventh_side = ['unknown_side']]]",
+      "answer": "93",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-169-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 265 = (((((69 + y) + 81) + 34) + 35) + 38)]]\n[[question w = ['y']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A polygon has sides that measure 69m, 81m, 34m, 35m, and 38m respectively. If the polygon's total perimeter is 265m, what is the length of the remaining side?",
+      "new symbolic struct": "[[var t1 = 69 + 81 + 34 + 35 + 38]]\n[[var r = 265 - t1]]\n[[question g = ['r']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-polygon-170-0",
+      "standard": "3.MD.D.8-polygon",
+      "symbolic-struct": "[[var 234 = ((((22 + 14) + 93) + 75) + z)]]\n[[question m = ['z']]]\nmath concept: create a math problem involving perimeters of polygons including finding the perimeter given the side lengths, or finding an unknown side length",
+      "statement": "A pentagon has four of its side lengths as 22m, 14m, 93m, and 75m respectively. If its total perimeter is 234m, find the length of the fifth side.",
+      "new symbolic struct": "[[var e = 234 - (22 + 14 + 93 + 75)]]\n[[question fifth_side = ['e']]]",
+      "answer": "30",
+      "tag": "original problem"
+    }
+  ]
+]

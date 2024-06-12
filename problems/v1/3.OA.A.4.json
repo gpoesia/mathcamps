@@ -1,0 +1,1102 @@
+[
+  [
+    {
+      "id": "3.OA.A.4-0-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 15 = (5 * n)]]\n[[question j = ['n']]]\ntheme: Castle",
+      "statement": "A king has decided to build a number of castles in his kingdom. If each castle requires 5 builders and there are 15 builders in total, how many castles are being built?",
+      "new symbolic struct": "[[var 15 = (5 * num_castles)]]\n[[question result = ['num_castles']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-1-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 11 = (77 / s)]]\n[[question l = ['s']]]\ntheme: Toothpaste",
+      "statement": "In a mega-sized tube of toothpaste, there are 77 grams of toothpaste. If each usage consumes 11 grams of toothpaste, how many usages can you get from this tube?",
+      "new symbolic struct": "[[var 77 = (11 * num_usages)]]\n[[question result = ['num_usages']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-3-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 48 = (8 * e)]]\n[[question o = ['e']]]\ntheme: Watch",
+      "statement": "A watch manufacturer can produce 8 watches every hour. After working for some hours, they have manufactured a total of 48 watches. How many hours did they work?",
+      "new symbolic struct": "[[var 48 = (8 * num_hours_worked)]]\n[[question result = ['num_hours_worked']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-4-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 3 = (3 / i)]]\n[[question a = ['i']]]\ntheme: Cat",
+      "statement": "A cat mother had 3 kittens. If every kitten has the same number of toy mice, and there are only 3 toy mice available, how many toy mice does each kitten have?",
+      "new symbolic struct": "[[var 3 = (3 * num_toys_per_kitten)]]\n[[question result = ['num_toys_per_kitten']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-5-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 2 = (12 / h)]]\n[[question o = ['h']]]\ntheme: Tiger",
+      "statement": "A hungry tiger catches 12 fishes from a river during day time. However, it eats 2 fishes per hour. How many hours will it take for the tiger to finish all the fishes?",
+      "new symbolic struct": "[[var 12 = (2 * num_hours)]]\n[[question result = ['num_hours']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-6-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 56 = (b * 8)]]\n[[question y = ['b']]]\ntheme: Shirt",
+      "statement": "A T-shirt company plans to print new shirts. Each design requires 8 shirts to print the first samples. The company just finished printing 56 shirts for this purpose. How many designs does the company plan to print?",
+      "new symbolic struct": "[[var 56 = (8 * num_designs)]]\n[[question result = ['num_designs']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-9-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 35 = (7 * p)]]\n[[question e = ['p']]]\ntheme: Scooter",
+      "statement": "A scooter rental shop charges each rider 7 dollars per hour. If one rider spends 35 dollars, how many hours did they ride the scooter?",
+      "new symbolic struct": "[[var 35 = (7 * hours_ridden)]]\n[[question result = ['hours_ridden']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-10-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 8 = (32 / w)]]\n[[question a = ['w']]]\ntheme: Car",
+      "statement": "A car travels at a consistent speed and takes 8 hours to complete the trip. If the total distance traveled was 32 miles, what was the speed of the car in miles per hour?",
+      "new symbolic struct": "[[var speed_car_mph = (32 / 8)]]\n[[question result = ['speed_car_mph']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-12-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 77 = (u * 11)]]\n[[question e = ['u']]]\ntheme: Bracelet",
+      "statement": "A jewelry store sells bracelets in collections. They have 77 bracelets in one collection, and each collection consists of identical bracelets in distinct multiples of 11. How many bracelets are in each multiple?",
+      "new symbolic struct": "[[var 77 = (11 * num_bracelets_in_each_multiple)]]\n[[question result = ['num_bracelets_in_each_multiple']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-13-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 14 = (2 * h)]]\n[[question w = ['h']]]\ntheme: Tent",
+      "statement": "In a camping trip, the vertical height of a tent is half of its diagonal length. If the diagonal length of the tent is 14 feet, what is the vertical height of the tent?",
+      "new symbolic struct": "[[var 14 = (2 * vertical_height)]]\n[[question result = ['vertical_height']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-15-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 22 = (11 * b)]]\n[[question c = ['b']]]\ntheme: Hot chocolate",
+      "statement": "A caf\u00e9 sells hot chocolate. Each cup of hot chocolate contains 11 marshmallows. If a customer finds 22 marshmallows in their hot chocolate, how many cups of hot chocolate did they purchase?",
+      "new symbolic struct": "[[var 22 = (11 * num_cups_of_hot_chocolate)]]\n[[question result = ['num_cups_of_hot_chocolate']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-17-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 11 = (d / 4)]]\n[[question a = ['d']]]\ntheme: Tomato",
+      "statement": "A farmer has a unique breed of tomatoes. When he harvests them, he realizes that the total weight (in kilograms) of the tomatoes, divided equally into 4, gives 11 kilograms per group. How much is the total weight of the tomatoes?",
+      "new symbolic struct": "[[var 11 = total_weight_of_tomatoes / 4]]\n[[question result = ['total_weight_of_tomatoes']]]",
+      "answer": "44",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-18-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 5 = (45 / v)]]\n[[question m = ['v']]]\ntheme: Ice skates",
+      "statement": "Sarah has 45 pairs of laces for her ice skates. If she uses the same amount of laces for each pair of ice skates, and that amount is 5, how many pairs of ice skates does Sarah have?",
+      "new symbolic struct": "[[var 45 = (5 * num_pairs_ice_skates)]]\n[[question result = ['num_pairs_ice_skates']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-19-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 3 = (y / 2)]]\n[[question a = ['y']]]\ntheme: Wind",
+      "statement": "On a breezeless day, a wind turbine rotates at half of its speed compared to a windy day. If the wind turbine rotates at 3 revolutions per minute on a breezeless day, how many revolutions per minute does it make on a windy day?",
+      "new symbolic struct": "[[var 3 = (half_speed / 2)]]\n[[question result = ['half_speed']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-20-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 15 = (5 * f)]]\n[[question w = ['f']]]\ntheme: Roller skates",
+      "statement": "In a roller skate shop, a customer can rent roller skates for a few hours. For each hour, the charge is 5 dollars. If the total charge was 15 dollars, for how many hours did the customer rent the roller skates?",
+      "new symbolic struct": "[[var 15 = (5 * num_hours_rented)]]\n[[question result = ['num_hours_rented']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-21-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 12 = (108 / u)]]\n[[question b = ['u']]]\ntheme: Tomato",
+      "statement": "Marie grew a truly bountiful crop of tomatoes this year, yielding 108 tomatoes. If she managed to pack the same number of tomatoes into each box and ended up with 12 boxes, how many tomatoes did each box contain?",
+      "new symbolic struct": "[[var 108 = (num_tomatoes_per_box * 12)]]\n[[question result = ['num_tomatoes_per_box']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-22-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 21 = (7 * j)]]\n[[question i = ['j']]]\ntheme: Beach ball",
+      "statement": "On a sunny beach day, a group of children starts a fun game. Each child gets to throw a beach ball 7 times in a row. If there have been 21 beach ball throws in total, how many children are there?",
+      "new symbolic struct": "[[var 21 = (7 * num_children)]]\n[[question result = ['num_children']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-24-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 4 = (q / 1)]]\n[[question y = ['q']]]\ntheme: Mermaid",
+      "statement": "A mermaid finds a magical clam that generates pearls. The clam can generate 4 pearls every day. The mermaid wants to know how many pearls she will get after 1 day, how many pearls will she have?",
+      "new symbolic struct": "[[var pearls_per_day = 4]]\n[[question result = ['pearls_per_day']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-25-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 1 = (4 / t)]]\n[[question j = ['t']]]\ntheme: Party",
+      "statement": "There are 4 liters of juice available at a party. Each guest at the party had an equal share of the juice and each got 1 litre. How many guests attended the party?",
+      "new symbolic struct": "[[var 1 = (4 / num_guests)]]\n[[question result = ['num_guests']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-26-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 40 = (5 * d)]]\n[[question z = ['d']]]\ntheme: Orange",
+      "statement": "There are 40 oranges in several boxes. If each box contains 5 oranges, how many boxes are there?",
+      "new symbolic struct": "[[var 40 = (5 * num_boxes)]]\n[[question result = ['num_boxes']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-27-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 77 = (7 * b)]]\n[[question x = ['b']]]\ntheme: Jungle gym",
+      "statement": "A jungle gym has different sections. A total of 77 children are able to play on the gym at one time due to safety restrictions. If each section allows for 7 children to play at once, how many sections does the jungle gym have?",
+      "new symbolic struct": "[[var 77 = (7 * num_sections)]]\n[[question result = ['num_sections']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-30-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 12 = (u * 6)]]\n[[question y = ['u']]]\ntheme: Bear",
+      "statement": "In a national park, rangers found that there are 12 bear footprints. If each bear has a total of 6 footprints, how many bears passed through the park?",
+      "new symbolic struct": "[[var 12 = (6 * num_bears)]]\n[[question result = ['num_bears']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-32-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 2 = (24 / n)]]\n[[question o = ['n']]]\ntheme: Sock",
+      "statement": "Lisa has a laundry basket full of socks. She has 24 socks in total, and all the socks are paired. If each pair contains 2 socks, how many pairs of socks does Lisa have?",
+      "new symbolic struct": "[[var 24 = (2 * num_pairs)]]\n[[question result = ['num_pairs']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-34-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 56 = (7 * f)]]\n[[question e = ['f']]]\ntheme: Toothpaste",
+      "statement": "In a supermarket, there are 56 tubes of toothpaste on the shelf. If there are 7 tubes of toothpaste for each different flavor, how many different flavors are there?",
+      "new symbolic struct": "[[var 56 = (7 * num_flavors)]]\n[[question result = ['num_flavors']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-35-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 60 = (d * 5)]]\n[[question a = ['d']]]\ntheme: Camera",
+      "statement": "A photographer took 60 pictures using a newly designed camera. If each developed photo roll from the camera can hold up to 5 pictures, how many photo rolls did he use?",
+      "new symbolic struct": "[[var 60 = (5 * num_photo_rolls)]]\n[[question result = ['num_photo_rolls']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-36-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 90 = (a * 9)]]\n[[question k = ['a']]]\ntheme: Dolphin",
+      "statement": "In a particular area of the ocean, there are 90 dolphins. If each pod consists of 9 dolphins, how many pods are there?",
+      "new symbolic struct": "[[var 90 = (9 * num_pods)]]\n[[question result = ['num_pods']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-37-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 9 = (18 / s)]]\n[[question n = ['s']]]\ntheme: Mermaid",
+      "statement": "In a community of mermaids, the coral gardens need care and maintenance. It takes 18 hours for a group of mermaids to clean the coral garden. If each mermaid worked for 9 hours, how many mermaids were in the group?",
+      "new symbolic struct": "[[var 18 = (9 * num_mermaids)]]\n[[question result = ['num_mermaids']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-38-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 3 = (v / 1)]]\n[[question z = ['v']]]\ntheme: TV",
+      "statement": "A father wants to set a limit on his son's screen time. He measures the daily television (TV) viewing time in hours. If he sets a limit of 3 hours per day, then how many hours will his son get to watch TV in one day?",
+      "new symbolic struct": "[[var 3 = daily_TV_time]]\n[[question result = ['daily_TV_time']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-39-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 24 = (s * 12)]]\n[[question n = ['s']]]\ntheme: Slide",
+      "statement": "At the children's park, there is a long slide which is 24 feet in length. If one segment of the slide is equal to 12 feet, how many segments are there in total on the slide?",
+      "new symbolic struct": "[[var 24 = (12 * num_segments)]]\n[[question result = ['num_segments']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-40-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 6 = (g * 3)]]\n[[question x = ['g']]]\ntheme: Strawberry",
+      "statement": "In a grocery store, every batch of strawberries has the same number of strawberries. If three batches contain a total of 6 strawberries, how many strawberries are there in one batch?",
+      "new symbolic struct": "[[var 6 = (num_strawberries_per_batch * 3)]]\n[[question result = ['num_strawberries_per_batch']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-41-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 8 = (1 * a)]]\n[[question z = ['a']]]\ntheme: Toy car",
+      "statement": "A toy car factory produces a certain constant number of cars in 1 hour. If the factory produces 8 cars in one hour, what is this production rate constant?",
+      "new symbolic struct": "[[var 8 = (car_production_rate * 1)]]\n[[question result = ['car_production_rate']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-42-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 10 = (50 / y)]]\n[[question p = ['y']]]\ntheme: Watch",
+      "statement": "A watch store has 50 watches in stock, and they are divided equally into some display cases. If each display case contains 10 watches, how many display cases are there in the store?",
+      "new symbolic struct": "[[var 10 = (50 / num_display_cases)]]\n[[question result = ['num_display_cases']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-44-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 2 = (2 * u)]]\n[[question x = ['u']]]\ntheme: Doll",
+      "statement": "Linda has a collection of dolls. She noticed that if she doubles the quantity of one specific model, she would have 2 dolls of that model. How many dolls of that model does she currently have?",
+      "new symbolic struct": "[[var 2 = (2 * num_dolls_of_model)]]\n[[question result = ['num_dolls_of_model']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-45-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 30 = (5 * w)]]\n[[question t = ['w']]]\ntheme: Castle",
+      "statement": "In a medieval castle, a soldier can secure 5 rooms every hour. He has secured 30 rooms in total. How many hours did the soldier work to secure all these rooms?",
+      "new symbolic struct": "[[var 30 = (5 * hours_worked)]]\n[[question result = ['hours_worked']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-48-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 11 = (n / 9)]]\n[[question d = ['n']]]\ntheme: Puzzle",
+      "statement": "A puzzle consists of several pieces. If you divide the total number of pieces by 9, it gives you 11. How many pieces are there in the puzzle?",
+      "new symbolic struct": "[[var 11 = (total_pieces / 9)]]\n[[question result = ['total_pieces']]]",
+      "answer": "99",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-49-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 35 = (7 * v)]]\n[[question k = ['v']]]\ntheme: Blanket",
+      "statement": "A blanket making company can make 35 blankets in a week. If they make the same number of blankets every day, how many blankets do they make in a day?",
+      "new symbolic struct": "[[var 35 = (num_blankets_per_day * 7)]]\n[[question result = ['num_blankets_per_day']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-50-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 2 = (i / 3)]]\n[[question t = ['i']]]\ntheme: Pencil",
+      "statement": "A student has a total of 2 packs of pencils. Each pack contains 3 pencils. How many pencils does the student have in total?",
+      "new symbolic struct": "[[var total_pencils = (2 * 3)]]\n[[question result = ['total_pencils']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-51-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 5 = (45 / c)]]\n[[question h = ['c']]]\ntheme: Juice",
+      "statement": "In a juice bar, a fruit section has 45 liters of freshly squeezed orange juice. If each serving of juice requires the same amount in liters, and the quantity is such that it yields 5 servings, what is the quantity in liters of each serving?",
+      "new symbolic struct": "[[var quantity = (45 / 5)]]\n[[question result = ['quantity']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-52-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 24 = (12 * f)]]\n[[question a = ['f']]]\ntheme: Pants",
+      "statement": "A clothing store owner has 24 pants in stock. If each box of pants he ordered contains 12 pants, how many boxes did he order?",
+      "new symbolic struct": "[[var 24 = (12 * num_boxes)]]\n[[question result = ['num_boxes']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-54-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 8 = (h * 8)]]\n[[question u = ['h']]]\ntheme: Bear",
+      "statement": "In a forest, there are bears that stand 8 feet tall each. If the total height of all bears standing together is 8 feet, how many bears are there?",
+      "new symbolic struct": "[[var 8 = (8 * num_bears)]]\n[[question result = ['num_bears']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-55-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 6 = (i / 11)]]\n[[question u = ['i']]]\ntheme: Pillow",
+      "statement": "A pillow manufacturer produces i pillows each day. If this number is divided by 11, the result is 6 pillows. What is the total number of pillows the manufacturer produces each day?",
+      "new symbolic struct": "[[var i = (6 * 11)]]\n[[question result = ['i']]]",
+      "answer": "66",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-56-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 10 = (70 / f)]]\n[[question z = ['f']]]\ntheme: Crayon",
+      "statement": "A warehouse stores 70 crayons and they are distributed equally into multiple boxes. If each box contains 10 crayons, how many boxes are there in the warehouse?",
+      "new symbolic struct": "[[var 10 = (70 / num_boxes)]]\n[[question result = ['num_boxes']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-57-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 10 = (90 / e)]]\n[[question y = ['e']]]\ntheme: Song",
+      "statement": "A song lasts for 90 seconds. If every verse takes exactly the same amount of time and the entire song contains 10 verses, how long does each verse last?",
+      "new symbolic struct": "[[var 90 = (10 * duration_per_verse)]]\n[[question result = ['duration_per_verse']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-58-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 16 = (8 * t)]]\n[[question d = ['t']]]\ntheme: Tree",
+      "statement": "In a forest nursery, each of the seed trays contains 8 tree saplings. If the total number of saplings is 16, how many seed trays are there?",
+      "new symbolic struct": "[[var 8 = (16 / num_seed_trays)]]\n[[question result = ['num_seed_trays']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-59-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 1 = (10 / c)]]\n[[question t = ['c']]]\ntheme: Bracelet",
+      "statement": "In a jewelry store, there are 10 bracelets made by one craftsman. If each craftsman made exactly the same amount of bracelets, and there is 1 bracelet per craftsman displayed in the showroom, how many craftsmen's work is displayed in the showroom?",
+      "new symbolic struct": "[[var 10 = (1 * num_craftsmen)]]\n[[question result = ['num_craftsmen']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-61-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 2 = (12 / s)]]\n[[question l = ['s']]]\ntheme: Giraffe",
+      "statement": "A giraffe spent 2 hours eating leaves. If the giraffe consumes 12 kilograms of leaves in this period, how many kilograms of leaves does the giraffe eat per hour?",
+      "new symbolic struct": "[[var 12 = (2 * leaves_per_hour)]]\n[[question result = ['leaves_per_hour']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-62-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 9 = (36 / j)]]\n[[question p = ['j']]]\ntheme: Bracelet",
+      "statement": "A jewelry maker has a total of 36 beads. They want to create a bracelet which involves 9 beads each. How many bracelets can the jewelry maker create?",
+      "new symbolic struct": "[[var 36 = (9 * num_bracelets)]]\n[[question result = ['num_bracelets']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-63-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 35 = (f * 7)]]\n[[question x = ['f']]]\ntheme: Jungle gym",
+      "statement": "In a jungle gym, there are a certain amount of play sections. Each play section has 7 monkeys playing on it. If there are 35 monkeys in total, how many play sections are there in the jungle gym?",
+      "new symbolic struct": "[[var 35 = (7 * num_play_sections)]]\n[[question result = ['num_play_sections']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-64-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 7 = (56 / b)]]\n[[question v = ['b']]]\ntheme: TV",
+      "statement": "A person watches a 56-hour long TV series. If they watch the same amount of hours each day and they finish watching in 7 days, how many hours do they watch per day?",
+      "new symbolic struct": "[[var 56 = (num_hours_per_day * 7)]]\n[[question result = ['num_hours_per_day']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-66-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 45 = (p * 5)]]\n[[question c = ['p']]]\ntheme: Door",
+      "statement": "In a furniture warehouse, each door panel weighs 5kg. If the total weight of all door panels is 45kg, how many door panels are there in the warehouse?",
+      "new symbolic struct": "[[var 45 = (num_door_panels * 5)]]\n[[question result = ['num_door_panels']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-67-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 9 = (w * 9)]]\n[[question f = ['w']]]\ntheme: Cloud",
+      "statement": "There are 9 clouds in the sky. Each cloud has the exact same weight (w). What is the weight of one cloud if the total weight of all the 9 clouds is 9?",
+      "new symbolic struct": "[[var 9 = (9 * weight_one_cloud)]]\n[[question result = ['weight_one_cloud']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-68-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 3 = (p / 2)]]\n[[question v = ['p']]]\ntheme: Train",
+      "statement": "A train travels at a certain speed. If that speed is halved, it goes at 3 km/hr. What is the original speed of the train in km/hr?",
+      "new symbolic struct": "[[var 3 = (original_speed / 2)]]\n[[question result = ['original_speed']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-69-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 12 = (f * 2)]]\n[[question a = ['f']]]\ntheme: Toy car",
+      "statement": "James has a toy car collection. He noticed that when he counts his collection, he gets a total of 12 cars. If each type of car he has comes in pairs, how many types of toy cars does James have?",
+      "new symbolic struct": "[[var 12 = (2 * num_types_of_cars)]]\n[[question result = ['num_types_of_cars']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-70-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 8 = (j * 2)]]\n[[question a = ['j']]]\ntheme: Boat",
+      "statement": "A sailor has several identical boats. If all of his boats are out in the water, there are 8 boats sailing in total. If each boat comes in pairs, how many pairs of boats does the sailor own?",
+      "new symbolic struct": "[[var 8 = (2 * num_pairs_of_boats)]]\n[[question result = ['num_pairs_of_boats']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-71-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 2 = (6 / v)]]\n[[question j = ['v']]]\ntheme: Tomato",
+      "statement": "A farmer harvested 6 kilograms of tomatoes from his farm. If every basket he uses can carry 2 kilograms of tomatoes, how many baskets does he need to pack all his tomatoes?",
+      "new symbolic struct": "[[var 2 = (6 / num_baskets)]]\n[[question result = ['num_baskets']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-72-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 6 = (q * 1)]]\n[[question c = ['q']]]\ntheme: Police",
+      "statement": "A police officer notices that every car parked in the no-parking zone receives a ticket. If there are 6 cars parked in the no-parking zone and each is given one ticket, how many tickets does the officer distribute?",
+      "new symbolic struct": "[[var 1 = (num_tickets / 6)]]\n[[question result = ['num_tickets']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-73-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 96 = (8 * d)]]\n[[question y = ['d']]]\ntheme: Moon",
+      "statement": "The distance between two points on the moon is 96 miles. If each small sector of the moon covers 8 miles, then how many sectors are there between these two points?",
+      "new symbolic struct": "[[var 96 = (8 * num_sectors)]]\n[[question result = ['num_sectors']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-74-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 24 = (f * 4)]]\n[[question d = ['f']]]\ntheme: Grapes",
+      "statement": "A vineyard worker has been assigned to pick grapes from a certain number of plants. He picks 24 bunches of grapes after picking from 4 plants. How many bunches of grapes does he pick from each plant?",
+      "new symbolic struct": "[[var 24 = (num_bunches_on_each_plant * 4)]]\n[[question result = ['num_bunches_on_each_plant']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-76-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 10 = (120 / r)]]\n[[question n = ['r']]]\ntheme: Window",
+      "statement": "A building has 120 square feet of window space. If each window takes up 10 square feet, how many windows are on the building?",
+      "new symbolic struct": "[[var 10 = (120 / num_windows)]]\n[[question result = ['num_windows']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-77-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 55 = (5 * k)]]\n[[question t = ['k']]]\ntheme: Beach ball",
+      "statement": "At a beach party, there are 55 beach balls available for guests to play with. If each color of beach ball is present in groups of 5, how many different colors of beach balls are there?",
+      "new symbolic struct": "[[var 55 = (5 * num_colors)]]\n[[question result = ['num_colors']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-78-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 90 = (9 * g)]]\n[[question u = ['g']]]\ntheme: Treasure",
+      "statement": "A pirate finds a chest full of gold doubloons. If each doubloon weighs 9 grams and the total weight of all his doubloons is 90 grams, how many doubloons has the pirate found?",
+      "new symbolic struct": "[[var 90 = (9 * num_doubloons)]]\n[[question result = ['num_doubloons']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-79-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 18 = (w * 6)]]\n[[question p = ['w']]]\ntheme: Eraser",
+      "statement": "A student has a total of 18 erasers. If he puts them into 6 equally-sized boxes, how many erasers would each box contain?",
+      "new symbolic struct": "[[var 18 = (num_erasers * 6)]]\n[[question result = ['num_erasers']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-80-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 12 = (36 / l)]]\n[[question u = ['l']]]\ntheme: Bracelet",
+      "statement": "A beader has 36 beads for making bracelets. If each bracelet uses 12 beads, how many bracelets can the beader make?",
+      "new symbolic struct": "[[var 12 = (36 / num_bracelets)]]\n[[question result = ['num_bracelets']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-81-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 7 = (63 / g)]]\n[[question q = ['g']]]\ntheme: Mountain",
+      "statement": "Mountain Peak, the famous company for manufacturing bicycles, produces a new model of bicycles every year. Currently, they have 63 bicycles ready for sale. If each gear of the new model can sell exactly 7 bicycles, how many gears are there in the new model of the bicycle?",
+      "new symbolic struct": "[[var 63 = (7 * num_gears)]]\n[[question result = ['num_gears']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-82-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 8 = (80 / u)]]\n[[question b = ['u']]]\ntheme: House",
+      "statement": "A contractor has 80 windows to fit into houses. If each house requires 8 windows, how many houses can the contractor completely outfit with window fittings?",
+      "new symbolic struct": "[[var 8 = (80 / num_houses)]]\n[[question result = ['num_houses']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-83-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 84 = (12 * a)]]\n[[question i = ['a']]]\ntheme: Compass",
+      "statement": "A compass maker sells 12 compasses each day for a certain number of days. After a while, he has sold a total of 84 compasses. How many days did it take to sell this many compasses?",
+      "new symbolic struct": "[[var 84 = (12 * num_days)]]\n[[question result = ['num_days']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-84-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 3 = (x / 7)]]\n[[question l = ['x']]]\ntheme: Computer",
+      "statement": "A new computer lab at a school has 3 computers per row. If there are 7 rows in total, how many computers are there in the computer lab?",
+      "new symbolic struct": "[[var num_computers = (3 * 7)]]\n[[question result = ['num_computers']]]",
+      "answer": "21",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-85-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 1 = (4 / l)]]\n[[question a = ['l']]]\ntheme: Color",
+      "statement": "A painter has 4 cups of yellow paint. If he uses those 4 cups to paint at a rate of 1 cup per large wall, how many large walls can he paint?",
+      "new symbolic struct": "[[var 4 = (1 * num_large_walls)]]\n[[question result = ['num_large_walls']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-86-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 60 = (6 * v)]]\n[[question m = ['v']]]\ntheme: Lemon",
+      "statement": "In a lemon farm, each tree produces lemons in a consistent way. If 6 trees can produce 60 lemons in total, how many lemons does each tree, on average, produce?",
+      "new symbolic struct": "[[var 60 = (6 * avg_lemons_per_tree)]]\n[[question result = ['avg_lemons_per_tree']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-88-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 1 = (9 / a)]]\n[[question b = ['a']]]\ntheme: Book",
+      "statement": "In a library, there are 9 books that form a complete series. If each book in the series corresponds to 1 complete story, how many stories are in the series?",
+      "new symbolic struct": "[[var 9 = num_books]]\n[[question result = ['num_books']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-90-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 3 = (6 / i)]]\n[[question y = ['i']]]\ntheme: Shirt",
+      "statement": "A clothing factory has 6 yards of fabric to make shirts. Each shirt requires 3 yards of fabric. How many shirts can the factory make?",
+      "new symbolic struct": "[[var 6 = (3 * num_shirts)]]\n[[question result = ['num_shirts']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-91-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 24 = (8 * j)]]\n[[question v = ['j']]]\ntheme: Train",
+      "statement": "There are 24 train compartments in a train. Each train car consists of 8 compartments. How many cars does the train have?",
+      "new symbolic struct": "[[var 24 = (8 * num_cars)]]\n[[question result = ['num_cars']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-92-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 32 = (r * 8)]]\n[[question k = ['r']]]\ntheme: Pants",
+      "statement": "A clothing factory produces pants and is currently working on 32 pairs. Each rack in the factory can hold 8 pairs of pants. How many racks are being used to hold all the pants?",
+      "new symbolic struct": "[[var 32 = (8 * num_racks)]]\n[[question result = ['num_racks']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-93-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 36 = (s * 9)]]\n[[question n = ['s']]]\ntheme: Window",
+      "statement": "A contractor is designing a large window for a client. The window is to be separated into smaller square panes. If each square pane has 9 square inches of glass and total square inches of glass used for the large window is 36, what is the number of square panes in the window?",
+      "new symbolic struct": "[[var 9 = (36 / num_square_panes)]]\n[[question result = ['num_square_panes']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-94-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 72 = (p * 12)]]\n[[question u = ['p']]]\ntheme: Blanket",
+      "statement": "Granny loves to knit blankets for her grandchildren. She uses 12 balls of yarn for each blanket. If Granny has 72 balls of yarn, how many blankets can she knit?",
+      "new symbolic struct": "[[var 12 = (72 / num_blankets)]]\n[[question result = ['num_blankets']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-95-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 33 = (y * 3)]]\n[[question k = ['y']]]\ntheme: Milk",
+      "statement": "A dairy farm produces milk packets. Each day, it produces 3 times the amount of milk packets it produced on the previous day. If on the third day, it produced 33 milk packets, how many milk packets did it produce on the second day?",
+      "new symbolic struct": "[[var 33 = (3 * second_day_production)]]\n[[question result = ['second_day_production']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-96-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 70 = (z * 10)]]\n[[question m = ['z']]]\ntheme: Helicopter",
+      "statement": "A helicopter company has a policy of ensuring that each of their helicopters gets 10 hours of maintenance for every time it's used. If a particular helicopter has had 70 hours of maintenance, how many times has it been used?",
+      "new symbolic struct": "[[var 70 = (10 * num_times_used)]]\n[[question result = ['num_times_used']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-97-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 2 = (6 / d)]]\n[[question o = ['d']]]\ntheme: Elephant",
+      "statement": "There are 6 elephants in the zoo and they are divided into different habitats. If each habitat has 2 elephants, how many habitats are there in the zoo?",
+      "new symbolic struct": "[[var 6 = (2 * num_habitats)]]\n[[question result = ['num_habitats']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-99-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 60 = (p * 5)]]\n[[question y = ['p']]]\ntheme: Dolphin",
+      "statement": "A dolphin can jump 5 times in a single minute. If a dolphin continuously jumps for 'p' minutes, it can jump 60 times. How many minutes did the dolphin jump for?",
+      "new symbolic struct": "[[var 60 = (5 * p)]]\n[[question result = ['p']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-103-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 63 = (h * 7)]]\n[[question p = ['h']]]\ntheme: Tree",
+      "statement": "In a large forest, there are groups of trees. Each group has 7 trees. If there are 63 trees in total, how many groups of trees are there in the forest?",
+      "new symbolic struct": "[[var 63 = (7 * num_groups)]]\n[[question result = ['num_groups']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-104-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 96 = (12 * a)]]\n[[question g = ['a']]]\ntheme: Hat",
+      "statement": "A hat shop has created 96 new hats to sell. If each style has exactly 12 of the same hat, how many styles does the hat shop have?",
+      "new symbolic struct": "[[var 96 = (12 * num_styles)]]\n[[question result = ['num_styles']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-105-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 24 = (8 * q)]]\n[[question z = ['q']]]\ntheme: Rain",
+      "statement": "In a certain month, it rained consistently every couple of days. If it rained 24 days in total and each period of continuous rain lasted for 8 days, how many periods of rain were there in that month?",
+      "new symbolic struct": "[[var 24 = (8 * num_periods_of_rain)]]\n[[question result = ['num_periods_of_rain']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-106-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 48 = (j * 6)]]\n[[question b = ['j']]]\ntheme: Bottle",
+      "statement": "In a factory, 6 bottles are manufactured in a single cycle. If the factory has manufactured 48 bottles today, how many cycles of production have been performed?",
+      "new symbolic struct": "[[var 48 = (6 * num_cycles)]]\n[[question result = ['num_cycles']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-107-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 10 = (110 / o)]]\n[[question k = ['o']]]\ntheme: Song",
+      "statement": "At a live concert, a singer wants to sing 110 verses to entertain his fans. He decides to divide the verses evenly among 10 songs. How many verses will there be in each song?",
+      "new symbolic struct": "[[var 110 = (num_verses_per_song * 10)]]\n[[question result = ['num_verses_per_song']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-109-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 2 = (16 / w)]]\n[[question g = ['w']]]\ntheme: Camera",
+      "statement": "In a photography studio, there are 16 cameras that are shared by photographers. If each photographer gets 2 cameras, how many photographers are there in the studio?",
+      "new symbolic struct": "[[var 16 = (2 * num_photographers)]]\n[[question result = ['num_photographers']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-110-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 9 = (99 / z)]]\n[[question g = ['z']]]\ntheme: Penguin",
+      "statement": "At a zoo, a group of 99 penguins need to be separated into different areas so each one has 9 penguins. How many areas are needed to separate all the penguins evenly?",
+      "new symbolic struct": "[[var 99 = (9 * num_areas)]]\n[[question result = ['num_areas']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-111-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 3 = (9 / e)]]\n[[question d = ['e']]]\ntheme: Piano",
+      "statement": "A Piano teacher sets a task to practice specific pieces of music. Each piece takes 3 hours to practice thoroughly. If her student has 9 hours for practice, how many pieces can the student practice thoroughly?",
+      "new symbolic struct": "[[var 9 = (3 * num_pieces_practice)]]\n[[question result = ['num_pieces_practice']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-113-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 3 = (k / 6)]]\n[[question i = ['k']]]\ntheme: Pillow",
+      "statement": "In a pillow factory, 3 pillows can be stitched from a certain amount of fabric. If the fabric used is divided by 6, that results in the number of pillows that can be made from it. How much fabric is used to make these 3 pillows?",
+      "new symbolic struct": "[[var 3 = (fabric_amount / 6)]]\n[[question result = ['fabric_amount']]]",
+      "answer": "18",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-114-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 9 = (j / 9)]]\n[[question v = ['j']]]\ntheme: Pen",
+      "statement": "A stationery store sells pens in packs. If each pack contains 9 pens, and there are exactly 9 packs, how many pens are in the store?",
+      "new symbolic struct": "[[var total_pens = (num_pens_per_pack * num_packs)]]\n[[var num_pens_per_pack = 9]]\n[[var num_packs = 9]]\n[[question result = ['total_pens']]]",
+      "answer": "81",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-115-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 4 = (z / 8)]]\n[[question u = ['z']]]\ntheme: Tiger",
+      "statement": "A tiger has 4 pounds of meat for his meal today. If one serving size is an eighth of a pound, then how many servings are in the tiger's meal?",
+      "new symbolic struct": "[[var 4 = (num_servings * (1/8))]]\n[[question result = ['num_servings']]]",
+      "answer": "32",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-116-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 5 = (l / 1)]]\n[[question t = ['l']]]\ntheme: Balloon",
+      "statement": "At a birthday party, there is a long string of 5 meters that is used for tying the balloons. If each balloon requires 1 meter of string to be tied, how many balloons can be tied with this string?",
+      "new symbolic struct": "[[var 5 = (1 * num_balloons)]]\n[[question result = ['num_balloons']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-117-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 48 = (y * 8)]]\n[[question n = ['y']]]\ntheme: Plane",
+      "statement": "A plane crashed into a deserted island and split into multiple parts. After an investigation, it was found that there were 48 parts in total. If each plane section accounts for 8 parts, how many sections did the plane originally have before the crash?",
+      "new symbolic struct": "[[var 8 = (48 / num_sections)]]\n[[question result = ['num_sections']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-118-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 4 = (40 / x)]]\n[[question l = ['x']]]\ntheme: Strawberry",
+      "statement": "A farmer has a field full of strawberry plants. He collects 40 strawberries and divides them equally among his friends. If each friend is given 4 strawberries, how many friends does the farmer have?",
+      "new symbolic struct": "[[var 40 = (4 * num_friends)]]\n[[question result = ['num_friends']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-119-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 70 = (10 * x)]]\n[[question h = ['x']]]\ntheme: Hot chocolate",
+      "statement": "On a fun fair, a hot chocolate booth sells their beverage for 10 dollars per cup. One day, they manage to earn a total of 70 dollars. How many cups of hot chocolate did they sell?",
+      "new symbolic struct": "[[var 70 = (10 * num_cups)]]\n[[question result = ['num_cups']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-121-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 35 = (p * 5)]]\n[[question u = ['p']]]\ntheme: Ring",
+      "statement": "A jeweler has a certain amount of precious rings. If he sold 5 rings for a total of 35 dollars, how much does each ring cost?",
+      "new symbolic struct": "[[var 35 = (num_rings * cost_per_ring)]]\n[[var 5 = num_rings]]\n[[question result = ['cost_per_ring']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-122-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 60 = (10 * x)]]\n[[question f = ['x']]]\ntheme: Lion",
+      "statement": "There are 60 lions in a national park. If the park authority decides to evenly distribute these lions into different regions such that each region has exactly 10 lions, how many regions would there be?",
+      "new symbolic struct": "[[var 60 = (10 * num_regions)]]\n[[question result = ['num_regions']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-123-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 6 = (d / 5)]]\n[[question a = ['d']]]\ntheme: Jacket",
+      "statement": "For an upcoming clothing sale, a store decides to discount their jackets. After the discount, each jacket costs 6 dollars. If the original price was \"d\" dollars and it's now 1/5th of its original price, what was the original price of the jacket?",
+      "new symbolic struct": "[[var 6 = (d / 5)]]\n[[question result = ['d']]]",
+      "answer": "30",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-124-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 28 = (7 * j)]]\n[[question p = ['j']]]\ntheme: Giraffe",
+      "statement": "In a zoo, each giraffe eats 7 pounds of food each day. If the total amount of food consumed by the giraffes is 28 pounds today, how many giraffes are there in the zoo?",
+      "new symbolic struct": "[[var 28 = (7 * num_giraffes)]]\n[[question result = ['num_giraffes']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-125-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 6 = (30 / v)]]\n[[question k = ['v']]]\ntheme: Starfish",
+      "statement": "In a shallow pool, a group of 30 starfish decided to divide themselves equally to live in different zones of the pool. If each zone contains 6 starfish, how many zones are there in total?",
+      "new symbolic struct": "[[var 30 = (num_zones * 6)]]\n[[question result = ['num_zones']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.OA.A.4-126-0",
+      "standard": "3.OA.A.4",
+      "symbolic-struct": "[[var 8 = (88 / a)]]\n[[question p = ['a']]]\ntheme: Astronaut",
+      "statement": "An astronaut has 88 hours of oxygen in his tank. If he can use this tank for 8 days, how many hours of oxygen does the tank provide each day?",
+      "new symbolic struct": "[[var 88 = (num_hours_per_day * 8)]]\n[[question result = ['num_hours_per_day']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ]
+]

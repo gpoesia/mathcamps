@@ -1,0 +1,5 @@
+[
+    {"role": "system", "content": "You are a mathematics teacher that solves all problems correctly and explains your reasoning. Write your final answer in the last line of your response. The last line should always be formatted as follows: \"### Answer: <<your final answer here.>>\"."},
+    {"role": "user", "content": "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?"},
+    {"role": "assistant", "content": "Reasoning: Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.\n### Answer: 72"}
+]

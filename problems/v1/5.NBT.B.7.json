@@ -1,0 +1,2434 @@
+[
+  [
+    {
+      "id": "5.NBT.B.7-0-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (40.4 - 7.34)]]\n[[question s = ['z']]]\ntheme: Giraffe",
+      "statement": "A full-grown giraffe has an average height of 40.4 feet. If a baby giraffe is 7.34 feet shorter than the full-grown giraffe, then how tall is the baby giraffe?",
+      "new symbolic struct": "[[var b = 40.4 - 7.34]]\n[[question g = ['b']]]",
+      "answer": "33.0600000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-0-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (78 - 7.34)]]\n[[question s = ['z']]]\ntheme: Giraffe",
+      "statement": "Given the previous scenario but this time, let's say that the full-grown giraffe has a different height of 78 feet. If a baby giraffe is still 7.34 feet shorter than this full-grown giraffe, then how tall is the baby giraffe now?",
+      "new symbolic struct": "[[var b2 = 78 - 7.34]]\n[[question g2 = ['b2']]]",
+      "answer": "70.6600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-2-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (59.9 - 39.3)]]\n[[question a = ['j']]]\ntheme: Scooter",
+      "statement": "A scooter was initially priced at $59.9 but is now on sale for $39.3. How much is the discount on the scooter?",
+      "new symbolic struct": "[[var d = 59.9 - 39.3]]\n[[question discount = ['d']]]",
+      "answer": "20.6000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-2-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (59.9 - 39.3)]]\n[[var u = (j * 15.1)]]\n[[question h = ['u']]]\ntheme: Scooter",
+      "statement": "The scooter store decided to multiply the discount you received, $j, by 15.1 to determine how much they'd donate to a local charity based on your purchase. How much money would be donated to the charity as a result of your scooter purchase?",
+      "new symbolic struct": "[[var j = 59.9 - 39.3]]\n[[var m = j * 15.1]]\n[[question donation = ['m']]]",
+      "answer": "311.060000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-2-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (66 - 39.3)]]\n[[question a = ['j']]]\ntheme: Scooter",
+      "statement": "If instead the scooter was initially priced at $66 before being discounted to $39.3, how much would be the discount on the scooter?",
+      "new symbolic struct": "[[var d = 66 - 39.3]]\n[[question discount = ['d']]]",
+      "answer": "26.7000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-3-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var e = (71.36 - 50.0)]]\n[[question p = ['e']]]\ntheme: Slide",
+      "statement": "The length of a slide was initially 71.36 meters. However, due to safety concerns, officials reduced the length by 50.0 meters. What's the new length of the slide?",
+      "new symbolic struct": "[[var h = 71.36 - 50.0]]\n[[question g = ['h']]]",
+      "answer": "21.3600000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-3-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var e = (71.36 - 24)]]\n[[question p = ['e']]]\ntheme: Slide",
+      "statement": "In a different playground, there was also a slide that was initially 71.36 meters long. However, safety concerns caused the officials to reduce the length by 24 meters instead of the original 50.0 meters. What is the new length of this slide?",
+      "new symbolic struct": "[[var j = 71.36 - 24]]\n[[question k = ['j']]]",
+      "answer": "47.3600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-6-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var g = (86.7 + 57.19)]]\n[[question v = ['g']]]\ntheme: Tomato",
+      "statement": "A farmer collects a certain weight of tomatoes from his farm. The first day he collects 86.7 kg and the second day he collects 57.19 kg. What is the total weight of the tomatoes he collected over the two days?",
+      "new symbolic struct": "[[var d1 = 86.7]]\n[[var d2 = 57.19]]\n[[var total = d1 + d2]]\n[[question t = ['total']]]",
+      "answer": "143.890000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-6-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var g = (86.7 + 57.19)]]\n[[var q = (g - 81.0)]]\n[[question l = ['q']]]\ntheme: Tomato",
+      "statement": "The farmer decides to make tomato sauce and uses up 81.0 kg of the tomatoes he collected. After processing those tomatoes into sauce, how much weight in tomatoes does he have left?",
+      "new symbolic struct": "[[var d1 = 86.7]]\n[[var d2 = 57.19]]\n[[var total = d1 + d2]]\n[[var used = 81.0]]\n[[var remaining = total - used]]\n[[question left = ['remaining']]]",
+      "answer": "62.8900000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-6-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var g = (86.7 + 84)]]\n[[question v = ['g']]]\ntheme: Tomato",
+      "statement": "If instead of 57.19 kg, the farmer actually collected 84 kg of tomatoes on the second day, what would be the new total weight of tomatoes he collected over the two days?",
+      "new symbolic struct": "[[var d1 = 86.7]]\n[[var d2 = 84]]\n[[var total = d1 + d2]]\n[[question t = ['total']]]",
+      "answer": "170.700000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-7-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (111.94 / 2.9)]]\n[[question l = ['j']]]\ntheme: Tomato",
+      "statement": "A farmer sold a total of 111.94 kilograms of tomatoes. If each batch he sold weighs roughly 2.9 kilograms, how many batches of tomatoes did he sell?",
+      "new symbolic struct": "[[var b = (111.94 / 2.9)]]\n[[question t = ['b']]]",
+      "answer": "38.6000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-7-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (111.94 / 2.9)]]\n[[var h = (j + 4.8)]]\n[[question k = ['h']]]\ntheme: Tomato",
+      "statement": "Following his earlier sales, the farmer sold an additional 4.8 batches of tomatoes. Including the new sales, how many total batches of tomatoes has the farmer sold now?",
+      "new symbolic struct": "[[var b = (111.94 / 2.9)]]\n[[var t = (b + 4.8)]]\n[[question r = ['t']]]",
+      "answer": "43.4000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-7-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (83 / 2.9)]]\n[[question l = ['j']]]\ntheme: Tomato",
+      "statement": "After recalculating, it turns out the farmer had actually sold 83 kilograms of tomatoes, not 111.94 kilograms, still in batches of 2.9 kilograms each. How many batches of tomatoes did he actually sell?",
+      "new symbolic struct": "[[var b = (83 / 2.9)]]\n[[question t = ['b']]]",
+      "answer": "28.6206896551724",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-8-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (75.0 - 37.5)]]\n[[question n = ['t']]]\ntheme: Skirt",
+      "statement": "A skirt was originally priced at $75.0 but it is now on sale and its new price is $37.5 less than the original price. What is the sale price of the skirt?",
+      "new symbolic struct": "[[var d = 75.0]]\n[[var s = d - 37.5]]\n[[question p = ['s']]]",
+      "answer": "37.5000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-8-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (49 - 37.5)]]\n[[question n = ['t']]]\ntheme: Skirt",
+      "statement": "Instead of the original price being $75.0, assume that the original price of the skirt was $49. How much would the skirt cost after the first discount of $37.5?",
+      "new symbolic struct": "[[var o = 49]]\n[[var s1 = o - 37.5]]\n[[question p1 = ['s1']]]",
+      "answer": "11.5000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-10-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (35.9 + 11.5)]]\n[[question e = ['y']]]\ntheme: Farm",
+      "statement": "On a farm, there are 35.9 acres of wheat fields and 11.5 acres of corn fields. What is the total acreage of wheat and corn fields on the farm?",
+      "new symbolic struct": "[[var a = 35.9]]\n[[var b = 11.5]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "47.4000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-10-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (35.9 + 11.5)]]\n[[var x = (y + 7.16)]]\n[[question r = ['x']]]\ntheme: Farm",
+      "statement": "In addition to the existing wheat and corn fields, the farm has a newly acquired barley field that spans 7.16 acres. What is the total acreage of wheat, corn, and barley fields altogether on the farm now?",
+      "new symbolic struct": "[[var a = 35.9]]\n[[var b = 11.5]]\n[[var d = 7.16]]\n[[var e = a + b + d]]\n[[question total = ['e']]]",
+      "answer": "54.5600000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-10-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (93 + 11.5)]]\n[[question e = ['y']]]\ntheme: Farm",
+      "statement": "Suppose instead of the 35.9 acres of wheat in the original calculation, the farm actually has 93 acres of wheat fields. Taking the updated acreage of wheat fields into account and keeping the 11.5 acres of corn fields the same, what would then be the total acreage of wheat and corn fields on the farm?",
+      "new symbolic struct": "[[var a = 93]]\n[[var b = 11.5]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "104.500000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-12-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var n = (540.38 / 65.9)]]\n[[question h = ['n']]]\ntheme: Water",
+      "statement": "A tank contains 540.38 liters of water, which is divided between 65.9 buckets. Find out how many liters of water is in each bucket?",
+      "new symbolic struct": "[[var u = (540.38 / 65.9)]]\n[[question i = ['u']]]",
+      "answer": "8.20000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-12-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var n = (540.38 / 65.9)]]\n[[var y = (n - 2.4)]]\n[[question x = ['y']]]\ntheme: Water",
+      "statement": "Following the previous problem, after filling each bucket, 2.4 liters of water is lost due to leakage. What would be the revised amount of water in each bucket?",
+      "new symbolic struct": "[[var p = (540.38 / 65.9) - 2.4]]\n[[question b = ['p']]]",
+      "answer": "5.80000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-12-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var n = (540.38 / 33)]]\n[[question h = ['n']]]\ntheme: Water",
+      "statement": "Following the previous problem, suppose that instead of 65.9 buckets the water was divided into 33 buckets. How many liters of water would have been in each bucket under this new arrangement?",
+      "new symbolic struct": "[[var u = (540.38 / 33)]]\n[[question i = ['u']]]",
+      "answer": "16.3751515151515",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-13-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var o = (48.21 * 35.5)]]\n[[question g = ['o']]]\ntheme: TV",
+      "statement": "A TV is sold for $48.21 per month for 35.5 months. What is the total cost of the TV?",
+      "new symbolic struct": "[[var cost = (48.21 * 35.5)]]\n[[question total = ['cost']]]",
+      "answer": "1711.45500000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-13-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var o = (45 * 35.5)]]\n[[question g = ['o']]]\ntheme: TV",
+      "statement": "Suppose the monthly payment for the TV was actually $45 instead of $48.21. Now, how much would the total cost of the TV amount to over the course of 35.5 months?",
+      "new symbolic struct": "[[var new_cost = (45 * 35.5)]]\n[[question total = ['new_cost']]]",
+      "answer": "1597.50000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-14-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (94.83 + 2.63)]]\n[[question n = ['q']]]\ntheme: UFO",
+      "statement": "A UFO was spotted moving at a speed of 94.83 miles per hour, and then it increased its speed by an additional 2.63 miles per hour. What was the new speed of the UFO?",
+      "new symbolic struct": "[[var s = 94.83]]\n[[var a = 2.63]]\n[[var t = (s + a)]]\n[[question u = ['t']]]",
+      "answer": "97.4600000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-14-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (94.83 + 2.63)]]\n[[var y = (q * 52.9)]]\n[[question g = ['y']]]\ntheme: UFO",
+      "statement": "After increasing its speed, the UFO maintained its new speed for 52.9 hours. How many miles did the UFO travel at its new speed?",
+      "new symbolic struct": "[[var s = 94.83]]\n[[var a = 2.63]]\n[[var t = (s + a)]]\n[[var h = 52.9]]\n[[var d = (t * h)]]\n[[question u = ['d']]]",
+      "answer": "5155.63400000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-14-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (94.83 + 72)]]\n[[question n = ['q']]]\ntheme: UFO",
+      "statement": "Suppose that the UFO was originally moving at a speed of 94.83 mph, but then it increased its speed by 72 mph instead of 2.63 mph. What would its new speed be now?",
+      "new symbolic struct": "[[var o = 94.83]]\n[[var p = 72]]\n[[var q = (o + p)]]\n[[question r = ['q']]]",
+      "answer": "166.830000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-15-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (80.48 * 73.9)]]\n[[question n = ['q']]]\ntheme: Monkey",
+      "statement": "If a monkey can swing 80.48 meters in one second and it continues to swing at this speed for 73.9 seconds, how far will the monkey have swung in total?",
+      "new symbolic struct": "[[var d = (80.48 * 73.9)]]\n[[question t = ['d']]]",
+      "answer": "5947.47200000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-15-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (80.48 * 20)]]\n[[question n = ['q']]]\ntheme: Monkey",
+      "statement": "After reviewing its actions, the monkey realizes he only swung for 20 seconds at the speed of 80.48 meters per second before dropping the snack. How far did the monkey swing initially, before dropping its snack?",
+      "new symbolic struct": "[[var d_initial = (80.48 * 20)]]\n[[question t_initial = ['d_initial']]]",
+      "answer": "1609.60000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-17-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (2250.3 / 57.7)]]\n[[question w = ['z']]]\ntheme: Wind",
+      "statement": "A strong wind travels a total of 2250.3 km over a period of 57.7 hours. How many kilometers does the wind cover in each hour?",
+      "new symbolic struct": "[[var v = (2250.3 / 57.7)]]\n[[question w = ['v']]]",
+      "answer": "39.0000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-17-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (2250.3 / 57.7)]]\n[[var s = (64.91 + z)]]\n[[question v = ['s']]]\ntheme: Wind",
+      "statement": "After calculating the speed of the wind, notice that there is a separate current of air pushing in the same direction with a speed of 64.91 km/h. If we add the speed of this current to the speed of the wind calculated earlier, what would be the total speed of the wind now?",
+      "new symbolic struct": "[[var v = (2250.3 / 57.7)]]\n[[var u = 64.91]]\n[[var t = v + u]]\n[[question s = ['t']]]",
+      "answer": "103.910000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-17-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (2250.3 / 96)]]\n[[question w = ['z']]]\ntheme: Wind",
+      "statement": "After re-calculating the data, it turns out the strong wind actually traveled 2250.3 km, but over a period of 96 hours instead of 57.7 hours. How would this change affect the speed of the wind per hour?",
+      "new symbolic struct": "[[var v_new = (2250.3 / 96)]]\n[[question w_new = ['v_new']]]",
+      "answer": "23.4406250000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-18-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var p = (95.34 + 41.6)]]\n[[question g = ['p']]]\ntheme: Penguin",
+      "statement": "A Penguin swam 95.34 kilometers to the east and then swam another 41.6 kilometers in the same direction. What is the total distance that the Penguin swam?",
+      "new symbolic struct": "[[var d1 = 95.34]]\n[[var d2 = 41.6]]\n[[var total = (d1 + d2)]]\n[[question d = ['total']]]",
+      "answer": "136.940000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-18-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var p = (95.34 + 41.6)]]\n[[var x = (p + 97.85)]]\n[[question r = ['x']]]\ntheme: Penguin",
+      "statement": "After swimming 95.34 kilometers to the east and another 41.6 kilometers in the same direction, the Penguin continued its journey and swam an additional 97.85 kilometers. What is the total distance that the Penguin swam?",
+      "new symbolic struct": "[[var d1 = 95.34]]\n[[var d2 = 41.6]]\n[[var d3 = 97.85]]\n[[var total = (d1 + d2 + d3)]]\n[[question d = ['total']]]",
+      "answer": "234.790000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-18-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var p = (12 + 41.6)]]\n[[question g = ['p']]]\ntheme: Penguin",
+      "statement": "Suppose instead of swimming 95.34 kilometers to the east initially, the penguin only swam 12 kilometers before continuing for another 41.6 kilometers in the same direction. How much distance would the penguin have covered in this scenario?",
+      "new symbolic struct": "[[var d1 = 12]]\n[[var d2 = 41.6]]\n[[var total = (d1 + d2)]]\n[[question d = ['total']]]",
+      "answer": "53.6000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-19-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (86.42 + 9.86)]]\n[[question n = ['s']]]\ntheme: Slide",
+      "statement": "A park installs a new slide that is 86.42 feet long. After it is extended by another 9.86 feet, how long is the slide then?",
+      "new symbolic struct": "[[var a = 86.42]]\n[[var b = 9.86]]\n[[var c = (a + b)]]\n[[question x = ['c']]]",
+      "answer": "96.2800000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-19-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (86.42 + 9.86)]]\n[[var q = (s + s)]]\n[[question a = ['q']]]\ntheme: Slide",
+      "statement": "In the park, there is another identical slide next to the first one which also gets extended by the same 9.86 feet. After this extension, what is the total length of the two slides put together?",
+      "new symbolic struct": "[[var d = 86.42]]\n[[var e = 9.86]]\n[[var f = (d + e)]]\n[[var g = 2 * f]]\n[[question y = ['g']]]",
+      "answer": "192.560000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-19-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (86.42 + 81)]]\n[[question n = ['s']]]\ntheme: Slide",
+      "statement": "Suppose the park decided to make an alteration to the plan and instead wanted to extend the slide by 81 feet rather than 9.86 feet. How long would the slide be after this extension?",
+      "new symbolic struct": "[[var a = 86.42]]\n[[var b = 81]]\n[[var c = (a + b)]]\n[[question x = ['c']]]",
+      "answer": "167.420000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-20-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (1878.8 / 44.0)]]\n[[question t = ['z']]]\ntheme: Ice cream",
+      "statement": "Throughout the month, an ice cream shop sold 1878.8 gallons of ice cream in 44.0 equally profitable days. How many gallons of ice cream did they sell each day?",
+      "new symbolic struct": "[[var t = (1878.8 / 44.0)]]\n[[question i = ['t']]]",
+      "answer": "42.7000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-20-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (1878.8 / 87)]]\n[[question t = ['z']]]\ntheme: Ice cream",
+      "statement": "Considering the ice cream shop you previously calculated about. If the total amount of ice cream sold (1878.8 gallons) was actually spread over 87 days instead of 44.0 days, how many gallons of ice cream would have been sold each day?",
+      "new symbolic struct": "[[var b = (1878.8 / 87)]]\n[[question n = ['b']]]",
+      "answer": "21.5954022988506",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-21-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var v = (1540.93 / 22.3)]]\n[[question i = ['v']]]\ntheme: Word",
+      "statement": "A book has a total character count of 1540.93 characters and each word takes up about 22.3 characters. How many words should there be in the book?",
+      "new symbolic struct": "[[var u = (1540.93 / 22.3)]]\n[[question i = ['u']]]",
+      "answer": "69.1000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-21-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var v = (1540.93 / 22.3)]]\n[[var e = (v - 59.3)]]\n[[question x = ['e']]]\ntheme: Word",
+      "statement": "In the book mentioned previously with a total character count of 1540.93 and each word consisting of around 22.3 characters, after reviewing, an editor finds that the word count is actually 59.3 words less than what was originally calculated. What is the adjusted word count now?",
+      "new symbolic struct": "[[var u = (1540.93 / 22.3)]]\n[[var v = u - 59.3]]\n[[question w = ['v']]]",
+      "answer": "9.80000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-21-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var v = (72 / 22.3)]]\n[[question i = ['v']]]\ntheme: Word",
+      "statement": "In the book review process, the editor realizes that there's been a mistake. Instead of 72 characters per word, each word only takes up about 22.3 characters. How many words would be in a section of the book where the character count totals 72?",
+      "new symbolic struct": "[[var u = (72 / 22.3)]]\n[[question i = ['u']]]",
+      "answer": "3.22869955156951",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-22-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var e = (81.66 + 54.6)]]\n[[question t = ['e']]]\ntheme: Ice skates",
+      "statement": "A pair of ice skates costs $81.66, and you decide to buy a set of skate guards for an additional $54.6. What is the total cost of the ice skates combined with the skate guards?",
+      "new symbolic struct": "[[var iceSkates = 81.66]]\n[[var skateGuards = 54.6]]\n[[var total = (iceSkates + skateGuards)]]\n[[question t = ['total']]]",
+      "answer": "136.260000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-22-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var e = (81.66 + 54.6)]]\n[[var j = (e - 46.83)]]\n[[question u = ['j']]]\ntheme: Ice skates",
+      "statement": "After buying the ice skates and skate guards, you decide to take advantage of a special offer that gives you a discount of $46.83. What would be your new total cost after this discount is applied?",
+      "new symbolic struct": "[[var iceSkates = 81.66]]\n[[var skateGuards = 54.6]]\n[[var totalBeforeDiscount = (iceSkates + skateGuards)]]\n[[var discount = 46.83]]\n[[var totalAfterDiscount = (totalBeforeDiscount - discount)]]\n[[question t = ['totalAfterDiscount']]]",
+      "answer": "89.4300000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-22-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var e = (25 + 54.6)]]\n[[question t = ['e']]]\ntheme: Ice skates",
+      "statement": "Suppose instead of the original pair of ice skates costing $81.66, you found a different pair on sale for only $25. If you still buy the skate guards for an additional $54.6, what would be the total cost of these discounted ice skates combined with the skate guards?",
+      "new symbolic struct": "[[var discountedIceSkates = 25]]\n[[var skateGuards = 54.6]]\n[[var total = (discountedIceSkates + skateGuards)]]\n[[question t = ['total']]]",
+      "answer": "79.6000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-24-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var m = (36.0 - 22.6)]]\n[[question y = ['m']]]\ntheme: Strawberry",
+      "statement": "A farmer harvests 36.0 kilograms of strawberries from his strawberry farm. After selling some, he has 22.6 kilograms left. How many kilograms of strawberries did he sell?",
+      "new symbolic struct": "[[var a = (36.0)]]\n[[var b = (22.6)]]\n[[question c = ['a - b']]]",
+      "answer": "13.4000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-24-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var m = (36.0 - 12)]]\n[[question y = ['m']]]\ntheme: Strawberry",
+      "statement": "If originally, the farmer had harvested 36.0 kilograms of strawberries and now instead, he sold 12 kilograms of strawberries. How many kilograms of strawberries does he have left now?",
+      "new symbolic struct": "[[var a = (36.0)]]\n[[var b = (12)]]\n[[question c = ['a - b']]]",
+      "answer": "24.0000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-25-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var e = (22.88 - 14.2)]]\n[[question r = ['e']]]\ntheme: Pillow",
+      "statement": "A pillow originally costs $22.88 but is on sale. After the discount, the price is reduced to $14.2. What is the amount of the discount?",
+      "new symbolic struct": "[[var d = (22.88 - 14.2)]]\n[[question a = ['d']]]",
+      "answer": "8.68000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-25-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var e = (72 - 14.2)]]\n[[question r = ['e']]]\ntheme: Pillow",
+      "statement": "Consider the same scenario but with a different original cost. If the pillow originally cost $72 instead of $22.88 and its price is reduced to $14.2 after a sale, what would be the amount of the discount now?",
+      "new symbolic struct": "[[var d = (72 - 14.2)]]\n[[question a = ['d']]]",
+      "answer": "57.8000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-26-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var r = (77.8 - 7.0)]]\n[[question e = ['r']]]\ntheme: Banana",
+      "statement": "A bunch of bananas originally weighed 77.8 grams. After removing the peel, which weighed 7.0 grams, what is the new weight of the bananas?",
+      "new symbolic struct": "[[var a = 77.8]]\n[[var b = 7.0]]\n[[var c = a - b]]\n[[question z = ['c']]]",
+      "answer": "70.8000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-26-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var r = (79 - 7.0)]]\n[[question e = ['r']]]\ntheme: Banana",
+      "statement": "In the initial situation, the bunch of bananas weighed 79 grams instead of 77.8 grams. After removing the peel, which weighed 7.0 grams as before, what would be the new weight of the bananas this time?",
+      "new symbolic struct": "[[var d = 79]]\n[[var e = 7.0]]\n[[var f = d - e]]\n[[question g = ['f']]]",
+      "answer": "72.0000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-27-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var c = (15.18 * 24.0)]]\n[[question t = ['c']]]\ntheme: Word",
+      "statement": "Each page in a book has 15.18 words and the book has a total of 24.0 pages. How many words does the book contain in total?",
+      "new symbolic struct": "[[var t = (15.18 * 24.0)]]\n[[question w = ['t']]]",
+      "answer": "364.320000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-27-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var c = (15.18 * 24.0)]]\n[[var v = (c - 45.7)]]\n[[question f = ['v']]]\ntheme: Word",
+      "statement": "Following up on our previous question about the book with 15.18 words per page and 24.0 pages, if 45.7 words were removed from the book for editing, how many words does the book contain now?",
+      "new symbolic struct": "[[var t = (15.18 * 24.0)]]\n[[var r = t - 45.7]]\n[[question w = ['r']]]",
+      "answer": "318.620000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-27-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var c = (30 * 24.0)]]\n[[question t = ['c']]]\ntheme: Word",
+      "statement": "Let's revisit the book situation again. What if, initially, each page in the book had 30 words instead of 15.18, and the book still had 24.0 pages. How many words would the book contain in that case?",
+      "new symbolic struct": "[[var r = (30 * 24.0)]]\n[[question w = ['r']]]",
+      "answer": "720.000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-28-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var c = (530.12 / 5.8)]]\n[[question h = ['c']]]\ntheme: Camera",
+      "statement": "A camera company spent $530.12 to produce 5.8 identical cameras. How much does the company spend to manufacture each camera?",
+      "new symbolic struct": "[[var c = (530.12 / 5.8)]]\n[[question p = ['c']]]",
+      "answer": "91.4000000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-29-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (86.4 * 22.64)]]\n[[question z = ['h']]]\ntheme: Toy car",
+      "statement": "A toy car model is 22.64 cm long. If one centimeter represents an actual length of 86.4 cm on the real car, what is the length of the actual car in centimeters?",
+      "new symbolic struct": "[[var l = (22.64 * 86.4)]]\n[[question a = ['l']]]",
+      "answer": "1956.09600000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-29-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (86.4 * 50)]]\n[[question z = ['h']]]\ntheme: Toy car",
+      "statement": "Let's suppose the toy car company released another model, which is 50 cm long in its scaled version. When 1 cm in the model represents 86.4 cm in the actual car, what is the length of this new actual car in centimeters?",
+      "new symbolic struct": "[[var l_new = (50 * 86.4)]]\n[[question a_new = ['l_new']]]",
+      "answer": "4320.00000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-30-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var d = (43.21 + 19.57)]]\n[[question u = ['d']]]\ntheme: Sandbox",
+      "statement": "Two kids are playing in a sandbox. The first kid pours 43.21 pounds of sand on their sandcastle, and the second kid adds 19.57 pounds of sand. How much does the sand on the sandcastle weigh in total?",
+      "new symbolic struct": "[[var a = 43.21]]\n[[var b = 19.57]]\n[[var c = (a + b)]]\n[[question d = ['c']]]",
+      "answer": "62.7800000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-30-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var d = (43.21 + 19.57)]]\n[[var g = (d * 46.6)]]\n[[question b = ['g']]]\ntheme: Sandbox",
+      "statement": "After the kids added sand to their sandcastle, they decided to make it even bigger. They multiplied the original weight of the sand by 46.6. What is the total weight of the sand in the sandcastle after their addition?",
+      "new symbolic struct": "[[var a = 43.21]]\n[[var b = 19.57]]\n[[var c = (a + b)]]\n[[var e = (c * 46.6)]]\n[[question f = ['e']]]",
+      "answer": "2925.54800000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-31-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var v = (5600.48 / 98.6)]]\n[[question j = ['v']]]\ntheme: Sock",
+      "statement": "An online sock retailer has just checked their inventory and found that they have a total of 5600.48 meters of materials left. If it takes 98.6 meters of material to make one pair of socks, how many pairs of socks can they make with the amount of material they have left?",
+      "new symbolic struct": "[[var m = (5600.48 / 98.6)]]\n[[question n = ['m']]]",
+      "answer": "56.8000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-31-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var v = (5600.48 / 27)]]\n[[question j = ['v']]]\ntheme: Sock",
+      "statement": "Suppose the retailer has recalculated his inventory and found that they have made an error in their initial calculation. In actuality, it only takes 27 meters of material to make one pair of socks instead of 98.6 meters. How many pairs of socks can they now make with the corrected amount of material?",
+      "new symbolic struct": "[[var m_corrected = (5600.48 / 27)]]\n[[question n_corrected = ['m_corrected']]]",
+      "answer": "207.425185185185",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-32-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (56.14 + 15.25)]]\n[[question d = ['y']]]\ntheme: Sun",
+      "statement": "The distance from the Earth to the Sun changes over the course of the year. On a particular day, an observatory measures the distance to be 56.14 million kilometers. They notice an increase in the following day by 15.25 million kilometers. How far is the Earth from the Sun on the second day in millions of kilometers?",
+      "new symbolic struct": "[[var d1 = 56.14]]\n[[var increase = 15.25]]\n[[var d2 = (d1 + increase)]]\n[[question final_distance = ['d2']]]",
+      "answer": "71.3900000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-32-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (56.14 + 15.25)]]\n[[var e = (y * 50.03)]]\n[[question n = ['e']]]\ntheme: Sun",
+      "statement": "As a follow-up to the previous problem, suppose that a space probe needs to use 50.03 kilograms of fuel for every million kilometers it travels towards the sun. If it starts its journey on the second day, how many kilograms of fuel will it need to reach the Sun?",
+      "new symbolic struct": "[[var d2 = (56.14 + 15.25)]]\n[[var fuel_per_km = 50.03]]\n[[var total_fuel = (fuel_per_km * d2)]]\n[[question final_fuel = ['total_fuel']]]",
+      "answer": "3571.64170000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-32-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (60 + 15.25)]]\n[[question d = ['y']]]\ntheme: Sun",
+      "statement": "As a follow up to the previous problem, suppose that instead of the initial distance being 56.14 million kilometers, the Earth was initially 60 million kilometers far from the Sun. After increasing by 15.25 million kilometers, what would be the distance from Earth to the Sun on the following day, in millions of kilometers?",
+      "new symbolic struct": "[[var initial_distance = 60]]\n[[var increase = 15.25]]\n[[var final_distance = (initial_distance + increase)]]\n[[question distance = ['final_distance']]]",
+      "answer": "75.2500000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-34-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (92.5 - 57.07)]]\n[[question q = ['j']]]\ntheme: Cloud",
+      "statement": "The temperature in the cloud layer dropped from 92.5 degrees Fahrenheit to 57.07 degrees Fahrenheit. How much did the temperature change?",
+      "new symbolic struct": "[[var t = (92.5 - 57.07)]]\n[[question c = ['t']]]",
+      "answer": "35.4300000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-34-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (92.5 - 57.07)]]\n[[var e = (97.29 * j)]]\n[[question i = ['e']]]\ntheme: Cloud",
+      "statement": "Suppose that for each degree drop in temperature, the cloud loses 97.29 liters of water vapor. How much water vapor would the cloud lose given the temperature change from the previous question?",
+      "new symbolic struct": "[[var drop = (92.5 - 57.07)]]\n[[var vapor_lose = drop * 97.29]]\n[[question lose = ['vapor_lose']]]",
+      "answer": "3446.98470000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-34-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (87 - 57.07)]]\n[[question q = ['j']]]\ntheme: Cloud",
+      "statement": "Suppose that instead of dropping from 92.5 degrees Fahrenheit, the temperature in the cloud layer had dropped from 87 degrees Fahrenheit. How much would the temperature change be in this situation?",
+      "new symbolic struct": "[[var t2 = (87 - 57.07)]]\n[[question c2 = ['t2']]]",
+      "answer": "29.9300000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-35-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var p = (42.53 + 28.9)]]\n[[question i = ['p']]]\ntheme: Giraffe",
+      "statement": "A Giraffe walks 42.53 miles to the north in the morning then it walks another 28.9 miles to the east in the afternoon. What is the total distance the Giraffe walked in miles?",
+      "new symbolic struct": "[[var a = 42.53]]\n[[var b = 28.9]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "71.4300000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-35-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var p = (42.53 + 28.9)]]\n[[var b = (p - 60.5)]]\n[[question v = ['b']]]\ntheme: Giraffe",
+      "statement": "After the giraffe walks 42.53 miles to the north in the morning and 28.9 miles to the east in the afternoon, it then retraces 60.5 miles back towards its starting point. How many miles is the giraffe from its starting point now?",
+      "new symbolic struct": "[[var a = 42.53]]\n[[var b = 28.9]]\n[[var c = a + b]]\n[[var e = 60.5]]\n[[var f = c - e]]\n[[question g = ['f']]]",
+      "answer": "10.9300000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-35-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var p = (42.53 + 57)]]\n[[question i = ['p']]]\ntheme: Giraffe",
+      "statement": "If the giraffe had walked 42.53 miles to the north in the morning and then 57 miles to the east in the afternoon instead of 28.9, how many miles in total would the giraffe have walked?",
+      "new symbolic struct": "[[var a = 42.53]]\n[[var b = 57]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "99.5300000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-36-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (90.74 + 95.27)]]\n[[question v = ['q']]]\ntheme: Sandbox",
+      "statement": "In a children's sandbox, there are 90.74 kilograms of sand on one side and 95.27 kilograms of sand on the other side. What is the total weight of sand in the sandbox?",
+      "new symbolic struct": "[[var a = 90.74]]\n[[var b = 95.27]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "186.010000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-36-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (59 + 95.27)]]\n[[question v = ['q']]]\ntheme: Sandbox",
+      "statement": "From the previous word problem: The sandbox originally had 90.74 kilograms of sand on one side and 95.27 kilograms of sand on the other side.\n\nFollow-up question: But what if the sandbox originally had 59 kilograms of sand on the one side instead of 90.74 kilograms? What would be the total weight of the sand in the sandbox then, still considering there were 95.27 kilograms of sand on the other side?",
+      "new symbolic struct": "[[var a = 59]]\n[[var b = 95.27]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "154.270000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-38-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var x = (14.15 + 95.07)]]\n[[question k = ['x']]]\ntheme: Train",
+      "statement": "A train ticket costs $14.15 and the cost of a meal on the train is $95.07. How much does it cost in total to buy the ticket and eat the meal?",
+      "new symbolic struct": "[[var a = 14.15]]\n[[var b = 95.07]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "109.220000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-38-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var x = (14.15 + 95.07)]]\n[[var v = (4.02 + x)]]\n[[question e = ['v']]]\ntheme: Train",
+      "statement": "A train ticket costs $14.15 and the cost of a meal on the train is $95.07. After your meal, you decide to buy a cool souvenir train mug for $4.02. How much would it cost in total for the train ticket, meal, and souvenir mug?",
+      "new symbolic struct": "[[var a = 14.15]]\n[[var b = 95.07]]\n[[var m = 4.02]]\n[[var c = a + b + m]]\n[[question d = ['c']]]",
+      "answer": "113.240000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-38-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var x = (14.15 + 59)]]\n[[question k = ['x']]]\ntheme: Train",
+      "statement": "The train ticket originally costs $14.15, and in this follow-up question, we're considering what happens if the meal cost is changed to $59. Now, how much is the total cost for the ticket and the meal?",
+      "new symbolic struct": "[[var a = 14.15]]\n[[var b = 59]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "73.1500000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-39-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var l = (56.1 * 91.13)]]\n[[question t = ['l']]]\ntheme: Friend",
+      "statement": "One of your friends spends 56.1 dollars every day. In 91.13 days, how much total will your friend have spent?",
+      "new symbolic struct": "[[var t = 56.1 * 91.13]]\n[[question s = ['t']]]",
+      "answer": "5112.39300000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-39-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var l = (56.1 * 91.13)]]\n[[var m = (l - 93.9)]]\n[[question p = ['m']]]\ntheme: Friend",
+      "statement": "After spending 56.1 dollars every day for 91.13 days, your friend realizes that they've earned a discount of 93.9 dollars. How much total has your friend actually spent after the discount?\n",
+      "new symbolic struct": "[[var daily_spend = 56.1]]\n[[var days = 91.13]]\n[[var total_spend = daily_spend * days]]\n[[var discount = 93.9]]\n[[var actual_spend = total_spend - discount ]]\n[[question spent = ['actual_spend']]]",
+      "answer": "5018.49300000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-40-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var e = (86.7 + 17.1)]]\n[[question v = ['e']]]\ntheme: Letter",
+      "statement": "Tom wrote 86.7 letters to his friends in one year, and he wrote 17.1 letters to his family throughout the same year. In total, how many letters did Tom write in that year?",
+      "new symbolic struct": "[[var a = 86.7]]\n[[var b = 17.1]]\n[[question total = ['a + b']]]",
+      "answer": "103.800000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-41-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var m = (44.7 - 16.09)]]\n[[question f = ['m']]]\ntheme: Moon",
+      "statement": "The average distance from the Earth to the Moon is 44.7 million kilometers. If another celestial body is 16.09 million kilometers closer to Earth than the Moon, what is the average distance from Earth to this celestial body in million kilometers?",
+      "new symbolic struct": "[[var a = 44.7]]\n[[var b = 16.09]]\n[[var c = a - b]]\n[[question d = ['c']]]",
+      "answer": "28.6100000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-42-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var d = (4299.12 / 85.3)]]\n[[question w = ['d']]]\ntheme: Binoculars",
+      "statement": "A scientist views a galaxy far away through her binoculars. The distance measured is 4299.12 light years and she views it over 85.3 different scopes. What is the approximate distance in light years that she sees through each scope?",
+      "new symbolic struct": "[[var d = (4299.12 / 85.3)]]\n[[question x = ['d']]]",
+      "answer": "50.4000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-42-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var d = (4299.12 / 85.3)]]\n[[var l = (d * 5.21)]]\n[[question j = ['l']]]\ntheme: Binoculars",
+      "statement": "Following the viewing of the galaxy, the scientist decides to amplify her binocular lens, multiplying the viewing scope by 5.21 times. What is the new approximate distance in light years that she can view through each scope after amplification?",
+      "new symbolic struct": "[[var d = (4299.12 / 85.3)]]\n[[var a = d * 5.21]]\n[[question x = ['a']]]",
+      "answer": "262.584000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-42-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var d = (4299.12 / 65)]]\n[[question w = ['d']]]\ntheme: Binoculars",
+      "statement": "Following her studies, the scientist decides to adjust her binoculars to view the galaxy through only 65 different scopes instead of the previous 85.3. If the total distance remains the same, 4299.12 light years, what is the new approximate distance in light years that she sees through each scope?",
+      "new symbolic struct": "[[var e = (4299.12 / 65)]]\n[[question y = ['e']]]",
+      "answer": "66.1403076923077",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-43-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (1774.46 / 28.9)]]\n[[question d = ['z']]]\ntheme: Water",
+      "statement": "A water company has 1774.46 cubic meters of water, which needs to be divided equally into 28.9 storage tanks. How many cubic meters of water will each tank contain?",
+      "new symbolic struct": "[[var w = (1774.46 / 28.9)]]\n[[question t = ['w']]]",
+      "answer": "61.4000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-43-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (1774.46 / 46)]]\n[[question d = ['z']]]\ntheme: Water",
+      "statement": "Originally, the water company decided to divide the 1774.46 cubic meters of water between 28.9 storage tanks. However, it later decides to evenly distribute the water among 46 tanks instead. How many cubic meters of water will each tank contain under this new distribution plan?",
+      "new symbolic struct": "[[var w1 = (1774.46 / 46)]]\n[[question t1 = ['w1']]]",
+      "answer": "38.5752173913043",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-44-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var r = (4.7 + 96.46)]]\n[[question f = ['r']]]\ntheme: Star",
+      "statement": "A star's observed magnitude brightness is modified by 4.7 units when its intrinsic brightness is 96.46 units. What is the total magnitude brightness of the star when the modifications are added?",
+      "new symbolic struct": "[[var b = (96.46 + 4.7)]]\n[[question t = ['b']]]",
+      "answer": "101.160000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-44-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var r = (4.7 + 96.46)]]\n[[var t = (r * 96.1)]]\n[[question v = ['t']]]\ntheme: Star",
+      "statement": "After the modifications, the star's magnitude brightness is multiplied by a factor of 96.1 due to interference from the earth's atmosphere. What is the value of the star's final observed brightness after being adjusted for atmospheric interference?",
+      "new symbolic struct": "[[var b = (96.46 + 4.7)]]\n[[var a = (b * 96.1)]]\n[[question f = ['a']]]",
+      "answer": "9721.47600000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-44-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var r = (54 + 96.46)]]\n[[question f = ['r']]]\ntheme: Star",
+      "statement": "Suppose the star's observed magnitude brightness was modified by 54 units instead of 4.7 units, keeping its intrinsic brightness the same at 96.46 units. What would be the total magnitude brightness of the star then when these modifications are added?",
+      "new symbolic struct": "[[var b2 = (96.46 + 54)]]\n[[question t2 = ['b2']]]",
+      "answer": "150.460000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-45-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var b = (175.56 / 46.2)]]\n[[question w = ['b']]]\ntheme: Blanket",
+      "statement": "A large blanket has a total area of 175.56 square feet and is rectangular. If the length of the blanket is 46.2 feet, what is the width in feet?",
+      "new symbolic struct": "[[var A = 175.56]]\n[[var L = 46.2]]\n[[var W = A / L]]\n[[question width = ['W']]]",
+      "answer": "3.80000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-45-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var b = (175.56 / 46.2)]]\n[[var f = (94.35 + b)]]\n[[question h = ['f']]]\ntheme: Blanket",
+      "statement": "If a smaller blanket has a width of 94.35 feet, what would be the total width in feet if you laid the large and small blankets side by side?",
+      "new symbolic struct": "[[var A = 175.56]]\n[[var L = 46.2]]\n[[var W1 = A / L]]\n[[var W2 = 94.35]]\n[[var W_total = W1 + W2]]\n[[question total_width = ['W_total']]]",
+      "answer": "98.1500000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-45-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var b = (86 / 46.2)]]\n[[question w = ['b']]]\ntheme: Blanket",
+      "statement": "If the large blanket actually had a total area of 86 square feet instead of 175.56 while keeping the length identical at 46.2 feet, what would be the new width in feet?",
+      "new symbolic struct": "[[var A = 86]]\n[[var L = 46.2]]\n[[var W = A / L]]\n[[question width = ['W']]]",
+      "answer": "1.86147186147186",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-46-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (23.4 + 98.1)]]\n[[question z = ['q']]]\ntheme: Candy",
+      "statement": "A candy store has 23.4 kilos of strawberry flavored candy and decides to add 98.1 kilos of the same flavor. How many kilos of strawberry flavored candy does the store have now?",
+      "new symbolic struct": "[[var s = (23.4 + 98.1)]]\n[[question n = ['s']]]",
+      "answer": "121.500000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-47-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (71.4 * 54.58)]]\n[[question w = ['j']]]\ntheme: Window",
+      "statement": "A window maker is creating a custom rectangular glass pane. If the length is 71.4 cm and the width is 54.58 cm, what is the total area of the window pane in cm\u00b2?",
+      "new symbolic struct": "[[var l = 71.4]]\n[[var w = 54.58]]\n[[var a = l * w]]\n[[question a = ['a']]]",
+      "answer": "3897.01200000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-47-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (71.4 * 54.58)]]\n[[var e = (j + 48.69)]]\n[[question s = ['e']]]\ntheme: Window",
+      "statement": "Following up on the previous problem, the window maker added an additional small pane of glass that measures 48.69 cm\u00b2 to the original large window. What is the new total area of the entire window, including both the original large pane and the added small pane, in cm\u00b2?",
+      "new symbolic struct": "[[var l = 71.4]]\n[[var w = 54.58]]\n[[var a1 = l * w]]\n[[var a2 = 48.69]]\n[[var a_total = a1 + a2]]\n[[question a_total = ['a_total']]]",
+      "answer": "3945.70200000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-47-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var j = (19 * 54.58)]]\n[[question w = ['j']]]\ntheme: Window",
+      "statement": "Following up on the previous problem, let's imagine that the original size of the large window pane was actually smaller, with a length of only 19 cm instead of the previously stated 71.4 cm, while the width remains 54.58 cm. What would be the new area of this smaller large window pane, in cm\u00b2?",
+      "new symbolic struct": "[[var l1 = 19]]\n[[var w = 54.58]]\n[[var a1 = l1 * w]]\n[[question a1 = ['a1']]]",
+      "answer": "1037.02000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-48-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var a = (37.7 + 85.93)]]\n[[question n = ['a']]]\ntheme: Firefighter",
+      "statement": "A firefighter uses 37.7 liters of water to extinguish a small fire, then uses additional 85.93 liters to cool down the area, thereby preventing another potential fire. How many liters of water has the firefighter used in total?",
+      "new symbolic struct": "[[var a = 37.7]]\n[[var b = 85.93]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "123.630000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-48-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var a = (37.7 + 85.93)]]\n[[var w = (46.61 + a)]]\n[[question b = ['w']]]\ntheme: Firefighter",
+      "statement": "After successfully handling the small fire, the firefighter then moves on to control a medium fire, using an additional 46.61 liters of water. How many liters of water has the firefighter used in total?",
+      "new symbolic struct": "[[var a = 37.7]]\n[[var b = 85.93]]\n[[var c = 46.61]]\n[[var d = a + b + c]]\n[[question total = ['d']]]",
+      "answer": "170.240000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-48-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var a = (92 + 85.93)]]\n[[question n = ['a']]]\ntheme: Firefighter",
+      "statement": "Suppose the firefighter initially used 92 liters of water to extinguish the small fire instead of 37.7 liters, but still uses an additional 85.93 liters to cool down the area. How many liters of water has the firefighter used in total now?",
+      "new symbolic struct": "[[var a = 92]]\n[[var b = 85.93]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "177.930000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-49-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (98.3 * 44.2)]]\n[[question y = ['i']]]\ntheme: Chocolate",
+      "statement": "A chocolate factory makes 98.3 pounds of a special kind of chocolate in an hour. In 44.2 hours, how many pounds of chocolate does the factory produce?",
+      "new symbolic struct": "[[var c = (98.3 * 44.2)]]\n[[question p = ['c']]]",
+      "answer": "4344.86000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-49-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (64 * 44.2)]]\n[[question y = ['i']]]\ntheme: Chocolate",
+      "statement": "Instead of making 98.3 pounds of special chocolate per hour, the factory decides to produce 64 pounds per hour. Using the same production cycle of 44.2 hours, how many pounds of the special chocolate would the factory produce under these adjusted conditions?",
+      "new symbolic struct": "[[var d = (64 * 44.2)]]\n[[question e = ['d']]]",
+      "answer": "2828.80000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-50-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (509.39 / 38.3)]]\n[[question f = ['h']]]\ntheme: Snow",
+      "statement": "Over the course of a winter season, a total of 509.39 inches of snowfall was measured. If each snowfall measured 38.3 inches, how many snowfalls were there during the season?",
+      "new symbolic struct": "[[var s = (509.39 / 38.3)]]\n[[question f = ['s']]]",
+      "answer": "13.3000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-50-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (509.39 / 38.3)]]\n[[var n = (h + h)]]\n[[question p = ['n']]]\ntheme: Snow",
+      "statement": "Following the last snow season, the weather department is predicting that the upcoming season will have double the number of snowfalls as the previous season. If the previous season had a certain number of snowfalls, each measuring 38.3 inches for a total of 509.39 inches, how many snowfalls are expected in the upcoming winter season?",
+      "new symbolic struct": "[[var s = (509.39 / 38.3)]]\n[[var u = s*2]]\n[[question f = ['u']]]",
+      "answer": "26.6000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-50-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (83 / 38.3)]]\n[[question f = ['h']]]\ntheme: Snow",
+      "statement": "In retrospect, the Met Office revised their measurements for the previous winter season. Instead of a total of 509.39 inches of snowfall, there were only 83 inches, still with each snowfall measuring 38.3 inches. With that in mind, how many snowfalls were there truly last winter season?",
+      "new symbolic struct": "[[var s = (83 / 38.3)]]\n[[question f = ['s']]]",
+      "answer": "2.16710182767624",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-51-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (85.44 - 1.58)]]\n[[question q = ['h']]]\ntheme: Clock",
+      "statement": "A clock measures 85.44 cm in overall height. The base of the clock takes up 1.58 cm of this height. How tall is the main body of the clock without the base?",
+      "new symbolic struct": "[[var h = 85.44]]\n[[var b = 1.58]]\n[[var m = (h - b)]]\n[[question mb = ['m']]]",
+      "answer": "83.8600000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-51-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (6 - 1.58)]]\n[[question q = ['h']]]\ntheme: Clock",
+      "statement": "Following from the previous question, let's consider a smaller clock that initially measures 6 cm in height. If it also has a base of 1.58 cm that is removed, what would be the height of the main body of this smaller clock without the base?",
+      "new symbolic struct": "[[var h2 = 6]]\n[[var b = 1.58]]\n[[var m2 = (h2 - b)]]\n[[question mb2 = ['m2']]]",
+      "answer": "4.42000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-52-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var m = (3.91 * 12.7)]]\n[[question j = ['m']]]\ntheme: Hot chocolate",
+      "statement": "To make a large batch of hot chocolate, you use 3.91 ounces of cocoa powder per cup. If you are making 12.7 cups of hot chocolate, how much cocoa powder will you need?",
+      "new symbolic struct": "[[var c = (3.91 * 12.7)]]\n[[question p = ['c']]]",
+      "answer": "49.6570000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-52-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var m = (8 * 12.7)]]\n[[question j = ['m']]]\ntheme: Hot chocolate",
+      "statement": "Following up from the previous hot chocolate problem: after adjusting your recipe, you realize that you actually need 8 ounces of cocoa powder per cup instead of the originally planned 3.91 ounces. If you are making 12.7 cups of hot chocolate, how much cocoa will you need now?",
+      "new symbolic struct": "[[var c = (8 * 12.7)]]\n[[question p = ['c']]]",
+      "answer": "101.600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-53-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var r = (98.9 - 28.0)]]\n[[question x = ['r']]]\ntheme: Toy car",
+      "statement": "A toy car started with a speed of 98.9 cm/s. After 1 second, its speed reduced to 28.0 cm/s. What was the change in the toy car's speed?",
+      "new symbolic struct": "[[var a = 98.9]]\n[[var b = 28.0]]\n[[var d = (a - b)]]\n[[question c = ['d']]]",
+      "answer": "70.9000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-53-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var r = (98.9 - 28.0)]]\n[[var z = (r * 24.8)]]\n[[question p = ['z']]]\ntheme: Toy car",
+      "statement": "Following up on the previous problem, the toy car runs on a battery that drains power proportional to the change in its speed per second. The rate is 24.8 mAh for each cm/s change in speed. How much power would the battery have drained in 1 second due to the speed change?",
+      "new symbolic struct": "[[var a = 98.9]]\n[[var b = 28.0]]\n[[var d = (a - b)]]\n[[var e = 24.8]]\n[[var f = (e * d)]]\n[[question g = ['f']]]",
+      "answer": "1758.32000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-53-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var r = (98.9 - 29)]]\n[[question x = ['r']]]\ntheme: Toy car",
+      "statement": "In the previous scenario, if the toy car's speed after 1 second was modified to 29 cm/s instead of 28.0 cm/s, what would be the new change in the toy car's speed?",
+      "new symbolic struct": "[[var a = 98.9]]\n[[var b = 29.0]]\n[[var d = (a - b)]]\n[[question c = ['d']]]",
+      "answer": "69.9000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-54-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (23.0 * 46.7)]]\n[[question x = ['s']]]\ntheme: Turtle",
+      "statement": "A turtle travels at a speed of 23.0 km/h. How far will the turtle go in 46.7 hours?",
+      "new symbolic struct": "[[var d = (23.0 * 46.7)]]\n[[question d = ['d']]]",
+      "answer": "1074.10000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-54-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (70 * 46.7)]]\n[[question x = ['s']]]\ntheme: Turtle",
+      "statement": "In the previous scenario, we assumed the turtle was traveling at a speed of 23.0 km/h. However, let's consider a different scenario where the turtle travels at an increased speed of 70 km/h. In this case, how far would the turtle travel in 46.7 hours?",
+      "new symbolic struct": "[[var d2 = (70 * 46.7)]]\n[[question d2 = ['d2']]]",
+      "answer": "3269.00000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-55-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (25.5 + 29.9)]]\n[[question h = ['z']]]\ntheme: Lion",
+      "statement": "A lion hunter observes two prides in the savannah. He counts 25.5 lions in one pride and 29.9 lions in the other pride (counting half a lion if the lion is a cub). How many lions (including cubs as half) did the lion hunter count in total?",
+      "new symbolic struct": "[[var a = 25.5]]\n[[var b = 29.9]]\n[[question c = ['(a + b)']]]",
+      "answer": "55.4000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-55-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (25.5 + 29.9)]]\n[[var l = (3.72 + z)]]\n[[question a = ['l']]]\ntheme: Lion",
+      "statement": "Following the previous question, the lion hunter then sees a third pride that has a total of 3.72 lions (including cubs as half). How many lions (taking cubs as half each) did the lion hunter count across all three prides?",
+      "new symbolic struct": "[[var a = 25.5]]\n[[var b = 29.9]]\n[[var d = 3.72]]\n[[question e = ['(a + b + d)']]]",
+      "answer": "59.1200000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-55-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var z = (76 + 29.9)]]\n[[question h = ['z']]]\ntheme: Lion",
+      "statement": "Following the previous story, what if the lion hunter actually saw 76 lions in the first pride instead of 25.5 that he initially counted? When he then counted the second pride with 29.9 lions (including cubs as half), how many lions (considering cubs as half each) did the lion hunter count in total?",
+      "new symbolic struct": "[[var a = 76]]\n[[var b = 29.9]]\n[[question c = ['(a + b)']]]",
+      "answer": "105.900000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-57-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var w = (50.1 + 65.7)]]\n[[question j = ['w']]]\ntheme: Bear",
+      "statement": "A brown bear ate 50.1 pounds of fish in the morning. Then, it ate another 65.7 pounds in the afternoon. How many total pounds of fish did the brown bear consume in one day?",
+      "new symbolic struct": "[[var a = 50.1]]\n[[var b = 65.7]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "115.800000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-57-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var w = (50.1 + 21)]]\n[[question j = ['w']]]\ntheme: Bear",
+      "statement": "A brown bear ate 50.1 pounds of fish in the morning. Then, it ate another 21 pounds in the afternoon instead of 65.7 pounds. How many total pounds of fish did the brown bear consume in one day now?",
+      "new symbolic struct": "[[var a = 50.1]]\n[[var b = 21]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "71.1000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-59-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var w = (62.06 - 51.59)]]\n[[question r = ['w']]]\ntheme: Cake",
+      "statement": "A bakery initially has 62.06 kilograms of flour. After making a batch of cakes, they are left with 51.59 kilograms of flour. How many kilograms of flour were used to make the cakes?",
+      "new symbolic struct": "[[var a = 62.06]]\n[[var b = 51.59]]\n[[var u = (a - b)]]\n[[question z = ['u']]]",
+      "answer": "10.4700000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-59-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var w = (62.06 - 51.59)]]\n[[var b = (w * 74.2)]]\n[[question a = ['b']]]\ntheme: Cake",
+      "statement": "After calculating the flour used to make the cakes, suppose this amount is then mixed with 74.2 grams of sugar per kilogram of the flour. How many grams of sugar would be needed in total?",
+      "new symbolic struct": "[[var a = 62.06]]\n[[var b = 51.59]]\n[[var u = (a - b)]]\n[[var s = 74.2]]\n[[var t = (s * u)]]\n[[question z = ['t']]]",
+      "answer": "776.874000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-59-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var w = (68 - 51.59)]]\n[[question r = ['w']]]\ntheme: Cake",
+      "statement": "Suppose the bakery initially started with 68 kilograms of flour instead of 62.06 kilograms. How many kilograms of flour would have been used to make the cakes then?",
+      "new symbolic struct": "[[var a = 68]]\n[[var b = 51.59]]\n[[var u = (a - b)]]\n[[question z = ['u']]]",
+      "answer": "16.4100000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-60-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var m = (11.99 + 86.7)]]\n[[question j = ['m']]]\ntheme: Mermaid",
+      "statement": "A mermaid has found a sunken treasure chest containing some gold pieces and a pearl. The gold is worth $86.7 and the pearl is worth $11.99. How much is the total worth of the treasure found by the mermaid?",
+      "new symbolic struct": "[[var s = 86.7]]\n[[var p = 11.99]]\n[[question t = ['s + p']]]",
+      "answer": "98.6900000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-60-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var m = (11.99 + 86.7)]]\n[[var r = (m - 28.05)]]\n[[question v = ['r']]]\ntheme: Mermaid",
+      "statement": "After adding the value of the gold and the pearl, the mermaid decides to give $28.05 worth of her treasure to her best sea creature friend. How much is the value of the remaining treasures after giving away part of it?",
+      "new symbolic struct": "[[var s = 86.7]]\n[[var p = 11.99]]\n[[var t = s + p]]\n[[var f = 28.05]]\n[[question r = ['t - f']]]",
+      "answer": "70.6400000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-60-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var m = (11.99 + 71)]]\n[[question j = ['m']]]\ntheme: Mermaid",
+      "statement": "Suppose instead of the gold being worth $86.7, it was actually worth $71. Now how much is the total value of the treasure the mermaid found?",
+      "new symbolic struct": "[[var g = 71]]\n[[var p = 11.99]]\n[[question t = ['g + p']]]",
+      "answer": "82.9900000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-61-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var d = (85.3 + 85.98)]]\n[[question q = ['d']]]\ntheme: Astronaut",
+      "statement": "An astronaut moves a distance of 85.3 meters from the spaceship and then moves another 85.98 meters further out into space. What is the total distance the astronaut moved away from the spaceship?",
+      "new symbolic struct": "[[var a = 85.3]]\n[[var b = 85.98]]\n[[var t = a + b]]\n[[question dist = ['t']]]",
+      "answer": "171.280000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-61-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var d = (61 + 85.98)]]\n[[question q = ['d']]]\ntheme: Astronaut",
+      "statement": "The astronaut originally was at a distance of 61 meters from the spaceship before he moved an additional 85.98 meters further out into space. What is the total distance the astronaut moved away from the spaceship given this new initial distance?",
+      "new symbolic struct": "[[var init_dist = 61]]\n[[var additional_dist = 85.98]]\n[[var total_dist = init_dist + additional_dist]]\n[[question final_dist = ['total_dist']]]",
+      "answer": "146.980000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-62-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (44.68 * 49.75)]]\n[[question x = ['t']]]\ntheme: Tent",
+      "statement": "A tent has a rectangular floor with a length of 44.68 feet and a width of 49.75 feet. What is the area of the tent's floor in square feet?",
+      "new symbolic struct": "[[var a = 44.68]]\n[[var b = 49.75]]\n[[var area = a * b]]\n[[question result = ['area']]]",
+      "answer": "2222.83000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-62-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (44.68 * 49.75)]]\n[[var j = (t + 61.68)]]\n[[question r = ['j']]]\ntheme: Tent",
+      "statement": "After figuring out the area of the tent's floor, you decide to add a 61.68 square feet mat inside the tent. What will be the total area covered by both the tent's floor and the mat?",
+      "new symbolic struct": "[[var a = 44.68]]\n[[var b = 49.75]]\n[[var c = 61.68]]\n[[var area = (a * b) + c]]\n[[question total_area = ['area']]]",
+      "answer": "2284.51000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-62-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (44.68 * 20)]]\n[[question x = ['t']]]\ntheme: Tent",
+      "statement": "In retrospect, it was discovered that the length of the tent's floor was overestimated. The actual length of the tent's floor is 20 feet while keeping the width at 44.68 feet. What is the correct area of the tent's floor given this new length?",
+      "new symbolic struct": "[[var a = 20]]\n[[var b = 44.68]]\n[[var area = a * b]]\n[[question result = ['area']]]",
+      "answer": "893.600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-63-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var b = (10.7 * 4.54)]]\n[[question f = ['b']]]\ntheme: Bracelet",
+      "statement": "A craftsman is making a bracelet which requires 10.7 grams of silver for each charm. If the bracelet needs 4.54 charms, how many grams of silver are needed in total for the charms on the bracelet?",
+      "new symbolic struct": "[[var t = (10.7 * 4.54)]]\n[[question s = ['t']]]",
+      "answer": "48.5780000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-63-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var b = (10.7 * 4.54)]]\n[[var d = (b + b)]]\n[[question a = ['d']]]\ntheme: Bracelet",
+      "statement": "Now consider that the craftsman is planning to make two such identical bracelets. How many grams of silver are needed in total for the charms on both bracelets?",
+      "new symbolic struct": "[[var t = (10.7 * 4.54)]]\n[[var u = (2 * t)]]\n[[question s = ['u']]]",
+      "answer": "97.1560000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-63-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var b = (10.7 * 12)]]\n[[question f = ['b']]]\ntheme: Bracelet",
+      "statement": "Now consider that the craftsman decided to make a different bracelet which requires 12 charms instead of 4.54. How many grams of silver are needed in total for the charms on this new bracelet?",
+      "new symbolic struct": "[[var v = (10.7 * 12)]]\n[[question r = ['v']]]",
+      "answer": "128.400000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-64-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (68.0 - 10.66)]]\n[[question i = ['y']]]\ntheme: Bus",
+      "statement": "A city bus has a capacity of 68.0 passengers. If 10.66 seats are reserved for specific riders, how many seats are available for general riders?",
+      "new symbolic struct": "[[var a = 68.0]]\n[[var b = 10.66]]\n[[var c = a - b]]\n[[question d = ['c']]]",
+      "answer": "57.3400000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-64-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (68.0 - 10.66)]]\n[[var p = (73.24 + y)]]\n[[question e = ['p']]]\ntheme: Bus",
+      "statement": "From the previous problem, we knew a city bus has a capacity of 68.0 passengers with 10.66 seats reserved for specific riders. Now, suppose there are an additional 73.24 available seats added to the bus after an upgrade. How many total seats are now available for general riders after the upgrade?",
+      "new symbolic struct": "[[var a = 68.0]]\n[[var b = 10.66]]\n[[var d = a - b]]\n[[var e = 73.24]]\n[[var f = d + e]]\n[[question g = ['f']]]",
+      "answer": "130.580000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-64-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (28 - 10.66)]]\n[[question i = ['y']]]\ntheme: Bus",
+      "statement": "From the previous problem, a city bus was upgraded to have more seats for general riders. However, now consider that originally, the bus only had a capacity of 28 passengers instead of 68.0, with the same 10.66 seats reserved for specific riders. How many seats would then have been available for general riders before the upgrade?",
+      "new symbolic struct": "[[var a = 28]]\n[[var b = 10.66]]\n[[var c = a - b]]\n[[question d = ['c']]]",
+      "answer": "17.3400000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-65-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var b = (93.5 * 72.0)]]\n[[question t = ['b']]]\ntheme: Ballerina",
+      "statement": "A ballerina performed a dance routine that was exactly 93.5 seconds long. She repeated this routine exactly 72.0 times for her various performances, recitals, and practices. How much total time did she spend performing this specific routine?",
+      "new symbolic struct": "[[var t = (93.5 * 72.0)]]\n[[question s = ['t']]]",
+      "answer": "6732.00000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-65-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var b = (93.5 * 25)]]\n[[question t = ['b']]]\ntheme: Ballerina",
+      "statement": "In the previous scenario, the ballerina danced her main routine 72.0 times. However, let's consider what would happen if she only performed it 25 times instead. How much total time would she spend if she only performed her main routine 25 times?",
+      "new symbolic struct": "[[var x = (93.5 * 25)]]\n[[question t = ['x']]]",
+      "answer": "2337.50000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-66-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var f = (2833.45 / 30.5)]]\n[[question u = ['f']]]\ntheme: Flower",
+      "statement": "A certain type of flower takes up 2833.45 milliliters of water over 30.5 days. On average, how much water does this flower consume every day?",
+      "new symbolic struct": "[[var h = (2833.45 / 30.5)]]\n[[question j = ['h']]]",
+      "answer": "92.9000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-66-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var f = (2833.45 / 30.5)]]\n[[var d = (f * 29.3)]]\n[[question s = ['d']]]\ntheme: Flower",
+      "statement": "If the same type of flower were to take in water for 29.3 days at the same average rate, how much total water would the flower consume in that time?",
+      "new symbolic struct": "[[var i1 = (2833.45 / 30.5)]]\n[[var i2 = (i1 * 29.3)]]\n[[question z = ['i2']]]",
+      "answer": "2721.97000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-66-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var f = (2833.45 / 51)]]\n[[question u = ['f']]]\ntheme: Flower",
+      "statement": "If the flower was instead taking up 2833.45 milliliters of water over a longer period of 51 days, how much water would this flower consume on average each day?",
+      "new symbolic struct": "[[var h = (2833.45 / 51)]]\n[[question j = ['h']]]",
+      "answer": "55.5578431372549",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-67-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var u = (77.5 * 71.15)]]\n[[question j = ['u']]]\ntheme: Toothbrush",
+      "statement": "A factory produces toothbrushes. Each toothbrush costs $71.15 to make. If the factory produces 77.5 toothbrushes in an hour, how much does it cost to manufacture those toothbrushes in that hour?",
+      "new symbolic struct": "[[var t = 71.15 * 77.5]]\n[[question cost = ['t']]]",
+      "answer": "5514.12500000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-67-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var u = (77.5 * 71.15)]]\n[[var q = (u + 49.1)]]\n[[question k = ['q']]]\ntheme: Toothbrush",
+      "statement": "A factory produces toothbrushes. Each toothbrush costs $71.15 to make. If the factory produces 77.5 toothbrushes in an hour, how much does it cost to manufacture those toothbrushes in that hour? \n\nMoreover, the company has a fixed hourly cost of $49.1 for electricity to run the machinery. How much total cost does the factory incur in an hour including the manufacturing and electricity costs?",
+      "new symbolic struct": "[[var t = 71.15 * 77.5]]\n[[var e = 49.1]]\n[[var total_cost = t + e]]\n[[question cost = ['total_cost']]]",
+      "answer": "5563.22500000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-67-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var u = (77.5 * 55)]]\n[[question j = ['u']]]\ntheme: Toothbrush",
+      "statement": "Continuing from our previous scenario, let's assume that the cost to make each toothbrush drops down to $55. \n\nWith this cost reduction in place, if the factory continues to produce 77.5 toothbrushes in an hour, how much does it now cost to manufacture those toothbrushes in that hour?",
+      "new symbolic struct": "[[var t_new = 55 * 77.5]]\n[[question cost_new = ['t_new']]]",
+      "answer": "4262.50000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-68-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var a = (98.06 * 1.67)]]\n[[question d = ['a']]]\ntheme: Paint",
+      "statement": "An artist uses 98.06 liters of blue paint to create a mural. If the cost of each liter of blue paint is 1.67 dollars, then how much does the volume of paint used in the mural cost?",
+      "new symbolic struct": "[[var c = 98.06 * 1.67]]\n[[question t = ['c']]]",
+      "answer": "163.760200000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-68-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var a = (98.06 * 1.67)]]\n[[var b = (a - 54.95)]]\n[[question u = ['b']]]\ntheme: Paint",
+      "statement": "The artist had initially set aside 54.95 dollars for buying the blue paint. After purchasing all the paint needed for the mural, how much did they spent in excess of the initial amount?",
+      "new symbolic struct": "[[var n = 98.06 * 1.67]]\n[[var e = n - 54.95]]\n[[question f = ['e']]]",
+      "answer": "108.810200000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-68-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var a = (98.06 * 81)]]\n[[question d = ['a']]]\ntheme: Paint",
+      "statement": "Instead of using 1.67 dollars per liter, imagine that each liter of blue paint cost 81 dollars. Under these altered circumstances, how much would the volume of paint used cost in total?",
+      "new symbolic struct": "[[var n = 98.06 * 81]]\n[[question m = ['n']]]",
+      "answer": "7942.86000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-69-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (23.76 + 49.8)]]\n[[question a = ['h']]]\ntheme: Chocolate",
+      "statement": "A chocolate maker purchased a total of 23.76 kg of milk chocolate and 49.8 kg of dark chocolate. What is the total weight in kg of the chocolate purchased?",
+      "new symbolic struct": "[[var a = 23.76]]\n[[var b = 49.8]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "73.5600000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-69-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (91 + 49.8)]]\n[[question a = ['h']]]\ntheme: Chocolate",
+      "statement": "The chocolate maker originally thought they had purchased 23.76 kg of milk chocolate, but realized later that they had actually bought 91 kg of milk chocolate. Given that they still purchased 49.8 kg of dark chocolate as initially thought, what would be the new total weight in kg of the chocolate purchased?",
+      "new symbolic struct": "[[var a = 91]]\n[[var b = 49.8]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "140.800000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-70-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var g = (79.4 * 26.9)]]\n[[question t = ['g']]]\ntheme: Cookie",
+      "statement": "A bakery sells each cookie for $79.4. If they sell 26.9 cookies, how much will they make?",
+      "new symbolic struct": "[[var p = (79.4 * 26.9)]]\n[[question t = ['p']]]",
+      "answer": "2135.86000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-70-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var g = (79.4 * 26.9)]]\n[[var l = (g - 8.7)]]\n[[question m = ['l']]]\ntheme: Cookie",
+      "statement": "After selling 26.9 cookies at $79.4 each, the bakery realizes an expense of $8.7. How much profit does the bakery make after this expense is deducted from the sales?",
+      "new symbolic struct": "[[var s = (79.4 * 26.9)]]\n[[var p = (s - 8.7)]]\n[[question t = ['p']]]",
+      "answer": "2127.16000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-70-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var g = (79.4 * 76)]]\n[[question t = ['g']]]\ntheme: Cookie",
+      "statement": "Now consider the bakery decides to sell 76 cookies instead of 26.9, each still sold at a price of $79.4. How much money will they make from these sales?",
+      "new symbolic struct": "[[var m = (79.4 * 76)]]\n[[question t = ['m']]]",
+      "answer": "6034.40000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-74-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (74.5 - 21.6)]]\n[[question a = ['i']]]\ntheme: Piano",
+      "statement": "A piano is initially tuned to play notes at 74.5 Hz, but its tuning slips, and it now plays notes at 21.6 Hz less. What frequency does the piano now play notes at?",
+      "new symbolic struct": "[[var d = 74.5]]\n[[var e = 21.6]]\n[[var f = (d - e)]]\n[[question g = ['f']]]",
+      "answer": "52.9000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-74-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (74.5 - 21.6)]]\n[[var e = (i - 39.2)]]\n[[question u = ['e']]]\ntheme: Piano",
+      "statement": "After the tuning slips, the frequency a piano plays notes at is further reduced by 39.2 Hz. What frequency does the piano play notes at now?",
+      "new symbolic struct": "[[var d = 74.5]]\n[[var e = 21.6]]\n[[var f = (d - e)]]\n[[var h = 39.2]]\n[[var i = (f - h)]]\n[[question j = ['i']]]",
+      "answer": "13.7000000000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-75-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (10.2 * 47.97)]]\n[[question y = ['s']]]\ntheme: Toy",
+      "statement": "A toy factory makes toy cars. Each car is sold for $10.2. If the factory managed to sell 47.97 cars in a day, how much total amount did the factory make from selling toy cars? Remember, a fraction of a car still makes money!",
+      "new symbolic struct": "[[var i = (47.97 * 10.2)]]\n[[question z = ['i']]]",
+      "answer": "489.294000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-75-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (10.2 * 47.97)]]\n[[var r = (s + 74.2)]]\n[[question e = ['r']]]\ntheme: Toy",
+      "statement": "Following up on the previous scenario, the toy factory also made an additional $74.2 from selling accessories for the toy cars on the same day. What is the total amount of money the factory made from selling both the toy cars and the accessories?",
+      "new symbolic struct": "[[var a = (47.97 * 10.2)]]\n[[var b = 74.2]]\n[[question t = ['a + b']]]",
+      "answer": "563.494000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-75-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (63 * 47.97)]]\n[[question y = ['s']]]\ntheme: Toy",
+      "statement": "Let's revisit the scenario at the toy factory. Instead of selling 10.2 toy cars, they actually sold 63 toy cars in a day, with each car still priced at $47.97. How much total revenue did the factory now make from selling toy cars?",
+      "new symbolic struct": "[[var i = (63 * 47.97)]]\n[[question z = ['i']]]",
+      "answer": "3022.11000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-76-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (854.0 / 24.4)]]\n[[question k = ['q']]]\ntheme: Superhero",
+      "statement": "A superhero can fly 854.0 miles in a day. If he can fly for only 24.4 hours in a day, how many miles can he fly in one hour?",
+      "new symbolic struct": "[[var d = 854.0]]\n[[var t = 24.4]]\n[[var v = d / t]]\n[[question spd = ['v']]]",
+      "answer": "35.0000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-76-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (854.0 / 24.4)]]\n[[var u = (81.04 + q)]]\n[[question e = ['u']]]\ntheme: Superhero",
+      "statement": "Following up from the previous question where the superhero could fly a certain distance in an hour, let's assume he has a battery pack that allows him to fly an additional 81.04 miles per hour. \n\nAdding this extra distance to the previously calculated hourly flight distance, how many miles can the superhero now travels in an hour with his improved abilities?",
+      "new symbolic struct": "[[var d = 854.0]]\n[[var t = 24.4]]\n[[var v = d / t]]\n[[var e = 81.04]]\n[[var nv = v + e]]\n[[question spd_new = ['nv']]]",
+      "answer": "116.040000000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-77-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var c = (47.33 * 11.07)]]\n[[question a = ['c']]]\ntheme: Starfish",
+      "statement": "A type of starfish has an average weight of 47.33 grams. A certain aquarium houses 11.07 times the average weight of this starfish. What is the total weight of starfish in the aquarium?",
+      "new symbolic struct": "[[var w = 47.33]]\n[[var b = 11.07]]\n[[var a = w * b]]\n[[question t = ['a']]]",
+      "answer": "523.943100000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-77-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var c = (47.33 * 11.07)]]\n[[var f = (c * 5.8)]]\n[[question d = ['f']]]\ntheme: Starfish",
+      "statement": "A type of starfish has an average weight of 47.33 grams. A certain aquarium houses 11.07 times the average weight of this starfish. If the starfish gain weight and their collective weight increases by a factor of 5.8, what would be their total weight?",
+      "new symbolic struct": "[[var w = 47.33]]\n[[var b = 11.07]]\n[[var a = w * b]]\n[[var c = a * 5.8]]\n[[question t = ['c']]]",
+      "answer": "3038.86998000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-77-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var c = (47.33 * 84)]]\n[[question a = ['c']]]\ntheme: Starfish",
+      "statement": "A type of starfish has an average weight of 47.33 grams. If originally, there were 84 starfish in the aquarium instead of the number that was 11.07 times the average weight, what would be the total weight of starfish in the aquarium?",
+      "new symbolic struct": "[[var w = 47.33]]\n[[var n = 84]]\n[[var t = w * n]]\n[[question total_weight = ['t']]]",
+      "answer": "3975.72000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-78-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var o = (72.18 - 70.7)]]\n[[question u = ['o']]]\ntheme: UFO",
+      "statement": "A UFO was detected at an altitude of 72.18 km. It then descended to an altitude of 70.7 km. By how many km did the UFO descend?",
+      "new symbolic struct": "[[var u = 72.18]]\n[[var v = 70.7]]\n[[var w = (u - v)]]\n[[question x = ['w']]]",
+      "answer": "1.48000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-78-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var o = (72.18 - 70.7)]]\n[[var v = (37.2 * o)]]\n[[question a = ['v']]]\ntheme: UFO",
+      "statement": "Following the UFO's descent from an altitude of 72.18 km to 70.7 km, it then flew an additional distance calculated by multiplying the distance it descended by 37.2. What is this additional distance flown by the UFO?",
+      "new symbolic struct": "[[var u = 72.18]]\n[[var v = 70.7]]\n[[var w = (u - v)]]\n[[var x = (w * 37.2)]]\n[[question y = ['x']]]",
+      "answer": "55.0560000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-78-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var o = (90 - 70.7)]]\n[[question u = ['o']]]\ntheme: UFO",
+      "statement": "Following the UFO's additional movement, suppose it originally descended from an altitude of 90 km instead of 72.18 km to the same final altitude of 70.7 km. How much would it have descended then?",
+      "new symbolic struct": "[[var u = 90]]\n[[var v = 70.7]]\n[[var w = (u - v)]]\n[[question x = ['w']]]",
+      "answer": "19.3000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-79-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var m = (41.4 / 11.5)]]\n[[question i = ['m']]]\ntheme: Rain",
+      "statement": "A region received 41.4 inches of rain evenly over 11.5 days. How many inches of rain did the region receive each day?",
+      "new symbolic struct": "[[var a = (41.4 / 11.5)]]\n[[question b = ['a']]]",
+      "answer": "3.60000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-79-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var m = (41.4 / 11.5)]]\n[[var u = (6.43 * m)]]\n[[question q = ['u']]]\ntheme: Rain",
+      "statement": "If the region continued to receive the same amount of rain per day for the following 6.43 days, how many additional inches of rain would the region receive?",
+      "new symbolic struct": "[[var a = (41.4 / 11.5)]]\n[[var b = a * 6.43]]\n[[question c = ['b']]]",
+      "answer": "23.1480000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-79-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var m = (41.4 / 21)]]\n[[question i = ['m']]]\ntheme: Rain",
+      "statement": "If instead of 11.5 days, the region originally received the total of 41.4 inches of rain over a period of 21 days, how many inches of rain would the region have received each day?",
+      "new symbolic struct": "[[var c = (41.4 / 21)]]\n[[question d = ['c']]]",
+      "answer": "1.97142857142857",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-80-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (32.3 + 21.1)]]\n[[question e = ['i']]]\ntheme: Bubble",
+      "statement": "If a soap bubble has a circumference of 32.3 cm and another bubble has a circumference of 21.1 cm, what is the total circumference of the two bubbles?",
+      "new symbolic struct": "[[var a = 32.3]]\n[[var b = 21.1]]\n[[question total = ['a + b']]]",
+      "answer": "53.4000000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-81-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var n = (1402.7 / 84.5)]]\n[[question y = ['n']]]\ntheme: Robot",
+      "statement": "A robot worker was able to complete 1402.7 units of work over a period of 84.5 hours. If the robot worked at a constant rate, how many units of work did it complete per hour?",
+      "new symbolic struct": "[[var r = (1402.7 / 84.5)]]\n[[question p = ['r']]]",
+      "answer": "16.6000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-81-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var n = (1402.7 / 84.5)]]\n[[var q = (43.9 - n)]]\n[[question b = ['q']]]\ntheme: Robot",
+      "statement": "If the optimal work rate for such robots is 43.9 units per hour, by how much was this robot's work rate short of the optimal rate?",
+      "new symbolic struct": "[[var s = 1402.7 / 84.5]]\n[[var t = 43.9 - s]]\n[[question f = ['t']]]",
+      "answer": "27.3000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-81-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var n = (1402.7 / 76)]]\n[[question y = ['n']]]\ntheme: Robot",
+      "statement": "Suppose the robot completed the work over 76 hours instead of 84.5 hours, while still accomplishing 1402.7 units of work. What would then be the unit of work completed per hour in this case?",
+      "new symbolic struct": "[[var r = (1402.7 / 76)]]\n[[question p = ['r']]]",
+      "answer": "18.4565789473684",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-82-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (5460.48 / 86.4)]]\n[[question d = ['i']]]\ntheme: Toy car",
+      "statement": "A toy car that operates on battery can travel a total distance of 5460.48 meters on a single battery charge. If the battery lasts for 86.4 minutes, what is the toy car's speed in meters per minute?",
+      "new symbolic struct": "[[var s = (5460.48 / 86.4)]]\n[[question v = ['s']]]",
+      "answer": "63.2000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-82-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (5460.48 / 86.4)]]\n[[var q = (66.1 - i)]]\n[[question w = ['q']]]\ntheme: Toy car",
+      "statement": "A competitor's toy car runs at a speed of 66.1 meters per minute. By how much is this faster than our toy car that runs at a speed determined by traveling a total distance of 5460.48 meters over 86.4 minutes of battery life?",
+      "new symbolic struct": "[[var s = (5460.48 / 86.4)]]\n[[var d = (66.1 - s)]]\n[[question h = ['d']]]",
+      "answer": "2.90000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-82-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (5460.48 / 41)]]\n[[question d = ['i']]]\ntheme: Toy car",
+      "statement": "If the battery life of our toy car was instead 41 minutes while still covering the distance of 5460.48 meters, how would that alter the toy car's speed in meters per minute?",
+      "new symbolic struct": "[[var r = (5460.48 / 41)]]\n[[question x = ['r']]]",
+      "answer": "133.182439024390",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-83-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (1149.72 / 15.6)]]\n[[question p = ['i']]]\ntheme: Robot",
+      "statement": "A robot travels a total distance of 1149.72 meters over a time span of 15.6 minutes. Find out how many meters the robot travels per minute.",
+      "new symbolic struct": "[[var s = (1149.72 / 15.6)]]\n[[question d = ['s']]]",
+      "answer": "73.7000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-83-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (1149.72 / 15.6)]]\n[[var w = (25.58 * i)]]\n[[question v = ['w']]]\ntheme: Robot",
+      "statement": "The robot mentioned before that travels a total distance of 1149.72 meters over a time span of 15.6 minutes has an energy consumption rate of 25.58 joules per meter. How much total energy does the robot consume in joules during this span of time?",
+      "new symbolic struct": "[[var s = (1149.72 / 15.6)]]\n[[var e = 25.58]]\n[[var t = (s * e)]]\n[[question f = ['t']]]",
+      "answer": "1885.24600000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-83-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (46 / 15.6)]]\n[[question p = ['i']]]\ntheme: Robot",
+      "statement": "In the same scenario as before, let's consider if the robot traveled a lesser distance of 46 meters over the same time span of 15.6 minutes. How many meters would the robot travel per minute then?",
+      "new symbolic struct": "[[var t = (46 / 15.6)]]\n[[question d = ['t']]]",
+      "answer": "2.94871794871795",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-84-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var a = (2631.68 / 51.2)]]\n[[question m = ['a']]]\ntheme: Sleeping bag",
+      "statement": "A sleeping bag manufacturer has 2631.68 square feet of material to use, and each sleeping bag requires 51.2 square feet of material. How many sleeping bags can the manufacturer produce with the available material?",
+      "new symbolic struct": "[[var i = (2631.68 / 51.2)]]\n[[question z = ['i']]]",
+      "answer": "51.4000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-84-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var a = (2631.68 / 94)]]\n[[question m = ['a']]]\ntheme: Sleeping bag",
+      "statement": "In light of a new sleeping bag design, the manufacturer has decided to adjust the material requirements. Now each sleeping bag will use 94 square feet of material instead of 51.2. Given the same total amount of material available as before, 2631.68 square feet, how many of these new sleeping bags can now be produced?",
+      "new symbolic struct": "[[var i = (2631.68 / 94)]]\n[[question z = ['i']]]",
+      "answer": "27.9965957446808",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-85-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (60.6 + 83.84)]]\n[[question c = ['t']]]\ntheme: Plane",
+      "statement": "Consider that a plane has been traveling at a speed of 60.6 km/hr, and then it speeds up to 83.84 km/hr. What is the combined speed of the plane at both rates?",
+      "new symbolic struct": "[[var a = 60.6]]\n[[var b = 83.84]]\n[[question c = ['a + b']]]",
+      "answer": "144.440000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-85-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (60.6 + 83.84)]]\n[[var v = (89.64 + t)]]\n[[question y = ['v']]]\ntheme: Plane",
+      "statement": "Continuing from the previous scenario, suppose the plane increases its speed again by 89.64 km/hr. What is the total speed of the plane now, considering all three speed rates?",
+      "new symbolic struct": "[[var a = 60.6]]\n[[var b = 83.84]]\n[[var d = 89.64]]\n[[question e = ['a + b + d']]]",
+      "answer": "234.080000000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-86-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var u = (2714.46 / 96.6)]]\n[[question b = ['u']]]\ntheme: Computer",
+      "statement": "You have a computer game that you play for 96.6 hours and it consumes 2714.46 MBs of data. How many MBs of data does it consume per hour?",
+      "new symbolic struct": "[[var d = (2714.46 / 96.6)]]\n[[question h = ['d']]]",
+      "answer": "28.1000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-86-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var u = (2714.46 / 4)]]\n[[question b = ['u']]]\ntheme: Computer",
+      "statement": "In the original scenario, assume instead that the computer game consumes 2714.46 MBs of data over 4 hours of gameplay. In this case, how many MBs of data would the game consume per hour?",
+      "new symbolic struct": "[[var z = (2714.46 / 4)]]\n[[question h2 = ['z']]]",
+      "answer": "678.615000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-87-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (7102.88 / 86.2)]]\n[[question n = ['h']]]\ntheme: Kite",
+      "statement": "If a kite traveled 7102.88 meters over the course of 86.2 minutes, how many meters does the kite travel per minute?",
+      "new symbolic struct": "[[var d = (7102.88 / 86.2)]]\n[[question k = ['d']]]",
+      "answer": "82.4000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-87-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (7102.88 / 83)]]\n[[question n = ['h']]]\ntheme: Kite",
+      "statement": "In a revision of the previous scenario, let's say the kite actually traveled 7102.88 meters over the course of 83 minutes instead of 86.2 minutes. In this case, how many meters would the kite have traveled per minute?",
+      "new symbolic struct": "[[var j = (7102.88 / 83)]]\n[[question l = ['j']]]",
+      "answer": "85.5768674698795",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-88-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (792.78 / 18.1)]]\n[[question l = ['q']]]\ntheme: Orange",
+      "statement": "A juice stand can make 792.78 liters of orange juice using 18.1 kilograms of oranges. If each kilogram of oranges generates the same amount of juice, how many liters of juice does each kilogram of oranges produce?",
+      "new symbolic struct": "[[var o = (792.78 / 18.1)]]\n[[question j = ['o']]]",
+      "answer": "43.8000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-88-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (792.78 / 18.1)]]\n[[var i = (4.8 * q)]]\n[[question t = ['i']]]\ntheme: Orange",
+      "statement": "Follow up question to previous problem:\n\nAfter finding out how many liters of juice each kilogram of oranges produces, if we have 4.8 kilograms of oranges, how many liters of juice can we make from them?",
+      "new symbolic struct": "[[var o = (792.78 / 18.1)]]\n[[var l = (o * 4.8)]]\n[[question j = ['l']]]",
+      "answer": "210.240000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-88-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (792.78 / 38)]]\n[[question l = ['q']]]\ntheme: Orange",
+      "statement": "Follow-up to the previous problem:\n\nInstead of using 18.1 kilograms of oranges, what if the juice stand used 38 kilograms of oranges to make 792.78 liters of juice? In this case, how many liters of juice would be produced by each kilogram of oranges?",
+      "new symbolic struct": "[[var v = (792.78 / 38)]]\n[[question k = ['v']]]",
+      "answer": "20.8626315789474",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-89-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var p = (52.9 + 95.23)]]\n[[question f = ['p']]]\ntheme: Skateboard",
+      "statement": "A skateboard part costs $52.9 and a sticker costs $95.23. What would the total cost be if you buy both items?",
+      "new symbolic struct": "[[var a = 52.9]]\n[[var b = 95.23]]\n[[var t = a + b]]\n[[question p = ['t']]]",
+      "answer": "148.130000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-89-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var p = (52.9 + 95.23)]]\n[[var a = (84.8 + p)]]\n[[question n = ['a']]]\ntheme: Skateboard",
+      "statement": "In addition to the skateboard part and the sticker, you also plan on buying a helmet that costs $84.8. What would the total cost be for all three items?",
+      "new symbolic struct": "[[var a = 52.9]]\n[[var b = 95.23]]\n[[var c = 84.8]]\n[[var t = a + b + c]]\n[[question p = ['t']]]",
+      "answer": "232.930000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-89-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var p = (33 + 95.23)]]\n[[question f = ['p']]]\ntheme: Skateboard",
+      "statement": "Suppose instead of the skateboard part costing $52.9, it actually cost $33. How much would the total cost be if you purchased this skateboard part and the $95.23 sticker?",
+      "new symbolic struct": "[[var a = 33]]\n[[var b = 95.23]]\n[[var t = a + b]]\n[[question p = ['t']]]",
+      "answer": "128.230000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-90-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var b = (94.76 - 42.8)]]\n[[question w = ['b']]]\ntheme: Elephant",
+      "statement": "An elephant weighs 94.76 tons. After losing weight, it now weighs 42.8 tons. How much weight did the elephant lose?",
+      "new symbolic struct": "[[var a = (94.76 - 42.8)]]\n[[question w = ['a']]]",
+      "answer": "51.9600000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-90-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var b = (49 - 42.8)]]\n[[question w = ['b']]]\ntheme: Elephant",
+      "statement": "In the same scenario, suppose instead that the elephant's original weight was 49 tons before it started losing weight and reached 42.8 tons. How much weight did the elephant lose in this case?",
+      "new symbolic struct": "[[var b = (49 - 42.8)]]\n[[question w = ['b']]]",
+      "answer": "6.20000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-91-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var x = (92.6 + 91.7)]]\n[[question a = ['x']]]\ntheme: Cheese",
+      "statement": "A food manufacturer packages two types of cheese, one weighing 92.6 grams and the other 91.7 grams. What is the total weight of the two types of cheese when packaged together?",
+      "new symbolic struct": "[[var a = 92.6]]\n[[var b = 91.7]]\n[[var c = (a + b)]]\n[[question d = ['c']]]",
+      "answer": "184.300000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-91-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var x = (92.6 + 91.7)]]\n[[var y = (x - 72.5)]]\n[[question i = ['y']]]\ntheme: Cheese",
+      "statement": "After packaging together the two types of cheese, the food manufacturer realizes that the package needs to maintain a standard weight of 72.5 grams. How much does the manufacturer need to subtract from the total weight of the combination of the two cheeses to meet this standard?",
+      "new symbolic struct": "[[var a = 92.6]]\n[[var b = 91.7]]\n[[var c = (a + b)]]\n[[var standard = 72.5]]\n[[var difference = (c - standard)]]\n[[question e = ['difference']]]",
+      "answer": "111.800000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-91-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var x = (15 + 91.7)]]\n[[question a = ['x']]]\ntheme: Cheese",
+      "statement": "Let's reconsider the problem by supposing that the weight of the first type of cheese was originally 15 grams instead of 92.6 grams. What would then be the total weight of the two types of cheese when packaged together?",
+      "new symbolic struct": "[[var a = 15]]\n[[var b = 91.7]]\n[[var c = (a + b)]]\n[[question d = ['c']]]",
+      "answer": "106.700000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-92-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var h = (3762.8 / 46.0)]]\n[[question x = ['h']]]\ntheme: Boat",
+      "statement": "A boat traveled a total distance of 3762.8 miles in 46.0 hours. If the speed remains constant, how many miles per hour does the boat travel?",
+      "new symbolic struct": "[[var s = (3762.8 / 46.0)]]\n[[question v = ['s']]]",
+      "answer": "81.8000000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-93-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (77.66 - 31.94)]]\n[[question m = ['y']]]\ntheme: Farm",
+      "statement": "On a farm, there are 77.66 acres of land. If 31.94 acres are used for growing corn, how many acres are not used for growing corn?",
+      "new symbolic struct": "[[var u = 77.66]]\n[[var v = 31.94]]\n[[question w = ['(u - v)']]]",
+      "answer": "45.7200000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-93-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (77.66 - 31.94)]]\n[[var r = (y * 6.5)]]\n[[question o = ['r']]]\ntheme: Farm",
+      "statement": "On a farm, there are 77.66 acres of land. If 31.94 acres are used for growing corn, how many acres are not used for growing corn? If each of the unused acres can yield 6.5 bushels of wheat, how many bushels of wheat can be grown in total?",
+      "new symbolic struct": "[[var u = 77.66]]\n[[var v = 31.94]]\n[[var w = (u - v)]]\n[[var x = 6.5]]\n[[question y = ['(w * x)']]]",
+      "answer": "297.180000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-93-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (81 - 31.94)]]\n[[question m = ['y']]]\ntheme: Farm",
+      "statement": "In the same farm scenario, suppose there had originally been 81 acres of land instead of 77.66. If still 31.94 acres are used for growing corn, how many acres would now be left unused?",
+      "new symbolic struct": "[[var u = 81]]\n[[var v = 31.94]]\n[[question w = ['(u - v)']]]",
+      "answer": "49.0600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-94-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var b = (48.29 - 6.6)]]\n[[question r = ['b']]]\ntheme: Giraffe",
+      "statement": "A giraffe is 48.29 feet tall. If the height of its body (not including the neck) is 6.6 feet, how tall is its neck?",
+      "new symbolic struct": "[[var a = 48.29]]\n[[var b = 6.6]]\n[[question c = ['a - b']]]",
+      "answer": "41.6900000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-95-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (96.1 * 67.9)]]\n[[question h = ['i']]]\ntheme: Jacket",
+      "statement": "A jacket requires 96.1 square feet of material to make. If a factory produces 67.9 such jackets, what is the total amount of material required in square feet?",
+      "new symbolic struct": "[[var t = 96.1 * 67.9]]\n[[question u = ['t']]]",
+      "answer": "6525.19000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-95-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (34 * 67.9)]]\n[[question h = ['i']]]\ntheme: Jacket",
+      "statement": "If the jacket's design is altered and now only requires 34 square feet of material instead of 96.1 square feet to make, how many square feet of material would be needed to manufacture 67.9 jackets without the accessories?",
+      "new symbolic struct": "[[var t = 34 * 67.9]]\n[[question u = ['t']]]",
+      "answer": "2308.60000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-97-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (43.2 + 90.0)]]\n[[question f = ['q']]]\ntheme: Rocket",
+      "statement": "A rocket needs to reach a specific altitude to deliver a satellite. Currently, it has risen to an altitude of 43.2 km, but it needs to ascend an additional 90.0 km to reach the necessary position. What will be the rocket's altitude when it has ascended the additional distance?",
+      "new symbolic struct": "[[var i = 43.2 + 90.0]]\n[[question z = ['i']]]",
+      "answer": "133.200000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-97-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (43.2 + 15)]]\n[[question f = ['q']]]\ntheme: Rocket",
+      "statement": "Continuing from the initial scenario, suppose the rocket initially only rose to an altitude of 43.2 km and needed to ascend an additional 15 km to deliver the satellite into its required position. What would be the rocket's altitude when it has ascended the additional distance?",
+      "new symbolic struct": "[[var i = 43.2 + 15]]\n[[question z = ['i']]]",
+      "answer": "58.2000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-98-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (3769.24 / 48.2)]]\n[[question p = ['i']]]\ntheme: Skateboard",
+      "statement": "A skateboard travels a total of 3769.24 meters in 48.2 minutes. If it traveled at a constant speed, how many meters does it cover in one minute?",
+      "new symbolic struct": "[[var s = (3769.24 / 48.2)]]\n[[question t = ['s']]]",
+      "answer": "78.2000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-98-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (3769.24 / 48.2)]]\n[[var l = (i - 58.8)]]\n[[question q = ['l']]]\ntheme: Skateboard",
+      "statement": "The skateboard travels a total of 3769.24 meters in 48.2 minutes. If it traveled at a constant speed, how many meters does it cover in one minute? After subtracting 58.8 meters from this distance, how far has the skateboard traveled?",
+      "new symbolic struct": "[[var s = (3769.24 / 48.2)]]\n[[var d = s - 58.8]]\n[[question t = ['d']]]",
+      "answer": "19.4000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-98-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (63 / 48.2)]]\n[[question p = ['i']]]\ntheme: Skateboard",
+      "statement": "A skateboard travels a total of 63 meters in 48.2 minutes. If it traveled at a constant speed, how many meters does it cover in one minute?",
+      "new symbolic struct": "[[var s = (63 / 48.2)]]\n[[question t = ['s']]]",
+      "answer": "1.30705394190871",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-99-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (14.0 + 6.9)]]\n[[question s = ['i']]]\ntheme: Marshmallow",
+      "statement": "There are 14.0 marshmallows in one bag and 6.9 marshmallows in another bag. How many marshmallows are there in total?",
+      "new symbolic struct": "[[var s = 14.0 + 6.9]]\n[[question t = ['s']]]",
+      "answer": "20.9000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-99-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (14.0 + 6.9)]]\n[[var f = (i * i)]]\n[[question u = ['f']]]\ntheme: Marshmallow",
+      "statement": "If each marshmallow in both bags was replicated the exact number of times equal to the total of marshmallows in the two bags, how many marshmallows would there then be in total?",
+      "new symbolic struct": "[[var m1 = 14.0]]\n[[var m2 = 6.9]]\n[[var total_initial = m1 + m2]]\n[[var total_after_replication = total_initial * total_initial]]\n[[question t = ['total_after_replication']]]",
+      "answer": "436.810000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-99-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (90 + 6.9)]]\n[[question s = ['i']]]\ntheme: Marshmallow",
+      "statement": "If there were 90 marshmallows in the first bag instead of 14.0, and 6.9 marshmallows in the second bag, how many marshmallows would there be in total?",
+      "new symbolic struct": "[[var s_new = 90 + 6.9]]\n[[question t_new = ['s_new']]]",
+      "answer": "96.9000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-100-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var a = (92.8 + 69.3)]]\n[[question m = ['a']]]\ntheme: Dinosaur",
+      "statement": "A Stegosaurus dinosaur weighs 92.8 tons. A Triceratops dinosaur is 69.3 tons heavier than a Stegosaurus. How heavy is the Triceratops dinosaur?",
+      "new symbolic struct": "[[var s = 92.8]]\n[[var t = (s + 69.3)]]\n[[question triceratopsWeight = ['t']]]",
+      "answer": "162.100000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-100-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var a = (92.8 + 69.3)]]\n[[var v = (59.6 * a)]]\n[[question n = ['v']]]\ntheme: Dinosaur",
+      "statement": "After the Triceratops dinosaur, the heaviest dinosaur is a type that is 59.6 times the weight of the Triceratops. How heavy is this dinosaur?",
+      "new symbolic struct": "[[var triceratopsWeight = 162.1]]\n[[var heaviestDinoWeight = (triceratopsWeight * 59.6)]]\n[[question heaviestDinosaur = ['heaviestDinoWeight']]]",
+      "answer": "9661.16000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-100-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var a = (92.8 + 26)]]\n[[question m = ['a']]]\ntheme: Dinosaur",
+      "statement": "Suppose instead of the Triceratops being 69.3 tons heavier than the Stegosaurus, it was only 26 tons heavier. How heavy would the Triceratops be then?",
+      "new symbolic struct": "[[var s = 92.8]]\n[[var t = (s + 26)]]\n[[question triceratopsWeight = ['t']]]",
+      "answer": "118.800000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-101-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (97.3 + 22.1)]]\n[[question v = ['t']]]\ntheme: Firefighter",
+      "statement": "During a firefighting mission, a firefighter's oxygen tank starts with 97.3 liters of oxygen. After entering the burning building, he uses an additional 22.1 liters of oxygen from a supplementary bottle. How much total oxygen does he have for this mission?",
+      "new symbolic struct": "[[var a = 97.3]]\n[[var b = 22.1]]\n[[question c = ['a + b']]]",
+      "answer": "119.400000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-101-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (97.3 + 22.1)]]\n[[var s = (t + 21.46)]]\n[[question z = ['s']]]\ntheme: Firefighter",
+      "statement": "After using the oxygen from the supplementary bottle, the firefighter finds another backup oxygen source that adds an additional 21.46 liters of oxygen. How much total oxygen does he now have for the mission, including the backup source?",
+      "new symbolic struct": "[[var a = 97.3]]\n[[var b = 22.1]]\n[[var d = 21.46]]\n[[question e = ['a + b + d']]]",
+      "answer": "140.860000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-101-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (36 + 22.1)]]\n[[question v = ['t']]]\ntheme: Firefighter",
+      "statement": "Originally, the firefighter's oxygen tank did not start with 97.3 liters, but with 36 liters of oxygen instead. After adding the 22.1 liters of oxygen from the supplementary bottle, how much total oxygen does he have for the mission at that point?",
+      "new symbolic struct": "[[var a = 36]]\n[[var b = 22.1]]\n[[question c = ['a + b']]]",
+      "answer": "58.1000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-102-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var w = (6.9 * 60.77)]]\n[[question t = ['w']]]\ntheme: Ring",
+      "statement": "A jeweler melts 6.9 ounces of gold to make a ring. If one ounce of gold costs $60.77, what is the total cost of the gold used to make the ring?",
+      "new symbolic struct": "[[var a = (6.9 * 60.77)]]\n[[question t = ['a']]]",
+      "answer": "419.313000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-102-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var w = (6.9 * 3)]]\n[[question t = ['w']]]\ntheme: Ring",
+      "statement": "Suppose the jeweler decides to use less gold and only melts down 6.9 grams instead. If one gram of gold still costs $3, what is the total cost of the gold now used to make the ring?",
+      "new symbolic struct": "[[var b = (6.9 * 3)]]\n[[question n = ['b']]]",
+      "answer": "20.7000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-103-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (95.1 * 4.8)]]\n[[question o = ['q']]]\ntheme: Scooter",
+      "statement": "A scooter travels at a constant speed of 95.1 kilometers per hour. How far will the scooter travel, in kilometers, if it keeps this speed for 4.8 hours?",
+      "new symbolic struct": "[[var d = (95.1 * 4.8)]]\n[[question p = ['d']]]",
+      "answer": "456.480000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-103-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (27 * 4.8)]]\n[[question o = ['q']]]\ntheme: Scooter",
+      "statement": "In the previous problem, the scooter initially traveled at a constant speed of 95.1 kilometers per hour. What if instead, the scooter initially traveled at a lower speed of 27 kilometers per hour. What will be the total distance traveled in 4.8 hours at this reduced speed?",
+      "new symbolic struct": "[[var d2 = (27 * 4.8)]]\n[[question p2 = ['d2']]]",
+      "answer": "129.600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-105-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (37.7 * 12.29)]]\n[[question x = ['t']]]\ntheme: Cat",
+      "statement": "A cat runs at a speed of 37.7 feet per second. How far will the cat run in 12.29 seconds?",
+      "new symbolic struct": "[[var d = (37.7 * 12.29)]]\n[[question f = ['d']]]",
+      "answer": "463.333000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-105-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var t = (37.7 * 61)]]\n[[question x = ['t']]]\ntheme: Cat",
+      "statement": "Let's consider if the cat ran at the same speed but for a longer period of time, say 61 seconds. How far would the cat run in this case?",
+      "new symbolic struct": "[[var e = (37.7 * 61)]]\n[[question g = ['e']]]",
+      "answer": "2299.70000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-106-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var w = (15.8 * 30.8)]]\n[[question o = ['w']]]\ntheme: Snowball",
+      "statement": "A snowball that was 15.8 inches in diameter was rolled and grew at a constant rate until it was 30.8 times its original size. What is the size of the snowball now?",
+      "new symbolic struct": "[[var s = 15.8]]\n[[var t = 30.8]]\n[[var n = s * t]]\n[[question z = ['n']]]",
+      "answer": "486.640000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-106-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var w = (15.8 * 30.8)]]\n[[var n = (w - 82.03)]]\n[[question h = ['n']]]\ntheme: Snowball",
+      "statement": "A snowball that was 15.8 inches in diameter was rolled and grew at a constant rate until it was 30.8 times its original size. Then, due to the sun's heat, it shrank, losing 82.03 inches of its size. What is the size of the snowball now?",
+      "new symbolic struct": "[[var s = 15.8]]\n[[var t = 30.8]]\n[[var g = s * t]]\n[[var l = 82.03]]\n[[var n = g - l]]\n[[question z = ['n']]]",
+      "answer": "404.610000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-106-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var w = (15.8 * 38)]]\n[[question o = ['w']]]\ntheme: Snowball",
+      "statement": "Suppose the snowball that was initially 15.8 inches in diameter was rolled and grew at a constant rate until it was 38 times its original size, instead of 30.8 times. What would be the size of the snowball then?",
+      "new symbolic struct": "[[var s = 15.8]]\n[[var t = 38]]\n[[var n = s * t]]\n[[question z = ['n']]]",
+      "answer": "600.400000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-107-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var x = (16.54 * 87.1)]]\n[[question a = ['x']]]\ntheme: Doll",
+      "statement": "A doll-making factory produces 16.54 identical dolls in an hour. If they operate for 87.1 hours, then how many dolls are being produced during this period?",
+      "new symbolic struct": "[[var r = (16.54 * 87.1)]]\n[[question q = ['r']]]",
+      "answer": "1440.63400000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-107-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var x = (16.54 * 87.1)]]\n[[var m = (x + x)]]\n[[question k = ['m']]]\ntheme: Doll",
+      "statement": "Building on previous information, if the doll-making factory produces 16.54 identical dolls in an hour and they operate for 87.1 hours in two different shifts, then how many dolls are produced in total from the two shifts?",
+      "new symbolic struct": "[[var p = (16.54 * 87.1 * 2)]]\n[[question t = ['p']]]",
+      "answer": "2881.26800000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-107-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var x = (16.54 * 79)]]\n[[question a = ['x']]]\ntheme: Doll",
+      "statement": "In the previous scenario, suppose the doll-making factory instead operates for 79 hours instead of 87.1 hours in each shift. How many dolls would be produced during one shift then?",
+      "new symbolic struct": "[[var s = (16.54 * 79)]]\n[[question t = ['s']]]",
+      "answer": "1306.66000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-108-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (89.5 + 70.77)]]\n[[question n = ['i']]]\ntheme: Swing",
+      "statement": "The length of the chain on one side of a swing is 89.5 cm. The length of the chain on the other side of the swing is 70.77 cm. What is the total length of the chain used for the swing?",
+      "new symbolic struct": "[[var u = 89.5]]\n[[var v = 70.77]]\n[[question total_chain_length = ['u + v']]]",
+      "answer": "160.270000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-108-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (89.5 + 70.77)]]\n[[var j = (i + 3.5)]]\n[[question k = ['j']]]\ntheme: Swing",
+      "statement": "The length of the chain on one side of a swing is 89.5 cm. The length of the chain on the other side of the swing is 70.77 cm, and there is an additional 3.5 cm chain used to attach the swing to the frame. What is the total length of the chain used for the swing, including the attachment?",
+      "new symbolic struct": "[[var u = 89.5]]\n[[var v = 70.77]]\n[[var w = 3.5]]\n[[question total_chain_length = ['u + v + w']]]",
+      "answer": "163.770000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-108-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (13 + 70.77)]]\n[[question n = ['i']]]\ntheme: Swing",
+      "statement": "Previously, the length of the chain on one side of a swing was 89.5 cm. However, after some adjustments, the new length of the chain on this side is now 13 cm. The length of the chain on the other side remains the same at 70.77 cm. What is the total length of the chain used for the swing now?",
+      "new symbolic struct": "[[var previous_length = 89.5]]\n[[var adjustment = -76.5]]\n[[var new_length = previous_length + adjustment]]\n[[var other_side_length = 70.77]]\n[[question total_chain_length = ['new_length + other_side_length']]]",
+      "answer": "83.7700000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-109-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (30.83 - 29.0)]]\n[[question m = ['s']]]\ntheme: Candy",
+      "statement": "A candy store had 30.83 pounds of chocolate candies in its stock. After selling some candies, the store was left with 29.0 pounds of chocolate candies. How many pounds of candies were sold?",
+      "new symbolic struct": "[[var a = 30.83]]\n[[var b = 29.0]]\n[[var c = a - b]]\n[[question sold_candies = ['c']]]",
+      "answer": "1.83000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-109-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (30.83 - 15)]]\n[[question m = ['s']]]\ntheme: Candy",
+      "statement": "The candy store manager realized that they had made an error in their original calculation, and the store was actually initially stocked with 30.83 pounds of chocolate candies but ended up with 15 pounds after some sales. How many pounds of candies were really sold?",
+      "new symbolic struct": "[[var d = 30.83]]\n[[var e = 15.0]]\n[[var f = d - e]]\n[[question sold_candies = ['f']]]",
+      "answer": "15.8300000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-110-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var d = (58.36 - 19.96)]]\n[[question n = ['d']]]\ntheme: Watch",
+      "statement": "You bought a watch for $58.36, but it was on sale and you got a discount of $19.96. How much did you end up paying for the watch?",
+      "new symbolic struct": "[[var p = 58.36]]\n[[var d = 19.96]]\n[[var t = (p - d)]]\n[[question total = ['t']]]",
+      "answer": "38.4000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-110-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var d = (58.36 - 19.96)]]\n[[var y = (d * 15.28)]]\n[[question c = ['y']]]\ntheme: Watch",
+      "statement": "Continuing from the previous question, you decide to sell the watch you bought for a profit, marking up the price you paid by 15.28 times. How much are you selling the watch for?",
+      "new symbolic struct": "[[var p = 58.36]]\n[[var d = 19.96]]\n[[var t = (p - d)]]\n[[var m = 15.28]]\n[[var s = (t * m)]]\n[[question selling_price = ['s']]]",
+      "answer": "586.752000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-110-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var d = (58.36 - 36)]]\n[[question n = ['d']]]\ntheme: Watch",
+      "statement": "In the previous scenario, what if the discount on the watch was instead $36.00 instead of $19.96? How much would you have paid for the watch in this case?",
+      "new symbolic struct": "[[var p = 58.36]]\n[[var d = 36.00]]\n[[var t = (p - d)]]\n[[question total = ['t']]]",
+      "answer": "22.3600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-111-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (6.9 * 63.2)]]\n[[question g = ['s']]]\ntheme: Telescope",
+      "statement": "If one minute of observing time with a powerful telescope costs $6.9, how much would it cost for 63.2 minutes of observation time?",
+      "new symbolic struct": "[[var c = 6.9 * 63.2]]\n[[question cost = ['c']]]",
+      "answer": "436.080000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-111-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (6.9 * 63.2)]]\n[[var a = (s * 22.1)]]\n[[question t = ['a']]]\ntheme: Telescope",
+      "statement": "Following on from the previous scenario, the observatory is offering a package deal where an individual or group can purchase 22.1 lots of the 63.2-minute observation time at a reduced price. If one lot (which consists of 63.2 minutes) of observation time costs $6.9, how much would it cost to purchase the entire package through this deal?",
+      "new symbolic struct": "[[var individualPrice = 6.9 * 63.2]]\n[[var packagePrice = individualPrice * 22.1]]\n[[question cost = ['packagePrice']]]",
+      "answer": "9637.36800000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-111-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var s = (6.9 * 82)]]\n[[question g = ['s']]]\ntheme: Telescope",
+      "statement": "Following on from our previous scenario, what if instead of 63.2 minutes, an individual or a group wants to purchase a block of 82 minutes of telescope observing time at the same rate of $6.9 per minute. How much would it cost then?",
+      "new symbolic struct": "[[var cPrime = 6.9 * 82]]\n[[question cost = ['cPrime']]]",
+      "answer": "565.800000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-112-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (32.52 + 27.3)]]\n[[question x = ['q']]]\ntheme: Sun",
+      "statement": "Two comets traveled a total distance in space. The first comet covered a distance of 32.52 million kilometers, and the second traveled 27.3 million kilometers. Combining the two, what is the total distance both comets traveled?",
+      "new symbolic struct": "[[var a = 32.52]]\n[[var b = 27.3]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "59.8200000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-112-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var q = (61 + 27.3)]]\n[[question x = ['q']]]\ntheme: Sun",
+      "statement": "Reconsidering the two comets, suppose this time the first comet covered a distance of 61 million kilometers instead of 32.52 million kilometers, and the second traveled the same distance as before, i.e. 27.3 million kilometers. Combining the two, what is the total distance both comets traveled now?",
+      "new symbolic struct": "[[var e = 61]]\n[[var f = 27.3]]\n[[var g = e + f]]\n[[question h = ['g']]]",
+      "answer": "88.3000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-113-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (50.53 * 82.82)]]\n[[question z = ['y']]]\ntheme: Tiger",
+      "statement": "A tiger's territory is a rectangle measuring 50.53 km by 82.82 km. What's the total area of the tiger's territory in square kilometers?",
+      "new symbolic struct": "[[var a = 50.53]]\n[[var b = 82.82]]\n[[var c = a * b]]\n[[question d = ['c']]]",
+      "answer": "4184.89460000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-113-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (50.53 * 82.82)]]\n[[var w = (y - 20.3)]]\n[[question a = ['w']]]\ntheme: Tiger",
+      "statement": "Following the previous problem, if a part of the tiger's territory measuring exactly 20.3 square kilometers was taken over by humans for development, what would be the remaining area of the tiger's territory in square kilometers?",
+      "new symbolic struct": "[[var a = 50.53]]\n[[var b = 82.82]]\n[[var c = a * b]]\n[[var e = 20.3]]\n[[var f = c - e]]\n[[question g = ['f']]]",
+      "answer": "4164.59460000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-113-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var y = (50.53 * 94)]]\n[[question z = ['y']]]\ntheme: Tiger",
+      "statement": "Following the previous problem, suppose the width of the tiger's territory was actually 94 km instead of 82.82 km while maintaining the same length. What would then be the total area of the tiger's territory in square kilometers?",
+      "new symbolic struct": "[[var e = 50.53]]\n[[var f = 94]]\n[[var g = e * f]]\n[[question h = ['g']]]",
+      "answer": "4749.82000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-114-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (93.11 * 42.7)]]\n[[question v = ['i']]]\ntheme: Puzzle",
+      "statement": "In a certain puzzle game, each puzzle piece is worth 93.11 points. If a player collects 42.7 pieces, how many points would they have in total?",
+      "new symbolic struct": "[[var t = (93.11 * 42.7)]]\n[[question u = ['t']]]",
+      "answer": "3975.79700000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-114-1",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (93.11 * 42.7)]]\n[[var x = (52.6 + i)]]\n[[question k = ['x']]]\ntheme: Puzzle",
+      "statement": "Following the previous scenario, after collecting the 42.7 pieces, the player then collects an additional 52.6 points. What is the player's total score now?",
+      "new symbolic struct": "[[var t = (93.11 * 42.7)]]\n[[var f = (t + 52.6)]]\n[[question u = ['f']]]",
+      "answer": "4028.39700000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.7-114-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var i = (15 * 42.7)]]\n[[question v = ['i']]]\ntheme: Puzzle",
+      "statement": "Following the previous scenario, suppose each puzzle piece was actually worth 15 points instead of 93.11 points. If a player collects 42.7 pieces, how many points would they have now?",
+      "new symbolic struct": "[[var a = (15 * 42.7)]]\n[[question u = ['a']]]",
+      "answer": "640.500000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.7-115-0",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var x = (56.9 + 59.42)]]\n[[question l = ['x']]]\ntheme: Wizard",
+      "statement": "A wizard crafted a magical potion from two ingredients. The first ingredient has a quantity of 56.9 units and the second one has a quantity of 59.42 units. How many units are there in total in the potion?",
+      "new symbolic struct": "[[var x = 56.9]]\n[[var y = 59.42]]\n[[var t = (x + y)]]\n[[question z = ['t']]]",
+      "answer": "116.320000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.7-115-2",
+      "standard": "5.NBT.B.7",
+      "symbolic-struct": "[[var x = (51 + 59.42)]]\n[[question l = ['x']]]\ntheme: Wizard",
+      "statement": "Suppose the wizard initially started with a different quantity of the first ingredient, having 51 units instead of 56.9 units. How many units would there be in total in the potion then?",
+      "new symbolic struct": "[[var a = 51]]\n[[var y = 59.42]]\n[[var t_prime = (a + y)]]\n[[question z_prime = ['t_prime']]]",
+      "answer": "110.420000000000",
+      "tag": "modified information follow up"
+    }
+  ]
+]

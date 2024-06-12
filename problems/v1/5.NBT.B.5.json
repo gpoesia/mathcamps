@@ -1,0 +1,1903 @@
+[
+  [
+    {
+      "id": "5.NBT.B.5-0-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var s = (225 * 65)]]\n[[question x = ['s']]]\ntheme: Clock",
+      "statement": "If a clock ticks 225 times per hour, how many times will it tick in 65 hours?",
+      "new symbolic struct": "[[var c = 225]]\n[[var h = 65]]\n[[question t = ['c * h']]]",
+      "answer": "14625",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-0-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var s = (225 * 37)]]\n[[question x = ['s']]]\ntheme: Clock",
+      "statement": "If the same clock ticks 225 times per hour, how many times will it tick in 37 hours instead of 65 hours?",
+      "new symbolic struct": "[[var c = 225]]\n[[var h = 37]]\n[[question t = ['c * h']]]",
+      "answer": "8325",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-1-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var y = (302 * 4)]]\n[[question a = ['y']]]\ntheme: Camera",
+      "statement": "A camera shop makes four times more sales in the holiday season. If they usually sell 302 cameras in non-holiday seasons, how many cameras do they sell in the holiday season?",
+      "new symbolic struct": "[[var r = 302]]\n[[var h = 4 * r]]\n[[question a = ['h']]]",
+      "answer": "1208",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-2-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var l = (423 * 128)]]\n[[question s = ['l']]]\ntheme: Ring",
+      "statement": "A jeweler produces 423 rings each day. After 128 days of production, how many total rings have been produced?",
+      "new symbolic struct": "[[var m = 423]]\n[[var n = 128]]\n[[question r = ['m * n']]]",
+      "answer": "54144",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-2-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var l = (713 * 128)]]\n[[question s = ['l']]]\ntheme: Ring",
+      "statement": "Suppose the jeweler modifies his production process and now he can produce 713 rings each day instead of 423. After the same 128 days of production, how many total rings have been produced?",
+      "new symbolic struct": "[[var m = 713]]\n[[var n = 128]]\n[[question r = ['m * n']]]",
+      "answer": "91264",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-3-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var o = (3771 * 17)]]\n[[question u = ['o']]]\ntheme: Chocolate",
+      "statement": "A chocolate factory produces 3771 chocolate bars in one hour. If the factory operates for 17 hours in a day, how many chocolate bars does it produce in that time?",
+      "new symbolic struct": "[[var h = 3771]]\n[[var t = 17]]\n[[question n = ['h * t']]]",
+      "answer": "64107",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-3-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var o = (855 * 17)]]\n[[question u = ['o']]]\ntheme: Chocolate",
+      "statement": "The chocolate factory has decided to reduce its hourly production. Now it only produces 855 chocolate bars in one hour. If they continue to operate for 17 hours a day, how many chocolate bars will they produce in that time?",
+      "new symbolic struct": "[[var h1 = 855]]\n[[var t1 = 17]]\n[[question n1 = ['h1 * t1']]]",
+      "answer": "14535",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-4-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var i = (3973 * 4)]]\n[[question e = ['i']]]\ntheme: Card",
+      "statement": "In a board game, if you earn 3973 points for each card you play and you managed to play 4 cards, how many points have you earned?",
+      "new symbolic struct": "[[var a = 3973]]\n[[var b = 4]]\n[[question c = ['a * b']]]",
+      "answer": "15892",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-4-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var i = (1436 * 4)]]\n[[question e = ['i']]]\ntheme: Card",
+      "statement": "In the same board game, let's say there was an update and now you earn 1436 points for each card you play. If you played 4 cards with the new rules, how many points have you earned now?",
+      "new symbolic struct": "[[var d = 1436]]\n[[var e = 4]]\n[[question f = ['d * e']]]",
+      "answer": "5744",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-5-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var e = (141 * 459)]]\n[[question f = ['e']]]\ntheme: Ring",
+      "statement": "A jewelry designer uses 459 small diamonds for each ring she makes. If she decides to make 141 rings, how many diamonds will she need in total?",
+      "new symbolic struct": "[[var d = 459]]\n[[var r = 141]]\n[[question t = ['d * r']]]",
+      "answer": "64719",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-5-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var e = (141 * 98)]]\n[[question f = ['e']]]\ntheme: Ring",
+      "statement": "If the jewelry designer decides to make each ring with only 98 small diamonds instead of 459, how many diamonds will she need in total to make 141 rings?",
+      "new symbolic struct": "[[var d = 98]]\n[[var r = 141]]\n[[question t = ['d * r']]]",
+      "answer": "13818",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-7-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (4285 * 20)]]\n[[question r = ['p']]]\ntheme: Food",
+      "statement": "A famous restaurant sells a popular dish for $20. If they sold 4285 dishes, how much revenue did they generate from this dish alone?",
+      "new symbolic struct": "[[var d = 20]]\n[[var s = 4285]]\n[[question r = ['d * s']]]",
+      "answer": "85700",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-7-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (1946 * 20)]]\n[[question r = ['p']]]\ntheme: Food",
+      "statement": "If the restaurant decided to change the recipe and the new dish was not as popular, selling only 1946 dishes for the same price of $20, how much revenue did the restaurant generate from this new dish?",
+      "new symbolic struct": "[[var d = 20]]\n[[var s_new = 1946]]\n[[question r_new = ['d * s_new']]]",
+      "answer": "38920",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-9-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (5998 * 2)]]\n[[question t = ['m']]]\ntheme: Banana",
+      "statement": "A banana plantation produces 5998 bananas per tree. If a farmer has two such trees, how many bananas does the farmer produce from these two trees in total?",
+      "new symbolic struct": "[[var m = 5998]]\n[[var n = 2]]\n[[question b = ['m * n']]]",
+      "answer": "11996",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-9-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (3185 * 2)]]\n[[question t = ['m']]]\ntheme: Banana",
+      "statement": "If instead of 5998 bananas per tree, the farmer's trees were only able to produce 3185 bananas each, how many bananas would the two trees produce together?",
+      "new symbolic struct": "[[var m = 3185]]\n[[var n = 2]]\n[[question b = ['m * n']]]",
+      "answer": "6370",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-10-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var t = (14 * 6085)]]\n[[question b = ['t']]]\ntheme: Skateboard",
+      "statement": "A skateboard manufacturer uses 14 screws for each skateboard. If they aim to produce 6085 skateboards, how many screws will they need?",
+      "new symbolic struct": "[[var s = 14]]\n[[var b = 6085]]\n[[question n = ['s * b']]]",
+      "answer": "85190",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-10-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var t = (14 * 556)]]\n[[question b = ['t']]]\ntheme: Skateboard",
+      "statement": "In the previous scenario, if the skateboard manufacturer initially planned to produce only 556 skateboards instead of 6085, how many screws would they need then?",
+      "new symbolic struct": "[[var s = 14]]\n[[var p = 556]]\n[[question m = ['s * p']]]",
+      "answer": "7784",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-11-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var q = (7 * 8688)]]\n[[question r = ['q']]]\ntheme: Bottle",
+      "statement": "A water bottle factory produces 8688 bottles every day. If they continue production for a week (7 days), how many bottles would they produce?",
+      "new symbolic struct": "[[var d = 8688]]\n[[var w = 7]]\n[[question b = ['d * w']]]",
+      "answer": "60816",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-11-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var q = (7 * 2655)]]\n[[question r = ['q']]]\ntheme: Bottle",
+      "statement": "Suppose the water bottle factory experiences a decrease in productivity and now only produces 2655 bottles each day. If they continue production for a week (7 days), how many bottles would they now produce?",
+      "new symbolic struct": "[[var d_new = 2655]]\n[[var w = 7]]\n[[question b_new = ['d_new * w']]]",
+      "answer": "18585",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-12-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var q = (6347 * 11)]]\n[[question f = ['q']]]\ntheme: Bike",
+      "statement": "A bicycle company produces 6347 bicycles every month. How many bicycles does the company produce in 11 months?",
+      "new symbolic struct": "[[var b = 6347]]\n[[var m = 11]]\n[[question t = ['b * m']]]",
+      "answer": "69817",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-12-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var q = (3054 * 11)]]\n[[question f = ['q']]]\ntheme: Bike",
+      "statement": "If the same bicycle company instead produced 3054 bicycles every month, how many bicycles would the company then produce in 11 months?",
+      "new symbolic struct": "[[var b_new = 3054]]\n[[var m = 11]]\n[[question t_new = ['b_new * m']]]",
+      "answer": "33594",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-13-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var w = (9932 * 2)]]\n[[question k = ['w']]]\ntheme: Baby",
+      "statement": "If a baby needs 9932 breaths a day, how many breaths does the baby need in 2 days?",
+      "new symbolic struct": "[[var b = 9932]]\n[[var d = 2]]\n[[question k = ['b * d']]]",
+      "answer": "19864",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-13-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var w = (6860 * 2)]]\n[[question k = ['w']]]\ntheme: Baby",
+      "statement": "If instead, a baby needs 6860 breaths a day, how many breaths would the baby need in 2 days?",
+      "new symbolic struct": "[[var b = 6860]]\n[[var d = 2]]\n[[question k = ['b * d']]]",
+      "answer": "13720",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-14-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var y = (8555 * 9)]]\n[[question n = ['y']]]\ntheme: Slide",
+      "statement": "A playground slide takes 8555 seconds for a child to fully descend. If a child decided to slide down 9 times in a row, how many seconds in total did the child spend sliding?",
+      "new symbolic struct": "[[var z = 8555]]\n[[var x = 9]]\n[[question t = ['z * x']]]",
+      "answer": "76995",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-14-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var y = (9780 * 9)]]\n[[question n = ['y']]]\ntheme: Slide",
+      "statement": "Previously, it took a child 8555 seconds to fully descend a playground slide, and they decided to go down 9 times. Now, imagine the child goes to a different playground, where the slide takes 9780 seconds to fully descend. If the child decides to slide down the same slide 9 times, how many seconds will they spend on this new slide?",
+      "new symbolic struct": "[[var y = 9780]]\n[[var x = 9]]\n[[question m = ['y * x']]]",
+      "answer": "88020",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-15-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var j = (631 * 36)]]\n[[question i = ['j']]]\ntheme: Slide",
+      "statement": "A slide's length is measured and found to be 631 inches. If this length was increased by a factor of 36, how long would the slide be now?",
+      "new symbolic struct": "[[var s = 631]]\n[[var f = 36]]\n[[question l = ['s * f']]]",
+      "answer": "22716",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-15-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var j = (2148 * 36)]]\n[[question i = ['j']]]\ntheme: Slide",
+      "statement": "If instead the original length of the slide was 2148 inches, what would be the new length of the slide after it was increased by a factor of 36?",
+      "new symbolic struct": "[[var s = 2148]]\n[[var f = 36]]\n[[question l = ['s * f']]]",
+      "answer": "77328",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-16-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (480 * 197)]]\n[[question a = ['h']]]\ntheme: Stuffed animal",
+      "statement": "A toy factory produces 480 stuffed animals every hour. If they operate for 197 hours, how many stuffed animals would they have produced?",
+      "new symbolic struct": "[[var h = 480]]\n[[var t = 197]]\n[[question s = ['h * t']]]",
+      "answer": "94560",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-16-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (452 * 197)]]\n[[question a = ['h']]]\ntheme: Stuffed animal",
+      "statement": "Suppose the toy factory increases their production and makes 452 stuffed animals every hour instead of 480. If they still operate for 197 hours, how many stuffed animals would they now produce?",
+      "new symbolic struct": "[[var i = 452]]\n[[var j = 197]]\n[[question w = ['i * j']]]",
+      "answer": "89044",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-17-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (77 * 1209)]]\n[[question b = ['r']]]\ntheme: Door",
+      "statement": "A carpenter is tasked to make 77 doors for a new building. Each door requires 1209 work units to complete. What is the total number of work units required to make all the doors?",
+      "new symbolic struct": "[[var d = 77]]\n[[var w = 1209]]\n[[question t = ['d * w']]]",
+      "answer": "93093",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-17-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (77 * 723)]]\n[[question b = ['r']]]\ntheme: Door",
+      "statement": "The carpenter realizes that instead of requiring 1209 work units for each door, they actually only need 723 work units per door. Given this updated information, what is the total number of work units required to make the 77 doors?",
+      "new symbolic struct": "[[var d = 77]]\n[[var w_updated = 723]]\n[[question t_updated = ['d * w_updated']]]",
+      "answer": "55671",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-18-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (2473 * 23)]]\n[[question l = ['m']]]\ntheme: Tomato",
+      "statement": "A farmer collected 2473 tomatoes from each tomato plant. If the farmer has 23 tomato plants, how many tomatoes did the farmer collect in total?",
+      "new symbolic struct": "[[var t = 2473]]\n[[var p = 23]]\n[[question total = ['t * p']]]",
+      "answer": "56879",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-18-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (4156 * 23)]]\n[[question l = ['m']]]\ntheme: Tomato",
+      "statement": "Consider now that the farmer collected 4156 tomatoes from each tomato plant instead of 2473. If the farmer still has 23 tomato plants, how many tomatoes did the farmer collect now?",
+      "new symbolic struct": "[[var t = 4156]]\n[[var p = 23]]\n[[question total = ['t * p']]]",
+      "answer": "95588",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-19-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (699 * 51)]]\n[[question l = ['r']]]\ntheme: Pants",
+      "statement": "A store sells 699 pairs of pants each day. If the store is open 51 days in two months, how many pants do they sell in two months?",
+      "new symbolic struct": "[[var p = 699]]\n[[var d = 51]]\n[[question t = ['p * d']]]",
+      "answer": "35649",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-19-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (1462 * 51)]]\n[[question l = ['r']]]\ntheme: Pants",
+      "statement": "Due to a rise in popularity, the pants store began selling 1462 pairs of pants each day. Keeping the same 51 days open in two months as before, how many pants would they sell in those two months now?",
+      "new symbolic struct": "[[var p_new = 1462]]\n[[var d = 51]]\n[[question t_new = ['p_new * d']]]",
+      "answer": "74562",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-20-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var l = (3639 * 10)]]\n[[question x = ['l']]]\ntheme: Number",
+      "statement": "If you multiply the number 3639 by 10, what result do you get?",
+      "new symbolic struct": "[[var y = 3639]]\n[[question x = ['y * 10']]]",
+      "answer": "36390",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-20-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var l = (7033 * 10)]]\n[[question x = ['l']]]\ntheme: Number",
+      "statement": "If you multiply the number 7033 by 10 instead of 3639, what result do you get?",
+      "new symbolic struct": "[[var z = 7033]]\n[[question y = ['z * 10']]]",
+      "answer": "70330",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-21-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var z = (14 * 6314)]]\n[[question h = ['z']]]\ntheme: Keys",
+      "statement": "A convenience store sells packs of keys with each pack containing 6314 keys. If they just sold 14 packs, how many keys have they sold in total?",
+      "new symbolic struct": "[[var n = 6314]]\n[[var p = 14]]\n[[question t = ['n * p']]]",
+      "answer": "88396",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-21-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var z = (14 * 4352)]]\n[[question h = ['z']]]\ntheme: Keys",
+      "statement": "The convenience store later decided to sell the packs of keys which each pack containing 4352 keys instead of 6314. If they then sold 14 packs, how many keys have they sold from these smaller packs?",
+      "new symbolic struct": "[[var m = 4352]]\n[[var p2 = 14]]\n[[question t2 = ['m * p2']]]",
+      "answer": "60928",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-22-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var l = (149 * 478)]]\n[[question e = ['l']]]\ntheme: Sandbox",
+      "statement": "In a sandbox game, a player needs 149 units of sand to build a castle. If they build 478 castles, how many units of sand did they use in total?",
+      "new symbolic struct": "[[var s = 149]]\n[[var c = 478]]\n[[question u = ['s * c']]]",
+      "answer": "71222",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-23-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (7364 * 10)]]\n[[question e = ['m']]]\ntheme: Bee",
+      "statement": "A single colony of bees can produce 7364 grams of honey a day. If a beekeeper allows the bees to collect nectar and produce honey for 10 days, how many grams of honey does the colony produce?",
+      "new symbolic struct": "[[var b = 7364]]\n[[var d = 10]]\n[[question h = ['b * d']]]",
+      "answer": "73640",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-23-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (9201 * 10)]]\n[[question e = ['m']]]\ntheme: Bee",
+      "statement": "Suppose instead of 7364 grams of honey a day, a single colony of bees can actually produce 9201 grams of honey a day. If the beekeeper still allows the bees to collect nectar and produce honey for 10 days, how many grams of honey does the colony produce now?",
+      "new symbolic struct": "[[var c = 9201]]\n[[var d = 10]]\n[[question h = ['c * d']]]",
+      "answer": "92010",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-24-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var b = (591 * 3)]]\n[[question o = ['b']]]\ntheme: Ice skates",
+      "statement": "A factory manufactures 591 pairs of ice skates in a day. If they operate for 3 days straight, how many pairs of ice skates do they produce?",
+      "new symbolic struct": "[[var n = 591]]\n[[var t = 3]]\n[[question p = ['n * t']]]",
+      "answer": "1773",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-24-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var b = (1924 * 3)]]\n[[question o = ['b']]]\ntheme: Ice skates",
+      "statement": "They now intend to increase their production and manufacture 1924 pairs of ice skates in a day. If they operate for the same 3 days, how many pairs of ice skates will they produce then?",
+      "new symbolic struct": "[[var m = 1924]]\n[[var t = 3]]\n[[question q = ['m * t']]]",
+      "answer": "5772",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-25-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (1381 * 18)]]\n[[question a = ['h']]]\ntheme: Frog",
+      "statement": "A certain region has 1381 species of frogs. If each species has an average of 18 unique characteristics, how many unique characteristics can be found across all frog species in the region?",
+      "new symbolic struct": "[[var s = 1381]]\n[[var c = 18]]\n[[question u = ['s * c']]]",
+      "answer": "24858",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-25-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (878 * 18)]]\n[[question a = ['h']]]\ntheme: Frog",
+      "statement": "The researchers realized they made an error and there are actually 878 species of frogs in the region instead of 1381. How many unique characteristics are there across all species of frogs in the region when considering this new number?",
+      "new symbolic struct": "[[var s = 878]]\n[[var c = 18]]\n[[question u = ['s * c']]]",
+      "answer": "15804",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-26-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var q = (935 * 93)]]\n[[question k = ['q']]]\ntheme: Treasure chest",
+      "statement": "A pirate treasure chest contains 935 gold coins. If there were 93 identical treasure chests, how many gold coins would there be in total?",
+      "new symbolic struct": "[[var g = 935]]\n[[var t = 93]]\n[[question c = ['g * t']]]",
+      "answer": "86955",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-26-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var q = (692 * 93)]]\n[[question k = ['q']]]\ntheme: Treasure chest",
+      "statement": "In the previous scenario, suppose that instead of 935 gold coins, each treasure chest contained 692 gold coins. How many gold coins would there be in total if there were still 93 identical treasure chests?",
+      "new symbolic struct": "[[var g = 692]]\n[[var t = 93]]\n[[question c = ['g * t']]]",
+      "answer": "64356",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-27-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var v = (4838 * 6)]]\n[[question g = ['v']]]\ntheme: Bed",
+      "statement": "A bed manufacturing company produces 4838 beds in a day. If the company operates 6 days a week, how many beds does it produce in a week?",
+      "new symbolic struct": "[[var b = 4838]]\n[[var d = 6]]\n[[question t = ['b * d']]]",
+      "answer": "29028",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-27-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var v = (7776 * 6)]]\n[[question g = ['v']]]\ntheme: Bed",
+      "statement": "Suppose the bed manufacturing company improves its production capabilities and can now produce 7776 beds in a day. Given that the company still operates 6 days a week, how many beds would it be able to produce in a week with this new production rate?",
+      "new symbolic struct": "[[var b_new = 7776]]\n[[var d = 6]]\n[[question t_new = ['b_new * d']]]",
+      "answer": "46656",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-28-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var z = (3 * 806)]]\n[[question w = ['z']]]\ntheme: Dress",
+      "statement": "A designer needs 806 yards of fabric to make one dress. If they want to make 3 dresses, how many yards of fabric do they need in total?",
+      "new symbolic struct": "[[var m = 806]]\n[[var n = 3]]\n[[question total = ['m * n']]]",
+      "answer": "2418",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-28-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var z = (3 * 7411)]]\n[[question w = ['z']]]\ntheme: Dress",
+      "statement": "The designer now aims to make a more complex dress design that requires 7411 yards of fabric for one dress. If they want to make 3 of these dresses, how many yards of fabric will they need?",
+      "new symbolic struct": "[[var y = 7411]]\n[[var z = 3]]\n[[question total2 = ['y * z']]]",
+      "answer": "22233",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-29-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (1907 * 24)]]\n[[question p = ['m']]]\ntheme: Astronaut",
+      "statement": "An astronaut at a space station on a long-duration mission takes 1907 breaths per hour. Find out the total number of breaths he takes in a day (24 hours).",
+      "new symbolic struct": "[[var b = 1907]]\n[[var h = 24]]\n[[question t = ['b * h']]]",
+      "answer": "45768",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-29-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (169 * 24)]]\n[[question p = ['m']]]\ntheme: Astronaut",
+      "statement": "In the same scenario, if the astronaut instead takes 169 breaths per hour, how many breaths would he take in a day (24 hours)?",
+      "new symbolic struct": "[[var b = 169]]\n[[var h = 24]]\n[[question t = ['b * h']]]",
+      "answer": "4056",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-30-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var z = (817 * 109)]]\n[[question k = ['z']]]\ntheme: Money",
+      "statement": "If you earned 817 dollars every week for 109 weeks, how much money would you have earned in total?",
+      "new symbolic struct": "[[var e = 817]]\n[[var w = 109]]\n[[question t = ['e * w']]]",
+      "answer": "89053",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-30-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var z = (597 * 109)]]\n[[question k = ['z']]]\ntheme: Money",
+      "statement": "If instead you earned 597 dollars every week for the same period of 109 weeks, how much money would you have earned in total?",
+      "new symbolic struct": "[[var e_new = 597]]\n[[var w = 109]]\n[[question t_new = ['e_new * w']]]",
+      "answer": "65073",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-31-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var f = (832 * 103)]]\n[[question j = ['f']]]\ntheme: Sandwich",
+      "statement": "A sandwich shop sells 832 sandwiches each day. How many sandwiches do they sell in 103 days?",
+      "new symbolic struct": "[[var s = 832]]\n[[var d = 103]]\n[[question r = ['s * d']]]",
+      "answer": "85696",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-31-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var f = (832 * 15)]]\n[[question j = ['f']]]\ntheme: Sandwich",
+      "statement": "If the sandwich shop decided to limit their daily sales and only sold 832 sandwiches for 15 days instead of 103 days, how many sandwiches would it sell in that newly restricted time frame?",
+      "new symbolic struct": "[[var s = 832]]\n[[var d = 15]]\n[[question r = ['s * d']]]",
+      "answer": "12480",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-32-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (10 * 1416)]]\n[[question g = ['p']]]\ntheme: Monkey",
+      "statement": "If one monkey can peel 1416 bananas in one hour, how many bananas would ten monkeys be able to peel in the same amount of time?",
+      "new symbolic struct": "[[var s = 1416]]\n[[var t = 10]]\n[[question z = ['s * t']]]",
+      "answer": "14160",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-32-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (10 * 4876)]]\n[[question g = ['p']]]\ntheme: Monkey",
+      "statement": "If each of the same ten monkeys from the previous question could peel 4876 bananas in an hour instead, how many bananas could they peel in total?",
+      "new symbolic struct": "[[var x = 4876]]\n[[var t = 10]]\n[[question y = ['x * t']]]",
+      "answer": "48760",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-33-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var x = (9996 * 5)]]\n[[question z = ['x']]]\ntheme: Dragon",
+      "statement": "A dragon has 9996 scales on one side of its body. If the dragon has scales on both sides and the tail with the same amount, a total of 5 parts. How many scales does the dragon have in total?",
+      "new symbolic struct": "[[var s = 9996]]\n[[var p = 5]]\n[[question t = ['s * p']]]",
+      "answer": "49980",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-33-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var x = (904 * 5)]]\n[[question z = ['x']]]\ntheme: Dragon",
+      "statement": "What if instead of 9996 scales, the dragon has 904 scales on one side of its body? Given that the dragon still has scales on both sides and the tail, a total of 5 parts, how many scales does this dragon have in total?",
+      "new symbolic struct": "[[var s = 904]]\n[[var p = 5]]\n[[question t = ['s * p']]]",
+      "answer": "4520",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-34-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var g = (456 * 89)]]\n[[question q = ['g']]]\ntheme: Sunglasses",
+      "statement": "A sunglasses manufacturer makes 456 pairs of sunglasses per day. If there is a continuous production for 89 days, how many pairs of sunglasses did the manufacturer produce?",
+      "new symbolic struct": "[[var h = 456]]\n[[var k = 89]]\n[[question s = ['h * k']]]",
+      "answer": "40584",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-34-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var g = (188 * 89)]]\n[[question q = ['g']]]\ntheme: Sunglasses",
+      "statement": "Suppose that due to a shortage in material, the sunglasses manufacturer can now only make 188 pairs of sunglasses per day. If there is still a continuous production for 89 days, how many pairs of sunglasses will the manufacturer produce now under these new conditions?",
+      "new symbolic struct": "[[var h1 = 188]]\n[[var k = 89]]\n[[question s = ['h1 * k']]]",
+      "answer": "16732",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-35-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (19 * 1943)]]\n[[question d = ['h']]]\ntheme: Doctor",
+      "statement": "A doctor has 19 patients in a day and each visit lasts 1943 seconds. How much time in seconds does the doctor spend seeing patients in one day?",
+      "new symbolic struct": "[[var v = 19]]\n[[var s = 1943]]\n[[question t = ['v * s']]]",
+      "answer": "36917",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-35-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (19 * 2822)]]\n[[question d = ['h']]]\ntheme: Doctor",
+      "statement": "If instead of 1943 seconds, each patient's visit lasts 2822 seconds, how much time in seconds does the doctor spend seeing patients in one day?",
+      "new symbolic struct": "[[var v = 19]]\n[[var s2 = 2822]]\n[[question t2 = ['v * s2']]]",
+      "answer": "53618",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-36-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (600 * 123)]]\n[[question v = ['m']]]\ntheme: Farm",
+      "statement": "A farmer has 600 apple trees in his farm. Each apple tree produces 123 apples in a fruiting season. How many apples does the farmer get in one season?",
+      "new symbolic struct": "[[var t = 600]]\n[[var a = 123]]\n[[question n = ['t * a']]]",
+      "answer": "73800",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-36-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (519 * 123)]]\n[[question v = ['m']]]\ntheme: Farm",
+      "statement": "The same farmer decided to plant 519 pear trees on a different part of his farm. If each pear tree produces 123 pears in a fruiting season, how many pears does the farmer get in one season?",
+      "new symbolic struct": "[[var p = 519]]\n[[var c = 123]]\n[[question m = ['p * c']]]",
+      "answer": "63837",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-37-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var j = (15 * 5490)]]\n[[question a = ['j']]]\ntheme: Giraffe",
+      "statement": "A giraffe spends approximately 15 hours a day eating. If a single hour of eating requires them to consume 5490 leaves, how many leaves will a giraffe eat in one day?",
+      "new symbolic struct": "[[var H = 15]]\n[[var L = 5490]]\n[[question D = ['H * L']]]",
+      "answer": "82350",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-38-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var q = (4116 * 3)]]\n[[question x = ['q']]]\ntheme: Marshmallow",
+      "statement": "A marshmallow company can produce 4116 marshmallows in one hour. If the company operates for 3 hours, how many marshmallows will they produce?",
+      "new symbolic struct": "[[var m = 4116]]\n[[var o = 3]]\n[[question n = ['m * o']]]",
+      "answer": "12348",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-38-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var q = (4432 * 3)]]\n[[question x = ['q']]]\ntheme: Marshmallow",
+      "statement": "The marshmallow company found a way to increase their production to 4432 marshmallows in one hour. If the company still operates for 3 hours, how many marshmallows will they now produce?",
+      "new symbolic struct": "[[var m_new = 4432]]\n[[var o = 3]]\n[[question n_new = ['m_new * o']]]",
+      "answer": "13296",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-39-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var v = (2885 * 29)]]\n[[question m = ['v']]]\ntheme: Cloud",
+      "statement": "Each cloud in a particular region weighs an average of 2885 kg. If there are about 29 of such clouds in the sky at once, how much total weight do they represent?",
+      "new symbolic struct": "[[var c = 2885]]\n[[var n = 29]]\n[[question t = ['c * n']]]",
+      "answer": "83665",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-39-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var v = (1926 * 29)]]\n[[question m = ['v']]]\ntheme: Cloud",
+      "statement": "Each cloud in a particular region originally was thought to weigh an average of 2885 kg. New data corrected this estimate to an average weight of 1926 kg per cloud. If there are still about 29 such clouds in the sky at once, how much total weight do they now represent?",
+      "new symbolic struct": "[[var c_prime = 1926]]\n[[var n = 29]]\n[[question t_prime = ['c_prime * n']]]",
+      "answer": "55854",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-40-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var n = (43 * 2230)]]\n[[question e = ['n']]]\ntheme: Fairy",
+      "statement": "In a fairyland, a fairy can spread magic dust 43 times a day. Each time, she uses up 2230 tiny sparkling magic dust particles. How many particles does she use up in one day?",
+      "new symbolic struct": "[[var m = 43]]\n[[var p = 2230]]\n[[question d = ['m * p']]]",
+      "answer": "95890",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-41-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (2818 * 27)]]\n[[question s = ['u']]]\ntheme: Camera",
+      "statement": "A camera making factory produces 2818 cameras in a day. If the factory operates for 27 days, how many cameras were produced in the 27 days?",
+      "new symbolic struct": "[[var r = 2818]]\n[[var d = 27]]\n[[question t = ['r * d']]]",
+      "answer": "76086",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-41-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (2795 * 27)]]\n[[question s = ['u']]]\ntheme: Camera",
+      "statement": "Suppose that the camera factory had difficulty in sourcing components and was only able to produce 2795 cameras in a day instead of 2818. If the factory still operates for 27 days, how many cameras will then be produced in these 27 days?",
+      "new symbolic struct": "[[var s = 2795]]\n[[var d = 27]]\n[[question v = ['s * d']]]",
+      "answer": "75465",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-42-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var g = (177 * 326)]]\n[[question i = ['g']]]\ntheme: Elephant",
+      "statement": "On a wildlife reservation, there are 177 elephants. Each elephant consumes 326 kg of food each day. How many kilograms of food do the elephants consume in total in a single day?",
+      "new symbolic struct": "[[var e = 177]]\n[[var f = 326]]\n[[question t = ['e * f']]]",
+      "answer": "57702",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-42-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var g = (177 * 127)]]\n[[question i = ['g']]]\ntheme: Elephant",
+      "statement": "If instead, each elephant consumes 127 kg of food each day, how many kilograms of food do the elephants consume in total in a single day?",
+      "new symbolic struct": "[[var e = 177]]\n[[var f_new = 127]]\n[[question t_new = ['e * f_new']]]",
+      "answer": "22479",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-43-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (1800 * 20)]]\n[[question l = ['u']]]\ntheme: Cloud",
+      "statement": "A cloud can hold about 1800 liters of water per cubic meter. If a certain cloud has an approximate volume of 20 cubic meters, how many liters of water can this cloud hold?",
+      "new symbolic struct": "[[var v = 1800]]\n[[var c = 20]]\n[[question l = ['v * c']]]",
+      "answer": "36000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-43-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (830 * 20)]]\n[[question l = ['u']]]\ntheme: Cloud",
+      "statement": "Assuming the same cloud from the previous problem now holds only about 830 liters of water per cubic meter. How many liters of water would this cloud hold with the same volume of 20 cubic meters?",
+      "new symbolic struct": "[[var v_new = 830]]\n[[var c_same = 20]]\n[[question l_new = ['v_new * c_same']]]",
+      "answer": "16600",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-44-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var f = (1562 * 43)]]\n[[question w = ['f']]]\ntheme: Cake",
+      "statement": "A bakery sells each cake for $1562. If they sold 43 cakes in a day, how much did they earn?",
+      "new symbolic struct": "[[var x = 1562]]\n[[var y = 43]]\n[[question z = ['x * y']]]",
+      "answer": "67166",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-44-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var f = (527 * 43)]]\n[[question w = ['f']]]\ntheme: Cake",
+      "statement": "In the same bakery, there is another kind of cake that sells for $527. If they also managed to sell 43 of these cakes in a day, how much would they make from these cakes?",
+      "new symbolic struct": "[[var a = 527]]\n[[var b = 43]]\n[[question c = ['a * b']]]",
+      "answer": "22661",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-45-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var w = (2452 * 34)]]\n[[question h = ['w']]]\ntheme: Balloon",
+      "statement": "A particular kind of balloon can lift 34 grams. If a large experiment requires 2452 of these balloons to lift it, how many grams can the experiment weigh in total?",
+      "new symbolic struct": "[[var b = 34]]\n[[var e = 2452]]\n[[question w = ['b * e']]]",
+      "answer": "83368",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-45-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var w = (2257 * 34)]]\n[[question h = ['w']]]\ntheme: Balloon",
+      "statement": "In a similar scenario, if a smaller experiment only requires 2257 of these balloons to lift it instead, how many grams can this smaller experiment weigh in total?",
+      "new symbolic struct": "[[var b = 34]]\n[[var e_small = 2257]]\n[[question w_small = ['b * e_small']]]",
+      "answer": "76738",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-46-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var s = (6857 * 10)]]\n[[question p = ['s']]]\ntheme: Roller skates",
+      "statement": "A roller skate manufacturing company machines 6857 sets of wheels per day. If the full production run lasted for 10 days, how many sets of wheels were made?",
+      "new symbolic struct": "[[var w = 6857]]\n[[var d = 10]]\n[[question total_wheels = ['w * d']]]",
+      "answer": "68570",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-46-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var s = (4400 * 10)]]\n[[question p = ['s']]]\ntheme: Roller skates",
+      "statement": "If instead the roller skate manufacturing company produced 4400 sets of wheels per day and continued this for 10 days, how many sets of wheels were made under this new condition?",
+      "new symbolic struct": "[[var w1 = 4400]]\n[[var d1 = 10]]\n[[question total_wheels1 = ['w1 * d1']]]",
+      "answer": "44000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-47-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var g = (25 * 1333)]]\n[[question n = ['g']]]\ntheme: Jacket",
+      "statement": "A designer jacket maker produces 25 jackets per day. If he continues this production rate for 1333 days, how many jackets would he have produced in total?",
+      "new symbolic struct": "[[var p = 25]]\n[[var d = 1333]]\n[[question t = ['p * d']]]",
+      "answer": "33325",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-47-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var g = (25 * 2353)]]\n[[question n = ['g']]]\ntheme: Jacket",
+      "statement": "If instead of 1333 days, the designer jacket maker continued his production rate of 25 jackets per day over 2353 days, how many jackets would he have produced then?",
+      "new symbolic struct": "[[var p = 25]]\n[[var d = 2353]]\n[[question t = ['p * d']]]",
+      "answer": "58825",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-48-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var x = (46 * 1337)]]\n[[question z = ['x']]]\ntheme: Bottle",
+      "statement": "A factory can produce 46 bottles per minute. If it runs continuously for 1337 minutes, how many bottles are produced in total?",
+      "new symbolic struct": "[[var b = 46]]\n[[var t = 1337]]\n[[question a = ['b * t']]]",
+      "answer": "61502",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-48-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var x = (46 * 2047)]]\n[[question z = ['x']]]\ntheme: Bottle",
+      "statement": "What if the factory ran for a longer time? If the factory was producing 46 bottles per minute and it ran continuously for 2047 minutes, then how many bottles would it have produced in total?",
+      "new symbolic struct": "[[var b = 46]]\n[[var t = 2047]]\n[[question a = ['b * t']]]",
+      "answer": "94162",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-49-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (694 * 107)]]\n[[question j = ['u']]]\ntheme: Hat",
+      "statement": "A hat company manufactures an average of 694 hats each day. After keeping the machines running for 107 continuous days, how many hats were produced?",
+      "new symbolic struct": "[[var h = 694]]\n[[var d = 107]]\n[[question t = ['h * d']]]",
+      "answer": "74258",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-49-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (554 * 107)]]\n[[question j = ['u']]]\ntheme: Hat",
+      "statement": "Suppose the hat company had a slightly lower daily average, only manufacturing 554 hats each day instead of 694. If they kept the machines running for the same period of 107 days, how many hats were produced now?",
+      "new symbolic struct": "[[var h2 = 554]]\n[[var d = 107]]\n[[question t2 = ['h2 * d']]]",
+      "answer": "59278",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-50-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (31 * 2955)]]\n[[question n = ['p']]]\ntheme: Cucumber",
+      "statement": "A farmer grows 31 cucumbers each day. After 2955 days, how many cucumbers has the farmer grown?",
+      "new symbolic struct": "[[var q = 31]]\n[[var e = 2955]]\n[[question k = ['q * e']]]",
+      "answer": "91605",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-50-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (31 * 469)]]\n[[question n = ['p']]]\ntheme: Cucumber",
+      "statement": "If the farmer instead grows 469 cucumbers each day, how many cucumbers will he have grown after 31 days?",
+      "new symbolic struct": "[[var q = 469]]\n[[var e = 31]]\n[[question k = ['q * e']]]",
+      "answer": "14539",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-51-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var j = (10 * 715)]]\n[[question f = ['j']]]\ntheme: Grapes",
+      "statement": "A grape vine produces 10 bunches of grapes in a day. If each bunch of grapes sells for 715 dollars, how much worth of grapes does a vine produce each day?",
+      "new symbolic struct": "[[var b = 10]]\n[[var p = 715]]\n[[question v = ['b * p']]]",
+      "answer": "7150",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-52-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (850 * 109)]]\n[[question d = ['h']]]\ntheme: Plane",
+      "statement": "A plane flies at a speed of 850 kilometers per hour. If it flies continuously for 109 hours, how many kilometers will it have flown?",
+      "new symbolic struct": "[[var s = 850]]\n[[var t = 109]]\n[[question d = ['s * t']]]",
+      "answer": "92650",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-52-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (43 * 109)]]\n[[question d = ['h']]]\ntheme: Plane",
+      "statement": "If the plane was flying at a slower speed of 43 kilometers per hour instead of 850 kilometers per hour. How many kilometers would the plane have flown now after 109 hours?",
+      "new symbolic struct": "[[var s2 = 43]]\n[[var time = 109]]\n[[question d2 = ['s2 * time']]]",
+      "answer": "4687",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-53-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (548 * 179)]]\n[[question o = ['p']]]\ntheme: Ice skates",
+      "statement": "An ice skate store sold 548 pairs of ice skates each week. If ice skating season lasts 179 weeks, how many pairs of ice skates did the store sell in total during that time?",
+      "new symbolic struct": "[[var s = 548]]\n[[var t = 179]]\n[[question total = ['s * t']]]",
+      "answer": "98092",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-53-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (548 * 148)]]\n[[question o = ['p']]]\ntheme: Ice skates",
+      "statement": "If the same ice skate store only sold 548 pairs of ice skates for 148 weeks instead of 179 weeks, how many pairs of ice skates did the store sell in total during that time?",
+      "new symbolic struct": "[[var s = 548]]\n[[var t = 148]]\n[[question total = ['s * t']]]",
+      "answer": "81104",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-54-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (2293 * 37)]]\n[[question s = ['p']]]\ntheme: Flower",
+      "statement": "A flower shop sells an exotic flower for 2293 dollars. If they sold 37 of these flowers, how much did they earn in total?",
+      "new symbolic struct": "[[var f = 2293]]\n[[var n = 37]]\n[[question t = ['f * n']]]",
+      "answer": "84841",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-55-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var o = (475 * 89)]]\n[[question b = ['o']]]\ntheme: Pirate ship",
+      "statement": "A pirate ship has 475 crew members, each having their personal 89 gold coins stash. How many gold coins are there in total on the pirate ship?",
+      "new symbolic struct": "[[var m = 475]]\n[[var g = 89]]\n[[question t = ['m * g']]]",
+      "answer": "42275",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-55-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var o = (103 * 89)]]\n[[question b = ['o']]]\ntheme: Pirate ship",
+      "statement": "Suppose the pirate ship only had 103 crew members, each still having their personal stash of 89 gold coins. How many gold coins would there be in total on the pirate ship in this scenario?",
+      "new symbolic struct": "[[var m = 103]]\n[[var g = 89]]\n[[question t = ['m * g']]]",
+      "answer": "9167",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-56-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var y = (159 * 369)]]\n[[question o = ['y']]]\ntheme: Hat",
+      "statement": "A hat shop sells 159 hats each week. In one year, which is 369 weeks, how many hats are sold in total?",
+      "new symbolic struct": "[[var h = 159]]\n[[var w = 369]]\n[[question t = ['h * w']]]",
+      "answer": "58671",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-56-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var y = (239 * 369)]]\n[[question o = ['y']]]\ntheme: Hat",
+      "statement": "Imagine the same hat shop increases its weekly sales to 239 hats. Then, how many hats would the shop sell in one year, given each year contains 369 weeks?",
+      "new symbolic struct": "[[var h_new = 239]]\n[[var w = 369]]\n[[question t_new = ['h_new * w']]]",
+      "answer": "88191",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-57-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var d = (8690 * 2)]]\n[[question r = ['d']]]\ntheme: Pirate ship",
+      "statement": "A pirate ship can carry 8690 pounds of gold. If the ship is carrying 2 loads of gold on their trip, how much total weight of gold does the ship have?",
+      "new symbolic struct": "[[var g = 8690]]\n[[var l = 2]]\n[[question t = ['g * l']]]",
+      "answer": "17380",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-57-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var d = (3457 * 2)]]\n[[question r = ['d']]]\ntheme: Pirate ship",
+      "statement": "In a subsequent trip, the pirate ship is only able to carry 3457 pounds of gold per load instead of the usual 8690. If the ship is still carrying 2 loads of gold, how much total weight of gold does the ship have now?",
+      "new symbolic struct": "[[var h = 3457]]\n[[var i = 2]]\n[[question j = ['h * i']]]",
+      "answer": "6914",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-58-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (20 * 3909)]]\n[[question h = ['u']]]\ntheme: Book",
+      "statement": "A library has 20 shelves and each shelf can hold 3909 books. How many books can the library hold in total?",
+      "new symbolic struct": "[[var j = 20]]\n[[var l = 3909]]\n[[question m = ['j * l']]]",
+      "answer": "78180",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-58-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (20 * 1920)]]\n[[question h = ['u']]]\ntheme: Book",
+      "statement": "If the library was remodeled and now only has the capacity to hold 1920 books per shelf instead of 3909 books, how many books can the library hold in total with 20 shelves?",
+      "new symbolic struct": "[[var t = 1920]]\n[[var s = 20]]\n[[question u = ['t * s']]]",
+      "answer": "38400",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-59-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var b = (8193 * 4)]]\n[[question o = ['b']]]\ntheme: Superhero",
+      "statement": "Each superhero action figure comes in a set of 4. If there are 8193 of these sets, how many individual superhero action figures do we have in total?",
+      "new symbolic struct": "[[var a = 4]]\n[[var s = 8193]]\n[[question n = ['a * s']]]",
+      "answer": "32772",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-59-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var b = (3706 * 4)]]\n[[question o = ['b']]]\ntheme: Superhero",
+      "statement": "If in reality, each superhero action figure comes in a set of 4 but there are only 3706 sets, how many individual superhero action figures do we have in total now?",
+      "new symbolic struct": "[[var a = 4]]\n[[var s = 3706]]\n[[question n = ['a * s']]]",
+      "answer": "14824",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-60-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (177 * 380)]]\n[[question p = ['m']]]\ntheme: Carrot",
+      "statement": "A farmer has 177 plots of land, each of which yields 380 carrots. How many carrots does the farmer harvest in total?",
+      "new symbolic struct": "[[var c = 177]]\n[[var p = 380]]\n[[question t = ['c * p']]]",
+      "answer": "67260",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-60-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (220 * 380)]]\n[[question p = ['m']]]\ntheme: Carrot",
+      "statement": "Suppose the farmer planted an additional kind of carrot on 220 plots of land, each of which yielded 380 carrots. How many of these additional kinds of carrots would the farmer harvest in total?",
+      "new symbolic struct": "[[var m = 220]]\n[[var n = 380]]\n[[question o = ['m * n']]]",
+      "answer": "83600",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-61-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var i = (2009 * 4)]]\n[[question a = ['i']]]\ntheme: Wizard",
+      "statement": "A wizard casts a spell that yields 2009 magical orbs. If he cast this spell 4 times, how many magical orbs did he produce in total?",
+      "new symbolic struct": "[[var m = 2009]]\n[[var c = 4]]\n[[question o = ['m * c']]]",
+      "answer": "8036",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-61-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var i = (2769 * 4)]]\n[[question a = ['i']]]\ntheme: Wizard",
+      "statement": "In a different magical scenario, the wizard casts a similar spell, but this time it only yields 2769 magical orbs. If he cast this reduced orb spell four times, how many magical orbs did he produce in total?",
+      "new symbolic struct": "[[var n = 2769]]\n[[var d = 4]]\n[[question p = ['n * d']]]",
+      "answer": "11076",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-62-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var s = (2265 * 28)]]\n[[question f = ['s']]]\ntheme: Helicopter",
+      "statement": "A helicopter can cover 2265 miles in a day. How many miles can it cover in 28 days?",
+      "new symbolic struct": "[[var h = 2265]]\n[[var d = 28]]\n[[question m = ['h * d']]]",
+      "answer": "63420",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-62-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var s = (1060 * 28)]]\n[[question f = ['s']]]\ntheme: Helicopter",
+      "statement": "If the same helicopter could only cover 1060 miles in a day instead of 2265 miles, how many miles could it cover in 28 days?",
+      "new symbolic struct": "[[var h1 = 1060]]\n[[var d1 = 28]]\n[[question m1 = ['h1 * d1']]]",
+      "answer": "29680",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-63-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (1516 * 51)]]\n[[question w = ['u']]]\ntheme: Necklace",
+      "statement": "A jewelry maker uses 1516 beads to create one necklace. If he made 51 necklaces, how many beads did he use in total?",
+      "new symbolic struct": "[[var d = 1516]]\n[[var n = 51]]\n[[question m = ['d * n']]]",
+      "answer": "77316",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-63-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (1196 * 51)]]\n[[question w = ['u']]]\ntheme: Necklace",
+      "statement": "If the jewelry maker decided to simplify his necklace design and now only used 1196 beads to create one necklace instead of 1516, how many beads would he use if he still made 51 necklaces?",
+      "new symbolic struct": "[[var d = 1196]]\n[[var n = 51]]\n[[question m = ['d * n']]]",
+      "answer": "60996",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-64-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var q = (425 * 116)]]\n[[question m = ['q']]]\ntheme: Teacher",
+      "statement": "A teacher has decided to use a new teaching method where every student must tackle a bundle of 425 tasks independently. If the teacher has 116 students in their class, how many tasks in total will these students be completing?",
+      "new symbolic struct": "[[var a = 425]]\n[[var b = 116]]\n[[question c = ['a * b']]]",
+      "answer": "49300",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-64-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var q = (725 * 116)]]\n[[question m = ['q']]]\ntheme: Teacher",
+      "statement": "The teacher decided to expand the task bundle for every student to 725 tasks instead of 425. If the teacher still has 116 students in their class, how many tasks in total will these students be completing now?",
+      "new symbolic struct": "[[var a = 725]]\n[[var b = 116]]\n[[question c = ['a * b']]]",
+      "answer": "84100",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-65-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (72 * 255)]]\n[[question j = ['u']]]\ntheme: Cucumber",
+      "statement": "A farmer's yield is 72 cucumbers per plant. If the farmer has 255 plants, how many cucumbers does he yield altogether?",
+      "new symbolic struct": "[[var y = 72]]\n[[var p = 255]]\n[[question t = ['y * p']]]",
+      "answer": "18360",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-65-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var u = (203 * 255)]]\n[[question j = ['u']]]\ntheme: Cucumber",
+      "statement": "If each plant instead produced a yield of 203 cucumbers, how many cucumbers would the farmer yield from his 255 plants?",
+      "new symbolic struct": "[[var y2 = 203]]\n[[var p = 255]]\n[[question t = ['y2 * p']]]",
+      "answer": "51765",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-66-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var a = (84 * 1047)]]\n[[question q = ['a']]]\ntheme: Fireplace",
+      "statement": "In a fireplace shop, each fireplace costs $1047. If they sell 84 fireplaces, how much money does the shop make?",
+      "new symbolic struct": "[[var f = 1047]]\n[[var s = 84]]\n[[question t = ['f * s']]]",
+      "answer": "87948",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-66-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var a = (84 * 944)]]\n[[question q = ['a']]]\ntheme: Fireplace",
+      "statement": "In the same fireplace shop, they decide to reduce the price of each fireplace to $944. If they still sell 84 fireplaces, how much money does the shop make now?",
+      "new symbolic struct": "[[var p = 944]]\n[[var s = 84]]\n[[question m = ['p * s']]]",
+      "answer": "79296",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-67-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (1681 * 37)]]\n[[question y = ['p']]]\ntheme: Snail",
+      "statement": "A snail travels at a speed of 1681 millimeters per hour. If it continues moving for 37 hours, how many millimeters will it travel?",
+      "new symbolic struct": "[[var s = 1681]]\n[[var t = 37]]\n[[question d = ['s * t']]]",
+      "answer": "62197",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-67-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (1208 * 37)]]\n[[question y = ['p']]]\ntheme: Snail",
+      "statement": "If that same snail were to travel at a slightly slower speed of 1208 millimeters per hour instead, how many millimeters would it travel after moving for the same 37 hours?",
+      "new symbolic struct": "[[var s1 = 1208]]\n[[var t1 = 37]]\n[[question d1 = ['s1 * t1']]]",
+      "answer": "44696",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-68-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var b = (9658 * 1)]]\n[[question a = ['b']]]\ntheme: Pencil",
+      "statement": "A pencil maker has 9658 pencils. If the pencil maker decides to distribute them evenly over 1 store, how many pencils will that store receive?",
+      "new symbolic struct": "[[var p = 9658]]\n[[var s = 1]]\n[[question k = ['p / s']]]",
+      "answer": "9658",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-68-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var b = (7883 * 1)]]\n[[question a = ['b']]]\ntheme: Pencil",
+      "statement": "Instead of 9658 pencils, suppose the pencil maker originally had 7883 pencils. If the pencil maker decides to distribute them evenly over 1 store, how many pencils will that store now receive?",
+      "new symbolic struct": "[[var p = 7883]]\n[[var s = 1]]\n[[question k = ['p / s']]]",
+      "answer": "7883",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-69-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (1056 * 37)]]\n[[question o = ['r']]]\ntheme: Necklace",
+      "statement": "A bead shop sells individual beads for making necklaces. Each bead costs 1056 dollars and a designer buys 37 of them for a fancy necklace. How much does she spend on beads?",
+      "new symbolic struct": "[[var b = 1056]]\n[[var n = 37]]\n[[question t = ['b * n']]]",
+      "answer": "39072",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-69-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (1978 * 37)]]\n[[question o = ['r']]]\ntheme: Necklace",
+      "statement": "Considering the previous scenario, what if each bead for the fancy necklace was pricier at 1978 dollars instead of 1056 dollars. How much would the designer spend on 37 beads now?",
+      "new symbolic struct": "[[var c = 1978]]\n[[var n = 37]]\n[[question t_new = ['c * n']]]",
+      "answer": "73186",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-70-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (19 * 3327)]]\n[[question f = ['h']]]\ntheme: Penguin",
+      "statement": "A group of penguins usually eats an average of 19 kg of fish per day. If this continuous for 3327 days, then what's the total amount of fish that the group would consume?",
+      "new symbolic struct": "[[var f = 19]]\n[[var d = 3327]]\n[[question t = ['f * d']]]",
+      "answer": "63213",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-70-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (19 * 2351)]]\n[[question f = ['h']]]\ntheme: Penguin",
+      "statement": "Suppose instead of 3327 days, the group of penguins continues eating an average of 19 kg of fish per day for a period of 2351 days. In that case, what would be the total amount of fish that the group would consume?",
+      "new symbolic struct": "[[var f = 19]]\n[[var d = 2351]]\n[[question t = ['f * d']]]",
+      "answer": "44669",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-71-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var n = (25 * 2921)]]\n[[question x = ['n']]]\ntheme: Juice",
+      "statement": "A juice company sells 2921 crates of juice each day. If a crate contains 25 juice packs, how many packs of juice does the company sell each day?",
+      "new symbolic struct": "[[var c = 2921]]\n[[var p = 25]]\n[[question j = ['c * p']]]",
+      "answer": "73025",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-71-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var n = (25 * 1345)]]\n[[question x = ['n']]]\ntheme: Juice",
+      "statement": "If the juice company changed the packaging such that a crate now contains only 1345 juice packs instead of 2921, how many juice packs would the company sell each day if they still sold 25 crates a day?",
+      "new symbolic struct": "[[var m = 1345]]\n[[var n = 25]]\n[[question o = ['m * n']]]",
+      "answer": "33625",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-72-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var w = (3 * 6287)]]\n[[question q = ['w']]]\ntheme: Table",
+      "statement": "A furniture factory can produce 6287 tables in a week. If they maintain their current production rate, how many tables will they produce in 3 weeks?",
+      "new symbolic struct": "[[var t = 6287]]\n[[var w = 3]]\n[[question a = ['t * w']]]",
+      "answer": "18861",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-72-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var w = (3 * 2093)]]\n[[question q = ['w']]]\ntheme: Table",
+      "statement": "If the furniture factory could only produce 2093 tables a week instead of 6287, how many tables would they make in 3 weeks at this decreased production rate?",
+      "new symbolic struct": "[[var t2 = 2093]]\n[[var w = 3]]\n[[question a2 = ['t2 * w']]]",
+      "answer": "6279",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-73-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (869 * 31)]]\n[[question k = ['h']]]\ntheme: Sock",
+      "statement": "A sock production factory has the capacity to produce 869 socks in an hour. If they operate 31 hours in a row, how many socks do they produce in total during that period?",
+      "new symbolic struct": "[[var p = 869]]\n[[var h = 31]]\n[[question t = ['p * h']]]",
+      "answer": "26939",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-74-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var b = (1347 * 22)]]\n[[question h = ['b']]]\ntheme: Rainbow",
+      "statement": "A rainbow was said to occur 1347 times in a year in a particular area. If 22 years have passed since the record was kept, how many times has the rainbow been spotted in those years?",
+      "new symbolic struct": "[[var w = 1347]]\n[[var x = 22]]\n[[question y = ['w * x']]]",
+      "answer": "29634",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-74-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var b = (1661 * 22)]]\n[[question h = ['b']]]\ntheme: Rainbow",
+      "statement": "Instead, consider that the rainbow was actually seen 1661 times a year. In that case, how many times would the rainbow have been spotted in those 22 years?",
+      "new symbolic struct": "[[var z = 1661]]\n[[var a = 22]]\n[[question b = ['z * a']]]",
+      "answer": "36542",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-75-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var b = (1859 * 10)]]\n[[question l = ['b']]]\ntheme: Cloud",
+      "statement": "A certain cloud formation can hold 1859 gallons of water per square mile. If the cloud was spread out over 10 square miles, how much water could it hold?",
+      "new symbolic struct": "[[var w = 1859]]\n[[var m = 10]]\n[[question t = ['w * m']]]",
+      "answer": "18590",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-75-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var b = (2622 * 10)]]\n[[question l = ['b']]]\ntheme: Cloud",
+      "statement": "Suppose the cloud formation from the previous problem turned out to be a bit larger, and is instead spread over 2622 square miles. If it still retains the same holding capacity of 10 gallons per square mile, how much water could this larger cloud formation hold now?",
+      "new symbolic struct": "[[var w = 10]]\n[[var m = 2622]]\n[[question t = ['w * m']]]",
+      "answer": "26220",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-76-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var v = (439 * 79)]]\n[[question k = ['v']]]\ntheme: Card",
+      "statement": "A card shop sells a pack of cards for 439 dollars. If they sell 79 packs, how much revenue will they earn?",
+      "new symbolic struct": "[[var p = 439]]\n[[var s = 79]]\n[[question r = ['p * s']]]",
+      "answer": "34681",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-76-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var v = (326 * 79)]]\n[[question k = ['v']]]\ntheme: Card",
+      "statement": "The card shop decided to lower the price of a pack of cards to 326 dollars. If they still sell 79 packs of cards, how much revenue will they earn now?",
+      "new symbolic struct": "[[var p_new = 326]]\n[[var s = 79]]\n[[question r_new = ['p_new * s']]]",
+      "answer": "25754",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-77-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var w = (1429 * 47)]]\n[[question o = ['w']]]\ntheme: Jungle gym",
+      "statement": "A jungle gym manufacturer uses 1429 bolts for each jungle gym they build. If they built 47 jungle gyms, how many bolts did they use in total?",
+      "new symbolic struct": "[[var b = 1429]]\n[[var j = 47]]\n[[question t = ['b * j']]]",
+      "answer": "67163",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-77-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var w = (385 * 47)]]\n[[question o = ['w']]]\ntheme: Jungle gym",
+      "statement": "If the jungle gym manufacturer decided to make a smaller model that only requires 385 bolts, and they built 47 of these smaller jungle gyms, how many bolts did they use in total?",
+      "new symbolic struct": "[[var b_small = 385]]\n[[var j_small = 47]]\n[[question t_small = ['b_small * j_small']]]",
+      "answer": "18095",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-78-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var d = (1283 * 64)]]\n[[question a = ['d']]]\ntheme: Backpack",
+      "statement": "A backpack company sells backpacks in bundles of 1283. If a big school orders 64 bundles, how many backpacks does the school order in total?",
+      "new symbolic struct": "[[var p = 1283]]\n[[var n = 64]]\n[[question t = ['p * n']]]",
+      "answer": "82112",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-78-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var d = (424 * 64)]]\n[[question a = ['d']]]\ntheme: Backpack",
+      "statement": "The backpack company decides to sell backpacks in smaller bundles of 424 to accommodate smaller schools. If a smaller school orders 64 bundles, how many backpacks does the school order in total?",
+      "new symbolic struct": "[[var s = 424]]\n[[var m = 64]]\n[[question u = ['s * m']]]",
+      "answer": "27136",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-79-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (3813 * 6)]]\n[[question u = ['m']]]\ntheme: Farmer",
+      "statement": "A farmer produces 3813 pounds of grain each month. If they continue this production for 6 months, how many pounds of grain will they have produced?",
+      "new symbolic struct": "[[var m = 3813]]\n[[var p = 6]]\n[[question g = ['m * p']]]",
+      "answer": "22878",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-80-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (158 * 142)]]\n[[question l = ['h']]]\ntheme: Earrings",
+      "statement": "A jeweler makes 158 pairs of earrings each day. If she works 142 days a year, how many pairs of earrings does she make in a year?",
+      "new symbolic struct": "[[var m = 158]]\n[[var n = 142]]\n[[question p = ['m * n']]]",
+      "answer": "22436",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-80-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (36 * 142)]]\n[[question l = ['h']]]\ntheme: Earrings",
+      "statement": "After reviewing her productivity, the jeweler decides to limit her daily output to maintain the quality of her work. If she now only produces 36 pairs of earrings each day, but still works the same 142 days a year, how many pairs of earrings will she produce in a year under this new regimen?",
+      "new symbolic struct": "[[var m = 36]]\n[[var n = 142]]\n[[question p = ['m * n']]]",
+      "answer": "5112",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-81-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var t = (48 * 1244)]]\n[[question d = ['t']]]\ntheme: Wallet",
+      "statement": "A manufacturer can make 48 wallets in one hour. If they worked for 1244 hours straight without any breaks, how many wallets could they make?",
+      "new symbolic struct": "[[var w = 48]]\n[[var h = 1244]]\n[[question m = ['w * h']]]",
+      "answer": "59712",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-82-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (15 * 3915)]]\n[[question l = ['r']]]\ntheme: Phone",
+      "statement": "A new phone model sells for $3915 each. If a store sells 15 of these phones, how much revenue does the store generate from them?",
+      "new symbolic struct": "[[var p = 3915]]\n[[var s = 15]]\n[[question r = ['p * s']]]",
+      "answer": "58725",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-83-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var g = (985 * 40)]]\n[[question u = ['g']]]\ntheme: Food",
+      "statement": "A caterer needs 40 grams of sugar to bake one cookie. If they need to bake 985 cookies for an event, how much sugar will they need in grams?",
+      "new symbolic struct": "[[var s = 40]]\n[[var c = 985]]\n[[question t = ['s * c']]]",
+      "answer": "39400",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-83-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var g = (838 * 40)]]\n[[question u = ['g']]]\ntheme: Food",
+      "statement": "The caterer has received another order, this time for 838 cookies. If they still need 40 grams of sugar per cookie, how much sugar will they need for the new order?",
+      "new symbolic struct": "[[var s = 40]]\n[[var o = 838]]\n[[question n = ['s * o']]]",
+      "answer": "33520",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-85-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (11 * 4798)]]\n[[question d = ['r']]]\ntheme: Park",
+      "statement": "A park has 4798 trees. If each tree produces 11 pounds of oxygen per year, how much oxygen does the park produce in a year?",
+      "new symbolic struct": "[[var t = 4798]]\n[[var o = 11]]\n[[question y = ['t * o']]]",
+      "answer": "52778",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-85-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (11 * 8165)]]\n[[question d = ['r']]]\ntheme: Park",
+      "statement": "If instead the park had 8165 trees and each tree continues to produce 11 pounds of oxygen per year, how much oxygen would the park produce in a year?",
+      "new symbolic struct": "[[var t = 8165]]\n[[var o = 11]]\n[[question y = ['t * o']]]",
+      "answer": "89815",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-86-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var v = (46 * 2146)]]\n[[question g = ['v']]]\ntheme: Juice",
+      "statement": "A juice company produces 2146 bottles of juice daily. If they are able to keep up this production rate for 46 days, how many bottles do they produce in that time?",
+      "new symbolic struct": "[[var b = 2146]]\n[[var d = 46]]\n[[question p = ['b * d']]]",
+      "answer": "98716",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-86-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var v = (46 * 1747)]]\n[[question g = ['v']]]\ntheme: Juice",
+      "statement": "Now, consider that the juice company changed their production to 1747 bottles of juice daily instead of 2146. Maintaining this new production rate for the same duration of 46 days, how many bottles do they produce now?",
+      "new symbolic struct": "[[var new_b = 1747]]\n[[var d = 46]]\n[[question new_p = ['new_b * d']]]",
+      "answer": "80362",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-87-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var p = (10 * 4366)]]\n[[question j = ['p']]]\ntheme: Helicopter",
+      "statement": "A helicopter is equipped with 10 fuel tanks. Each of these tanks can hold 4366 liters of fuel. When fully loaded, how much fuel does the helicopter hold?",
+      "new symbolic struct": "[[var t = 10]]\n[[var f = 4366]]\n[[question total_fuel = ['t * f']]]",
+      "answer": "43660",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-88-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var c = (637 * 148)]]\n[[question h = ['c']]]\ntheme: School bus",
+      "statement": "A school bus can carry 637 students. If there are 148 school buses, how many students can all of the school buses carry in total?",
+      "new symbolic struct": "[[var s = 637]]\n[[var b = 148]]\n[[question t = ['s * b']]]",
+      "answer": "94276",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-88-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var c = (595 * 148)]]\n[[question h = ['c']]]\ntheme: School bus",
+      "statement": "If each school bus could instead carry 595 students, how many students could all 148 school buses carry in total now?",
+      "new symbolic struct": "[[var s_new = 595]]\n[[var b = 148]]\n[[question t_new = ['s_new * b']]]",
+      "answer": "88060",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-89-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var i = (480 * 121)]]\n[[question g = ['i']]]\ntheme: Jacket",
+      "statement": "A jacket designer pays $480 to create each prototype. If the designer made 121 prototypes before finalizing the design, how much total did she spend on creating the prototypes?",
+      "new symbolic struct": "[[var m = 480]]\n[[var q = 121]]\n[[question w = ['m*q']]]",
+      "answer": "58080",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-89-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var i = (158 * 121)]]\n[[question g = ['i']]]\ntheme: Jacket",
+      "statement": "Following the same jacket designer, she realized that she could reduce her prototype costs to $158 per prototype. If she still made 121 prototypes, how much total would she spend on creating the prototypes with this reduced cost?",
+      "new symbolic struct": "[[var n = 158]]\n[[var q = 121]]\n[[question x = ['n*q']]]",
+      "answer": "19118",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-90-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var o = (106 * 406)]]\n[[question a = ['o']]]\ntheme: Ice skates",
+      "statement": "In a skating equipment store, they sell ice skates for $106 each. On a particularly successful day, the store sells 406 pairs of ice skates. How much money does the store make from selling ice skates on that day?",
+      "new symbolic struct": "[[var q = 106]]\n[[var e = 406]]\n[[question k = ['q * e']]]",
+      "answer": "43036",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-90-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var o = (106 * 757)]]\n[[question a = ['o']]]\ntheme: Ice skates",
+      "statement": "On another exceptionally busy day at the skating equipment store, sales are even higher with 757 pairs of ice skates sold. At the same price of $106 each, how much money does the store make from selling ice skates on this second day?",
+      "new symbolic struct": "[[var q = 106]]\n[[var e1 = 406]]\n[[var m1 = q * e1]]\n[[var e2 = 757]]\n[[question m2 = ['q * e2']]]",
+      "answer": "80242",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-91-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (133 * 61)]]\n[[question i = ['m']]]\ntheme: Sun",
+      "statement": "The sun emits 133 units of light energy every second. If the energy is measured over a period of 61 seconds, how much energy does the sun emit in that time?",
+      "new symbolic struct": "[[var e = 133]]\n[[var t = 61]]\n[[question a = ['e * t']]]",
+      "answer": "8113",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-91-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var m = (133 * 150)]]\n[[question i = ['m']]]\ntheme: Sun",
+      "statement": "If instead of 61 seconds, the sun's emitted energy is measured over 150 seconds, how much light energy does the sun emit in that duration?",
+      "new symbolic struct": "[[var e = 133]]\n[[var t = 150]]\n[[question a = ['e * t']]]",
+      "answer": "19950",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-92-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (8714 * 5)]]\n[[question d = ['r']]]\ntheme: Chicken",
+      "statement": "A farmer has 8714 chickens and each of them lays 5 eggs every day. How many eggs are laid by all the chickens in a day?",
+      "new symbolic struct": "[[var c = 8714]]\n[[var e = 5]]\n[[question t = ['c * e']]]",
+      "answer": "43570",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-92-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (4714 * 5)]]\n[[question d = ['r']]]\ntheme: Chicken",
+      "statement": "Now consider that the farmer only has 4714 chickens instead of 8714. Assuming each chicken still lays 5 eggs every day, how many eggs are laid by all the chickens in a day now?",
+      "new symbolic struct": "[[var c = 4714]]\n[[var e = 5]]\n[[question t = ['c * e']]]",
+      "answer": "23570",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-93-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (4417 * 13)]]\n[[question z = ['h']]]\ntheme: Drum",
+      "statement": "A drum circle event has 4417 drummers attending. If each drummer brings 13 drums, how many drums are at the event in total?",
+      "new symbolic struct": "[[var n = 4417]]\n[[var d = 13]]\n[[question t = ['n * d']]]",
+      "answer": "57421",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-93-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var h = (2770 * 13)]]\n[[question z = ['h']]]\ntheme: Drum",
+      "statement": "In the previous scenario, suppose instead of having 4417 drummers attending, only 2770 drummers attend. If each drummer still brings 13 drums, how many drums are at the event now?",
+      "new symbolic struct": "[[var n_prev = 4417]]\n[[var n_new = 2770]]\n[[var d = 13]]\n[[var t_prev = n_prev * d]]\n[[question t_new = ['n_new * d']]]",
+      "answer": "36010",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-94-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var e = (3017 * 4)]]\n[[question k = ['e']]]\ntheme: Phone",
+      "statement": "A factory produces 3017 mobile phones per day. If they continue this rate of production for 4 days, how many phones will they produce?",
+      "new symbolic struct": "[[var p = 3017]]\n[[var d = 4]]\n[[question m = ['p * d']]]",
+      "answer": "12068",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-94-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var e = (8805 * 4)]]\n[[question k = ['e']]]\ntheme: Phone",
+      "statement": "Consider the same mobile phone factory from the previous question. But this time, instead of producing 3017 phones per day, they ramp up their production to 8805 phones per day. If they continue this rate of production for 4 days, how many phones will they produce now?",
+      "new symbolic struct": "[[var p1 = 8805]]\n[[var d1 = 4]]\n[[question m1 = ['p1 * d1']]]",
+      "answer": "35220",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-95-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var f = (4 * 6843)]]\n[[question l = ['f']]]\ntheme: Wind",
+      "statement": "A wind turbine generates 6843 kilowatt-hours of electricity per hour. If it operates for 4 hours, how many kilowatt-hours of electricity does it generate?",
+      "new symbolic struct": "[[var k = 6843]]\n[[var r = 4]]\n[[question a = ['k * r']]]",
+      "answer": "27372",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-95-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var f = (4 * 6983)]]\n[[question l = ['f']]]\ntheme: Wind",
+      "statement": "If the wind turbine was only able to generate 6983 kilowatt-hours of electricity per hour, as opposed to 6843, how many kilowatt-hours of electricity would it generate when running for 4 hours?",
+      "new symbolic struct": "[[var s = 6983]]\n[[var t = 4]]\n[[question b = ['s * t']]]",
+      "answer": "27932",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-96-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (874 * 68)]]\n[[question c = ['r']]]\ntheme: Park",
+      "statement": "In a park, there are 874 trees. Each tree is home to 68 birds. How many birds live in the park?",
+      "new symbolic struct": "[[var t = 874]]\n[[var b = 68]]\n[[question n = ['t * b']]]",
+      "answer": "59432",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-96-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var r = (710 * 68)]]\n[[question c = ['r']]]\ntheme: Park",
+      "statement": "Suppose the number of trees in the park was actually 710 instead of 874. If each tree is still home to 68 birds, how many birds would live in the park then?",
+      "new symbolic struct": "[[var t1 = 710]]\n[[var b = 68]]\n[[question n1 = ['t1 * b']]]",
+      "answer": "48280",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-97-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var i = (80 * 50)]]\n[[question p = ['i']]]\ntheme: Wallet",
+      "statement": "John wants to save money to buy a designer wallet. Each day, he manages to save 80 dollars, and he plans to do this for the next 50 days. How much money will he have saved at the end of these 50 days?",
+      "new symbolic struct": "[[var a = 80]]\n[[var b = 50]]\n[[question c = ['a * b']]]",
+      "answer": "4000",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-97-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var i = (687 * 50)]]\n[[question p = ['i']]]\ntheme: Wallet",
+      "statement": "John has realized that he needs to save more each day to buy the designer wallet sooner. He has now managed to save 687 dollars a day for the next 50 days. How much money will he have saved at the end of these 50 days?",
+      "new symbolic struct": "[[var d = 687]]\n[[var e = 50]]\n[[question f = ['d * e']]]",
+      "answer": "34350",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-98-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var x = (21 * 3978)]]\n[[question g = ['x']]]\ntheme: Bike",
+      "statement": "A bike shop had 3978 bicycle tires in stock. If the bike shop sold the tires in sets of 21, how many tires did they sell altogether?",
+      "new symbolic struct": "[[var x = 3978]]\n[[var s = 21]]\n[[question t = ['x * s']]]",
+      "answer": "83538",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-98-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var x = (21 * 3299)]]\n[[question g = ['x']]]\ntheme: Bike",
+      "statement": "Let's consider a change in our inventory. If the bike shop had originally started with 3299 bicycle tires instead of 3978, and still sold the tires in sets of 21, how many tires would they have sold then?",
+      "new symbolic struct": "[[var x = 3299]]\n[[var s = 21]]\n[[question t = ['x * s']]]",
+      "answer": "69279",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-99-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var b = (181 * 475)]]\n[[question h = ['b']]]\ntheme: Computer",
+      "statement": "A factory produces 181 chips for a computer every hour. If it works non-stop for 475 hours, how many chips would the factory have produced in total?",
+      "new symbolic struct": "[[var x = 181]]\n[[var y = 475]]\n[[question z = ['x * y']]]",
+      "answer": "85975",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-100-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var j = (293 * 192)]]\n[[question e = ['j']]]\ntheme: Computer",
+      "statement": "A computer can execute 293 operations in 1 millisecond. If it runs for 192 milliseconds, how many operations will it have executed?",
+      "new symbolic struct": "[[var c = 293]]\n[[var t = 192]]\n[[question o = ['c * t']]]",
+      "answer": "56256",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-100-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var j = (125 * 192)]]\n[[question e = ['j']]]\ntheme: Computer",
+      "statement": "Suppose the computer's speed was reduced and it was only able to execute 125 operations in 1 millisecond. If it still ran for 192 milliseconds, how many operations would it be able to execute now?",
+      "new symbolic struct": "[[var p = 125]]\n[[var t = 192]]\n[[question o = ['p * t']]]",
+      "answer": "24000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-101-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var f = (2796 * 2)]]\n[[question q = ['f']]]\ntheme: Pillow",
+      "statement": "A pillow factory can produce 2796 pillows in one shift. If the factory operates two shifts in a day, how many pillows are produced in one day?",
+      "new symbolic struct": "[[var p = 2796]]\n[[var s = 2]]\n[[question d = ['p * s']]]",
+      "answer": "5592",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-101-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var f = (6686 * 2)]]\n[[question q = ['f']]]\ntheme: Pillow",
+      "statement": "If instead the pillow factory could produce 6686 pillows in one shift, how many pillows would be produced in one day with two shifts?",
+      "new symbolic struct": "[[var p1 = 6686]]\n[[var s1 = 2]]\n[[question d1 = ['p1 * s1']]]",
+      "answer": "13372",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "5.NBT.B.5-102-0",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var n = (8 * 733)]]\n[[question h = ['n']]]\ntheme: Grapes",
+      "statement": "A vineyard crate contains 8 bunches of grapes and each bunch has 733 grapes. How many grapes are there in the crate?",
+      "new symbolic struct": "[[var t = 8]]\n[[var s = 733]]\n[[question u = ['t * s']]]",
+      "answer": "5864",
+      "tag": "original problem"
+    },
+    {
+      "id": "5.NBT.B.5-102-1",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var n = (8 * 733)]]\n[[var a = (2 * n)]]\n[[question t = ['a']]]\ntheme: Grapes",
+      "statement": "If a grocery store orders two crates from the vineyard, how many grapes in total would they receive?",
+      "new symbolic struct": "[[var t = 8]]\n[[var s = 733]]\n[[var g = t * s]]\n[[var r = 2]]\n[[question u = ['r * g']]]",
+      "answer": "11728",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "5.NBT.B.5-102-2",
+      "standard": "5.NBT.B.5",
+      "symbolic-struct": "[[var n = (8 * 3451)]]\n[[question h = ['n']]]\ntheme: Grapes",
+      "statement": "Suppose instead that each crate from the vineyard actually contained 8 bunches of grapes, and each bunch had 3451 grapes. In that case, how many grapes are there in one crate?",
+      "new symbolic struct": "[[var v = 8]]\n[[var w = 3451]]\n[[question x = ['v * w']]]",
+      "answer": "27608",
+      "tag": "modified information follow up"
+    }
+  ]
+]

@@ -1,0 +1,1858 @@
+[
+  [
+    {
+      "id": "4.NBT.B.6-0-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var i = (535 % 461)]]\n[[question k = ['i']]]\ntheme: Shark",
+      "statement": "There are 535 fish in a large tank and a shark eats 461 of them in one sitting. If the shark continues this pattern and only eats when there are 461 or more fish to consume, how many fish will be leftover after its dinner?",
+      "new symbolic struct": "[[var e = (535 % 461)]]\n[[question p = ['e']]]",
+      "answer": "74",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-1-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var q = (928 % 186)]]\n[[question l = ['q']]]\ntheme: Cookie",
+      "statement": "A baker baked a total of 928 cookies. He decided to distribute equal amounts of cookies to 186 orphanages. After giving out as many entire sets of cookies as possible to each orphanage, how many cookies does the baker have left?",
+      "new symbolic struct": "[[var c = (928 % 186)]]\n[[question b = ['c']]]",
+      "answer": "184",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-1-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var q = (173 % 186)]]\n[[question l = ['q']]]\ntheme: Cookie",
+      "statement": "In the previously mentioned scenario, consider that the baker only baked 173 cookies instead of 928. He still plans on distributing equal amounts of cookies to the 186 orphanages. After giving out as many full sets as possible to each orphanage, how many cookies will the baker have left over this time?",
+      "new symbolic struct": "[[var d = (173 % 186)]]\n[[question e = ['d']]]",
+      "answer": "173",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-2-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var b = (975 % 196)]]\n[[question y = ['b']]]\ntheme: Pizza",
+      "statement": "A pizza store has 975 slices of pizza ready to serve. If each pizza box can contain 196 slices, how many left over slices will there be after all the pizza boxes are full?",
+      "new symbolic struct": "[[var l = (975 % 196)]]\n[[question s = ['l']]]",
+      "answer": "191",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-3-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var k = (932 % 193)]]\n[[question d = ['k']]]\ntheme: Wizard",
+      "statement": "A wizard casts a spell to summon 932 magical stones. Each powerful creature he summons requires 193 stones. After summoning several creatures, how many stones will the wizard have left?",
+      "new symbolic struct": "[[var m = (932 % 193)]]\n[[question k = ['m']]]",
+      "answer": "160",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-3-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var k = (932 % 544)]]\n[[question d = ['k']]]\ntheme: Wizard",
+      "statement": "After summoning several creatures, the wizard found an ancient tome that said each creature actually needed 544 magical stones, not 193. If he had followed this and summoned the creatures based on the 544-stone requirement, how many stones would the wizard have left?",
+      "new symbolic struct": "[[var n = (932 % 544)]]\n[[question l = ['n']]]",
+      "answer": "388",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-4-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var w = (660 % 335)]]\n[[question v = ['w']]]\ntheme: House",
+      "statement": "A builder has a job to install 660 square foot tiles in a house. Each tile can cover 335 square feet. After installing tiles evenly across the available space, how many square feet will the last tile need to cover?",
+      "new symbolic struct": "[[var t = (660 % 335)]]\n[[question f = ['t']]]",
+      "answer": "325",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-4-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var w = (660 % 337)]]\n[[question v = ['w']]]\ntheme: House",
+      "statement": "A builder realizes that he made a mistake and the tiles can actually cover 337 square feet instead of 335 square feet. Given the same total area of 660 square feet, how many square feet will the last tile now need to cover?",
+      "new symbolic struct": "[[var s = (660 % 337)]]\n[[question a = ['s']]]",
+      "answer": "323",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-5-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var i = (473 % 22)]]\n[[question t = ['i']]]\ntheme: Juice",
+      "statement": "A juice company produced 473 gallons of juice. If the company bottles the juice in 22-gallon containers, how many gallons of juice will be left after filling up all the containers?",
+      "new symbolic struct": "[[var j = 473]]\n[[var c = 22]]\n[[var r = (j % c)]]\n[[question left_over = ['r']]]",
+      "answer": "11",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-5-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var i = (599 % 22)]]\n[[question t = ['i']]]\ntheme: Juice",
+      "statement": "A juice company initially thought they produced 473 gallons of juice, but they realized they actually produced 599 gallons. They used the same 22-gallon containers as before. After filling up all the containers, how many gallons of juice do they now have left over?",
+      "new symbolic struct": "[[var initial_j = 473]]\n[[var actual_j = 599]]\n[[var c = 22]]\n[[var r = (actual_j % c)]]\n[[question left_over = ['r']]]",
+      "answer": "5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-6-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var c = (979 % 108)]]\n[[question z = ['c']]]\ntheme: Toy",
+      "statement": "A toy factory produced 979 toy cars in a day. If they packed these cars into boxes, each containing 108 cars, how many toy cars will be left unpacked at the end of the day?",
+      "new symbolic struct": "[[var u = (979 % 108)]]\n[[question k = ['u']]]",
+      "answer": "7",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-6-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var c = (979 % 684)]]\n[[question z = ['c']]]\ntheme: Toy",
+      "statement": "The toy factory now produced 979 toy cars in a day and decided to package these cars into larger boxes, each containing 684 cars. After all the cars have been packed into the larger boxes, how many toy cars would be left unpacked at the end of the day?",
+      "new symbolic struct": "[[var u = (979 % 684)]]\n[[question k = ['u']]]",
+      "answer": "295",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-7-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var a = (994 % 425)]]\n[[question n = ['a']]]\ntheme: Crayon",
+      "statement": "A crayon factory has the capacity to make 994 crayons in one operation. However, each box only holds 425 crayons. If they operate at full capacity, how many crayons will be left out of the boxes after the operation?",
+      "new symbolic struct": "[[var c = (994 % 425)]]\n[[question n = ['c']]]",
+      "answer": "144",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-7-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var a = (223 % 425)]]\n[[question n = ['a']]]\ntheme: Crayon",
+      "statement": "Let's now consider that the crayon factory only made 223 crayons in one operation, while each box still holds 425 crayons. Again, how many crayons are left over and fail to make it into a box?",
+      "new symbolic struct": "[[var d = (223 % 425)]]\n[[question o = ['d']]]",
+      "answer": "223",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-8-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var o = (740 % 696)]]\n[[question p = ['o']]]\ntheme: Tiger",
+      "statement": "A wildlife reserve has 740 tigers. The reserve is divided into different zones, and each zone can only hold up to 696 tigers. If tigers are distributed evenly among the zones, how many tigers will be left in the last zone?",
+      "new symbolic struct": "[[var t = (740 % 696)]]\n[[question z = ['t']]]",
+      "answer": "44",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-8-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var o = (740 % 908)]]\n[[question p = ['o']]]\ntheme: Tiger",
+      "statement": "Consider the wildlife reserve again. This time, however, the zones have been expanded and each can now accommodate up to 908 tigers. If the 740 tigers are distributed evenly among the expanded zones, how many tigers will be left in the last zone?",
+      "new symbolic struct": "[[var t = (740 % 908)]]\n[[question z = ['t']]]",
+      "answer": "740",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-9-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var l = (830 % 421)]]\n[[question z = ['l']]]\ntheme: Hat",
+      "statement": "A hat shop makes 830 hats every week. In order to make special edition boxes, the shop plans to put 421 hats in each box. If all the hats are evenly distributed among the boxes, how many hats will be left over?",
+      "new symbolic struct": "[[var h = (830 % 421)]]\n[[question q = ['h']]]",
+      "answer": "409",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-10-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (871 % 575)]]\n[[question s = ['e']]]\ntheme: Fish",
+      "statement": "There are 871 fish in a lake. A fisherman catches 575 fish every month. If the fish repopulate at the same rate that the fisherman is depleting them, how many fish will be left after a month?",
+      "new symbolic struct": "[[var a = 871]]\n[[var b = 575]]\n[[var c = a - b]]\n[[question d = ['c']]]",
+      "answer": "296",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-11-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var q = (891 % 119)]]\n[[question z = ['q']]]\ntheme: Beach ball",
+      "statement": "There are 891 beach balls, and every beach bag can fit 119 beach balls. If all the beach balls are evenly placed into the bags, how many beach balls will not fit and left over?",
+      "new symbolic struct": "[[var h = (891 % 119)]]\n[[question m = ['h']]]",
+      "answer": "58",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-11-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var q = (901 % 119)]]\n[[question z = ['q']]]\ntheme: Beach ball",
+      "statement": "If instead there were 901 beach balls and every beach bag can fit 119 beach balls. After evenly placing the balls into bags, how many beach balls would be left over now?",
+      "new symbolic struct": "[[var n = (901 % 119)]]\n[[question o = ['n']]]",
+      "answer": "68",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-12-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (544 % 446)]]\n[[question y = ['e']]]\ntheme: Star",
+      "statement": "There are 544 stars in a particular constellation. These stars are grouped into smaller clusters of 446 stars each. If these clusters are evenly split, how many stars will remain ungrouped?",
+      "new symbolic struct": "[[var s = (544 % 446)]]\n[[question u = ['s']]]",
+      "answer": "98",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-12-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (278 % 446)]]\n[[question y = ['e']]]\ntheme: Star",
+      "statement": "Considering the previous scenario with the constellation, suppose there were only 278 stars in the constellation instead of 544, and they were still to be grouped into smaller clusters of 446 stars each. If the clusters are evenly distributed, how many stars will now remain ungrouped?",
+      "new symbolic struct": "[[var s = (278 % 446)]]\n[[question u = ['s']]]",
+      "answer": "278",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-13-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var d = (805 % 132)]]\n[[question t = ['d']]]\ntheme: Sock",
+      "statement": "A manufacturer produces 805 socks in one shift. They are packaged into sets of 132 each. After the packaging, how many socks will remain unpackaged?",
+      "new symbolic struct": "[[var x = (805 % 132)]]\n[[question y = ['x']]]",
+      "answer": "13",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-13-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var d = (634 % 132)]]\n[[question t = ['d']]]\ntheme: Sock",
+      "statement": "If instead of producing 805 socks, the manufacturer produced 634 socks in one shift, how many socks would remain unpackaged after being bundled into sets of 132 each?",
+      "new symbolic struct": "[[var g = (634 % 132)]]\n[[question h = ['g']]]",
+      "answer": "106",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-14-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var i = (759 % 228)]]\n[[question y = ['i']]]\ntheme: Telescope",
+      "statement": "An astronomy club has 759 members that want to view a rare celestial event through their club's telescope. However, the telescope can only handle 228 people viewing the event each night. If they distribute the viewing evenings evenly amongst all members, how many people will view the event on the final night?",
+      "new symbolic struct": "[[var m = (759 % 228)]]\n[[question n = ['m']]]",
+      "answer": "75",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-14-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var i = (593 % 228)]]\n[[question y = ['i']]]\ntheme: Telescope",
+      "statement": "A similar astronomy club from a neighboring town also wants to take part in viewing this rare celestial event. They have 593 members interested in participating. If they follow the same pattern of distributing the viewing nights evenly amongst all members, with only 228 people viewing the event each night, how many people from this club will view the event on the final night?",
+      "new symbolic struct": "[[var t = (593 % 228)]]\n[[question u = ['t']]]",
+      "answer": "137",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-15-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var p = (891 % 616)]]\n[[question w = ['p']]]\ntheme: Letter",
+      "statement": "A postman has to deliver 891 letters. Each mailbox can only hold 616 letters. If he puts equal numbers of letters in each mailbox, how many letters will remain in the last mailbox?",
+      "new symbolic struct": "[[var m = (891 % 616)]]\n[[question n = ['m']]]",
+      "answer": "275",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-15-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var p = (524 % 616)]]\n[[question w = ['p']]]\ntheme: Letter",
+      "statement": "In the previous scenario, assuming the postman had to originally deliver 524 letters instead of 891, and each mailbox can still only accommodate 616 letters. How many letters will remain in the last mailbox now?",
+      "new symbolic struct": "[[var x = (524 % 616)]]\n[[question y = ['x']]]",
+      "answer": "524",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-16-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (941 % 258)]]\n[[question t = ['e']]]\ntheme: Frog",
+      "statement": "A total of 941 flies are jumping around the pond. Every time a frog jumps, it eats exactly 258 flies. After a series of jumps where each jump the frog eats the same number of flies, how many flies are left?",
+      "new symbolic struct": "[[var f = (941 % 258)]]\n[[question g = ['f']]]",
+      "answer": "167",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-16-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (146 % 258)]]\n[[question t = ['e']]]\ntheme: Frog",
+      "statement": "Previously, a frog ate flies from a total of 941 flies with 258 flies eaten in each jump. Now, consider that instead of 941 flies there initially were 146 flies hopping around the pond. Given that the frog still eats 258 flies in each jump, how many flies would be left after a series of jumps?",
+      "new symbolic struct": "[[var h = (146 % 258)]]\n[[question i = ['h']]]",
+      "answer": "146",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-17-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (991 % 66)]]\n[[question p = ['e']]]\ntheme: Park",
+      "statement": "A large park has a capacity of 991 spaces for cars to park. If all the spaces are evenly distributed between 66 rows, how many spare spaces will be there in the last row after max spaces are filled?",
+      "new symbolic struct": "[[var c = (991 % 66)]]\n[[question s = ['c']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-17-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (991 % 471)]]\n[[question p = ['e']]]\ntheme: Park",
+      "statement": "In the same large park, suppose they restructure the parking with larger spaces to accommodate bigger vehicles. Now, the adjusted parking lot configurations can hold 471 cars in each row. After filling up the rows, how many spare spaces would be there in the last row now?",
+      "new symbolic struct": "[[var b = (991 % 471)]]\n[[question s_adj = ['b']]]",
+      "answer": "49",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-18-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var z = (193 % 167)]]\n[[question j = ['z']]]\ntheme: Water",
+      "statement": "There are 193 liters of water that need to be divided evenly among 167 water bottles. If each bottle holds the same amount of water, how many liters overflows and can't be distributed to the bottles?",
+      "new symbolic struct": "[[var f = (193 % 167)]]\n[[question g = ['f']]]",
+      "answer": "26",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-18-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var z = (857 % 167)]]\n[[question j = ['z']]]\ntheme: Water",
+      "statement": "If, instead of 193 liters of water, there were 857 liters of water that needed to be divided evenly among the 167 water bottles, how many liters would overflow and can't be distributed to the bottles now?",
+      "new symbolic struct": "[[var h = (857 % 167)]]\n[[question i = ['h']]]",
+      "answer": "22",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-19-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var o = (996 % 319)]]\n[[question u = ['o']]]\ntheme: Dragon",
+      "statement": "A dragon lays 996 jewel eggs in rows. Each row can hold 319 eggs. If the dragon distributes the eggs evenly among the rows, how many eggs would be left over to be put in the last row?",
+      "new symbolic struct": "[[var e = (996 % 319)]]\n[[question p = ['e']]]",
+      "answer": "39",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-19-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var o = (8 % 319)]]\n[[question u = ['o']]]\ntheme: Dragon",
+      "statement": "Now, consider if the dragon had only laid 8 jewel eggs and continued to distribute them among rows that could hold 319 eggs. How many eggs would be left over to be put in the last row?",
+      "new symbolic struct": "[[var e = (8 % 319)]]\n[[question p = ['e']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-20-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var k = (691 % 205)]]\n[[question a = ['k']]]\ntheme: Lamp",
+      "statement": "A lamp manufacturer produces 691 bulb units. If a pack includes 205 bulbs, how many bulbs would be left unpacked after filling as many packs as possible?",
+      "new symbolic struct": "[[var u = (691 % 205)]]\n[[question k = ['u']]]",
+      "answer": "76",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-20-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var k = (739 % 205)]]\n[[question a = ['k']]]\ntheme: Lamp",
+      "statement": "If the lamp manufacturer produced 739 bulb units instead of 691, how many bulbs would be left unpacked after filling as many packs as possible with 205 bulbs each?",
+      "new symbolic struct": "[[var u = (739 % 205)]]\n[[question k = ['u']]]",
+      "answer": "124",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-21-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var y = (330 % 259)]]\n[[question k = ['y']]]\ntheme: Farm",
+      "statement": "On a farm, there are 330 bales of hay to be stored evenly in barns. Each barn can store up to 259 bales. After filling up the barns as evenly as possible, how many bales of hay will be left for the last barn?",
+      "new symbolic struct": "[[var h = (330 % 259)]]\n[[question b = ['h']]]",
+      "answer": "71",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-22-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var d = (166 % 137)]]\n[[question q = ['d']]]\ntheme: Window",
+      "statement": "A construction company is installing 166 windows on a building. They have determined that one installation team can install 137 windows per day. If all windows are equally distributed amongst teams each day, how many windows will remain for the team to install on the next day?",
+      "new symbolic struct": "[[var e = (166 % 137)]]\n[[question p = ['e']]]",
+      "answer": "29",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-23-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var t = (533 % 445)]]\n[[question h = ['t']]]\ntheme: Tent",
+      "statement": "There are 533 campers coming for a camping event at a park. Each tent can host 445 people. If the campers are evenly distributed among the tents, how many campers will be left over after all the tents are filled?",
+      "new symbolic struct": "[[var s = (533 % 445)]]\n[[question q = ['s']]]",
+      "answer": "88",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-23-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var t = (533 % 886)]]\n[[question h = ['t']]]\ntheme: Tent",
+      "statement": "Now suppose that the park upgraded their tents and each tent can now host 886 people. With the same group of 533 campers, how many campers will be left over after all the tents are filled?",
+      "new symbolic struct": "[[var t = (533 % 886)]]\n[[question r = ['t']]]",
+      "answer": "533",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-24-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var x = (999 % 474)]]\n[[question e = ['x']]]\ntheme: Beach",
+      "statement": "There are 999 seashells collected from a beach. They are grouped in beach-themed souvenir sets, each containing 474 shells. After grouping, how many seashells will be left without a set?",
+      "new symbolic struct": "[[var s = (999 % 474)]]\n[[question t = ['s']]]",
+      "answer": "51",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-24-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var x = (234 % 474)]]\n[[question e = ['x']]]\ntheme: Beach",
+      "statement": "In continuation of the previous scenario with seashells, imagine instead that there were initially only 234 seashells collected from the beach, but the souvenir sets are still made up of 474 shells each. How many shells would be left after attempting to form these sets?",
+      "new symbolic struct": "[[var s = (234 % 474)]]\n[[question t = ['s']]]",
+      "answer": "234",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-25-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var a = (366 % 160)]]\n[[question q = ['a']]]\ntheme: Skirt",
+      "statement": "A tailor has 366 meters of fabric. If each skirt requires 160 meters of fabric, how many meters of fabric will be left after making as many skirts as possible?",
+      "new symbolic struct": "[[var f = (366 % 160)]]\n[[question t = ['f']]]",
+      "answer": "46",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-25-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var a = (21 % 160)]]\n[[question q = ['a']]]\ntheme: Skirt",
+      "statement": "A tailor realized that she has made a mistake. Actually, she has only 21 meters of fabric at her disposal, not 366. If each skirt requires 160 meters of fabric, how many meters of fabric will be left after making as many skirts as possible?",
+      "new symbolic struct": "[[var f = (21 % 160)]]\n[[question t = ['f']]]",
+      "answer": "21",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-26-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var j = (993 % 327)]]\n[[question h = ['j']]]\ntheme: Doll",
+      "statement": "A toymaker made 993 dolls to be packed in boxes for shipment. Each box can hold 327 dolls. How many dolls will she have left once all the boxes are packed to their capacities?",
+      "new symbolic struct": "[[var d = (993 % 327)]]\n[[question p = ['d']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-26-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var j = (993 % 115)]]\n[[question h = ['j']]]\ntheme: Doll",
+      "statement": "Following up on the previous problem, what if, instead of each box holding 327 dolls, each box can now hold 115 dolls? After packing each box to capacity, how many dolls will the toymaker have left?",
+      "new symbolic struct": "[[var d2 = (993 % 115)]]\n[[question p2 = ['d2']]]",
+      "answer": "73",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-27-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var g = (964 % 839)]]\n[[question y = ['g']]]\ntheme: Stuffed animal",
+      "statement": "A child has 964 stuffed animals that they want to divide equally among their 839 friends. If they distribute the stuffed animals evenly, how many will the child have left over?",
+      "new symbolic struct": "[[var o = (964 % 839)]]\n[[question l = ['o']]]",
+      "answer": "125",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-27-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var g = (964 % 892)]]\n[[question y = ['g']]]\ntheme: Stuffed animal",
+      "statement": "The child from the previous problem has gotten even more stuffed animals and now has a total of 964 stuffed animals. If they still want to divide them equally among their 892 friends, how many stuffed animals will be left over after distributing them?",
+      "new symbolic struct": "[[var n = (964 % 892)]]\n[[question m = ['n']]]",
+      "answer": "72",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-28-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var n = (369 % 270)]]\n[[question y = ['n']]]\ntheme: Teddy bear",
+      "statement": "A toy factory produces 369 teddy bears in a day. The bears are packaged in boxes and each box can hold 270 teddy bears. How many teddy bears will be left if all the teddy bears are evenly packed in the boxes?",
+      "new symbolic struct": "[[var t = (369 % 270)]]\n[[question b = ['t']]]",
+      "answer": "99",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-28-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var n = (813 % 270)]]\n[[question y = ['n']]]\ntheme: Teddy bear",
+      "statement": "Earlier, the toy factory produced 369 teddy bears in a day and they were packaged in boxes with each box holding 270 teddy bears. Now, suppose that the toy factory increased its production and now makes 813 teddy bears in a day while still packing them in boxes that can hold 270 teddy bears. How many teddy bears will be left now if all the teddy bears are evenly packed in the boxes?",
+      "new symbolic struct": "[[var n = (813 % 270)]]\n[[question b = ['n']]]",
+      "answer": "3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-29-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var n = (804 % 184)]]\n[[question m = ['n']]]\ntheme: Snowman",
+      "statement": "A village has a yearly tradition of building snowmen. This year, the villagers make 804 snowballs to build their snowmen. Each snowman needs exactly 184 snowballs. After all snowmen are built, how many snowballs are left leftover?",
+      "new symbolic struct": "[[var s = (804 % 184)]]\n[[question l = ['s']]]",
+      "answer": "68",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-29-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var n = (444 % 184)]]\n[[question m = ['n']]]\ntheme: Snowman",
+      "statement": "In the same village, another year, there were only 444 snowballs made to build the snowmen. If each snowman still requires exactly 184 snowballs, how many snowballs would be left over after as many complete snowmen as possible are built?",
+      "new symbolic struct": "[[var t = (444 % 184)]]\n[[question m = ['t']]]",
+      "answer": "76",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-30-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var n = (843 % 839)]]\n[[question f = ['n']]]\ntheme: Ring",
+      "statement": "A jewelry store has 843 rings to be placed equally into 839 boxes. If each box is filled, how many rings will be left over?",
+      "new symbolic struct": "[[var r = (843 % 839)]]\n[[question q = ['r']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-30-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var n = (843 % 804)]]\n[[question f = ['n']]]\ntheme: Ring",
+      "statement": "The jewelry store just received an additional shipment and now has a total of 843 rings. However, this time they must be equally placed into 804 boxes. If every box is filled, how many rings will be left over now?",
+      "new symbolic struct": "[[var s = (843 % 804)]]\n[[question t = ['s']]]",
+      "answer": "39",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-31-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var a = (819 % 583)]]\n[[question j = ['a']]]\ntheme: Fireplace",
+      "statement": "A fireplace manufacturing company has 819 bricks to build fireplaces, and each fireplace requires 583 bricks. If they build as many fireplaces as possible, how many bricks will they have left over?",
+      "new symbolic struct": "[[var m = (819 % 583)]]\n[[question n = ['m']]]",
+      "answer": "236",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-31-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var a = (486 % 583)]]\n[[question j = ['a']]]\ntheme: Fireplace",
+      "statement": "The company received a new delivery of bricks, now they have 486 bricks in total. If they continue making fireplaces, each requiring 583 bricks as before, how many bricks will they have left after building as many full fireplaces as they can?",
+      "new symbolic struct": "[[var x = (486 % 583)]]\n[[question y = ['x']]]",
+      "answer": "486",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-32-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var b = (998 % 957)]]\n[[question l = ['b']]]\ntheme: Marshmallow",
+      "statement": "A marshmallow factory produces 998 marshmallows per minute. However, the packaging machine can only hold 957 marshmallows at a time. What will be the number of marshmallows left un-packaged in a minute after all the packaging machines are filled?",
+      "new symbolic struct": "[[var m = (998 % 957)]]\n[[question n = ['m']]]",
+      "answer": "41",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-32-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var b = (998 % 804)]]\n[[question l = ['b']]]\ntheme: Marshmallow",
+      "statement": "The marshmallow factory upgraded its packaging machine and now it can hold 804 marshmallows at a time instead of 957. If the factory continues to produce 998 marshmallows per minute, what will be the number of marshmallows left un-packaged in a minute after all the packaging machines are filled with the new capacity?",
+      "new symbolic struct": "[[var u = (998 % 804)]]\n[[question n = ['u']]]",
+      "answer": "194",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-33-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var y = (984 % 426)]]\n[[question c = ['y']]]\ntheme: Princess",
+      "statement": "There are 984 roses in the castle's garden. Princess likes to place 426 roses in every tribute for her loyal subjects. If she distributes roses evenly to create as many tributes as possible, how many roses will be left undistributed in the castle's garden?",
+      "new symbolic struct": "[[var r = (984 % 426)]]\n[[question g = ['r']]]",
+      "answer": "132",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-33-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var y = (984 % 730)]]\n[[question c = ['y']]]\ntheme: Princess",
+      "statement": "In the same castle's garden, there were originally 984 roses, but the princess has decided to use only 730 roses for each tribute to her loyal subjects instead of the previous 426. Now, if she distributes roses evenly to create as many tributes as possible, how many roses will be left undistributed in the castle's garden?",
+      "new symbolic struct": "[[var r_new = (984 % 730)]]\n[[question g_new = ['r_new']]]",
+      "answer": "254",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-34-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var v = (334 % 23)]]\n[[question l = ['v']]]\ntheme: Song",
+      "statement": "A song has 334 words in it. If each line in the song has 23 words, how many words would be in the incomplete line at the end of the song?",
+      "new symbolic struct": "[[var r = (334 % 23)]]\n[[question w = ['r']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-34-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var v = (334 % 314)]]\n[[question l = ['v']]]\ntheme: Song",
+      "statement": "Suppose the song writer decided to change the structure of the song and made each line contain 314 words instead. Now with the same total of 334 words, how many words would be left in the incomplete line at the end of the song?",
+      "new symbolic struct": "[[var s = (334 % 314)]]\n[[question x = ['s']]]",
+      "answer": "20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-35-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (928 % 336)]]\n[[question l = ['e']]]\ntheme: Teacher",
+      "statement": "A teacher has 928 pages of study materials that he wants to print for his students. His printer can only print 336 pages in one go. After filling the printer a number of times, how many pages will he have left over to print?",
+      "new symbolic struct": "[[var p = (928 % 336)]]\n[[question l = ['p']]]",
+      "answer": "256",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-35-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (928 % 409)]]\n[[question l = ['e']]]\ntheme: Teacher",
+      "statement": "In the same scenario, suppose the teacher decides to use a different printer that can print 409 pages in one go. After filling this printer a number of times, how many pages will he have left over to print?",
+      "new symbolic struct": "[[var q = (928 % 409)]]\n[[question m = ['q']]]",
+      "answer": "110",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-36-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var a = (972 % 667)]]\n[[question z = ['a']]]\ntheme: Shark",
+      "statement": "Scientists have spotted 972 sharks in an area. The scientists tag groups of 667 sharks each. How many sharks are left untagged after the scientists finish tagging as many complete groups as possible?",
+      "new symbolic struct": "[[var u = (972 % 667)]]\n[[question t = ['u']]]",
+      "answer": "305",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-36-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var a = (758 % 667)]]\n[[question z = ['a']]]\ntheme: Shark",
+      "statement": "Following up on the previous question, the scientists later spotted a new group of 758 sharks in a different area. Again, they were trying to tag the sharks in groups of 667. How many sharks were left untagged after all complete groups have been tagged in this new area?",
+      "new symbolic struct": "[[var v = (758 % 667)]]\n[[question t2 = ['v']]]",
+      "answer": "91",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-37-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var f = (686 % 349)]]\n[[question e = ['f']]]\ntheme: Cheese",
+      "statement": "There are 686 blocks of cheese in the dairy shop. Each box can contain 349 blocks of cheese. If all the blocks of cheese are evenly distributed in the boxes, how many blocks of cheese would be left over after all the boxes are filled?",
+      "new symbolic struct": "[[var c = (686 % 349)]]\n[[question n = ['c']]]",
+      "answer": "337",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-37-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var f = (239 % 349)]]\n[[question e = ['f']]]\ntheme: Cheese",
+      "statement": "In the previous scenario, say the dairy shop initially had 239 blocks of cheese instead of 686. Using the same boxes which can contain 349 blocks of cheese, how many blocks of cheese would be left over after all the boxes are filled?",
+      "new symbolic struct": "[[var p = (239 % 349)]]\n[[question n = ['p']]]",
+      "answer": "239",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-38-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var s = (513 % 170)]]\n[[question r = ['s']]]\ntheme: Snow",
+      "statement": "There were 513 centimeters of snowfall recorded this winter. A snowplow can clear up to 170 centimeters of snow at a time. If the snowplow runs continuously, how many centimeters of snow will be left over after the final pass?",
+      "new symbolic struct": "[[var s = (513 % 170)]]\n[[question r = ['s']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-38-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var s = (460 % 170)]]\n[[question r = ['s']]]\ntheme: Snow",
+      "statement": "Suppose that instead of 513 centimeters, there were 460 centimeters of snowfall this winter. If the same snowplow, which can clear up to 170 centimeters of snow at a time, runs continuously, how many centimeters of snow would then be left over after the final pass?",
+      "new symbolic struct": "[[var s_new = (460 % 170)]]\n[[question r_new = ['s_new']]]",
+      "answer": "120",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-39-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var z = (661 % 510)]]\n[[question x = ['z']]]\ntheme: Compass",
+      "statement": "A compass maker has 661 needles to install in compasses. Each compass uses 510 needles. After installing as many full compasses as he can, how many needles will the compass maker have left?",
+      "new symbolic struct": "[[var u = (661 % 510)]]\n[[question n = ['u']]]",
+      "answer": "151",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-40-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var z = (380 % 310)]]\n[[question s = ['z']]]\ntheme: Chair",
+      "statement": "A furniture factory has manufactured 380 chairs to distribute to its retail shops. Each shop can only hold 310 chairs in its storage. If the factory evenly distributes all the chairs to the shops, how many chairs will be left at the factory?",
+      "new symbolic struct": "[[var a = (380 % 310)]]\n[[question b = ['a']]]",
+      "answer": "70",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-40-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var z = (380 % 143)]]\n[[question s = ['z']]]\ntheme: Chair",
+      "statement": "Now suppose the factory decides to distribute these chairs amongst its smaller distributors, each of which can only hold 143 chairs. Now, how many chairs will be left at the factory after distributing them evenly?",
+      "new symbolic struct": "[[var c = (380 % 143)]]\n[[question d = ['c']]]",
+      "answer": "94",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-41-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var d = (929 % 154)]]\n[[question p = ['d']]]\ntheme: Tomato",
+      "statement": "A farmer has gathered 929 tomatoes from his field. He plans to sell them in boxes, with 154 tomatoes in each box. After packing them evenly in boxes, how many tomatoes will be left over?",
+      "new symbolic struct": "[[var t = (929 % 154)]]\n[[question u = ['t']]]",
+      "answer": "5",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-41-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var d = (929 % 834)]]\n[[question p = ['d']]]\ntheme: Tomato",
+      "statement": "The farmer realized he made an error and actually collected 929 tomatoes from his field, but this time he wants to sell them in bigger boxes that can accommodate 834 tomatoes each. After packing these tomatoes evenly in these larger boxes, how many tomatoes will be left over?",
+      "new symbolic struct": "[[var t = (929 % 834)]]\n[[question u = ['t']]]",
+      "answer": "95",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-42-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var q = (454 % 128)]]\n[[question m = ['q']]]\ntheme: Ice skates",
+      "statement": "A sporting goods store has 454 pairs of ice skates in total. The store distributes the skates evenly among 128 boxes. How many pairs of ice skates will be left over after all the boxes are filled up equally?",
+      "new symbolic struct": "[[var p = 454]]\n[[var b = 128]]\n[[var r = (p % b)]]\n[[question t = ['r']]]",
+      "answer": "70",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-42-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var q = (976 % 128)]]\n[[question m = ['q']]]\ntheme: Ice skates",
+      "statement": "If the sporting goods store originally had 976 pairs of ice skates instead of 454, and they still distribute the skates evenly among 128 boxes as before, how many pairs of ice skates will be left over after all the boxes are filled equally?",
+      "new symbolic struct": "[[var p = 976]]\n[[var b = 128]]\n[[var r = (p % b)]]\n[[question t = ['r']]]",
+      "answer": "80",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-43-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var d = (506 % 385)]]\n[[question b = ['d']]]\ntheme: Wind",
+      "statement": "A windmill generates 506 units of power per day. Every day, a small village consumes power in increments of 385 units. At the end of the day, after the village has consumed as much power as it can in full increments, how much power is left over?",
+      "new symbolic struct": "[[var c = (506 % 385)]]\n[[question d = ['c']]]",
+      "answer": "121",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-43-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var d = (506 % 920)]]\n[[question b = ['d']]]\ntheme: Wind",
+      "statement": "Following the scenario of the windmill and the small village, let's now consider that the windmill had a great day and managed to generate 506 units of power. However, due to development demands, the daily consumption of the village has increased to 920 units. At the end of the day, with the power being consumed in complete units, how much power is left over?",
+      "new symbolic struct": "[[var f = (506 % 920)]]\n[[question g = ['f']]]",
+      "answer": "506",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-44-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var i = (338 % 16)]]\n[[question n = ['i']]]\ntheme: Superhero",
+      "statement": "Superhero Blast Man has 338 energy units in his power cells. Each energy blast he fires uses 16 energy units. After using equal units of energy firing blasts, how many energy units will Blast Man have left in his power cells?",
+      "new symbolic struct": "[[var e = (338 % 16)]]\n[[question p = ['e']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-44-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var i = (338 % 46)]]\n[[question n = ['i']]]\ntheme: Superhero",
+      "statement": "Now, imagine that Superhero Blast Man has boosted his power cells and now has 338 energy units in his power cells. But this time, each energy blast he fires now uses 46 energy units. After using equal units of energy firing blasts, how many energy units will Blast Man have left in his power cells?",
+      "new symbolic struct": "[[var e = (338 % 46)]]\n[[question p = ['e']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-46-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var z = (530 % 144)]]\n[[question d = ['z']]]\ntheme: School bus",
+      "statement": "A school district has 530 students who need to be transported and each school bus can carry 144 students. If all students are equally spread across the buses, how many students will be on the last school bus?",
+      "new symbolic struct": "[[var s = (530 % 144)]]\n[[question t = ['s']]]",
+      "answer": "98",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-47-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var v = (999 % 951)]]\n[[question n = ['v']]]\ntheme: Wizard",
+      "statement": "A wizard has 999 spells in his book. He tries to distribute them equally among 951 apprentice wizards but they don't divide evenly. How many spells will the wizard have left after giving out as many as he can to his apprentices?",
+      "new symbolic struct": "[[var s = (999 % 951)]]\n[[question w = ['s']]]",
+      "answer": "48",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-47-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var v = (999 % 801)]]\n[[question n = ['v']]]\ntheme: Wizard",
+      "statement": "If the wizard had instead 999 spells and he tries to distribute them equally among 801 apprentice wizards, how many spells will the wizard have left after giving out as many as he can to his apprentices?",
+      "new symbolic struct": "[[var s = (999 % 801)]]\n[[question w = ['s']]]",
+      "answer": "198",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-48-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var u = (767 % 369)]]\n[[question h = ['u']]]\ntheme: Scooter",
+      "statement": "A scooter manufacturing company has produced 767 scooters. Each delivery truck they use can carry 369 scooters. If they distribute the scooters evenly among the trucks, how many scooters will be left after all the trucks are loaded?",
+      "new symbolic struct": "[[var s = (767 % 369)]]\n[[question l = ['s']]]",
+      "answer": "29",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-49-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var y = (846 % 722)]]\n[[question d = ['y']]]\ntheme: Cloud",
+      "statement": "There are 846 water droplets in a cloud. Each raindrop needs 722 droplets to form. If all droplets are used to form raindrops, how many droplets would be left unconverted in the cloud after reaching the maximum number of rain drops?",
+      "new symbolic struct": "[[var d = (846 % 722)]]\n[[question r = ['d']]]",
+      "answer": "124",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-49-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var y = (846 % 442)]]\n[[question d = ['y']]]\ntheme: Cloud",
+      "statement": "There was a slight miscalculation in the cloud's droplet count. There are actually 846 water droplets in the cloud, but each raindrop needs 442 droplets to form instead of 722. With this updated droplet count per raindrop, how many droplets would be left unconverted in the cloud after reaching the maximum number of rain drops?",
+      "new symbolic struct": "[[var d = (846 % 442)]]\n[[question r = ['d']]]",
+      "answer": "404",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-50-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var q = (265 % 146)]]\n[[question c = ['q']]]\ntheme: Unicorn",
+      "statement": "Unicorn Village, a magical place where 265 unicorns live, is divided into 146 equal sections where these magical creatures reside. If each section is occupied by an equal number of unicorns, how many unicorns will live in the last incomplete section?",
+      "new symbolic struct": "[[var u = (265 % 146)]]\n[[question k = ['u']]]",
+      "answer": "119",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-50-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var q = (265 % 781)]]\n[[question c = ['q']]]\ntheme: Unicorn",
+      "statement": "Considering the same scenario from the previous problem, let's say instead of 146 sections, Unicorn Village is divided into 781 equal sections. How many unicorns will live in the last incomplete section now?",
+      "new symbolic struct": "[[var v = (265 % 781)]]\n[[question l = ['v']]]",
+      "answer": "265",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-51-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (923 % 383)]]\n[[question t = ['e']]]\ntheme: Game",
+      "statement": "In a game, there are 923 players waiting to enter a match. Only 383 players can enter a match at a time. If players enter matches evenly, how many players will be left waiting after filling all the matches?",
+      "new symbolic struct": "[[var q = (923 % 383)]]\n[[question r = ['q']]]",
+      "answer": "157",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-51-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (456 % 383)]]\n[[question t = ['e']]]\ntheme: Game",
+      "statement": "In the same game, a new day dawns with 456 players waiting to join a match. The match capacity remains the same, permitting 383 players at a time. If players are allocated evenly across the matches, how many players will be left waiting after all available matches are filled?",
+      "new symbolic struct": "[[var s = (456 % 383)]]\n[[question t = ['s']]]",
+      "answer": "73",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-52-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (923 % 499)]]\n[[question m = ['e']]]\ntheme: Pirate ship",
+      "statement": "A pirate ship has 923 cannonballs on board. They want to equally disperse them between 499 different crates. After evenly distributing them as much as possible, how many cannonballs will be left uncrated?",
+      "new symbolic struct": "[[var c = (923 % 499)]]\n[[question uncrated = ['c']]]",
+      "answer": "424",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-52-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (462 % 499)]]\n[[question m = ['e']]]\ntheme: Pirate ship",
+      "statement": "Keeping in line with the previous pirate ship themed problem, let's consider the following scenario: The same pirate ship initially started with 462 cannonballs instead of 923. After the pirates evenly distribute these cannonballs into the same 499 crates, can any be leftover? If so, how many cannonballs will be left uncrated?",
+      "new symbolic struct": "[[var c = (462 % 499)]]\n[[question uncrated = ['c']]]",
+      "answer": "462",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-53-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var j = (530 % 518)]]\n[[question e = ['j']]]\ntheme: Kite",
+      "statement": "A kite store has 530 string spools to attach to their kites. They distribute them to 518 kites, each getting one string spool. After each kite gets a spool, how many spools are left in the store?",
+      "new symbolic struct": "[[var s = 530 - 518]]\n[[question q = ['s']]]",
+      "answer": "12",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-54-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var f = (913 % 39)]]\n[[question v = ['f']]]\ntheme: Milk",
+      "statement": "A dairy farm produces 913 gallons of milk in a day. If every milk jug holds 39 gallons, how many gallons will be left over after all the jugs are filled?",
+      "new symbolic struct": "[[var m = (913 % 39)]]\n[[question n = ['m']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-54-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var f = (913 % 230)]]\n[[question v = ['f']]]\ntheme: Milk",
+      "statement": "The dairy farm has adjusted its production and now produces 913 gallons of milk in a day. If they started using larger milk jugs that hold 230 gallons each, how many gallons will be left over after all the jugs are filled?",
+      "new symbolic struct": "[[var q = (913 % 230)]]\n[[question r = ['q']]]",
+      "answer": "223",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-55-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (603 % 369)]]\n[[question n = ['r']]]\ntheme: Doll",
+      "statement": "A doll seller received a shipment of 603 new dolls to put on the shelves. She arranged all the dolls in rows, with 369 dolls in each row. After filling up the rows as much as possible, how many dolls were left unarranged?",
+      "new symbolic struct": "[[var u = (603 % 369)]]\n[[question k = ['u']]]",
+      "answer": "234",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-55-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (44 % 369)]]\n[[question n = ['r']]]\ntheme: Doll",
+      "statement": "In the previous doll problem, if the doll seller initially received a shipment of 44 new dolls instead of 603, and still arranged them in rows of 369 dolls, how many dolls would be left unarranged after filling up the rows as much as possible?",
+      "new symbolic struct": "[[var p = (44 % 369)]]\n[[question k = ['p']]]",
+      "answer": "44",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-56-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var c = (850 % 631)]]\n[[question o = ['c']]]\ntheme: Necklace",
+      "statement": "A jewelry maker has 850 beads to make necklaces. They use 631 beads for each necklace. After using as many beads as possible, how many beads will the jewelry maker have left over?",
+      "new symbolic struct": "[[var b = 850]]\n[[var n = 631]]\n[[var r = b % n]]\n[[question leftover = ['r']]]",
+      "answer": "219",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-56-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var c = (850 % 150)]]\n[[question o = ['c']]]\ntheme: Necklace",
+      "statement": "The jewelry maker decides to change the design and now each necklace uses only 150 beads instead of 631 beads. After they distribute the 850 beads as equally as possible among the new necklaces, how many beads will the jewelry maker have left over?",
+      "new symbolic struct": "[[var b = 850]]\n[[var n1 = 631]]\n[[var n2 = 150]]\n[[var r1 = b % n1]]\n[[var r2 = b % n2]]\n[[question leftover = ['r2']]]",
+      "answer": "100",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-57-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var a = (952 % 380)]]\n[[question l = ['a']]]\ntheme: Grapes",
+      "statement": "A gardener has 952 grapes that he wants to package into boxes. If each box can hold 380 grapes, how many grapes will be left after the gardener has filled as many boxes as possible?",
+      "new symbolic struct": "[[var a = (952 % 380)]]\n[[question b = ['a']]]",
+      "answer": "192",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-57-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var a = (183 % 380)]]\n[[question l = ['a']]]\ntheme: Grapes",
+      "statement": "The gardener's friend gave him an additional 183 grapes from his own garden. If the gardener decides to package these grapes as well into boxes with each box holding 380 grapes, how many grapes will remain after packaging the new grapes into as many boxes as possible?",
+      "new symbolic struct": "[[var x = (183 % 380)]]\n[[question y = ['x']]]",
+      "answer": "183",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-58-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var j = (236 % 44)]]\n[[question k = ['j']]]\ntheme: Map",
+      "statement": "On a treasure map, there are 236 steps mentioned on the guide. If every 44 steps I make leads me to a significant place or clue, how many steps will be left after I reach the last significant place or clue?",
+      "new symbolic struct": "[[var t = (236 % 44)]]\n[[question s = ['t']]]",
+      "answer": "16",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-59-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var l = (932 % 507)]]\n[[question y = ['l']]]\ntheme: Bubble",
+      "statement": "Sarah blew 932 bubbles using her new bubble machine. The machine is designed to form groups of 507 bubbles each before releasing them. After forming complete groups, how many bubbles does it make in its final, incomplete group?",
+      "new symbolic struct": "[[var b = (932 % 507)]]\n[[question t = ['b']]]",
+      "answer": "425",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-59-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var l = (904 % 507)]]\n[[question y = ['l']]]\ntheme: Bubble",
+      "statement": "Suppose Sarah uses her bubble machine again, this time to blow 904 bubbles. The machine is still designed to form groups of 507 bubbles each before releasing them. After forming complete groups, how many bubbles does it make in its final, incomplete group?",
+      "new symbolic struct": "[[var c = (904 % 507)]]\n[[question h = ['c']]]",
+      "answer": "397",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-61-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var v = (931 % 34)]]\n[[question a = ['v']]]\ntheme: Swing",
+      "statement": "At the park, there are 931 kids who want to use the swings. Each swing set can accommodate 34 kids at a time. If all the swing sets are filled continuously, how many kids will be waiting for their turn after all the swing sets are occupied?",
+      "new symbolic struct": "[[var s = (931 % 34)]]\n[[question k = ['s']]]",
+      "answer": "13",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-61-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var v = (708 % 34)]]\n[[question a = ['v']]]\ntheme: Swing",
+      "statement": "In the previous scenario, let's say that some of the kids finished their swinging and left the park. Now, there are only 708 kids waiting to use the swings. Each swing set can still accommodate 34 kids at a time. Given this new number, how many children will be waiting for their turn after all the swing sets are occupied?",
+      "new symbolic struct": "[[var t = (708 % 34)]]\n[[question k = ['t']]]",
+      "answer": "28",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-63-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var c = (943 % 433)]]\n[[question z = ['c']]]\ntheme: Wallet",
+      "statement": "John has 943 dollar bills in his possession. He tries to stuff them in wallets that can each contain 433 dollar bills. After fully loading as many wallets as he can, how many dollar bills does he have left?",
+      "new symbolic struct": "[[var w = (943 % 433)]]\n[[question d = ['w']]]",
+      "answer": "77",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-63-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var c = (586 % 433)]]\n[[question z = ['c']]]\ntheme: Wallet",
+      "statement": "Suppose John originally had 586 dollar bills instead of 943. He still tries to stuff them in wallets that can each contain 433 dollar bills. After fully loading as many wallets as he can, how many dollar bills does he have left now?",
+      "new symbolic struct": "[[var w1 = (586 % 433)]]\n[[question d1 = ['w1']]]",
+      "answer": "153",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-64-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var b = (240 % 177)]]\n[[question v = ['b']]]\ntheme: Helicopter",
+      "statement": "A helicopter pilot plans to transport 240 passengers over several trips. He can carry 177 passengers in one trip. How many passengers will be left behind after the helicopter makes the first full trip?",
+      "new symbolic struct": "[[var h = (240 - 177)]]\n[[question l = ['h']]]",
+      "answer": "63",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-65-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var l = (982 % 555)]]\n[[question o = ['l']]]\ntheme: Flower",
+      "statement": "A gardener has 982 flowers to plant in flowerbeds. Each flowerbed can fit 555 flowers. After filling up as many flowerbeds as possible, how many flowers will the gardener have left to plant?",
+      "new symbolic struct": "[[var r = (982 % 555)]]\n[[question f = ['r']]]",
+      "answer": "427",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-65-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var l = (867 % 555)]]\n[[question o = ['l']]]\ntheme: Flower",
+      "statement": "The gardener received an additional shipment, bringing the total number of flowers up to 867. If he continues to plant the flowers in flowerbeds of 555 each, how many flowers will he have left to plant after filling up as many flowerbeds as possible?",
+      "new symbolic struct": "[[var s = (867 % 555)]]\n[[question g = ['s']]]",
+      "answer": "312",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-66-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var w = (203 % 5)]]\n[[question y = ['w']]]\ntheme: Strawberry",
+      "statement": "A farmer grows 203 strawberry plants. She wants to divide her plants into groups of 5 to sell. How many plants will be remaining if she divides them equally?",
+      "new symbolic struct": "[[var r = (203 % 5)]]\n[[question n = ['r']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-66-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var w = (76 % 5)]]\n[[question y = ['w']]]\ntheme: Strawberry",
+      "statement": "The farmer harvested another field and got an additional 76 strawberry plants. Again, she wants to divide the new plants into groups of 5 to sell. How many plants will be remaining if she divides these new strawberries equally?",
+      "new symbolic struct": "[[var r2 = (76 % 5)]]\n[[question n2 = ['r2']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-67-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var b = (355 % 16)]]\n[[question l = ['b']]]\ntheme: Carrot",
+      "statement": "A gardener has 355 carrots. He wants to create bundles of 16. After creating as many bundles as he can, how many carrots will he have left?",
+      "new symbolic struct": "[[var c = (355 % 16)]]\n[[question b = ['c']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-68-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (612 % 29)]]\n[[question e = ['r']]]\ntheme: Rain",
+      "statement": "A total rainfall of 612 inches fell over a certain city in 29 consecutive days. If the rain fell in the same amount every day, how many inches of rain would be left to make the days evenly rainy?",
+      "new symbolic struct": "[[var r = (612 % 29)]]\n[[question i = ['r']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-68-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (505 % 29)]]\n[[question e = ['r']]]\ntheme: Rain",
+      "statement": "Suppose instead of 612 inches, a total rainfall of 505 inches fell over the city in those same 29 consecutive days. If the rain fell in the same amount every day, how many inches of rain would be left to make the days evenly rainy?",
+      "new symbolic struct": "[[var r2 = (505 % 29)]]\n[[question i2 = ['r2']]]",
+      "answer": "12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-69-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (514 % 371)]]\n[[question v = ['r']]]\ntheme: Truck",
+      "statement": "A truck company has got 514 boxes for delivery. Each truck can hold up to 371 boxes. If each truck is loaded to its full capacity, how many boxes will be left over?",
+      "new symbolic struct": "[[var B = (514 % 371)]]\n[[question L = ['B']]]",
+      "answer": "143",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-70-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var q = (684 % 230)]]\n[[question p = ['q']]]\ntheme: Sandbox",
+      "statement": "In a large sandbox, children create 684 sandcastles over the summer. The sandcastles were grouped into sets of 230 for a photography contest. After all the sets were completed, how many sandcastles were left that didn't form a complete set?",
+      "new symbolic struct": "[[var r = (684 % 230)]]\n[[question s = ['r']]]",
+      "answer": "224",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-70-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var q = (533 % 230)]]\n[[question p = ['q']]]\ntheme: Sandbox",
+      "statement": "Continuing from the prior problem, suppose that in another large sandbox, children now create 533 sandcastles over the summer instead of 684. If they still group the sandcastles in sets of 230 for a photography contest, how many sandcastles will be left now that don't form a complete set?",
+      "new symbolic struct": "[[var t = (533 % 230)]]\n[[question u = ['t']]]",
+      "answer": "73",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-71-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var u = (735 % 348)]]\n[[question e = ['u']]]\ntheme: Toy car",
+      "statement": "A toy manufacturer has a production run of 735 toy cars. They package the cars in packs of 348 for bulk shipments. If all the toy cars are divided equally among packs, how many toy cars will be left over after all full packs have been filled?",
+      "new symbolic struct": "[[var t = (735 % 348)]]\n[[question o = ['t']]]",
+      "answer": "39",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-71-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var u = (77 % 348)]]\n[[question e = ['u']]]\ntheme: Toy car",
+      "statement": "The toy manufacturer decides in the next production run to make only 77 toy cars instead of 735. Again, they package the cars in packs of 348 for bulk shipments. If all the toy cars are divided equally among these packs, how many toy cars will be left over after all full packs have been filled?",
+      "new symbolic struct": "[[var s = (77 % 348)]]\n[[question v = ['s']]]",
+      "answer": "77",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-72-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var t = (386 % 95)]]\n[[question o = ['t']]]\ntheme: Forest",
+      "statement": "In a forest, there are 386 animals. Each woodlands territory can support 95 animals. If the existing animals are evenly distributed among the territories, how many animals will be left in the last not fully occupied territory?",
+      "new symbolic struct": "[[var c = (386 % 95)]]\n[[question h = ['c']]]",
+      "answer": "6",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-72-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var t = (497 % 95)]]\n[[question o = ['t']]]\ntheme: Forest",
+      "statement": "In the same forest, a new report finds that there were actually 497 animals instead of the initially thought 386. If these animals were evenly distributed among the territories, each still supporting 95 animals, how many animals would be in the last not fully occupied territory now?",
+      "new symbolic struct": "[[var d = (497 % 95)]]\n[[question i = ['d']]]",
+      "answer": "22",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-73-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var w = (801 % 646)]]\n[[question e = ['w']]]\ntheme: Forest",
+      "statement": "A forest has 801 trees. A tree disease starts to spread and is expected to affect 646 trees. If all the diseased trees have to be cut down evenly, how many trees are likely to stay healthy after the disease has affected all possible trees?",
+      "new symbolic struct": "[[var t = 801]]\n[[var d = 646]]\n[[var h = t - d]]\n[[question healthy = ['h']]]",
+      "answer": "155",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-74-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (934 % 902)]]\n[[question t = ['e']]]\ntheme: Rope",
+      "statement": "A rope manufacturer has made a rope of 934 meters in length. This rope is supposed to be cut into smaller pieces, each piece being 902 meters in length. After cutting into the maximum possible number of equal pieces, how many meters will the last piece of the rope be?",
+      "new symbolic struct": "[[var r = (934 % 902)]]\n[[question l = ['r']]]",
+      "answer": "32",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-74-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (202 % 902)]]\n[[question t = ['e']]]\ntheme: Rope",
+      "statement": "Continuing from the previous scenario, suppose that the manufacturer only made a rope of 202 meters in length initially. Applying the same method of cutting rope into pieces that are each 902 meters long, how many meters would the piece of the rope be now?",
+      "new symbolic struct": "[[var s = (202 % 902)]]\n[[question t = ['s']]]",
+      "answer": "202",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-75-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var x = (561 % 550)]]\n[[question v = ['x']]]\ntheme: Milk",
+      "statement": "A dairy farm produces 561 liters of milk each day. The milk is packaged into 550-liter containers. How many liters of milk are left over each day after filling the containers?",
+      "new symbolic struct": "[[var m = (561 % 550)]]\n[[question n = ['m']]]",
+      "answer": "11",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-75-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var x = (729 % 550)]]\n[[question v = ['x']]]\ntheme: Milk",
+      "statement": "If the dairy farm increased its production and started producing 729 liters of milk each day instead of 561 liters, how many liters of milk would be left over each day after filling the 550-liter containers?",
+      "new symbolic struct": "[[var m = (729 % 550)]]\n[[question n = ['m']]]",
+      "answer": "179",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-76-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (259 % 258)]]\n[[question s = ['r']]]\ntheme: Puzzle",
+      "statement": "Jon has 259 puzzle pieces. If each puzzle requires 258 pieces, how many pieces will be left over once he completes a full puzzle?",
+      "new symbolic struct": "[[var l = (259 % 258)]]\n[[question p = ['l']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-76-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (259 % 542)]]\n[[question s = ['r']]]\ntheme: Puzzle",
+      "statement": "In the previous problem, Jon had 259 puzzle pieces and each puzzle requires 258 pieces. Suppose instead each puzzle needs 542 pieces. How many pieces would Jon have left over after finishing as many full puzzles as possible with his 259 pieces?",
+      "new symbolic struct": "[[var m = (259 % 542)]]\n[[question p = ['m']]]",
+      "answer": "259",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-77-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var g = (673 % 49)]]\n[[question r = ['g']]]\ntheme: Bracelet",
+      "statement": "A jewelry maker has 673 beads. She plans to use exactly 49 beads for each bracelet. How many beads will she have left after creating as many bracelets as possible with the exact number of beads?",
+      "new symbolic struct": "[[var b = (673 % 49)]]\n[[question x = ['b']]]",
+      "answer": "36",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-77-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var g = (673 % 545)]]\n[[question r = ['g']]]\ntheme: Bracelet",
+      "statement": "The jewelry maker received an additional shipment, and now she has a total of 673 beads. This time, she wants to make larger bracelets which use exactly 545 beads each. After creating as many large bracelets as possible, how many beads will she have left over?",
+      "new symbolic struct": "[[var s = (673 % 545)]]\n[[question y = ['s']]]",
+      "answer": "128",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-78-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var k = (927 % 311)]]\n[[question g = ['k']]]\ntheme: Police",
+      "statement": "A police station received 927 calls within a week. They have 311 operators who can handle the same number of calls each week. However, when the calls are divided equally, how many calls will the last operator handle?",
+      "new symbolic struct": "[[var r = (927 % 311)]]\n[[question q = ['r']]]",
+      "answer": "305",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-78-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var k = (927 % 552)]]\n[[question g = ['k']]]\ntheme: Police",
+      "statement": "The police station decided to increase the number of operators to 552, each still handling the same number of calls each week. With the original 927 calls, how many calls would now be handled by the last operator?",
+      "new symbolic struct": "[[var s = (927 % 552)]]\n[[question t = ['s']]]",
+      "answer": "375",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-79-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var k = (764 % 589)]]\n[[question c = ['k']]]\ntheme: Puzzle",
+      "statement": "John has 764 pieces for his jigsaw puzzle, and every package should contain 589 pieces. If he separates these pieces into full packages, how many pieces will be left outside without a package?",
+      "new symbolic struct": "[[var r = (764 % 589)]]\n[[question q = ['r']]]",
+      "answer": "175",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-79-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var k = (404 % 589)]]\n[[question c = ['k']]]\ntheme: Puzzle",
+      "statement": "If John had originally only 404 puzzle pieces, and each package can still only contain 589, how many pieces will be left outside the package now?",
+      "new symbolic struct": "[[var s = (404 % 589)]]\n[[question t = ['s']]]",
+      "answer": "404",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-80-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (984 % 217)]]\n[[question o = ['r']]]\ntheme: Dress",
+      "statement": "A dressmaker has 984 meters of fabric. She uses 217 meters of fabric to make each dress. After using all the fabric she can to make as many dresses as possible, how many meters of fabric will she have left?",
+      "new symbolic struct": "[[var f = (984 % 217)]]\n[[question g = ['f']]]",
+      "answer": "116",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-80-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (984 % 585)]]\n[[question o = ['r']]]\ntheme: Dress",
+      "statement": "In the previous scenario, let's now suppose that the dressmaker has 984 meters of fabric, but this time she uses 585 meters of fabric to make each dress. Again, she uses all the fabric she can to make as many dresses as possible. With this change, how many meters of fabric will she have left after all the dresses are made?",
+      "new symbolic struct": "[[var h = (984 % 585)]]\n[[question j = ['h']]]",
+      "answer": "399",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-81-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (639 % 374)]]\n[[question h = ['r']]]\ntheme: Sleeping bag",
+      "statement": "A company donates 639 sleeping bags for a camping event. Each campsite is supplied with 374 sleeping bags. If all the sleeping bags are divided equally among the campsites, how many sleeping bags will there be left?",
+      "new symbolic struct": "[[var r = (639 % 374)]]\n[[question s = ['r']]]",
+      "answer": "265",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-81-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (613 % 374)]]\n[[question h = ['r']]]\ntheme: Sleeping bag",
+      "statement": "The same company from our previous question receives an updated request for sleeping bags. Now instead of 639, they only need to donate 613. If each campsite is still supplied with 374 sleeping bags, how many sleeping bags will be left after all the campsites are filled?",
+      "new symbolic struct": "[[var q = (613 % 374)]]\n[[question t = ['q']]]",
+      "answer": "239",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-82-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var n = (620 % 578)]]\n[[question t = ['n']]]\ntheme: Pizza",
+      "statement": "A pizza restaurant made 620 pizzas today. They package up the pizzas in boxes that hold 578 each for delivery. If the pizzas are evenly distributed into these boxes, how many pizzas will be left over that don't fit into a box?",
+      "new symbolic struct": "[[var e = (620 % 578)]]\n[[question p = ['e']]]",
+      "answer": "42",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-82-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var n = (694 % 578)]]\n[[question t = ['n']]]\ntheme: Pizza",
+      "statement": "The owner of the pizza restaurant decides to make 74 more pizzas tomorrow, bringing the total to 694 pizzas. If they are again distributed into boxes that hold 578 pizzas each, how many pizzas will be left out without a box this time?",
+      "new symbolic struct": "[[var e = (694 % 578)]]\n[[question p = ['e']]]",
+      "answer": "116",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-83-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var p = (820 % 684)]]\n[[question v = ['p']]]\ntheme: Robot",
+      "statement": "A factory made a total of 820 robots. It can store 684 robots in one storage unit. If the robots are evenly stored, how many robots will not fit and remain outside of the storage units?",
+      "new symbolic struct": "[[var r = (820 % 684)]]\n[[question q = ['r']]]",
+      "answer": "136",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-83-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var p = (820 % 625)]]\n[[question v = ['p']]]\ntheme: Robot",
+      "statement": "In the same factory, another production run is completed, this time manufacturing a total of 820 upgraded robots. However, the storage units for these new models can only hold 625 robots each. If the robots are evenly stored, how many upgraded robots will not fit and remain outside the storage units now?",
+      "new symbolic struct": "[[var u = (820 % 625)]]\n[[question a = ['u']]]",
+      "answer": "195",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-84-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var o = (516 % 289)]]\n[[question n = ['o']]]\ntheme: Cloud",
+      "statement": "A cloud changes its shape by reducing its water droplets. Initially, there were 516 droplets in the cloud. If the cloud loses water droplets at an equal rate and becomes entirely dry after every 289 droplets, how many droplets will be left when the cloud is dry after the final cycle?",
+      "new symbolic struct": "[[var c = (516 % 289)]]\n[[question d = ['c']]]",
+      "answer": "227",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-84-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var o = (175 % 289)]]\n[[question n = ['o']]]\ntheme: Cloud",
+      "statement": "If initially, there were only 175 droplets in the cloud instead of 516. If the cloud loses water droplets at an equal rate and becomes entirely dry after every 289 droplets, how many droplets will be left when the cloud is dry after the final cycle?",
+      "new symbolic struct": "[[var w = (175 % 289)]]\n[[question y = ['w']]]",
+      "answer": "175",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-85-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var x = (330 % 4)]]\n[[question v = ['x']]]\ntheme: Truck",
+      "statement": "A transport company needs to load 330 boxes into trucks. Each truck can hold exactly 4 boxes. After filling each truck to its full capacity, how many boxes will be left unloaded?",
+      "new symbolic struct": "[[var u = (330 % 4)]]\n[[question k = ['u']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-85-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var x = (274 % 4)]]\n[[question v = ['x']]]\ntheme: Truck",
+      "statement": "The transport company now needs to load a new batch of 274 boxes into trucks. Again, each truck can hold exactly 4 boxes. After filling each truck to its full capacity, how many boxes will be left unloaded this time?",
+      "new symbolic struct": "[[var v = (274 % 4)]]\n[[question l = ['v']]]",
+      "answer": "2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-86-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var u = (649 % 183)]]\n[[question c = ['u']]]\ntheme: Potato",
+      "statement": "A farmer harvested 649 potatoes this season. He decides to pack them into crates each containing 183 potatoes. How many potatoes will be left after all crates are filled to their maximum capacity?",
+      "new symbolic struct": "[[var u = (649 % 183)]]\n[[question k = ['u']]]",
+      "answer": "100",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-86-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var u = (238 % 183)]]\n[[question c = ['u']]]\ntheme: Potato",
+      "statement": "The farmer realized that he actually only harvested 238 potatoes this season instead of 649. If he still packs them into crates each holding 183 potatoes, how many potatoes will be left after all crates are filled to their maximum capacity?",
+      "new symbolic struct": "[[var w = (238 % 183)]]\n[[question z = ['w']]]",
+      "answer": "55",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-87-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (258 % 67)]]\n[[question h = ['r']]]\ntheme: Shirt",
+      "statement": "A t-shirt company has a batch of 258 shirts in production. Each box can pack 67 shirts. If all the shirts are evenly distributed in the boxes, how many shirts would be left outside the boxes?",
+      "new symbolic struct": "[[var s = (258 % 67)]]\n[[question q = ['s']]]",
+      "answer": "57",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-87-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var r = (258 % 828)]]\n[[question h = ['r']]]\ntheme: Shirt",
+      "statement": "Suppose the t-shirt company actually had a batch of 258 shirts, but this time each box can pack 828 shirts. If all the shirts are evenly distributed in the boxes, how many shirts would be left outside the boxes?",
+      "new symbolic struct": "[[var t = (258 % 828)]]\n[[question q = ['t']]]",
+      "answer": "258",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-88-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var l = (995 % 267)]]\n[[question t = ['l']]]\ntheme: Pirate ship",
+      "statement": "On a pirate ship, there are 995 gold coins that need to be evenly divided among the 267 pirates. If they split the gold up as evenly as possible, how many gold coins will be left over?",
+      "new symbolic struct": "[[var n = (995 % 267)]]\n[[question o = ['n']]]",
+      "answer": "194",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-89-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var s = (776 % 375)]]\n[[question i = ['s']]]\ntheme: Snail",
+      "statement": "There are 776 snails all lined up in a row. If you group them in bunches of 375 snails, how many snails will be left in the final group?",
+      "new symbolic struct": "[[var s = (776 % 375)]]\n[[question sn = ['s']]]",
+      "answer": "26",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-89-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var s = (776 % 18)]]\n[[question i = ['s']]]\ntheme: Snail",
+      "statement": "Originally, you had grouped the snails in bunches of 375 snails each. Now, think about what would happen if each bunch had 18 snails instead. How many snails would be left in the final group then?",
+      "new symbolic struct": "[[var s_previous = (776 % 375)]]\n[[var s_new = (776 % 18)]]\n[[question sn_new = ['s_new']]]",
+      "answer": "2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-90-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var o = (589 % 198)]]\n[[question z = ['o']]]\ntheme: Pillow",
+      "statement": "A pillow factory produces 589 pillows per day. They package these pillows in boxes, and each box holds 198 pillows. If they pack as many full boxes as possible, how many pillows will be left outside the boxes at the end of the day?",
+      "new symbolic struct": "[[var p = (589 % 198)]]\n[[question q = ['p']]]",
+      "answer": "193",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-90-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var o = (589 % 810)]]\n[[question z = ['o']]]\ntheme: Pillow",
+      "statement": "The pillow factory has made an adjustment to the packaging process and recently upgraded their boxes so that each can now hold 810 pillows. If they still produce 589 pillows per day and pack as many full boxes as possible, how many pillows will be left outside the boxes at the end of the day?",
+      "new symbolic struct": "[[var p = (589 % 810)]]\n[[question q = ['p']]]",
+      "answer": "589",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-91-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var m = (633 % 30)]]\n[[question e = ['m']]]\ntheme: Necklace",
+      "statement": "A jewelry maker has 633 beads. If she uses beads to make necklaces, with each necklace using exactly 30 beads, how many beads will she have left after making as many necklaces as she can?",
+      "new symbolic struct": "[[var b = (633 % 30)]]\n[[question r = ['b']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-91-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var m = (588 % 30)]]\n[[question e = ['m']]]\ntheme: Necklace",
+      "statement": "The jewelry maker found an additional box of beads in her storage, increasing her total number of beads to 588. Now, if she uses these beads to make necklaces, with each necklace using exactly 30 beads, how many beads will she have left after making as many necklaces as she can?",
+      "new symbolic struct": "[[var c = (588 % 30)]]\n[[question s = ['c']]]",
+      "answer": "18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-92-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var b = (365 % 140)]]\n[[question m = ['b']]]\ntheme: Wallet",
+      "statement": "John has collected 365 coins. He decided to put equal numbers of them in his 140 wallets. However, he found out he would still have some coins left after evenly distributing them into these wallets. How many coins will John have left?",
+      "new symbolic struct": "[[var a = (365 % 140)]]\n[[question q = ['a']]]",
+      "answer": "85",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-92-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var b = (739 % 140)]]\n[[question m = ['b']]]\ntheme: Wallet",
+      "statement": "Now, suppose John comes across additional coins and his collection increases to 739 coins. He again tries to evenly distribute these coins among his 140 wallets. How many coins will John have left after this distribution?",
+      "new symbolic struct": "[[var b = (739 % 140)]]\n[[question r = ['b']]]",
+      "answer": "39",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-93-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var n = (743 % 451)]]\n[[question j = ['n']]]\ntheme: Sock",
+      "statement": "A sock manufacturer produces 743 socks in a single production run. The socks are packed into cartons, each containing 451 socks. After filling up as many cartons as possible, how many socks are left unpacked?",
+      "new symbolic struct": "[[var s = (743 % 451)]]\n[[question r = ['s']]]",
+      "answer": "292",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-93-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var n = (743 % 179)]]\n[[question j = ['n']]]\ntheme: Sock",
+      "statement": "Now suppose the sock manufacturer changes their packaging method and each carton contains 179 socks instead of 451 socks. After filling up as many cartons as possible with 743 socks, how many socks are left unpacked?",
+      "new symbolic struct": "[[var t = (743 % 179)]]\n[[question u = ['t']]]",
+      "answer": "27",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-94-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var b = (923 % 771)]]\n[[question w = ['b']]]\ntheme: Slide",
+      "statement": "A total of 923 children want to slide down a slide at an amusement park. If 771 children can go down the slide without rest, how many children will be left waiting for their turn?",
+      "new symbolic struct": "[[var b = (923 - 771)]]\n[[question c = ['b']]]",
+      "answer": "152",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-94-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var b = (923 % 881)]]\n[[question w = ['b']]]\ntheme: Slide",
+      "statement": "After the first 771 children go down the slide, another wave of children arrives and now there are 923 children in total waiting again. If 881 children can go down the slide without any break this time, how many children will be left waiting for their turn?",
+      "new symbolic struct": "[[var d = (923 - 881)]]\n[[question f = ['d']]]",
+      "answer": "42",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-97-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var b = (442 % 104)]]\n[[question d = ['b']]]\ntheme: Superhero",
+      "statement": "Superhero Iron Punch has to save 442 people from a collapsing building. He can teleport a maximum of 104 people at a time to safety. After teleporting as many full groups as he can, how many people will be left in the building for his last round of rescue?",
+      "new symbolic struct": "[[var r = (442 % 104)]]\n[[question l = ['r']]]",
+      "answer": "26",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-97-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var b = (512 % 104)]]\n[[question d = ['b']]]\ntheme: Superhero",
+      "statement": "What if there were actually 512 people in the collapsing building instead of 442? After Superhero Iron Punch teleports as many full groups of 104 people as he can to safety, how many people will be left in the building for his last round of rescue now?",
+      "new symbolic struct": "[[var t = (512 % 104)]]\n[[question m = ['t']]]",
+      "answer": "96",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-98-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var c = (569 % 68)]]\n[[question k = ['c']]]\ntheme: Card",
+      "statement": "A card game manufacturer creates a deck of cards with 569 cards. Each card pack has 68 cards. After creating as many packs as possible, how many cards will the manufacturer have left over?",
+      "new symbolic struct": "[[var x = (569 % 68)]]\n[[question y = ['x']]]",
+      "answer": "25",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-98-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var c = (205 % 68)]]\n[[question k = ['c']]]\ntheme: Card",
+      "statement": "After realizing the popularity of the game, the card manufacturer decides to produce another deck of cards, this time with 205 cards. Once again, each card pack can hold 68 cards. After creating as many full packs as possible, how many cards will the manufacturer have left over this time around?",
+      "new symbolic struct": "[[var z = (205 % 68)]]\n[[question a = ['z']]]",
+      "answer": "1",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-99-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var y = (842 % 719)]]\n[[question o = ['y']]]\ntheme: Eraser",
+      "statement": "A stationery store received a shipment of 842 erasers. The store owner wants to display them in boxes, with each box containing 719 erasers. After filling as many boxes as possible, how many erasers will be left over?",
+      "new symbolic struct": "[[var e = (842 % 719)]]\n[[question p = ['e']]]",
+      "answer": "123",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-99-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var y = (842 % 420)]]\n[[question o = ['y']]]\ntheme: Eraser",
+      "statement": "Suppose the stationery store owner later decided to display the erasers in smaller boxes, with each box containing 420 erasers instead. After filling as many boxes as possible, how many erasers will be left over now?",
+      "new symbolic struct": "[[var e = (842 % 420)]]\n[[question p = ['e']]]",
+      "answer": "2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-100-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var v = (461 % 244)]]\n[[question c = ['v']]]\ntheme: Carrot",
+      "statement": "A farmer harvested 461 carrots from his garden. He packs them into boxes, each box can hold up to 244 carrots. After packing as many full boxes as possible, how many carrots will be left unpacked?",
+      "new symbolic struct": "[[var u = (461 % 244)]]\n[[question k = ['u']]]",
+      "answer": "217",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-100-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var v = (11 % 244)]]\n[[question c = ['v']]]\ntheme: Carrot",
+      "statement": "The farmer found out that he had initially miscounted and he actually only harvested 11 carrots. After he tries to pack these into the boxes which each can hold up to 244 carrots, how many carrots will be left unpacked now?",
+      "new symbolic struct": "[[var u = (11 % 244)]]\n[[question k = ['u']]]",
+      "answer": "11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-101-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var u = (309 % 293)]]\n[[question r = ['u']]]\ntheme: Penguin",
+      "statement": "A penguin scientist counts 309 penguins in a colony. She decides to tag them in groups of 293 for easier tracking. How many penguins will be in the final, possibly incomplete, group?",
+      "new symbolic struct": "[[var u = (309 % 293)]]\n[[question k = ['u']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-101-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var u = (309 % 262)]]\n[[question r = ['u']]]\ntheme: Penguin",
+      "statement": "The penguin scientist realizes she made a mistake and there were actually only 262 penguins in each group. How many penguins will be in the final, possibly incomplete, group now?",
+      "new symbolic struct": "[[var v = (309 % 262)]]\n[[question l = ['v']]]",
+      "answer": "47",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-102-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var p = (580 % 18)]]\n[[question q = ['p']]]\ntheme: Sandwich",
+      "statement": "A sandwich shop has 580 slices of bread. They use 18 slices of bread for each sandwich-making batch. After using up the bread in these batches, how many slices will they have left?",
+      "new symbolic struct": "[[var s = (580 % 18)]]\n[[question l = ['s']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-102-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var p = (580 % 477)]]\n[[question q = ['p']]]\ntheme: Sandwich",
+      "statement": "The sandwich shop's supplier delivered an additional batch of bread, bringing their total to 580 slices. If the shop still makes sandwiches using 477 slices of bread per batch, how many slices will they have left after the latest batch of sandwiches is made?",
+      "new symbolic struct": "[[var s = (580 % 477)]]\n[[question l = ['s']]]",
+      "answer": "103",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-103-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (925 % 529)]]\n[[question z = ['e']]]\ntheme: Dress",
+      "statement": "A tailor has 925 meters of fabric. The tailor uses 529 meters of fabric to make each dress. If the tailor uses the fabric evenly for each dress, how many meters of fabric will be left over after completing the dresses?",
+      "new symbolic struct": "[[var u = (925 % 529)]]\n[[question k = ['u']]]",
+      "answer": "396",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-103-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var e = (62 % 529)]]\n[[question z = ['e']]]\ntheme: Dress",
+      "statement": "After making some dresses, the tailor now only has 62 meters of fabric left. If the tailor continues to use 529 meters of fabric to make each dress, how many meters of fabric will be left over after making the dresses?",
+      "new symbolic struct": "[[var a = (62 % 529)]]\n[[question b = ['a']]]",
+      "answer": "62",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.6-104-0",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var z = (976 % 530)]]\n[[question e = ['z']]]\ntheme: Castle",
+      "statement": "There are 976 tourists wanting to explore a castle. Each tour group throughout the day accommodates up to 530 people. After all the groups have taken off, how many tourists will be left for the last group of the day?",
+      "new symbolic struct": "[[var t = (976 % 530)]]\n[[question l = ['t']]]",
+      "answer": "446",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.6-104-2",
+      "standard": "4.NBT.B.6",
+      "symbolic-struct": "[[var z = (976 % 726)]]\n[[question e = ['z']]]\ntheme: Castle",
+      "statement": "What would happen if the number of tourists wanting to explore the castle was still 976, but this time each group could accommodate up to 726 people? How many tourists would be left for the last group of the day now?",
+      "new symbolic struct": "[[var v = (976 % 726)]]\n[[question m = ['v']]]",
+      "answer": "250",
+      "tag": "modified information follow up"
+    }
+  ]
+]

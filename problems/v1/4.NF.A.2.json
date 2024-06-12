@@ -1,0 +1,2002 @@
+[
+  [
+    {
+      "id": "4.NF.A.2-0-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question w = ['(1 / 8) _ (4 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Complete the following comparison between two fractions. \n(1 / 8) _ (4 / 1).",
+      "new symbolic struct": "[[question o = ['1 / 8 _ 4 / 1']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-0-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question w = ['(6 / 8) _ (4 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Using the same approach we used before, now think about the comparison between (6 / 8) and (4 / 1). Complete the comparison using the same symbols (<, >, =). \n(6 / 8) _ (4 / 1).\nThis is similar to the previous problem but now you are comparing a different fraction with the same whole number.",
+      "new symbolic struct": "[[question p = ['6 / 8 _ 4 / 1']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-1-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question z = ['(7 / 2) _ (10 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Determine which symbol appropriately fills in the blank (either '<', '=', or '>') to accurately compare these two fractions:\n\n(7 / 2) _ (10 / 6)",
+      "new symbolic struct": "[[question p = ['7 / 2 _ 10 / 6']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-1-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question z = ['(6 / 2) _ (10 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Let's modify our previous problem slightly and continue the exercise. Fill in the blank with one of the following symbols: <, >, or =, to properly compare the two fractions.\n\n(6 / 2) _ (10 / 6)",
+      "new symbolic struct": "[[question p2 = ['6 / 2 _ 10 / 6']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-2-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question z = ['(6 / 8) _ (8 / 7)']]]\nmath concept: Compare two fractions.",
+      "statement": "Complete the following comparison by filling in the blank (<, >, or =):\n\n(6 / 8) _ (8 / 7)",
+      "new symbolic struct": "[[question l = ['6 / 8 _ 8 / 7']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-2-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question z = ['(6 / 8) _ (6 / 7)']]]\nmath concept: Compare two fractions.",
+      "statement": "Complete the following comparison by filling in the blank (<, >, or =). Consider what will happen if we are comparing the fraction 6/8 to the fraction 6/7 instead:\n\n(6 / 8) _ (6 / 7)",
+      "new symbolic struct": "[[question l = ['6 / 8 _ 6 / 7']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-3-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question n = ['(9 / 3) _ (7 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the two fractions below by filling in the blank with <, >, or =.\n\n(9 / 3) _ (7 / 1)",
+      "new symbolic struct": "[[question l = ['9 / 3 _ 7 / 1']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-3-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question n = ['(9 / 3) _ (1 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the original problem where we compared the fractions (9 / 3) and (7 / 1). Now, instead of comparing it with (7 / 1), let's compare it with the fraction (1 / 1). \n\nFill in the blank in the new problem: \n(9 / 3) _ (1 / 1) \n\nUse the symbols <, >, or = to make the correct comparison.",
+      "new symbolic struct": "[[question l = ['9 / 3 _ 1 / 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-4-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question y = ['(5 / 3) _ (10 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank with one of the following signs: <, >, or =\n\n(5 / 3) _ (10 / 5)",
+      "new symbolic struct": "[[question a = ['5 / 3 _ 10 / 5']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-4-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question y = ['(5 / 3) _ (7 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the following situation:\n\nPreviously, you compared the values of the fractions (5 / 3) and (10 / 5). Now, imagine if the second fraction was changed to (7 / 5) instead. Based on this new situation, fill in the blank with one of the following signs: <, >, or = \n\n(5 / 3) _ (7 / 5)",
+      "new symbolic struct": "[[var a = '5 / 3'],\n[var b = '10 / 5'],\n[var c = '7 / 5'],\n[question d = ['5 / 3 _ 7 / 5']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-5-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question f = ['(3 / 2) _ (9 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the two fractions by filling in the blank with <, >, or =. Here are the fractions:\n(3 / 2) _ (9 / 10)",
+      "new symbolic struct": "[[question n = ['3 / 2 _ 9 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-5-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question f = ['(3 / 7) _ (9 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Let's consider a slight change to our previous fractions problem. This time, fill in the blank to compare these two fractions: \n\n(3 / 7) _ (9 / 10)\n\nIs the comparison the same or different than the comparison between 3 / 2 and 9 / 10? Think about the impact of decreasing the numerator of our first fraction on the comparison.",
+      "new symbolic struct": "[[question o = ['3 / 7 _ 9 / 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-6-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question a = ['(10 / 9) _ (5 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of these fractions by filling in the blank with <, >, or =.\n\n(10 / 9) _ (5 / 6)",
+      "new symbolic struct": "[[question m = ['10 / 9 _ 5 / 6']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-6-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question a = ['(10 / 9) _ (5 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now, consider the following fractions and fill in the blank with <, >, or =, to compare their values.\n\n(10 / 9) _ (5 / 5)",
+      "new symbolic struct": "[[question n = ['10 / 9 _ 5 / 5']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-7-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(10 / 9) _ (5 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the two fractions and fill in the blank with <, >, or =.\n(10 / 9) _ (5 / 10)",
+      "new symbolic struct": "[[question a = ['10 / 9 _ 5 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-7-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(10 / 9) _ (5 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Using the same logic as the previous problem, fill in the blank with <, >, or =. However, now consider the case where the second fraction is changed to 5/3. So the question is:\n(10 / 9) _ (5 / 3)",
+      "new symbolic struct": "[[question a = ['10 / 9 _ 5 / 3']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-8-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question c = ['(9 / 8) _ (6 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the two fractions by completing the following statement with <, >, or =. \n\n(9 / 8) _ (6 / 4)",
+      "new symbolic struct": "[[question m = ['9 / 8 _ 6 / 4']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-8-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question c = ['(9 / 9) _ (6 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Let's consider a modification to the previous problem. Now, compare the fractions in the following statement:\n\n(9 / 9) _ (6 / 4)\n\nWhat happens to the relational comparison when the numerator of first fraction changes from 9 to 9 (effectively making it 1), while the second fraction remains same? Fill in the blank with <, >, or =.",
+      "new symbolic struct": "[[question n = ['9 / 9 _ 6 / 4']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-9-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question q = ['(10 / 3) _ (10 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the two fractions below by filling in the gap with the appropriate symbol (<,>,=).\n(10 / 3) _ (10 / 2)",
+      "new symbolic struct": "[[question m = ['10 / 3 _ 10 / 2']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-9-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question q = ['(10 / 3) _ (10 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Let's revisit the previous comparison of fractions, but this time consider the change:\n(10 / 3) _ (10 / 10)\n\nComplete the comparison by filling in the blank with the appropriate symbol (<, >, or =). What happens to the comparison when the denominator of the second fraction is increased to 10?",
+      "new symbolic struct": "[[question n = ['10 / 3 _ 10 / 10']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-10-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question i = ['(2 / 1) _ (6 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the two fractions by filling in the blank with <, >, or =. \n\n(2 / 1) _ (6 / 5)",
+      "new symbolic struct": "[[question a = ['2 / 1 _ 6 / 5']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-10-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question i = ['(2 / 2) _ (6 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the two fractions by filling in the blank with <, >, or =. \nIn the last example, you were comparing the fractions 2 / 1 and 6 / 5. \nNow consider how the result might change when you compare these fractions:\n(2 / 2) _ (6 / 5)",
+      "new symbolic struct": "[[question a = ['2 / 2 _ 6 / 5']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-11-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question y = ['(5 / 4) _ (10 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the fractions 5 / 4 and 10 / 3 by filling in the blank with one of the following symbols: <, >, or =.",
+      "new symbolic struct": "[[question k = ['5 / 4 _ 10 / 3']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-11-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question y = ['(5 / 4) _ (8 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider now the fractions 5 / 4 and 8 / 3. Compare these two fractions by filling in the blank with one of the following symbols: <, >, or =.",
+      "new symbolic struct": "[[question m = ['5 / 4 _ 8 / 3']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-12-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question n = ['(7 / 5) _ (9 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of these two fractions by filling in the blank with <, > or =:\n(7 / 5) _ (9 / 9)",
+      "new symbolic struct": "[[question m = ['7 / 5 _ 9 / 9']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-12-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question n = ['(7 / 5) _ (9 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider this situation: \nInstead of dividing 7 by 5, you divided 7 by 10 to form a new fraction. How would this new fraction compare to the fraction 9 / 10? Fill in the blank using <, >, or =:\n(7 / 5) _ (9 / 10)",
+      "new symbolic struct": "[[var a = '7 / 5']]\n[[var b = '7 / 10']]\n[[question o = ['b _ 9 / 10']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-13-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question k = ['(3 / 7) _ (5 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following two fractions by filling in the blank with <, >, or =:\n\n(3 / 7) _ (5 / 8)",
+      "new symbolic struct": "[[question n = ['3 / 7 _ 5 / 8']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-13-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question k = ['(3 / 7) _ (6 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Following up on the previous comparison, let's consider a similar one:\n\nCompare the value of the fractions (3 / 7) and (6 / 8) by filling in the blank with <, >, or =:\n\n(3 / 7) _ (6 / 8)\n\nThis comparison would tell you how the situation would change if we considered 6 parts out of 8 instead of 5 parts out of 8 as on the previous case.",
+      "new symbolic struct": "[[question o = ['3 / 7 _ 6 / 8']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-14-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question m = ['(3 / 1) _ (5 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Question: \nCompare these two fractions: \n(3 / 1) _ (5 / 9)\nHint: Fill the blank with one of the following: <, >, or =.",
+      "new symbolic struct": "[[question a = ['3 / 1 _ 5 / 9']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-14-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question m = ['(3 / 1) _ (5 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Question: \n\nIn the previous question where we compared two fractions, we had (3 / 1) _ (5 / 9). Now, consider a change in the second number we are comparing. Instead of (5 / 9), we now have (5 / 5).\n\nCompare these two fractions: \n(3 / 1) _ (5 / 5)\n\nHint: Fill the blank with one of the following: <, >, or =.",
+      "new symbolic struct": "[[question b = ['3 / 1 _ 5 / 5']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-15-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question d = ['(2 / 2) _ (6 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions:\n(2 / 2) _ (6 / 6)\nFill in the blank with <, >, or = .",
+      "new symbolic struct": "[[question b = ['2 / 2 _ 6 / 6']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-15-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question d = ['(2 / 2) _ (6 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the change to the previous problem: instead of comparing (2 / 2) with (6 / 6), we now have (2 / 2) and (6 / 5). \n\nNow, fill in the blank with <, >, or = to compare these two fractions: \n(2 / 2) _ (6 / 5)",
+      "new symbolic struct": "[[question c = ['2 / 2 _ 6 / 5']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-16-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question y = ['(7 / 6) _ (9 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by inserting \"<\", \">\" or \"=\" between them. \n\n(7 / 6) _ (9 / 6)",
+      "new symbolic struct": "[[question r = ['7 / 6 _ 9 / 6']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-16-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question y = ['(7 / 9) _ (9 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now let's consider a slight change to the fractions. Please fill in the blank with <, >, or =: \n\n(7 / 9) _ (9 / 6) \n\nThis is just like in our previous problem, but this time we're looking at 7/9 instead of 7/6.",
+      "new symbolic struct": "[[question b = ['7 / 9 _ 9 / 6']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-17-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(2 / 7) _ (2 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank in the following question with <, >, or = : \n\n(2 / 7) _ (2 / 9) \n\nto express whether the first fraction is greater than, less than, or equal to the second fraction.",
+      "new symbolic struct": "[[question a = ['2 / 7 _ 2 / 9']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-17-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(2 / 7) _ (2 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now let's consider a slight alteration to our previous question. \n\nUsing the same comparison methods, compare the following fractions:\n\n(2 / 7) _ (2 / 4)\n\nAs you did previously, fill in the blank with <, >, or = signs to correctly compare the two fractions. Does the outcome change if we adjust the denominator in our second fraction from a 9 to a 4?",
+      "new symbolic struct": "[[question b = ['2 / 7 _ 2 / 4']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-18-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question v = ['(9 / 4) _ (7 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Determine the relation between the two following fractions by filling in the blank with <, >, or =:\n\n(9 / 4) _ (7 / 1)",
+      "new symbolic struct": "[[question m = ['9 / 4 _ 7 / 1']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-18-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question v = ['(9 / 10) _ (7 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider now a different set of fractions: \n\n(9 / 10) _ (7 / 1)\n\nFill in the blank with <, >, or = to correctly compare these two fractions. How do these fractions compare to the previous fractions we worked with? Has our answer changed?",
+      "new symbolic struct": "[[question n = ['9 / 10 _ 7 / 1'], question o = ['(9 / 10) _ (7 / 1) compared to (9 / 4) _ (7 / 1)'], var p = '(9 / 10) compared to (9 / 4)', var q = '(7 / 1) compared to (7 / 1)', question r = ['Has our answer changed?']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-19-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question m = ['(4 / 8) _ (2 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank with one of the symbols <, >, or = to complete the comparison between the two fractions.\n\n(4 / 8) _ (2 / 1)",
+      "new symbolic struct": "[[question o = ['4 / 8 _ 2 / 1']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-19-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question m = ['(4 / 8) _ (2 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the previous problem where we compared (4 / 8) with (2 / 1). Now, imagine we change the second fraction to (2 / 6) instead of (2 / 1). \n\nFill in the blank with one of the symbols <, >, or = to complete this new comparison:\n\n(4 / 8) _ (2 / 6)",
+      "new symbolic struct": "[[question p = ['4 / 8 _ 2 / 6']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-20-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question a = ['(9 / 9) _ (8 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank with either <, >, or = in the following expression:\n(9 / 9) _ (8 / 9),\nto properly compare the two fractions.",
+      "new symbolic struct": "[[question x = ['(9 / 9) _ (8 / 9)']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-20-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question a = ['(9 / 2) _ (8 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Continuing from the previous question, let's adjust the fractions slightly. \n\nNow consider:\n(9 / 2) _ (8 / 9)\n\nWhat symbol (<, >, =) would you use in the blank to accurately compare these two fractions?",
+      "new symbolic struct": "[[question y = ['(9 / 2) _ (8 / 9)']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-21-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question z = ['(9 / 10) _ (3 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by filling in the blank with <, >, or =.\n\n(9 / 10) _ (3 / 10)",
+      "new symbolic struct": "[[question l = ['9 / 10 _ 3 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-21-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question z = ['(9 / 4) _ (3 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the values of two different fractions instead of the ones in the previous problem. Fill in the blank with <, >, or = to compare the fractions:\n\n(9 / 4) _ (3 / 10)",
+      "new symbolic struct": "[[question l = ['9 / 4 _ 3 / 10']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-22-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question j = ['(3 / 7) _ (5 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Determine if the first fraction is less than, equal to, or greater than the second. Fill in the blank with one of the following: <, >, or =.\n\n(3 / 7) _ (5 / 3)",
+      "new symbolic struct": "[[question s = ['3 / 7 _ 5 / 3']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-22-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question j = ['(3 / 7) _ (5 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the same fractions as in the previous problem, but with a change in the latter fraction. Determine if the first fraction is less than, equal to, or greater than the second. Fill in the blank with one of the following: <, >, or =.\n\n(3 / 7) _ (5 / 5)",
+      "new symbolic struct": "[[question s = ['3 / 7 _ 5 / 5']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-23-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(6 / 5) _ (7 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions by filling in the blank with <, >, or =.\n(6 / 5) _ (7 / 10)",
+      "new symbolic struct": "[[question m = ['6 / 5 _ 7 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-23-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(1 / 5) _ (7 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider a change in the fractions previously compared. Now, compare the values of the following fractions by filling in the blank <, >, or =.\n\n(1 / 5) _ (7 / 10)",
+      "new symbolic struct": "[[question n = ['1 / 5 _ 7 / 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-24-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question x = ['(1 / 9) _ (1 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank in the following equation with one of these symbols: <, >, or =.\n\n(1 / 9) _ (1 / 4)",
+      "new symbolic struct": "[[question e = ['1 / 9 _ 1 / 4']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-24-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question x = ['(1 / 2) _ (1 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Considering the previous comparison between 1/9 and 1/4, let's now change the first fraction to 1/2 instead. This means modifying the comparison as per the following instruction. \n\nFill in the blank in the following equation with one of these symbols: <, >, or =.\n\n(1 / 2) _ (1 / 4)",
+      "new symbolic struct": "[[var n1 = '1 / 9'],\n[var n2 = '1 / 4'],\n[var n3 = '1 / 2'],\n[question e = ['n3 _ n2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-25-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question r = ['(7 / 1) _ (6 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions and fill in the blank with <, >, or =:\n\n(7 / 1) _ (6 / 1)",
+      "new symbolic struct": "[[question m = ['7 / 1 _ 6 / 1']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-25-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question r = ['(9 / 1) _ (6 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Continue from the previous problem and now consider the fractions (9 / 1) and (6 / 1). Fill in the blank with <, >, or =:\n\n(9 / 1) _ (6 / 1)",
+      "new symbolic struct": "[[question n = ['9 / 1 _ 6 / 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-26-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question w = ['(5 / 4) _ (9 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Please fill in the blank with <, >, or = to compare the following fractions.\n(5 / 4) _ (9 / 8)",
+      "new symbolic struct": "[[question a = ['5 / 4 _ 9 / 8']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-26-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question w = ['(5 / 4) _ (9 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Please consider the following change to the previous problem and fill in the blank with <, >, or = to compare the fractions:\n\nIf the value of the second fraction's denominator was 1 instead of 8, contrast the following fractions:\n\n(5 / 4) _ (9 / 1)",
+      "new symbolic struct": "[[question a = ['5 / 4 _ 9 / 1']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-27-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question i = ['(8 / 9) _ (3 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Determine the correct symbol to place between the two fractions in the following expression. Fill in the blank with <, >, or =.\n\n(8 / 9) _ (3 / 4)",
+      "new symbolic struct": "[[question x = ['8 / 9 _ 3 / 4']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-27-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question i = ['(8 / 2) _ (3 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the following comparison:\n\n(8 / 2) _ (3 / 4)\n\nCompared to the previous scenario where the fractions were (8 / 9) and (3 / 4), we've now changed the denominator of the first fraction from 9 to 2. \n\nFill in the blank with <, >, or = to show how this change affects the comparison of these two fractions.",
+      "new symbolic struct": "[[question y = ['8 / 2 _ 3 / 4']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-28-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(2 / 1) _ (4 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by choosing the correct symbol (<, >, or =) to fill in the blank:\n\n(2 / 1) _ (4 / 9)",
+      "new symbolic struct": "[[question l = ['2 / 1 _ 4 / 9']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-28-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(2 / 1) _ (8 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now, let's consider a change in the fractions. Use the correct symbol (<, >, or =) to complete the following comparison:\n\n(2 / 1) _ (8 / 9)",
+      "new symbolic struct": "[[question l = ['2 / 1 _ 8 / 9']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-29-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question l = ['(9 / 9) _ (2 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by inserting either <, >, or = in the space provided:\n\n(9 / 9) _ (2 / 2)",
+      "new symbolic struct": "[[question l = ['9 / 9 _ 2 / 2']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-29-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question l = ['(9 / 3) _ (2 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider the following fractions:\n\n(9 / 3) _ (2 / 2)\n\nPerform the same comparison operation as in the previous problem. Recall in the previous problem we compared the fractions (9 / 9) and (2 / 2). Consider what happens if we change the denominator of the first fraction from 9 to 3. Would this make the first fraction greater than, less than, or equal to the second fraction (2 / 2)? Fill in the blank with <, >, or =.",
+      "new symbolic struct": "[[question l = ['9 / 3 _ 2 / 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-30-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question j = ['(6 / 1) _ (4 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Determine the relationship between the following two fractions by filling the blank with <, >, or =: \n\n(6 / 1) _ (4 / 4)",
+      "new symbolic struct": "[[question a = ['6 / 1 _ 4 / 4']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-30-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question j = ['(6 / 1) _ (4 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider this scenario: \n\nDetermine the relationship between the following two fractions by filling the blank with <, >, or =:\n\n(6 / 1) _ (4 / 3)\n\nHow does this result compare to the previous one?",
+      "new symbolic struct": "[[question a = ['6 / 1 _ 4 / 3']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-31-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question e = ['(3 / 9) _ (8 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions by filling in the blank with <, >, or =. \n\n(3 / 9) _ (8 / 8)",
+      "new symbolic struct": "[[question b = ['3 / 9 _ 8 / 8']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-31-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question e = ['(3 / 9) _ (8 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions by filling in the blank with <, >, or =. \n\n(3 / 9) _ (8 / 3)\n\nReflect on the previous question and this question and see how changing the denominator in the second fraction affects the relation between the two fractions.",
+      "new symbolic struct": "[[question c = ['3 / 9 _ 8 / 3']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-32-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question f = ['(4 / 10) _ (1 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions by filling in the blank with <, >, or =. \n\n(4 / 10) _ (1 / 2)",
+      "new symbolic struct": "[[question b = ['4 / 10 _ 1 / 2']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-32-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question f = ['(8 / 10) _ (1 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider this change to the previous problem:\n\n(8 / 10) _ (1 / 2)\n\nNow, suppose instead of 4/10, we now have 8/10. How would this change the comparison? Fill in the blank with <, >, or =.",
+      "new symbolic struct": "[[question c = ['8 / 10 _ 1 / 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-33-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question q = ['(6 / 6) _ (6 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the two fractions below by filling in the blank space with one of the following symbols: <, >, or =.\n\n(6 / 6) _ (6 / 3)",
+      "new symbolic struct": "[[question q = ['6 / 6 _ 6 / 3']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-33-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question q = ['(6 / 4) _ (6 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider a slight variation: \n\n(6 / 4) _ (6 / 3)\n\nReassigning the values while maintaining the idea of comparison, frame the above expression into a question. Does the change in denominator affect the outcome as compared to the previous question, (6 / 6) _ (6 / 3)?",
+      "new symbolic struct": "[[question p = ['6 / 4 _ 6 / 3']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-34-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question b = ['(2 / 3) _ (2 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Determine which sign (<, >, or =) correctly fills the blank when comparing these two fractions:\n(2 / 3) _ (2 / 10)",
+      "new symbolic struct": "[[question k = ['2 / 3 _ 2 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-34-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question b = ['(10 / 3) _ (2 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Following from the previous question, what would happen if we changed the first fraction from 2 / 3 to 10 / 3? Fill in the blank in the question with <, >, or = to compare the two fractions: \n\n(10 / 3) _ (2 / 10)",
+      "new symbolic struct": "[[question k = ['10 / 3 _ 2 / 10']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-35-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(2 / 10) _ (6 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by filling in the blank with either <, =, or >: \n\n(2 / 10) _ (6 / 4)",
+      "new symbolic struct": "[[question m = ['2 / 10 _ 6 / 4']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-35-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(6 / 10) _ (6 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider a slight change to the previous problem. Use the symbol <, =, or > to compare these two fractions:\n\n(6 / 10) _ (6 / 4) \n\nWhat happens if we increase the numerator of the first fraction from 2 to 6?",
+      "new symbolic struct": "[[question n = ['6 / 10 _ 6 / 4']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-36-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question a = ['(5 / 10) _ (6 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions and indicate either <, >, or = to complete the equation.\n(5 / 10) _ (6 / 9)",
+      "new symbolic struct": "[[question a = ['5 / 10 _ 6 / 9']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-36-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question a = ['(5 / 10) _ (4 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the change and answer this follow-up question:\n\nHow does the comparison change when the value of the second fraction is slightly reduced? Fill in the blank with any of <, >, or =.\n\n(5 / 10) _ (4 / 9)",
+      "new symbolic struct": "[[question b = ['5 / 10 _ 4 / 9']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-37-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question b = ['(2 / 9) _ (5 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the fractions by filling in the blank with <, >, or =. \n\n(2 / 9) _ (5 / 5)",
+      "new symbolic struct": "[[question a = ['2 / 9 _ 5 / 5']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-37-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question b = ['(2 / 9) _ (5 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the follow-up question:\n\nNow let's change our fractional values. Instead of comparing 2/9 to a whole, as in the previous problem, let's compare it to 5/8. Fill in the blank with <, >, or =.\n\n(2 / 9) _ (5 / 8)",
+      "new symbolic struct": "[[question a = ['2 / 9 _ 5 / 8']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-38-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question x = ['(1 / 9) _ (7 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank with <, >, or = to correctly compare the two fractions:\n\n(1 / 9) _ (7 / 9)",
+      "new symbolic struct": "[[question s = ['1 / 9 _ 7 / 9']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-38-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question x = ['(1 / 9) _ (7 / 7)']]]\nmath concept: Compare two fractions.",
+      "statement": "For the follow-up question, consider now comparing the fractions again, but this time in this specific situation: \n\n(1 / 9) _ (7 / 7)\n\nKeep in mind the comparison you made in the previous question when 1/9 was compared with 7/9. How does the comparison change when the second fraction is in this new form, 7/7? Fill the blank with the correct symbol, <, > or =.",
+      "new symbolic struct": "[[question s2 = ['1 / 9 _ 7 / 7']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-39-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(2 / 7) _ (1 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Analyze and compare the two fractions by determining whether (2 / 7) is either less than, greater than, or equal to (1 / 6). Use the symbols <, >, or =.",
+      "new symbolic struct": "[[question m = ['2 / 7 _ 1 / 6']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-39-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(2 / 10) _ (1 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the following change to the previous problem: Use the fractions (2 / 10) and (1 / 6) instead of (2 / 7) and (1 / 6). Compare these two fractions by determining whether (2 / 10) is either less than, greater than, or equal to (1 / 6), filling in the blank with the symbols <, >, or =.",
+      "new symbolic struct": "[[question n = ['2 / 10 _ 1 / 6']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-40-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question f = ['(9 / 9) _ (9 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "In the following expression, properly insert either <, >, or = in order to correctly compare the two fractions:\n\n(9 / 9) _ (9 / 10)",
+      "new symbolic struct": "[[question j = ['(9 / 9) _ (9 / 10)']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-40-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question f = ['(9 / 9) _ (9 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the following changes in the fractions:\n\n(9 / 9) _ (9 / 5)\n\nBased on the adjustments made, fill in the blank with <, >, or = to appropriately compare the values of the two fractions.",
+      "new symbolic struct": "[[question k = ['(9 / 9) _ (9 / 5)']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-41-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question f = ['(8 / 4) _ (5 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following two fractions by determining if the first fraction is greater than, equal to, or less than the second fraction:\n(8 / 4) _ (5 / 2)",
+      "new symbolic struct": "[[question r = ['(8 / 4) _ (5 / 2)']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-41-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question f = ['(10 / 4) _ (5 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider a slight change to the values. Instead of the first fraction being (8 / 4), let's change it to (10 / 4). \n\nSo, we have this comparison:\n(10 / 4) _ (5 / 2)\n\nCompare these two fractions as you did before by determining if the first fraction is greater than, equal to, or less than the second fraction.",
+      "new symbolic struct": "[[question s = ['(10 / 4) _ (5 / 2)']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-42-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question z = ['(5 / 2) _ (1 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions by deciding which symbol (<, >, or =) to fill in the blank with:\n\n(5 / 2) _ (1 / 10)",
+      "new symbolic struct": "[[question m = ['5 / 2 _ 1 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-42-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question z = ['(5 / 2) _ (1 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Continuing from our previous comparison, now consider a new set of fractions. Compare the values of the following fractions by filling in the blank with <, >, or =. \n\n(5 / 2) _ (1 / 2)\n\nNow, think about what would happen if the first fraction was changed from (5 / 2) to (3 / 2). How would this change affect the comparison? Write down a similar comparison question replacing 5 with 3.",
+      "new symbolic struct": "[[question n = ['5 / 2 _ 1 / 2'], question p = ['3 / 2 _ 1 / 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-43-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(2 / 4) _ (9 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank with <, >, or = to compare the two fractions in the following question:\n\n(2 / 4) _ (9 / 2)",
+      "new symbolic struct": "[[question n = ['2 / 4 _ 9 / 2']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-43-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(2 / 4) _ (9 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now suppose we change the fractions a bit in the previous problem. Fill in the blank with <, >, or = to compare the ratios in the following question:\n\n(2 / 4) _ (9 / 10)",
+      "new symbolic struct": "[[question n = ['2 / 4 _ 9 / 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-44-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question f = ['(6 / 3) _ (10 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank in the following equation with either <, >, or = to show the comparison between the two fractions:\n\n(6 / 3) _ (10 / 2)",
+      "new symbolic struct": "[[question m = ['6 / 3 _ 10 / 2']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-44-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question f = ['(6 / 8) _ (10 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider the fractions (6 / 8) and (10 / 2). Fill in the blank in the following equation with either <, >, or = to show the comparison between the two fractions:\n\n(6 / 8) _ (10 / 2)",
+      "new symbolic struct": "[[question n = ['6 / 8 _ 10 / 2']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-45-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(6 / 3) _ (8 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the given fractions by filling in the blank with the correct symbol (<, >, or =). \n\n(6 / 3) _ (8 / 6)",
+      "new symbolic struct": "[[question l = ['6 / 3 _ 8 / 6']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-45-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(6 / 3) _ (8 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the previous question where you compared the fractions (6 / 3) and (8 / 6). Now let's change the second fraction from (8 / 6) to (8 / 4). How would this affect the comparison? Fill in the blank with the correct symbol (<, >, or =).\n\n(6 / 3) _ (8 / 4)",
+      "new symbolic struct": "[var l = '6 / 3 _ 8 / 6']\n[[question n = ['6 / 3 _ 8 / 4']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-46-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question z = ['(3 / 4) _ (6 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions by filling in the blank with <, >, or =.\n\n(3 / 4) _ (6 / 5)",
+      "new symbolic struct": "[[question m = ['3 / 4 _ 6 / 5']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-46-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question z = ['(3 / 4) _ (6 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions by filling in the blank with <, >, or =.\n\n(3 / 4) _ (6 / 9)\n\nConsider what happens if the second fraction changes, and 6 is divided by 9 instead of 5. How does this change affect the comparison between the two fractions?",
+      "new symbolic struct": "[[question n = ['3 / 4 _ 6 / 9']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-47-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question i = ['(1 / 1) _ (3 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the two fractions below by filling in the blank with <, >, or =:\n(1 / 1) _ (3 / 1)",
+      "new symbolic struct": "[[question l = ['1 / 1 _ 3 / 1']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-47-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question i = ['(1 / 1) _ (3 / 7)']]]\nmath concept: Compare two fractions.",
+      "statement": "After comparing (1 / 1) and (3 / 1), let's consider a new scenario. How would the comparison change if we replaced (3 / 1) with (3 / 7)? \nFill in the blank with <, >, or = to compare the two fractions:\n(1 / 1) _ (3 / 7)",
+      "new symbolic struct": "[[question l = ['1 / 1 _ 3 / 7']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-48-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question j = ['(7 / 6) _ (4 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by filling in the blank with <, >, or =. \n\n(7 / 6) _ (4 / 5)",
+      "new symbolic struct": "[[question a = ['7 / 6 _ 4 / 5']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-48-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question j = ['(7 / 3) _ (4 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the situation from the previous problem. Now, think about what would happen if the first fraction is 7 / 3 instead of 7 / 6. Fill in the blank to compare the two fractions:\n(7 / 3) _ (4 / 5)",
+      "new symbolic struct": "[[question a = ['7 / 3 _ 4 / 5']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-49-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question p = ['(6 / 4) _ (2 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following two fractions by filling the blank with <, >, or =.\n(6 / 4) _ (2 / 2)",
+      "new symbolic struct": "[[question l = ['6 / 4 _ 2 / 2']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-49-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question p = ['(6 / 4) _ (2 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider a change in the problem. \n\nCompare the following two fractions by filling the blank with <, >, or =.\n(6 / 4) _ (2 / 10)\n\nIn this scenario, suppose we replace the whole number in the denominator of the second fraction from 2 to 10. How does this change the comparison?",
+      "new symbolic struct": "[[question l = ['6 / 4 _ 2 / 10']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-50-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question g = ['(5 / 5) _ (9 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by filling in the blank with <, >, or =.\n\n(5 / 5) _ (9 / 10)",
+      "new symbolic struct": "[[question j = ['5 / 5 _ 9 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-50-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question g = ['(4 / 5) _ (9 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider this follow-up to our previous fraction comparison question:\n\nNow, compare these fractions by filling in the blank with <, >, or =.\n\n(4 / 5) _ (9 / 10)\n\nThink of it like this: if you had 4 parts of a cake that was sliced into 5 equal pieces versus someone who had 9 parts of a cake that was sliced into 10 equal pieces, which one would have more cake?",
+      "new symbolic struct": "[[question k = ['4 / 5 _ 9 / 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-51-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question b = ['(1 / 5) _ (1 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank \n(1 / 5) _ (1 / 1)\nwith <, >, or = to compare the two fractions.",
+      "new symbolic struct": "[[question m = ['1 / 5 _ 1 / 1']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-51-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question b = ['(1 / 5) _ (2 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now, let's consider a slight change in the problem. \nFill in the blank \n(1 / 5) _ (2 / 1)\nwith <, >, or = to compare the two fractions. This time, suppose you're comparing one fifth of your initially available sweets against two whole sweets someone offered you. Which is greater or are they equal?",
+      "new symbolic struct": "[[question n = ['1 / 5 _ 2 / 1']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-52-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question m = ['(7 / 1) _ (4 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill the blank with either <, >, or = to compare the two fractions in the following equation:\n(7 / 1) _ (4 / 2)",
+      "new symbolic struct": "[[question l = ['7 / 1 _ 4 / 2']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-52-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question m = ['(7 / 1) _ (4 / 7)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider if instead of dividing 4 by 2, we divided it by 7 in the previous question. Fill in the blank in the following equation with <, >, or = to compare the new fractions:\n(7 / 1) _ (4 / 7)",
+      "new symbolic struct": "[[question m = ['7 / 1 _ 4 / 7']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-53-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question s = ['(4 / 7) _ (9 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by using <, >, or = to fill in the blank:\n\n(4 / 7) _ (9 / 4)",
+      "new symbolic struct": "[[question m = ['4 / 7 _ 9 / 4']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-53-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question s = ['(4 / 7) _ (2 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the change in fraction comparison by filling in the blank with <, >, or =. \n\nNow, observe the relationship between the fractions (4 / 7) and (2 / 4). How does the comparison change from the previous problem with the fraction (9 / 4)?",
+      "new symbolic struct": "[[var m = '4 / 7 _ 9 / 4'], [question n = ['4 / 7 _ 2 / 4']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-54-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question q = ['(5 / 9) _ (4 / 7)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank in the question \n(5 / 9) _ (4 / 7)\nwith <, >, or = to compare the two fractions.",
+      "new symbolic struct": "[[question l = ['(5 / 9) _ (4 / 7)']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-54-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question q = ['(5 / 9) _ (4 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now, consider a slight change to the previous question: \n\nCompare the following fractions by filling in the blank with <, >, or =:\n(5 / 9) _ (4 / 10)\n\nWhat happens when we change the denominator of the second fraction from 7 to 10?",
+      "new symbolic struct": "[[question l = ['(5 / 9) _ (4 / 10)']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-55-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(8 / 3) _ (7 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions and fill in the blank with <, >, or =:\n\n(8 / 3) _ (7 / 3)",
+      "new symbolic struct": "[[question m = ['8 / 3 _ 7 / 3']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-55-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(8 / 9) _ (7 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Continuing from the previous problem, now consider what happens when the fraction changes. Using the same symbols, <, >, or =, compare the following fractions:\n\n(8 / 9) _ (7 / 3)",
+      "new symbolic struct": "[[question k = ['8 / 9 _ 7 / 3']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-56-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question w = ['(5 / 1) _ (2 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "In the equation: (5 / 1) _ (2 / 2), replace the underscore with one of the following signs: <, >, or = to compare the two fractions.",
+      "new symbolic struct": "[[question m = ['(5 / 1) _ (2 / 2)']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-56-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question w = ['(5 / 1) _ (7 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Given that you found the relation between the fractions (5 / 1) and (2 / 2) earlier, now consider if we replace the (2 / 2) with a new fraction. \n\nIn the updated equation: (5 / 1) _ (7 / 2), replace the underscore with one of the following signs: <, >, or = to compare the two fractions. How does this change the result, if at all?",
+      "new symbolic struct": "[[var e = '(5 / 1) _ (2 / 2)'],\n[question f = ['(5 / 1) _ (7 / 2)']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-57-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question r = ['(5 / 8) _ (3 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions and fill in the blank with either <, >, or =:\n\n(5 / 8) _ (3 / 3)",
+      "new symbolic struct": "[[question a = ['5 / 8 _ 3 / 3']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-57-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question r = ['(5 / 4) _ (3 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "For a follow-up question:\n\nIn our previous question, we compared (5 / 8) to (3 / 3), but what if the first fraction was a little different? Consider this scenario where you now have 5 fourths of a pizza instead of 5 eighths. Keeping the second fraction the same at (3 / 3), fill in the blank with <, >, or = to appropriately compare the fractions:\n\n(5 / 4) _ (3 / 3)",
+      "new symbolic struct": "[[var a = '5 / 8 _ 3 / 3'],\n[question b = ['5 / 4 _ 3 / 3']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-58-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question s = ['(5 / 8) _ (6 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Determine which symbol : <, >, or =, is appropriate to fill the blank in the following comparison: \n(5 / 8) _ (6 / 10)",
+      "new symbolic struct": "[[question b = ['5 / 8 _ 6 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-58-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question s = ['(5 / 8) _ (6 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "In the same vein as the previous problem, consider a new comparison: \n(5 / 8) _ (6 / 5).\n\nWhich symbol: <, >, or =, correctly complete the comparison? Keep in mind how your answer might change compared to the previous problem because of the different denominator in the second fraction.",
+      "new symbolic struct": "[[question c = ['5 / 8 _ 6 / 5']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-59-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question n = ['(5 / 10) _ (6 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the two fractions by filling in the blank with <, >, or =: \n\n(5 / 10) _ (6 / 6)",
+      "new symbolic struct": "[[question m = ['5 / 10 _ 6 / 6']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-59-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question n = ['(5 / 10) _ (6 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider the change in fractions:\n\n(5 / 10) _ (6 / 1)\n\nFill in the blank with <, >, or = to compare these two fractions. Suppose that out of 10 parts, you only have 5 parts, like the 5 apples from the previous problem. Compare this to a situation where you have 6 whole items, like the oranges. Which one has more parts or items?",
+      "new symbolic struct": "[[question n = ['5 / 10 _ 6 / 1']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-60-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(5 / 4) _ (2 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare these two fractions by filling in the blank with <, >, or =.\n\n(5 / 4) _ (2 / 4)",
+      "new symbolic struct": "[[question m = ['5 / 4 _ 2 / 4']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-60-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(5 / 4) _ (2 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Considering the previous comparison between the fractions, what would be the result if we changed the fractions to:\n\n(5 / 4) _ (2 / 10)\n\nFill in the blank with <, >, or = to make the comparison.",
+      "new symbolic struct": "[[question m1 = ['5 / 4 _ 2 / 10']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-61-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question r = ['(6 / 10) _ (6 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions by using <, >, or = to fill in the blank:\n\n(6 / 10) _ (6 / 10)",
+      "new symbolic struct": "[[question l = ['6 / 10 _ 6 / 10']]]",
+      "answer": "=",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-61-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question r = ['(6 / 5) _ (6 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Following the last problem, consider a change such that instead of having 6 tenths of a pizza, you now have 6 fifths of a pizza. Compare this with the previous scenario by using <, >, or = to fill in the blank:\n\n(6 / 5) _ (6 / 10)",
+      "new symbolic struct": "[[var a = '6 / 10']]\n[[question l = ['6 / 5 _ a']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-62-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question n = ['(6 / 8) _ (2 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Please compare these two fractions and fill the blank with <, >, or =.\n\n(6 / 8) _ (2 / 9)",
+      "new symbolic struct": "[[question m = ['6 / 8 _ 2 / 9']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-62-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question n = ['(6 / 10) _ (2 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now, let's consider a slight change to the previous comparison. Instead of having a fraction of 6/8, let's change the numerator to 6 and denominator to 10. The new comparison now is:\n\n(6 / 10) _ (2 / 9)\n\nPlease compare these two fractions and fill the blank with <, >, or =.",
+      "new symbolic struct": "[[question n = ['6 / 10 _ 2 / 9']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-63-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(2 / 10) _ (6 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank with <, =, or > after comparing the fractions below:\n\n(2 / 10) _ (6 / 2)",
+      "new symbolic struct": "[[question l = ['2 / 10 _ 6 / 2']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-63-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(2 / 10) _ (6 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Let's modify the previous problem slightly. Fill in the blank with <, =, or > after comparing the fractions:\n\n(2 / 10) _ (6 / 9)",
+      "new symbolic struct": "[[question l = ['2 / 10 _ 6 / 9']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-64-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question m = ['(2 / 7) _ (9 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Determine which of the following fractions is greater by filling in the blank with <, >, or =. \n(2 / 7) _ (9 / 4)",
+      "new symbolic struct": "[[question m = ['2 / 7 _ 9 / 4']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-64-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question m = ['(2 / 1) _ (9 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now suppose we change one of the fractions in the previous problem. \nFill in the blank to compare the two fractions: \n(2 / 1) _ (9 / 4)",
+      "new symbolic struct": "[[question = ['2 / 1 _ 9 / 4']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-65-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(1 / 1) _ (2 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by filling in the blank with <, >, or =.\n\n(1 / 1) _ (2 / 10)",
+      "new symbolic struct": "[[question m = ['1 / 1 _ 2 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-65-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(10 / 1) _ (2 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the previous comparison between the fractions (1 / 1) and (2 / 10). Now let's change things a bit. Fill in the blank with <, >, or = to compare the following fractions:\n\n(10 / 1) _ (2 / 10)",
+      "new symbolic struct": "[[var j = ['1 / 1 _ 2 / 10']],\n [question k = ['10 / 1 _ 2 / 10']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-66-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question e = ['(8 / 2) _ (10 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the results of the following fractions by filling the blank with <, >, or =. \n\n(8 / 2) _ (10 / 9)",
+      "new symbolic struct": "[[question j = ['(8 / 2) _ (10 / 9)']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-66-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question e = ['(8 / 2) _ (9 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Given the results you obtained from the previous question, let's alter the fractions slightly. Now, compare the following expressions:\n\n(8 / 2) _ (9 / 9)\n\nFill in the blank with <, >, or = to indicate whether the first fraction is less than, greater than, or equal to the second fraction. What changes when the denominator of the second fraction is 9 instead of 10?",
+      "new symbolic struct": "[[question k = ['(8 / 2) _ (9 / 9)']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-67-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question e = ['(3 / 2) _ (9 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Determine the relationship between the fractions by filling in the blank in the following equation with either <, >, or =: \n\n(3 / 2) _ (9 / 8)",
+      "new symbolic struct": "[[question a = ['3 / 2 _ 9 / 8']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-67-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question e = ['(3 / 2) _ (9 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Determine the relationship between the fractions by filling in the blank in the following equation with either <, >, or =:\n\n(3 / 2) _ (9 / 6)\n\nConsider what happens if the denominator of the second fraction was 6 instead of 8. How would that affect your answer?",
+      "new symbolic struct": "[[question a = ['3 / 2 _ 9 / 6']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-68-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question q = ['(4 / 6) _ (6 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following quantities by filling in the blank with <, >, or =:\n\n(4 / 6) _ (6 / 10)",
+      "new symbolic struct": "[[question m = ['(4 / 6) _ (6 / 10)']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-68-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question q = ['(4 / 6) _ (6 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider a change to the previous problem as follows:\n\n(4 / 6) _ (6 / 5)\n\nNow, re-evaluate and compare the two fractions as before. Fill the blank with either <, >, or = sign.",
+      "new symbolic struct": "[[question m = ['(4 / 6) _ (6 / 5)']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-69-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question a = ['(8 / 10) _ (1 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank with the correct symbol to compare the following fractions:\n\n(8 / 10) _ (1 / 1)",
+      "new symbolic struct": "[[question n = ['8 / 10 _ 1 / 1']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-69-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question a = ['(8 / 2) _ (1 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Let's consider a slight change to our earlier comparison. What if instead of having 8 out of 10 parts, you now have 8 divided by 2 parts? \n\nFill in the blank with the correct symbol to compare the following fractions:\n\n(8 / 2) _ (1 / 1)",
+      "new symbolic struct": "[[question m = ['8 / 2 _ 1 / 1']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-70-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(5 / 1) _ (5 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Using either <, >, or =, compare the following fractions by filling in the blank:\n\n(5 / 1) _ (5 / 8)",
+      "new symbolic struct": "[[question m = ['5 / 1 _ 5 / 8']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-70-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(5 / 3) _ (5 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Following up from the previous question, let's change the fractions and compare again. Using either <, >, or =, complete the new mathematical comparison below:\n\n(5 / 3) _ (5 / 8) \n\nThink of it this way, if the basket had initially 5/3 of the apples instead of 5 whole apples, and we still have 5/8 of the apples from the other basket. Would the first basket have more, less or the same number of apples than the second?",
+      "new symbolic struct": "[[question n = ['5 / 3 _ 5 / 8']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-71-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question q = ['(6 / 5) _ (9 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "What is the correct symbol to use in the following statement:\n\n(6 / 5) _ (9 / 6)\n\nIs it \"<\", \">\", or \"=\" ? Fill in the blank with the correct symbol.",
+      "new symbolic struct": "[[question m = ['6 / 5 _ 9 / 6']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-71-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question q = ['(3 / 5) _ (9 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Considering the previous question, what if we change the first fraction to 3 / 5 instead of 6 / 5? \n\nSo the question becomes:\n\n(3 / 5) _ (9 / 6)\n\nAgain, fill in the blank with the correct symbol \u2013 is it \"<\", \">\", or \"=\" ?",
+      "new symbolic struct": "[[question n = ['3 / 5 _ 9 / 6']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-72-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question g = ['(7 / 5) _ (1 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by filling in the blank: \n(7 / 5) _ (1 / 10)\nYou can use <, > or =.",
+      "new symbolic struct": "[[question m = ['7 / 5 _ 1 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-72-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question g = ['(1 / 5) _ (1 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Let's consider a variation of the previous problem. Now require the comparison of two different fractions:\n\n(1 / 5) _ (1 / 10)\n\nUse <, > or = to complete the comparison. This question asks you to think about what happens when we change the number of parts the whole is divided into.",
+      "new symbolic struct": "[[question n = ['1 / 5 _ 1 / 10']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-73-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question m = ['(10 / 8) _ (10 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the two fractions and fill in the blank with <, >, or =.\n\n(10 / 8) _ (10 / 1)",
+      "new symbolic struct": "[[question k = ['10 / 8 _ 10 / 1']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-73-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question m = ['(10 / 8) _ (10 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Reevaluate the comparison from the previous problem, but this time compare the fractions (10 / 8) and (10 / 3). Fill in the blank with <, >, or =. \n\n(10 / 8) _ (10 / 3)",
+      "new symbolic struct": "[[question k2 = ['10 / 8 _ 10 / 3']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-74-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(3 / 2) _ (4 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions by filling in the blank with <, >, or =: \n\n(3 / 2) _ (4 / 6)",
+      "new symbolic struct": "[[question a = ['3 / 2 _ 4 / 6']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-74-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(3 / 9) _ (4 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the change from the original problem. Now instead of having 3 halves, imagine it was changed to 3 ninths. Complete the comparison: \n\n(3 / 9) _ (4 / 6) \n\nFill the blank with <, >, or =.",
+      "new symbolic struct": "[[question b = ['3 / 9 _ 4 / 6']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-75-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(9 / 7) _ (4 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following two fractions by filling in the blank with <, >, or =. \n(9 / 7) _ (4 / 6)",
+      "new symbolic struct": "[[question a = ['9 / 7 _ 4 / 6']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-75-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(7 / 7) _ (4 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the following scenario. What happens if we change the math problem (9 / 7) _ (4 / 6) to consider a different set of fractions? \n\nFill in the blank with <, >, or = to compare these two new fractions.\n(7 / 7) _ (4 / 6)",
+      "new symbolic struct": "[[question a = ['7 / 7 _ 4 / 6']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-76-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question o = ['(8 / 7) _ (8 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank in the following comparison with a <, >, or = sign. \n(8 / 7) _ (8 / 8)",
+      "new symbolic struct": "[[question f = ['8 / 7 _ 8 / 8']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-76-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question o = ['(7 / 7) _ (8 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the following change in fractions: \n\n(7 / 7) _ (8 / 8)\n\nReplace the earlier fractions with these new numbers. How do they compare now? Use the symbols <, >, or = to indicate your answer.",
+      "new symbolic struct": "[[question f = ['7 / 7 _ 8 / 8']]]",
+      "answer": "=",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-77-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question v = ['(5 / 5) _ (4 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank with the correct symbol (<, >, =) to compare these two fractions:\n\n(5 / 5) _ (4 / 6)",
+      "new symbolic struct": "[[question m = ['5 / 5 _ 4 / 6']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-77-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question v = ['(5 / 5) _ (2 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the two fractions from before: (5 / 5) and (4 / 6). Now, change the latter fraction's numerator to 2 instead of 4. \n\nFill in the blank with the correct symbol (<, >, =) to compare these two fractions:\n\n(5 / 5) _ (2 / 6)",
+      "new symbolic struct": "[[question n = ['5 / 5 _ 2 / 6']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-78-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question k = ['(10 / 10) _ (4 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions and use <, >, or = to fill the blank: \n(10 / 10) _ (4 / 10)",
+      "new symbolic struct": "[[question l = ['10 / 10 _ 4 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-78-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question k = ['(10 / 10) _ (4 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the following fractions and use <, >, or = to fill the blank: \n(10 / 10) _ (4 / 9)\n\nThis is very similar to the last problem where we compared (10 / 10) to (4 / 10). What changes when the denominator of the second fraction is now 9 instead of 10?",
+      "new symbolic struct": "[[question l = ['10 / 10 _ 4 / 9']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-79-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question v = ['(8 / 1) _ (4 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions and fill in the blank with <, >, or =.\n\n(8 / 1) _ (4 / 9)",
+      "new symbolic struct": "[[question x = ['8 / 1 _ 4 / 9']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-79-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question v = ['(5 / 1) _ (4 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the values of the following fractions and fill in the blank with <, >, or =. How would your answer change if instead of 8 in the previous problem, we had 5?\n\n(5 / 1) _ (4 / 9)",
+      "new symbolic struct": "[[question z = ['5 / 1 _ 4 / 9']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-80-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question n = ['(9 / 3) _ (4 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the two fractions below by choosing either <, >, or = to fill in the blank:\n\n(9 / 3) _ (4 / 8)",
+      "new symbolic struct": "[[question k = ['9 / 3 _ 4 / 8']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-80-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question n = ['(9 / 3) _ (4 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now reconsider the previous fractions, only this time they have slightly changed:\n\nCompare the values of the following fractions by completing the sentence with one of the following options: <, >, or = :\n\n(9 / 3) _ (4 / 2)\n\nThink of this like the previous situation, but instead of the second fraction having a numerator of 4 and a denominator of 8, it now has a numerator of 4 and denominator of 2. How does this change the comparison?",
+      "new symbolic struct": "[[question n = ['9 / 3 _ 4 / 2']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-81-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question j = ['(10 / 7) _ (9 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the fractions in the expression (10 / 7) _ (9 / 6). Fill in the blank with <, >, or =.",
+      "new symbolic struct": "[[question m = ['10 / 7 _ 9 / 6']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-81-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question j = ['(10 / 7) _ (9 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now, let's consider a change to the previous problem. Instead of comparing (10 / 7) and (9 / 6), compare the fractions (10 / 7) _ (9 / 3). Using the same method as before, fill in the blank with <, >, or =. Is this new ratio greater than, less than, or equal to the first one?",
+      "new symbolic struct": "[[question n = ['10 / 7 _ 9 / 3']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-82-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question c = ['(10 / 8) _ (3 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions, and complete the statement: \n\n(10 / 8) _ (3 / 1) \n\nFill the blank space with <, >, or =.",
+      "new symbolic struct": "[[question k = ['10 / 8 _ 3 / 1']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-82-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question c = ['(10 / 7) _ (3 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the following modification to our previous comparison:\n\n(10 / 7) _ (3 / 1)\n\nHow does it affect the comparison? Place <, >, or = in the blank to make the statement true.",
+      "new symbolic struct": "[[question k1 = ['10 / 7 _ 3 / 1']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-83-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(3 / 2) _ (3 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Determine the relationship between the two fractions by filling in the blank with <, >, or =. The question is as follows: \n\n(3 / 2) _ (3 / 5)",
+      "new symbolic struct": "[[question k = ['3 / 2 _ 3 / 5']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-83-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(4 / 2) _ (3 / 5)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the following scenario: \n\nYou had 4 cups of blueberries and 2 cups of strawberries (4/2) and now have replaced the blueberries with 3 cups of raspberries. Keeping the strawberries still 5 cups, tell whether the new ratio of raspberries to strawberries (3/5) is more than, less than, or equal to the original ratio of blueberries to strawberries.\n\nFill in the blank in the question (4 / 2) _ (3 / 5) with <, >, or =.",
+      "new symbolic struct": "[[question k = ['4 / 2 _ 3 / 5']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-84-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question y = ['(4 / 10) _ (2 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following two fractions by filling in the blank with <, >, or =. \n(4 / 10) _ (2 / 2)",
+      "new symbolic struct": "[[question l = ['4 / 10 _ 2 / 2']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-84-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question y = ['(4 / 10) _ (9 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "After comparing (4 / 10) and (2 / 2), consider the scenario where instead of (2 / 2), the comparison fraction becomes (9 / 2). Now, compare these two fractions:\n\n(4 / 10) _ (9 / 2) \n\nFill in the blank with either <, >, or =.",
+      "new symbolic struct": "[[question l = ['4 / 10 _ 9 / 2']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-85-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(6 / 7) _ (2 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the two fractions and fill in the blank with <, >, or =: \n\n(6 / 7) _ (2 / 10)",
+      "new symbolic struct": "[[question l = ['6 / 7 _ 2 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-85-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(5 / 7) _ (2 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Following the previous question, now consider if the first fraction had been (5 / 7) instead. How would this change compare to the original (6 / 7)? Fill in the blank with <, >, or =:\n\n(5 / 7) _ (2 / 10)",
+      "new symbolic struct": "[[question l = ['5 / 7 _ 2 / 10']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-86-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question s = ['(9 / 7) _ (10 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions by filling in the blank with <, >, or =. \n(9 / 7) _ (10 / 3)",
+      "new symbolic struct": "[[question l = ['9 / 7 _ 10 / 3']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-86-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question s = ['(9 / 7) _ (10 / 7)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider a continuation of the previous comparison of fractions. Now, compare the following fractions by filling in the blank with <, >, or =.\n\n(9 / 7) _ (10 / 7)\n\nIn other words, what would happen if the denominator of the second fraction was 7 instead of 3, keeping the ratio of 9 to 7 in the first fraction the same? How would this change affect the comparison?",
+      "new symbolic struct": "[[question l = ['9 / 7 _ 10 / 7']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-87-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(8 / 8) _ (2 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following two fractions by filling in the blank with <, >, or =.\n\n(8 / 8) _ (2 / 8)",
+      "new symbolic struct": "[[question k = ['8 / 8 _ 2 / 8']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-87-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(8 / 10) _ (2 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the following fractions:\n\n(8 / 10) _ (2 / 8)\n\nHow does the comparison of these two fractions change from the previous problem where you compared 8 / 8 and 2 / 8? Fill in the blank with <, >, or = to express your answer.",
+      "new symbolic struct": "[[question k = ['8 / 8 _ 2 / 8'], question l = ['8 / 10 _ 2 / 8']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-88-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(4 / 3) _ (1 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Evaluate the following expression by comparing the two fractions using <, >, or =:\n\n(4 / 3) _ (1 / 8)",
+      "new symbolic struct": "[[question c = ['4 / 3 _ 1 / 8']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-88-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question h = ['(4 / 9) _ (1 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the following problem: \n\n(4 / 9) _ (1 / 8)\n\nIn the previous scenario, we compared the differences between 4/3 and 1/8. Now, let's change the first fraction from 4/3 to 4/9. Fill in the blank by comparing the fractions using <, >, or =. Would the relationship between the fractions be the same, or it would be different?",
+      "new symbolic struct": "[[question d = ['4 / 9 _ 1 / 8']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-89-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question w = ['(4 / 6) _ (6 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by completing the sentence with the appropriate symbol (<, >, or =):\n\n(4 / 6) _ (6 / 10)",
+      "new symbolic struct": "[[question m = ['4 / 6 _ 6 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-89-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question w = ['(4 / 6) _ (6 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider this scenario:\n\nThere are some large birds in a grove: 4 of every 6 are hawks, while the rest are falcons. In comparison, at another location 6 out of every 1 bird is a raven. Compare the ratios of hawks to total birds and of ravens to total birds. Fill in replacing _ with the correct sign (either <, >, or =).\n\n(4 / 6) _ (6 / 1)",
+      "new symbolic struct": "[[question n = ['4 / 6 _ 6 / 1']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-90-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question c = ['(9 / 6) _ (6 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the two fractions by filling the blank using <, >, or =. Here's the question:\n\n(9 / 6) _ (6 / 8)",
+      "new symbolic struct": "[[question a = ['9 / 6 _ 6 / 8']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-90-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question c = ['(9 / 6) _ (4 / 8)']]]\nmath concept: Compare two fractions.",
+      "statement": "Considering the same comparison concept as the previous problem, but this time let's change the fractions. Still filling the blank with <, >, or =, answer this question:\n\n(9/6) _ (4/8)\n\nThink about how this change, reducing the number in the numerator of the second fraction, affects the comparison between the two fractions.",
+      "new symbolic struct": "[[question a = ['9 / 6 _ 4 / 8']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-91-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question k = ['(2 / 6) _ (8 / 7)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by filling in the blank with one of the following symbols: <, >, or =.\n\n(2 / 6) _ (8 / 7)",
+      "new symbolic struct": "[[question a = ['2 / 6 _ 8 / 7']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-91-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question k = ['(2 / 7) _ (8 / 7)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now think about a slightly different situation:\nCompare the two fractions below by filling the blank with <, >, or =.\n\n(2 / 7) _ (8 / 7)\n\nThis time, instead of 2 out of 6 parts of a pizza, suppose you only got 2 out of 7 parts while the rest was still 8 out of 7. What would be the comparison between the two fractions then?",
+      "new symbolic struct": "[[question b = ['2 / 7 _ 8 / 7']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-92-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(9 / 6) _ (4 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the following fractions by filling in the blank with <, >, or =.\n\n(9 / 6) _ (4 / 10)",
+      "new symbolic struct": "[[question m = ['9 / 6 _ 4 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-92-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question t = ['(9 / 6) _ (4 / 6)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider the new scenario. Instead of comparing the fractions (9 / 6) and (4 / 10), we want to compare (9 / 6) and (4 / 6). Fill in the blank with <, >, or = to compare these two fractions.",
+      "new symbolic struct": "[[question n = ['9 / 6 _ 4 / 6']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-93-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question o = ['(6 / 8) _ (5 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank in the following question with <, >, or = to correctly indicate which fraction is greater in value:\n(6 / 8) _ (5 / 1)",
+      "new symbolic struct": "[[question g = ['6 / 8 _ 5 / 1']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-93-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question o = ['(6 / 9) _ (5 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Consider the modified question from before, but this time with different values in the fractions:\n\n(6 / 9) _ (5 / 1)\n\nFill in the blank in the question with <, >, or = to correctly compare the two fractions. Just like we compared the earlier fractions, can you tell which of these two fractions is greater?",
+      "new symbolic struct": "[[question z = ['6 / 9 _ 5 / 1']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-94-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(8 / 4) _ (1 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare these two fractions by filling in the blank with <, >, or =.\n(8 / 4) _ (1 / 10)",
+      "new symbolic struct": "[[question n = ['8 / 4 _ 1 / 10']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-94-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question u = ['(2 / 4) _ (1 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now consider the comparison, (2 / 4) _ (1 / 10). How does this comparison change if we replace the fraction 8 / 4 from the previous problem with 2 / 4? Fill in the blank with <, >, or =.",
+      "new symbolic struct": "[[question n = ['2 / 4 _ 1 / 10']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-95-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question d = ['(6 / 3) _ (8 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following expressions by filling in the blank with <, >, or =.\n\n(6 / 3) _ (8 / 2)",
+      "new symbolic struct": "[[question j = ['(6 / 3) _ (8 / 2)']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-95-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question d = ['(6 / 3) _ (1 / 2)']]]\nmath concept: Compare two fractions.",
+      "statement": "If we change the numbers a bit in our previous comparison and now consider (6 / 3) and (1 / 2), fill in the blank with <, >, or = to compare the two new values.\n  \n(6 / 3) _ (1 / 2)",
+      "new symbolic struct": "[[question p = ['(6 / 3) _ (1 / 2)']]]",
+      "answer": ">",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-96-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question p = ['(4 / 6) _ (6 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Please compare the following two fractions and fill the blank with one of the symbols: <, >, or =:\n\n(4 / 6) _ (6 / 3)",
+      "new symbolic struct": "[[question n = ['4 / 6 _ 6 / 3']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-96-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question p = ['(4 / 6) _ (5 / 3)']]]\nmath concept: Compare two fractions.",
+      "statement": "Great! Now, let's consider a minor change. Compare the following two fractions and fill in the blank with one of the symbols <, >, or =:\n\n(4 / 6) _ (5 / 3)\n\nHow does the result change compared to the previous problem when we increase the numerator in the second fraction from 6 to 5?",
+      "new symbolic struct": "[[question m = ['4 / 6 _ 5 / 3']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-97-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question c = ['(6 / 7) _ (3 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Fill in the blank with <, >, or = to compare the fractions 6 / 7 and 3 / 1 properly.",
+      "new symbolic struct": "[[question l = ['6 / 7 _ 3 / 1']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-97-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question c = ['(6 / 7) _ (9 / 1)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now let's change up the fractions a little. Let's consider 6 / 7 and 9 / 1 this time. Fill in the blank with <, >, or = to correctly compare these two fractions.",
+      "new symbolic struct": "[[question l = ['6 / 7 _ 9 / 1']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-98-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question l = ['(6 / 10) _ (9 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the values of the following fractions by filling in the blank with <, >, or =. \n\n(6 / 10) _ (9 / 10)",
+      "new symbolic struct": "[[question m = ['6 / 10 _ 9 / 10']]]",
+      "answer": "<",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-98-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question l = ['(1 / 10) _ (9 / 10)']]]\nmath concept: Compare two fractions.",
+      "statement": "Now, consider if the fraction had been different. Compare the following fractions:\n\n(1 / 10) _ (9 / 10)\n\nHow would your answer change from the previous question where you compared (6 / 10) and (9 / 10)?",
+      "new symbolic struct": "[[question m = ['6 / 10 _ 9 / 10'], \nquestion n = ['1 / 10 _ 9 / 10']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NF.A.2-99-0",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question j = ['(6 / 8) _ (4 / 9)']]]\nmath concept: Compare two fractions.",
+      "statement": "Compare the two fractions by filling in the blank with <, >, or =.\n\n(6 / 8) _ (4 / 9)",
+      "new symbolic struct": "[[question j = ['6 / 8 _ 4 / 9']]]",
+      "answer": ">",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NF.A.2-99-2",
+      "standard": "4.NF.A.2",
+      "symbolic-struct": "[[question j = ['(6 / 8) _ (4 / 4)']]]\nmath concept: Compare two fractions.",
+      "statement": "As a follow-up to the previous question, now consider these two fractions. Fill in the blank with <, > or = to compare the values.\n\n(6 / 8) _ (4 / 4)",
+      "new symbolic struct": "[[question k = ['6 / 8 _ 4 / 4']]]",
+      "answer": "<",
+      "tag": "modified information follow up"
+    }
+  ]
+]

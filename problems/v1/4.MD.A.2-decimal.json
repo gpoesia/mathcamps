@@ -1,0 +1,2326 @@
+[
+  [
+    {
+      "id": "4.MD.A.2-decimal-1-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var s = 11.0]]\n[[var u = (6.7 * s)]]\n[[var p = (4.3 + u)]]\n[[question l = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Maria was driving at an average speed of 11.0 miles per hour for 6.7 hours. After completing this stretch, she immediately continued for another 4.3 miles before stopping. What total distance in miles did Maria cover?",
+      "new symbolic struct": "[[var d1 = 11.0 * 6.7]]\n[[var t = d1 + 4.3]]\n[[question m = ['t']]]",
+      "answer": "78.0000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-1-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var s = 11.0]]\n[[var u = (19 * s)]]\n[[var p = (4.3 + u)]]\n[[question l = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous problem, suppose Maria was actually driving at an average speed of 11.0 miles per hour for 19 hours before she stopped for a break. After the break, she immediately continued for another 4.3 miles. What would then be the total distance in miles that Maria covered?",
+      "new symbolic struct": "[[var d1 = 11.0 * 19]]\n[[var t = d1 + 4.3]]\n[[question m = ['t']]]",
+      "answer": "213.300000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-2-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var q = 1]]\n[[var s = (q * 17)]]\n[[question y = ['s']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John had 1 dollar. He multiplied his money by 17 by doing small jobs around his neighborhood. How much money does he have now?\n",
+      "new symbolic struct": "[[var money = 1 * 17]]\n[[question total_money = ['money']]]",
+      "answer": "17",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-2-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var q = 3]]\n[[var s = (q * 17)]]\n[[question y = ['s']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Suppose John initially started with 3 dollars instead of 1 dollar. He still multiplied his money by 17 by doing small jobs around his neighborhood. How much money would he have now?",
+      "new symbolic struct": "[[var money_new = 3 * 17]]\n[[question total_money_new = ['money_new']]]",
+      "answer": "51",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-3-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var h = (24.49 + 16)]]\n[[var x = (47 + h)]]\n[[var b = 25.93]]\n[[question e = ['(x + b)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "You have $24.49 in your wallet and you found a $16 bill on the street. Afterward, you receive $47 from your parent. After receiving the money, how much money do you have in total if you already have $25.93 in your savings account?",
+      "new symbolic struct": "[[var money_in_wallet = 24.49]]\n[[var money_found = 16]]\n[[var money_received = 47]]\n[[var savings_account = 25.93]]\n[[var total_money = money_in_wallet + money_found + money_received + savings_account]]\n[[question total = ['total_money']]]",
+      "answer": "113.420000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-3-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var h = (24.49 + 23)]]\n[[var x = (47 + h)]]\n[[var b = 25.93]]\n[[question e = ['(x + b)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous scenario, instead of finding a $16 bill on the street, you found a $23 bill. How much money do you have in total now (considering the $47 you receive from your parent and the $25.93 in your savings account)?",
+      "new symbolic struct": "[[var money_in_wallet = 24.49]]\n[[var money_found = 23]]\n[[var money_received = 47]]\n[[var savings_account = 25.93]]\n[[var total_money = money_in_wallet + money_found + money_received + savings_account]]\n[[question total = ['total_money']]]",
+      "answer": "120.420000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-4-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var h = 8]]\n[[var y = (49 + h)]]\n[[question d = ['y']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Danny had $49 saved up. He received $8 as a gift from his grandpa. How much money does Danny have now?",
+      "new symbolic struct": "[[var d = 49]]\n[[var g = 8]]\n[[var total = d + g]]\n[[question a = ['total']]]",
+      "answer": "57",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-4-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var h = 8]]\n[[var y = (49 + h)]]\n[[var f = (y + 45)]]\n[[question r = ['f']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After receiving the $8 from his grandpa, Danny found $45 he had hidden in a secret compartment of his piggy bank last year. How much money does he now have in total?",
+      "new symbolic struct": "[[var d = 49]]\n[[var g = 8]]\n[[var s = 45]]\n[[var total = d + g + s]]\n[[question a = ['total']]]",
+      "answer": "102",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-4-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var h = 17]]\n[[var y = (49 + h)]]\n[[question d = ['y']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If initially, Danny had saved up $49 and he received $17 instead of $8 from his grandpa, how much money would he have then?",
+      "new symbolic struct": "[[var d = 49]]\n[[var g = 17]]\n[[var total_updated = d + g]]\n[[question a_updated = ['total_updated']]]",
+      "answer": "66",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-5-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var h = (775.644 / 43.6)]]\n[[question l = ['h']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A car travels a distance of 775.644 miles on 43.6 gallons of fuel. How many miles does the car travel per gallon of fuel?",
+      "new symbolic struct": "[[var d = (775.644 / 43.6)]]\n[[question m = ['d']]]",
+      "answer": "17.7900000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-5-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var h = (775.644 / 43.6)]]\n[[var k = (27 - h)]]\n[[question e = ['k']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If the car's fuel efficiency standard is 27 miles per gallon but it is falling short and only managing to travel the distance calculated in the previous problem per gallon, by how much is it falling short of the fuel efficiency standard?",
+      "new symbolic struct": "[[var s = 27]]\n[[var f = (775.644 / 43.6)]]\n[[var p = (s - f)]]\n[[question q = ['p']]]",
+      "answer": "9.21000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-5-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var h = (775.644 / 49)]]\n[[question l = ['h']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Consider if the car initially had a larger amount of fuel, say 49 gallons instead of 43.6 gallons, and the car still traveled 775.644 miles. In this case, what would be the updated miles per gallon of the car?",
+      "new symbolic struct": "[[var d2 = (775.644 / 49)]]\n[[question m2 = ['d2']]]",
+      "answer": "15.8294693877551",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-6-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = 3]]\n[[var z = (k + 22.6)]]\n[[var r = (k * z)]]\n[[question e = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Eva has a garden that is 3 meters wide. She decides to extend it by 22.6 meters. After she does this, she has a garden that is as long as the width of the original garden times the total length after the extension. What is now the total area of Eva's garden in square meters?",
+      "new symbolic struct": "[[var x = 3]]\n[[var y = 22.6]]\n[[var z = x + y]]\n[[var a = x * z]]\n[[question b = ['a']]]",
+      "answer": "76.8000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-6-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = 16]]\n[[var z = (k + 22.6)]]\n[[var r = (k * z)]]\n[[question e = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Now suppose that Eva decides to make her garden even bigger. She alters her plan, and now the first width of her garden is going to be 16 meters instead of 3 meters. After extending it by 22.6 meters just as before, she again stretches the garden out until it is as long as the width of the original garden times the total length after the extension. What is now the total area of Eva's garden in square meters?",
+      "new symbolic struct": "[[var x = 16]]\n[[var y = 22.6]]\n[[var z = x + y]]\n[[var a = x * z]]\n[[question b = ['a']]]",
+      "answer": "617.600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-7-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (19 * 8.9)]]\n[[var z = 38]]\n[[question l = ['(z + o)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A cyclist has 19 days to travel a race that is 8.9 miles long each day. He also received a bonus of 38 miles from the previous race. In total, how many miles does he have to ride for this race?",
+      "new symbolic struct": "[[var d = (8.9 * 19)]]\n[[var t = d + 38]]\n[[question r = ['t']]]",
+      "answer": "207.100000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-7-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (19 * 41)]]\n[[var z = 38]]\n[[question l = ['(z + o)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous cycling competition, the cyclist had to travel 41 miles each day for 19 days and received a bonus of 38 miles. How many miles in total did he have to travel for that race?",
+      "new symbolic struct": "[[var d = (41 * 19)]]\n[[var t = d + 38]]\n[[question r = ['t']]]",
+      "answer": "817",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-8-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = 6.1]]\n[[var h = (u + u)]]\n[[var a = (3.0 * h)]]\n[[question s = ['a']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Bob travels 6.1 miles to the grocery store. His total trip (going and coming back) is the summation of his distance to the grocery and back home. If he makes this trip 3 times a week, how many miles does he travel in total?",
+      "new symbolic struct": "[[var d1 = 6.1 * 2]]\n[[var t = d1 * 3]]\n[[question total = ['t']]]",
+      "answer": "36.6000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-8-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = 6.1]]\n[[var h = (u + u)]]\n[[var a = (3.0 * h)]]\n[[var x = (a + 36)]]\n[[question r = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In addition to his trips to the grocery store, Bob also drives an extra 36 miles each week to visit his grandmother. Taking into account his trips to the grocery store and his visits to his grandmother, how many miles does Bob drive in total every week?",
+      "new symbolic struct": "[[var d1 = 6.1 * 2]]\n[[var t1 = d1 * 3]]\n[[var extra = 36]]\n[[var total = t1 + extra]]\n[[question total_miles = ['total']]]",
+      "answer": "72.6000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-8-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = 36]]\n[[var h = (u + u)]]\n[[var a = (3.0 * h)]]\n[[question s = ['a']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In a different scenario, Bob's grandmother lives 36 miles away, instead of the original distance. If Bob were still to visit her and return home three times a week, how many miles would he be driving in total just for these visits?",
+      "new symbolic struct": "[[var d2 = 36 * 2]]\n[[var t2 = d2 * 3]]\n[[question total = ['t2']]]",
+      "answer": "216.000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-9-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = (863.2 / 33.2)]]\n[[question i = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "You have $863.2 in your bank account and you decide to spend an equal amount every day for 33.2 days. How much money will you spend each day?",
+      "new symbolic struct": "[[var m = (863.2 / 33.2)]]\n[[question d = ['m']]]",
+      "answer": "26.0000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-9-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = (863.2 / 47)]]\n[[question i = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Following up on the previous scenario: suppose instead of spending your savings over 33.2 days, you decided to stretch the same amount over 47 days. How much would you have to spend each day now to keep within the same budget of $863.2?",
+      "new symbolic struct": "[[var n = (863.2 / 47)]]\n[[question e = ['n']]]",
+      "answer": "18.3659574468085",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-10-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var s = (32.5 + 34)]]\n[[var e = (7 + 7)]]\n[[var z = (s - e)]]\n[[question q = ['z']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Maria saved $32.5 from her part-time job and $34 from her previous savings. She spent $7 on a gift for her sister and $7 for her brother at the end of the week. How much money does Maria have left?",
+      "new symbolic struct": "[[var s = (32.5 + 34)]]\n[[var t = (s - 7 - 7)]]\n[[question y = ['t']]]",
+      "answer": "52.5000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-10-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var s = (32.5 + 34)]]\n[[var e = (7 + 7)]]\n[[var z = (s - e)]]\n[[var c = (38 + z)]]\n[[question r = ['c']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After calculating the money left, Maria found an old wallet containing $38. How much money does Maria total have now?",
+      "new symbolic struct": "[[var s = (32.5 + 34)]]\n[[var t = (s - 7 - 7)]]\n[[var u = (t + 38)]]\n[[question y = ['u']]]",
+      "answer": "90.5000000000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-11-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var g = (22.49 * 38.04)]]\n[[question o = ['g']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If the cost of diesel is $22.49 per gallon and a truck uses 38.04 gallons on a trip, how much does the fuel for the trip cost in total?",
+      "new symbolic struct": "[[var c = 22.49 * 38.04]]\n[[question t = ['c']]]",
+      "answer": "855.519600000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-11-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var g = (22.49 * 38.04)]]\n[[var j = 41.8]]\n[[question h = ['(g - j)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If the cost of diesel is $22.49 per gallon and a truck uses 38.04 gallons on a trip, how much does the fuel for the trip cost in total? Now, suppose the truck's driver spends an additional $41.8 on snacks during the trip. How much is the total amount of money spent on the trip, after subtracting the cost of the snacks from the total cost of the fuel?",
+      "new symbolic struct": "[[var c = 22.49 * 38.04]]\n[[var b = c - 41.8]]\n[[question t = ['b']]]",
+      "answer": "813.719600000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-11-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var g = (3 * 38.04)]]\n[[question o = ['g']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous problem, the truck was using 38.04 gallons of fuel for the trip. Now, instead of 22.49 gallons of diesel per trip, suppose that same truck is making 3 trips, each time consuming 38.04 gallons of fuel. How many gallons of fuel in total would the truck consume?",
+      "new symbolic struct": "[[var c = 3 * 38.04]]\n[[question t = ['c']]]",
+      "answer": "114.120000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-13-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = (1 * 13)]]\n[[question v = ['n']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "You just got a new job paying $13 per hour. How much will you earn if you work for 1 hour?",
+      "new symbolic struct": "[[var e = (13 * 1)]]\n[[question h = ['e']]]",
+      "answer": "13",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-13-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = (1 * 13)]]\n[[var q = 7]]\n[[question c = ['(n - q)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Continuing from the previous problem, now let's say you also had individual donations amounting to $7. After receiving your salary, how much money did you have once you subtracted the total amount of your donations?",
+      "new symbolic struct": "[[var w = (13 * 1)]]\n[[var d = (w - 7)]]\n[[question m = ['d']]]",
+      "answer": "6",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-13-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = (1 * 4)]]\n[[question v = ['n']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Continuing from the previous scenario, imagine instead that your new job paid $4 per hour. How much would you earn if you worked for 1 hour?",
+      "new symbolic struct": "[[var e = (4 * 1)]]\n[[question h = ['e']]]",
+      "answer": "4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-14-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var m = (367.8 / 15)]]\n[[question r = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A vehicle travels 367.8 miles on a full tank of gas that holds 15 gallons. How many miles does the vehicle travel per gallon of gas?",
+      "new symbolic struct": "[[var c = (367.8 / 15)]]\n[[question f = ['c']]]",
+      "answer": "24.5200000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-14-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var m = (367.8 / 15)]]\n[[var a = (m * m)]]\n[[question c = ['a']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After finding the distance the vehicle travels per gallon of gas, if the number of miles it can travel per gallon is squared, what would be the resulting number?",
+      "new symbolic struct": "[[var c = (367.8 / 15)]]\n[[var d = c * c]]\n[[question g = ['d']]]",
+      "answer": "601.230400000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-14-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var m = (367.8 / 20)]]\n[[question r = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If the vehicle's gas tank held 20 gallons instead of 15 gallons, but it still traveled 367.8 miles on a full tank, how many miles would the vehicle travel per gallon of gas now?",
+      "new symbolic struct": "[[var c = (367.8 / 20)]]\n[[question f = ['c']]]",
+      "answer": "18.3900000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-15-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = (16.9 + 19.0)]]\n[[var g = (3 + u)]]\n[[question z = ['g']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has $16.9 and his sister gives him an extra $19.0. After receiving the money, he discovers an old $3 bill in his pocket. How much money does John have now?",
+      "new symbolic struct": "[[var a = 16.9]]\n[[var b = 19.0]]\n[[var c = 3]]\n[[var d = a + b + c]]\n[[question e = ['d']]]",
+      "answer": "38.9000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-15-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = (16.9 + 19.0)]]\n[[var g = (3 + u)]]\n[[var i = (g + 31.4)]]\n[[question q = ['i']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After counting his money, John decides to deposit the money into his bank account. In the bank, he remembers that he already has $31.4 in his account. After depositing all of his money, how much does John have in his bank account?",
+      "new symbolic struct": "[[var a = 16.9]]\n[[var b = 19.0]]\n[[var c = 3]]\n[[var d = a + b + c]]\n[[var e = 31.4]]\n[[var f = d + e]]\n[[question g = ['f']]]",
+      "answer": "70.3000000000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-16-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = (7.8 * 24)]]\n[[question l = ['k']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A drone flies at a constant speed of 7.8 km per hour. How far in km can it travel in 24 hours if it doesn't stop or slow down?",
+      "new symbolic struct": "[[var d = (7.8 * 24)]]\n[[question t = ['d']]]",
+      "answer": "187.200000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-16-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = (7.8 * 24)]]\n[[var w = 31]]\n[[question p = ['(w + k)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If a drone flies at a constant speed of 7.8 km per hour for 24 hours and then continues to fly an additional 31 km, how far in total would it have traveled?",
+      "new symbolic struct": "[[var d1 = (7.8 * 24)]]\n[[var d2 = (d1 + 31)]]\n[[question t = ['d2']]]",
+      "answer": "218.200000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-16-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = (7.8 * 30)]]\n[[question l = ['k']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If the drone was actually flying at a constant speed of 7.8 km per hour for 30 hours instead of 24 hours, without taking into account the additional 31 km it flew afterwards, how far in total would it have traveled in those 30 hours?",
+      "new symbolic struct": "[[var k = (7.8 * 30)]]\n[[question t = ['k']]]",
+      "answer": "234.000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-17-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var g = (9.12 + 16.0)]]\n[[question m = ['g']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Emily has saved $9.12 from doing household chores. Her mother then gives her an additional $16.00 as a monthly allowance. How much money does Emily now have in total?",
+      "new symbolic struct": "[[var a = 9.12]]\n[[var b = 16.00]]\n[[var c = (a + b)]]\n[[question d = ['c']]]",
+      "answer": "25.1200000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-17-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var g = (9.12 + 16.0)]]\n[[var l = (1.53 + g)]]\n[[question n = ['l']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Emily's grandmother has heard about her diligent savings and decides to contribute by giving her $1.53. Given the money she already has from chores and allowance, how much money does Emily now have in total?",
+      "new symbolic struct": "[[var a = 9.12]]\n[[var b = 16.00]]\n[[var c = 1.53]]\n[[var d = (a + b + c)]]\n[[question e = ['d']]]",
+      "answer": "26.6500000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-17-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var g = (9.12 + 47)]]\n[[question m = ['g']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Emily thought she was given $16.00 as a monthly allowance, but her mother actually gave her $47.00. Given the $9.12 she has from chores and the corrected amount of allowance, how much money does Emily now have in total?",
+      "new symbolic struct": "[[var a = 9.12]]\n[[var b = 47.00]]\n[[var c = (a + b)]]\n[[question d = ['c']]]",
+      "answer": "56.1200000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-21-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var z = (24.31 - 22)]]\n[[question u = ['z']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "James had $24.31 in his wallet. After buying a sandwich for $22, how much money does he have left?",
+      "new symbolic struct": "[[var a = 24.31]]\n[[var b = 22]]\n[[var c = (a - b)]]\n[[question d = ['c']]]",
+      "answer": "2.31000000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-24-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var w = 8]]\n[[var a = (37.3 - w)]]\n[[question c = ['a']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John had $37.3 in his savings account. He went to the store and spent $8. How much money does he have left in his savings account?",
+      "new symbolic struct": "[[var s = (37.3 - 8)]]\n[[question j = ['s']]]",
+      "answer": "29.3000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-24-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var w = 8]]\n[[var a = (37.3 - w)]]\n[[var j = (12.0 + a)]]\n[[question i = ['j']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John had $37.3 in his savings account. He went to the store and spent $8. How much money does he have left in his savings account? Later that day, his grandmother gives him $12.0 for his birthday. How much money does he have now in his savings account?",
+      "new symbolic struct": "[[var s = (37.3 - 8)]]\n[[var t = (s + 12.0)]]\n[[question j = ['t']]]",
+      "answer": "41.3000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-24-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var w = 8]]\n[[var a = (40 - w)]]\n[[question c = ['a']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the original scenario, John had $37.3 in his savings. However, what if he had $40 instead, and he still went to the store and spent the same amount of $8. How much would he have left in his savings account then?",
+      "new symbolic struct": "[[var n = (40 - 8)]]\n[[question j = ['n']]]",
+      "answer": "32",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-25-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var i = (45 - 8)]]\n[[var q = 1.77]]\n[[question d = ['(q * i)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Mary bought a dress for $45 but got a $8 discount. She now wants to buy the same dress for her 1.77 twin sisters. How much will it cost her?",
+      "new symbolic struct": "[[var a = 45 - 8]]\n[[var b = a * 1.77]]\n[[question c = ['b']]]",
+      "answer": "65.4900000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-25-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var i = (31 - 8)]]\n[[var q = 1.77]]\n[[question d = ['(q * i)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Suppose Mary originally found the dress for $31 but still got an $8 discount. If she still wants to buy the same dress for her 1.77 twin sisters, how much would it cost her now?",
+      "new symbolic struct": "[[var d = 31 - 8]]\n[[var e = d * 1.77]]\n[[question f = ['e']]]",
+      "answer": "40.7100000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-27-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var t = 43]]\n[[var n = (38.32 + t)]]\n[[var i = 43]]\n[[question e = ['(i + n)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Harrison has $43 in his bank account. He then receives a gift from his grandmother of an amount equal to $38.32 plus the original amount he had in his account. After receiving the gift, how much money does Harrison have altogether?",
+      "new symbolic struct": "[[var a = 43]]\n[[var b = 38.32]]\n[[var c = a]]\n[[var d = b + c]]\n[[var e = a + d]]\n[[question f = ['e']]]",
+      "answer": "124.320000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-27-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var t = 43]]\n[[var n = (38.32 + t)]]\n[[var i = 43]]\n[[question e = ['(i + n)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Suppose Harrison only had $43 in his bank account and he received another cash gift from his relatives which is $38.32 more than the original amount he had. If his grandmother didn't give him an extra $43, how much money does he have in his account now?",
+      "new symbolic struct": "[[var a = 43]]\n[[var b = 38.32]]\n[[var c = a + b]]\n[[var d = a + c]]\n[[question e = ['d']]]",
+      "answer": "124.320000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-28-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (8.4 + 43.4)]]\n[[var i = (o + 31)]]\n[[question d = ['i']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In a relay race, Tom ran 8.4 miles, and Jerry ran 43.4 miles. Then, Spike took over and ran 31 miles more. What is the total miles that the team have ran?",
+      "new symbolic struct": "[[var a = 8.4]]\n[[var b = 43.4]]\n[[var c = 31]]\n[[var d = a+b+c]]\n[[question totalMiles = ['d']]]",
+      "answer": "82.8000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-28-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (8.4 + 43.4)]]\n[[var i = (o + 32)]]\n[[question d = ['i']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the relay race, let's reconsider the scenario. This time, instead of running 31 miles, Spike now ran 32 miles. Combining the distances that Tom ran (8.4 miles) and Jerry ran (43.4 miles), how many total miles did the team run now?",
+      "new symbolic struct": "[[var a = 8.4]]\n[[var b = 43.4]]\n[[var c = 32]]\n[[var d = a+b+c]]\n[[question totalMiles = ['d']]]",
+      "answer": "83.8000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-29-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var z = (984.4 / 23)]]\n[[question b = ['z']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "David has 984.4 dollars and wants to save an equal amount every week for the next 23 weeks. How much money should he save each week?",
+      "new symbolic struct": "[[var a = (984.4 / 23)]]\n[[question b = ['a']]]",
+      "answer": "42.8000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-29-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var z = (28 / 23)]]\n[[question b = ['z']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous problem, David decided to save 984.4 dollars over 23 weeks. But what if David actually only had 28 dollars to begin with? How much would he have to save each week then?",
+      "new symbolic struct": "[[var c = (28 / 23)]]\n[[question d = ['c']]]",
+      "answer": "28/23",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-31-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var t = 29]]\n[[var z = 17]]\n[[var e = (z * t)]]\n[[question y = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Zara decided to save some of her money for her summer trip. Every week, she saved $29. After 17 weeks, how much money did she save in total for her trip?",
+      "new symbolic struct": "[[var a = (29 * 17)]]\n[[question t = ['a']]]",
+      "answer": "493",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-31-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var t = 29]]\n[[var z = 17]]\n[[var e = (z * t)]]\n[[var r = (e + 31)]]\n[[question j = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Following her original plan, Zara managed to save $29 each week for 17 weeks for her summer trip. Then, she unexpectedly received an extra $31 from her grandma. How much money does she now have in total for her trip?",
+      "new symbolic struct": "[[var a = (29 * 17)]]\n[[var t = a + 31]]\n[[question f = ['t']]]",
+      "answer": "524",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-31-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var t = 22]]\n[[var z = 17]]\n[[var e = (z * t)]]\n[[question y = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Zara originally planned to save $29 each week for 17 weeks, but she had to adjust and only save $22 each week instead. How much money would she have saved at the end of the 17 weeks with her adjusted saving plan?",
+      "new symbolic struct": "[[var b = (22 * 17)]]\n[[question t = ['b']]]",
+      "answer": "374",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-32-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = (176 / 8)]]\n[[question x = ['n']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Samuel has a total of 176 liters of paint. He wants to distribute it evenly into 8 barrels. How many liters of paint will there be in each barrel?",
+      "new symbolic struct": "[[var a = (176 / 8)]]\n[[question b = ['a']]]",
+      "answer": "22",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-32-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = (176 / 8)]]\n[[var p = (n * 43)]]\n[[question y = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If Samuel decides to fill 43 barrels with the same quantity of paint as before, how many liters of paint will he need in total?",
+      "new symbolic struct": "[[var a = (176 / 8)]]\n[[var c = (a * 43)]]\n[[question d = ['c']]]",
+      "answer": "946",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-32-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = (176 / 29)]]\n[[question x = ['n']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If Samuel had started with only 176 liters of paint and decided to distribute it evenly into 29 barrels instead of 43, how many liters of paint would there be in each barrel?",
+      "new symbolic struct": "[[var e = (176 / 29)]]\n[[question f = ['e']]]",
+      "answer": "176/29",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-33-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (17 * 29)]]\n[[var u = (o - 1)]]\n[[question n = ['u']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Mark bought 29 shirts for his clothing business, with each shirt costing $17. But he got a $1 discount on the total cost. How much did he pay in total for the shirts?",
+      "new symbolic struct": "[[var a = (29 * 17)]]\n[[var b = (a - 1)]]\n[[question t = ['b']]]",
+      "answer": "492",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-33-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (17 * 29)]]\n[[var u = (o - 1)]]\n[[var f = (u + 6.62)]]\n[[question t = ['f']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Following the previous situation, after buying the shirts, Mark decided to also purchase a tie which cost him $6.62. How much did he end up spending in total for the shirts and the tie?",
+      "new symbolic struct": "[[var a = (29 * 17)]]\n[[var b = (a - 1)]]\n[[var c = (b + 6.62)]]\n[[question u = ['c']]]",
+      "answer": "498.620000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-33-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (17 * 39)]]\n[[var u = (o - 1)]]\n[[question n = ['u']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Going back to the initial scenario, suppose the number of shirts Mark bought was 39 instead of 29, with each shirt still costing $17. He still received a $1 discount on the total cost. How much did he pay in total for the shirts now?",
+      "new symbolic struct": "[[var a = (39 * 17)]]\n[[var b = (a - 1)]]\n[[question t = ['b']]]",
+      "answer": "662",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-35-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var e = 9]]\n[[var v = (27.99 * e)]]\n[[var s = (v + e)]]\n[[question i = ['s']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Sarah buys 9 books from a bookstore where each book costs $27.99. She also purchases a magazine for $9. What is the total cost of Sarah's purchase?",
+      "new symbolic struct": "[[var a = (9 * 27.99)]]\n[[var b = a + 9]]\n[[question t = ['b']]]",
+      "answer": "260.910000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-35-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var e = 9]]\n[[var v = (27.99 * e)]]\n[[var s = (v + e)]]\n[[var r = (30.3 + s)]]\n[[question d = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After Sarah's purchase of books and the magazine, she decided to buy a board game which costs $30.3. What is the final total cost of Sarah's purchases?",
+      "new symbolic struct": "[[var a = (9 * 27.99)]]\n[[var b = a + 9]]\n[[var c = b + 30.3]]\n[[question t = ['c']]]",
+      "answer": "291.210000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-35-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var e = 9]]\n[[var v = (50 * e)]]\n[[var s = (v + e)]]\n[[question i = ['s']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Suppose that instead of the books costing $27.99 each, they actually cost $50 each. Now, how much will the total cost be for the 9 books and the magazine?",
+      "new symbolic struct": "[[var c = (9 * 50)]]\n[[var d = c + 9]]\n[[question t_new = ['d']]]",
+      "answer": "459",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-38-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var d = (11 + 14)]]\n[[var h = (d + 23)]]\n[[question g = ['h']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Susan has 11 dollars in her purse and she found 14 dollars in her desk draw. After adding the money she found to her purse, she then earned another 23 dollars from doing chores. How much money does she have now?",
+      "new symbolic struct": "[[var a = (11 + 14)]]\n[[var b = (a + 23)]]\n[[question t = ['b']]]",
+      "answer": "48",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-38-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var d = (11 + 14)]]\n[[var h = (d + 23)]]\n[[var o = 12.18]]\n[[question k = ['(h - o)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After counting her money, Susan then spent $12.18 on a new book. How much money does she have left after buying the book?",
+      "new symbolic struct": "[[var a = (11 + 14)]]\n[[var b = (a + 23)]]\n[[var c = (b - 12.18)]]\n[[question t = ['c']]]",
+      "answer": "35.8200000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-38-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var d = (11 + 6)]]\n[[var h = (d + 23)]]\n[[question g = ['h']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Let's revise Susan's story a bit. Suppose that instead of finding 14 dollars in her desk drawer, she only found 6 dollars. If she still earned another 23 dollars from chores, how much money would she have then?",
+      "new symbolic struct": "[[var a = (11 + 6)]]\n[[var b = (a + 23)]]\n[[question t = ['b']]]",
+      "answer": "40",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-41-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var c = 46]]\n[[var q = (c - 45)]]\n[[question w = ['q']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Susan has $46 in her wallet. She spends $45 on a new toy robot. How much money does she currently have left in her wallet?",
+      "new symbolic struct": "[[var m = (46 - 45)]]\n[[question n = ['m']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-41-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var c = 46]]\n[[var q = (c - 45)]]\n[[var g = (q + c)]]\n[[question o = ['g']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Susan had $46 in her wallet. After she spent $45 on a new toy robot, her mother noticed her sadness for having only $1 left and decided to give her the same amount as she initially had ($46). How much money does Susan have now?",
+      "new symbolic struct": "[[var initial_amount = 46]]\n[[var spent = 45]]\n[[var remaining = (initial_amount - spent)]]\n[[var mother_given = initial_amount]]\n[[var total = (remaining + mother_given)]]\n[[question t = ['total']]]",
+      "answer": "47",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-41-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var c = 46]]\n[[var q = (c - 40)]]\n[[question w = ['q']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Instead of spending $45 on a toy robot, what if Susan decided to save a bit more money and spent only $40 on a less expensive robot? How much money would she have left in her wallet now?",
+      "new symbolic struct": "[[var m = (46 - 40)]]\n[[question n = ['m']]]",
+      "answer": "6",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-42-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var p = 35.79]]\n[[var x = (8 + p)]]\n[[question u = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Alex has $35.79 saved in his piggy bank. His grandma gave him $8 for his birthday. How much does Alex have now after receiving his birthday money?",
+      "new symbolic struct": "[[var a = 35.79]]\n[[var b = 8]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "43.7900000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-42-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var p = 45]]\n[[var x = (8 + p)]]\n[[question u = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "What if Alex initially had $45 in his piggy bank instead of $35.79, then received the same $8 from his grandma. How much money does he have now?",
+      "new symbolic struct": "[[var a = 45]]\n[[var b = 8]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "53",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-43-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var a = 37]]\n[[var h = (a + 8)]]\n[[question r = ['h']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has $37 in his bank account. If he receives an additional $8 from his mother, how much money does he now have in his account?",
+      "new symbolic struct": "[[var a = 37]]\n[[var b = 8]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "45",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-43-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var a = 37]]\n[[var h = (a + 8)]]\n[[var e = (h - 4)]]\n[[question m = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John used $4 of his total money to pay for a bus ticket. How much money does he have left now?",
+      "new symbolic struct": "[[var a = 37]]\n[[var b = 8]]\n[[var c = a + b]]\n[[var e = 4]]\n[[var f = c - e]]\n[[question d = ['f']]]",
+      "answer": "41",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-44-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var c = 43.59]]\n[[var w = (2.2 + c)]]\n[[question h = ['w']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jim has $43.59 in his savings account. He receives his pocket money of $2.2. How much money does he have now in his savings account?",
+      "new symbolic struct": "[[var m = 43.59]]\n[[var n = 2.2]]\n[[var total = m + n]]\n[[question answer = ['total']]]",
+      "answer": "45.7900000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-44-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var c = 43.59]]\n[[var w = (2.2 + c)]]\n[[var q = (w + 25.2)]]\n[[question f = ['q']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After Jim adds his pocket money of $2.2 to his savings account total of $43.59, he decides to deposit an additional $25.2 that he earned from helping his neighbor with yard work. How much money does he have in his savings account now?",
+      "new symbolic struct": "[[var m = 43.59]]\n[[var n = 2.2]]\n[[var total_before = m + n]]\n[[var extra = 25.2]]\n[[var total_after = total_before + extra]]\n[[question answer = ['total_after']]]",
+      "answer": "70.9900000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-44-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var c = 29]]\n[[var w = (2.2 + c)]]\n[[question h = ['w']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After helping his neighbor with yard work, instead of starting with $43.59, Jim only had $29 in his savings account initially. After adding his pocket money of $2.2, how much money does he have in his savings account now?",
+      "new symbolic struct": "[[var m = 29]]\n[[var n = 2.2]]\n[[var total = m + n]]\n[[question answer = ['total']]]",
+      "answer": "31.2000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-45-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = 36.92]]\n[[var m = (18.42 + l)]]\n[[question r = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has $36.92 in his wallet. After his birthday, he gets an additional $18.42 from his grandmother. How much money does John have now?",
+      "new symbolic struct": "[[var m = 36.92]]\n[[var n = 18.42]]\n[[var total = m + n]]\n[[question s = ['total']]]",
+      "answer": "55.3400000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-45-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = 36.92]]\n[[var m = (6 + l)]]\n[[question r = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous scenario, John had $36.92 in his wallet and received an additional $18.42 from his grandmother. But what if instead of getting $18.42, John only got $6 from his grandmother for his birthday. How much money does John have now?",
+      "new symbolic struct": "[[var m = 36.92]]\n[[var n = 6]]\n[[var total_new = m + n]]\n[[question s_new = ['total_new']]]",
+      "answer": "42.9200000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-48-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var i = (38.45 + 39)]]\n[[var x = 44.5]]\n[[question s = ['(x + i)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Sarah had $38.45 in her savings account. She added another $39 to it. Later, she received a gift of $44.5. How much money does Sarah now have in total?",
+      "new symbolic struct": "[[var a = 38.45]]\n[[var b = 39]]\n[[var c = 44.5]]\n[[var total = a + b + c]]\n[[question money_in_account = ['total']]]",
+      "answer": "121.950000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-48-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var i = (38.45 + 31)]]\n[[var x = 44.5]]\n[[question s = ['(x + i)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Sarah decided to not deposit $39 but only a total of $31 to add to her existing savings of $38.45. If she still received the gift of $44.5, how much money does she now have in total?",
+      "new symbolic struct": "[[var a = 38.45]]\n[[var b = 31]]\n[[var c = 44.5]]\n[[var total = a + b + c]]\n[[question money_in_account = ['total']]]",
+      "answer": "113.950000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-49-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = 17.44]]\n[[var s = (23.3 + r)]]\n[[question t = ['s']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Tom has a savings of $17.44. He found a $23.3 bill on the street. How much money does he now have in total?",
+      "new symbolic struct": "[[var t = 17.44]]\n[[var f = 23.3]]\n[[var total = (t + f)]]\n[[question q = ['total']]]",
+      "answer": "40.7400000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-49-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = 17.44]]\n[[var s = (23.3 + r)]]\n[[var h = (1 + s)]]\n[[question i = ['h']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Tom decided to save a little more and added $1 to his total savings. How much money does he have now in total?",
+      "new symbolic struct": "[[var initial_savings = 17.44]]\n[[var found_money = 23.3]]\n[[var tom_savings = (initial_savings + found_money)]]\n[[var added_savings = 1]]\n[[var total_savings = (tom_savings + added_savings)]]\n[[question q = ['total_savings']]]",
+      "answer": "41.7400000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-49-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = 18]]\n[[var s = (23.3 + r)]]\n[[question t = ['s']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After careful consideration, Tom realized he initially had $18, not $17.44. If he found the same $23.3 on the street, how much would he have in total now?",
+      "new symbolic struct": "[[var t = 18]]\n[[var f = 23.3]]\n[[var total = (t + f)]]\n[[question q = ['total']]]",
+      "answer": "41.3000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-50-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var g = 30]]\n[[var z = (615 / 41)]]\n[[var r = (z * g)]]\n[[question l = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If a car consumes 615 liters of gas every 41 hours, how many liters of gas will it consume in 30 hours?",
+      "new symbolic struct": "[[var rate = 615 / 41]]\n[[var fuel_consumed = rate * 30]]\n[[question fuel = ['fuel_consumed']]]",
+      "answer": "450",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-50-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var g = 30]]\n[[var z = (615 / 41)]]\n[[var r = (z * g)]]\n[[var o = (r - 46.33)]]\n[[question i = ['o']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Continuing from the previous problem, if a car consumes 615 liters of gas every 41 hours, and it has consumed gas for 30 hours. But because of a leak, it lost 46.33 liters of that gas. How many liters of gas remain in the car?",
+      "new symbolic struct": "[[var rate = 615 / 41]]\n[[var fuel_consumed = rate * 30]]\n[[var fuel_after_leak = fuel_consumed - 46.33]]\n[[question fuel = ['fuel_after_leak']]]",
+      "answer": "403.670000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-50-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var g = 30]]\n[[var z = (615 / 23)]]\n[[var r = (z * g)]]\n[[question l = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Continuing from the previous problem, what if the car's fuel consumption rate was instead 615 liters every 23 hours? How many liters of gas would it consume in 30 hours at this new rate?",
+      "new symbolic struct": "[[var new_rate = 615 / 23]]\n[[var new_fuel_consumed = new_rate * 30]]\n[[question new_fuel = ['new_fuel_consumed']]]",
+      "answer": "18450/23",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-51-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = (38 - 32.6)]]\n[[question w = ['k']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Emma has $38 in her wallet. After buying a book she only had $32.6 left. How much did the book cost?",
+      "new symbolic struct": "[[var price = (38 - 32.6)]]\n[[question book_cost = ['price']]]",
+      "answer": "5.40000000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-54-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = (20 + 35)]]\n[[var e = (41 + l)]]\n[[question p = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Stacey spent 20 dollars on books and another 35 dollars on school supplies. Later in the day, she decided to buy a backpack that cost 41 dollars more than her total earlier expenses. How much money did Stacey spend in all?",
+      "new symbolic struct": "[[var e = (20 + 35)]]\n[[var b = (e + 41)]]\n[[question t = ['b']]]",
+      "answer": "96",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-54-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = (20 + 35)]]\n[[var e = (41 + l)]]\n[[var d = (e + 26)]]\n[[question w = ['d']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After spending money on books, school supplies, and a backpack, Stacey decided to also buy a new pair of shoes which cost 26 dollars. How much money did she spend in total?",
+      "new symbolic struct": "[[var e = (20 + 35)]]\n[[var b = (e + 41)]]\n[[var s = (b + 26)]]\n[[question t = ['s']]]",
+      "answer": "122",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-54-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = (20 + 35)]]\n[[var e = (12 + l)]]\n[[question p = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If instead of spending 41 dollars on a backpack, Stacey only spent 12 dollars, how much would her total spending be (including the cost of the books, school supplies, and the 12-dollar item)?",
+      "new symbolic struct": "[[var a = (20 + 35)]]\n[[var c = (a + 12)]]\n[[question t = ['c']]]",
+      "answer": "67",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-57-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var v = (176.0 / 20.0)]]\n[[question o = ['v']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A car completes a journey of 176.0 miles in 20.0 hours. How many miles does the car travel per hour?",
+      "new symbolic struct": "[[var s = (176.0 / 20.0)]]\n[[question v = ['s']]]",
+      "answer": "8.80000000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-58-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = 9.9]]\n[[var i = (30.3 + n)]]\n[[question t = ['i']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Kaden's piggy bank has $9.9. He then adds $30.3 to his piggy bank. How much money does Kaden have in his piggy bank now?",
+      "new symbolic struct": "[[var a = 9.9]]\n[[var b = 30.3]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "40.2000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-58-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = 13]]\n[[var i = (30.3 + n)]]\n[[question t = ['i']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Kaden thought back and realized he actually started with $13 in his piggy bank instead of $9.9 before adding the $30.3. How much money would he have had in his piggy bank then?",
+      "new symbolic struct": "[[var a = 13]]\n[[var b = 30.3]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "43.3000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-60-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var j = (42.9 - 34)]]\n[[question h = ['j']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Joe had $42.9 in his wallet, but he spent $34. How much money does Joe have left in his wallet now?",
+      "new symbolic struct": "[[var d = (42.9 - 34)]]\n[[question k = ['d']]]",
+      "answer": "8.90000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-60-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var j = (42.9 - 34)]]\n[[var w = (35.44 - j)]]\n[[question z = ['w']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Following on from the previous problem, Joe found a toy he wanted to buy for $35.44. After spending $34, how much more money does he need in order to buy the toy?",
+      "new symbolic struct": "[[var a = (42.9 - 34)]]\n[[var b = (35.44 - a)]]\n[[question k = ['b']]]",
+      "answer": "26.5400000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-60-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var j = (43 - 34)]]\n[[question h = ['j']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Following on from the previous problem, suppose Joe originally had $43 in his wallet instead of $42.9. After spending $34, how much money does Joe have left in his wallet now?",
+      "new symbolic struct": "[[var e = (43 - 34)]]\n[[question l = ['e']]]",
+      "answer": "9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-61-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = (303.5756 / 19.51)]]\n[[var y = (41.35 + u)]]\n[[question a = ['y']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "You bought a car for $303.5756 and you decided to pay it off in 19.51 monthly installments. After calculating, you find the amount for each monthly installment. If you add $41.35 to your monthly installments for car insurance, what is your total monthly payment for your car and insurance?",
+      "new symbolic struct": "[[var a = 303.5756 / 19.51]]\n[[var t = a + 41.35]]\n[[question m = ['t']]]",
+      "answer": "56.9100000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-61-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = (303.5756 / 19.51)]]\n[[var y = (41.35 + u)]]\n[[var h = (y + 7.4)]]\n[[question w = ['h']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In addition to your monthly car payment and insurance, you also budget $7.4 each month for car maintenance. What, then, would be your total monthly expense related to your car taking into account payment for the car itself, insurance, and maintenance?",
+      "new symbolic struct": "[[var a = 303.5756 / 19.51]]\n[[var t = a + 41.35]]\n[[var r = t + 7.4]]\n[[question total = ['r']]]",
+      "answer": "64.3100000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-61-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = (41 / 19.51)]]\n[[var y = (41.35 + u)]]\n[[question a = ['y']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "What if instead of $303.5756, the total cost of your car was only $41, and you decided to pay it off in 19.51 equal monthly installments. If you still add $41.35 for your monthly car insurance, how much would be your total monthly spending for your car payment and insurance then?\n",
+      "new symbolic struct": "[[var b = 41 / 19.51]]\n[[var n = b + 41.35]]\n[[question p = ['n']]]",
+      "answer": "43.4514864172219",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-63-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var w = (28.2 + 8)]]\n[[question l = ['w']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has $28.2 in his wallet. He received an additional $8 from his friend. How much money does he have now in total?",
+      "new symbolic struct": "[[var a = 28.2]]\n[[var b = 8]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "36.2000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-63-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var w = (35 + 8)]]\n[[question l = ['w']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After initially having $28.2 plus $8, John decides to count his money again and realizes he actually started with $35 and still received $8 from his friend. How much money does he have now in total?",
+      "new symbolic struct": "[[var e = 35]]\n[[var f = 8]]\n[[var g = e + f]]\n[[question h = ['g']]]",
+      "answer": "43",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-64-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (30.3 + 5.9)]]\n[[question r = ['o']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Lisa has 30.3 acres of farmland and she recently bought another plot of 5.9 acres. What is the total acreage of Lisa's farmland now?",
+      "new symbolic struct": "[[var totalAcreage = 30.3 + 5.9]]\n[[question finalAcreage = ['totalAcreage']]]",
+      "answer": "36.2000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-64-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (30.3 + 5.9)]]\n[[var b = (o + o)]]\n[[question w = ['b']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Lisa has a twin sister, Mona, who also has exactly the same amount of farmland as Lisa does. If Lisa has 30.3 acres of farmland and she recently bought another plot of 5.9 acres, how much total land do Lisa and Mona have combined now, considering that they both have the same amount of land?",
+      "new symbolic struct": "[[var LisaLand = 30.3 + 5.9]]\n[[var MonaLand = LisaLand]]\n[[var totalLand = LisaLand + MonaLand]]\n[[question finalLand = ['totalLand']]]",
+      "answer": "72.4000000000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-65-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var e = (16 + 25.17)]]\n[[question r = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John saved $16 from his weekly allowance. On his birthday, his grandmother gave him $25.17 as a gift. How much money does John have in total?",
+      "new symbolic struct": "[[var k = (16 + 25.17)]]\n[[question l = ['k']]]",
+      "answer": "41.1700000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-65-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var e = (16 + 25.17)]]\n[[var n = (20.9 + e)]]\n[[question q = ['n']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In addition to the money John saved from his allowance and his birthday gift, he also earned $20.9 from mowing the neighbor's lawn. How much money does John have in total now?",
+      "new symbolic struct": "[[var m = (16 + 25.17 + 20.9)]]\n[[question n = ['m']]]",
+      "answer": "62.0700000000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-66-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var y = 32.2]]\n[[var e = (y * 17.38)]]\n[[question v = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Joanna is saving money to buy a new bike. She decides to save $32.2 every week. After 17.38 weeks, how much money will she have saved?\n",
+      "new symbolic struct": "[[var s = (32.2 * 17.38)]]\n[[question m = ['s']]]",
+      "answer": "559.636000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-66-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var y = 32.2]]\n[[var e = (y * 17.38)]]\n[[var u = (e - 34.52)]]\n[[question w = ['u']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Joanna is saving money to buy a new bike. She decides to save $32.2 each week. One day, she had to use $34.52 from her saved money. After saving for 17.38 weeks, taking into account the money she used, how much money will she have left?",
+      "new symbolic struct": "[[var s = (32.2 * 17.38)]]\n[[var r = (s - 34.52)]]\n[[question m = ['r']]]",
+      "answer": "525.116000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-66-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var y = 32.2]]\n[[var e = (y * 15)]]\n[[question v = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Joanna is saving money to buy a new bike. She plans to save $32.2 each week. What if, instead of saving for 17.38 weeks as it was originally intended, she decides to only save for 15 weeks. How much money will she have by then?",
+      "new symbolic struct": "[[var s = (32.2 * 15)]]\n[[question m = ['s']]]",
+      "answer": "483.000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-68-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var j = (48 - 18)]]\n[[question x = ['j']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has 48 dollars in his wallet. He bought a new book that cost him 18 dollars. How much money does he have left in his wallet now?",
+      "new symbolic struct": "[[var m = 48]]\n[[var n = 18]]\n[[var p = m - n]]\n[[question q = ['p']]]",
+      "answer": "30",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-68-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var j = (32 - 18)]]\n[[question x = ['j']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John originally had 32 dollars in his wallet, not 48. After spending 18 dollars on a book, how much money does he have left in his wallet now?",
+      "new symbolic struct": "[[var m = 32]]\n[[var n = 18]]\n[[var p = m - n]]\n[[question q = ['p']]]",
+      "answer": "14",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-69-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var x = 5]]\n[[var m = 39.4]]\n[[question s = ['(m + x)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A student has $39.4 in his bank account initially. He earned $5 from selling used textbooks. How much money is now in his bank account?",
+      "new symbolic struct": "[[var m = 39.4]]\n[[var n = 5]]\n[[var t = m + n]]\n[[question y = ['t']]]",
+      "answer": "44.4000000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-72-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var s = (38 - 3)]]\n[[var e = (40 + s)]]\n[[question j = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "I have $38, and then I bought a toy for $3. After that, I was given $40. How much money do I have in total now?",
+      "new symbolic struct": "[[var a = 38 - 3]]\n[[var b = a + 40]]\n[[question t = ['b']]]",
+      "answer": "75",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-72-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var s = (46 - 3)]]\n[[var e = (40 + s)]]\n[[question j = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If originally, I had $46 instead of $38 and after I bought the same toy for $3, then I was given the exact same amount of $40. How much money do I have in total now?",
+      "new symbolic struct": "[[var a = 46 - 3]]\n[[var b = a + 40]]\n[[question t = ['b']]]",
+      "answer": "83",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-73-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var s = 38.5]]\n[[var r = (s + 2)]]\n[[question o = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Sally ran 38.5 miles in a week. On the next week, she decided to increase her distance by 2 miles. How many miles did she run in the next week?",
+      "new symbolic struct": "[[var n = 38.5 + 2]]\n[[question k = ['n']]]",
+      "answer": "40.5000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-73-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var s = 38.5]]\n[[var r = (s + 41)]]\n[[question o = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If initially, instead of increasing her distance by 2 miles in the second week, Sally had decided to increase her mileage by 41 miles. How many miles would she have run in the second week?",
+      "new symbolic struct": "[[var u = 38.5 + 41]]\n[[question l = ['u']]]",
+      "answer": "79.5000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-74-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var x = 16.01]]\n[[var b = (x * 17)]]\n[[question r = ['b']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A farmer buys pesticide for his farm. Each bottle of pesticide costs $16.01. If he buys 17 bottles, how much money does he spend?",
+      "new symbolic struct": "[[var m = (16.01 * 17)]]\n[[question a = ['m']]]",
+      "answer": "272.170000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-74-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var x = 16.01]]\n[[var b = (x * 17)]]\n[[var v = 26]]\n[[question e = ['(b - v)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After buying the pesticide, the farmer receives a discount coupon that allows him to save $26. After applying the coupon, how much does he spend in total for the 17 bottles of pesticide?",
+      "new symbolic struct": "[[var m = (16.01 * 17)]]\n[[var n = m - 26]]\n[[question a = ['n']]]",
+      "answer": "246.170000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-74-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var x = 23]]\n[[var b = (x * 17)]]\n[[question r = ['b']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "The farmer is considering a different pesticide that costs $23 per bottle. If the farmer were to buy 17 bottles of this other pesticide instead, how much would it cost him in total?",
+      "new symbolic struct": "[[var n = (23 * 17)]]\n[[question a = ['n']]]",
+      "answer": "391",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-80-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var p = (28 + 44.99)]]\n[[question x = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jim spent $28 on groceries and then $44.99 on a new shirt. How much money did he spend in total?",
+      "new symbolic struct": "[[var t = (28 + 44.99)]]\n[[question total = ['t']]]",
+      "answer": "72.9900000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-80-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var p = (28 + 44.99)]]\n[[var z = (18.16 + p)]]\n[[question q = ['z']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jim spent $28 on groceries and then $44.99 on a new shirt. Later, he decided to buy a book for $18.16. How much money did he spend in total?",
+      "new symbolic struct": "[[var t1 = (28 + 44.99)]]\n[[var t2 = (t1 + 18.16)]]\n[[question total = ['t2']]]",
+      "answer": "91.1500000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-80-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var p = (28 + 41)]]\n[[question x = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the first shopping trip, Jim spent $28 on groceries and then $44.99 on a new shirt. On a later trip, he spent $28 on groceries again, but this time he bought a different shirt for $41. How much money did he spend in total on the second trip?",
+      "new symbolic struct": "[[var b = (28 + 41)]]\n[[question total_b = ['b']]]",
+      "answer": "69",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-81-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = 13.8]]\n[[var p = (l + 3)]]\n[[question o = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has $13.8 in his savings account. After doing some chores, his mom gives him additional $3. How much money does John have in his savings account now?",
+      "new symbolic struct": "[[var r = 13.8]]\n[[var s = 3]]\n[[var t = (r + s)]]\n[[question total = ['t']]]",
+      "answer": "16.8000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-81-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = 31]]\n[[var p = (l + 3)]]\n[[question o = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Continuing from the previous scenarios, let's say John initially had $31 in his savings account instead of $13.8. After doing his chores, his mom gives him an additional $3. How much money would John have in his savings account then?",
+      "new symbolic struct": "[[var r = 31]]\n[[var s = 3]]\n[[var t = (r + s)]]\n[[question total = ['t']]]",
+      "answer": "34",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-82-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var y = (19 + 5)]]\n[[var p = (y + 27.97)]]\n[[var a = (17 * p)]]\n[[question z = ['a']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has $19 in his wallet and he finds $5 on the street. After adding this to his wallet, he discovers a forgotten envelope with $27.97 in it, which he also adds to his wallet. He then heads to a collector's flea market, where he buys 17 vintage comic books, each costing the total amount he currently has in his wallet. How much does he spend in total on the comic books?",
+      "new symbolic struct": "[[var n = 19]]\n[[var m = 5]]\n[[var l = 27.97]]\n[[var p = n + m + l]]\n[[var t = 17 * p]]\n[[question q = ['t']]]",
+      "answer": "883.490000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-82-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var y = (4 + 5)]]\n[[var p = (y + 27.97)]]\n[[var a = (17 * p)]]\n[[question z = ['a']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Consider the same situation as before, but this time, John initially has $4 in his wallet instead of $19 and again he finds $5 on the street. After adding this to his wallet, he again discovers a forgotten envelope with $27.97 in it, which he also adds to his wallet. He then heads to the same collector's flea market. If he still purchases 17 vintage comic books, each at the new total amount in his wallet, how much does he spend this time on the comic books?",
+      "new symbolic struct": "[[var a = 4]]\n[[var b = 5]]\n[[var c = 27.97]]\n[[var d = a + b + c]]\n[[var e = 17 * d]]\n[[question f = ['e']]]",
+      "answer": "628.490000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-84-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var d = (35.6 - 32)]]\n[[var t = (46.3 + d)]]\n[[var n = (12.9 + t)]]\n[[question g = ['n']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has $35.6 in his wallet. After buying a chocolate bar for $32, he receives some money from his friend who owed him $46.3, which amount is aslo added to his wallet. Later, his grandmother gave him an extra $12.9. How much money does he have now in his wallet?",
+      "new symbolic struct": "[[var a = 35.6]]\n[[var b = 32]]\n[[var c = 46.3]]\n[[var d = 12.9]]\n[[var e = (a - b + c + d)]]\n[[question f = ['e']]]",
+      "answer": "62.8000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-84-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var d = (35.6 - 7)]]\n[[var t = (46.3 + d)]]\n[[var n = (12.9 + t)]]\n[[question g = ['n']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Previously, John had $35.6 in his wallet and spent $32 on a chocolate bar. But what if instead, John had initially the same amount of money but decided to buy a different item that only cost $7. After these expenses, he received the same amount of $46.3 from his friend and $12.9 from his grandmother as in the previous situation. How much money does he have in his wallet in this scenario?",
+      "new symbolic struct": "[[var a = 35.6]]\n[[var b = 7]]\n[[var c = 46.3]]\n[[var d = 12.9]]\n[[var e = (a - b + c + d)]]\n[[question f = ['e']]]",
+      "answer": "87.8000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-86-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var x = (436.23179999999996 / 46.26)]]\n[[question o = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A car travels a total distance of 436.23179999999996 miles, and it used up 46.26 gallons of gas for the entire trip. What was the car's average mileage per gallon of gas used?",
+      "new symbolic struct": "[[var m = (436.23179999999996 / 46.26)]]\n[[question t = ['m']]]",
+      "answer": "9.43000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-86-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var x = (436.23179999999996 / 17)]]\n[[question o = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Following the previous problem about the car's mileage, if the car originally travelled a total of 436.23179999999996 miles with 17 gallons of gas instead of 46.26, what would have been the car's average mileage per gallon of gas used?",
+      "new symbolic struct": "[[var m1 = (436.23179999999996 / 17)]]\n[[question t1 = ['m1']]]",
+      "answer": "25.6606941176471",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-88-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var x = (41.21 + 28.27)]]\n[[question l = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Peter has $41.21 saved from his birthday and just received an additional $28.27 from mowing lawns. How much money does he have in total now?",
+      "new symbolic struct": "[[var money_before_lawn_mowing = 41.21]]\n[[var money_from_lawn_mowing = 28.27]]\n[[var total_money = (money_before_lawn_mowing + money_from_lawn_mowing)]]\n[[question t = ['total_money']]]",
+      "answer": "69.4800000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-89-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (6.4 * 43)]]\n[[question s = ['o']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Sammy runs at a speed of 6.4 mph. If he runs for 43 hours in total, how far does he travel?",
+      "new symbolic struct": "[[var d = (6.4 * 43)]]\n[[question s = ['d']]]",
+      "answer": "275.200000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-89-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (6.4 * 43)]]\n[[var i = (o - 10)]]\n[[question y = ['i']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After running for 43 hours at a speed of 6.4 mph, Sammy finds that his GPS unit was not fully calibrated and may overstate his distance by about 10 miles. What would be the revised distance he traveled according to the GPS?",
+      "new symbolic struct": "[[var d = (6.4 * 43)]]\n[[var e = d - 10]]\n[[question f = ['e']]]",
+      "answer": "265.200000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-89-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var o = (6.4 * 2)]]\n[[question s = ['o']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If Sammy had only run for 2 hours instead of 43 at a speed of 6.4 mph, how far would he have travelled?",
+      "new symbolic struct": "[[var e = (6.4 * 2)]]\n[[question w = ['e']]]",
+      "answer": "12.8000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-91-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var q = 50]]\n[[var x = 24]]\n[[var t = (q - x)]]\n[[question e = ['t']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has 50 dollars. He spent 24 dollars on a video game. How much money does John have left?",
+      "new symbolic struct": "[[var m = 50 - 24]]\n[[question n = ['m']]]",
+      "answer": "26",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-91-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var q = 27]]\n[[var x = 24]]\n[[var t = (q - x)]]\n[[question e = ['t']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If John initially had only 27 dollars instead of 50 dollars, and he still spent 24 dollars on a video game, how much money would he have left?",
+      "new symbolic struct": "[[var p = 27 - 24]]\n[[question q = ['p']]]",
+      "answer": "3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-92-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = (46.37 + 19.96)]]\n[[var j = 14.28]]\n[[var o = (r * j)]]\n[[question f = ['o']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "David earns $46.37 an hour. His friend Robert earns $19.96 an hour. For one shift of 14.28 hours, how much did they collectively earn if they worked the same amount of hours?",
+      "new symbolic struct": "[[var d = (46.37 * 14.28)]]\n[[var r = (19.96 * 14.28)]]\n[[question c = ['d + r']]]",
+      "answer": "947.192400000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-92-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = (46.37 + 19.96)]]\n[[var j = 14.28]]\n[[var o = (r * j)]]\n[[var g = (o + j)]]\n[[question i = ['g']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "David and Robert collectively earned a certain amount after their 14.28-hour shift. However, they had additional earnings of $14.28 from tips. How much did David and Robert earn in total, including their tips?",
+      "new symbolic struct": "[[var d = (46.37 * 14.28)]]\n[[var r = (19.96 * 14.28)]]\n[[var e = (d + r)]]\n[[var t = 14.28]]\n[[question z = ['e + t']]]",
+      "answer": "961.472400000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-94-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var z = (6.3 + 39)]]\n[[question i = ['z']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has $6.3 in his piggy bank, and he finds a $39 bill on the street. How much money does he have now?",
+      "new symbolic struct": "[[var a = 6.3]]\n[[var b = 39]]\n[[var c = a + b]]\n[[question h = ['c']]]",
+      "answer": "45.3000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-94-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var z = (6.3 + 39)]]\n[[var l = (z + z)]]\n[[question x = ['l']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John's twin brother Jacob, who also had $6.3 in his piggy bank and found a $39 bill on the street, decided to combine his money with John's. How much money do they have together now?",
+      "new symbolic struct": "[[var a = 6.3]]\n[[var b = 39]]\n[[var c = a + b]]\n[[var d = c + c]]\n[[question e = ['d']]]",
+      "answer": "90.6000000000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-95-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var b = (13 + 33.88)]]\n[[question h = ['b']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has $13 in his wallet. He then adds $33.88 more. How much money does John have in total now?",
+      "new symbolic struct": "[[var m = (13 + 33.88)]]\n[[question n = ['m']]]",
+      "answer": "46.8800000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-96-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var b = (47 - 28.5)]]\n[[question q = ['b']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Roger had $47 in his wallet. After lunch, he only had $28.5 left. How much money did he spend on lunch?",
+      "new symbolic struct": "[[var spent = 47 - 28.5]]\n[[question spentOnLunch = ['spent']]]",
+      "answer": "18.5000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-96-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var b = (47 - 28.5)]]\n[[var l = (b * 2.47)]]\n[[question t = ['l']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Roger decided to convert the amount of money he spent on lunch to another currency where the exchange rate is $2.47 per dollar. How much would his lunch cost in this new currency?",
+      "new symbolic struct": "[[var initialAmount = 47 - 28.5]]\n[[var convertedAmount = initialAmount * 2.47]]\n[[question finalAmount = ['convertedAmount']]]",
+      "answer": "45.6950000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-96-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var b = (45 - 28.5)]]\n[[question q = ['b']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Roger initially thought he had $45 in his wallet, not $47. Given this, how much money did he actually spend on lunch?",
+      "new symbolic struct": "[[var initialAmount = 45]]\n[[var spent = initialAmount - 28.5]]\n[[question spentOnLunch = ['spent']]]",
+      "answer": "16.5000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-97-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = (29 + 10.28)]]\n[[question z = ['k']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jack has $29 already, and then his grandma gives him another $10.28 for his birthday. How much money does Jack have now?",
+      "new symbolic struct": "[[var t = 29]]\n[[var g = 10.28]]\n[[var total = t + g]]\n[[question m = ['total']]]",
+      "answer": "39.2800000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-97-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = (29 + 30)]]\n[[question z = ['k']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Suppose instead of giving Jack $30 on his birthday instead of $10.28. Now, how much money does Jack have before he goes to the toy store?",
+      "new symbolic struct": "[[var t = 29]]\n[[var g2 = 30]]\n[[var total2 = t + g2]]\n[[question m2 = ['total2']]]",
+      "answer": "59",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-98-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var t = (18.4 - 3.73)]]\n[[var n = (t + 33.4)]]\n[[var z = (n - 28)]]\n[[question p = ['z']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John had $18.4 in his wallet, but he spent $3.73 on a candy bar. Later that day, his mom gave him $33.4. After that, he spent $28 on a new video game. How much money does he have left?",
+      "new symbolic struct": "[[var h = 18.4 - 3.73]]\n[[var i = h + 33.4]]\n[[var j = i - 28]]\n[[question k = ['j']]]",
+      "answer": "20.0700000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-98-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var t = (18.4 - 9)]]\n[[var n = (t + 33.4)]]\n[[var z = (n - 28)]]\n[[question p = ['z']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John originally had $18.4 in his wallet, but instead of spending $3.73 on a candy bar, what if he spent $9? Then his mom gave him $33.4 and he later spent $28 on a new video game. How much money does he have left now?",
+      "new symbolic struct": "[[var a = 18.4 - 9]]\n[[var b = a + 33.4]]\n[[var c = b - 28]]\n[[question d = ['c']]]",
+      "answer": "14.8000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-99-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var a = (721.1099999999999 / 39)]]\n[[question b = ['a']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Joseph paid $721.11 for 39 movie tickets. How much does each movie ticket cost?",
+      "new symbolic struct": "[[var price_per_ticket = (721.11 / 39)]]\n[[question ticket_cost = ['price_per_ticket']]]",
+      "answer": "18.4900000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-99-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var a = (721.1099999999999 / 39)]]\n[[var j = (a + 14.3)]]\n[[question s = ['j']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Following the previous problem, Joseph also bought a VIP experience for each movie ticket, which adds $14.3 to the cost of each ticket. How much does each movie ticket now cost, including the VIP experience?",
+      "new symbolic struct": "[[var VIP_price_per_ticket = (721.11 / 39 + 14.3)]]\n[[question VIP_ticket_cost = ['VIP_price_per_ticket']]]",
+      "answer": "32.7900000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-99-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var a = (721.1099999999999 / 6)]]\n[[question b = ['a']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous problem, if Joseph had actually paid $721.11 for only 6 movie tickets, what would be the cost of each ticket then?",
+      "new symbolic struct": "[[var new_price_per_ticket = (721.11 / 6)]]\n[[question new_ticket_cost = ['new_price_per_ticket']]]",
+      "answer": "120.185000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-100-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = 7]]\n[[var v = (11.01 * 34.2)]]\n[[var a = (v + u)]]\n[[question d = ['a']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A customer went shopping and spent $11.01 on each of the 34.2 pounds of fruits he bought. He also spent an extra $7 on snacks. How much total money did he spend?",
+      "new symbolic struct": "[[var k = (11.01 * 34.2)]]\n[[var l = (k + 7)]]\n[[question m = ['l']]]",
+      "answer": "383.542000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-100-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = 7]]\n[[var v = (11.01 * 34.2)]]\n[[var a = (v + u)]]\n[[var m = (35.31 + a)]]\n[[question l = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After spending money on fruits and snacks, the customer also bought a kitchen appliance that cost him $35.31. How much total money did he spend on all the items?",
+      "new symbolic struct": "[[var n = (11.01 * 34.2)]]\n[[var o = (n + 7)]]\n[[var p = (o + 35.31)]]\n[[question q = ['p']]]",
+      "answer": "418.852000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-100-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = 7]]\n[[var v = (11.01 * 47)]]\n[[var a = (v + u)]]\n[[question d = ['a']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous shopping scenario, if instead of buying 34.2 pounds of fruits, the customer bought 47 pounds of fruits while keeping the price per pound and the cost of snacks the same, how much total money would he have spent then?",
+      "new symbolic struct": "[[var n = (11.01 * 47)]]\n[[var o = (n + 7)]]\n[[question p = ['o']]]",
+      "answer": "524.470000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-101-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = (48 * 3.6)]]\n[[question c = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A car travels at a constant speed of 48 km per hour. How far will the car have travelled after 3.6 hours?",
+      "new symbolic struct": "[[var d = (48 * 3.6)]]\n[[question t = ['d']]]",
+      "answer": "172.800000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-101-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = (48 * 3.6)]]\n[[var z = 30.0]]\n[[question g = ['(z + r)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Following the previous scenario, after traveling for 3.6 hours, the car continues to travel for another 30.0 km. What is the total distance traveled by the car?",
+      "new symbolic struct": "[[var d = (48 * 3.6)]]\n[[var e = (d + 30.0)]]\n[[question t = ['e']]]",
+      "answer": "202.800000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-101-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = (46 * 3.6)]]\n[[question c = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Following the previous scenario, suppose the car had traveled at a speed of 46 km per hour instead of 48 km. How far would the car have traveled after 3.6 hours?",
+      "new symbolic struct": "[[var d2 = (46 * 3.6)]]\n[[question t2 = ['d2']]]",
+      "answer": "165.600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-102-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var i = (50.0 - 38.4)]]\n[[question o = ['i']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A cyclist pedals for 50.0 kilometers and then takes a break, having covered 38.4 kilometers before stopping. How far did the cyclist pedal after resuming from the break?",
+      "new symbolic struct": "[[var a = 50.0]]\n[[var b = 38.4]]\n[[var c = (a - b)]]\n[[question d = ['c']]]",
+      "answer": "11.6000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-102-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var i = (50.0 - 38.4)]]\n[[var g = (i * 7)]]\n[[question q = ['g']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Based on the previous problem where a cyclist pedaled a certain distance after a break, assume now the cyclist repeats the same cycle for 7 days. How much distance, in kilometers, does the cyclist cover after resuming from the break over these 7 days?",
+      "new symbolic struct": "[[var a = 50.0]]\n[[var b = 38.4]]\n[[var c = (a - b)]]\n[[var e = (c * 7)]]\n[[question f = ['e']]]",
+      "answer": "81.2000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-102-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var i = (50.0 - 40)]]\n[[question o = ['i']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Based on the previous problem, now assume that on each of these 7 days, the cyclist pedals for 50.0 kilometers total, but now takes a break after covering 40 kilometers. How much distance, in kilometers, does the cyclist cover after resuming from the break each day?",
+      "new symbolic struct": "[[var a = 50.0]]\n[[var b = 40.0]]\n[[var c = (a - b)]]\n[[question d = ['c']]]",
+      "answer": "10.0000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-103-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = (67.66 / 17)]]\n[[question f = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A delivery driver travels 67.66 miles in 17 hours. How far does he drive in one hour?",
+      "new symbolic struct": "[[var d = (67.66 / 17)]]\n[[question h = ['d']]]",
+      "answer": "3.98000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-103-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = (67.66 / 18)]]\n[[question f = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "The delivery driver now realizes that his shift was 18 hours long, not 17 hours, for the 67.66-mile long journey. How far does he now calculate his average distance driven per hour?",
+      "new symbolic struct": "[[var e = (67.66 / 18)]]\n[[question i = ['e']]]",
+      "answer": "3.75888888888889",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-104-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var v = 19]]\n[[var o = (43 + v)]]\n[[var b = (o - 40)]]\n[[question m = ['b']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Maria has $19 saved up. She later receives $43 from her birthday. How much money will she have left after buying a book that costs $40?",
+      "new symbolic struct": "[[var a = (19 + 43)]]\n[[var b = (a - 40)]]\n[[question c = ['b']]]",
+      "answer": "22",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-104-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var v = 19]]\n[[var o = (28 + v)]]\n[[var b = (o - 40)]]\n[[question m = ['b']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Suppose initially Maria had saved up $19. Then, instead of receiving $43 from her birthday, she only received $28. After buying the same book that costs $40, how much money will she have left?",
+      "new symbolic struct": "[[var d = (19 + 28)]]\n[[var e = (d - 40)]]\n[[question f = ['e']]]",
+      "answer": "7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-105-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var z = 41]]\n[[var h = (z + 24.7)]]\n[[question w = ['h']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Mia has $41 saved from her birthday. She babysat for a neighbour and earned an additional $24.7. How much money does she have now in total?",
+      "new symbolic struct": "[[var m = 41]]\n[[var n = 24.7]]\n[[var t = m + n]]\n[[question money = ['t']]]",
+      "answer": "65.7000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-105-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var z = 41]]\n[[var h = (z + 24.7)]]\n[[var k = (h - 38.6)]]\n[[question a = ['k']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Mia has $41 saved from her birthday. She babysat for a neighbour and earned an additional $24.7. After gathering her savings, she decided to buy a new book that cost $38.6. How much money does she have left after buying the book?",
+      "new symbolic struct": "[[var m = 41]]\n[[var n = 24.7]]\n[[var t = m + n]]\n[[var book = 38.6]]\n[[var final_money = t - book]]\n[[question money = ['final_money']]]",
+      "answer": "27.1000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-105-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var z = 35]]\n[[var h = (z + 24.7)]]\n[[question w = ['h']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Instead of $41 from her birthday, suppose Mia had only managed to save $35. Including her earnings of $24.7 from babysitting, how much money does she now have in total?",
+      "new symbolic struct": "[[var m = 35]]\n[[var n = 24.7]]\n[[var t = m + n]]\n[[question money = ['t']]]",
+      "answer": "59.7000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-107-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var s = (12 + 5)]]\n[[var z = (s + 26.0)]]\n[[question g = ['z']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John spent 12 dollars on lunch and an additional 5 dollars on a dessert. After lunch, he went to a clothing store and bought a shirt for $26.00. How much total money did John spend?",
+      "new symbolic struct": "[[var a = 12]]\n[[var b = 5]]\n[[var c = 26]]\n[[var d = a+b+c]]\n[[question t = ['d']]]",
+      "answer": "43.0000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-107-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var s = (12 + 5)]]\n[[var z = (s + 26.0)]]\n[[var h = (z * 20)]]\n[[question v = ['h']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In addition to his other expenses, John decided to buy twenty raffle tickets for a charity event. Each ticket cost the same as the total amount of money he had spent earlier. How much money did John spend on the raffle tickets?",
+      "new symbolic struct": "[[var a = 12]]\n[[var b = 5]]\n[[var c = 26]]\n[[var d = a+b+c]]\n[[var e = 20]]\n[[var f = e*d]]\n[[question t = ['f']]]",
+      "answer": "860.000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-107-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var s = (12 + 5)]]\n[[var z = (s + 49)]]\n[[question g = ['z']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John spent 12 dollars on lunch and an additional 5 dollars on a dessert. After lunch, he went to a clothing store and was contemplating buying a shirt. However, instead of the $26.00 shirt he bought previously, he decided to buy a more expensive shirt that costs $49. What would be the total amount of money spent in this scenario?",
+      "new symbolic struct": "[[var a = 12]]\n[[var b = 5]]\n[[var c = 49]]\n[[var d = a+b+c]]\n[[question t = ['d']]]",
+      "answer": "66",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-109-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var f = (23 + 44.5)]]\n[[question v = ['f']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Laura deposited $23 into her bank account on Monday. On Tuesday, she deposited an additional $44.5. How much money did Laura deposit in total over those two days?",
+      "new symbolic struct": "[[var b = (23 + 44.5)]]\n[[question s = ['b']]]",
+      "answer": "67.5000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-109-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var f = (23 + 44.5)]]\n[[var o = (f - 9)]]\n[[question h = ['o']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After depositing a total of $23 + $44.5 over two days, Laura decided to take out $9 for lunch. How much money does she have left in her account now?",
+      "new symbolic struct": "[[var d = (23 + 44.5)]]\n[[var e = d - 9]]\n[[question m = ['e']]]",
+      "answer": "58.5000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-109-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var f = (4 + 44.5)]]\n[[question v = ['f']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Consider that initially, instead of depositing $23, Laura had only deposited $4 to her bank account on Monday, but still went ahead to deposit an additional $44.5 on Tuesday. How much money did she deposit in total over those two days?",
+      "new symbolic struct": "[[var c = (4 + 44.5)]]\n[[question t = ['c']]]",
+      "answer": "48.5000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-110-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var p = (11 * 1)]]\n[[question r = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Peter has 11 dimes in his pocket. If each dime is worth $1, how much money does Peter have in total?",
+      "new symbolic struct": "[[var m = (11 * 1)]]\n[[question n = ['m']]]",
+      "answer": "11",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-110-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var p = (11 * 12)]]\n[[question r = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Instead of having 11 dimes in his pocket, Peter actually has 11 dozen dimes. If each dime is worth $1, how much money does Peter now have in total?",
+      "new symbolic struct": "[[var c = 11*12]]\n[[var m = c * 1]]\n[[question n = ['m']]]",
+      "answer": "132",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-111-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var i = 13]]\n[[var w = (i * 43.36)]]\n[[question j = ['w']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has saved $43.36 each week for 13 weeks. How much money has he saved in total?",
+      "new symbolic struct": "[[var t = (43.36 * 13)]]\n[[question f = ['t']]]",
+      "answer": "563.680000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-111-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var i = 13]]\n[[var w = (i * 43.36)]]\n[[var m = (9.6 + w)]]\n[[question g = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After saving $43.36 each week for 13 weeks, John received a surprise gift of $9.6 from his grandmother. How much money does he have in total now?",
+      "new symbolic struct": "[[var s = (43.36 * 13)]]\n[[var t = (s + 9.6)]]\n[[question f = ['t']]]",
+      "answer": "573.280000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-111-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var i = 13]]\n[[var w = (i * 23)]]\n[[question j = ['w']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Instead of saving $43.36 each week, suppose John has been saving only $23 each week for the same duration of 13 weeks. How much money would he have saved by the end of this period?",
+      "new symbolic struct": "[[var g = (23 * 13)]]\n[[question k = ['g']]]",
+      "answer": "299",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-112-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = (29 * 3.0)]]\n[[question g = ['u']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jenna has 29 quarters in her piggy bank. If each quarter is worth 3.0 dimes, what is the total amount of money Jenna has in her piggy bank in terms of dimes?",
+      "new symbolic struct": "[[var j = (29 * 3)]]\n[[question t = ['j']]]",
+      "answer": "87.0000000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-113-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var p = (85 / 5)]]\n[[question w = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Peter divided his $85 among 5 of his friends. How much money did each friend receive?",
+      "new symbolic struct": "[[var a = (85 / 5)]]\n[[question b = ['a']]]",
+      "answer": "17",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-115-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = 29.7]]\n[[var q = (k + 12.6)]]\n[[question b = ['q']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Mandy has saved up $29.7 from her part-time job. Her father gave her an additional $12.6. How much money does she have in total now?",
+      "new symbolic struct": "[[var total_money = (29.7+12.6)]]\n[[question total = ['total_money']]]",
+      "answer": "42.3000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-115-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = 29.7]]\n[[var q = (k + 12.6)]]\n[[var e = (q - 19.79)]]\n[[question m = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Mandy decided to buy a book that cost $19.79. How much money does she have left after buying the book?",
+      "new symbolic struct": "[[var initial_money = (29.7+12.6)]]\n[[var remaining_money = initial_money - 19.79]]\n[[question remaining = ['remaining_money']]]",
+      "answer": "22.5100000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-115-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = 29.7]]\n[[var q = (k + 31)]]\n[[question b = ['q']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Mandy's father decided to be more generous and instead gave her $31. How much money would she have in total then?",
+      "new symbolic struct": "[[var total_money_after = (29.7+31)]]\n[[question total_after = ['total_money_after']]]",
+      "answer": "60.7000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-116-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = (6.57 + 46)]]\n[[question y = ['n']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has 46 dollars in his savings account. His grandmother gave him 6.57 dollars for completing some chores around her house. How much money does John have now?",
+      "new symbolic struct": "[[var j = 46]]\n[[var g = 6.57]]\n[[var t = (j + g)]]\n[[question total = ['t']]]",
+      "answer": "52.5700000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-116-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = (6.57 + 46)]]\n[[var t = (n - 38)]]\n[[question m = ['t']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John used 38 dollars out of his total savings to purchase a new video game. How much money does John now have left in his savings?",
+      "new symbolic struct": "[[var j = 46]]\n[[var g = 6.57]]\n[[var v = 38]]\n[[var t = (j + g - v)]]\n[[question total = ['t']]]",
+      "answer": "14.5700000000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-117-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var q = (10 * 36)]]\n[[question p = ['q']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If a bakery makes 10 loaves of bread every hour and the oven is working continuously for 36 hours, how many loaves of bread are made?\n",
+      "new symbolic struct": "[[var l = (10 * 36)]]\n[[question b = ['l']]]",
+      "answer": "360",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-117-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var q = (10 * 36)]]\n[[var u = (q - 45)]]\n[[question d = ['u']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous situation, where the bakery made 10 loaves of bread every hour for continuous 36 hours, if they decided to donate 45 loaves to a local food bank, how many loaves of bread would they have left?",
+      "new symbolic struct": "[[var l = (10 * 36)]]\n[[var r = l - 45]]\n[[question b = ['r']]]",
+      "answer": "315",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-117-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var q = (21 * 36)]]\n[[question p = ['q']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the earlier situation, where the bakery made loaves of bread continuously for 36 hours and each hour they created 10 loaves, what if they improved their efficiency such that they now made 21 loaves every hour? How many loaves of bread would they produce in 36 hours with this increased efficiency?",
+      "new symbolic struct": "[[var m = (21 * 36)]]\n[[question b_new = ['m']]]",
+      "answer": "756",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-118-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var b = 30.02]]\n[[var m = (38.9 + b)]]\n[[question k = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has saved up $30.02 in his piggy bank. His grandmother gave him $38.9 for his birthday. How much money does he have now in total?",
+      "new symbolic struct": "[[var d = 30.02]]\n[[var e = 38.9]]\n[[var f = d + e]]\n[[question g = ['f']]]",
+      "answer": "68.9200000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-118-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var b = 30.02]]\n[[var m = (38.9 + b)]]\n[[var f = (m * 6.0)]]\n[[question g = ['f']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John has saved up $30.02 in his piggy bank. His grandmother gave him $38.9 for his birthday, so now he has a certain amount of money. If he manages to save up six times the amount he has now, how much money will he have in total?",
+      "new symbolic struct": "[[var a = 30.02]]\n[[var b = 38.9]]\n[[var c = a + b]]\n[[var d = 6 * c]]\n[[question e = ['d']]]",
+      "answer": "413.520000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-118-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var b = 30.02]]\n[[var m = (13 + b)]]\n[[question k = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John originally had $30.02 saved up in his piggy bank, but instead of his grandmother giving him $38.9 for his birthday, she gave him $13. How much money does John have now in his piggy bank?",
+      "new symbolic struct": "[[var d = 30.02]]\n[[var e = 13]]\n[[var f = d + e]]\n[[question g = ['f']]]",
+      "answer": "43.0200000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-119-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var j = 23.0]]\n[[var x = (17.2 + j)]]\n[[question w = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "You already finished a 23.0-kilometer route. If you continue for another 17.2 kilometers, what will be your total travel distance?",
+      "new symbolic struct": "[[var d1 = 23.0]]\n[[var d2 = 17.2]]\n[[var t = d1 + d2]]\n[[question total_distance = ['t']]]",
+      "answer": "40.2000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-119-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var j = 23.0]]\n[[var x = (17.2 + j)]]\n[[var q = (48.2 - x)]]\n[[question e = ['q']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "You already finished a 23.0-kilometer route. If you continue for another 17.2 kilometers, what will be your total travel distance? Afterward, if you have a 48.2-kilometer course to finish, how many more kilometers do you need to travel to complete the course?",
+      "new symbolic struct": "[[var d1 = 23.0]]\n[[var d2 = 17.2]]\n[[var t1 = d1 + d2]]\n[[var d3 = 48.2]]\n[[var r = d3 - t1]]\n[[question remaining = ['r']]]",
+      "answer": "8.00000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-119-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var j = 23.0]]\n[[var x = (48 + j)]]\n[[question w = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "You already finished a 23.0-kilometer route. What if instead you had a longer route that was 48 kilometers before added to your already traveled distance of 23 kilometers, what would your total travel distance have been in that scenario?",
+      "new symbolic struct": "[[var d1 = 23.0]]\n[[var d2 = 48.0]]\n[[var t = d1 + d2]]\n[[question total_distance = ['t']]]",
+      "answer": "71.0000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-120-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var d = (8.0 * 3.9)]]\n[[question s = ['d']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Bob is driving a car at a speed of 8.0 miles per hour. If he drives for 3.9 hours, how many miles will he have driven?",
+      "new symbolic struct": "[[var d = (8.0 * 3.9)]]\n[[question t = ['d']]]",
+      "answer": "31.2000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-120-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var d = (8.0 * 3.9)]]\n[[var y = (d - 21)]]\n[[question h = ['y']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Bob is driving a car at a speed of 8.0 miles per hour. If he drives for 3.9 hours, he will have driven a certain number of miles. After driving for a while, he stops for a break, during which his car cools down by 21 miles of equivalent energy consumption. What's the equivalent distance for the energy remaining in his car?",
+      "new symbolic struct": "[[var d = (8.0 * 3.9)]]\n[[var e = d - 21]]\n[[question r = ['e']]]",
+      "answer": "10.2000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-120-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var d = (8.0 * 26)]]\n[[question s = ['d']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Initially, Bob was driving a car at a speed of 8.0 miles per hour for 3.9 hours. Now, consider that instead of driving for 3.9 hours, he drove for 26 hours. How many miles would he have driven then?",
+      "new symbolic struct": "[[var s = (8.0 * 3.9)]]\n[[var s2 = (8.0 * 26)]]\n[[question t2 = ['s2']]]",
+      "answer": "208.000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-121-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = (8 * 47.1)]]\n[[question d = ['u']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A train travels at a speed of 47.1 miles per hour. How far will it travel in 8 hours?",
+      "new symbolic struct": "[[var d = (47.1 * 8)]]\n[[question t = ['d']]]",
+      "answer": "376.800000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-121-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = (8 * 47.1)]]\n[[var v = (u - 21.2)]]\n[[question h = ['v']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After the train has travelled for 8 hours at a speed of 47.1 miles per hour, it suddenly has to take a detour that reduces the total distance travelled by 21.2 miles. What is the final distance travelled by the train?",
+      "new symbolic struct": "[[var d = (47.1 * 8)]]\n[[var f = d - 21.2]]\n[[question t = ['f']]]",
+      "answer": "355.600000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-121-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = (16 * 47.1)]]\n[[question d = ['u']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "What if the train had to travel for 16 hours instead of 8 at the same speed of 47.1 miles per hour? How far would it travel then?",
+      "new symbolic struct": "[[var d2 = (47.1 * 16)]]\n[[question t2 = ['d2']]]",
+      "answer": "753.600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-122-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var b = 18]]\n[[var o = (b - 3.4)]]\n[[var m = (o * 46)]]\n[[question c = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In a certain online video game, you start with 18 health points. An enemy hits you and you lose 3.4 health points. For every remaining health point, your character's strength level increases by a 46 points multiplier. How many strength levels will your character have after the enemy hit?",
+      "new symbolic struct": "[[var a = (18 - 3.4)]]\n[[var b = (a * 46)]]\n[[question c = ['b']]]",
+      "answer": "671.600000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-122-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var b = 13]]\n[[var o = (b - 3.4)]]\n[[var m = (o * 46)]]\n[[question c = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous scenario of the same online video game, before obtaining the artifact, you originally started with 13 health points instead of 18. An enemy hits you and you lose 3.4 health points. For every remaining health point, your character's strength level increases by a 46 points multiplier. What would have been the strength level of your character after the enemy hit, but before obtaining the artifact, if you had originally started with 13 health points?",
+      "new symbolic struct": "[[var d = (13 - 3.4)]]\n[[var e = (d * 46)]]\n[[question f = ['e']]]",
+      "answer": "441.600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-125-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var f = 29.33]]\n[[var s = (37 - 7.3)]]\n[[var t = (f + s)]]\n[[question b = ['t']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John had $29.33 in his wallet. After spending $7.3 out of $37 he had in his bank account, he decided to put the remaining money from his bank account into his wallet. How much money did he have in his wallet then?",
+      "new symbolic struct": "[[var a = 29.33]]\n[[var b = 37]]\n[[var c = 7.3]]\n[[var d = b - c]]\n[[var e = a + d]]\n[[question f = ['e']]]",
+      "answer": "59.0300000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-125-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var f = 29.33]]\n[[var s = (37 - 7.3)]]\n[[var t = (f + s)]]\n[[var d = (t * 8)]]\n[[question z = ['d']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John saw a sale on his favorite books and decided to buy 8 books using the money he had in his wallet. If each book cost the amount equal to the money he had in his wallet, how much did he spend on books?",
+      "new symbolic struct": "[[var a = 29.33]]\n[[var b = 37]]\n[[var c = 7.3]]\n[[var d = b - c]]\n[[var e = a + d]]\n[[var g = 8 * e]]\n[[question h = ['g']]]",
+      "answer": "472.240000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-125-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var f = 5]]\n[[var s = (37 - 7.3)]]\n[[var t = (f + s)]]\n[[question b = ['t']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "John initially thought he had $29.33 in his wallet, but it turns out he only had $5. After spending $7.3 out of his $37 bank balance, he again added the remaining money from his bank account to his wallet. Now, how much money does he have in his wallet?",
+      "new symbolic struct": "[[var a = 5]]\n[[var b = 37]]\n[[var c = 7.3]]\n[[var d = b - c]]\n[[var e = a + d]]\n[[question f = ['e']]]",
+      "answer": "34.7000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-127-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var e = 48.6]]\n[[var o = (26 + e)]]\n[[var x = (o - 22)]]\n[[question m = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jenny had $48.6 in her savings account. On her birthday, she received $26 more. After a few days, she spent $22 on a new book. How much money does Jenny have now in her savings account?",
+      "new symbolic struct": "[[var m1 = (48.6 + 26)]]\n[[var m2 = (m1 - 22)]]\n[[question m = ['m2']]]",
+      "answer": "52.6000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-127-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var e = 48.6]]\n[[var o = (26 + e)]]\n[[var x = (o - 22)]]\n[[var r = (x - 42)]]\n[[question k = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jenny later decided to purchase a video game for $42 from her savings account. How much money does she have left in her account after buying the video game?",
+      "new symbolic struct": "[[var n1 = (48.6 + 26)]]\n[[var n2 = (n1 - 22)]]\n[[var n3 = (n2 - 42)]]\n[[question n = ['n3']]]",
+      "answer": "10.6000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-127-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var e = 48.6]]\n[[var o = (27 + e)]]\n[[var x = (o - 22)]]\n[[question m = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "What if on Jenny's birthday she received $27 instead of $26 and then she still spent $22 on a new book. How much money does she have now in her savings account in that case?",
+      "new symbolic struct": "[[var m3 = (48.6 + 27)]]\n[[var m4 = (m3 - 22)]]\n[[question m = ['m4']]]",
+      "answer": "53.6000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-129-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = 46.72]]\n[[var o = (11.62 * r)]]\n[[var f = (o + 41)]]\n[[question i = ['f']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A car travels 46.72 miles per hour. After 11.62 hours of driving, the car's gas tank indicates that an additional 41 miles can be covered before the gas runs out. How many miles can the car still travel in total?",
+      "new symbolic struct": "[[var h = (46.72 * 11.62)]]\n[[var v = h + 41]]\n[[question t = ['v']]]",
+      "answer": "583.886400000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-129-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var r = 46.72]]\n[[var o = (11.62 * r)]]\n[[var f = (o + 41)]]\n[[var e = (26 + f)]]\n[[question u = ['e']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Given that a car travels 46.72 miles per hour and after 11.62 hours of driving, the car's gas tank indicates an additional 41 miles can be covered before it runs out. You then find out there's a detour that's 26 miles longer than the original route. How many miles is the entire journey, including the detour, if the car started with enough fuel to journey the total calculated miles?",
+      "new symbolic struct": "[[var h = (46.72 * 11.62)]]\n[[var v = h + 41]]\n[[var d = v + 26]]\n[[question t = ['d']]]",
+      "answer": "609.886400000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-130-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = (23.7 + 7.56)]]\n[[var u = (n - 4.5)]]\n[[question b = ['u']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jerry has $23.7 in his bank account and his mom gives him an additional $7.56. After buying a snack for $4.5, how much money does Jerry have left in his account?",
+      "new symbolic struct": "[[var m = 23.7 + 7.56]]\n[[var n = m - 4.5]]\n[[question h = ['n']]]",
+      "answer": "26.7600000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-130-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = (23.7 + 7.56)]]\n[[var u = (n - 4.5)]]\n[[var o = (36 - u)]]\n[[question f = ['o']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Using the money left in Jerry's bank account after buying a snack, he decides to buy a book. If the book costs $36, how much more money does he need to buy the book?",
+      "new symbolic struct": "[[var m = 23.7 + 7.56]]\n[[var n = m - 4.5]]\n[[var p = 36 - n]]\n[[question q = ['p']]]",
+      "answer": "9.24000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-130-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = (19 + 7.56)]]\n[[var u = (n - 4.5)]]\n[[question b = ['u']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous situation, suppose Jerry had initially $19 in his bank account instead of $23.7. After his mom gives him $7.56 and he buys a snack for $4.5, how much money does he have left in his bank account now?",
+      "new symbolic struct": "[[var m = 19 + 7.56]]\n[[var n = m - 4.5]]\n[[question h = ['n']]]",
+      "answer": "22.0600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-132-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var e = 3]]\n[[var z = (10 * e)]]\n[[var f = (z - 5.1)]]\n[[question y = ['f']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "You found 3 rare coins at your grandmother's house. Each coin can be sold for 10 dollars. After selling them, you pay 5.1 dollars for auction fees. How much money do you have left after paying the auction fees?",
+      "new symbolic struct": "[[var c = (3 * 10)]]\n[[var r = (c - 5.1)]]\n[[question s = ['r']]]",
+      "answer": "24.9000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-132-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var e = 25]]\n[[var z = (10 * e)]]\n[[var f = (z - 5.1)]]\n[[question y = ['f']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous scenario, you discovered that you'd actually found 25 of these rare coins in your grandmother's house, not just 3. Each coin can still be sold for 10 dollars and the auction fees remain at 5.1 dollars. How much money will you have left after paying the auction fees?",
+      "new symbolic struct": "[[var c = (25 * 10)]]\n[[var r = (c - 5.1)]]\n[[question s = ['r']]]",
+      "answer": "244.900000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-133-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var p = 20]]\n[[var x = (22.88 + p)]]\n[[question r = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Maria saved $20 last week. This week, she saved an additional $22.88. How much money has Maria saved in total?",
+      "new symbolic struct": "[[var total_saved = (20 + 22.88)]]\n[[question total = ['total_saved']]]",
+      "answer": "42.8800000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-133-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var p = 20]]\n[[var x = (17 + p)]]\n[[question r = ['x']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous problem, Maria saved $20 last week. Instead of saving an additional $22.88 this week, she was only able to save $17. Now, how much money has Maria saved in total?",
+      "new symbolic struct": "[[var total_saved_new = (20 + 17)]]\n[[question total_new = ['total_saved_new']]]",
+      "answer": "37",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-134-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var m = (33 * 2.4)]]\n[[question c = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jake has stopped into a boutique where shirts are priced at $33 each. He buys 2.4 times this amount in clothing. How much did he spend?",
+      "new symbolic struct": "[[var c = (33 * 2.4)]]\n[[question d = ['c']]]",
+      "answer": "79.2000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-134-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var m = (33 * 2.4)]]\n[[var g = 19.53]]\n[[question l = ['(m + g)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jake has stopped into a boutique where shirts are priced at $33 each. He buys 2.4 times this amount in clothing. Adding to that, Jake also found a hat he liked for $19.53. How much did he spend in total?",
+      "new symbolic struct": "[[var a = (33 * 2.4)]]\n[[var b = 19.53]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "98.7300000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-134-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var m = (45 * 2.4)]]\n[[question c = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "In the previous scenario, Jake bought 2.4 times the amount of clothing priced at $33 each. This time, however, the shirts are priced at $45 each. If Jake still buys 2.4 times this amount in clothing, how much will he spend now?",
+      "new symbolic struct": "[[var e = (45 * 2.4)]]\n[[question f = ['e']]]",
+      "answer": "108.000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-135-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = 36.4]]\n[[var v = (u + 19.0)]]\n[[var p = (25 + v)]]\n[[question w = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Sarah has $36.4 in her savings account. She earns $19.0 by helping her neighbor with gardening. After adding this money to her account, she receives a surprise gift of $25 from her grandmother. How much money does she have now?",
+      "new symbolic struct": "[[var n = 36.4]]\n[[var o = n + 19.0]]\n[[var p = o + 25]]\n[[question q = ['p']]]",
+      "answer": "80.4000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-135-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var u = 36.4]]\n[[var v = (u + 19.0)]]\n[[var p = (36 + v)]]\n[[question w = ['p']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Suppose Sarah initially had $36.4 instead of $19.0 in her savings account. After her neighbor gave her an additional $19.0 for her help in the garden, and her grandmother gifted her $36, how much money does she now have in her account?",
+      "new symbolic struct": "[[var a = 36.4]]\n[[var b = a + 19.0]]\n[[var c = b + 36]]\n[[question d = ['c']]]",
+      "answer": "91.4000000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-136-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = (18 + 40.44)]]\n[[var c = 48]]\n[[question p = ['(l + c)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jenny has saved $18 in her piggy bank and found another $40.44 under her bed. She also earned $48 from selling lemonade during summer. How much money does Jenny have in total?",
+      "new symbolic struct": "[[var a = 18]]\n[[var b = 40.44]]\n[[var c = 48]]\n[[var d = a + b + c]]\n[[question t = ['d']]]",
+      "answer": "106.440000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-136-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = (18 + 49)]]\n[[var c = 48]]\n[[question p = ['(l + c)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Jenny realized that she actually found $49 under her bed instead of $40.44. Keeping in mind that she still has saved $18 in her piggy bank and earned $48 from selling lemonade during summer, how much money does Jenny now have in total?",
+      "new symbolic struct": "[[var a = 18]]\n[[var b = 49]]\n[[var c = 48]]\n[[var d = a + b + c]]\n[[question t = ['d']]]",
+      "answer": "115",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-137-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var k = 38]]\n[[var c = (24.71 * k)]]\n[[var w = 11.6]]\n[[question z = ['(w + c)']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Sarah has earned $38 per day over her first job. After several months, she managed to save up $24.71 for every $1 she earned. Additionally, she has $11.6 in her piggy bank from before she started working. How much money does she have in total?",
+      "new symbolic struct": "[[var earn_per_day = 38]]\n[[var savings = earn_per_day * 24.71]]\n[[var initial_money = 11.6]]\n[[var total = savings + initial_money ]]\n[[question m = ['total']]]",
+      "answer": "950.580000000000",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-138-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = 23]]\n[[var r = (41.8 * n)]]\n[[question z = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A car travels at a constant speed of 41.8 miles per hour for 23 hours. How many miles did the car travel?",
+      "new symbolic struct": "[[var d = 41.8 * 23]]\n[[question t = ['d']]]",
+      "answer": "961.400000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-138-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var n = 12]]\n[[var r = (41.8 * n)]]\n[[question z = ['r']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If the car was only traveling for 12 hours instead of 23 hours, at the same speed of 41.8 miles per hour, how many miles would the car travel?",
+      "new symbolic struct": "[[var d = 41.8 * 12]]\n[[question t = ['d']]]",
+      "answer": "501.600000000000",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-139-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var y = (35.7 * 28)]]\n[[question u = ['y']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A farmer has a cow that produces 35.7 liters of milk every day. How much milk does the cow produce in 28 days?",
+      "new symbolic struct": "[[var m = (35.7 * 28)]]\n[[question n = ['m']]]",
+      "answer": "999.600000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-139-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var y = (35.7 * 28)]]\n[[var k = (y - 20.0)]]\n[[question j = ['k']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "After producing milk for 28 days, the farmer sells 20 liters to a local cheese producer. How much milk does he have left?",
+      "new symbolic struct": "[[var m = (35.7 * 28)]]\n[[var r = (m - 20)]]\n[[question s = ['r']]]",
+      "answer": "979.600000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-139-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var y = (19 * 28)]]\n[[question u = ['y']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If the cow produced 19 liters of milk a day, instead of 35.7, how much would the cow produce in 28 days?",
+      "new symbolic struct": "[[var p = (19 * 28)]]\n[[question q = ['p']]]",
+      "answer": "532",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-140-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var q = (34 + 31.4)]]\n[[question o = ['q']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Mason had saved up $34 from his previous week's allowance. This week, he earned an extra $31.4 by doing some extra house chores. How much money does Mason have now in total?",
+      "new symbolic struct": "[[var saved = 34]]\n[[var earned = 31.4]]\n[[var total = (saved + earned)]]\n[[question m = ['total']]]",
+      "answer": "65.4000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-140-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var q = (34 + 31.4)]]\n[[var m = (q + 27.4)]]\n[[question v = ['m']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Mason had saved up $34 from his previous week's allowance. This week, he earned an extra $31.4 by doing some extra house chores. After counting this, his grandma gave him another $27.4 as a gift. How much money does Mason have now in total?",
+      "new symbolic struct": "[[var saved = 34]]\n[[var earned = 31.4]]\n[[var gift = 27.4]]\n[[var total = (saved + earned + gift)]]\n[[question m = ['total']]]",
+      "answer": "92.8000000000000",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-142-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = (48 - 5.5)]]\n[[question h = ['l']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Rachel had 48 dollars. She spent 5.5 dollars on a new toy. How much money does Rachel have left?",
+      "new symbolic struct": "[[var a = 48]]\n[[var b = 5.5]]\n[[var c = a - b]]\n[[question d = ['c']]]",
+      "answer": "42.5000000000000",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.2-decimal-142-1",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = (48 - 5.5)]]\n[[var o = (l + 23)]]\n[[question p = ['o']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "Following her purchase, Rachel's mom gave her an additional 23 dollars. How much money does Rachel now have?",
+      "new symbolic struct": "[[var a = 48]]\n[[var b = 5.5]]\n[[var c = a - b]]\n[[var e = 23]]\n[[var f = c + e]]\n[[question g = ['f']]]",
+      "answer": "65.5000000000000",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.MD.A.2-decimal-142-2",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var l = (48 - 45)]]\n[[question h = ['l']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "If the toy that Rachel bought originally cost 45 dollars instead of 5.5 dollars, how much money would Rachel have left after her purchase?",
+      "new symbolic struct": "[[var a = 48]]\n[[var e = 45]]\n[[var f = a - e]]\n[[question g = ['f']]]",
+      "answer": "3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.2-decimal-144-0",
+      "standard": "4.MD.A.2-decimal",
+      "symbolic-struct": "[[var i = (506 / 11)]]\n[[question r = ['i']]]\nmath concept: Write a problem involving distances, Intervals of time, liquid volumes, masses of objects, or money.",
+      "statement": "A cyclist travels 506 kilometers in 11 days. How many kilometers does the cyclist travel each day?",
+      "new symbolic struct": "[[var a = (506 / 11)]]\n[[question k = ['a']]]",
+      "answer": "46",
+      "tag": "original problem"
+    }
+  ]
+]

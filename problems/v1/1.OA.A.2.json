@@ -1,0 +1,2317 @@
+[
+  [
+    {
+      "id": "1.OA.A.2-0-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var j = 2]]\n[[var h = (j + j)]]\n[[var v = (h + 7)]]\n[[question s = ['v']]]\ntheme: Tomato",
+      "statement": "John has 2 tomatoes. He found the same amount of tomatoes in his garden. Later, he picked 7 more from his neighbor's garden. How many tomatoes did John have now?",
+      "new symbolic struct": "[[var initial_tomatoes = 2]]\n[[var gathered_tomatoes = initial_tomatoes]]\n[[var neighbor_tomatoes = 7]]\n[[var total_tomatoes = initial_tomatoes + gathered_tomatoes + neighbor_tomatoes]]\n[[question result = ['total_tomatoes']]]",
+      "answer": "11",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-0-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var j = 2]]\n[[var h = (j + j)]]\n[[var v = (h + 14)]]\n[[question s = ['v']]]\ntheme: Tomato",
+      "statement": "Continuing from the previous scenario, what if John initially had 2 tomatoes and again he found the same amount of tomatoes in his garden. But this time, he picked 14 more from his neighbor's garden. How many tomatoes did John have now?",
+      "new symbolic struct": "[[var initial_tomatoes = 2]]\n[[var gathered_tomatoes = initial_tomatoes]]\n[[var neighbor_tomatoes = 14]]\n[[var total_tomatoes = initial_tomatoes + gathered_tomatoes + neighbor_tomatoes]]\n[[question result = ['total_tomatoes']]]",
+      "answer": "18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-1-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var o = (8 + 7)]]\n[[question x = ['o']]]\ntheme: Rocket",
+      "statement": "In a rocket invention trial, scientist Randy is combining 8 kg of Rocket Fuel A and 7 kg of Rocket Fuel B to create a powerful mixture. How much rocket fuel is there in total?",
+      "new symbolic struct": "[[var Rocket_Fuel_A = 8]]\n[[var Rocket_Fuel_B = 7]]\n[[var total_rocket_fuel = Rocket_Fuel_A + Rocket_Fuel_B]]\n[[question result = ['total_rocket_fuel']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-1-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var o = (8 + 7)]]\n[[var v = (o + 5)]]\n[[question q = ['v']]]\ntheme: Rocket",
+      "statement": "After the initial rocket fuel mixture, Randy's assistant, Julia, adds an extra 5 kg of Rocket Fuel C into the mixture. How much rocket fuel is there in total now?",
+      "new symbolic struct": "[[var Rocket_Fuel_A = 8]]\n[[var Rocket_Fuel_B = 7]]\n[[var initial_mixture = Rocket_Fuel_A + Rocket_Fuel_B]]\n[[var Rocket_Fuel_C = 5]]\n[[var total_rocket_fuel = initial_mixture + Rocket_Fuel_C]]\n[[question result = ['total_rocket_fuel']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-1-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var o = (7 + 7)]]\n[[question x = ['o']]]\ntheme: Rocket",
+      "statement": "If initially Randy combined 7 kg of Rocket Fuel A with 7 kg of Rocket Fuel B instead of using 8 kg of Rocket Fuel A, how much rocket fuel would there be in total before adding Rocket Fuel C?",
+      "new symbolic struct": "[[var Rocket_Fuel_A_adjusted = 7]]\n[[var Rocket_Fuel_B = 7]]\n[[var total_rocket_fuel_adjusted = Rocket_Fuel_A_adjusted + Rocket_Fuel_B]]\n[[question result = ['total_rocket_fuel_adjusted']]]",
+      "answer": "14",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-2-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = (7 + 11)]]\n[[question k = ['u']]]\ntheme: Chair",
+      "statement": "James has 7 chairs in his living room. He decided to add 11 more chairs for a family gathering. How many chairs does James have in total in his living room now?",
+      "new symbolic struct": "[[var OG_num_chairs = 7]]\n[[var extra_chairs = 11]]\n[[var total_chairs = OG_num_chairs + extra_chairs]]\n[[question result = ['total_chairs']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-2-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = (7 + 11)]]\n[[var t = (1 + u)]]\n[[question h = ['t']]]\ntheme: Chair",
+      "statement": "After the family gathering, James decided to add an extra chair to the living room, making it a special spot for him to sit and read. How many chairs are there in James's living room now?",
+      "new symbolic struct": "[[var OG_num_chairs = 7]]\n[[var extra_chairs = 11]]\n[[var total_chairs_pre_reading = OG_num_chairs + extra_chairs]]\n[[var reading_chair = 1]]\n[[var total_chairs = total_chairs_pre_reading + reading_chair]]\n[[question result = ['total_chairs']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-3-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = 4]]\n[[var e = 4]]\n[[var s = (e + r)]]\n[[question h = ['s']]]\ntheme: Campfire",
+      "statement": "At a campfire, Dana roasts 4 marshmallows. At the same time, Matt roasts 4 marshmallows as well. How many marshmallows did they roast together?",
+      "new symbolic struct": "[[var dana_marshmallows = 4]]\n[[var matt_marshmallows = 4]]\n[[var total_marshmallows = dana_marshmallows + matt_marshmallows]]\n[[question result = ['total_marshmallows']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-3-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = 4]]\n[[var e = 4]]\n[[var s = (e + r)]]\n[[var k = (s + 3)]]\n[[question z = ['k']]]\ntheme: Campfire",
+      "statement": "After Dana and Matt finish roasting their marshmallows, they decide to roast 3 more. How many marshmallows have been roasted in total at the campfire?",
+      "new symbolic struct": "[[var dana_and_matt_initial_marshmallows = 4 + 4]]\n[[var additional_marshmallows = 3]]\n[[var total_marshmallows = dana_and_matt_initial_marshmallows + additional_marshmallows]]\n[[question result = ['total_marshmallows']]]",
+      "answer": "11",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-3-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = 6]]\n[[var e = 4]]\n[[var s = (e + r)]]\n[[question h = ['s']]]\ntheme: Campfire",
+      "statement": "Suppose Dana originally roasted 6 marshmallows instead of 4. If Matt still roasted 4 marshmallows, how many marshmallows did they roast together at the campfire now?",
+      "new symbolic struct": "[[var dana_marshmallows_updated = 6]]\n[[var matt_marshmallows = 4]]\n[[var total_marshmallows_updated = dana_marshmallows_updated + matt_marshmallows]]\n[[question result = ['total_marshmallows_updated']]]",
+      "answer": "10",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-4-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var c = 4]]\n[[var p = (c + 3)]]\n[[question h = ['p']]]\ntheme: Building blocks",
+      "statement": "In the morning, Chris built a tower with 4 building blocks. In the afternoon, he added 3 more blocks to the tower. How many building blocks are in Chris's tower now?",
+      "new symbolic struct": "[[var morning_blocks = 4]]\n[[var afternoon_blocks = 3]]\n[[var total_blocks = morning_blocks + afternoon_blocks]]\n[[question result = ['total_blocks']]]",
+      "answer": "7",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-4-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var c = 4]]\n[[var p = (c + 3)]]\n[[var l = (p + 6)]]\n[[question z = ['l']]]\ntheme: Building blocks",
+      "statement": "After building a tower with 4 blocks in the morning and adding 3 more in the afternoon, Chris finds 6 more blocks after school. If he adds these to his tower, how many building blocks are in Chris's tower now?",
+      "new symbolic struct": "[[var morning_blocks = 4]]\n[[var afternoon_blocks = 3]]\n[[var after_school_blocks = 6]]\n[[var total_blocks = morning_blocks + afternoon_blocks + after_school_blocks]]\n[[question result = ['total_blocks']]]",
+      "answer": "13",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-4-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var c = 4]]\n[[var p = (c + 14)]]\n[[question h = ['p']]]\ntheme: Building blocks",
+      "statement": "Let's revise our previous scenario: Chris initially built a tower with 4 building blocks. However, imagine he added 14 more blocks in the afternoon instead of 3. How many building blocks would be in Chris\u2019s tower then?",
+      "new symbolic struct": "[[var morning_blocks = 4]]\n[[var revised_afternoon_blocks = 14]]\n[[var revised_total_blocks = morning_blocks + revised_afternoon_blocks]]\n[[question result = ['revised_total_blocks']]]",
+      "answer": "18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-5-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var b = 11]]\n[[var x = 3]]\n[[var h = (b + x)]]\n[[question g = ['h']]]\ntheme: Balloon",
+      "statement": "Bill found 11 balloons at the park. Later, during a birthday party, he found 3 more balloons. How many balloons did Bill find in total?",
+      "new symbolic struct": "[[var park_balloons = 11]]\n[[var party_balloons = 3]]\n[[var total_balloons = park_balloons + party_balloons]]\n[[question result = ['total_balloons']]]",
+      "answer": "14",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-5-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var b = 4]]\n[[var x = 3]]\n[[var h = (b + x)]]\n[[question g = ['h']]]\ntheme: Balloon",
+      "statement": "Let's imagine instead that Bill found 4 balloons at the park, rather than 11. He still found 3 balloons at the birthday party. How many balloons did Bill find in total now?",
+      "new symbolic struct": "[[var park_balloons = 4]]\n[[var party_balloons = 3]]\n[[var total_balloons = park_balloons + party_balloons]]\n[[question result = ['total_balloons']]]",
+      "answer": "7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-6-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = (10 + 9)]]\n[[question n = ['u']]]\ntheme: Police",
+      "statement": "Officer Johnson is on night patrol and has already checked on 10 locations. Over the next hour, he is supposed to check 9 more locations. How many locations is Officer Johnson supposed to check in total?",
+      "new symbolic struct": "[[var initial_locations = 10]]\n[[var additional_locations = 9]]\n[[var total_locations = initial_locations + additional_locations]]\n[[question result = ['total_locations']]]",
+      "answer": "19",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-6-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = (10 + 9)]]\n[[var o = (u + 1)]]\n[[question y = ['o']]]\ntheme: Police",
+      "statement": "After Officer Johnson checks the initial total locations, he is informed that there's an additional location he needs to patrol. How many locations does Officer Johnson check in total now?",
+      "new symbolic struct": "[[var initial_total_locations = 19]]\n[[var additional_location = 1]]\n[[var new_total_locations = initial_total_locations + additional_location]]\n[[question result = ['new_total_locations']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-6-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = (1 + 9)]]\n[[question n = ['u']]]\ntheme: Police",
+      "statement": "If instead of the initially mentioned 10 locations, Officer Johnson was initially supposed to check only 1 location and then 9 more locations over the next hour, how many locations would Officer Johnson be supposed to check in total?",
+      "new symbolic struct": "[[var adjusted_initial_locations = 1]]\n[[var additional_locations = 9]]\n[[var total_locations_adjusted = adjusted_initial_locations + additional_locations]]\n[[question result = ['total_locations_adjusted']]]",
+      "answer": "10",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-7-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var y = 3]]\n[[var o = 17]]\n[[var e = (y + o)]]\n[[question q = ['e']]]\ntheme: Compass",
+      "statement": "In an orienteering event, Emily sets out towards the first landmark that is 3 km away. After reaching the landmark, she heads for the second landmark which is 17 km away from the first. What is the total distance Emily planned to cover between the two landmarks?",
+      "new symbolic struct": "[[var distance_to_first_landmark = 3]]\n[[var distance_to_second_landmark = 17]]\n[[var total_distance = distance_to_first_landmark + distance_to_second_landmark]]\n[[question result = ['total_distance']]]",
+      "answer": "20",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-8-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var j = 8]]\n[[var c = 3]]\n[[var h = (j + c)]]\n[[question r = ['h']]]\ntheme: Wallet",
+      "statement": "James has 8 dollars in his wallet. He finds 3 dollars on the ground and adds it to his wallet. How much money does he have now in total?",
+      "new symbolic struct": "[[var wallet_money = 8]]\n[[var ground_money = 3]]\n[[var total_money = wallet_money + ground_money]]\n[[question result = ['total_money']]]",
+      "answer": "11",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-8-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var j = 8]]\n[[var c = 3]]\n[[var h = (j + c)]]\n[[var w = (h + 8)]]\n[[question o = ['w']]]\ntheme: Wallet",
+      "statement": "After having a total of $11 in his wallet, James later receives $8 from his friend as a repayment of an old loan. How much money does James have in his wallet now in total?",
+      "new symbolic struct": "[[var wallet_money = 11]]\n[[var loan_repayment = 8]]\n[[var total_money = wallet_money + loan_repayment]]\n[[question result = ['total_money']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-9-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var d = (5 + 12)]]\n[[question i = ['d']]]\ntheme: Doctor",
+      "statement": "Dr. Smith treated 5 patients in the morning. In the afternoon, Dr. Smith treated 12 more patients. How many patients did Dr. Smith treat for the day?",
+      "new symbolic struct": "[[var morning_patients = 5]]\n[[var afternoon_patients = 12]]\n[[var total_patients = morning_patients + afternoon_patients]]\n[[question result = ['total_patients']]]",
+      "answer": "17",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-9-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var d = (5 + 12)]]\n[[var m = (3 + d)]]\n[[question k = ['m']]]\ntheme: Doctor",
+      "statement": "After a long day, Dr. Smith was called in to treat 3 more patients in the evening. How many patients did Dr. Smith treat in total for the day?",
+      "new symbolic struct": "[[var morning_patients = 5]]\n[[var afternoon_patients = 12]]\n[[var evening_patients = 3]]\n[[var total_patients_day = morning_patients + afternoon_patients + evening_patients]]\n[[question result = ['total_patients_day']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-10-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var l = 1]]\n[[var b = (l + 11)]]\n[[var a = (2 + b)]]\n[[question v = ['a']]]\ntheme: Fairy",
+      "statement": "In a fairy-themed math adventure, Miny the fairy starts with 1 magical stone. She then attends a fairy party where she receives 11 additional magical stones, represented by a new variable, b. After the party, she collects 2 more stones on her way home. How many magical stones does Miny have now?",
+      "new symbolic struct": "[[var miny_initial_stones = 1]]\n[[var fairy_party_stones = 11]]\n[[var additional_stones = 2]]\n[[var total_stones = miny_initial_stones + fairy_party_stones + additional_stones]]\n[[question result = ['total_stones']]]",
+      "answer": "14",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-10-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var l = 1]]\n[[var b = (l + 11)]]\n[[var a = (2 + b)]]\n[[var s = (a + 2)]]\n[[question k = ['s']]]\ntheme: Fairy",
+      "statement": "After arriving home from her fairy party, Miny the fairy finds that she has received 2 more magical stones in the mail. How many magical stones does Miny have now, considering the ones she received in the mail?",
+      "new symbolic struct": "[[var miny_initial_stones = 1]]\n[[var fairy_party_stones = 11]]\n[[var way_home_stones = 2]]\n[[var mail_stones = 2]]\n[[var total_stones = miny_initial_stones + fairy_party_stones + way_home_stones + mail_stones]]\n[[question result = ['total_stones']]]",
+      "answer": "16",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-10-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var l = 1]]\n[[var b = (l + 10)]]\n[[var a = (2 + b)]]\n[[question v = ['a']]]\ntheme: Fairy",
+      "statement": "In a reimagined scenario, Miny the fairy starts with 1 magical stone. Rather than receiving 11 additional stones at the fairy party, she actually receives 10. After the party, she still collects the same 2 more stones on her way home. How many magical stones does Miny have now in this new situation?",
+      "new symbolic struct": "[[var miny_initial_stones = 1]]\n[[var fairy_party_stones_new = 10]]\n[[var additional_stones = 2]]\n[[var total_stones_new = miny_initial_stones + fairy_party_stones_new + additional_stones]]\n[[question result = ['total_stones_new']]]",
+      "answer": "13",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-11-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (17 + 1)]]\n[[question q = ['t']]]\ntheme: Castle",
+      "statement": "Once upon a time, a king owned 17 castles across his kingdom. He went on an expedition and discovered a beautiful land, where he decided to build one more. How many castles does the king own now?",
+      "new symbolic struct": "[[var initial_castles = 17]]\n[[var new_castles = 1]]\n[[var total_castles = initial_castles + new_castles]]\n[[question result = ['total_castles']]]",
+      "answer": "18",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-12-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var w = (10 + 4)]]\n[[question s = ['w']]]\ntheme: Cloud",
+      "statement": "There are 10 fluffy clouds in the sky in the morning. In the afternoon, 4 more clouds join them. How many clouds are in the sky now?",
+      "new symbolic struct": "[[var morning_clouds = 10]]\n[[var afternoon_clouds = 4]]\n[[var total_clouds = morning_clouds + afternoon_clouds]]\n[[question result = ['total_clouds']]]",
+      "answer": "14",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-12-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var w = (10 + 4)]]\n[[var o = (w + 1)]]\n[[question p = ['o']]]\ntheme: Cloud",
+      "statement": "There are 10 fluffy clouds in the sky in the morning. In the afternoon, 4 more clouds join them, and in the evening, 1 more cloud joins the group. How many clouds are in the sky now?",
+      "new symbolic struct": "[[var morning_clouds = 10]]\n[[var afternoon_clouds = 4]]\n[[var evening_clouds = 1]]\n[[var total_clouds = morning_clouds + afternoon_clouds + evening_clouds]]\n[[question result = ['total_clouds']]]",
+      "answer": "15",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-12-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var w = (10 + 6)]]\n[[question s = ['w']]]\ntheme: Cloud",
+      "statement": "Remember the last problem where there were 10 fluffy clouds in the sky in the morning. But what if instead there had been 10 fluffy clouds which were then joined by 6 more clouds in the afternoon. How many clouds would be in the sky now?",
+      "new symbolic struct": "[[var morning_clouds = 10]]\n[[var afternoon_clouds = 6]]\n[[var total_clouds = morning_clouds + afternoon_clouds]]\n[[question result = ['total_clouds']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-13-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var j = 3]]\n[[var g = (j + 5)]]\n[[var o = 5]]\n[[question f = ['(g + o)']]]\ntheme: Food",
+      "statement": "John eats 3 apples. He then eats 5 more apples. Later in the day he eats 5 grapes. How many pieces of fruit did John eat in total?",
+      "new symbolic struct": "[[var initial_apples = 3]]\n[[var additional_apples = 5]]\n[[var grapes = 5]]\n[[var total_fruit = initial_apples + additional_apples + grapes]]\n[[question result = ['total_fruit']]]",
+      "answer": "13",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-14-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var a = 10]]\n[[var q = 1]]\n[[var e = (q + a)]]\n[[question p = ['e']]]\ntheme: Dinosaur",
+      "statement": "In a dinosaur-themed park, there are 10 T-Rex exhibits and 1 Brachiosaurus exhibit. How many dinosaur exhibits are there in total?",
+      "new symbolic struct": "[[var t_rex_exhibits = 10]]\n[[var brachiosaurus_exhibit = 1]]\n[[var total_exhibits = t_rex_exhibits + brachiosaurus_exhibit]]\n[[question result = ['total_exhibits']]]",
+      "answer": "11",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-14-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var a = 10]]\n[[var q = 1]]\n[[var e = (q + a)]]\n[[var l = 7]]\n[[question i = ['(e + l)']]]\ntheme: Dinosaur",
+      "statement": "In addition to the T-Rex and Brachiosaurus exhibits, the park decides to add 7 more Pterodactyl exhibits. How many dinosaur exhibits will the park have then?",
+      "new symbolic struct": "[[var t_rex_exhibits = 10]]\n[[var brachiosaurus_exhibit = 1]]\n[[var pterodactyl_exhibits = 7]]\n[[var total_exhibits = t_rex_exhibits + brachiosaurus_exhibit + pterodactyl_exhibits]]\n[[question result = ['total_exhibits']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-14-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var a = 1]]\n[[var q = 1]]\n[[var e = (q + a)]]\n[[question p = ['e']]]\ntheme: Dinosaur",
+      "statement": "Suppose initially the park only had 1 T-Rex exhibit instead of 10, but still had 1 Brachiosaurus exhibit. In that case, how many dinosaur exhibits would there have been before the Pterodactyl exhibits were added?",
+      "new symbolic struct": "[[var initial_t_rex_exhibit = 1]]\n[[var initial_brachiosaurus_exhibit = 1]]\n[[var initial_total_exhibits = initial_t_rex_exhibit + initial_brachiosaurus_exhibit]]\n[[question result = ['initial_total_exhibits']]]",
+      "answer": "2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-15-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = (10 + 6)]]\n[[question j = ['e']]]\ntheme: Toy car",
+      "statement": "Derek has 10 toy cars at home, then he goes to the store and buys 6 more. How many toy cars does Derek have in total?",
+      "new symbolic struct": "[[var home_cars = 10]]\n[[var store_cars = 6]]\n[[var total_cars = home_cars + store_cars]]\n[[question result = ['total_cars']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-15-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = (10 + 6)]]\n[[var p = 1]]\n[[question q = ['(p + e)']]]\ntheme: Toy car",
+      "statement": "Derek's cousin, Jake, comes over and brings 1 more toy car to play with. How many toy cars are there altogether now for Derek and Jake to play with?",
+      "new symbolic struct": "[[var home_cars = 10]]\n[[var store_cars = 6]]\n[[var jake_cars = 1]]\n[[var total_cars = home_cars + store_cars + jake_cars]]\n[[question result = ['total_cars']]]",
+      "answer": "17",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-15-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = (8 + 6)]]\n[[question j = ['e']]]\ntheme: Toy car",
+      "statement": "What if Derek originally had 8 toy cars at home instead of 10 before he bought 6 more from the store? How many toy cars would Derek have in total?",
+      "new symbolic struct": "[[var original_home_cars = 8]]\n[[var store_cars = 6]]\n[[var total_cars = original_home_cars + store_cars]]\n[[question result = ['total_cars']]]",
+      "answer": "14",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-16-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var i = (6 + 6)]]\n[[question m = ['i']]]\ntheme: Fireplace",
+      "statement": "John has 6 logs in the fireplace. He adds 6 more to keep the fire going. How many logs are in the fireplace now?",
+      "new symbolic struct": "[[var initial_logs = 6]]\n[[var added_logs = 6]]\n[[var total_logs = initial_logs + added_logs]]\n[[question result = ['total_logs']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-16-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var i = (6 + 6)]]\n[[var g = (i + 4)]]\n[[question y = ['g']]]\ntheme: Fireplace",
+      "statement": "John added 4 more logs to the fireplace after some time. Now, how many logs are in the fireplace?",
+      "new symbolic struct": "[[var initial_logs = 6]]\n[[var added_logs = 6]]\n[[var total_logs = initial_logs + added_logs]]\n[[var new_added_logs = 4]]\n[[var new_total_logs = total_logs + new_added_logs]]\n[[question result = ['new_total_logs']]]",
+      "answer": "16",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-16-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var i = (6 + 7)]]\n[[question m = ['i']]]\ntheme: Fireplace",
+      "statement": "Let's reconsider the situation, but this time, John had originally 7 logs in the fireplace instead of 6, and he still added 6 more to keep the fire going. Now, how many logs are in the fireplace?",
+      "new symbolic struct": "[[var initial_logs = 7]]\n[[var added_logs = 6]]\n[[var total_logs = initial_logs + added_logs]]\n[[question result = ['total_logs']]]",
+      "answer": "13",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-17-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var p = 7]]\n[[var y = 11]]\n[[var n = (y + p)]]\n[[question q = ['n']]]\ntheme: Milk",
+      "statement": "Caitlin bought 7 cartons of milk, and then she went shopping again and bought an additional 11 cartons. How many cartons of milk did Caitlin buy in total?",
+      "new symbolic struct": "[[var OG_num_cartons = 7]]\n[[var shopping_cartons = 11]]\n[[var total_cartons = OG_num_cartons + shopping_cartons]]\n[[question result = ['total_cartons']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-17-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var p = 4]]\n[[var y = 11]]\n[[var n = (y + p)]]\n[[question q = ['n']]]\ntheme: Milk",
+      "statement": "Let's say Caitlin changed her mind and she initially bought only 4 cartons of milk instead of 7. She still went shopping a second time and bought the same additional 11 cartons. Now, how many cartons of milk did Caitlin buy in total?",
+      "new symbolic struct": "[[var new_OG_num_cartons = 4]]\n[[var shopping_cartons = 11]]\n[[var total_cartons = new_OG_num_cartons + shopping_cartons]]\n[[question result = ['total_cartons']]]",
+      "answer": "15",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-18-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (2 + 17)]]\n[[question s = ['t']]]\ntheme: Bubble",
+      "statement": "Sebastian blew 2 bubbles and his sister, Maya, blew 17 more bubbles. How many bubbles did they blow in total?",
+      "new symbolic struct": "[[var sebastian_bubbles = 2]]\n[[var maya_bubbles = 17]]\n[[var total_bubbles = sebastian_bubbles + maya_bubbles]]\n[[question result = ['total_bubbles']]]",
+      "answer": "19",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-18-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (2 + 17)]]\n[[var f = (1 + t)]]\n[[question m = ['f']]]\ntheme: Bubble",
+      "statement": "After Sebastian and Maya blew their bubbles, their dad decided to join the fun and blew 1 bubble. How many bubbles did they blow in total now?",
+      "new symbolic struct": "[[var sebastian_bubbles = 2]]\n[[var maya_bubbles = 17]]\n[[var dad_bubbles = 1]]\n[[var total_bubbles_after_dad = sebastian_bubbles + maya_bubbles + dad_bubbles]]\n[[question result = ['total_bubbles_after_dad']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-18-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (2 + 7)]]\n[[question s = ['t']]]\ntheme: Bubble",
+      "statement": "If Sebastian had originally blown 2 bubbles and Maya had blown 7 bubbles instead of 17, how many bubbles would they have blown in total?",
+      "new symbolic struct": "[[var sebastian_bubbles = 2]]\n[[var maya_bubbles = 7]]\n[[var total_bubbles = sebastian_bubbles + maya_bubbles]]\n[[question result = ['total_bubbles']]]",
+      "answer": "9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-20-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var k = (1 + 12)]]\n[[question j = ['k']]]\ntheme: Guitar",
+      "statement": "Juliet had 1 guitar at home. Later she went to a music fest and bought 12 more guitars. How many guitars does Juliet have now?",
+      "new symbolic struct": "[[var initial_guitars = 1]]\n[[var bought_guitars = 12]]\n[[var total_guitars = initial_guitars + bought_guitars]]\n[[question result = ['total_guitars']]]",
+      "answer": "13",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-20-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var k = (1 + 12)]]\n[[var g = (2 + k)]]\n[[question c = ['g']]]\ntheme: Guitar",
+      "statement": "After the music fest, Juliet's friend gifted her 2 more guitars. Now, how many guitars does Juliet have in total?",
+      "new symbolic struct": "[[var initial_guitars = 1]]\n[[var bought_guitars = 12]]\n[[var gifted_guitars = 2]]\n[[var total_guitars = initial_guitars + bought_guitars + gifted_guitars]]\n[[question result = ['total_guitars']]]",
+      "answer": "15",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-20-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var k = (1 + 14)]]\n[[question j = ['k']]]\ntheme: Guitar",
+      "statement": "What if Juliet originally had 1 guitar at home and instead of buying 12 at the music fest, she bought 14 more guitars? How many guitars does Juliet have in this scenario?",
+      "new symbolic struct": "[[var initial_guitars = 1]]\n[[var bought_fest_guitars = 14]]\n[[var total_guitars = initial_guitars + bought_fest_guitars]]\n[[question result = ['total_guitars']]]",
+      "answer": "15",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-21-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = (16 + 3)]]\n[[question b = ['s']]]\ntheme: Dog",
+      "statement": "In a neighborhood, there are 16 dogs living in different houses. One of the houses has 3 dogs. How many dogs are there in the neighborhood in total?",
+      "new symbolic struct": "[[var neighborhood_dogs = 16]]\n[[var one_house_dogs = 3]]\n[[var total_dogs = neighborhood_dogs + one_house_dogs]]\n[[question result = ['total_dogs']]]",
+      "answer": "19",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-21-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = (16 + 3)]]\n[[var n = (1 + s)]]\n[[question i = ['n']]]\ntheme: Dog",
+      "statement": "On the same day, the dog shelter in the neighborhood rescued one more dog. Now, how many dogs are there in the neighborhood in total?",
+      "new symbolic struct": "[[var neighborhood_dogs = 16]]\n[[var one_house_dogs = 3]]\n[[var rescued_dog = 1]]\n[[var total_dogs = neighborhood_dogs + one_house_dogs + rescued_dog]]\n[[question result = ['total_dogs']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-21-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = (3 + 3)]]\n[[question b = ['s']]]\ntheme: Dog",
+      "statement": "Considering that originally, there were only 3 dogs living in different houses instead of 16 and the house still has 3 dogs. How many dogs are there in the neighborhood now?",
+      "new symbolic struct": "[[var original_neighborhood_dogs = 3]]\n[[var one_house_dogs = 3]]\n[[var total_dogs = original_neighborhood_dogs + one_house_dogs]]\n[[question result = ['total_dogs']]]",
+      "answer": "6",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-22-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = (6 + 13)]]\n[[question j = ['e']]]\ntheme: Rainbow",
+      "statement": "A rainbow in the sky is spotted by 6 people in town A and 13 people in town B. How many people spotted the rainbow in total?",
+      "new symbolic struct": "[[var town_A_people = 6]]\n[[var town_B_people = 13]]\n[[var total_people = town_A_people + town_B_people]]\n[[question result = ['total_people']]]",
+      "answer": "19",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-23-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = 6]]\n[[var q = 11]]\n[[var h = (s + q)]]\n[[question j = ['h']]]\ntheme: Bottle",
+      "statement": "Sam has 6 bottles of water. His friend, Quinn, gives him 11 more. How many bottles of water does Sam have now?",
+      "new symbolic struct": "[[var sam_initial_bottles = 6]]\n[[var quinn_given_bottles = 11]]\n[[var total_bottles = sam_initial_bottles + quinn_given_bottles]]\n[[question result = ['total_bottles']]]",
+      "answer": "17",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-23-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = 6]]\n[[var q = 11]]\n[[var h = (s + q)]]\n[[var f = (1 + h)]]\n[[question c = ['f']]]\ntheme: Bottle",
+      "statement": "After Sam counts his bottles, his girlfriend gives him one more. Now, how many bottles of water does Sam have in total?",
+      "new symbolic struct": "[[var sam_initial_bottles = 6]]\n[[var quinn_given_bottles = 11]]\n[[var sam_bottles_after_quinn = sam_initial_bottles + quinn_given_bottles]]\n[[var girlfriend_given_bottle = 1]]\n[[var total_bottles = sam_bottles_after_quinn + girlfriend_given_bottle]]\n[[question result = ['total_bottles']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-23-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = 9]]\n[[var q = 11]]\n[[var h = (s + q)]]\n[[question j = ['h']]]\ntheme: Bottle",
+      "statement": "If Sam initially had 9 bottles instead of 6, and Quinn still gave him 11 more, how many bottles of water would Sam have then?",
+      "new symbolic struct": "[[var sam_new_initial_bottles = 9]]\n[[var quinn_given_bottles = 11]]\n[[var total_bottles = sam_new_initial_bottles + quinn_given_bottles]]\n[[question result = ['total_bottles']]]",
+      "answer": "20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-25-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = (9 + 11)]]\n[[question b = ['e']]]\ntheme: Shark",
+      "statement": "In a shark infested region, a researcher observes 9 sharks during the morning expedition and 11 more sharks during the afternoon expedition. How many sharks did the researcher observe during the whole day?",
+      "new symbolic struct": "[[var morning_sharks = 9]]\n[[var afternoon_sharks = 11]]\n[[var total_sharks = morning_sharks + afternoon_sharks]]\n[[question result = ['total_sharks']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-25-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = (9 + 2)]]\n[[question b = ['e']]]\ntheme: Shark",
+      "statement": "In the shark infested region, the researcher returns the next day and observes a different number of sharks. This time, he sees 9 sharks during the morning expedition and 2 more during the afternoon expedition. How many sharks did the researcher observe on the second day?",
+      "new symbolic struct": "[[var morning_sharks_day2 = 9]]\n[[var afternoon_sharks_day2 = 2]]\n[[var total_sharks_day2 = morning_sharks_day2 + afternoon_sharks_day2]]\n[[question result = ['total_sharks_day2']]]",
+      "answer": "11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-26-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var q = 2]]\n[[var s = (q + q)]]\n[[var u = (11 + s)]]\n[[question p = ['u']]]\ntheme: Princess",
+      "statement": "A princess has 2 magical stones. The wizard doubles the amount of her stones. After that, she finds 11 more magical stones. How many magical stones does princess have now?",
+      "new symbolic struct": "[[var initial_stones = 2]]\n[[var doubled_stones = initial_stones * 2]]\n[[var total_stones = doubled_stones + 11]]\n[[question result = ['total_stones']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-26-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var q = 2]]\n[[var s = (q + q)]]\n[[var u = (11 + s)]]\n[[var g = 3]]\n[[question b = ['(u + g)']]]\ntheme: Princess",
+      "statement": "After the princess finds the 11 stones, a fairy presents her with 3 more magical stones. Now, how many magical stones does the princess have in total?",
+      "new symbolic struct": "[[var initial_stones = 2]]\n[[var doubled_stones = initial_stones * 2]]\n[[var after_finding_stones = doubled_stones + 11]]\n[[var total_stones = after_finding_stones + 3]]\n[[question result = ['total_stones']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-26-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var q = 2]]\n[[var s = (q + q)]]\n[[var u = (15 + s)]]\n[[question p = ['u']]]\ntheme: Princess",
+      "statement": "After a further recollection, the princess realizes that instead of finding 11 magical stones originally, she had actually found 15. How many magical stones does she now have if we consider this new information?",
+      "new symbolic struct": "[[var initial_stones = 2]]\n[[var doubled_stones = initial_stones * 2]]\n[[var recollected_stones = 15]]\n[[var total_stones = doubled_stones + recollected_stones]]\n[[question result = ['total_stones']]]",
+      "answer": "19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-27-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = 8]]\n[[var s = 7]]\n[[var d = (t + s)]]\n[[question x = ['d']]]\ntheme: Giraffe",
+      "statement": "A zoo has 8 giraffes in one area and 7 giraffes in another area. How many giraffes are there in the zoo in total?",
+      "new symbolic struct": "[[var area1_giraffes = 8]]\n[[var area2_giraffes = 7]]\n[[var total_giraffes = area1_giraffes + area2_giraffes]]\n[[question result = ['total_giraffes']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-27-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = 8]]\n[[var s = 7]]\n[[var d = (t + s)]]\n[[var c = 3]]\n[[question y = ['(c + d)']]]\ntheme: Giraffe",
+      "statement": "The zoo decides to bring in 3 more giraffes. How many giraffes are there in the zoo in total now?",
+      "new symbolic struct": "[[var area1_giraffes = 8]]\n[[var area2_giraffes = 7]]\n[[var brought_giraffes = 3]]\n[[var total_giraffes = area1_giraffes + area2_giraffes + brought_giraffes]]\n[[question result = ['total_giraffes']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-27-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = 5]]\n[[var s = 7]]\n[[var d = (t + s)]]\n[[question x = ['d']]]\ntheme: Giraffe",
+      "statement": "Suppose originally, the zoo had 5 giraffes in one area instead of 8 and still had 7 giraffes in the other area. How many giraffes would there be in the zoo in total then?",
+      "new symbolic struct": "[[var area1_giraffes_new = 5]]\n[[var area2_giraffes = 7]]\n[[var total_giraffes_new = area1_giraffes_new + area2_giraffes]]\n[[question result = ['total_giraffes_new']]]",
+      "answer": "12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-28-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var z = 1]]\n[[var w = 2]]\n[[var l = (z + w)]]\n[[question p = ['l']]]\ntheme: Money",
+      "statement": "Peter has $1. He finds $2 on the street. How many dollars in total does Peter have now?",
+      "new symbolic struct": "[[var initial_money = 1]]\n[[var found_money = 2]]\n[[var total_money = initial_money + found_money]]\n[[question result = ['total_money']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-28-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var z = 1]]\n[[var w = 2]]\n[[var l = (z + w)]]\n[[var x = (l + 12)]]\n[[question m = ['x']]]\ntheme: Money",
+      "statement": "After finding $2 on the street, Peter goes home to continue his summer job of dog-walking. That day he earns $12. How many dollars in total does Peter have now?",
+      "new symbolic struct": "[[var found_money = 2]]\n[[var dog_walking_money = 12]]\n[[var total_money_previous = 1+found_money]]\n[[var total_money_now = total_money_previous + dog_walking_money]]\n[[question result = ['total_money_now']]]",
+      "answer": "15",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-29-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var a = 9]]\n[[var p = (11 + a)]]\n[[question r = ['p']]]\ntheme: Kite",
+      "statement": "Billy has 9 kites. On his birthday, his friends gifted him 11 more kites. How many kites does Billy have now?",
+      "new symbolic struct": "[[var OG_num_kites = 9]]\n[[var birthday_kites = 11]]\n[[var total_kites = OG_num_kites + birthday_kites]]\n[[question result = ['total_kites']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-29-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var a = 4]]\n[[var p = (11 + a)]]\n[[question r = ['p']]]\ntheme: Kite",
+      "statement": "Billy initially had 4 kites. If his friends gifted him 11 more on his birthday, just like before, how many kites does Billy have now?",
+      "new symbolic struct": "[[var OG_num_kites = 4]]\n[[var birthday_kites = 11]]\n[[var total_kites = OG_num_kites + birthday_kites]]\n[[question result = ['total_kites']]]",
+      "answer": "15",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-30-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = 6]]\n[[var y = 7]]\n[[var p = (y + s)]]\n[[question q = ['p']]]\ntheme: Marshmallow",
+      "statement": "Sasha roasted 6 marshmallows at her campfire. Her best friend, Yara, roasted 7 marshmallows at her campfire. How many marshmallows did they roast together?",
+      "new symbolic struct": "[[var sasha_marshmallows = 6]]\n[[var yara_marshmallows = 7]]\n[[var total_marshmallows = sasha_marshmallows + yara_marshmallows]]\n[[question result = ['total_marshmallows']]]",
+      "answer": "13",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-30-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = 6]]\n[[var y = 7]]\n[[var p = (y + s)]]\n[[var e = (3 + p)]]\n[[question o = ['e']]]\ntheme: Marshmallow",
+      "statement": "Sasha and Yara decided to roast more marshmallows after eating the first set. They roasted an additional 3 marshmallows. How many marshmallows did they roast in total?",
+      "new symbolic struct": "[[var sasha_marshmallows = 6]]\n[[var yara_marshmallows = 7]]\n[[var first_set_marshmallows = sasha_marshmallows + yara_marshmallows]]\n[[var additional_marshmallows = 3]]\n[[var total_marshmallows = first_set_marshmallows + additional_marshmallows]]\n[[question result = ['total_marshmallows']]]",
+      "answer": "16",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-30-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = 13]]\n[[var y = 7]]\n[[var p = (y + s)]]\n[[question q = ['p']]]\ntheme: Marshmallow",
+      "statement": "Sasha originally thought she roasted 6 marshmallows, but she realized later that she had actually roasted 13 marshmallows. Yara still roasted 7 marshmallows. How many marshmallows did they roast together, taking into account the new total?\n",
+      "new symbolic struct": "[[var sasha_marshmallows = 13]]\n[[var yara_marshmallows = 7]]\n[[var total_marshmallows = sasha_marshmallows + yara_marshmallows]]\n[[question result = ['total_marshmallows']]]",
+      "answer": "20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-31-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var d = (1 + 14)]]\n[[question g = ['d']]]\ntheme: Pillow",
+      "statement": "Jenna has 1 pillow already at home. She went shopping and added 14 more pillows to her collection. How many total pillows does Jenna have now?",
+      "new symbolic struct": "[[var original_pillows = 1]]\n[[var shopping_pillows = 14]]\n[[var total_pillows = original_pillows + shopping_pillows]]\n[[question result = ['total_pillows']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-31-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var d = (1 + 14)]]\n[[var j = (d + 3)]]\n[[question p = ['j']]]\ntheme: Pillow",
+      "statement": "After shopping, Jenna's friend gifts her 3 more pillows. Now, how many total pillows does Jenna have?",
+      "new symbolic struct": "[[var original_pillows = 1]]\n[[var shopping_pillows = 14]]\n[[var gift_pillows = 3]]\n[[var total_original_shopping_pillows = original_pillows + shopping_pillows]]\n[[var total_pillows = total_original_shopping_pillows + gift_pillows]]\n[[question result = ['total_pillows']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-31-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var d = (1 + 4)]]\n[[question g = ['d']]]\ntheme: Pillow",
+      "statement": "Instead, think about what would have happened if Jenna had only 1 pillow to start with and bought 4 on her shopping trip. How many pillows would Jenna have had then?",
+      "new symbolic struct": "[[var start_pillows = 1]]\n[[var bought_pillows = 4]]\n[[var subsequent_total_pillows = start_pillows + bought_pillows]]\n[[question result = ['subsequent_total_pillows']]]",
+      "answer": "5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-32-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var k = (13 + 5)]]\n[[question e = ['k']]]\ntheme: Dragon",
+      "statement": "A dragon named Draco collects gold coins. One day, he finds 13 coins in a cave and later discovers 5 more coins in the forest. How many gold coins does Draco gather in total?",
+      "new symbolic struct": "[[var cave_coins = 13]]\n[[var forest_coins = 5]]\n[[var total_coins = cave_coins + forest_coins]]\n[[question result = ['total_coins']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-32-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var k = (13 + 5)]]\n[[var b = 2]]\n[[question i = ['(b + k)']]]\ntheme: Dragon",
+      "statement": "After Draco gathered his gold coins, his friend Spot the dragon stumbled across 2 more gold coins during his own adventure. How many gold coins do the two dragons have in total?",
+      "new symbolic struct": "[[var cave_coins = 13]]\n[[var forest_coins = 5]]\n[[var draco_total_coins = cave_coins + forest_coins]]\n[[var spot_coins = 2]]\n[[var total_coins = draco_total_coins + spot_coins]]\n[[question result = ['total_coins']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-32-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var k = (3 + 5)]]\n[[question e = ['k']]]\ntheme: Dragon",
+      "statement": "Suppose that initially, Draco, instead of finding 13 gold coins in a cave, had only found 3 coins in the cave. With the additional 5 coins he discovered in the forest, how many gold coins does Draco gather in total now?",
+      "new symbolic struct": "[[var cave_coins = 3]]\n[[var forest_coins = 5]]\n[[var total_coins = cave_coins + forest_coins]]\n[[question result = ['total_coins']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-33-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var c = 1]]\n[[var y = 19]]\n[[var t = (c + y)]]\n[[question q = ['t']]]\ntheme: Puzzle",
+      "statement": "George finds 1 puzzle piece in his drawer. Later, his brother gives him 19 more puzzle pieces. How many puzzle pieces does George have altogether?",
+      "new symbolic struct": "[[var george_pieces = 1]]\n[[var brother_pieces = 19]]\n[[var total_pieces = george_pieces + brother_pieces]]\n[[question result = ['total_pieces']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-33-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var c = 1]]\n[[var y = 19]]\n[[var t = (c + y)]]\n[[question q = ['t']]]\ntheme: Puzzle",
+      "statement": "After some more searching, George finds that he had actually only found 1 puzzle piece in his drawer initially, not the 7 he thought before. He still receives 19 more puzzle pieces from his brother. With this correction in mind, how many puzzle pieces does George now have altogether?",
+      "new symbolic struct": "[[var george_correct_pieces = 1]]\n[[var brother_pieces = 19]]\n[[var total_correct_pieces = george_correct_pieces + brother_pieces]]\n[[question result = ['total_correct_pieces']]]",
+      "answer": "20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-34-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var g = (5 + 1)]]\n[[question f = ['g']]]\ntheme: Eraser",
+      "statement": "Stella has 5 erasers. She then buys 1 more. How many erasers does Stella have now?",
+      "new symbolic struct": "[[var initial_erasers = 5]]\n[[var bought_erasers = 1]]\n[[var total_erasers = initial_erasers + bought_erasers]]\n[[question result = ['total_erasers']]]",
+      "answer": "6",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-34-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var g = (5 + 1)]]\n[[var c = (g + 12)]]\n[[question m = ['c']]]\ntheme: Eraser",
+      "statement": "In addition to her previous collection, Stella's best friend gifts her with 12 more erasers. How many erasers does Stella have in total now?",
+      "new symbolic struct": "[[var initial_erasers = 5]]\n[[var bought_erasers = 1]]\n[[var total_erasers_before_gift = initial_erasers + bought_erasers]]\n[[var gift_erasers = 12]]\n[[var total_erasers = total_erasers_before_gift + gift_erasers]]\n[[question result = ['total_erasers']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-35-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var i = (4 + 9)]]\n[[question k = ['i']]]\ntheme: Door",
+      "statement": "Kim had 4 doors in her house. She built an additional 9 doors. How many doors does Kim have now?",
+      "new symbolic struct": "[[var original_doors = 4]]\n[[var additional_doors = 9]]\n[[var total_doors = original_doors + additional_doors]]\n[[question result = ['total_doors']]]",
+      "answer": "13",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-35-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var i = (4 + 9)]]\n[[var b = (i + 6)]]\n[[question m = ['b']]]\ntheme: Door",
+      "statement": "After building the additional 9 doors, Kim later decides to build 6 more doors. How many doors does Kim have now in total?",
+      "new symbolic struct": "[[var original_doors = 4]]\n[[var additional_doors = 9]]\n[[var more_doors = 6]]\n[[var total_doors = original_doors + additional_doors + more_doors]]\n[[question result = ['total_doors']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-36-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var i = 2]]\n[[var l = (i + i)]]\n[[question e = ['l']]]\ntheme: Compass",
+      "statement": "If Ivan walked 2 miles to the north, and then walked the same distance to the east, how many miles in total did Ivan walk?",
+      "new symbolic struct": "[[var north_walk = 2]]\n[[var east_walk = 2]]\n[[var total_walk = north_walk + east_walk]]\n[[question result = ['total_walk']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-36-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var i = 2]]\n[[var l = (i + i)]]\n[[var m = (l + 8)]]\n[[question n = ['m']]]\ntheme: Compass",
+      "statement": "After walking 2 miles to the north and the same distance to the east, Ivan takes a detour and walks 8 more miles to his friend's house. How many miles in total did Ivan walk now?",
+      "new symbolic struct": "[[var north_walk = 2]]\n[[var east_walk = 2]]\n[[var detour_walk = 8]]\n[[var total_walk = north_walk + east_walk + detour_walk]]\n[[question result = ['total_walk']]]",
+      "answer": "12",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-36-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var i = 4]]\n[[var l = (i + i)]]\n[[question e = ['l']]]\ntheme: Compass",
+      "statement": "If instead of walking 2 miles to the north, Ivan initially walked 4 miles to the north, and then walked the same distance to the east, how many miles in total did Ivan walk?",
+      "new symbolic struct": "[[var north_walk = 4]]\n[[var east_walk = north_walk]]\n[[var total_walk = north_walk + east_walk]]\n[[question result = ['total_walk']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-37-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var q = 9]]\n[[var f = (q + q)]]\n[[var j = (2 + f)]]\n[[question e = ['j']]]\ntheme: Toothpaste",
+      "statement": "Quincy starts with 9 toothpaste tubes in her bathroom. She then buys as many toothpaste tubes as she currently has. After that, she finds 2 more toothpaste tubes that she forgot she had in the drawer. How many toothpaste tubes does Quincy have in total now?",
+      "new symbolic struct": "[[var OG_num_tubes = 9]]\n[[var bought_tubes = OG_num_tubes]]\n[[var total_tubes = OG_num_tubes + bought_tubes + 2]]\n[[question result = ['total_tubes']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-37-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var q = 1]]\n[[var f = (q + q)]]\n[[var j = (2 + f)]]\n[[question e = ['j']]]\ntheme: Toothpaste",
+      "statement": "Suppose Quincy originally started with just 1 toothpaste tube in her bathroom instead of 9. She then buys as many toothpaste tubes as she currently has. After that, she discovers another 2 toothpaste tubes she forgot she had in the drawer. How many toothpaste tubes does Quincy have in total now?",
+      "new symbolic struct": "[[var OG_num_tubes_2 = 1]]\n[[var bought_tubes_2 = OG_num_tubes_2]]\n[[var total_tubes_2 = OG_num_tubes_2 + bought_tubes_2 + 2]]\n[[question result = ['total_tubes_2']]]",
+      "answer": "4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-39-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = 2]]\n[[var p = (u + u)]]\n[[question y = ['p']]]\ntheme: Dress",
+      "statement": "Millie has 2 dresses. Her mom gave her the same amount as she originally had for her birthday. How many dresses does Millie have in total now?",
+      "new symbolic struct": "[[var OG_num_dresses = 2]]\n[[var birthday_dresses = OG_num_dresses]]\n[[var total_dresses = OG_num_dresses + birthday_dresses]]\n[[question result = ['total_dresses']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-39-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = 2]]\n[[var p = (u + u)]]\n[[var h = (p + 11)]]\n[[question c = ['h']]]\ntheme: Dress",
+      "statement": "Following her birthday, Millie's aunt presents her with 11 more dresses. How many dresses does Millie have now in total?",
+      "new symbolic struct": "[[var OG_num_dresses = 2]]\n[[var birthday_dresses = OG_num_dresses]]\n[[var after_birthday_dresses = OG_num_dresses + birthday_dresses]]\n[[var aunt_dresses = 11]]\n[[var total_dresses = after_birthday_dresses + aunt_dresses]]\n[[question result = ['total_dresses']]]",
+      "answer": "15",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-40-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var g = (2 + 9)]]\n[[question l = ['g']]]\ntheme: Fireplace",
+      "statement": "There are 2 logs already burning in the fireplace. George adds 9 more logs to keep the fire going. How many logs are now there in total in the fireplace?",
+      "new symbolic struct": "[[var burning_logs = 2]]\n[[var added_logs = 9]]\n[[var total_logs = burning_logs + added_logs]]\n[[question result = ['total_logs']]]",
+      "answer": "11",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-40-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var g = (2 + 9)]]\n[[var k = 7]]\n[[question v = ['(g + k)']]]\ntheme: Fireplace",
+      "statement": "After George adds more logs to the fireplace, his friend Kim comes over and adds 7 more logs to the fire. Now, how many logs are there in total in the fireplace?",
+      "new symbolic struct": "[[var burning_logs = 2]]\n[[var added_logs = 9]]\n[[var total_logs = burning_logs + added_logs]]\n[[var friends_logs = 7]]\n[[var total_logs_updated = total_logs + friends_logs]]\n[[question result = ['total_logs_updated']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-40-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var g = (10 + 9)]]\n[[question l = ['g']]]\ntheme: Fireplace",
+      "statement": "Suppose instead of adding 2 logs to the fireplace at the start, George had added 10 logs. Then he added 9 more logs. How many logs would have been there in total in the fireplace in this scenario?",
+      "new symbolic struct": "[[var initial_logs = 10]]\n[[var added_logs = 9]]\n[[var total_logs = initial_logs + added_logs]]\n[[question result = ['total_logs']]]",
+      "answer": "19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-41-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var c = 8]]\n[[var w = (c + 4)]]\n[[question m = ['w']]]\ntheme: Robot",
+      "statement": "A robot has 8 gears for moving. The manufacturer adds 4 more gears to improve its functionality. How many gears does the robot have now?",
+      "new symbolic struct": "[[var initial_gears = 8]]\n[[var added_gears = 4]]\n[[var total_gears = initial_gears + added_gears]]\n[[question result = ['total_gears']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-41-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var c = 8]]\n[[var w = (c + 4)]]\n[[var l = (w + 3)]]\n[[question n = ['l']]]\ntheme: Robot",
+      "statement": "Following on from the previous question, the manufacturer decides to add 3 more gears to the robot for additional stability. Now, how many gears does the robot have in total?",
+      "new symbolic struct": "[[var initial_gears = 8]]\n[[var added_gears_1 = 4]]\n[[var total_gears_1 = initial_gears + added_gears_1]]\n[[var added_gears_2 = 3]]\n[[var total_gears_2 = total_gears_1 + added_gears_2]]\n[[question result = ['total_gears_2']]]",
+      "answer": "15",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-41-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var c = 10]]\n[[var w = (c + 4)]]\n[[question m = ['w']]]\ntheme: Robot",
+      "statement": "Following on from the previous scenario, consider if the robot initially had 10 gears instead of 8. The manufacturer still adds 4 more gears to improve its functionality. How many gears does the robot have now?",
+      "new symbolic struct": "[[var initial_gears_revised = 10]]\n[[var added_gears = 4]]\n[[var total_gears_revised = initial_gears_revised + added_gears]]\n[[question result = ['total_gears_revised']]]",
+      "answer": "14",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-42-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var j = 7]]\n[[var a = (j + 4)]]\n[[var i = (1 + a)]]\n[[question q = ['i']]]\ntheme: Monkey",
+      "statement": "Jerry the monkey collects 7 bananas. His friend, Alan, helps him collect 4 more bananas. Iso the Iguana adds 1 more banana to their collection. How many bananas have they collected in total?",
+      "new symbolic struct": "[[var jerry_bananas = 7]]\n[[var alan_bananas = 4]]\n[[var iso_banana = 1]]\n[[var total_bananas = jerry_bananas + alan_bananas + iso_banana]]\n[[question result = ['total_bananas']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-42-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var j = 7]]\n[[var a = (j + 4)]]\n[[var i = (1 + a)]]\n[[var r = (i + j)]]\n[[question t = ['r']]]\ntheme: Monkey",
+      "statement": "After all the initial collecting, Jerry the monkey went back and found 7 more bananas. Now, how many bananas have they collected in total?",
+      "new symbolic struct": "[[var jerry_bananas = 7]]\n[[var alan_bananas = 4]]\n[[var iso_banana = 1]]\n[[var total_initial_bananas = jerry_bananas + alan_bananas + iso_banana]]\n[[var jerry_additional_bananas = 7]]\n[[var total_bananas = total_initial_bananas + jerry_additional_bananas]]\n[[question result = ['total_bananas']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-43-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = 10]]\n[[var q = 6]]\n[[var c = (q + h)]]\n[[question v = ['c']]]\ntheme: Bus",
+      "statement": "10 friends boarded a bus for a field trip. At the next stop, 6 more friends got on. How many friends are on the bus in total now?",
+      "new symbolic struct": "[[var initial_friends = 10]]\n[[var new_friends = 6]]\n[[var total_friends = initial_friends + new_friends]]\n[[question result = ['total_friends']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-43-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = 10]]\n[[var q = 6]]\n[[var c = (q + h)]]\n[[var r = (c + 3)]]\n[[question u = ['r']]]\ntheme: Bus",
+      "statement": "Following the field trip, 3 teachers decided to join the students on the bus. How many people are on the bus in total now?",
+      "new symbolic struct": "[[var initial_friends = 10]]\n[[var new_friends = 6]]\n[[var total_friends = initial_friends + new_friends]]\n[[var teachers = 3]]\n[[var total_people = total_friends + teachers]]\n[[question result = ['total_people']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-43-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = 11]]\n[[var q = 6]]\n[[var c = (q + h)]]\n[[question v = ['c']]]\ntheme: Bus",
+      "statement": "Suppose originally there were 11 friends who boarded the bus for a field trip, instead of 10, and 6 more friends got on at the next stop, like before. How many friends are on the bus in total now?",
+      "new symbolic struct": "[[var initial_friends = 11]]\n[[var new_friends = 6]]\n[[var total_friends = initial_friends + new_friends]]\n[[question result = ['total_friends']]]",
+      "answer": "17",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-44-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = 5]]\n[[var r = (s + s)]]\n[[question i = ['r']]]\ntheme: Tent",
+      "statement": "Samantha has 5 tent poles. She needs an equal number of tent poles for her friend's tent as well. How many tent poles does Samantha need in total?",
+      "new symbolic struct": "[[var samantha_tent_poles = 5]]\n[[var friend_tent_poles = 5]]\n[[var total_tent_poles = samantha_tent_poles + friend_tent_poles]]\n[[question result = ['total_tent_poles']]]",
+      "answer": "10",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-44-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = 5]]\n[[var r = (s + s)]]\n[[var w = (r + s)]]\n[[question l = ['w']]]\ntheme: Tent",
+      "statement": "Samantha has 5 tent poles. She needs an equal number of tent poles for her friend's tent as well. After setting up both tents, Samantha realizes she needs another set of 5 poles for a small storage tent. How many tent poles does Samantha need in total?",
+      "new symbolic struct": "[[var samantha_tent_poles = 5]]\n[[var friend_tent_poles = 5]]\n[[var storage_tent_poles = 5]]\n[[var total_tent_poles = samantha_tent_poles + friend_tent_poles + storage_tent_poles]]\n[[question result = ['total_tent_poles']]]",
+      "answer": "15",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-45-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = 16]]\n[[var f = (3 + u)]]\n[[question w = ['f']]]\ntheme: Wallet",
+      "statement": "Robert has 16 dollars in his wallet. He earns 3 more dollars for helping his neighbor with groceries. How much money does he have now in his wallet?",
+      "new symbolic struct": "[[var initial_money = 16]]\n[[var earned_money = 3]]\n[[var total_money = initial_money + earned_money]]\n[[question result = ['total_money']]]",
+      "answer": "19",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-45-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = 16]]\n[[var f = (1 + u)]]\n[[question w = ['f']]]\ntheme: Wallet",
+      "statement": "Now ponder this: instead of finding 3 more dollars, let's say Robert only found 1 dollar. With this in mind, how much money would Robert now have in his wallet?",
+      "new symbolic struct": "[[var initial_money = 16]]\n[[var new_earned_money = 1]]\n[[var new_total_money = initial_money + new_earned_money]]\n[[question result = ['new_total_money']]]",
+      "answer": "17",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-46-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var j = (3 + 15)]]\n[[question y = ['j']]]\ntheme: Backpack",
+      "statement": "John has 3 pencils in his pencil case. He adds 15 more pencils. How many pencils does John have in his pencil case now?",
+      "new symbolic struct": "[[var initial_pencils = 3]]\n[[var added_pencils = 15]]\n[[var total_pencils = initial_pencils + added_pencils]]\n[[question result = ['total_pencils']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-46-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var j = (4 + 15)]]\n[[question y = ['j']]]\ntheme: Backpack",
+      "statement": "John realizes that he actually had 4 pencils in his pencil case to start with, not 3. He adds the same 15 more pencils. How many pencils does John have in his pencil case now?",
+      "new symbolic struct": "[[var corrected_initial_pencils = 4]]\n[[var added_pencils = 15]]\n[[var total_pencils = corrected_initial_pencils + added_pencils]]\n[[question result = ['total_pencils']]]",
+      "answer": "19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-47-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var l = (11 + 9)]]\n[[question z = ['l']]]\ntheme: Snowball",
+      "statement": "For a snowball fight, Sally starts off with 11 snowballs and her friend John adds 9 more to her arsenal. How many snowballs does Sally have in total?",
+      "new symbolic struct": "[[var sally_snowballs = 11]]\n[[var john_snowballs = 9]]\n[[var total_snowballs = sally_snowballs + john_snowballs]]\n[[question result = ['total_snowballs']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-47-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var l = (11 + 1)]]\n[[question z = ['l']]]\ntheme: Snowball",
+      "statement": "For the snowball fight, let's say Sally initially started with 11 snowballs. But what if Sally had only started with 1 snowball, and John added 11 to her collection as before? How many snowballs would Sally have in total then?",
+      "new symbolic struct": "[[var sally_snowballs_initial = 1]]\n[[var john_snowballs = 11]]\n[[var total_snowballs = sally_snowballs_initial + john_snowballs]]\n[[question result = ['total_snowballs']]]",
+      "answer": "12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-48-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var m = 1]]\n[[var s = (m + 11)]]\n[[question c = ['s']]]\ntheme: House",
+      "statement": "Max has one house. He inherits 11 more houses from his grandfather. How many houses does Max have now?",
+      "new symbolic struct": "[[var max_initial_houses = 1]]\n[[var inherited_houses = 11]]\n[[var total_houses = max_initial_houses + inherited_houses]]\n[[question result = ['total_houses']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-48-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var m = 1]]\n[[var s = (m + 11)]]\n[[var g = 5]]\n[[question q = ['(s + g)']]]\ntheme: House",
+      "statement": "Max has one house. He inherits 11 more houses from his grandfather. Later on, Max decides to purchase 5 more houses. How many houses does Max have in total now?",
+      "new symbolic struct": "[[var max_initial_houses = 1]]\n[[var inherited_houses = 11]]\n[[var purchased_houses = 5]]\n[[var total_houses = max_initial_houses + inherited_houses + purchased_houses]]\n[[question result = ['total_houses']]]",
+      "answer": "17",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-48-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var m = 1]]\n[[var s = (m + 13)]]\n[[question c = ['s']]]\ntheme: House",
+      "statement": "In the previous question, we mentioned that Max initially had one house and then inherited 11 more. But what if instead, he initially had one house and later inherited 13 more houses? How many houses would Max have then?",
+      "new symbolic struct": "[[var max_initial_houses = 1]]\n[[var new_inherited_houses = 13]]\n[[var new_total_houses = max_initial_houses + new_inherited_houses]]\n[[question result = ['new_total_houses']]]",
+      "answer": "14",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-49-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (15 + 4)]]\n[[question h = ['t']]]\ntheme: Ice skates",
+      "statement": "Marie had 15 ice skates in her collection. She then added 4 more ice skates to her collection. How many ice skates does she have now?",
+      "new symbolic struct": "[[var original_skates = 15]]\n[[var added_skates = 4]]\n[[var total_skates = original_skates + added_skates]]\n[[question result = ['total_skates']]]",
+      "answer": "19",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-49-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (16 + 4)]]\n[[question h = ['t']]]\ntheme: Ice skates",
+      "statement": "If instead of the initial 15 ice skates in her collection, Marie had originally owned 16 ice skates before adding the 4 more, how many ice skates would she then have in her collection?",
+      "new symbolic struct": "[[var original_skates_updated = 16]]\n[[var added_skates = 4]]\n[[var total_skates_updated = original_skates_updated + added_skates]]\n[[question result = ['total_skates_updated']]]",
+      "answer": "20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-51-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = (10 + 4)]]\n[[question a = ['h']]]\ntheme: Card",
+      "statement": "Tommy had 10 cards from his favorite soccer players and he just bought 4 more. How many soccer cards does Tommy have now?",
+      "new symbolic struct": "[[var original_cards = 10]]\n[[var bought_cards = 4]]\n[[var total_cards = original_cards + bought_cards]]\n[[question result = ['total_cards']]]",
+      "answer": "14",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-51-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = (10 + 4)]]\n[[var g = (h + 4)]]\n[[question e = ['g']]]\ntheme: Card",
+      "statement": "Following up from the previous problem where Tommy had 10 soccer cards and bought 4 more, his friend Lucy gives him 4 more soccer cards for his birthday. How many soccer cards does Tommy have now?",
+      "new symbolic struct": "[[var original_cards = 10]]\n[[var bought_cards = 4]]\n[[var initial_total = original_cards + bought_cards]]\n[[var birthday_cards = 4]]\n[[var final_total = initial_total + birthday_cards]]\n[[question result = ['final_total']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-51-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = (1 + 4)]]\n[[question a = ['h']]]\ntheme: Card",
+      "statement": "Following up from the original problem where Tommy originally had 10 soccer cards and then bought 4 more, what if Tommy originally only had 1 soccer card and then bought 4 more? How many soccer cards would he have then?",
+      "new symbolic struct": "[[var original_cards = 1]]\n[[var bought_cards = 4]]\n[[var total_cards = original_cards + bought_cards]]\n[[question result = ['total_cards']]]",
+      "answer": "5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-53-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var q = 1]]\n[[var w = (2 + q)]]\n[[var j = (q + w)]]\n[[question a = ['j']]]\ntheme: Farmer",
+      "statement": "A farmer has 1 apple tree in his orchard. He plants 2 more, along with the trees equivalent to the first number in the orchard. How many apple trees are there in his orchard now?",
+      "new symbolic struct": "[[var initial_tree = 1]]\n[[var added_trees = 2 + initial_tree]]\n[[var total_trees = initial_tree + added_trees]]\n[[question result = ['total_trees']]]",
+      "answer": "4",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-53-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var q = 1]]\n[[var w = (3 + q)]]\n[[var j = (q + w)]]\n[[question a = ['j']]]\ntheme: Farmer",
+      "statement": "After the previous situation, the farmer realizes he made a mistake counting. Actually, he initially had 1 apple tree and he added 3 more, not 2. With the same equation as before, where the number of trees planted is added to the initial number of trees, and the resulting number is then added to the initial number of trees. How many apple trees does the farmer have in his orchard now?",
+      "new symbolic struct": "[[var actual_initial_tree = 1]]\n[[var corrected_added_trees = 3 + actual_initial_tree]]\n[[var corrected_total_trees = actual_initial_tree + corrected_added_trees]]\n[[question result = ['corrected_total_trees']]]",
+      "answer": "5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-55-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = 7]]\n[[var g = (9 + s)]]\n[[question n = ['g']]]\ntheme: Treasure",
+      "statement": "Shail discovers 7 gems during a digging expedition. In a hidden grotto, he finds 9 more gems along with the ones he originally had. How many gems did Shail have in total after the discovery?",
+      "new symbolic struct": "[[var OG_num_gems = 7]]\n[[var grotto_gems = 9]]\n[[var total_gems = OG_num_gems + grotto_gems]]\n[[question result = ['total_gems']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-55-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = 7]]\n[[var g = (9 + s)]]\n[[var z = (4 + g)]]\n[[question h = ['z']]]\ntheme: Treasure",
+      "statement": "After collecting all the gems from the grotto, Shail stumbles upon a sunken ship, where he unearths another chest containing 4 additional gems along with the gems he already had. How many gems does Shail have in total now?",
+      "new symbolic struct": "[[var OG_num_gems = 7]]\n[[var grotto_gems = 9]]\n[[var intermediate_total_gems = OG_num_gems + grotto_gems]]\n[[var sunken_ship_gems = 4]]\n[[var total_gems = intermediate_total_gems + sunken_ship_gems]]\n[[question result = ['total_gems']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-55-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var s = 9]]\n[[var g = (9 + s)]]\n[[question n = ['g']]]\ntheme: Treasure",
+      "statement": "Originally, Shail discovered 9 gems during a digging expedition, not 7 as previously stated. If he still finds 9 more gems in the hidden grotto along with the ones he originally had, how many gems does Shail have in total now?",
+      "new symbolic struct": "[[var corrected_OG_num_gems = 9]]\n[[var grotto_gems = 9]]\n[[var total_gems = corrected_OG_num_gems + grotto_gems]]\n[[question result = ['total_gems']]]",
+      "answer": "18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-56-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 7]]\n[[var y = (4 + f)]]\n[[question m = ['y']]]\ntheme: Number",
+      "statement": "Sam has 7 favorite numbers. He remembers an additional four numbers that he likes. How many numbers does Sam like in total?",
+      "new symbolic struct": "[[var favorite_numbers = 7]]\n[[var additional_numbers = 4]]\n[[var total_numbers = favorite_numbers + additional_numbers]]\n[[question result = ['total_numbers']]]",
+      "answer": "11",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-56-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 7]]\n[[var y = (4 + f)]]\n[[var b = (f + y)]]\n[[question d = ['b']]]\ntheme: Number",
+      "statement": "After considering the numbers he remembers, Sam considered how those numbers combined with his favorites, and finds 7 more numbers he likes. Adding this to his initial list, how many numbers does Sam like in total now?",
+      "new symbolic struct": "[[var original_numbers = 7 + 4]]\n[[var new_numbers = 7]]\n[[var total_numbers = original_numbers + new_numbers]]\n[[question result = ['total_numbers']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-56-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 1]]\n[[var y = (4 + f)]]\n[[question m = ['y']]]\ntheme: Number",
+      "statement": "Sam originally thought he had only 1 favorite number. But, after some thought, he remembered an additional four numbers that he likes. Considering this new count, how many numbers does Sam like in total now?",
+      "new symbolic struct": "[[var original_favorite_number = 1]]\n[[var remembered_numbers = 4]]\n[[var total_numbers_now = original_favorite_number + remembered_numbers]]\n[[question result = ['total_numbers_now']]]",
+      "answer": "5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-57-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = (1 + 6)]]\n[[question w = ['h']]]\ntheme: Apple",
+      "statement": "Lisa started the day with 1 apple. She then picked 6 more apples from her garden. How many apples does Lisa have now?",
+      "new symbolic struct": "[[var initial_apples = 1]]\n[[var picked_apples = 6]]\n[[var total_apples = initial_apples + picked_apples]]\n[[question result = ['total_apples']]]",
+      "answer": "7",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-57-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = (1 + 6)]]\n[[var y = (10 + h)]]\n[[question u = ['y']]]\ntheme: Apple",
+      "statement": "Lisa started the day with 1 apple. She then picked 6 more apples from her garden. Later in the day, Lisa's mother brought home 10 more apples. Now, how many apples does Lisa have in total?",
+      "new symbolic struct": "[[var initial_apples = 1]]\n[[var picked_apples = 6]]\n[[var mother_apples = 10]]\n[[var total_apples = initial_apples + picked_apples + mother_apples]]\n[[question result = ['total_apples']]]",
+      "answer": "17",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-57-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = (1 + 16)]]\n[[question w = ['h']]]\ntheme: Apple",
+      "statement": "In the previous scenario, Lisa started the day with 1 apple. Suppose instead she started the day with 1 apple and then picked 16 more apples from her garden instead of 6. Now, how many apples does Lisa have?",
+      "new symbolic struct": "[[var initial_apples = 1]]\n[[var picked_apples = 16]]\n[[var total_apples = initial_apples + picked_apples]]\n[[question result = ['total_apples']]]",
+      "answer": "17",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-58-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var p = 6]]\n[[var q = (p + 10)]]\n[[question f = ['q']]]\ntheme: Candle",
+      "statement": "Peter has 6 candles at home. His friend Mary gives him a few more candles as a gift, increasing his total number of candles by 10. How many candles does Peter have now?",
+      "new symbolic struct": "[[var peter_candles = 6]]\n[[var mary_candles = 10]]\n[[var total_candles = peter_candles + mary_candles]]\n[[question result = ['total_candles']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-58-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var p = 6]]\n[[var q = (p + 10)]]\n[[var z = (q + 3)]]\n[[question l = ['z']]]\ntheme: Candle",
+      "statement": "In addition to the candles he already has, Peter's mom gives him 3 more candles. How many candles does Peter have now?",
+      "new symbolic struct": "[[var peter_candles = 6]]\n[[var mary_candles = 10]]\n[[var mom_candles = 3]]\n[[var total_candles = peter_candles + mary_candles + mom_candles]]\n[[question result = ['total_candles']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-58-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var p = 6]]\n[[var q = (p + 5)]]\n[[question f = ['q']]]\ntheme: Candle",
+      "statement": "What if Peter originally had only 6 candles and Mary gave him only 5 more candles as a gift, how many candles would Peter have then?",
+      "new symbolic struct": "[[var peter_original_candles = 6]]\n[[var mary_new_candles = 5]]\n[[var new_total_candles = peter_original_candles + mary_new_candles]]\n[[question result = ['new_total_candles']]]",
+      "answer": "11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-59-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = (15 + 3)]]\n[[question f = ['u']]]\ntheme: Pirate ship",
+      "statement": "Captain Redbeard hid 15 pieces of his almighty treasure on an island and then found 3 more pieces en route. How many pieces of treasure does Captain Redbeard have now?",
+      "new symbolic struct": "[[var island_treasure = 15]]\n[[var enroute_treasure = 3]]\n[[var total_treasure = island_treasure + enroute_treasure]]\n[[question result = ['total_treasure']]]",
+      "answer": "18",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-60-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var y = (4 + 4)]]\n[[question q = ['y']]]\ntheme: Wizard",
+      "statement": "A wizard casts a spell twice during a magic duel. Each spell he casts summons 4 mystical eagles to aid him. How many mystical eagles has the wizard summoned in total?",
+      "new symbolic struct": "[[var spell = 4]]\n[[var total_spells = 2]]\n[[var total_eagles = spell * total_spells]]\n[[question result = ['total_eagles']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-60-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var y = (4 + 4)]]\n[[var i = (y + y)]]\n[[question n = ['i']]]\ntheme: Wizard",
+      "statement": "After the first round of the magic duel, the wizard managed to summon another round of eagles with two more spells that each summon 4 mystical eagles. How many mystical eagles has the wizard summoned in total now?",
+      "new symbolic struct": "[[var first_round_eagles = 8]]\n[[var second_round_spells = 2]]\n[[var second_round_eagles = second_round_spells * 4]]\n[[var total_eagles = first_round_eagles + second_round_eagles]]\n[[question result = ['total_eagles']]]",
+      "answer": "16",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-61-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var v = (8 + 5)]]\n[[question r = ['v']]]\ntheme: Backpack",
+      "statement": "Oliver has 8 books in his backpack. His friend lends him 5 more books. How many books does Oliver have now in his backpack?",
+      "new symbolic struct": "[[var OG_num_books = 8]]\n[[var borrowed_books = 5]]\n[[var total_books = OG_num_books + borrowed_books]]\n[[question result = ['total_books']]]",
+      "answer": "13",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-61-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var v = (8 + 5)]]\n[[var k = (v + 1)]]\n[[question i = ['k']]]\ntheme: Backpack",
+      "statement": "After borrowing 5 more books from his friend, Oliver finds an interesting book in the library and adds it to his backpack. Now, how many books does Oliver have in his backpack?",
+      "new symbolic struct": "[[var OG_num_books = 8]]\n[[var borrowed_books = 5]]\n[[var library_book = 1]]\n[[var total_books = OG_num_books + borrowed_books + library_book]]\n[[question result = ['total_books']]]",
+      "answer": "14",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-61-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var v = (14 + 5)]]\n[[question r = ['v']]]\ntheme: Backpack",
+      "statement": "Suppose instead of originally having 8 books in his backpack, Oliver had started with 14 books. After his friend lent him 5 more books, how many books does Oliver now have in his backpack?",
+      "new symbolic struct": "[[var OG_num_books = 14]]\n[[var borrowed_books = 5]]\n[[var total_books = OG_num_books + borrowed_books]]\n[[question result = ['total_books']]]",
+      "answer": "19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-62-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var m = 5]]\n[[var s = 15]]\n[[var f = (s + m)]]\n[[question c = ['f']]]\ntheme: Phone",
+      "statement": "Mariah messages her 5 best friends. She then sends messages too, to 15 of her colleagues at work. How many messages in total did Mariah send?",
+      "new symbolic struct": "[[var friends_messages = 5]]\n[[var colleagues_messages = 15]]\n[[var total_messages = friends_messages + colleagues_messages]]\n[[question result = ['total_messages']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-62-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var m = 4]]\n[[var s = 15]]\n[[var f = (s + m)]]\n[[question c = ['f']]]\ntheme: Phone",
+      "statement": "Mariah decides to message one less friend than she did before, leaving her sending messages to 4 friends. She still messages the same 15 colleagues at work as before. How many messages does Mariah send in total now?",
+      "new symbolic struct": "[[var new_friends_messages = 4]]\n[[var same_colleagues_messages = 15]]\n[[var total_messages = new_friends_messages + same_colleagues_messages]]\n[[question result = ['total_messages']]]",
+      "answer": "19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-64-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var o = (4 + 10)]]\n[[var i = (o + 4)]]\n[[question q = ['i']]]\ntheme: Flower",
+      "statement": "Olivia had 4 flowers in her garden. She and her friend Addison planted 10 more. Later, they added 4 more. How many flowers are there in Olivia's garden now?",
+      "new symbolic struct": "[[var olivia_flowers = 4]]\n[[var addison_flowers = 10]]\n[[var later_flowers = 4]]\n[[var total_flowers = olivia_flowers + addison_flowers + later_flowers]]\n[[question result = ['total_flowers']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-64-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var o = (4 + 10)]]\n[[var i = (o + 4)]]\n[[var e = (i + 1)]]\n[[question h = ['e']]]\ntheme: Flower",
+      "statement": "After Olivia and Addison counted their flowers, Emily came over and they all planted 1 more flower. How many flowers are there in Olivia's garden now?",
+      "new symbolic struct": "[[var previous_total_flowers = 4 + 10 + 4]]\n[[var emily_flowers = 1]]\n[[var new_total_flowers = previous_total_flowers + emily_flowers]]\n[[question result = ['new_total_flowers']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-64-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var o = (4 + 9)]]\n[[var i = (o + 4)]]\n[[question q = ['i']]]\ntheme: Flower",
+      "statement": "Let's reconsider the situation with different numbers. This time, Olivia initially had 4 flowers in her garden. She and Addison planted 9 more instead of 10. They still added 4 more later. With these changes, how many flowers are there in Olivia's garden now?",
+      "new symbolic struct": "[[var olivia_flowers_initial = 4]]\n[[var addison_flowers_new = 9]]\n[[var later_flowers_same = 4]]\n[[var total_flowers_new = olivia_flowers_initial + addison_flowers_new + later_flowers_same]]\n[[question result = ['total_flowers_new']]]",
+      "answer": "17",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-65-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (1 + 14)]]\n[[question g = ['t']]]\ntheme: Turtle",
+      "statement": "Tommy the turtle found one precious gemstone on his way to school. Later in the day, he finds a treasure chest containing 14 more gemstones. How many gemstones does Tommy have now?",
+      "new symbolic struct": "[[var gemstone_initial = 1]]\n[[var gemstone_later = 14]]\n[[var total_gemstones = gemstone_initial + gemstone_later]]\n[[question result = ['total_gemstones']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-65-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (1 + 14)]]\n[[var v = (5 + t)]]\n[[question c = ['v']]]\ntheme: Turtle",
+      "statement": "After showing his teacher his gemstones, his teacher gives him 5 more as a reward for his honesty. How many gemstones does Tommy have now?",
+      "new symbolic struct": "[[var gemstone_initial = 1]]\n[[var gemstone_later = 14]]\n[[var total_gemstones = gemstone_initial + gemstone_later]]\n[[var teacher_reward = 5]]\n[[var new_total_gemstones = total_gemstones + teacher_reward]]\n[[question result = ['new_total_gemstones']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-65-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (1 + 19)]]\n[[question g = ['t']]]\ntheme: Turtle",
+      "statement": "What if Tommy originally found only one gemstone and then found a treasure chest containing 19 gemstones, instead of 14? How many gemstones would Tommy have then?",
+      "new symbolic struct": "[[var gemstone_initial = 1]]\n[[var gemstone_later = 19]]\n[[var total_gemstones = gemstone_initial + gemstone_later]]\n[[question result = ['total_gemstones']]]",
+      "answer": "20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-66-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = 9]]\n[[var f = (6 + r)]]\n[[question z = ['f']]]\ntheme: Jungle gym",
+      "statement": "Bobby climbs 9 steps to reach the top of the jungle gym. He then slides down a slide that is 6 steps longer than his initial climb. How long is the slide?",
+      "new symbolic struct": "[[var climb_steps = 9]]\n[[var slide_steps = climb_steps + 6]]\n[[question result = ['slide_steps']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-66-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = 9]]\n[[var f = (6 + r)]]\n[[var t = (2 + f)]]\n[[question b = ['t']]]\ntheme: Jungle gym",
+      "statement": "After sliding down, Bobby decides to go back up again. This time, he chooses a ladder that is 2 steps longer than the slide he just took. How long is this ladder?",
+      "new symbolic struct": "[[var climb_steps = 9]]\n[[var slide_steps = climb_steps + 6]]\n[[var ladder_steps = slide_steps + 2]]\n[[question result = ['ladder_steps']]]",
+      "answer": "17",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-66-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = 14]]\n[[var f = (6 + r)]]\n[[question z = ['f']]]\ntheme: Jungle gym",
+      "statement": "Suppose Bobby decides to start again from the beginning, but this time, he climbs 14 steps to reach the top of the jungle gym instead of the original 9 steps. He again slides down a slide that is 6 steps longer than his new initial climb. How long is the slide this time?",
+      "new symbolic struct": "[[var climb_steps = 14]]\n[[var slide_steps = climb_steps + 6]]\n[[question result = ['slide_steps']]]",
+      "answer": "20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-68-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (3 + 13)]]\n[[question x = ['t']]]\ntheme: Soap",
+      "statement": "Lisa starts with 3 bars of soap in her bathroom. Later, she buys 13 more bars. How many bars of soap does Lisa have now?",
+      "new symbolic struct": "[[var initial_soap_bars = 3]]\n[[var bought_soap_bars = 13]]\n[[var total_soap_bars = initial_soap_bars + bought_soap_bars]]\n[[question result = ['total_soap_bars']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-68-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (3 + 13)]]\n[[var f = (t + 4)]]\n[[question b = ['f']]]\ntheme: Soap",
+      "statement": "After having 16 bars of soap, Lisa buys 4 more bars at a sale. How many bars of soap does Lisa have now in total?",
+      "new symbolic struct": "[[var initial_soap_bars = 16]]\n[[var bought_soap_bars = 4]]\n[[var total_soap_bars = initial_soap_bars + bought_soap_bars]]\n[[question result = ['total_soap_bars']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-68-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = (3 + 9)]]\n[[question x = ['t']]]\ntheme: Soap",
+      "statement": "What if Lisa originally started with 3 bars of soap instead of 16, and she still bought 9 more bars. How many bars of soap does Lisa have now in this case?",
+      "new symbolic struct": "[[var initial_soap_bars_new = 3]]\n[[var bought_soap_bars_new = 9]]\n[[var total_soap_bars_new = initial_soap_bars_new + bought_soap_bars_new]]\n[[question result = ['total_soap_bars_new']]]",
+      "answer": "12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-69-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = (4 + 11)]]\n[[question n = ['h']]]\ntheme: Unicorn",
+      "statement": "Rainbow the unicorn has 4 magical crystal horns. She finds 11 more during her adventure in the mystical forest. How many magical crystal horns does Rainbow have now?",
+      "new symbolic struct": "[[var initial_crystal_horns = 4]]\n[[var found_crystal_horns = 11]]\n[[var total_crystal_horns = initial_crystal_horns + found_crystal_horns]]\n[[question result = ['total_crystal_horns']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-69-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = (4 + 6)]]\n[[question n = ['h']]]\ntheme: Unicorn",
+      "statement": "Suppose Rainbow the unicorn initially had only 4 magical crystal horns and she only found 6 more horns during her adventure in the mystical forest. How many magical crystal horns would Rainbow have then?",
+      "new symbolic struct": "[[var initial_crystal_horns = 4]]\n[[var found_crystal_horns = 6]]\n[[var total_crystal_horns = initial_crystal_horns + found_crystal_horns]]\n[[question result = ['total_crystal_horns']]]",
+      "answer": "10",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-70-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var x = 3]]\n[[var f = (11 + x)]]\n[[var d = 5]]\n[[question o = ['(f + d)']]]\ntheme: Money",
+      "statement": "Jamie has 3 dollars in his piggy bank. His older brother gives him 11 more dollars. After some time, he finds 5 more dollars. How much money does Jamie have in total?",
+      "new symbolic struct": "[[var initial_money = 3]]\n[[var gift_money = 11]]\n[[var found_money = 5]]\n[[var total_money = initial_money + gift_money + found_money]]\n[[question result = ['total_money']]]",
+      "answer": "19",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-70-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var x = 3]]\n[[var f = (9 + x)]]\n[[var d = 5]]\n[[question o = ['(f + d)']]]\ntheme: Money",
+      "statement": "Suppose Jamie originally had 3 dollars in his piggy bank and his older brother gave him 9 dollars instead of 11. After finding another 5 dollars, How much money would Jamie have had in this scenario?",
+      "new symbolic struct": "[[var initial_money = 3]]\n[[var gift_money = 9]]\n[[var found_money = 5]]\n[[var total_money = initial_money + gift_money + found_money]]\n[[question result = ['total_money']]]",
+      "answer": "17",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-71-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = (2 + 6)]]\n[[question e = ['r']]]\ntheme: Marshmallow",
+      "statement": "A marshmallow making company produces 2 packs of marshmallows each morning and 6 packs in the afternoon. How many packs of marshmallows do they make in a day?",
+      "new symbolic struct": "[[var morning_marshmallows = 2]]\n[[var afternoon_marshmallows = 6]]\n[[var total_marshmallows = morning_marshmallows + afternoon_marshmallows]]\n[[question result = ['total_marshmallows']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-71-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = (2 + 6)]]\n[[var i = (r + 8)]]\n[[question f = ['i']]]\ntheme: Marshmallow",
+      "statement": "In addition to their regular production, the marshmallow making company decides to produce 8 extra packs of marshmallows in the evening. How many packs of marshmallows would they produce daily after this increase in production?",
+      "new symbolic struct": "[[var morning_marshmallows = 2]]\n[[var afternoon_marshmallows = 6]]\n[[var evening_marshmallows = 8]]\n[[var total_marshmallows = morning_marshmallows + afternoon_marshmallows + evening_marshmallows]]\n[[question result = ['total_marshmallows']]]",
+      "answer": "16",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-71-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = (2 + 15)]]\n[[question e = ['r']]]\ntheme: Marshmallow",
+      "statement": "Suppose the marshmallow company decides to alter their production and now makes 15 packs of marshmallows in the afternoon instead of 6. How many packs of marshmallows do they now make in a day including their morning and afternoon production?",
+      "new symbolic struct": "[[var morning_marshmallows = 2]]\n[[var new_afternoon_marshmallows = 15]]\n[[var new_total_marshmallows = morning_marshmallows + new_afternoon_marshmallows]]\n[[question result = ['new_total_marshmallows']]]",
+      "answer": "17",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-72-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 1]]\n[[var k = (13 + f)]]\n[[var n = (k + 6)]]\n[[question l = ['n']]]\ntheme: Shape",
+      "statement": "Fiona has 1 square in her drawing. She draws an additional 13 squares. Later, her brother Kevin adds 6 more squares in the drawing. How many squares are in the drawing in total?",
+      "new symbolic struct": "[[var fiona_squares = 1 + 13]]\n[[var total_squares = fiona_squares + 6]]\n[[question result = ['total_squares']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-72-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 1]]\n[[var k = (4 + f)]]\n[[var n = (k + 6)]]\n[[question l = ['n']]]\ntheme: Shape",
+      "statement": "Let's consider the previous problem, but this time Fiona initially drew only 1 square. She then added 4 more squares. Later, her brother Kevin added 6 more squares to the drawing. How many squares are in the drawing now?",
+      "new symbolic struct": "[[var fiona_squares = 1 + 4]]\n[[var total_squares = fiona_squares + 6]]\n[[question result = ['total_squares']]]",
+      "answer": "11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-73-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = 3]]\n[[var j = 13]]\n[[var s = (j + e)]]\n[[question x = ['s']]]\ntheme: Monkey",
+      "statement": "Ella the monkey has 3 bananas and she finds 13 more bananas in the jungle. How many bananas does Ella have now?",
+      "new symbolic struct": "[[var initial_bananas = 3]]\n[[var found_bananas = 13]]\n[[var total_bananas = initial_bananas + found_bananas]]\n[[question result = ['total_bananas']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-73-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = 6]]\n[[var j = 13]]\n[[var s = (j + e)]]\n[[question x = ['s']]]\ntheme: Monkey",
+      "statement": "Suppose Ella the monkey originally had 6 bananas before she found 13 more in the jungle. How many bananas would Ella have in total in that case?",
+      "new symbolic struct": "[[var initial_bananas = 6]]\n[[var found_bananas = 13]]\n[[var total_bananas = initial_bananas + found_bananas]]\n[[question result = ['total_bananas']]]",
+      "answer": "19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-74-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = (8 + 7)]]\n[[question y = ['r']]]\ntheme: Ice skates",
+      "statement": "Marie has 8 ice skates in her collection already. She receives 7 more from a sports fair yesterday. How many ice skates does Marie have now?",
+      "new symbolic struct": "[[var initial_skates = 8]]\n[[var new_skates = 7]]\n[[var total_skates = initial_skates + new_skates]]\n[[question result = ['total_skates']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-74-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = (8 + 7)]]\n[[var p = (r + 3)]]\n[[question t = ['p']]]\ntheme: Ice skates",
+      "statement": "After Marie added the 7 skates from the sports fair to her collection, she received 3 more skates as a gift the next day. How many ice skates does Marie have in total after receiving the gift?",
+      "new symbolic struct": "[[var initial_skates = 8]]\n[[var new_skates_sports_fair = 7]]\n[[var new_skates_gift = 3]]\n[[var total_skates = initial_skates + new_skates_sports_fair + new_skates_gift]]\n[[question result = ['total_skates']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-76-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = 6]]\n[[var u = (14 + e)]]\n[[question w = ['u']]]\ntheme: Stuffed animal",
+      "statement": "Emily originally has 6 stuffed animals. She then receives 14 more after her birthday party. How many stuffed animals does Emily have now?",
+      "new symbolic struct": "[[var OG_num_animals = 6]]\n[[var birthday_animals = 14]]\n[[var total_animals = OG_num_animals + birthday_animals]]\n[[question result = ['total_animals']]]",
+      "answer": "20",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-77-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var a = (1 + 19)]]\n[[question i = ['a']]]\ntheme: Toothpaste",
+      "statement": "John has 1 tube of toothpaste at home. During a shopping trip, he buys more 19 tubes to stock up his supply. How many toothpaste tubes does John have now?",
+      "new symbolic struct": "[[var initial_tubes = 1]]\n[[var bought_tubes = 19]]\n[[var total_tubes = initial_tubes + bought_tubes]]\n[[question result = ['total_tubes']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-77-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var a = (1 + 18)]]\n[[question i = ['a']]]\ntheme: Toothpaste",
+      "statement": "Suppose John actually had 1 tube of toothpaste at home and during the shopping trip he bought 18 tubes instead of 19 to stock up his supply. Now, how many toothpaste tubes does John have?",
+      "new symbolic struct": "[[var initial_tubes = 1]]\n[[var bought_tubes = 18]]\n[[var total_tubes = initial_tubes + bought_tubes]]\n[[question result = ['total_tubes']]]",
+      "answer": "19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-78-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var j = 13]]\n[[var v = 3]]\n[[var x = (j + v)]]\n[[question m = ['x']]]\ntheme: Apple",
+      "statement": "John has 13 apples initially. He then visits the grocery store where he buys 3 more apples. How many apples does he have in total now?",
+      "new symbolic struct": "[[var initial_apples = 13]]\n[[var bought_apples = 3]]\n[[var total_apples = initial_apples + bought_apples]]\n[[question result = ['total_apples']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-78-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var j = 8]]\n[[var v = 3]]\n[[var x = (j + v)]]\n[[question m = ['x']]]\ntheme: Apple",
+      "statement": "John had originally bought 8 apples instead of 13. He still goes to the grocery store and buys 3 more apples. How many apples does he have now in total?",
+      "new symbolic struct": "[[var new_initial_apples = 8]]\n[[var bought_apples = 3]]\n[[var total_apples = new_initial_apples + bought_apples]]\n[[question result = ['total_apples']]]",
+      "answer": "11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-79-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = (1 + 14)]]\n[[question w = ['u']]]\ntheme: Ring",
+      "statement": "Isha initially had 1 ring. On her birthday, her friends gifted her 14 more rings. How many rings does she have now?",
+      "new symbolic struct": "[[var initial_rings = 1]]\n[[var birthday_rings = 14]]\n[[var total_rings = initial_rings + birthday_rings]]\n[[question result = ['total_rings']]]",
+      "answer": "15",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-79-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = (1 + 14)]]\n[[var h = (2 + u)]]\n[[question v = ['h']]]\ntheme: Ring",
+      "statement": "Following her birthday, Isha goes to a charity sale and decides to buy 2 more rings to add to her collection. How many rings does she now have in total?",
+      "new symbolic struct": "[[var initial_rings = 1]]\n[[var birthday_rings = 14]]\n[[var sale_rings = 2]]\n[[var total_rings = initial_rings + birthday_rings + sale_rings]]\n[[question result = ['total_rings']]]",
+      "answer": "17",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-81-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = 3]]\n[[var r = (t + 7)]]\n[[var k = (r + r)]]\n[[question h = ['k']]]\ntheme: Lemon",
+      "statement": "Tommy has 3 lemons. He goes to the market and buys 7 more. After that, he decides to buy the same amount of lemons he has now. How many lemons will Tommy have in total?",
+      "new symbolic struct": "[[var initial_lemons = 3]]\n[[var market_lemons = 7]]\n[[var current_lemons = initial_lemons + market_lemons]]\n[[var total_lemons = current_lemons * 2]]\n[[question result = ['total_lemons']]]",
+      "answer": "20",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-82-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = 1]]\n[[var p = 19]]\n[[question d = ['(h + p)']]]\ntheme: Campfire",
+      "statement": "At a campfire night, Harry finds 1 stick suitable for marshmallow roasting. Later, Patricia finds 19 more sticks. How many sticks in total do they have for marshmallow roasting?",
+      "new symbolic struct": "[[var harry_sticks = 1]]\n[[var patricia_sticks = 19]]\n[[var total_sticks = harry_sticks + patricia_sticks]]\n[[question result = ['total_sticks']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-82-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = 1]]\n[[var p = 19]]\n[[question d = ['(h + p)']]]\ntheme: Campfire",
+      "statement": "In the previous problem, Harry initially found 1 stick at the campfire night. But what if Harry had actually found 19 sticks and Patricia had only found 1 stick? How many sticks in total would they have for marshmallow roasting then?",
+      "new symbolic struct": "[[var harry_sticks_new = 19]]\n[[var patricia_sticks_new = 1]]\n[[var total_sticks_new = harry_sticks_new + patricia_sticks_new]]\n[[question result = ['total_sticks_new']]]",
+      "answer": "20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-83-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var g = 1]]\n[[var n = (g + 19)]]\n[[question i = ['n']]]\ntheme: Window",
+      "statement": "Gary likes to count the windows in his neighborhood. One day, he saw 1 window in a small house. The next day, he saw an additional 19 windows in a big house. How many windows did Gary count in total?",
+      "new symbolic struct": "[[var small_house_windows = 1]]\n[[var big_house_windows = 19]]\n[[var total_windows = small_house_windows + big_house_windows]]\n[[question result = ['total_windows']]]",
+      "answer": "20",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-84-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = (1 + 12)]]\n[[var x = (r + 7)]]\n[[question m = ['x']]]\ntheme: UFO",
+      "statement": "On Monday, Tom saw 1 UFO. On Tuesday, he saw 12 more. Then on Wednesday, he spotted another 7. How many UFOs has Tom seen in total?",
+      "new symbolic struct": "[[var monday_UFOs = 1]]\n[[var tuesday_UFOs = 12]]\n[[var wednesday_UFOs = 7]]\n[[var total_UFOs = monday_UFOs + tuesday_UFOs + wednesday_UFOs]]\n[[question result = ['total_UFOs']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-84-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = (1 + 5)]]\n[[var x = (r + 7)]]\n[[question m = ['x']]]\ntheme: UFO",
+      "statement": "Suppose instead that on Monday, Tom only spotted 1 UFO, and on Tuesday, he saw 5 more, instead of 12. If he still saw an additional 7 on Wednesday, how many UFOs has Tom seen now in total?",
+      "new symbolic struct": "[[var monday_UFOs = 1]]\n[[var tuesday_UFOs = 5]]\n[[var wednesday_UFOs = 7]]\n[[var total_UFOs = monday_UFOs + tuesday_UFOs + wednesday_UFOs]]\n[[question result = ['total_UFOs']]]",
+      "answer": "13",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-85-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = (4 + 14)]]\n[[question c = ['f']]]\ntheme: Car",
+      "statement": "Ben owns 4 cars. He then buys 14 more cars for his collection. How many cars does Ben have now?",
+      "new symbolic struct": "[[var initial_cars = 4]]\n[[var bought_cars = 14]]\n[[var total_cars = initial_cars + bought_cars]]\n[[question result = ['total_cars']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-85-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = (4 + 14)]]\n[[var e = (f + 1)]]\n[[question g = ['e']]]\ntheme: Car",
+      "statement": "After Ben expanded his collection with additional 14 cars, he receives another car as a gift from his friend. Now, how many cars does Ben have altogether in his collection?",
+      "new symbolic struct": "[[var initial_cars = 4]]\n[[var bought_cars = 14]]\n[[var gifted_car = 1]]\n[[var total_cars = initial_cars + bought_cars + gifted_car]]\n[[question result = ['total_cars']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-87-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = (14 + 4)]]\n[[question w = ['e']]]\ntheme: Jacket",
+      "statement": "John owns 14 jackets. His friend gives him an additional 4 jackets as a gift. How many jackets does John have now?",
+      "new symbolic struct": "[[var John_initial_jackets = 14]]\n[[var gift_jackets = 4]]\n[[var total_jackets = John_initial_jackets + gift_jackets]]\n[[question result = ['total_jackets']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-87-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = (14 + 4)]]\n[[var i = 1]]\n[[question a = ['(e + i)']]]\ntheme: Jacket",
+      "statement": "After receiving the additional jackets, John also found an old jacket in his closet adding 1 more to his collection. How many jackets does John have in total now?",
+      "new symbolic struct": "[[var John_initial_jackets = 14]]\n[[var gift_jackets = 4]]\n[[var old_jacket = 1]]\n[[var total_jackets = John_initial_jackets + gift_jackets + old_jacket]]\n[[question result = ['total_jackets']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-87-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = (12 + 4)]]\n[[question w = ['e']]]\ntheme: Jacket",
+      "statement": "Suppose instead, John originally had 12 jackets before his friend gave him the additional 4. How many jackets does John have under this new assumption?",
+      "new symbolic struct": "[[var John_new_initial_jackets = 12]]\n[[var gift_jackets = 4]]\n[[var new_total_jackets = John_new_initial_jackets + gift_jackets]]\n[[question result = ['new_total_jackets']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-89-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 9]]\n[[var h = 5]]\n[[var l = (f + h)]]\n[[question s = ['l']]]\ntheme: Bike",
+      "statement": "Frank has 9 bicycles in his garage. His friend Henry later brings over 5 more bicycles. How many bicycles are in Frank's garage now?",
+      "new symbolic struct": "[[var frank_bicycles = 9]]\n[[var henry_bicycles = 5]]\n[[var total_bicycles = frank_bicycles + henry_bicycles]]\n[[question result = ['total_bicycles']]]",
+      "answer": "14",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-89-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 9]]\n[[var h = 5]]\n[[var l = (f + h)]]\n[[var m = (5 + l)]]\n[[question a = ['m']]]\ntheme: Bike",
+      "statement": "Frank has 9 bicycles in his garage. His friend Henry later brings over 5 more bicycles, making the total count in Frank's garage even bigger. Then, a local charity donates 5 more bicycles. How many bicycles are there in Frank's garage now?",
+      "new symbolic struct": "[[var frank_bicycles = 9]]\n[[var henry_bicycles = 5]]\n[[var charity_bicycles = 5]]\n[[var total_bicycles = frank_bicycles + henry_bicycles + charity_bicycles]]\n[[question result = ['total_bicycles']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-89-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 3]]\n[[var h = 5]]\n[[var l = (f + h)]]\n[[question s = ['l']]]\ntheme: Bike",
+      "statement": "In the same scenario, suppose Frank originally had only 3 bicycles in his garage instead of 9. His friend Henry still brings over 5 bicycles later. How many bicycles are in Frank's garage now?",
+      "new symbolic struct": "[[var frank_bicycles = 3]]\n[[var henry_bicycles = 5]]\n[[var total_bicycles = frank_bicycles + henry_bicycles]]\n[[question result = ['total_bicycles']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-90-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var l = (7 + 2)]]\n[[question w = ['l']]]\ntheme: Snowman",
+      "statement": "Thomas was building a snowman. He used 7 large snowballs for the body and then added 2 smaller ones for the head. How many snowballs did Thomas use in total to build his snowman?",
+      "new symbolic struct": "[[var body_snowballs = 7]]\n[[var head_snowballs = 2]]\n[[var total_snowballs = body_snowballs + head_snowballs]]\n[[question result = ['total_snowballs']]]",
+      "answer": "9",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-90-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var l = (7 + 2)]]\n[[var r = (l + 8)]]\n[[question a = ['r']]]\ntheme: Snowman",
+      "statement": "After Thomas built his snowman with 7 large snowballs and 2 smaller ones, his sister Lucy joined in and added 8 extra decorative snowballs for buttons and facial features. How many snowballs were used in total?",
+      "new symbolic struct": "[[var body_snowballs = 7]]\n[[var head_snowballs = 2]]\n[[var decor_snowballs = 8]]\n[[var total_snowballs = body_snowballs + head_snowballs + decor_snowballs]]\n[[question result = ['total_snowballs']]]",
+      "answer": "17",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-90-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var l = (8 + 2)]]\n[[question w = ['l']]]\ntheme: Snowman",
+      "statement": "Thomas's sister, Lucy, thought about using 8 large snowballs and 2 smaller ones instead for the body of the snowman she was planning to build. How many snowballs would Lucy need in total to build her version of the snowman?",
+      "new symbolic struct": "[[var lucy_body_snowballs = 8]]\n[[var lucy_head_snowballs = 2]]\n[[var lucy_total_snowballs = lucy_body_snowballs + lucy_head_snowballs]]\n[[question result = ['lucy_total_snowballs']]]",
+      "answer": "10",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-91-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = 2]]\n[[var h = (5 + r)]]\n[[var u = (11 + h)]]\n[[question o = ['u']]]\ntheme: Firefighter",
+      "statement": "A firefighter needs to climb a ladder to reach a window. The distance from the ground to the window is 5 feet plus his own height, which is 2 feet. There are additional 11 feet between the window and the people he needs to rescue. How far in total, does the firefighter need to climb?",
+      "new symbolic struct": "[[var firefighter_height = 2]]\n[[var ground_to_window = 5 + firefighter_height]]\n[[var window_to_people = 11]]\n[[var total_distance = ground_to_window + window_to_people]]\n[[question result = ['total_distance']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-91-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = 2]]\n[[var h = (5 + r)]]\n[[var u = (11 + h)]]\n[[var f = (u + r)]]\n[[question n = ['f']]]\ntheme: Firefighter",
+      "statement": "After rescuing the people, the firefighter needs to go an additional distance equal to his own height to get them onto a safe platform. How far in total has the firefighter traveled?",
+      "new symbolic struct": "[[var firefighter_height = 2]]\n[[var ground_to_window = 5 + firefighter_height]]\n[[var window_to_people = 11]]\n[[var total_distance_past = ground_to_window + window_to_people]]\n[[var total_distance_now = total_distance_past + firefighter_height]]\n[[question result = ['total_distance_now']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-91-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = 2]]\n[[var h = (5 + r)]]\n[[var u = (13 + h)]]\n[[question o = ['u']]]\ntheme: Firefighter",
+      "statement": "After reviewing the rescue mission, the firefighter recalls that the distance between the window and the people he needed to rescue was actually 13 feet, not 11 feet. How far in total did the firefighter need to climb considering this new information?",
+      "new symbolic struct": "[[var firefighter_height = 2]]\n[[var ground_to_window = 5 + firefighter_height]]\n[[var revised_window_to_people = 13]]\n[[var revised_total_distance = ground_to_window + revised_window_to_people]]\n[[question result = ['revised_total_distance']]]",
+      "answer": "20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-92-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var i = 4]]\n[[var s = 15]]\n[[var f = (i + s)]]\n[[question u = ['f']]]\ntheme: Mouse",
+      "statement": "Irina the mouse collected 4 pieces of cheese yesterday. Today, she found 15 more pieces of cheese. How many pieces of cheese has Irina collected in total?",
+      "new symbolic struct": "[[var cheese_yesterday = 4]]\n[[var cheese_today = 15]]\n[[var total_cheese = cheese_yesterday + cheese_today]]\n[[question result = ['total_cheese']]]",
+      "answer": "19",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-92-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var i = 3]]\n[[var s = 15]]\n[[var f = (i + s)]]\n[[question u = ['f']]]\ntheme: Mouse",
+      "statement": "Suppose instead, Irina the mouse had collected only 3 pieces of cheese yesterday, but still found 15 pieces today. How many pieces of cheese would Irina have collected in total?",
+      "new symbolic struct": "[[var cheese_yesterday_new = 3]]\n[[var cheese_today = 15]]\n[[var total_cheese_new = cheese_yesterday_new + cheese_today]]\n[[question result = ['total_cheese_new']]]",
+      "answer": "18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-93-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = 10]]\n[[var e = (6 + 2)]]\n[[var j = (e + r)]]\n[[question y = ['j']]]\ntheme: Doll",
+      "statement": "Rebecca has 10 dolls initially. Later in the day, her friend Erica comes over to play and brings her own dolls, exactly 6 of them, and additional 2 she got as a gift. How many dolls are they playing with in total now?",
+      "new symbolic struct": "[[var rebecca_dolls = 10]]\n[[var erica_dolls = 6]]\n[[var gifted_dolls = 2]]\n[[var total_dolls = rebecca_dolls + erica_dolls + gifted_dolls]]\n[[question result = ['total_dolls']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-93-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var r = 12]]\n[[var e = (6 + 2)]]\n[[var j = (e + r)]]\n[[question y = ['j']]]\ntheme: Doll",
+      "statement": "Now, let's imagine Rebecca initially had 12 dolls instead of 10. She still gets joined by Erica, who brings 6 of her own dolls as well as an additional 2 she got as a gift. How many dolls would they have been playing with in total in this scenario?",
+      "new symbolic struct": "[[var rebecca_dolls = 12]]\n[[var erica_dolls = 6]]\n[[var gifted_dolls = 2]]\n[[var total_dolls = rebecca_dolls + erica_dolls + gifted_dolls]]\n[[question result = ['total_dolls']]]",
+      "answer": "20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-94-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 4]]\n[[var y = (1 + f)]]\n[[question n = ['y']]]\ntheme: Circus",
+      "statement": "There are 4 elephants performing at a circus. After the elephants finish their performance, 1 clown comes into the ring. How many performers have been in the ring?",
+      "new symbolic struct": "[[var elephants = 4]]\n[[var clown = 1]]\n[[var total_performers = elephants + clown]]\n[[question result = ['total_performers']]]",
+      "answer": "5",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-94-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 4]]\n[[var y = (1 + f)]]\n[[var i = 13]]\n[[question z = ['(i + y)']]]\ntheme: Circus",
+      "statement": "After the clown's performance, a group of 13 jugglers enter the ring. How many performers have been in the ring in total?",
+      "new symbolic struct": "[[var elephants = 4]]\n[[var clown = 1]]\n[[var jugglers = 13]]\n[[var total_performers = elephants + clown + jugglers]]\n[[question result = ['total_performers']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-95-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = 5]]\n[[var c = (u + 11)]]\n[[question a = ['c']]]\ntheme: Milk",
+      "statement": "Jeremy has 5 bottles of milk in his fridge. His mother goes grocery shopping and buys an additional 11 bottles of milk. How many bottles of milk does he have now?",
+      "new symbolic struct": "[[var OG_num_bottles = 5]]\n[[var bought_bottles = 11]]\n[[var total_bottles = OG_num_bottles + bought_bottles]]\n[[question result = ['total_bottles']]]",
+      "answer": "16",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-95-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = 5]]\n[[var c = (u + 11)]]\n[[var o = 3]]\n[[question t = ['(o + c)']]]\ntheme: Milk",
+      "statement": "After his mother's grocery shopping, Jeremy's friend visits and brings over 3 more bottles of milk. Now, how many bottles of milk does Jeremy have?",
+      "new symbolic struct": "[[var OG_num_bottles = 5]]\n[[var bought_bottles = 11]]\n[[var friend_bottles = 3]]\n[[var total_bottles = OG_num_bottles + bought_bottles + friend_bottles]]\n[[question result = ['total_bottles']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-96-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var m = (2 + 3)]]\n[[var b = (m + m)]]\n[[var r = (10 + b)]]\n[[question d = ['r']]]\ntheme: Park",
+      "statement": "In the park, Liam finds 2 new species of butterflies and 3 new species of birds. He then discovers as many new insect species as the total number of bird and butterfly species combined. Later in the day, he encounters 10 more unique species. How many total species did Liam discover during his day at the park?",
+      "new symbolic struct": "[[var butterfly_species = 2]]\n[[var bird_species = 3]]\n[[var insect_species = butterfly_species + bird_species]]\n[[var later_species = 10]]\n[[var total_species = butterfly_species + bird_species + insect_species + later_species]]\n[[question result = ['total_species']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-96-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var m = (2 + 3)]]\n[[var b = (m + m)]]\n[[var r = (4 + b)]]\n[[question d = ['r']]]\ntheme: Park",
+      "statement": "In his previous trip to the park, Liam found 2 new species of butterflies and 3 new species of birds. Then he discovered as many insect species as the total number of bird and butterfly species combined. The very next day, he encountered only 4 more unique species instead of 10 that he found on the previous day. How many total species did Liam discover during his second day at the park?",
+      "new symbolic struct": "[[var butterfly_species_day1 = 2]]\n[[var bird_species_day1 = 3]]\n[[var insect_species_day1 = butterfly_species_day1 + bird_species_day1]]\n[[var later_species_day2 = 4]]\n[[var total_species_day2 = butterfly_species_day1 + bird_species_day1 + insect_species_day1 + later_species_day2]]\n[[question result = ['total_species_day2']]]",
+      "answer": "14",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-97-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var y = 8]]\n[[var p = (y + 10)]]\n[[question z = ['p']]]\ntheme: Piano",
+      "statement": "Maria has 8 piano sheets. After her piano lesson, her instructor gives her 10 more. How many piano sheets does Maria have now?",
+      "new symbolic struct": "[[var original_sheets = 8]]\n[[var received_sheets = 10]]\n[[var total_sheets = original_sheets + received_sheets]]\n[[question result = ['total_sheets']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-97-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var y = 8]]\n[[var p = (y + 11)]]\n[[question z = ['p']]]\ntheme: Piano",
+      "statement": "Previously, Maria began with 8 piano sheets. But what if she had only started with 8 and her instructor then gave her 11 more instead of the previous 10? How many piano sheets would Maria have now?",
+      "new symbolic struct": "[[var original_sheets = 8]]\n[[var received_sheets = 11]]\n[[var total_sheets = original_sheets + received_sheets]]\n[[question result = ['total_sheets']]]",
+      "answer": "19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-98-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var q = 4]]\n[[var j = (q + 13)]]\n[[question y = ['j']]]\ntheme: Alien",
+      "statement": "On planet Zorg, Quep has 4 lazer guns. He finds a treasure chest and inside, he discovers an additional 13 lazer guns. How many lazer guns does Quep have now?",
+      "new symbolic struct": "[[var original_guns = 4]]\n[[var found_guns = 13]]\n[[var total_guns = original_guns + found_guns]]\n[[question result = ['total_guns']]]",
+      "answer": "17",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-98-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var q = 4]]\n[[var j = (q + 4)]]\n[[question y = ['j']]]\ntheme: Alien",
+      "statement": "What if instead, Quep initially only had 4 lazer guns before he found the treasure chest? After finding the treasure chest, which still contains 4 lazer guns, how many lazer guns does Quep have now?",
+      "new symbolic struct": "[[var original_guns = 4]]\n[[var chest_guns = 4]]\n[[var total_guns = original_guns + chest_guns]]\n[[question result = ['total_guns']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-99-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 1]]\n[[var a = (2 + f)]]\n[[var p = (11 + a)]]\n[[question x = ['p']]]\ntheme: Elephant",
+      "statement": "Frankie the elephant has 1 apple. He finds 2 more apples. Suddenly, a friendly squirrel brings him a present of 11 more apples. How many apples does Frankie the elephant have now?",
+      "new symbolic struct": "[[var initial_apples = 1]]\n[[var found_apples = 2]]\n[[var gift_apples = 11]]\n[[var total_apples = initial_apples + found_apples + gift_apples]]\n[[question result = ['total_apples']]]",
+      "answer": "14",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-99-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var f = 1]]\n[[var a = (2 + f)]]\n[[var p = (1 + a)]]\n[[question x = ['p']]]\ntheme: Elephant",
+      "statement": "Suppose initially Frankie the elephant only had 1 apple, and he found 2 more apples. After that, he went to the river and found one more apple. How many apples does Frankie the elephant have now?",
+      "new symbolic struct": "[[var initial_apples = 1]]\n[[var found_apples = 2]]\n[[var river_apples = 1]]\n[[var total_apples = initial_apples + found_apples + river_apples]]\n[[question result = ['total_apples']]]",
+      "answer": "4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-100-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var y = (1 + 1)]]\n[[question w = ['y']]]\ntheme: Snow",
+      "statement": "There was 1 inch of snow on the ground in the morning. By noon, another inch of snow had fallen. How many inches of snow were there in total?",
+      "new symbolic struct": "[[var morning_snow = 1]]\n[[var noon_snow = 1]]\n[[var total_snow = morning_snow + noon_snow]]\n[[question result = ['total_snow']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-100-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var y = (1 + 1)]]\n[[var u = (y + 13)]]\n[[question r = ['u']]]\ntheme: Snow",
+      "statement": "After the previous snowfall, an additional 13 inches of snow fell in the afternoon. How many inches of snow were there in total by the end of the day?",
+      "new symbolic struct": "[[var morning_snow = 1]]\n[[var noon_snow = 1]]\n[[var afternoon_snow = 13]]\n[[var total_snow = morning_snow + noon_snow + afternoon_snow]]\n[[question result = ['total_snow']]]",
+      "answer": "15",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-100-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var y = (12 + 1)]]\n[[question w = ['y']]]\ntheme: Snow",
+      "statement": "Instead of 1 inch of morning snowfall, suppose there were 12 inches of snowfall that morning. How many inches of snow were there in total then by the noontime?",
+      "new symbolic struct": "[[var morning_snow = 12]]\n[[var noon_snow = 1]]\n[[var total_snow = morning_snow + noon_snow]]\n[[question result = ['total_snow']]]",
+      "answer": "13",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-101-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var m = (19 + 1)]]\n[[question a = ['m']]]\ntheme: Card",
+      "statement": "Mike has 19 playing cards in his collection. He then finds one more card on the ground. How many cards does Mike have now?",
+      "new symbolic struct": "[[var original_cards = 19]]\n[[var additional_card = 1]]\n[[var total_cards = original_cards + additional_card]]\n[[question result = ['total_cards']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-101-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var m = (2 + 1)]]\n[[question a = ['m']]]\ntheme: Card",
+      "statement": "In the previous case, Mike had 19 playing cards in his collection. But what if he initially only had 2 playing cards and then found one more? How many cards would Mike have now?",
+      "new symbolic struct": "[[var original_cards = 2]]\n[[var additional_card = 1]]\n[[var total_cards = original_cards + additional_card]]\n[[question result = ['total_cards']]]",
+      "answer": "3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-102-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = (1 + 2)]]\n[[question a = ['h']]]\ntheme: Wind",
+      "statement": "A gust of wind blew 1 leaf off a tree, followed by another 2 leaves. How many leaves did the wind blow off the tree in total?",
+      "new symbolic struct": "[[var first_blow = 1]]\n[[var second_blow = 2]]\n[[var total_leaves = first_blow + second_blow]]\n[[question result = ['total_leaves']]]",
+      "answer": "3",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-102-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var h = (1 + 2)]]\n[[var e = (h + 9)]]\n[[question b = ['e']]]\ntheme: Wind",
+      "statement": "After the gust of wind blew 1 leaf followed by another 2 leaves off the tree, an even stronger gust blew an additional 9 leaves off. How many leaves in total did the wind blow off the tree now?",
+      "new symbolic struct": "[[var first_blow = 1]]\n[[var second_blow = 2]]\n[[var third_blow = 9]]\n[[var total_leaves = first_blow + second_blow + third_blow]]\n[[question result = ['total_leaves']]]",
+      "answer": "12",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-103-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = 7]]\n[[var b = (13 + u)]]\n[[question g = ['b']]]\ntheme: Wizard",
+      "statement": "A wizard has 7 potions in his pantry. He spends a whole day brewing and at the end of the day, he has 13 more potions than before. How many potions does he have now?",
+      "new symbolic struct": "[[var OG_potions = 7]]\n[[var brewed_potions = OG_potions + 13]]\n[[question result = ['brewed_potions']]]",
+      "answer": "20",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-103-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = 3]]\n[[var b = (13 + u)]]\n[[question g = ['b']]]\ntheme: Wizard",
+      "statement": "In the previous situation, the wizard originally had 7 potions before he started brewing. But what if the wizard only had 3 potions to start with instead? After brewing the same amount, how many potions would he have now?",
+      "new symbolic struct": "[[var OG_potions = 3]]\n[[var brewed_potions = OG_potions + 13]]\n[[question result = ['brewed_potions']]]",
+      "answer": "16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-104-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var k = (11 + 5)]]\n[[question j = ['k']]]\ntheme: Tiger",
+      "statement": "In a zoo, 11 tigers live in the north area and 5 more live in the south area. How many tigers are in the zoo in all?",
+      "new symbolic struct": "[[var north_tigers = 11]]\n[[var south_tigers = 5]]\n[[var total_tigers = north_tigers + south_tigers]]\n[[question result = ['total_tigers']]]",
+      "answer": "16",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-105-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var g = 2]]\n[[var l = (g + g)]]\n[[var z = (l + 4)]]\n[[question p = ['z']]]\ntheme: Paint",
+      "statement": "George has 2 gallons of paint. Larry gives him an additional amount of paint that is equivalent to what George originally had. George then buys 4 more gallons of paint. How many gallons of paint does he now have in total?",
+      "new symbolic struct": "[[var OG_paint = 2]]\n[[var larry_paint = OG_paint]]\n[[var bought_paint = 4]]\n[[var total_paint = OG_paint + larry_paint + bought_paint]]\n[[question result = ['total_paint']]]",
+      "answer": "8",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-105-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var g = 2]]\n[[var l = (g + g)]]\n[[var z = (l + 4)]]\n[[var h = (z + 11)]]\n[[question s = ['h']]]\ntheme: Paint",
+      "statement": "George's cousin Hank came over and saw his painting project. Impressed, Hank decides to contribute and gives George 11 more gallons of paint. How many gallons of paint does George have now in total?",
+      "new symbolic struct": "[[var OG_paint = 2]]\n[[var larry_paint = OG_paint]]\n[[var bought_paint = 4]]\n[[var hank_paint = 11]]\n[[var total_paint = OG_paint + larry_paint + bought_paint + hank_paint]]\n[[question result = ['total_paint']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-105-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var g = 2]]\n[[var l = (g + g)]]\n[[var z = (l + 7)]]\n[[question p = ['z']]]\ntheme: Paint",
+      "statement": "What if initially, George only had 2 gallons of paint and Larry gave George an additional amount of paint equivalent to what George originally had. Then, George decided to buy 7 more gallons instead of 4. How many gallons of paint would George have in total then?",
+      "new symbolic struct": "[[var OG_paint = 2]]\n[[var larry_paint = OG_paint]]\n[[var new_bought_paint = 7]]\n[[var new_total_paint = OG_paint + larry_paint + new_bought_paint]]\n[[question result = ['new_total_paint']]]",
+      "answer": "11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-106-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var k = (5 + 9)]]\n[[question r = ['k']]]\ntheme: Earrings",
+      "statement": "Sarah has 5 earrings, and she just bought 9 more earrings from a store. How many earrings does she have now?",
+      "new symbolic struct": "[[var initial_earrings = 5]]\n[[var bought_earrings = 9]]\n[[var total_earrings = initial_earrings + bought_earrings]]\n[[question result = ['total_earrings']]]",
+      "answer": "14",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-106-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var k = (5 + 9)]]\n[[var l = (2 + k)]]\n[[question g = ['l']]]\ntheme: Earrings",
+      "statement": "After two days, Sarah received 2 more earrings as a gift from her friend. Now, how many earrings does she have in total?",
+      "new symbolic struct": "[[var initial_earrings = 5]]\n[[var bought_earrings = 9]]\n[[var gift_earrings = 2]]\n[[var total_earrings = initial_earrings + bought_earrings + gift_earrings]]\n[[question result = ['total_earrings']]]",
+      "answer": "16",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-106-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var k = (4 + 9)]]\n[[question r = ['k']]]\ntheme: Earrings",
+      "statement": "What if Sarah originally had 4 earrings instead of 5 before she bought 9 more from the store? How many earrings would she have then?",
+      "new symbolic struct": "[[var initial_earrings = 4]]\n[[var bought_earrings = 9]]\n[[var total_earrings = initial_earrings + bought_earrings]]\n[[question result = ['total_earrings']]]",
+      "answer": "13",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-108-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = (1 + 1)]]\n[[question a = ['u']]]\ntheme: Tomato",
+      "statement": "Ramesh has 1 tomato and Suresh gives him 1 more. How many tomatoes does Ramesh have now?",
+      "new symbolic struct": "[[var ramesh_tomatoes = 1]]\n[[var suresh_tomatoes_given = 1]]\n[[var total_tomatoes = ramesh_tomatoes + suresh_tomatoes_given]]\n[[question result = ['total_tomatoes']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-108-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = (1 + 1)]]\n[[var i = (16 + u)]]\n[[question l = ['i']]]\ntheme: Tomato",
+      "statement": "Ramesh's mom gives him 16 more tomatoes. Now how many tomatoes does Ramesh have in total?",
+      "new symbolic struct": "[[var ramesh_tomatoes = 1]]\n[[var suresh_tomatoes_given = 1]]\n[[var moms_tomatoes_given = 16]]\n[[var interim_tomatoes = ramesh_tomatoes + suresh_tomatoes_given]]\n[[var total_tomatoes = interim_tomatoes + moms_tomatoes_given]]\n[[question result = ['total_tomatoes']]]",
+      "answer": "18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-108-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var u = (4 + 1)]]\n[[question a = ['u']]]\ntheme: Tomato",
+      "statement": "What if, initially, Ramesh started with 4 tomatoes instead of 1 before Suresh gave him 1 more. How many tomatoes would Ramesh have then?",
+      "new symbolic struct": "[[var ramesh_initial_tomatoes = 4]]\n[[var suresh_tomatoes_given = 1]]\n[[var total_tomatoes = ramesh_initial_tomatoes + suresh_tomatoes_given]]\n[[question result = ['total_tomatoes']]]",
+      "answer": "5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-109-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var m = 4]]\n[[var a = 2]]\n[[var f = (m + a)]]\n[[question h = ['f']]]\ntheme: Cow",
+      "statement": "A farmer owns 4 cows. His neighbor gifts him 2 more cows. How many cows does the farmer now have in total?",
+      "new symbolic struct": "[[var original_cows = 4]]\n[[var gifted_cows = 2]]\n[[var total_cows = original_cows + gifted_cows]]\n[[question result = ['total_cows']]]",
+      "answer": "6",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-109-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var m = 9]]\n[[var a = 2]]\n[[var f = (m + a)]]\n[[question h = ['f']]]\ntheme: Cow",
+      "statement": "What if the farmer originally had 9 cows instead of 4, and his neighbor still gifted him 2 more cows. With these new values, how many cows does the farmer have in total now?",
+      "new symbolic struct": "[[var original_cows = 9]]\n[[var gifted_cows = 2]]\n[[var total_cows = original_cows + gifted_cows]]\n[[question result = ['total_cows']]]",
+      "answer": "11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-110-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = (4 + 10)]]\n[[question z = ['e']]]\ntheme: Food",
+      "statement": "Liam baked 4 cookies in the morning, and then he baked 10 more in the evening. How many cookies did Liam bake in total?",
+      "new symbolic struct": "[[var morning_cookies = 4]]\n[[var evening_cookies = 10]]\n[[var total_cookies = morning_cookies + evening_cookies]]\n[[question result = ['total_cookies']]]",
+      "answer": "14",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-110-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var e = (4 + 10)]]\n[[var u = (e + 2)]]\n[[question b = ['u']]]\ntheme: Food",
+      "statement": "After baking cookies, Liam decided to bake 2 more as a midnight snack. Now, how many cookies has Liam baked in total?",
+      "new symbolic struct": "[[var morning_cookies = 4]]\n[[var evening_cookies = 10]]\n[[var midnight_cookies = 2]]\n[[var total_cookies = morning_cookies + evening_cookies + midnight_cookies]]\n[[question result = ['total_cookies']]]",
+      "answer": "16",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-112-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var x = (7 + 7)]]\n[[question r = ['x']]]\ntheme: Rocket",
+      "statement": "Dr. Fusion begins building a rocket with 7 parts. Shortly after, he receives another shipment with 7 more parts. How many parts does he have in total for his rocket now?",
+      "new symbolic struct": "[[var original_parts = 7]]\n[[var new_parts = 7]]\n[[var total_parts = original_parts + new_parts]]\n[[question result = ['total_parts']]]",
+      "answer": "14",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-112-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var x = (7 + 7)]]\n[[var q = (x + 5)]]\n[[question d = ['q']]]\ntheme: Rocket",
+      "statement": "After assembling the rocket parts, Dr. Fusion realizes he needs more components and receives an extra 5 parts. Now, how many parts does he have in total for his rocket?",
+      "new symbolic struct": "[[var original_parts = 7]]\n[[var new_parts = 7]]\n[[var total_parts = original_parts + new_parts]]\n[[var extra_parts = 5]]\n[[var final_total_parts = total_parts + extra_parts]]\n[[question result = ['final_total_parts']]]",
+      "answer": "19",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-112-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var x = (7 + 5)]]\n[[question r = ['x']]]\ntheme: Rocket",
+      "statement": "If Dr. Fusion had originally started with 7 rocket parts and added only 5 more parts instead of 7, how many total parts would he have now for his rocket?",
+      "new symbolic struct": "[[var original_parts = 7]]\n[[var new_parts = 5]]\n[[var total_parts = original_parts + new_parts]]\n[[question result = ['total_parts']]]",
+      "answer": "12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "1.OA.A.2-113-0",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = 4]]\n[[var w = (t + t)]]\n[[var b = (w + t)]]\n[[question a = ['b']]]\ntheme: Zoo",
+      "statement": "Timmy has 4 giraffes. He then gets the same amount of giraffes he already had and then adds the amount of giraffes he originally had. How many giraffes does Timmy have now?",
+      "new symbolic struct": "[[var initial_giraffes = 4]]\n[[var added_giraffes = initial_giraffes + initial_giraffes]]\n[[var total_giraffes = initial_giraffes + added_giraffes]]\n[[question result = ['total_giraffes']]]",
+      "answer": "12",
+      "tag": "original problem"
+    },
+    {
+      "id": "1.OA.A.2-113-1",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = 4]]\n[[var w = (t + t)]]\n[[var b = (w + t)]]\n[[var g = 8]]\n[[question k = ['(b + g)']]]\ntheme: Zoo",
+      "statement": "In addition to the giraffes, Timmy also has 8 kangaroos. How many animals does Timmy have in total now?",
+      "new symbolic struct": "[[var initial_giraffes = 4]]\n[[var added_giraffes = initial_giraffes + initial_giraffes]]\n[[var giraffes = initial_giraffes + added_giraffes]]\n[[var kangaroos = 8]]\n[[var total_animals = giraffes + kangaroos]]\n[[question result = ['total_animals']]]",
+      "answer": "20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "1.OA.A.2-113-2",
+      "standard": "1.OA.A.2",
+      "symbolic-struct": "[[var t = 5]]\n[[var w = (t + t)]]\n[[var b = (w + t)]]\n[[question a = ['b']]]\ntheme: Zoo",
+      "statement": "In a different scenario, instead of originally having 4 giraffes, suppose Timmy originally had 5 giraffes. If he then gets the same amount of giraffes he already had, and then adds the amount of giraffes he originally had, how many giraffes does Timmy have now?",
+      "new symbolic struct": "[[var initial_giraffes = 5]]\n[[var added_giraffes = initial_giraffes + initial_giraffes]]\n[[var total_giraffes = initial_giraffes + added_giraffes]]\n[[question result = ['total_giraffes']]]",
+      "answer": "15",
+      "tag": "modified information follow up"
+    }
+  ]
+]

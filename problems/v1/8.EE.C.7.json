@@ -1,0 +1,1102 @@
+[
+  [
+    {
+      "id": "8.EE.C.7-0-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 122 = (92 + (28 * u))]]\n[[question j = ['u']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for the variable u: 122 = 92 + 28 * u",
+      "new symbolic struct": "[[var 122 = 92 + 28 * u]]\n[[question n = ['u']]]",
+      "answer": "15/14",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-2-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 42 = ((35 * i) - 34)]]\n[[question s = ['i']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for i: \n42 = ((35 * i) - 34)",
+      "new symbolic struct": "[[var 42 = ((35 * i) - 34)]]\n[[question a = ['i']]]",
+      "answer": "76/35",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-3-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 94 = (41 + (6 * r))]]\n[[question x = ['r']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of r:\n94 = 41 + 6 * r",
+      "new symbolic struct": "[[var 94 = 41 + 6 * r]]\n[[question a = ['r']]]",
+      "answer": "53/6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-4-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 158 = ((19 * i) + 94)]]\n[[question o = ['i']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Determine the value of \"i\" from the following equation: \n158 = ((19 * i) + 94)",
+      "new symbolic struct": "[[var 158 = ((19 * i) + 94)]]\n[[question n = ['i']]]",
+      "answer": "64/19",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-5-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 134 = ((30 * q) + 54)]]\n[[question i = ['q']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for 'q': \n134 = ((30 * q) + 54)",
+      "new symbolic struct": "[[var 134 = ((30 * q) + 54)]]\n[[question n = ['q']]]",
+      "answer": "8/3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-6-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 94 = (27 + y)]]\n[[question x = ['y']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation to find the value of y: \n94 = (27 + y)",
+      "new symbolic struct": "[[var 94 = 27 + y]]\n[[question a = ['y']]]",
+      "answer": "67",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-7-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 9 = ((23 * h) - 70)]]\n[[question r = ['h']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of h:\n9 = ((23 * h) - 70)",
+      "new symbolic struct": "[[var 9 = ((23 * h) - 70)]]\n[[question n = ['h']]]",
+      "answer": "79/23",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-8-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 92 = ((33 * t) + 26)]]\n[[question u = ['t']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of t: \n\n92 = 33 * t + 26",
+      "new symbolic struct": "[[var 92 = 33 * t + 26]]\n[[question a = ['t']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-9-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 123 = ((15 * e) + 29)]]\n[[question l = ['e']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation to find the value of e: \n123 = ((15 * e) + 29).",
+      "new symbolic struct": "[[var 123 = ((15 * e) + 29)]]\n[[question solve_for_e = ['e']]]",
+      "answer": "94/15",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-10-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 16 = ((75 * k) - 80)]]\n[[question o = ['k']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of 'k': 16 = ((75 * k) - 80)",
+      "new symbolic struct": "[[var 16 = ((75 * k) - 80)]]\n[[question n = ['k']]]",
+      "answer": "32/25",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-11-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 131 = ((5 * q) + 89)]]\n[[question m = ['q']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve for q in the following equation: \n\n131 = ((5 * q) + 89)",
+      "new symbolic struct": "[[var 131 = ((5 * q) + 89)]]\n[[question a = ['q']]]",
+      "answer": "42/5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-12-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 147 = ((38 * p) + 56)]]\n[[question n = ['p']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Find the value of p that satisfies the following equation: 147 = ((38 * p) + 56)",
+      "new symbolic struct": "[[var 147 = ((38 * p) + 56)]]\n[[question a = ['p']]]",
+      "answer": "91/38",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-13-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 76 = ((42 * j) + 23)]]\n[[question s = ['j']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of 'j': \n76 = 42 * j + 23",
+      "new symbolic struct": "[[var 76 = 42 * j + 23]]\n[[question n = ['j']]]",
+      "answer": "53/42",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-14-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 138 = (43 + (25 * l))]]\n[[question w = ['l']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of 'l': \n\n138 = 43 + 25 * l\n",
+      "new symbolic struct": "[[var 138 = 43 + 25 * l]]\n[[question v = ['l']]]",
+      "answer": "19/5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-15-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 80 = ((24 * w) + 35)]]\n[[question u = ['w']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the unknown w: 80 = ((24 * w) + 35)",
+      "new symbolic struct": "[[var 80 = ((24 * w) + 35)]]\n[[question a = ['w']]]",
+      "answer": "15/8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-16-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 77 = (33 + (14 * x))]]\n[[question w = ['x']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation to find the value of x: 77 = (33 + (14 * x))",
+      "new symbolic struct": "[[var 77 = 33 + 14 * x]]\n[[question a = ['x']]]",
+      "answer": "22/7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-17-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 110 = (12 + (88 * y))]]\n[[question w = ['y']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation to find the value of y:\n110 = 12 + 88 * y",
+      "new symbolic struct": "[[var 110 = 12 + 88 * y]]\n[[question a = ['y']]]",
+      "answer": "49/44",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-18-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 179 = ((82 * s) + 80)]]\n[[question p = ['s']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the variable 's': 179 = 82 * s + 80",
+      "new symbolic struct": "[[var 179 = 82 * s + 80]]\n[[question a = ['s']]]",
+      "answer": "99/82",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-19-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 129 = ((26 * m) + 66)]]\n[[question o = ['m']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for m: 129 = 26 * m + 66",
+      "new symbolic struct": "[[var 129 = 26 * m + 66]]\n[[question n = ['m']]]",
+      "answer": "63/26",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-20-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 82 = ((27 * q) - 17)]]\n[[question m = ['q']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for q: \n\n82 = ((27 * q) - 17)",
+      "new symbolic struct": "[[var 82 = ((27 * q) - 17)]]\n[[question n = ['q']]]",
+      "answer": "11/3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-21-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 141 = (64 + (22 * k))]]\n[[question f = ['k']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the variable k:\n141 = (64 + (22 * k))",
+      "new symbolic struct": "[[var 141 = (64 + (22 * k))]]\n[[question x = ['k']]]",
+      "answer": "7/2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-22-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 175 = (91 + (45 * v))]]\n[[question y = ['v']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Determine the value of 'v' by solving this linear equation: \n175 = 91 + 45 * v",
+      "new symbolic struct": "[[var 175 = 91 + 45 * v]]\n[[question a = ['v']]]",
+      "answer": "28/15",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-23-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 50 = ((63 * k) - 18)]]\n[[question z = ['k']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for the value of k: \n\n50 = ((63 * k) - 18)",
+      "new symbolic struct": "[[var 50 = ((63 * k) - 18)]]\n[[question a = ['k']]]",
+      "answer": "68/63",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-24-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 65 = ((8 * l) - 10)]]\n[[question x = ['l']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for l: \n\n65 = ((8 * l) - 10)",
+      "new symbolic struct": "[[var 65 = ((8 * l) - 10)]]\n[[question a = ['l']]]",
+      "answer": "75/8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-25-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 5 = ((10 * u) - 34)]]\n[[question y = ['u']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation:\n5 = ((10 * u) - 34)",
+      "new symbolic struct": "[[var 5 = ((10 * u) - 34)]]\n[[question a = ['u']]]",
+      "answer": "39/10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-26-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 91 = ((9 * a) + 61)]]\n[[question s = ['a']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following problem in linear equations for variable 'a': 91 = 9 * a + 61",
+      "new symbolic struct": "[[var 91 = 9 * a + 61]]\n[[question n = ['a']]]",
+      "answer": "10/3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-27-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 157 = ((53 * i) + 61)]]\n[[question v = ['i']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the variable i:\n157 = 53 * i + 61",
+      "new symbolic struct": "[[var 157 = 53 * i + 61]]\n[[question n = ['i']]]",
+      "answer": "96/53",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-28-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 71 = ((24 * q) + 14)]]\n[[question s = ['q']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of q: \n71 = ((24 * q) + 14)",
+      "new symbolic struct": "[[var 71 = ((24 * q) + 14)]]\n[[question n = ['q']]]",
+      "answer": "19/8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-29-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 163 = (96 + (14 * i))]]\n[[question k = ['i']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of i:\n163 = 96 + 14 * i",
+      "new symbolic struct": "[[var 163 = 96 + 14 * i]]\n[[question a = ['i']]]",
+      "answer": "67/14",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-30-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 59 = ((70 * e) - 23)]]\n[[question s = ['e']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of e: \n\n59 = (70 * e) - 23",
+      "new symbolic struct": "[[var 59 = (70 * e) - 23]]\n[[question a = ['e']]]",
+      "answer": "41/35",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-31-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 147 = ((36 * o) + 74)]]\n[[question h = ['o']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for o: \n\n147 = 36 * o + 74",
+      "new symbolic struct": "[[var 147 = 36 * o + 74]]\n[[question a = ['o']]]",
+      "answer": "73/36",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-32-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 71 = (93 - (13 * d))]]\n[[question k = ['d']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation: 71 = 93 - (13 * d)",
+      "new symbolic struct": "[[var 71 = 93 - (13 * d)]]\n[[question n = ['d']]]",
+      "answer": "22/13",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-33-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 118 = (64 + (6 * n))]]\n[[question u = ['n']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of n: \n118 = 64 + 6 * n",
+      "new symbolic struct": "[[var 118 = 64 + 6 * n]]\n[[question a = ['n']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-34-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 61 = ((5 * d) - 7)]]\n[[question k = ['d']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of 'd':\n61 = ((5 * d) - 7)",
+      "new symbolic struct": "[[var 61 = ((5 * d) - 7)]]\n[[question a = ['d']]]",
+      "answer": "68/5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-35-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 79 = ((8 * z) - 18)]]\n[[question s = ['z']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of z: \n79 = ((8 * z) - 18)",
+      "new symbolic struct": "[[var 79 = (8 * z) - 18]]\n[[question a = ['z']]]",
+      "answer": "97/8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-36-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 129 = ((2 * z) + 63)]]\n[[question c = ['z']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of z:\n129 = ((2 * z) + 63)",
+      "new symbolic struct": "[[var 129 = ((2 * z) + 63)]]\n[[question a = ['z']]]",
+      "answer": "33",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-37-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 127 = (29 + (32 * e))]]\n[[question r = ['e']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for e: \n127 = (29 + (32 * e))",
+      "new symbolic struct": "[[var 127 = 29 + 32 * e]]\n[[question n = ['e']]]",
+      "answer": "49/16",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-38-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 30 = ((50 * x) - 35)]]\n[[question i = ['x']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of x: \n30 = ((50 * x) - 35)",
+      "new symbolic struct": "[[var 30 = ((50 * x) - 35)]]\n[[question a = ['x']]]",
+      "answer": "13/10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-39-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 66 = (9 + (10 * x))]]\n[[question o = ['x']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for x: \n\n66 = 9 + 10 * x",
+      "new symbolic struct": "[[var 66 = 9 + 10 * x]]\n[[question a = ['x']]]",
+      "answer": "57/10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-40-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 103 = ((38 * a) + 51)]]\n[[question e = ['a']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following algebraic equation for the unknown variable a: \n\n103 = ((38 * a) + 51)",
+      "new symbolic struct": "[[var 103 = ((38 * a) + 51)]]\n[[question a = ['a']]]",
+      "answer": "26/19",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-41-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 105 = ((28 * f) + 8)]]\n[[question n = ['f']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Determine the value of f in the following equation:\n105 = 28 * f + 8",
+      "new symbolic struct": "[[var 105 = 28 * f + 8]]\n[[question a = ['f']]]",
+      "answer": "97/28",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-42-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 12 = (63 - (50 * u))]]\n[[question i = ['u']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the linear equation for u: \n\n12 = 63 - 50 * u",
+      "new symbolic struct": "[[var 12 = 63 - 50 * u]]\n[[question a = ['u']]]",
+      "answer": "51/50",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-43-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 60 = (42 + (10 * b))]]\n[[question e = ['b']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for the value of 'b': \n60 = 42 + (10 * b)",
+      "new symbolic struct": "[[var 60 = 42 + (10 * b)]]\n[[question a = ['b']]]",
+      "answer": "9/5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-44-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 84 = ((25 * j) + 13)]]\n[[question b = ['j']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the variable 'j':\n\n84 = ((25 * j) + 13)",
+      "new symbolic struct": "[[var 84 = 25 * j + 13]]\n[[question a = ['j']]]",
+      "answer": "71/25",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-45-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 153 = (91 + (5 * s))]]\n[[question u = ['s']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for s: \n153 = 91 + 5 * s",
+      "new symbolic struct": "[[var 153 = 91 + 5 * s]]\n[[question n = ['s']]]",
+      "answer": "62/5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-46-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 65 = (22 + (30 * g))]]\n[[question k = ['g']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve for g in the following equation: 65 = (22 + (30 * g))",
+      "new symbolic struct": "[[var 65 = 22 + 30 * g]]\n[[question n = ['g']]]",
+      "answer": "43/30",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-47-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 96 = ((29 * f) + 10)]]\n[[question y = ['f']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of f:\n96 = ((29 * f) + 10)",
+      "new symbolic struct": "[[var 96 = ((29 * f) + 10)]]\n[[question a = ['f']]]",
+      "answer": "86/29",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-48-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 80 = (19 + (14 * q))]]\n[[question e = ['q']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for the variable q: 80 = (19 + (14 * q))",
+      "new symbolic struct": "[[var 80 = 19 + 14 * q]]\n[[question n = ['q']]]",
+      "answer": "61/14",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-49-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 145 = (95 + (46 * m))]]\n[[question e = ['m']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the variable 'm': \n\n145 = 95 + 46 * m",
+      "new symbolic struct": "[[var 145 = 95 + 46 * m]]\n[[question a = ['m']]]",
+      "answer": "25/23",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-50-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 68 = (13 + (6 * i))]]\n[[question f = ['i']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for the value of 'i': \n 68 = 13 + 6 * i",
+      "new symbolic struct": "[[var 68 = 13 + 6 * i]]\n[[question n = ['i']]]",
+      "answer": "55/6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-51-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 25 = ((74 * h) - 61)]]\n[[question n = ['h']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for the value of h:\n25 = ((74 * h) - 61)",
+      "new symbolic struct": "[[var 25 = ((74 * h) - 61)]]\n[[question n = ['h']]]",
+      "answer": "43/37",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-52-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 51 = ((6 * q) - 30)]]\n[[question r = ['q']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of q: \n51 = ((6 * q) - 30)",
+      "new symbolic struct": "[[var 51 = ((6 * q) - 30)]]\n[[question n = ['q']]]",
+      "answer": "27/2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-54-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 38 = (81 - (36 * r))]]\n[[question y = ['r']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Find the value of r in the following linear equation: \n\n38 = 81 - 36 * r",
+      "new symbolic struct": "[[var 38 = 81 - 36 * r]]\n[[question a = ['r']]]",
+      "answer": "43/36",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-55-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 90 = (23 + (56 * a))]]\n[[question v = ['a']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation: \n90 = (23 + (56 * a))",
+      "new symbolic struct": "[[var 90 = (23 + (56 * a))]]\n[[question n = ['a']]]",
+      "answer": "67/56",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-56-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 81 = (13 + (30 * h))]]\n[[question a = ['h']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the unknown variable h: 81 = 13 + 30 * h",
+      "new symbolic struct": "[[var 81 = 13 + 30 * h]]\n[[question a = ['h']]]",
+      "answer": "34/15",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-57-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 160 = ((62 * m) + 69)]]\n[[question k = ['m']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of m:\n\n160 = ((62 * m) + 69)",
+      "new symbolic struct": "[[var 160 = ((62 * m) + 69)]]\n[[question n = ['m']]]",
+      "answer": "91/62",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-58-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 100 = (69 + (28 * q))]]\n[[question m = ['q']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of q: \n100 = 69 + 28 * q",
+      "new symbolic struct": "[[var 100 = 69 + 28 * q]]\n[[question n = ['q']]]",
+      "answer": "31/28",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-59-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 192 = ((98 * w) + 94)]]\n[[question f = ['w']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation to find the value of w:\n\n192 = ((98 * w) + 94)",
+      "new symbolic struct": "[[var 192 = ((98 * w) + 94)]]\n[[question a = ['w']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-60-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 40 = (93 - (33 * y))]]\n[[question w = ['y']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of y: \n 40 = 93 - 33 * y",
+      "new symbolic struct": "[[var 40 = 93 - 33 * y]]\n[[question a = ['y']]]",
+      "answer": "53/33",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-61-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 74 = ((48 * u) - 20)]]\n[[question a = ['u']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve for the unknown variable u in the following linear equation: \n74 = ((48 * u) - 20)",
+      "new symbolic struct": "[[var 74 = ((48 * u) - 20)]]\n[[question a = ['u']]]",
+      "answer": "47/24",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-62-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 13 = ((86 * f) - 76)]]\n[[question a = ['f']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for the variable f:\n13 = ((86 * f) - 76)",
+      "new symbolic struct": "[[var 13 = ((86 * f) - 76)]]\n[[question a = ['f']]]",
+      "answer": "89/86",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-63-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 122 = (36 + (56 * c))]]\n[[question l = ['c']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for c: \n122 = (36 + (56 * c))",
+      "new symbolic struct": "[[var 122 = 36 + 56 * c]]\n[[question n = ['c']]]",
+      "answer": "43/28",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-64-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 186 = (99 + (81 * q))]]\n[[question h = ['q']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the unknown quantity q: \n 186 = 99 + 81 * q",
+      "new symbolic struct": "[[var 186 = 99 + 81 * q]]\n[[question a = ['q']]]",
+      "answer": "29/27",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-65-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 120 = ((42 * u) + 77)]]\n[[question p = ['u']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Find the value of 'u' in the following equation: \n\n120 = ((42 * u) + 77)",
+      "new symbolic struct": "[[var 120 = ((42 * u) + 77)]]\n[[question a = ['u']]]",
+      "answer": "43/42",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-66-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 103 = (52 + (6 * j))]]\n[[question z = ['j']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of j: \n103 = (52 + (6 * j))",
+      "new symbolic struct": "[[var 103 = 52 + 6 * j]]\n[[question a = ['j']]]",
+      "answer": "17/2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-68-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 56 = (82 - (4 * n))]]\n[[question m = ['n']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of n: \n56 = (82 - (4 * n))",
+      "new symbolic struct": "[[var 56 = (82 - (4 * n))]]\n[[question a = ['n']]]",
+      "answer": "13/2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-69-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 77 = (14 + (60 * m))]]\n[[question b = ['m']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for m:\n77 = 14 + 60 * m",
+      "new symbolic struct": "[[var 77 = 14 + 60 * m]]\n[[question a = ['m']]]",
+      "answer": "21/20",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-70-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 31 = (17 + e)]]\n[[question p = ['e']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the variable 'e': \n\n31 = 17 + e",
+      "new symbolic struct": "[[var 31 = 17 + e]]\n[[question a = ['e']]]",
+      "answer": "14",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-71-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 2 = (81 - (15 * x))]]\n[[question u = ['x']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Find the value of x that solves the following equation: \n\n2 = 81 - (15 * x)",
+      "new symbolic struct": "[[var 2 = 81 - (15 * x)]]\n[[question a = ['x']]]",
+      "answer": "79/15",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-72-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 177 = (88 + (6 * e))]]\n[[question m = ['e']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for the value of e: 177 = 88 + 6 * e.",
+      "new symbolic struct": "[[var 177 = 88 + 6 * e]]\n[[question a = ['e']]]",
+      "answer": "89/6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-73-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 95 = ((3 * r) + 15)]]\n[[question p = ['r']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of 'r': 95 = 3*r + 15",
+      "new symbolic struct": "[[var 95 = 3*r + 15]]\n[[question n = ['r']]]",
+      "answer": "80/3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-74-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 154 = (70 + (31 * v))]]\n[[question f = ['v']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of v:\n154 = (70 + (31 * v))",
+      "new symbolic struct": "[[var 154 = 70 + 31 * v]]\n[[question a = ['v']]]",
+      "answer": "84/31",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-75-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 179 = ((70 * r) + 87)]]\n[[question u = ['r']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for the value of r: \n179 = ((70 * r) + 87)",
+      "new symbolic struct": "[[var 179 = ((70 * r) + 87)]]\n[[question a = ['r']]]",
+      "answer": "46/35",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-76-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 93 = ((19 * r) + 2)]]\n[[question x = ['r']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of r: \n\n93 = ((19 * r) + 2)",
+      "new symbolic struct": "[[var 93 = ((19 * r) + 2)]]\n[[question a = ['r']]]",
+      "answer": "91/19",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-77-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 20 = (67 - (37 * z))]]\n[[question o = ['z']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of z: \n20 = (67 - (37 * z))",
+      "new symbolic struct": "[[var 20 = 67 - 37 * z]]\n[[question n = ['z']]]",
+      "answer": "47/37",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-78-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 65 = ((25 * m) + 15)]]\n[[question v = ['m']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for m:\n65 = ((25 * m) + 15)",
+      "new symbolic struct": "[[var 65 = ((25 * m) + 15)]]\n[[question n = ['m']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-79-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 79 = ((6 * g) + 19)]]\n[[question d = ['g']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for g:\n79 = ((6 * g) + 19)",
+      "new symbolic struct": "[[var 79 = ((6 * g) + 19)]]\n[[question n = ['g']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-80-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 30 = ((56 * l) - 45)]]\n[[question g = ['l']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the variable 'l':\n30 = ((56 * l) - 45)",
+      "new symbolic struct": "[[var 30 = ((56 * l) - 45)]]\n[[question a = ['l']]]",
+      "answer": "75/56",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-81-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 57 = ((11 * j) + 4)]]\n[[question g = ['j']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of j: 57 = ((11 * j) + 4)",
+      "new symbolic struct": "[[var 57 = ((11 * j) + 4)]]\n[[question n = ['j']]]",
+      "answer": "53/11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-82-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 36 = ((34 * f) - 56)]]\n[[question y = ['f']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of 'f': \n36 = 34 * f - 56",
+      "new symbolic struct": "[[var 36 = 34 * f - 56]]\n[[question a = ['f']]]",
+      "answer": "46/17",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-83-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 56 = ((70 * u) - 43)]]\n[[question o = ['u']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation to find the value of 'u': \n56 = (70 * u) - 43",
+      "new symbolic struct": "[[var 56 = (70 * u) - 43]]\n[[question n = ['u']]]",
+      "answer": "99/70",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-84-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 67 = (21 + (9 * x))]]\n[[question q = ['x']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for the variable x: \n67 = 21 + 9*x",
+      "new symbolic struct": "[[var 67 = 21 + 9 * x]]\n[[question ans = ['x']]]",
+      "answer": "46/9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-85-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 75 = (58 + (16 * i))]]\n[[question y = ['i']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Determine the unknown variable in the following equation:\n75 = (58 + 16 * i)",
+      "new symbolic struct": "[[var 75 = (58 + 16 * i)]]\n[[question a = ['i']]]",
+      "answer": "17/16",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-86-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 111 = (54 + (39 * x))]]\n[[question t = ['x']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve for x in the following equation: 111 = (54 + (39 * x))",
+      "new symbolic struct": "[[var 111 = (54 + (39 * x))]]\n[[question a = ['x']]]",
+      "answer": "19/13",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-87-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 155 = ((26 * o) + 68)]]\n[[question p = ['o']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of 'o': \n\n155 = ((26 * o) + 68)",
+      "new symbolic struct": "[[var 155 = ((26 * o) + 68)]]\n[[question a = ['o']]]",
+      "answer": "87/26",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-88-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 7 = ((12 * p) - 17)]]\n[[question m = ['p']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve for p in the following equation: \n\n7 = ((12 * p) - 17)",
+      "new symbolic struct": "[[var 7 = ((12 * p) - 17)]]\n[[question a = ['p']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-89-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 163 = (93 + (55 * b))]]\n[[question g = ['b']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following problem: What is the value of the variable 'b' if 163 = 93 + 55 * b?",
+      "new symbolic struct": "[[var 163 = 93 + 55 * b]]\n[[question a = ['b']]]",
+      "answer": "14/11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-90-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 62 = (u - 26)]]\n[[question g = ['u']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the linear equation for the value of 'u': \n62 = (u - 26)",
+      "new symbolic struct": "[[var 62 = (u - 26)]]\n[[question a = ['u']]]",
+      "answer": "88",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-91-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 179 = ((63 * a) + 93)]]\n[[question n = ['a']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for the variable a: \n\n179 = ((63 * a) + 93)",
+      "new symbolic struct": "[[var 179 = ((63 * a) + 93)]]\n[[question n = ['a']]]",
+      "answer": "86/63",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-92-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 51 = ((27 * c) - 11)]]\n[[question x = ['c']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Find the value of c in the equation:\n51 = ((27 * c) - 11)",
+      "new symbolic struct": "[[var 51 = (27 * c) - 11]]\n[[question a = ['c']]]",
+      "answer": "62/27",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-93-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 19 = ((28 * d) - 18)]]\n[[question v = ['d']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation for 'd': 19 = ((28 * d) - 18)",
+      "new symbolic struct": "[[var 19 = ((28 * d) - 18)]]\n[[question a = ['d']]]",
+      "answer": "37/28",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-94-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 159 = ((47 * e) + 62)]]\n[[question z = ['e']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of e: \n159 = ((47 * e) + 62)",
+      "new symbolic struct": "[[var 159 = ((47 * e) + 62)]]\n[[question a = ['e']]]",
+      "answer": "97/47",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-96-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 145 = (50 + (91 * g))]]\n[[question j = ['g']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the variable g:\n145 = (50 + (91 * g))",
+      "new symbolic struct": "[[var 145 = (50 + (91 * g))]]\n[[question n = ['g']]]",
+      "answer": "95/91",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-97-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 123 = ((44 * l) + 73)]]\n[[question j = ['l']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the value of l: \n123 = ((44 * l) + 73)",
+      "new symbolic struct": "[[var 123 = ((44 * l) + 73)]]\n[[question n = ['l']]]",
+      "answer": "25/22",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-98-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 165 = ((19 * q) + 75)]]\n[[question c = ['q']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation: 165 = ((19 * q) + 75)",
+      "new symbolic struct": "[[var 165 = ((19 * q) + 75)]]\n[[question a = ['q']]]",
+      "answer": "90/19",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-99-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 149 = ((18 * g) + 62)]]\n[[question x = ['g']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation to find the value of g: \n149 = ((18 * g) + 62)",
+      "new symbolic struct": "[[var 149 = ((18 * g) + 62)]]\n[[question n = ['g']]]",
+      "answer": "29/6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-100-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 84 = ((20 * d) + 21)]]\n[[question y = ['d']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the variable d:\n84 = 20 * d + 21",
+      "new symbolic struct": "[[var 84 = 20 * d + 21]]\n[[question a = ['d']]]",
+      "answer": "63/20",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-101-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 61 = (50 + (6 * g))]]\n[[question e = ['g']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following equation to find the value of g: \n\n61 = (50 + (6 * g))",
+      "new symbolic struct": "[[var 61 = 50 + 6 * g]]\n[[question a = ['g']]]",
+      "answer": "11/6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-102-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 126 = ((21 * v) + 76)]]\n[[question b = ['v']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for the unknown variable v:\n  \n126 = ((21 * v) + 76)",
+      "new symbolic struct": "[[var 126 = ((21 * v) + 76)]]\n[[question a = ['v']]]",
+      "answer": "50/21",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.7-103-0",
+      "standard": "8.EE.C.7",
+      "symbolic-struct": "[[var 74 = ((91 * g) - 24)]]\n[[question y = ['g']]]\nmath concept: Write a problem about linear equations in one variable.",
+      "statement": "Solve the following linear equation for g: \n74 = ((91 * g) - 24)",
+      "new symbolic struct": "[[var 74 = ((91 * g) - 24)]]\n[[question n = ['g']]]",
+      "answer": "14/13",
+      "tag": "original problem"
+    }
+  ]
+]

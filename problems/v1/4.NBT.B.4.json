@@ -1,0 +1,2326 @@
+[
+  [
+    {
+      "id": "4.NBT.B.4-0-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var k = (5840 - 1699)]]\n[[question j = ['k']]]\ntheme: Forest",
+      "statement": "In a forest, there were originally 5840 trees. Over the course of a year, 1699 trees were cut down. How many trees remain in the forest now?",
+      "new symbolic struct": "[[var o = 5840]]\n[[var c = 1699]]\n[[question r = ['o - c']]]",
+      "answer": "4141",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-0-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var k = (5840 - 1699)]]\n[[var s = 1702]]\n[[question v = ['(k + s)']]]\ntheme: Forest",
+      "statement": "Following the initial deforestation, an environmental group came to replant the forest. They managed to plant 1702 new trees in the forest area. Combining these newly planted trees with the existing ones, how many trees are in the forest now?",
+      "new symbolic struct": "[[var o = 5840]]\n[[var c = 1699]]\n[[var n = (o - c)]]\n[[var p = 1702]]\n[[question t = ['n + p']]]",
+      "answer": "5843",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-0-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var k = (6331 - 1699)]]\n[[question j = ['k']]]\ntheme: Forest",
+      "statement": "In the previous example, the forest originally had 5840 trees. But what if there were actually more trees before they were cut down? Assume the forest actually had 6331 trees originally. With the same number of trees (1699) cut down, how many trees would there then be in the forest now?",
+      "new symbolic struct": "[[var o = 6331]]\n[[var c = 1699]]\n[[question r = ['o - c']]]",
+      "answer": "4632",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-1-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var x = (4058 - 3879)]]\n[[question b = ['x']]]\ntheme: Color",
+      "statement": "A company has 4058 litres of red paint. They use 3879 litres for a large project. How many litres of red paint are left?",
+      "new symbolic struct": "[[var r = 4058]]\n[[var l = 3879]]\n[[question p = ['r - l']]]",
+      "answer": "179",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-1-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var x = (4058 - 1779)]]\n[[question b = ['x']]]\ntheme: Color",
+      "statement": "After they used some paint for a large project, the company realized they actually used less paint than they originally thought. They only used 1779 litres of red paint instead of the previously thought 4058 litres. How many litres of red paint does the company now realize they have left?",
+      "new symbolic struct": "[[var t = 4058]]\n[[var u = 1779]]\n[[question p = ['t - u']]]",
+      "answer": "2279",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-2-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var v = (3706 + 4404)]]\n[[question y = ['v']]]\ntheme: Door",
+      "statement": "A door production company made 3706 doors in their first factory and made 4404 more doors in their second factory. How many doors did the company manufacture in total from both factories?",
+      "new symbolic struct": "[[var d1 = 3706]]\n[[var d2 = 4404]]\n[[question d_total = ['d1 + d2']]]",
+      "answer": "8110",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-2-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var v = (3706 + 4404)]]\n[[var z = (v - 7730)]]\n[[question w = ['z']]]\ntheme: Door",
+      "statement": "After the door production company made a total of 3706 doors in their first factory and 4404 doors in their second factory, they decided to distribute 7730 doors to various stores across the country. How many doors does the company have left after distribution?",
+      "new symbolic struct": "[[var d1 = 3706]]\n[[var d2 = 4404]]\n[[var d_total = d1 + d2]]\n[[var distributed = 7730]]\n[[question d_left = ['d_total - distributed']]]",
+      "answer": "380",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-2-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var v = (3706 + 4380)]]\n[[question y = ['v']]]\ntheme: Door",
+      "statement": "Suppose that the door production company actually made 3706 doors in their first factory and 4380 doors, not 4404, in their second factory. How many doors did the company manufacture in total from both factories under this new scenario?",
+      "new symbolic struct": "[[var d1_new = 3706]]\n[[var d2_new = 4380]]\n[[question d_total_new = ['d1_new + d2_new']]]",
+      "answer": "8086",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-3-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var e = (1455 + 4020)]]\n[[question o = ['e']]]\ntheme: Gift",
+      "statement": "A philanthropist decided to donate a certain number of presents to two children's hospitals. She donated 1455 gifts to the first hospital and 4020 gifts to the second hospital. How many gifts did she donate in total?",
+      "new symbolic struct": "[[var h1 = 1455]]\n[[var h2 = 4020]]\n[[question g = ['h1 + h2']]]",
+      "answer": "5475",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-3-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var e = (1455 + 3085)]]\n[[question o = ['e']]]\ntheme: Gift",
+      "statement": "Instead of donating 4020 gifts as originally planned, the philanthropist only managed to donate 3085 gifts to the second hospital. How many gifts did she donate in total to the two children's hospitals then?",
+      "new symbolic struct": "[[var h1 = 1455]]\n[[var h2_revised = 3085]]\n[[question g_revised = ['h1 + h2_revised']]]",
+      "answer": "4540",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-4-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var v = (1939 + 3346)]]\n[[question x = ['v']]]\ntheme: River",
+      "statement": "In two mutually exclusive regions along a river, naturalists identified a large number of fish species. In one region, there were 1939 different species, and in the second region, they identified 3346 different species. How many different fish species were identified in total?",
+      "new symbolic struct": "[[var a = 1939]]\n[[var b = 3346]]\n[[question c = ['a + b']]]",
+      "answer": "5285",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-4-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var v = (1939 + 3346)]]\n[[var f = (v - 4641)]]\n[[question d = ['f']]]\ntheme: River",
+      "statement": "In two mutually exclusive regions along a river, naturalists identified a large number of fish species. In one region, there were 1939 different species, and in the second region, they identified 3346 different species. How many different fish species were identified in total?\n\nLater, it was found out that 4641 species were duplicated in the count. How many unique fish species were actually identified in the two regions?",
+      "new symbolic struct": "[[var a = 1939]]\n[[var b = 3346]]\n[[var c = a + b]]\n[[var d = 4641]]\n[[question e = ['c - d']]]",
+      "answer": "644",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-4-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var v = (1939 + 7428)]]\n[[question x = ['v']]]\ntheme: River",
+      "statement": "In two mutually exclusive regions along a river, naturalists identified a large number of fish species. In one region, there were 1939 different species, and in the second region, they identified 3346 different species. \n\nLater, they realized that there was a mistake in their initial count from the second region, and it was actually found out that there were 7428 unique species. How many different fish species were actually identified in total from both regions?",
+      "new symbolic struct": "[[var a = 1939]]\n[[var b = 7428]]\n[[question c = ['a + b']]]",
+      "answer": "9367",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-5-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var w = (2489 + 4691)]]\n[[question f = ['w']]]\ntheme: Car",
+      "statement": "As an auto manufacturing plant, you had a very productive day and produced 2489 cars during the morning shift. During the afternoon shift, you managed to produce another 4691 cars. How many cars were produced in total on this high-output day?",
+      "new symbolic struct": "[[var a = 2489]]\n[[var b = 4691]]\n[[question c = ['a + b']]]",
+      "answer": "7180",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-5-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var w = (2489 + 4691)]]\n[[var u = (1859 + w)]]\n[[question d = ['u']]]\ntheme: Car",
+      "statement": "After manufacturing 2489 cars during the morning shift and 4691 cars in the afternoon shift, the auto plant had to continue production into the night due to high demand. During the night shift, they produced an additional 1859 cars. What is the total number of cars that the plant produced during this extremely busy day?",
+      "new symbolic struct": "[[var a = 2489]]\n[[var b = 4691]]\n[[var n = 1859]]\n[[question total = ['a + b + n']]]",
+      "answer": "9039",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-5-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var w = (3846 + 4691)]]\n[[question f = ['w']]]\ntheme: Car",
+      "statement": "Let's consider that, instead of producing 2489 cars during the morning shift as previously thought, the auto manufacturing plant actually manufactured 3846 cars due to an error in the initial report. If they still produced 4691 cars in the afternoon shift, how many cars were produced in total during the day shift?\n",
+      "new symbolic struct": "[[var a_corrected = 3846]]\n[[var b = 4691]]\n[[question c_corrected = ['a_corrected + b']]]",
+      "answer": "8537",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-6-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var j = (4691 - 1428)]]\n[[question x = ['j']]]\ntheme: Computer",
+      "statement": "A computer manufacturer had 4691 units in its inventory. It sold 1428 units. How many units are left in the computer manufacturer's inventory?",
+      "new symbolic struct": "[[var u = 4691]]\n[[var s = 1428]]\n[[question r = ['u - s']]]",
+      "answer": "3263",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-6-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var j = (4691 - 1428)]]\n[[var q = (j + 1132)]]\n[[question b = ['q']]]\ntheme: Computer",
+      "statement": "After selling 1428 units from an initial inventory of 4691, the computer manufacturer received a new shipment with an addition of 1132 units. After this new shipment, how many units are currently in the computer manufacturer's inventory?",
+      "new symbolic struct": "[[var u = 4691]]\n[[var s = 1428]]\n[[var n = u - s]]\n[[var add = 1132]]\n[[question c = ['n + add']]]",
+      "answer": "4395",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-7-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (4394 + 2693)]]\n[[question z = ['p']]]\ntheme: Juice",
+      "statement": "A juice company produces 4394 gallons of apple juice and 2693 gallons of orange juice. How many gallons of juice did they produce in total?",
+      "new symbolic struct": "[[var a = 4394]]\n[[var o = 2693]]\n[[question t = ['a + o']]]",
+      "answer": "7087",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-7-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (4394 + 2693)]]\n[[var k = (p - 110)]]\n[[question t = ['k']]]\ntheme: Juice",
+      "statement": "After producing all the juice, the juice company sold 110 gallons during a tasting event at their factory. How many gallons of juice did they have left after the event?",
+      "new symbolic struct": "[[var a = 4394]]\n[[var o = 2693]]\n[[var t = a + o]]\n[[var s = 110]]\n[[question j_left = ['t - s']]]",
+      "answer": "6977",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-7-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (4394 + 1780)]]\n[[question z = ['p']]]\ntheme: Juice",
+      "statement": "Imagine if instead of 2693 gallons, the juice company initially produced 1780 gallons of orange juice. Given that the apple juice production remains the same, how many gallons of juice did they produce in total now?",
+      "new symbolic struct": "[[var a = 4394]]\n[[var o = 1780]]\n[[question t = ['a + o']]]",
+      "answer": "6174",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-8-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (2709 + 5263)]]\n[[question j = ['m']]]\ntheme: Baby",
+      "statement": "In the year 2020, the number of baby boys born in a particular city was 2709, and the number of baby girls was 5263. How many babies were born in total in that city during the year 2020?",
+      "new symbolic struct": "[[var b = 2709]]\n[[var g = 5263]]\n[[question t = ['b + g']]]",
+      "answer": "7972",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-8-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (2709 + 5263)]]\n[[var g = (m - 394)]]\n[[question s = ['g']]]\ntheme: Baby",
+      "statement": "Continuing from the previous scenario, if out of the total babies born, 394 were twins, how many single-birth babies were born in the city in the year 2020?",
+      "new symbolic struct": "[[var b = 2709]]\n[[var g = 5263]]\n[[var t = b + g]]\n[[var tw = 394]]\n[[question s = ['t - tw']]]",
+      "answer": "7578",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-8-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (1241 + 5263)]]\n[[question j = ['m']]]\ntheme: Baby",
+      "statement": "Continuing from the previous scenarios, let's now consider a different year. In the year 2021, the number of baby boys born in the same city was 1241, while the number of baby girls remained the same at 5263. How many babies were born in total in the city during the year 2021?",
+      "new symbolic struct": "[[var b1 = 1241]]\n[[var g1 = 5263]]\n[[question t1 = ['b1 + g1']]]",
+      "answer": "6504",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-9-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var q = (5682 - 5079)]]\n[[question r = ['q']]]\ntheme: Train",
+      "statement": "A train was originally carrying 5682 passengers. At a stop, 5079 passengers got off. How many passengers are left on the train?",
+      "new symbolic struct": "[[var a = 5682]]\n[[var b = 5079]]\n[[question c = ['a - b']]]",
+      "answer": "603",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-9-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var q = (5682 - 2281)]]\n[[question r = ['q']]]\ntheme: Train",
+      "statement": "Let's revisit the initial scenario with a slight change. Suppose initially the train was carrying the same number of 5682 passengers, but this time, only 2281 passengers got off at the stop instead of 5079. Now, how many passengers are left on the train?",
+      "new symbolic struct": "[[var a = 5682]]\n[[var d = 2281]]\n[[question e = ['a - d']]]",
+      "answer": "3401",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-10-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (4012 + 882)]]\n[[question m = ['p']]]\ntheme: Toothpaste",
+      "statement": "A toothpaste factory produced 4012 tubes of toothpaste in the morning shift. It increased its production and made 882 more tubes in the afternoon shift. How many tubes of toothpaste did the factory produce in a single day?",
+      "new symbolic struct": "[[var m = 4012]]\n[[var a = 882 + m]]\n[[question t = ['a']]]",
+      "answer": "4894",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-10-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (4012 + 882)]]\n[[var q = (p - 1734)]]\n[[question w = ['q']]]\ntheme: Toothpaste",
+      "statement": "Continuing from the previous scenario: The toothpaste factory produced 4012 tubes of toothpaste in the morning shift and 882 more in the afternoon shift. However, 1734 tubes were found to be defective and had to be discarded. How many tubes of toothpaste were left after discarding the defective ones?",
+      "new symbolic struct": "[[var m = 4012]]\n[[var a = (882 + m)]]\n[[var d = 1734]]\n[[var r = a - d]]\n[[question l = ['r']]]",
+      "answer": "3160",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-10-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (1296 + 882)]]\n[[question m = ['p']]]\ntheme: Toothpaste",
+      "statement": "In light of the problem with defective tubes, the toothpaste factory adjusted their production process. In the morning shift, they produced 1296 tubes of toothpaste. In the afternoon shift, they still managed to produce 882 tubes. How many tubes of toothpaste did the factory produce in a day after adjusting the production process?",
+      "new symbolic struct": "[[var n = 1296]]\n[[var o = 882]]\n[[var p = n + o]]\n[[question t = ['p']]]",
+      "answer": "2178",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-11-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var j = (4641 + 4818)]]\n[[question b = ['j']]]\ntheme: Backpack",
+      "statement": "There are two factories that each produce backpacks. One factory produces 4641 backpacks, and the other produces 4818 bags. How many backpacks do the factories produce altogether?",
+      "new symbolic struct": "[[var f1 = 4641]]\n[[var f2 = 4818]]\n[[question total = ['f1 + f2']]]",
+      "answer": "9459",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-11-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var j = (4641 + 4818)]]\n[[var a = (j - 9235)]]\n[[question t = ['a']]]\ntheme: Backpack",
+      "statement": "In the previous problem, the two factories produced a total of 4641 and 4818 backpacks. If 9235 backpacks were sold, how many backpacks remain after the sales?",
+      "new symbolic struct": "[[var f1 = 4641]]\n[[var f2 = 4818]]\n[[var total = f1 + f2]]\n[[var sold = 9235]]\n[[question remain = ['total - sold']]]",
+      "answer": "224",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-11-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var j = (1444 + 4818)]]\n[[question b = ['j']]]\ntheme: Backpack",
+      "statement": "In the previous problem, there were 4641 backpacks from the first factory. Suppose the first factory only produced 1444 backpacks, with the second factory still producing 4818 backpacks. How many backpacks would then be produced in total by the two factories?",
+      "new symbolic struct": "[[var f1_new = 1444]]\n[[var f2 = 4818]]\n[[question total_new = ['f1_new + f2']]]",
+      "answer": "6262",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-12-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var w = (880 + 6977)]]\n[[question p = ['w']]]\ntheme: Cat",
+      "statement": "A cat rescue center started with 880 cats. During the year, the center was able to rescue 6977 more cats. How many cats did the rescue center have in total after one year?",
+      "new symbolic struct": "[[var a = 880]]\n[[var b = 6977]]\n[[question c = ['a + b']]]",
+      "answer": "7857",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-12-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var w = (880 + 6977)]]\n[[var l = (w - 2854)]]\n[[question h = ['l']]]\ntheme: Cat",
+      "statement": "Following up on the previous question, the cat rescue center found homes for 2854 of the cats that were remaining. How many cats are still waiting to be adopted from the rescue center?",
+      "new symbolic struct": "[[var a = 880]]\n[[var b = 6977]]\n[[var t = a + b]]\n[[var r = 2854]]\n[[question d = ['t - r']]]",
+      "answer": "5003",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-12-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var w = (2476 + 6977)]]\n[[question p = ['w']]]\ntheme: Cat",
+      "statement": "In retrospect, the cat rescue center realized that they initially miscounted the number of cats that started in the shelter. They actually started with 2476 cats, not 880, but still rescued another 6977 cats during the year. Considering this new information, how many cats did the rescue center have in total after one year?",
+      "new symbolic struct": "[[var a = 2476]]\n[[var b = 6977]]\n[[question c = ['a + b']]]",
+      "answer": "9453",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-13-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var i = (4689 + 2372)]]\n[[question c = ['i']]]\ntheme: Truck",
+      "statement": "In a truck manufacturing company, 4689 trucks were produced in the first quarter of the year, and 2372 trucks were produced in the second quarter. How many trucks did the company produce in the first two quarters of the year combined?",
+      "new symbolic struct": "[[var f = 4689]]\n[[var s = 2372]]\n[[question t = ['f + s']]]",
+      "answer": "7061",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-13-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var i = (4689 + 2372)]]\n[[var x = (i + 2086)]]\n[[question d = ['x']]]\ntheme: Truck",
+      "statement": "Continuing from the previous question, if the truck manufacturing company further produced 2086 trucks in the third quarter, what would be the total number of trucks produced in the first three quarters of the year?",
+      "new symbolic struct": "[[var f = 4689]]\n[[var s = 2372]]\n[[var t = (f + s)]]\n[[var u = 2086]]\n[[question v = ['t + u']]]",
+      "answer": "9147",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-13-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var i = (4689 + 3702)]]\n[[question c = ['i']]]\ntheme: Truck",
+      "statement": "Following up on our previous scenario, suppose the truck manufacturing company had actually produced 3702 trucks instead of 2372 trucks in the second quarter. If they had still produced 4689 trucks in the first quarter, how many trucks would they then have produced during the first two quarters combined?",
+      "new symbolic struct": "[[var f = 4689]]\n[[var s2 = 3702]]\n[[question t2 = ['f + s2']]]",
+      "answer": "8391",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-14-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (4610 - 3109)]]\n[[question a = ['p']]]\ntheme: Sunglasses",
+      "statement": "A sunglasses manufacturing company had 4610 sunglasses in the morning. Throughout the day, 3109 sunglasses were sold. How many sunglasses are left unsold?",
+      "new symbolic struct": "[[var t = 4610]]\n[[var s = 3109]]\n[[question u = ['t - s']]]",
+      "answer": "1501",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-14-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (3208 - 3109)]]\n[[question a = ['p']]]\ntheme: Sunglasses",
+      "statement": "As a follow-up to the previous scenario: suppose that at the beginning of the day, the sunglasses manufacturer only had 3208 sunglasses instead of 4610. After selling 3109 sunglasses, how many would they have left?",
+      "new symbolic struct": "[[var q = 3208]]\n[[var r = 3109]]\n[[question e = ['q - r']]]",
+      "answer": "99",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-15-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (9292 - 888)]]\n[[question u = ['m']]]\ntheme: Flower",
+      "statement": "A garden had a total of 9292 flowers. However, 888 of them wilted due to changes in the weather. How many flowers are left in the garden?",
+      "new symbolic struct": "[[var t = 9292]]\n[[var w = 888]]\n[[question f = ['t - w']]]",
+      "answer": "8404",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-16-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (5203 - 766)]]\n[[question o = ['r']]]\ntheme: Bottle",
+      "statement": "The recycling plant had 5203 plastic bottles in total. After processing them, there were 766 bottles left unprocessed. How many plastic bottles did they process in total?",
+      "new symbolic struct": "[[var t = 5203]]\n[[var u = 766]]\n[[question p = ['t - u']]]",
+      "answer": "4437",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-16-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (3913 - 766)]]\n[[question o = ['r']]]\ntheme: Bottle",
+      "statement": "If the recycling plant initially had 3913 plastic bottles instead of 5203, how many bottles did they process after taking into consideration that they still had 766 unprocessed bottles left?",
+      "new symbolic struct": "[[var t = 3913]]\n[[var u = 766]]\n[[question p = ['t - u']]]",
+      "answer": "3147",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-18-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var d = (676 + 2709)]]\n[[question m = ['d']]]\ntheme: Lemon",
+      "statement": "In a year, a lemon tree produced 676 lemons. The following year it produced 2709 lemons. How many lemons did it yield in these two years?",
+      "new symbolic struct": "[[var a = 676]]\n[[var b = 2709]]\n[[question c = ['a + b']]]",
+      "answer": "3385",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-18-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var d = (676 + 2709)]]\n[[var e = (d + d)]]\n[[question s = ['e']]]\ntheme: Lemon",
+      "statement": "In one particular orchard, there are two identical lemon trees. If each tree produced the same number of lemons as in the previous question, how many lemons did the two trees produce in total over these two years?",
+      "new symbolic struct": "[[var a = 676]]\n[[var b = 2709]]\n[[var d = (a + b)]]\n[[var e = 2]]\n[[question f = ['d * e']]]",
+      "answer": "6770",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-18-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var d = (676 + 5628)]]\n[[question m = ['d']]]\ntheme: Lemon",
+      "statement": "In the following year, the lemon production spiked dramatically. One of the trees produced 5628 lemons instead of the 2709 lemons it produced in the previous two years. If the other tree continued to produce 676 lemons as before, how many lemons did they yield in total during this year?",
+      "new symbolic struct": "[[var a = 676]]\n[[var b = 5628]]\n[[question c = ['a + b']]]",
+      "answer": "6304",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-19-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var l = (8908 - 2801)]]\n[[question m = ['l']]]\ntheme: Baby",
+      "statement": "There were 8908 baby items on sale at a local store. After a busy day, they sold 2801 items. How many baby items were left for sale?",
+      "new symbolic struct": "[[var s = 8908]]\n[[var d = 2801]]\n[[question l = ['s - d']]]",
+      "answer": "6107",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-20-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var o = (3272 + 1862)]]\n[[question p = ['o']]]\ntheme: Telescope",
+      "statement": "An astronomer used his telescope to observe 3272 stars in one hemisphere of the sky. Then he observed 1862 stars in the other hemisphere. How many stars did he observe in total?",
+      "new symbolic struct": "[[var h = 3272]]\n[[var u = 1862]]\n[[question x = ['h + u']]]",
+      "answer": "5134",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-21-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var k = (2410 + 6445)]]\n[[question a = ['k']]]\ntheme: Door",
+      "statement": "A door manufacturer produced 2410 doors one month and then produced another 6445 doors the following month. How many doors in total did the manufacturer produce in these two months?",
+      "new symbolic struct": "[[var a = 2410]]\n[[var b = 6445]]\n[[question t = ['a + b']]]",
+      "answer": "8855",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-21-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var k = (2410 + 6445)]]\n[[var n = (k - 3511)]]\n[[question z = ['n']]]\ntheme: Door",
+      "statement": "After the door manufacturer produced a total of 2410 in one month and 6445 in the next month, they ended up selling 3511 doors. How many doors does the manufacturer have left after these sales?",
+      "new symbolic struct": "[[var a = 2410]]\n[[var b = 6445]]\n[[var s = 3511]]\n[[question l = ['a + b - s']]]",
+      "answer": "5344",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-21-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var k = (2410 + 6506)]]\n[[question a = ['k']]]\ntheme: Door",
+      "statement": "If the door manufacturer had initially produced 2410 doors in one month and then adjusted their operations to produce more, making 6506 doors the following month instead of 6445, how many doors in total would they have produced in these two months?",
+      "new symbolic struct": "[[var a = 2410]]\n[[var b = 6506]]\n[[question t = ['a + b']]]",
+      "answer": "8916",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-22-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var h = (6458 - 6399)]]\n[[question s = ['h']]]\ntheme: Starfish",
+      "statement": "In an aquatic study, researchers found 6458 starfish. However, 6399 starfish were affected by certain environmental conditions. How many starfish were not affected?",
+      "new symbolic struct": "[[var a = 6458]]\n[[var b = 6399]]\n[[question n = ['a - b']]]",
+      "answer": "59",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-22-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var h = (6458 - 2346)]]\n[[question s = ['h']]]\ntheme: Starfish",
+      "statement": "The researchers revised their initial findings and determined that the number of starfish affected by the environmental conditions was actually 2346, not 6399. Given this correction, how many starfish were unaffected in the original location?",
+      "new symbolic struct": "[[var a = 6458]]\n[[var c = 2346]]\n[[question n = ['a - c']]]",
+      "answer": "4112",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-23-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var z = (2013 + 1650)]]\n[[question e = ['z']]]\ntheme: Pants",
+      "statement": "A popular clothing store sold 2013 blue jeans and 1650 khaki pants. How many total pairs of pants did they sell?",
+      "new symbolic struct": "[[var b = 2013]]\n[[var k = 1650]]\n[[question t = ['b + k']]]",
+      "answer": "3663",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-23-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var z = (2013 + 1650)]]\n[[var p = (1400 + z)]]\n[[question b = ['p']]]\ntheme: Pants",
+      "statement": "A popular clothing store sold 2013 blue jeans and 1650 khaki pants in the first quarter of the year. In the second quarter of the year, they sold an additional 1400 pants. How many total pairs of pants did they sell across these two quarters?",
+      "new symbolic struct": "[[var b = 2013]]\n[[var k = 1650]]\n[[var q1 = b + k]]\n[[var q2 = 1400]]\n[[question t = ['q1 + q2']]]",
+      "answer": "5063",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-23-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var z = (2013 + 3298)]]\n[[question e = ['z']]]\ntheme: Pants",
+      "statement": "The clothing store sold 2013 blue jeans and 1650 khaki pants in the first quarter of the year. But what if the second quarter sales did not add 1400 more pants, but instead, the store had sold 3298 khaki pants in the first quarter instead of 1650? How many total pairs of pants did they sell in the first quarter then?",
+      "new symbolic struct": "[[var b = 2013]]\n[[var k = 3298]]\n[[question t = ['b + k']]]",
+      "answer": "5311",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-24-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (2987 + 3554)]]\n[[question e = ['m']]]\ntheme: Sun",
+      "statement": "In one part of the Sun, there are 2987 atoms in a small area. In another part, there are 3554 atoms in a similar small area. How many atoms are there in total in the two areas?",
+      "new symbolic struct": "[[var a = 2987]]\n[[var b = 3554]]\n[[question total_atoms = ['a + b']]]",
+      "answer": "6541",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-24-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (2987 + 3554)]]\n[[var t = (m - 1291)]]\n[[question b = ['t']]]\ntheme: Sun",
+      "statement": "In one part of the Sun, there are 2987 atoms in a small area. In another part, there are 3554 atoms in a similar small area. How many atoms are there in total in the two areas? Subsequently, a solar flare carried away 1291 atoms from these areas. How many atoms are left after the solar flare?",
+      "new symbolic struct": "[[var a = 2987]]\n[[var b = 3554]]\n[[var total_atoms = a + b]]\n[[var left_atoms = total_atoms - 1291]]\n[[question l = ['left_atoms']]]",
+      "answer": "5250",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-24-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (2987 + 5421)]]\n[[question e = ['m']]]\ntheme: Sun",
+      "statement": "In one part of the Sun, there are 2987 atoms in a small area. In another part, there are 3554 atoms in a similar small area. How many atoms are there in total in the two areas?\n\nNow consider a different scenario in another part of the Sun where there are 2987 atoms in a small area. In a neighbouring part, there are 5421 atoms in a similar small area instead of the previously considered 3554 atoms. How many atoms are there in total in these two areas?",
+      "new symbolic struct": "[[var c = 2987]]\n[[var d = 5421]]\n[[question total_atoms_new = ['c + d']]]",
+      "answer": "8408",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-25-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var g = (8475 - 4496)]]\n[[question m = ['g']]]\ntheme: Treasure",
+      "statement": "A pirate found a treasure worth 8475 gold coins. However, another pirate was already claiming 4496 of those coins. How many gold coins would the first pirate have after giving the second pirate his share?",
+      "new symbolic struct": "[[var t = 8475]]\n[[var c = 4496]]\n[[question r = ['t - c']]]",
+      "answer": "3979",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-25-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var g = (9328 - 4496)]]\n[[question m = ['g']]]\ntheme: Treasure",
+      "statement": "The first pirate realized that he miscounted his original treasure. It was not 8475 gold coins, but 9328 gold coins. After still giving the second pirate his share of 4496 coins, how many gold coins did the first pirate actually have in the beginning?",
+      "new symbolic struct": "[[var t = 9328]]\n[[var c = 4496]]\n[[question r = ['t - c']]]",
+      "answer": "4832",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-26-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (6761 - 1458)]]\n[[question b = ['m']]]\ntheme: Sock",
+      "statement": "A sock company had 6761 pairs of socks in its inventory. Then it sold 1458 pairs. How many pairs of socks are left in the inventory?",
+      "new symbolic struct": "[[var i = 6761]]\n[[var s = 1458]]\n[[question r = ['i - s']]]",
+      "answer": "5303",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-26-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (6761 - 1458)]]\n[[var a = (m - 3328)]]\n[[question l = ['a']]]\ntheme: Sock",
+      "statement": "After the sock company sold 1458 pairs of socks out of 6761 pairs, the company decided to donate another 3328 pairs to charity. How many pairs of socks are left in the inventory after the donation?",
+      "new symbolic struct": "[[var i = 6761]]\n[[var s = 1458]]\n[[var r = i - s]]\n[[var d = 3328]]\n[[question l = ['r - d']]]",
+      "answer": "1975",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-26-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (6761 - 537)]]\n[[question b = ['m']]]\ntheme: Sock",
+      "statement": "Instead of selling 1458 pairs of socks, the sock company only managed to sell 537 pairs out of the initial 6761 pairs. How many pairs of socks are left in the inventory in this scenario?",
+      "new symbolic struct": "[[var i = 6761]]\n[[var s = 537]]\n[[question r = ['i - s']]]",
+      "answer": "6224",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-27-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var y = (8412 + 197)]]\n[[question w = ['y']]]\ntheme: Pizza",
+      "statement": "A pizza place had 8412 boxes of pizza in their store. They received a new delivery of 197 boxes. How many boxes of pizza are now in the store?",
+      "new symbolic struct": "[[var s = 8412]]\n[[var d = 197]]\n[[question n = ['s + d']]]",
+      "answer": "8609",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-27-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var y = (5292 + 197)]]\n[[question w = ['y']]]\ntheme: Pizza",
+      "statement": "What if the pizza place originally had 5292 boxes of pizza in their store, instead of 8412, before they received the 197 new pizza boxes? How many boxes of pizza are then in the store?",
+      "new symbolic struct": "[[var o = 5292]]\n[[var d = 197]]\n[[question n = ['o + d']]]",
+      "answer": "5489",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-28-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var e = (2976 + 2500)]]\n[[question t = ['e']]]\ntheme: Moon",
+      "statement": "The moon is approximately 2976 kilometers away from the nearest satellite and 2500 kilometers away from the farthest one. What is the total distance, in kilometers, covered by the moon to the satellites?",
+      "new symbolic struct": "[[var a = 2976]]\n[[var b = 2500]]\n[[question c = ['a + b']]]",
+      "answer": "5476",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-28-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var e = (2976 + 2500)]]\n[[var c = (4188 + e)]]\n[[question j = ['c']]]\ntheme: Moon",
+      "statement": "After the moon has covered a distance of 2976 kilometers to the nearest satellite and 2500 kilometers to the furthest, it then travels an additional 4188 kilometers to another satellite. What is the total distance, in kilometers, covered by the moon to reach all three satellites?",
+      "new symbolic struct": "[[var a = 2976]]\n[[var b = 2500]]\n[[var c = 4188]]\n[[question d = ['a + b + c']]]",
+      "answer": "9664",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-28-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var e = (5822 + 2500)]]\n[[question t = ['e']]]\ntheme: Moon",
+      "statement": "After reconsidering the data, it was found that the moon's distance to the nearest satellite was actually 5822 kilometers, not 2976 kilometers, but the distance to the farthest remained 2500 kilometers. What would the total distance, in kilometers, covered by the moon to reach the two satellites be considering this new information?",
+      "new symbolic struct": "[[var a = 5822]]\n[[var b = 2500]]\n[[question c = ['a + b']]]",
+      "answer": "8322",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-29-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var i = (6374 + 93)]]\n[[question y = ['i']]]\ntheme: Toothbrush",
+      "statement": "A toothbrush manufacturing company produced 6374 toothbrushes last month. This month, they increased production and made 93 more toothbrushes than last month. What's the total number of toothbrushes the company made this month?",
+      "new symbolic struct": "[[var p = 6374]]\n[[var n = p + 93]]\n[[question t = ['n']]]",
+      "answer": "6467",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-29-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var i = (6374 + 93)]]\n[[var j = (i - 5927)]]\n[[question l = ['j']]]\ntheme: Toothbrush",
+      "statement": "Following on from the previous problem:\n\nAfter the toothbrush manufacturing company produced a total number of toothbrushes this month, they distributed 5927 toothbrushes to various pharmacies. How many toothbrushes are left with the company after distribution?",
+      "new symbolic struct": "[[var p = 6374]]\n[[var n = p + 93]]\n[[var d = 5927]]\n[[var l = n - d]]\n[[question t = ['l']]]",
+      "answer": "540",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-29-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var i = (6374 + 2933)]]\n[[question y = ['i']]]\ntheme: Toothbrush",
+      "statement": "In a revision to the previous problem:\n\nSuppose that, last month, the toothbrush manufacturing company actually produced 6374 toothbrushes, and this month, they increased production by an even larger margin and made 2933 more toothbrushes than last month. What would be the new total number of toothbrushes the company made this month?",
+      "new symbolic struct": "[[var p = 6374]]\n[[var n = p + 2933]]\n[[question t = ['n']]]",
+      "answer": "9307",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-30-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var q = (5619 + 1220)]]\n[[question k = ['q']]]\ntheme: Telescope",
+      "statement": "An astronomical observatory has 5619 telescopes of one model and 1220 of another. How many telescopes does the observatory have in total?",
+      "new symbolic struct": "[[var a = 5619]]\n[[var b = 1220]]\n[[question c = ['a + b']]]",
+      "answer": "6839",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-30-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var q = (8547 + 1220)]]\n[[question k = ['q']]]\ntheme: Telescope",
+      "statement": "Suppose initially the observatory only had 8547 telescopes of one model instead of 5619, but still had 1220 of another model. How many telescopes would the observatory have had in total at the start in this case?",
+      "new symbolic struct": "[[var d = 8547]]\n[[var b = 1220]]\n[[question e = ['d + b']]]",
+      "answer": "9767",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-31-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var k = (4165 - 3908)]]\n[[question a = ['k']]]\ntheme: Slide",
+      "statement": "The highest slide in the park has 4165 steps to reach the top of it, but the third highest slide has 3908 steps. How many more steps are there to the top of the highest slide compared to the third highest slide?",
+      "new symbolic struct": "[[var h = 4165]]\n[[var t = 3908]]\n[[question s = ['h - t']]]",
+      "answer": "257",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-31-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var k = (8890 - 3908)]]\n[[question a = ['k']]]\ntheme: Slide",
+      "statement": "In the previous problem, we looked at how many more steps the highest slide had compared to the third highest slide. Suppose now we know that the absolutely tallest slide in the entire city, not just the park, has 8890 steps. How many more steps does the tallest slide in the city have compared to the third highest slide in the park?",
+      "new symbolic struct": "[[var c = 8890]]\n[[var t = 3908]]\n[[question s = ['c - t']]]",
+      "answer": "4982",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-32-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (5259 - 4407)]]\n[[question l = ['b']]]\ntheme: Clock",
+      "statement": "There is a special clock that counts seconds instead of hours, minutes, and seconds. The clock started counting from 0 and after some time the clock showed 5259 seconds. When Roberta looked at the clock, it showed 4407 seconds. How many seconds passed from when Roberta checked the time to the current clock reading?",
+      "new symbolic struct": "[[var r = 4407]]\n[[var c = 5259]]\n[[question s = ['c - r']]]",
+      "answer": "852",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-32-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (5259 - 4407)]]\n[[var k = (b + 4087)]]\n[[question o = ['k']]]\ntheme: Clock",
+      "statement": "Following the previous scenario: there is a special clock that counts seconds instead of hours, minutes, and seconds. The clock started counting from 0 and after some time the clock showed 5259 seconds. When Roberta looked at the clock, it showed 4407 seconds. \n\nAs a continuation, suppose that after Roberta's check, she spent 4087 additional seconds completing a task. Combining the time she spent on the task and the time that had passed since she checked, how many seconds total had passed since she first checked the clock?",
+      "new symbolic struct": "[[var r = 4407]]\n[[var c = 5259]]\n[[var s = c - r]]\n[[var t = 4087]]\n[[question total = ['s + t']]]",
+      "answer": "4939",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-32-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (7840 - 4407)]]\n[[question l = ['b']]]\ntheme: Clock",
+      "statement": "Following up on the previous scenario: there is a special clock that counts seconds instead of hours, minutes, and seconds. The clock started counting from 0 and after some time the clock showed 7840 seconds instead of 5259 as in the previous case. When Roberta looked at the clock, it showed 4407 seconds as before.\n\nWith this change, how many seconds passed from when Roberta checked the time to the current clock reading?",
+      "new symbolic struct": "[[var r = 4407]]\n[[var c_new = 7840]]\n[[question s_new = ['c_new - r']]]",
+      "answer": "3433",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-33-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var z = (8903 - 6988)]]\n[[question r = ['z']]]\ntheme: Dog",
+      "statement": "The local dog shelter has 8903 dogs at the beginning of the year. By the end of the year, 6988 dogs have been adopted. How many dogs are still at the shelter at the end of the year?",
+      "new symbolic struct": "[[var d = 8903]]\n[[var a = 6988]]\n[[question r = ['d - a']]]",
+      "answer": "1915",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-34-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var f = (954 + 7946)]]\n[[question b = ['f']]]\ntheme: Cheese",
+      "statement": "In Cheeseville, a local cheese factory produces 954 lbs of cheddar cheese and 7946 lbs of mozzarella cheese in a single day. How much cheese does the factory produce in total in a day?",
+      "new symbolic struct": "[[var c1 = 954]]\n[[var c2 = 7946]]\n[[question total = ['c1 + c2']]]",
+      "answer": "8900",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-34-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var f = (954 + 7946)]]\n[[var v = (f - 4212)]]\n[[question o = ['v']]]\ntheme: Cheese",
+      "statement": "In Cheeseville, a local cheese factory produces 954 lbs of cheddar cheese and 7946 lbs of mozzarella cheese in a single day. However, due to an issue in the packaging department, they were only able to package 4212 lbs of the total cheese produced. How much cheese was left unpackaged that day?",
+      "new symbolic struct": "[[var c1 = 954]]\n[[var c2 = 7946]]\n[[var total = c1 + c2]]\n[[var packed = 4212]]\n[[question unpackaged = ['total - packed']]]",
+      "answer": "4688",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-35-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var x = (2591 + 6567)]]\n[[question l = ['x']]]\ntheme: Rope",
+      "statement": "A rope manufacturer produces 2591 meters of rope in the morning. In the afternoon, they produce an additional 6567 meters. How many meters of rope did they produce in total for the day?",
+      "new symbolic struct": "[[var m = 2591]]\n[[var a = 6567]]\n[[question t = ['m + a']]]",
+      "answer": "9158",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-35-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var x = (2591 + 6567)]]\n[[var c = 3212]]\n[[question d = ['(x - c)']]]\ntheme: Rope",
+      "statement": "In addition to the rope produced earlier, the manufacturer also sold 3212 meters of rope. How many meters of rope are left after the sale?",
+      "new symbolic struct": "[[var m = 2591]]\n[[var a = 6567]]\n[[var total_rope = m + a]]\n[[var sale = 3212]]\n[[question remaining_rope = ['total_rope - sale']]]",
+      "answer": "5946",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-35-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var x = (2591 + 2397)]]\n[[question l = ['x']]]\ntheme: Rope",
+      "statement": "Suppose that in the morning, the rope manufacturer had produced 2591 meters of rope as before. However, in the afternoon they produce 2397 meters of rope instead of the 6567 meters they previously produced. How many meters of rope did they produce in total for the day now?",
+      "new symbolic struct": "[[var m = 2591]]\n[[var a = 2397]]\n[[question t = ['m + a']]]",
+      "answer": "4988",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-36-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var c = (6145 - 48)]]\n[[question v = ['c']]]\ntheme: Bed",
+      "statement": "A furniture store has 6145 bed frames in their warehouse. Later, they sold 48 bed frames. How many bed frames are remained in their warehouse after selling?",
+      "new symbolic struct": "[[var b = 6145]]\n[[var s = 48]]\n[[question r = ['b - s']]]",
+      "answer": "6097",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-36-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var c = (6145 - 48)]]\n[[var w = (1236 + c)]]\n[[question s = ['w']]]\ntheme: Bed",
+      "statement": "In addition to the bed frames, the same furniture store also received a new shipment of 1236 mattresses. How many total items (bed frames and mattresses) does the store have after selling 48 bed frames?",
+      "new symbolic struct": "[[var b = 6145]]\n[[var s = 48]]\n[[var m = 1236]]\n[[var r = (b - s)]]\n[[question t = ['r + m']]]",
+      "answer": "7333",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-36-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var c = (1371 - 48)]]\n[[question v = ['c']]]\ntheme: Bed",
+      "statement": "Imagine that originally, the furniture store had not 6145 but 1371 bed frames in their warehouse. After selling 48 bed frames, how many bed frames would be remained in their warehouse?",
+      "new symbolic struct": "[[var b = 1371]]\n[[var s = 48]]\n[[question r = ['b - s']]]",
+      "answer": "1323",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-37-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var d = (798 + 6969)]]\n[[question p = ['d']]]\ntheme: Moon",
+      "statement": "Scientists launched a rover to the moon that initially traveled 798 miles. During a significant exploration phase, the rover traveled an additional 6969 miles. How many total miles did the rover travel during its mission to the moon?",
+      "new symbolic struct": "[[var i = 798]]\n[[var e = 6969]]\n[[question t = ['i + e']]]",
+      "answer": "7767",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-37-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var d = (798 + 6969)]]\n[[var u = (253 + d)]]\n[[question k = ['u']]]\ntheme: Moon",
+      "statement": "After the rover completed its significant exploration phase, it continued to explore and traveled an additional 253 miles. How many total miles did the rover travel during its entire mission on the moon?",
+      "new symbolic struct": "[[var i = 798]]\n[[var e = 6969]]\n[[var m = 253]]\n[[question t = ['i + e + m']]]",
+      "answer": "8020",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-38-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var f = (3646 - 2304)]]\n[[question b = ['f']]]\ntheme: Kite",
+      "statement": "A crafter uses 3646 beads to create a large, intricate kite. After removing some of the beads to make the kite lighter, there are only 2304 beads left on it. How many beads did the crafter remove?",
+      "new symbolic struct": "[[var b1 = 3646]]\n[[var b2 = 2304]]\n[[question r = ['b1 - b2']]]",
+      "answer": "1342",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-39-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var u = (7776 + 449)]]\n[[question r = ['u']]]\ntheme: Princess",
+      "statement": "A princess had a collection of 7776 precious stones. On her birthday, she was gifted 449 more. How many precious stones does she have in her collection now?",
+      "new symbolic struct": "[[var a = 7776]]\n[[var b = 449]]\n[[question c = ['a + b']]]",
+      "answer": "8225",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-39-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var u = (7776 + 449)]]\n[[var x = 5386]]\n[[question z = ['(u - x)']]]\ntheme: Princess",
+      "statement": "A princess had a collection of 7776 precious stones. On her birthday, she was gifted 449 more. However, she decided to distribute 5386 stones amongst her loyal subjects. How many precious stones does she have in her collection now?",
+      "new symbolic struct": "[[var a = 7776]]\n[[var b = 449]]\n[[var t = a + b]]\n[[var d = 5386]]\n[[question c = ['t - d']]]",
+      "answer": "2839",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-39-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var u = (552 + 449)]]\n[[question r = ['u']]]\ntheme: Princess",
+      "statement": "In the previous scenario, suppose the princess originally only had 552 precious stones in her collection, rather than 7776, before receiving the gift of 449 more precious stones on her birthday. How many precious stones would she have in her collection after receiving the gift?",
+      "new symbolic struct": "[[var a = 552]]\n[[var b = 449]]\n[[question c = ['a + b']]]",
+      "answer": "1001",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-40-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var v = (9752 - 9475)]]\n[[question m = ['v']]]\ntheme: Shirt",
+      "statement": "A shirt company shipped out 9752 shirts at the beginning of the month. By the end of the month, they had 9475 shirts left in their inventory. How many shirts did they sell during the month?",
+      "new symbolic struct": "[[var t_beginning = 9752]]\n[[var t_end = 9475]]\n[[question t_sold = ['t_beginning - t_end']]]",
+      "answer": "277",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-40-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var v = (9752 - 8657)]]\n[[question m = ['v']]]\ntheme: Shirt",
+      "statement": "The shirt company reviewed their records and realized they actually had 8657 shirts left in their inventory at the end of the month, not 9475 as previously thought. How many shirts did they actually sell during the month?",
+      "new symbolic struct": "[[var t_beginning = 9752]]\n[[var t_end_correction = 8657]]\n[[question t_sold_correction = ['t_beginning - t_end_correction']]]",
+      "answer": "1095",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-41-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var c = (710 + 8962)]]\n[[question w = ['c']]]\ntheme: Hat",
+      "statement": "A hat store had 710 hats. The store received a new shipment with 8962 additional hats. How many hats does the store now have in total?",
+      "new symbolic struct": "[[var a = 710]]\n[[var b = 8962]]\n[[question c = ['a + b']]]",
+      "answer": "9672",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-41-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var c = (710 + 8962)]]\n[[var q = 9956]]\n[[question b = ['(q - c)']]]\ntheme: Hat",
+      "statement": "After the shipment, the hat store had 9956 hats in total. If the store had received 710 hats in its first shipment and 8962 hats in its second shipment, how many more hats were there in the store after the second shipment compared to before it arrived?",
+      "new symbolic struct": "[[var a = 710]]\n[[var b = 8962]]\n[[var c = 9956]]\n[[var d = (c - a)]]\n[[question e = ['d - b']]]",
+      "answer": "284",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-41-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var c = (710 + 623)]]\n[[question w = ['c']]]\ntheme: Hat",
+      "statement": "Previously, the hat store had 710 hats and received a shipment of 8962 hats. Now, let's consider a new scenario where the store initially had 710 hats but received a smaller shipment of only 623 hats. In this case, how many hats does the store have now?",
+      "new symbolic struct": "[[var a = 710]]\n[[var b = 623]]\n[[question c = ['a + b']]]",
+      "answer": "1333",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-42-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (6834 + 3108)]]\n[[question l = ['n']]]\ntheme: Farmer",
+      "statement": "A dedicated farmer has 6834 apple trees and 3108 orange trees planted on his farm. What is the total number of apple and orange trees he has?",
+      "new symbolic struct": "[[var a = 6834]]\n[[var o = 3108]]\n[[question t = ['a + o']]]",
+      "answer": "9942",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-42-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (6834 + 3108)]]\n[[var o = (n - 6418)]]\n[[question s = ['o']]]\ntheme: Farmer",
+      "statement": "After a severe storm, the farmer unfortunately lost 6418 of his trees. How many trees does he have left after the storm?",
+      "new symbolic struct": "[[var a = 6834]]\n[[var o = 3108]]\n[[var t = a + o]]\n[[var l = 6418]]\n[[question n = ['t - l']]]",
+      "answer": "3524",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-43-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var e = (8940 - 3259)]]\n[[question k = ['e']]]\ntheme: Necklace",
+      "statement": "A jewelry shop initially has 8940 beads. After making some necklaces, they are left with 3259 beads. How many beads were used to make the necklaces?",
+      "new symbolic struct": "[[var i = 8940]]\n[[var l = 3259]]\n[[question m = ['i - l']]]",
+      "answer": "5681",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-43-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var e = (8940 - 3259)]]\n[[var d = (e + 226)]]\n[[question t = ['d']]]\ntheme: Necklace",
+      "statement": "After using some beads to make necklaces, the jewelry shop still had 226 beads in a separate inventory that they hadn't counted. After adding these to the beads remaining from making necklaces, how many beads does the shop now have in total?",
+      "new symbolic struct": "[[var i = 8940]]\n[[var l = 3259]]\n[[var m = i - l]]\n[[var n = 226]]\n[[question o = ['m + n']]]",
+      "answer": "5907",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-43-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var e = (8940 - 3014)]]\n[[question k = ['e']]]\ntheme: Necklace",
+      "statement": "Initially, the jewelry shop had 8940 beads. But what if instead they used 3014 beads to make the necklaces, how many beads would the jewelry shop have after making the necklaces?",
+      "new symbolic struct": "[[var i = 8940]]\n[[var n = 3014]]\n[[question o = ['i - n']]]",
+      "answer": "5926",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-44-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var f = (411 + 4442)]]\n[[question u = ['f']]]\ntheme: Cow",
+      "statement": "A farmer in the countryside has 411 cows. One day, he buys an additional 4442 cows to add to his herd. How many cows does he own in total now?",
+      "new symbolic struct": "[[var f = 411]]\n[[var c = 4442]]\n[[question t = ['f + c']]]",
+      "answer": "4853",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-44-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var f = (411 + 4442)]]\n[[var g = (2676 + f)]]\n[[question d = ['g']]]\ntheme: Cow",
+      "statement": "After buying the additional 4442 cows, the same farmer decides to expand further and purchases another 2676 cows. How many cows does he own in total now?",
+      "new symbolic struct": "[[var f = 411]]\n[[var c = 4442]]\n[[var n = 2676]]\n[[var t = (f + c)]]\n[[question u = ['t + n']]]",
+      "answer": "7529",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-44-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var f = (411 + 6968)]]\n[[question u = ['f']]]\ntheme: Cow",
+      "statement": "Let's imagine the farmer had originally started with 411 cows but instead bought an additional 6968 cows in first lot. How many cows does he own in total now?",
+      "new symbolic struct": "[[var o = 411]]\n[[var n = 6968]]\n[[question t = ['o + n']]]",
+      "answer": "7379",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-45-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (5817 + 118)]]\n[[question x = ['t']]]\ntheme: Word",
+      "statement": "In a popular novel, the author wrote 5817 words in the first 10 chapters. In the 11th chapter, the author wrote an additional 118 words. How many words were written total in these 11 chapters?",
+      "new symbolic struct": "[[var a = 5817]]\n[[var b = 118]]\n[[question c = ['a + b']]]",
+      "answer": "5935",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-45-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (5817 + 118)]]\n[[var e = 383]]\n[[question f = ['(e + t)']]]\ntheme: Word",
+      "statement": "After writing the 11th chapter, the author added another brief chapter containing 383 words. How many words has the author written in total across all these chapters?",
+      "new symbolic struct": "[[var a = 5817]]\n[[var b = 118]]\n[[var d = (a + b)]]\n[[var e = 383]]\n[[question f = ['d + e']]]",
+      "answer": "6318",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-46-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var x = (6193 + 2185)]]\n[[question r = ['x']]]\ntheme: Potato",
+      "statement": "A potato farmer harvests 6193 kilos of potatoes from their largest field. From their smallest field, they harvest an additional 2185 kilos. How many kilos of potatoes did they harvest from these two fields in total?",
+      "new symbolic struct": "[[var f1 = 6193]]\n[[var f2 = 2185]]\n[[question total = ['f1 + f2']]]",
+      "answer": "8378",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-46-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var x = (6193 + 2185)]]\n[[var m = (929 + x)]]\n[[question j = ['m']]]\ntheme: Potato",
+      "statement": "After the initial harvest, the potato farmer finds an additional plot of land where they are able to harvest 929 kilos more. How many kilos of potatoes did they harvest in total?",
+      "new symbolic struct": "[[var f1 = 6193]]\n[[var f2 = 2185]]\n[[var f3 = 929]]\n[[question total = ['f1 + f2 + f3']]]",
+      "answer": "9307",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-46-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var x = (7801 + 2185)]]\n[[question r = ['x']]]\ntheme: Potato",
+      "statement": "Instead of 6193 kilos from the largest field, what if they had harvested 7801 kilos of potatoes from that field. Keeping the harvest from the smallest field the same, how many kilos of potatoes did they then harvest from just these two fields?",
+      "new symbolic struct": "[[var f1_new = 7801]]\n[[var f2 = 2185]]\n[[question total_new = ['f1_new + f2']]]",
+      "answer": "9986",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-47-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var y = (5739 - 1834)]]\n[[question q = ['y']]]\ntheme: Fireplace",
+      "statement": "In a fireplace showroom, there were originally 5739 fireplaces. After a big sale, 1834 fireplaces were sold. How many fireplaces remain in the showroom?",
+      "new symbolic struct": "[[var original_fireplaces = 5739]]\n[[var sold_fireplaces = 1834]]\n[[question remaining_fireplaces = ['original_fireplaces - sold_fireplaces']]]",
+      "answer": "3905",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-47-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var y = (5739 - 1834)]]\n[[var k = 883]]\n[[question h = ['(y + k)']]]\ntheme: Fireplace",
+      "statement": "In the fireplace showroom mentioned previously, they received a fresh shipment of 883 new fireplaces to restock their inventory. After this new shipment, how many fireplaces are now in the showroom?",
+      "new symbolic struct": "[[var original_fireplaces = 5739]]\n[[var sold_fireplaces = 1834]]\n[[var remaining_fireplaces = original_fireplaces - sold_fireplaces]]\n[[var new_fireplaces = 883]]\n[[question total_fireplaces = ['remaining_fireplaces + new_fireplaces']]]",
+      "answer": "4788",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-47-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var y = (5739 - 2166)]]\n[[question q = ['y']]]\ntheme: Fireplace",
+      "statement": "In a different scenario, suppose the fireplace showroom initially had the same number of fireplaces, 5739, but during the big sale, they sold more units - 2166 fireplaces were sold. How many fireplaces would remain in the showroom in this case?",
+      "new symbolic struct": "[[var original_fireplaces = 5739]]\n[[var sold_fireplaces_scenario_2 = 2166]]\n[[question remaining_fireplaces_scenario_2 = ['original_fireplaces - sold_fireplaces_scenario_2']]]",
+      "answer": "3573",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-48-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (706 + 6606)]]\n[[question w = ['n']]]\ntheme: Towel",
+      "statement": "A towel manufacturing company produces 6606 beach towels. They also make an additional 706 hand towels. How many total towels does the company produce?",
+      "new symbolic struct": "[[var b = 6606]]\n[[var h = 706]]\n[[question t = ['b + h']]]",
+      "answer": "7312",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-48-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (706 + 6606)]]\n[[var q = 1791]]\n[[question u = ['(q + n)']]]\ntheme: Towel",
+      "statement": "In addition to the beach and hand towels, the towel manufacturing company also produces 1791 bath towels. How many towels in total does the company produce now?",
+      "new symbolic struct": "[[var b = 6606]]\n[[var h = 706]]\n[[var a = 1791]]\n[[question t = ['b + h + a']]]",
+      "answer": "9103",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-48-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (916 + 6606)]]\n[[question w = ['n']]]\ntheme: Towel",
+      "statement": "In a review of its records, the towel manufacturing company realized that they had actually produced 916 hand towels, not 706. How many total towels (beach plus hand towels) did the company actually produce?",
+      "new symbolic struct": "[[var b = 6606]]\n[[var h_corrected = 916]]\n[[question t_corrected = ['b + h_corrected']]]",
+      "answer": "7522",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-49-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (6585 - 1972)]]\n[[question v = ['n']]]\ntheme: Unicorn",
+      "statement": "In a mystical land of unicorns, a city named Azuria had a population of 6585 unicorns. However, due to a terrible storm, 1972 unicorns had to migrate to a neighbouring city. How many unicorns remained in Azuria after the storm?",
+      "new symbolic struct": "[[var u = 6585]]\n[[var m = 1972]]\n[[question r = ['u - m']]]",
+      "answer": "4613",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-49-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (5405 - 1972)]]\n[[question v = ['n']]]\ntheme: Unicorn",
+      "statement": "After consolidating all the unicorns, the new city Azuria had a total of 5405 unicorns. However, due to an unforeseen event, 1972 unicorns had to leave the city. How many unicorns remain in the city now?",
+      "new symbolic struct": "[[var u_n = 5405]]\n[[var m_n = 1972]]\n[[question r_n = ['u_n - m_n']]]",
+      "answer": "3433",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-50-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var u = (8486 - 6466)]]\n[[question s = ['u']]]\ntheme: Beach ball",
+      "statement": "A beach store initially had 8486 beach balls in stock. After a grand sale, they sold 6466 beach balls. How many balls are left in the store now?",
+      "new symbolic struct": "[[var initial_balls = 8486]]\n[[var sold_balls = 6466]]\n[[question remaining_balls = ['initial_balls - sold_balls']]]",
+      "answer": "2020",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-50-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var u = (8486 - 6466)]]\n[[var k = (1597 + u)]]\n[[question t = ['k']]]\ntheme: Beach ball",
+      "statement": "A beach store initially had 8486 beach balls in stock. After a grand sale, they sold 6466 beach balls. The next day, a shipment of 1597 new beach balls arrived at the store. How many beach balls does the store have now after the new shipment arrived?",
+      "new symbolic struct": "[[var initial_balls = 8486]]\n[[var sold_balls = 6466]]\n[[var remaining_balls = initial_balls - sold_balls]]\n[[var new_shipment = 1597]]\n[[question total_balls = ['remaining_balls + new_shipment']]]",
+      "answer": "3617",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-50-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var u = (9648 - 6466)]]\n[[question s = ['u']]]\ntheme: Beach ball",
+      "statement": "In the previous problem, the beach store initially had 8486 beach balls in stock. But what if they actually had 9648 beach balls before the grand sale where they sold 6466 beach balls? How many beach balls would be left in the store now?",
+      "new symbolic struct": "[[var initial_balls = 9648]]\n[[var sold_balls = 6466]]\n[[question remaining_balls = ['initial_balls - sold_balls']]]",
+      "answer": "3182",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-51-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var e = (5358 - 3823)]]\n[[question m = ['e']]]\ntheme: Food",
+      "statement": "A wholesale food distributor sold 5358 boxes of oranges during a month. In comparison, they sold 3823 boxes of apples. How many more boxes of oranges did they sell than boxes of apples?",
+      "new symbolic struct": "[[var o = 5358]]\n[[var a = 3823]]\n[[question d = ['o - a']]]",
+      "answer": "1535",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-51-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var e = (5358 - 3823)]]\n[[var w = (2458 + e)]]\n[[question p = ['w']]]\ntheme: Food",
+      "statement": "Following the earlier comparison, the wholesale food distributor also managed to sell 2458 boxes of mangoes. After selling the extra boxes of oranges compared to apples, and the mangoes, how many total boxes of these fruits did they sell?",
+      "new symbolic struct": "[[var o = 5358]]\n[[var a = 3823]]\n[[var d = (o - a)]]\n[[var m = 2458]]\n[[question t = ['d + m']]]",
+      "answer": "3993",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-52-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (7102 + 738)]]\n[[question f = ['p']]]\ntheme: Ballerina",
+      "statement": "A world-famous ballet school in Paris performed 7102 pirouettes in a dance recital, and their partner ballet school in Rome performed 738. How many pirouettes were performed in total by the two schools?",
+      "new symbolic struct": "[[var a = 7102]]\n[[var b = 738]]\n[[question t = ['a + b']]]",
+      "answer": "7840",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-52-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (4398 + 738)]]\n[[question f = ['p']]]\ntheme: Ballerina",
+      "statement": "Having gone over the counts again, it was discovered that the Paris ballet school made a mistake in their previous pirouettes count. Instead of 7102, the ballet school in Paris performed 4398 pirouettes. Given this new count, how many pirouettes were performed in total by both the Paris and Rome ballet schools?",
+      "new symbolic struct": "[[var a = 4398]]\n[[var b = 738]]\n[[question t = ['a + b']]]",
+      "answer": "5136",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-53-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (7339 - 314)]]\n[[question z = ['m']]]\ntheme: Party",
+      "statement": "A party-planning company was commissioned to organize a common man's party. The budget initially totaled up to 7339 dollars. However, they had to reduce 314 dollars for certain reasons. How much is the new total budget for the party?",
+      "new symbolic struct": "[[var i = 7339]]\n[[var r = 314]]\n[[question n = ['i - r']]]",
+      "answer": "7025",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-53-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (7339 - 314)]]\n[[var y = 1055]]\n[[question e = ['(m - y)']]]\ntheme: Party",
+      "statement": "After adjusting the budget, the party-planning company then spent 1055 dollars on food and drink. How much of the revised budget is left after paying for the food and drink?",
+      "new symbolic struct": "[[var i = 7339]]\n[[var r = 314]]\n[[var n = i - r]]\n[[var f = 1055]]\n[[question b = ['n - f']]]",
+      "answer": "5970",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-53-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (2953 - 314)]]\n[[question z = ['m']]]\ntheme: Party",
+      "statement": "Suppose the initial budget for the party was actually 2953 dollars, not 7339 dollars, and the company still had to reduce 314 dollars for certain reasons. How much would the new total budget for the party be in that case?",
+      "new symbolic struct": "[[var i = 2953]]\n[[var r = 314]]\n[[question n = ['i - r']]]",
+      "answer": "2639",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-54-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var i = (5059 + 3653)]]\n[[question n = ['i']]]\ntheme: Book",
+      "statement": "A local library received a donation of 5059 books and then purchased an additional 3653 books. How many books were added to the library in total?",
+      "new symbolic struct": "[[var d = 5059]]\n[[var p = 3653]]\n[[question t = ['d + p']]]",
+      "answer": "8712",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-54-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var i = (5059 + 3653)]]\n[[var d = (500 + i)]]\n[[question o = ['d']]]\ntheme: Book",
+      "statement": "After the initial donation and purchase, a local library had added a total of 5059 books and 3653 books to their collection. Later on, a graduate student donated an additional 500 books from his personal collection. How many books were added to the library's collection in total?",
+      "new symbolic struct": "[[var d = 5059]]\n[[var p = 3653]]\n[[var g = 500]]\n[[question t = ['d + p + g']]]",
+      "answer": "9212",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-54-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var i = (5059 + 4833)]]\n[[question n = ['i']]]\ntheme: Book",
+      "statement": "After the local library received an initial donation of books, they then added an additional quantity of books to their collection. Initially, the library received a donation of 5059 books. Upon revisiting the records, the librarian discovered that they had made an error, and in fact, they had actually purchased 4833 books, not 3653 as they previously thought. How many books were added to the library's collection considering the adjusted record?",
+      "new symbolic struct": "[[var i = 5059]]\n[[var a = 4833]]\n[[question t = ['i + a']]]",
+      "answer": "9892",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-55-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var u = (1915 + 6336)]]\n[[question o = ['u']]]\ntheme: Pants",
+      "statement": "A clothing store starts with 1915 pairs of pants in the morning. During the day, they receive an additional delivery of 6336 pairs. How many pairs of pants does the store have now?",
+      "new symbolic struct": "[[var a = 1915]]\n[[var b = 6336]]\n[[question c = ['a + b']]]",
+      "answer": "8251",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-55-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var u = (1915 + 6336)]]\n[[var q = (u - 3290)]]\n[[question n = ['q']]]\ntheme: Pants",
+      "statement": "After getting the delivery of additional pairs of pants, the store decided to run a sale. By the end of the sale, they sold 3290 pairs of pants. How many pairs remained in the store after the sale?",
+      "new symbolic struct": "[[var a = 1915]]\n[[var b = 6336]]\n[[var c = a + b]]\n[[var d = 3290]]\n[[question e = ['c - d']]]",
+      "answer": "4961",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-55-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var u = (1915 + 2009)]]\n[[question o = ['u']]]\ntheme: Pants",
+      "statement": "Suppose that instead of receiving a delivery of 6336 pairs of pants, the clothing store only got 2009 pairs of pants additional to its initial stock of 1915. After this smaller delivery, how many pairs of pants does the store have?",
+      "new symbolic struct": "[[var a = 1915]]\n[[var d = 2009]]\n[[question e = ['a + d']]]",
+      "answer": "3924",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-56-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var a = (5035 - 4371)]]\n[[question s = ['a']]]\ntheme: Starfish",
+      "statement": "In an ecological survey, 5035 starfish were counted in one part of the ocean. In a different part, there were 4371 starfish. What is the difference in the number of starfish between these two parts of the ocean?",
+      "new symbolic struct": "[[var a = 5035]]\n[[var b = 4371]]\n[[question d = ['a - b']]]",
+      "answer": "664",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-57-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var j = (4021 + 3713)]]\n[[question z = ['j']]]\ntheme: Banana",
+      "statement": "A banana plantation yielded a harvest of 4021 bunches of bananas in the first season. In the second season, it produced an additional 3713 bunches. How many bunches in total were produced in these first two seasons?",
+      "new symbolic struct": "[[var s1 = 4021]]\n[[var s2 = 3713]]\n[[var total = (s1 + s2)]]\n[[question ts = ['total']]]",
+      "answer": "7734",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-57-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var j = (4021 + 3713)]]\n[[var y = (j - 4761)]]\n[[question q = ['y']]]\ntheme: Banana",
+      "statement": "Following the banana plantation's harvests in the first two seasons, they managed to sell 4761 bunches of their bananas. How many bunches of bananas do they still have left to sell from these first two harvests?",
+      "new symbolic struct": "[[var s1 = 4021]]\n[[var s2 = 3713]]\n[[var sold = 4761]]\n[[var total = (s1 + s2)]]\n[[var left = (total - sold)]]\n[[question l = ['left']]]",
+      "answer": "2973",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-58-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (1436 - 826)]]\n[[question u = ['t']]]\ntheme: Party",
+      "statement": "A large party was held for a jubilee celebration in a remote village. By noon, 1436 guests had arrived at the party. However, due to a sudden change in weather, 826 of those guests had to leave. How many guests were left at the party?",
+      "new symbolic struct": "[[var g = 1436]]\n[[var l = 826]]\n[[question r = ['g - l']]]",
+      "answer": "610",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-58-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (1436 - 826)]]\n[[var e = (1055 - t)]]\n[[question p = ['e']]]\ntheme: Party",
+      "statement": "A large party was held for a jubilee celebration in a remote village. By noon, 1436 guests had arrived at the party. However, due to a sudden change in weather, 826 of those guests had to leave. Meanwhile, in a nearby smaller village, the villagers were also celebrating with a party and by the afternoon they had 1055 guests. How many more guests were at the smaller village party compared to the number left at the larger party after some guests left?",
+      "new symbolic struct": "[[var g = 1436]]\n[[var l = 826]]\n[[var r = g - l]]\n[[var s = 1055]]\n[[question d = ['s - r']]]",
+      "answer": "445",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-58-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (6261 - 826)]]\n[[question u = ['t']]]\ntheme: Party",
+      "statement": "A large party was held for a jubilee celebration in a remote village. Initially, 6261 guests had arrived at the party, painting a much more vibrant picture than earlier. However, due to a sudden change in weather, 826 of those guests had to leave. How many guests were left at the party now?",
+      "new symbolic struct": "[[var g = 6261]]\n[[var l = 826]]\n[[question r = ['g - l']]]",
+      "answer": "5435",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-59-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (7052 + 1145)]]\n[[question c = ['r']]]\ntheme: Clock",
+      "statement": "In a magical world, a mystical clock runs 7052 seconds faster than typical earth clocks every day. However, one day due to a slight glitch, it also ran an additional 1145 seconds faster. How many more seconds did the mystical clock run that day compared to a typical earth clock?",
+      "new symbolic struct": "[[var m = 7052]]\n[[var g = 1145]]\n[[question s = ['m + g']]]",
+      "answer": "8197",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-59-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (6537 + 1145)]]\n[[question c = ['r']]]\ntheme: Clock",
+      "statement": "In the mystical world where the magical clock normally runs 6537 seconds faster every day, suppose that on a particular day it also ran an additional 1145 seconds faster due to the same glitch as before. How many more seconds did the mystical clock run on that day compared to a typical earth clock?",
+      "new symbolic struct": "[[var b = 6537]]\n[[var g = 1145]]\n[[question c = ['b + g']]]",
+      "answer": "7682",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-60-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var l = (1488 + 6008)]]\n[[question x = ['l']]]\ntheme: Pen",
+      "statement": "A pen manufacturing company made 1488 pens in the morning. The company was able to manufacture another batch of 6008 pens in the afternoon. How many pens did they manufacture in total for the day?",
+      "new symbolic struct": "[[var m = 1488]]\n[[var a = 6008]]\n[[question t = ['m + a']]]",
+      "answer": "7496",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-60-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var l = (1488 + 6008)]]\n[[var e = (l - 2709)]]\n[[question w = ['e']]]\ntheme: Pen",
+      "statement": "After manufacturing a total of 1488 in the morning and 6008 in the afternoon, the pen company determined that 2709 of the pens were defective and couldn't be sold. How many pens were left that could be sold?",
+      "new symbolic struct": "[[var m = 1488]]\n[[var a = 6008]]\n[[var d = 2709]]\n[[question s = ['m + a - d']]]",
+      "answer": "4787",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-61-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (6091 + 1713)]]\n[[question k = ['m']]]\ntheme: Astronaut",
+      "statement": "Before traveling to space, an astronaut undertook 6091 hours of training. Once in space, he spends an additional 1713 hours on various exercises and tasks. How many total hours has the astronaut spent on training and tasks?",
+      "new symbolic struct": "[[var t1 = 6091]]\n[[var t2 = 1713]]\n[[question t = ['t1 + t2']]]",
+      "answer": "7804",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-61-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (2630 + 1713)]]\n[[question k = ['m']]]\ntheme: Astronaut",
+      "statement": "Continuing from the original scenario, let's say the astronaut initially only spent 2630 hours of training before travelling to space, but still spent the same amount of time, 1713 hours, on exercises and tasks once in space. How many total hours has the astronaut spent between training and space tasks with this revised training time?",
+      "new symbolic struct": "[[var t1 = 2630]]\n[[var t2 = 1713]]\n[[question t = ['t1 + t2']]]",
+      "answer": "4343",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-62-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var w = (3811 + 2207)]]\n[[question b = ['w']]]\ntheme: Banana",
+      "statement": "A banana plantation produced 3811 bananas in its first batch. In the second batch, it produced 2207 more bananas. How many bananas were produced in total?",
+      "new symbolic struct": "[[var a = 3811]]\n[[var b = (a + 2207)]]\n[[question t = ['b']]]",
+      "answer": "6018",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-62-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var w = (4615 + 2207)]]\n[[question b = ['w']]]\ntheme: Banana",
+      "statement": "Suppose instead of producing 3811 bananas in its first batch, the plantation produced 4615 bananas. Maintaining the second batch production at 2207 bananas, what would be the new total number of bananas produced?",
+      "new symbolic struct": "[[var c = 4615]]\n[[var d = (c + 2207)]]\n[[question t_new = ['d']]]",
+      "answer": "6822",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-63-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (2506 + 6401)]]\n[[question y = ['n']]]\ntheme: Police",
+      "statement": "The local police department has recorded 2506 criminal cases last year. This year, the cases have surged to 6401. How many criminal cases were recorded in total for the last two years?",
+      "new symbolic struct": "[[var a = 2506]]\n[[var b = 6401]]\n[[question total_cases = ['a + b']]]",
+      "answer": "8907",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-63-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (2506 + 6401)]]\n[[var h = (n - 5359)]]\n[[question e = ['h']]]\ntheme: Police",
+      "statement": "Out of the total number of criminal cases recorded in the last two years, only 5359 cases have so far been resolved. How many cases still remain unresolved?",
+      "new symbolic struct": "[[var a = 2506]]\n[[var b = 6401]]\n[[var c = 5359]]\n[[var total_cases = a + b]]\n[[question unresolved_cases = ['total_cases - c']]]",
+      "answer": "3548",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-63-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (2506 + 853)]]\n[[question y = ['n']]]\ntheme: Police",
+      "statement": "If instead of rising to 6401, the number of criminal cases this year had only increased to 853, how many criminal cases would have been recorded in total for the last two years?",
+      "new symbolic struct": "[[var a = 2506]]\n[[var c = 853]]\n[[question total_cases_alt = ['a + c']]]",
+      "answer": "3359",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-64-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (4798 - 1401)]]\n[[question r = ['b']]]\ntheme: Scooter",
+      "statement": "A scooter rental company had 4798 scooters at the start of the year. During the year, they sold 1401 scooters. How many scooters did they have left?",
+      "new symbolic struct": "[[var s = 4798]]\n[[var t = 1401]]\n[[question u = ['s - t']]]",
+      "answer": "3397",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-64-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (4798 - 1401)]]\n[[var a = (3294 + b)]]\n[[question z = ['a']]]\ntheme: Scooter",
+      "statement": "After selling 1401 scooters from the initial 4798, the scooter rental company purchased 3294 additional scooters. What is the total number of scooters they now have?",
+      "new symbolic struct": "[[var i = 4798]]\n[[var s = 1401]]\n[[var p = i - s]]\n[[var a = 3294]]\n[[var f = p + a]]\n[[question t = ['f']]]",
+      "answer": "6691",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-64-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (2464 - 1401)]]\n[[question r = ['b']]]\ntheme: Scooter",
+      "statement": "Suppose the scooter rental company initially had fewer scooters in its inventory, say 2464 instead of 4798. If they still sold 1401 scooters during the year, how many scooters would they have left?",
+      "new symbolic struct": "[[var ini_scooters = 2464]]\n[[var sold_scooters = 1401]]\n[[question remaining_scooters = ['ini_scooters - sold_scooters']]]",
+      "answer": "1063",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-65-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (2349 + 7416)]]\n[[question b = ['m']]]\ntheme: Cow",
+      "statement": "A dairy farmer has 2349 cows on their first farm. They bought another property and increased their herd adding 7416 more cows. How many cows does the farmer have in total?",
+      "new symbolic struct": "[[var f1 = 2349]]\n[[var f2 = 7416]]\n[[question t = ['f1 + f2']]]",
+      "answer": "9765",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-65-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (970 + 7416)]]\n[[question b = ['m']]]\ntheme: Cow",
+      "statement": "Instead of the 2349 cows they had initially on their first farm, suppose the dairy farmer actually started with only 970 cows on their first farm. If they still added 7416 cows from the second property, how many cows does the farmer now have in total?",
+      "new symbolic struct": "[[var f1_new = 970]]\n[[var f2 = 7416]]\n[[question t_new = ['f1_new + f2']]]",
+      "answer": "8386",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-66-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (6500 - 6150)]]\n[[question b = ['p']]]\ntheme: Juice",
+      "statement": "Your juice brand has produced 6500 bottles of apple juice. However, 6150 of them have already been sold. How many bottles of apple juice does your brand have left?",
+      "new symbolic struct": "[[var j = 6500]]\n[[var s = 6150]]\n[[question r = ['j - s']]]",
+      "answer": "350",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-66-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (6500 - 6150)]]\n[[var z = (9280 + p)]]\n[[question l = ['z']]]\ntheme: Juice",
+      "statement": "Your juice brand has produced 6500 bottles of apple juice. However, 6150 of them have already been sold. After these sales, your brand went on to produce an additional 9280 bottles. How many total bottles of apple juice does your brand currently have?",
+      "new symbolic struct": "[[var j = 6500]]\n[[var s = 6150]]\n[[var a = j - s]]\n[[var p = 9280]]\n[[question t = ['a + p']]]",
+      "answer": "9630",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-66-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var p = (6500 - 2086)]]\n[[question b = ['p']]]\ntheme: Juice",
+      "statement": "In the previous scenario, what if your juice brand had initially produced 6500 bottles of apple juice but then managed to sell only 2086 bottles of them? How many bottles of apple juice would your brand then have left?",
+      "new symbolic struct": "[[var j = 6500]]\n[[var s = 2086]]\n[[question r = ['j - s']]]",
+      "answer": "4414",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-67-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (951 - 900)]]\n[[question w = ['b']]]\ntheme: House",
+      "statement": "A housing society decided to reduce the square footage of their new housing model from 951 square feet to 900 square feet. How much was the square footage reduced by?",
+      "new symbolic struct": "[[var q = 951]]\n[[var r = 900]]\n[[question s = ['q - r']]]",
+      "answer": "51",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-67-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (3018 - 900)]]\n[[question w = ['b']]]\ntheme: House",
+      "statement": "Let's imagine instead of the original 951 square feet, the housing society was considering a larger model of 3018 square feet, but subsequently decided to reduce this model to 900 square feet as well. By how much square footage was this larger model reduced?",
+      "new symbolic struct": "[[var a = 3018]]\n[[var b = 900]]\n[[question c = ['a - b']]]",
+      "answer": "2118",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-68-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (7495 + 1403)]]\n[[question v = ['n']]]\ntheme: Campfire",
+      "statement": "During a campfire gathering, 7495 marshmallows were toasted for s'mores. Later, an additional 1403 marshmallows were toasted. How many marshmallows were toasted in total during the campfire gathering?",
+      "new symbolic struct": "[[var m = 7495]]\n[[var n = 1403]]\n[[var t = (m + n)]]\n[[question s = ['t']]]",
+      "answer": "8898",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-69-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (6336 - 2712)]]\n[[question v = ['b']]]\ntheme: Frog",
+      "statement": "There are 6336 frog species documented in the world. Out of these, 2712 species are not endangered. How many frog species are endangered?",
+      "new symbolic struct": "[[var total = 6336]]\n[[var not_endangered = 2712]]\n[[question endangered = ['total - not_endangered']]]",
+      "answer": "3624",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-69-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (6336 - 3146)]]\n[[question v = ['b']]]\ntheme: Frog",
+      "statement": "Originally we considered there are 6336 frog species in the world, and 2712 are not endangered. Let's now reconsider the scenario, assuming there are actually 3146 species that are not endangered. Under this new assumption, how many frog species are endangered?",
+      "new symbolic struct": "[[var total = 6336]]\n[[var not_endangered_new = 3146]]\n[[question endangered_new = ['total - not_endangered_new']]]",
+      "answer": "3190",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-70-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var s = (4667 + 4042)]]\n[[question v = ['s']]]\ntheme: Colored pencil",
+      "statement": "An artist has 4667 blue colored pencils. Later on, he bought 4042 more colored pencils. How many total colored pencils does the artist have now?",
+      "new symbolic struct": "[[var b = 4667]]\n[[var c = 4042]]\n[[question t = ['b + c']]]",
+      "answer": "8709",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-70-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var s = (4667 + 4042)]]\n[[var a = (s - 7808)]]\n[[question j = ['a']]]\ntheme: Colored pencil",
+      "statement": "The artist, after taking inventory of his blue colored pencils, decides to give away 7808 colored pencils to a local school. After the donation, how many colored pencils does the artist have left?",
+      "new symbolic struct": "[[var d = 7808]]\n[[var t = 4667 + 4042]]\n[[question r = ['t - d']]]",
+      "answer": "901",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-70-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var s = (666 + 4042)]]\n[[question v = ['s']]]\ntheme: Colored pencil",
+      "statement": "In the previous scenario, suppose the artist originally had only 666 blue colored pencils instead of the 4667. With the additional 4042 pencils he bought later on, how many colored pencils does he have now in total?",
+      "new symbolic struct": "[[var b = 666]]\n[[var c = 4042]]\n[[question t = ['b + c']]]",
+      "answer": "4708",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-71-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var v = (2854 + 5764)]]\n[[question g = ['v']]]\ntheme: Baby",
+      "statement": "In 2020, a large metropolitan hospital recorded 2854 boy births and 5764 girl births. How many total births were recorded that year?",
+      "new symbolic struct": "[[var b = 2854]]\n[[var g = 5764]]\n[[question t = ['b + g']]]",
+      "answer": "8618",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-71-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var v = (2854 + 5764)]]\n[[var e = (v - 4888)]]\n[[question h = ['e']]]\ntheme: Baby",
+      "statement": "In 2020, a large metropolitan hospital recorded 2854 boy births and 5764 girl births. However, in 2021, they noticed a decrease with 4888 fewer babies born. How many babies were born in 2021?",
+      "new symbolic struct": "[[var b = 2854]]\n[[var g = 5764]]\n[[var t = b + g]]\n[[var n = t - 4888]]\n[[question x = ['n']]]",
+      "answer": "3730",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-71-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var v = (3141 + 5764)]]\n[[question g = ['v']]]\ntheme: Baby",
+      "statement": "In 2020, a large metropolitan hospital recorded 2854 boy births and 5764 girl births. However, upon re-checking their records, they realized that they had actually recorded 3141 boy births. How many total births were actually recorded in 2020 with the updated count of boy births?",
+      "new symbolic struct": "[[var b = 3141]]\n[[var g = 5764]]\n[[question t = ['b + g']]]",
+      "answer": "8905",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-72-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (8210 - 158)]]\n[[question j = ['m']]]\ntheme: Fish",
+      "statement": "At the beginning of the day, there were 8210 fish in a large tank. Throughout the day, 158 fish were moved to other tanks for various reasons. How many fish were left in the large tank at the end of the day?",
+      "new symbolic struct": "[[var i = 8210]]\n[[var j = 158]]\n[[question k = ['i - j']]]",
+      "answer": "8052",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-73-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (8415 - 5636)]]\n[[question u = ['m']]]\ntheme: Crayon",
+      "statement": "A crayon factory has produced 8415 crayons. But unfortunately, 5636 crayons did not pass the quality check and had to be discarded. How many crayons successfully passed the quality check?",
+      "new symbolic struct": "[[var t = 8415]]\n[[var d = 5636]]\n[[question r = ['t - d']]]",
+      "answer": "2779",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-73-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (8415 - 281)]]\n[[question u = ['m']]]\ntheme: Crayon",
+      "statement": "In the previous problem, we initially said that the factory produced 8415 crayons but had to discard 5636 due to quality issues. Suppose instead, their quality improvements actually worked and only 281 crayons didn't pass the quality check out of those originally produced. How many crayons successfully passed the quality check with the improved process?",
+      "new symbolic struct": "[[var t = 8415]]\n[[var improved_d = 281]]\n[[question r_improved = ['t - improved_d']]]",
+      "answer": "8134",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-74-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (7360 + 1751)]]\n[[question e = ['n']]]\ntheme: Treasure chest",
+      "statement": "A pirate's treasure chest holds 7360 gold coins. The pirate adds 1751 more coins to the chest. How many coins does the treasure chest hold now?",
+      "new symbolic struct": "[[var t = 7360]]\n[[var a = 1751]]\n[[question c = ['t + a']]]",
+      "answer": "9111",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-74-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (7360 + 1751)]]\n[[var q = (n - 8031)]]\n[[question s = ['q']]]\ntheme: Treasure chest",
+      "statement": "After adding 1751 coins to the chest, the pirate decides to use 8031 coins to buy a new ship. How many coins are left in the treasure chest after buying the new ship?",
+      "new symbolic struct": "[[var t = 7360]]\n[[var a = 1751]]\n[[var s = 8031]]\n[[var n = (t + a)]]\n[[question c = ['n - s']]]",
+      "answer": "1080",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-74-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (5092 + 1751)]]\n[[question e = ['n']]]\ntheme: Treasure chest",
+      "statement": "The pirate initially thought that there were 5092 coins in the chest, but after a recount, it was found that there were actually 5092 coins before the additional 1751 were added. Given this new count, how many coins are in the treasure chest now, before the pirate pays for the new ship?",
+      "new symbolic struct": "[[var i = 5092]]\n[[var a = 1751]]\n[[question c = ['i + a']]]",
+      "answer": "6843",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-75-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (1614 + 7237)]]\n[[question v = ['n']]]\ntheme: Tent",
+      "statement": "A large camping event was organized where 1614 small family tents were set up. Later, 7237 medium sized tents were added. How many tents in total were set up for the camping event?",
+      "new symbolic struct": "[[var t1 = 1614]]\n[[var t2 = 7237]]\n[[question total_tents = ['t1 + t2']]]",
+      "answer": "8851",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-75-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (1614 + 7237)]]\n[[var k = (n - 2482)]]\n[[question t = ['k']]]\ntheme: Tent",
+      "statement": "In the same large camping event, after a few days 2482 tents were taken down as some people left. How many tents were left standing after this?",
+      "new symbolic struct": "[[var t1 = 1614]]\n[[var t2 = 7237]]\n[[var total_tents = (t1 + t2)]]\n[[var t3 = 2482]]\n[[question left_tents = ['total_tents - t3']]]",
+      "answer": "6369",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-76-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var y = (2108 - 342)]]\n[[question n = ['y']]]\ntheme: Colored pencil",
+      "statement": "An artist started with 2108 colored pencils and used 342 of them to finish a large mural. How many colored pencils does the artist have left?",
+      "new symbolic struct": "[[var z = 2108]]\n[[var y = 342]]\n[[question x = ['z - y']]]",
+      "answer": "1766",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-76-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var y = (9988 - 342)]]\n[[question n = ['y']]]\ntheme: Colored pencil",
+      "statement": "What if the artist originally started with a much larger supply, having initially 9988 colored pencils instead of 2108? If they still used 342 pencils for the mural as before, how many colored pencils would they have remaining?",
+      "new symbolic struct": "[[var w = 9988]]\n[[var v = 342]]\n[[question u = ['w - v']]]",
+      "answer": "9646",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-77-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (3449 + 1954)]]\n[[question i = ['r']]]\ntheme: Alien",
+      "statement": "On planet Zog, there are 3449 blue Zarblatts. On another day, 1954 green Zarblatts decide to join them. How many Zarblatts are there altogether on planet Zog?",
+      "new symbolic struct": "[[var b = 3449]]\n[[var g = 1954]]\n[[question t = ['b + g']]]",
+      "answer": "5403",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-78-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var f = (4676 - 4201)]]\n[[question x = ['f']]]\ntheme: Cake",
+      "statement": "A bakery had 4676 slices of cake at the beginning of the day. By the end of the day, there were 4201 slices left. How many slices of cake were sold during the day?",
+      "new symbolic struct": "[[var initial_cakes = 4676]]\n[[var final_cakes = 4201]]\n[[question sold_cakes = ['initial_cakes - final_cakes']]]",
+      "answer": "475",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-79-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (7817 - 3036)]]\n[[question g = ['n']]]\ntheme: Sunglasses",
+      "statement": "A sunglass factory produced 7817 sunglasses in a month. Later, they found that 3036 of these sunglasses are defective and removed them. How many effective sunglasses remain?",
+      "new symbolic struct": "[[var t = 7817]]\n[[var d = 3036]]\n[[question r = ['t - d']]]",
+      "answer": "4781",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-79-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (7575 - 3036)]]\n[[question g = ['n']]]\ntheme: Sunglasses",
+      "statement": "The sunglass factory realized that there was an error in their initial production count. Instead of producing 7817 sunglasses originally, they actually produced 7575 sunglasses. After discarding the 3036 defective sunglasses, how many effective sunglasses remain from the original count?",
+      "new symbolic struct": "[[var t = 7575]]\n[[var d = 3036]]\n[[question r = ['t - d']]]",
+      "answer": "4539",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-80-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (6983 - 4890)]]\n[[question y = ['m']]]\ntheme: Butterfly",
+      "statement": "A butterfly enthusiast spotted 6983 butterflies in the summer. In the winter, she only spotted 4890. How many fewer butterflies did she spot in the winter than in the summer?",
+      "new symbolic struct": "[[var s = 6983]]\n[[var w = 4890]]\n[[question d = ['s - w']]]",
+      "answer": "2093",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-80-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (6983 - 4890)]]\n[[var r = (5707 - m)]]\n[[question c = ['r']]]\ntheme: Butterfly",
+      "statement": "Following from the previous scenario, the butterfly enthusiast spotted 5707 butterflies in the spring. How many more butterflies did she spot in the spring compared to the difference in sightings between summer and winter?",
+      "new symbolic struct": "[[var s = 6983]]\n[[var w = 4890]]\n[[var d = (s - w)]]\n[[var sp = 5707]]\n[[question m = ['sp - d']]]",
+      "answer": "3614",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-81-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (8217 - 3166)]]\n[[question b = ['r']]]\ntheme: Tiger",
+      "statement": "In a National Park, there were initially 8217 tigers. However, 3166 tigers left the park due to deforestation and poaching. How many tigers are now left in the National park?",
+      "new symbolic struct": "[[var t_initial = 8217]]\n[[var t_left = 3166]]\n[[question t_final = ['t_initial - t_left']]]",
+      "answer": "5051",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-81-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (7161 - 3166)]]\n[[question b = ['r']]]\ntheme: Tiger",
+      "statement": "Let's reconsider the number of tigers initially present in the National park. Suppose there were initially 7161 tigers instead of 8217, and the same number of tigers left the park as before. How many tigers would be left in the National Park then?",
+      "new symbolic struct": "[[var t_initial_2 = 7161]]\n[[var t_left = 3166]]\n[[question t_final_2 = ['t_initial_2 - t_left']]]",
+      "answer": "3995",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-82-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var c = (6733 - 4967)]]\n[[question l = ['c']]]\ntheme: Snowball",
+      "statement": "A snowball was originally 6733 grams. After some time out in the sun, it melted down to 4967 grams. What is the change in the snowball's mass?",
+      "new symbolic struct": "[[var o = 6733]]\n[[var m = 4967]]\n[[question c = ['o - m']]]",
+      "answer": "1766",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-82-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var c = (6733 - 1859)]]\n[[question l = ['c']]]\ntheme: Snowball",
+      "statement": "After revisiting the records, it was noted that the original mass of the first snowball was actually 6733 grams, not 4967 grams. With the new data, what would the change in the snowball's mass be if it still melted down to 1859 grams?",
+      "new symbolic struct": "[[var o = 6733]]\n[[var m = 1859]]\n[[question c = ['o - m']]]",
+      "answer": "4874",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-83-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (6571 - 516)]]\n[[question t = ['r']]]\ntheme: Fish",
+      "statement": "There are 6571 fish living in a large pond. Unfortunately, 516 of these fish were affected by a disease and died. Write an expression to find how many fish are still alive.",
+      "new symbolic struct": "[[var f = 6571]]\n[[var d = 516]]\n[[question a = ['f - d']]]",
+      "answer": "6055",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-83-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (6571 - 516)]]\n[[var p = (r + 1206)]]\n[[question s = ['p']]]\ntheme: Fish",
+      "statement": "Following the mass die-off, a nearby school donated 1206 fish to restock the pond. How many fish are in the pond after the donation?",
+      "new symbolic struct": "[[var f = 6571]]\n[[var d = 516]]\n[[var l = f - d]]\n[[var n = 1206]]\n[[question t = ['l + n']]]",
+      "answer": "7261",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-83-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (1902 - 516)]]\n[[question t = ['r']]]\ntheme: Fish",
+      "statement": "Suppose the starting number of fish in the pond was actually 1902 instead of 6571. How many fish would be left in the pond after the disease killed 516 fish?",
+      "new symbolic struct": "[[var f = 1902]]\n[[var d = 516]]\n[[question a = ['f - d']]]",
+      "answer": "1386",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-84-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var w = (2451 + 348)]]\n[[question p = ['w']]]\ntheme: Unicorn",
+      "statement": "A magical kingdom is home to 2451 unicorns. One day, 348 more unicorns decided to migrate and stay in the kingdom. How many unicorns are now living in the magical kingdom?",
+      "new symbolic struct": "[[var u = 2451]]\n[[var m = 348]]\n[[var t = (u + m)]]\n[[question n = ['t']]]",
+      "answer": "2799",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-84-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var w = (2451 + 348)]]\n[[var e = (w - 1514)]]\n[[question h = ['e']]]\ntheme: Unicorn",
+      "statement": "In the magical kingdom home to 2451 unicorns, 348 more unicorns migrated and resettled. However, due to a vicious dragon attack, 1514 unicorns had to migrate to another kingdom for safety. How many unicorns are now left in the magical kingdom?",
+      "new symbolic struct": "[[var u = 2451]]\n[[var m = 348]]\n[[var t = (u + m)]]\n[[var d = 1514]]\n[[var r = (t - d)]]\n[[question n = ['r']]]",
+      "answer": "1285",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-84-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var w = (5276 + 348)]]\n[[question p = ['w']]]\ntheme: Unicorn",
+      "statement": "Originally, the magical kingdom was home to 5276 unicorns before 348 more unicorns migrated and Started living there. How many unicorns are now living in the magical kingdom?",
+      "new symbolic struct": "[[var u = 5276]]\n[[var m = 348]]\n[[var t = (u + m)]]\n[[question n = ['t']]]",
+      "answer": "5624",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-85-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (824 + 4913)]]\n[[question y = ['t']]]\ntheme: Beach ball",
+      "statement": "A toy store started the day with having 824 beach balls in stock. Throughout the day, they received a new shipment of 4913 more beach balls. How many beach balls does the toy store have now?",
+      "new symbolic struct": "[[var s = 824]]\n[[var n = 4913]]\n[[question b = ['s + n']]]",
+      "answer": "5737",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-85-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (824 + 4913)]]\n[[var o = (t - 4353)]]\n[[question z = ['o']]]\ntheme: Beach ball",
+      "statement": "After cataloging the new shipment of beach balls, the toy store decided to sell 4353 beach balls at a local fair. How many beach balls does the store have left after this sale?",
+      "new symbolic struct": "[[var s = 824]]\n[[var n = 4913]]\n[[var t = (s + n)]]\n[[var s2 = 4353]]\n[[question b = ['t - s2']]]",
+      "answer": "1384",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-85-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (824 + 6402)]]\n[[question y = ['t']]]\ntheme: Beach ball",
+      "statement": "The toy store initially thought they received 4913 beach balls in the latest shipment, but after a recount, the actual number turned out to be 6402. With this new information, how many beach balls does the toy store now have in total?",
+      "new symbolic struct": "[[var s = 824]]\n[[var n = 6402]]\n[[question b = ['s + n']]]",
+      "answer": "7226",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-86-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (2392 + 483)]]\n[[question k = ['r']]]\ntheme: Lion",
+      "statement": "A wildlife sanctuary is home to 2392 lions. When a team of conservationists introduces an additional 483 rescued lions into the sanctuary, what is the new total population of lions?",
+      "new symbolic struct": "[[var l1 = 2392]]\n[[var l2 = 483]]\n[[question l = ['l1 + l2']]]",
+      "answer": "2875",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-86-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var r = (2392 + 483)]]\n[[var d = (r + 1793)]]\n[[question h = ['d']]]\ntheme: Lion",
+      "statement": "Following the introduction of 483 rescued lions to the wildlife sanctuary, thereby increasing the lion population to 2392 + 483, an additional 1793 lions from a neighboring sanctuary have been moved due to a natural calamity. What is the new total population of lions in the sanctuary now?",
+      "new symbolic struct": "[[var l1 = 2392]]\n[[var l2 = 483]]\n[[var l3 = (l1 + l2)]]\n[[var l4 = 1793]]\n[[question l = ['l3 + l4']]]",
+      "answer": "4668",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-87-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var q = (8055 - 7323)]]\n[[question l = ['q']]]\ntheme: Mouse",
+      "statement": "In a huge open field, there were initially 8055 mice. However, a sudden harsh weather condition drove 7323 of them away. How many mice were left in the field after the severe weather?",
+      "new symbolic struct": "[[var i = 8055]]\n[[var w = 7323]]\n[[question m = ['i - w']]]",
+      "answer": "732",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-87-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var q = (8055 - 7323)]]\n[[var z = (q + q)]]\n[[question r = ['z']]]\ntheme: Mouse",
+      "statement": "Following the harsh weather, a nearby mouse colony got displaced and joined the remaining mice in the field, doubling their number. How many mice are there in the field now?",
+      "new symbolic struct": "[[var i = 8055]]\n[[var w = 7323]]\n[[var m = i - w]]\n[[question n = ['2*m']]]",
+      "answer": "1464",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-87-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var q = (8038 - 7323)]]\n[[question l = ['q']]]\ntheme: Mouse",
+      "statement": "Suppose originally, there were only 8038 mice instead of 8055 in the field before the harsh weather. Considering that, how many mice would have been left in the field after the severe weather drove 7323 of them away?",
+      "new symbolic struct": "[[var o = 8038]]\n[[var w = 7323]]\n[[question m = ['o - w']]]",
+      "answer": "715",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-88-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (5547 - 3195)]]\n[[question h = ['t']]]\ntheme: Monkey",
+      "statement": "A zoo is keeping count of its monkey population. Over the course of a few weeks, they welcomed 5547 monkeys from several rescue centers, but sadly 3195 monkeys were sent to other zoos. What is the current population of monkeys at the zoo?",
+      "new symbolic struct": "[[var m = 5547]]\n[[var n = 3195]]\n[[question o = ['m - n']]]",
+      "answer": "2352",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-88-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (5547 - 3195)]]\n[[var p = (t + 1959)]]\n[[question r = ['p']]]\ntheme: Monkey",
+      "statement": "A zoo is keeping count of its monkey population. Over the course of a few weeks, they welcomed 5547 monkeys from several rescue centers, but sadly 3195 monkeys were sent to other zoos. But then they received another shipment of 1959 monkeys from a burst of new rescues. What is the current population of monkeys at the zoo now?",
+      "new symbolic struct": "[[var m = 5547]]\n[[var n = 3195]]\n[[var s = 1959]]\n[[var p = (m - n + s)]]\n[[question o = ['p']]]",
+      "answer": "4311",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-88-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (5547 - 1413)]]\n[[question h = ['t']]]\ntheme: Monkey",
+      "statement": "A zoo is keeping count of its monkey population. Over the course of a few weeks, they welcomed 5547 monkeys from several rescue centers. But then, a change of plans meant that only 1413 monkeys were sent to other zoos, instead of the initially planned 3195. What is the current population of monkeys at the zoo now given this change?",
+      "new symbolic struct": "[[var m = 5547]]\n[[var n = 3195]]\n[[var p = 1413]]\n[[var q = ((m - n) + (n - p))]]\n[[question o = ['q']]]",
+      "answer": "4134",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-89-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var j = (5725 - 2594)]]\n[[question c = ['j']]]\ntheme: Candle",
+      "statement": "A candle factory produced 5725 candles in the morning but later found out that 2594 were defective and had to be discarded. How many viable candles remained?",
+      "new symbolic struct": "[[var t = 5725]]\n[[var d = 2594]]\n[[question v = ['t - d']]]",
+      "answer": "3131",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-89-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var j = (5725 - 2594)]]\n[[var q = (j + 490)]]\n[[question e = ['q']]]\ntheme: Candle",
+      "statement": "Initially, a candle factory produced 5725 candles, but 2594 were defective and had to be discarded. Then, they made an additional batch of 490 candles. How many viable candles were there in total after the second batch was made?",
+      "new symbolic struct": "[[var t1 = 5725]]\n[[var d = 2594]]\n[[var v1 = (t1 - d)]]\n[[var t2 = 490]]\n[[question vt = ['v1 + t2']]]",
+      "answer": "3621",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-89-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var j = (4777 - 2594)]]\n[[question c = ['j']]]\ntheme: Candle",
+      "statement": "In a revision to the earlier count, the candle factory actually produced 4777 candles initially, not 5725, and 2594 were defective and had to be discarded. Using this updated count, how many viable candles remained from the initial production?",
+      "new symbolic struct": "[[var n = 4777]]\n[[var d = 2594]]\n[[question v = ['n - d']]]",
+      "answer": "2183",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-90-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (2491 + 3947)]]\n[[question t = ['b']]]\ntheme: Game",
+      "statement": "In an exciting basketball game, team A scored 2491 points and team B scored 3947 points. What is the total number of points scored in the game?",
+      "new symbolic struct": "[[var a = 2491]]\n[[var b = 3947]]\n[[question t = ['a + b']]]",
+      "answer": "6438",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-90-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (2491 + 3947)]]\n[[var y = (b + 3214)]]\n[[question p = ['y']]]\ntheme: Game",
+      "statement": "Following the exciting basketball game, there was a second match where both teams together scored an additional 3214 points. What is the grand total of points scored in both games?",
+      "new symbolic struct": "[[var a = 2491]]\n[[var b = 3947]]\n[[var c = a+b]]\n[[var d = 3214]]\n[[question e = ['c + d']]]",
+      "answer": "9652",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-90-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (2491 + 7403)]]\n[[question t = ['b']]]\ntheme: Game",
+      "statement": "After reflecting on the scores from the exciting basketball games, it turns out that there was a mistake in the initial count. In actuality, the points weren't 2491 and 3947 for the first game, but rather, team A scored 2491 and team B scored an astonishing 7403 points. So what is the corrected total number of points for the first game?",
+      "new symbolic struct": "[[var a = 2491]]\n[[var b = 7403]]\n[[question corrected_total = ['a + b']]]",
+      "answer": "9894",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-91-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var b = (9955 - 5517)]]\n[[question w = ['b']]]\ntheme: Water",
+      "statement": "A water company originally had 9955 gallons of water. After a day of distribution, they had 5517 gallons remaining. How many gallons of water did the company distribute?",
+      "new symbolic struct": "[[var m = 9955]]\n[[var n = 5517]]\n[[question q = ['m - n']]]",
+      "answer": "4438",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-93-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var l = (9341 - 1153)]]\n[[question a = ['l']]]\ntheme: Doll",
+      "statement": "A doll factory produced 9341 dolls in May, but 1153 of those dolls were found to be defective and had to be discarded. How many dolls were left after the defective ones were discarded?",
+      "new symbolic struct": "[[var a = 9341]]\n[[var b = 1153]]\n[[question c = ['a - b']]]",
+      "answer": "8188",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-93-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var l = (9341 - 1153)]]\n[[var r = (l + 432)]]\n[[question t = ['r']]]\ntheme: Doll",
+      "statement": "After discarding the defective dolls, the factory produced an additional 432 dolls in the first week of June. How many dolls did they have in total after this additional production?",
+      "new symbolic struct": "[[var a = 9341]]\n[[var b = 1153]]\n[[var c = a - b]]\n[[var d = 432]]\n[[question e = ['c + d']]]",
+      "answer": "8620",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-93-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var l = (9341 - 1982)]]\n[[question a = ['l']]]\ntheme: Doll",
+      "statement": "The factory initially reported that 1153 dolls were defective. After further inspection, they found that the actual number of defective dolls was 1982. How many dolls were left after correcting the number of defective dolls?",
+      "new symbolic struct": "[[var a = 9341]]\n[[var d = 1982]]\n[[question e = ['a - d']]]",
+      "answer": "7359",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-94-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var q = (3659 - 1423)]]\n[[question e = ['q']]]\ntheme: Soap",
+      "statement": "A soap factory made 3659 soaps a day at the peak of its production. Due to a technical issue, the production fell and they could only make 1423 soaps. How many fewer soaps were produced due to this technical issue?",
+      "new symbolic struct": "[[var peak_production = 3659]]\n[[var current_production = 1423]]\n[[question decrease_in_productions = ['peak_production - current_production']]]",
+      "answer": "2236",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-94-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var q = (2987 - 1423)]]\n[[question e = ['q']]]\ntheme: Soap",
+      "statement": "Following the technical issue at the soap factory, it was discovered that the production data was incorrect. Actually, the company was making 2987 soaps a day at its peak, not 3659. How many fewer soaps were produced after the technical issue considering the corrected data?",
+      "new symbolic struct": "[[var corrected_peak_production = 2987]]\n[[var current_production = 1423]]\n[[question corrected_decrease_in_productions = ['corrected_peak_production - current_production']]]",
+      "answer": "1564",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-95-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var y = (1757 + 5161)]]\n[[question k = ['y']]]\ntheme: Earrings",
+      "statement": "A jewelry store has 1757 pairs of gold earrings. They also have an additional 5161 pairs of silver earrings. How many pairs of earrings does the store have in total?",
+      "new symbolic struct": "[[var g = 1757]]\n[[var s = 5161]]\n[[question t = ['g + s']]]",
+      "answer": "6918",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-95-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var y = (1757 + 5161)]]\n[[var w = 6267]]\n[[question d = ['(y - w)']]]\ntheme: Earrings",
+      "statement": "The jewelry store mentioned earlier misplaced some earrings due to a confusion during inventory organization. After recounting their earrings, they found out that only 6267 pairs of earrings were left. How many pairs of earrings have they misplaced?",
+      "new symbolic struct": "[[var g = 1757]]\n[[var s = 5161]]\n[[var t = g + s]]\n[[var r = 6267]]\n[[question m = ['t - r']]]",
+      "answer": "651",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-95-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var y = (1757 + 3589)]]\n[[question k = ['y']]]\ntheme: Earrings",
+      "statement": "After a thorough investigation, it is found that the initial inventory count of their silver earrings was mistaken. They actually had 3589 pairs of silver earrings, not 5161. With 1757 pairs of gold earrings still in the count, how many pairs of earrings does the store have in total now?",
+      "new symbolic struct": "[[var g = 1757]]\n[[var s_corrected = 3589]]\n[[question t_corrected = ['g + s_corrected']]]",
+      "answer": "5346",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-96-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var q = (6778 + 283)]]\n[[question b = ['q']]]\ntheme: Starfish",
+      "statement": "There were 6778 starfish found in a particular region of the ocean. 283 new starfishes were spotted in the same region after two months. How many starfish in total were spotted after two months?",
+      "new symbolic struct": "[[var a = 6778]]\n[[var b = 283]]\n[[question c = ['a + b']]]",
+      "answer": "7061",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-96-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var q = (687 + 283)]]\n[[question b = ['q']]]\ntheme: Starfish",
+      "statement": "Suppose there was a miscalculation initially and in reality, there were only 687 starfish instead of 6778. If the same additional amount of 283 starfish were spotted in the same region after two months, how many starfish in total would there be then?",
+      "new symbolic struct": "[[var a1 = 687]]\n[[var b = 283]]\n[[question c1 = ['a1 + b']]]",
+      "answer": "970",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-97-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (274 + 5031)]]\n[[question d = ['m']]]\ntheme: Beach",
+      "statement": "On a particular day at the beach, 274 visitors arrived before lunch and 5031 arrived after lunch. How many visitors were at the beach on this day?",
+      "new symbolic struct": "[[var before_lunch = 274]]\n[[var after_lunch = 5031]]\n[[question total_visitors = ['before_lunch + after_lunch']]]",
+      "answer": "5305",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-97-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (274 + 3328)]]\n[[question d = ['m']]]\ntheme: Beach",
+      "statement": "In our previous scenario at the beach, we thought there were 5031 visitors who arrived after lunch, but it turns out there were only 3328. Considering this, how many visitors were actually at the beach that day?",
+      "new symbolic struct": "[[var before_lunch = 274]]\n[[var after_lunch_corrected = 3328]]\n[[question total_visitors_corrected = ['before_lunch + after_lunch_corrected']]]",
+      "answer": "3602",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-98-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var f = (8483 + 118)]]\n[[question e = ['f']]]\ntheme: Elephant",
+      "statement": "An elephant sanctuary in Africa currently holds 8483 elephants. Recently, the sanctuary rescued 118 more elephants. How many elephants are in the sanctuary now?",
+      "new symbolic struct": "[[var e = 8483]]\n[[var ne = (e + 118)]]\n[[question en = ['ne']]]",
+      "answer": "8601",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-98-1",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var f = (8483 + 118)]]\n[[var j = (f - 3166)]]\n[[question n = ['j']]]\ntheme: Elephant",
+      "statement": "After taking count of the 8483 elephants already in the sanctuary and the 118 that were recently rescued, they realized they had to relocated 3166 elephants to another location due to overpopulation. How many elephants remain in the sanctuary after the relocation?",
+      "new symbolic struct": "[[var e = 8483]]\n[[var r = 118]]\n[[var tr = (e + r)]]\n[[var nr = (tr - 3166)]]\n[[question er = ['nr']]]",
+      "answer": "5435",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "4.NBT.B.4-98-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var f = (6404 + 118)]]\n[[question e = ['f']]]\ntheme: Elephant",
+      "statement": "Suppose that the count of elephants in the sanctuary initially was not 8483 but 6404. So in this case, if they still rescued 118 more, how many elephants would the sanctuary have in total then?",
+      "new symbolic struct": "[[var e = 6404]]\n[[var ne = (e + 118)]]\n[[question en = ['ne']]]",
+      "answer": "6522",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-99-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (5580 - 588)]]\n[[question h = ['m']]]\ntheme: Farmer",
+      "statement": "A farmer had a successful year and harvested 5580 kg of potatoes. Unfortunately, 588 kg of these potatoes were of a low quality and couldn't be sold. How many kilograms of potatoes does the farmer have that are of good quality and can be sold?",
+      "new symbolic struct": "[[var a = 5580]]\n[[var b = 588]]\n[[question c = ['a - b']]]",
+      "answer": "4992",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-99-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var m = (5080 - 588)]]\n[[question h = ['m']]]\ntheme: Farmer",
+      "statement": "Let's consider the previous problem, where a farmer had a successful year and harvested 5580 kg of potatoes, with 588 kg being of low quality and couldn't be sold. \n\nBut what if the original harvest was not as bountiful as we first thought, and the farmer only harvested 5080 kg instead of 5580 kg. In this case, keeping the same 588 kg of low quality that couldn't be sold, how many kg of good quality potatoes would the farmer have?",
+      "new symbolic struct": "[[var a = 5080]]\n[[var b = 588]]\n[[question c = ['a - b']]]",
+      "answer": "4492",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-100-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var t = (9007 - 2233)]]\n[[question z = ['t']]]\ntheme: Sandbox",
+      "statement": "A child has 9007 grains of sand in his sandbox. He then removes 2233 grains of sand. How many grains of sand are left in his sandbox?",
+      "new symbolic struct": "[[var a = 9007]]\n[[var b = 2233]]\n[[question c = ['a - b']]]",
+      "answer": "6774",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.NBT.B.4-101-0",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (4245 - 1152)]]\n[[question e = ['n']]]\ntheme: Wind",
+      "statement": "A strong wind gust was measured at 4245 km/h. After a while, the speed went down by 1152 km/h. What speed did the wind gust reduce to?",
+      "new symbolic struct": "[[var g = 4245]]\n[[var p = (g - 1152)]]\n[[question s = ['p']]]",
+      "answer": "3093",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.NBT.B.4-101-2",
+      "standard": "4.NBT.B.4",
+      "symbolic-struct": "[[var n = (6475 - 1152)]]\n[[question e = ['n']]]\ntheme: Wind",
+      "statement": "Initially, a strong wind gust was measured at 6475 km/h instead of 4245 km/h. After a while, the speed went down by 1152 km/h. What speed did the wind gust reduce to in this situation?",
+      "new symbolic struct": "[[var g = 6475]]\n[[var p = (g - 1152)]]\n[[question s = ['p']]]",
+      "answer": "5323",
+      "tag": "modified information follow up"
+    }
+  ]
+]

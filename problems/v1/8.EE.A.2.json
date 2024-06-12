@@ -1,0 +1,1102 @@
+[
+  [
+    {
+      "id": "8.EE.A.2-0-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (g ** 3)]]\n[[question y = ['g']]]\ntheme: Sandbox",
+      "statement": "A child builds a sandcastle in a sandbox. The sandbox has the shape of a cubic box with 512 cubic feet of sand. What is the length of each side of the sandbox in feet?",
+      "new symbolic struct": "[[var 512 = u ** 3]]\r\n[[question n = ['u']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-1-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 729 = (j ** 3)]]\n[[question e = ['j']]]\ntheme: Fireplace",
+      "statement": "An artisan carves a cubic fireplace out of stone, which has a volume of 729 cubic feet. What is the length of each side of the fireplace in feet?",
+      "new symbolic struct": "[[var 729 = x ** 3]]\n[[question y = ['x']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-2-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1000 = (e ** 3)]]\n[[question o = ['e']]]\ntheme: Farmer",
+      "statement": "A farmer has a large cubical barn with a volume of 1000 cubic meters. What is the length of each side of the barn in meters?",
+      "new symbolic struct": "[[var 1000 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-3-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (s ** 3)]]\n[[question w = ['s']]]\ntheme: Giraffe",
+      "statement": "A giraffe's tank in the zoo is in a cubic shape in order to facilitate its movement. The volume of the tank is 512 m^3. If all sides of the tank are equal in size, what is the size of one side of the tank in meters?",
+      "new symbolic struct": "[[var 512 = t ** 3]]\n[[question n = ['t']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-4-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 64 = (y ** 3)]]\n[[question x = ['y']]]\ntheme: Mountain",
+      "statement": "A mountain has a cuboidal shape and its volume is 64 km^3. If all of the sides of this cuboid are of equal length, what is the length of each side in kilometers?",
+      "new symbolic struct": "[[var 64 = a ** 3]]\n[[question n = ['a']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-5-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (i ** 3)]]\n[[question e = ['i']]]\ntheme: Moon",
+      "statement": "There's a large crater on the moon that has a cubic shape and a volume of 512 cubic kilometers. What is the length of each edge of this crater in kilometers?",
+      "new symbolic struct": "[[var 512 = v ** 3]]\n[[question n = ['v']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-6-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (n ** 3)]]\n[[question c = ['n']]]\ntheme: Baby",
+      "statement": "A baby is playing with blocks, assembling them to build a larger cube structure. If the total number of blocks is 343, what is the length (represented in blocks) of one side of the cube?",
+      "new symbolic struct": "[[var 343 = b ** 3]]\n[[question n = ['b']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-7-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (t ** 3)]]\n[[question q = ['t']]]\ntheme: UFO",
+      "statement": "An alien in a UFO spies a cubic container with a mysterious substance on earth. The volume of the substance is 512 cubic feet. The alien wonders, what is the length of one side of the cubic container in feet?",
+      "new symbolic struct": "[[var 512 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-8-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (o ** 3)]]\n[[question e = ['o']]]\ntheme: Pencil",
+      "statement": "A pencil manufacturer makes pencil-eraser cubes and the volume of each cube is found to be 512 mm^3. What is the edge length of each eraser cube?",
+      "new symbolic struct": "[[var 512 = e ** 3]]\n[[question n = ['e']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-9-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 8 = (g ** 3)]]\n[[question o = ['g']]]\ntheme: Letter",
+      "statement": "The letter G in a certain font uses a cube as a model for its design. If the volume of this cubic model is 8 cubic cm, what is the length of each side of the cube in cm?",
+      "new symbolic struct": "[[var 8 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-10-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 27 = (c ** 3)]]\n[[question v = ['c']]]\ntheme: Shark",
+      "statement": "A shark's territory within the ocean is allotted in the shape of a cube with a volume of 27 cubic kilometers. Can you calculate the length in kilometers of one edge of this cube?",
+      "new symbolic struct": "[[var 27 = s ** 3]]\n[[question n = ['s']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-11-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1 = (u ** 3)]]\n[[question y = ['u']]]\ntheme: Card",
+      "statement": "A deck of cards is designed in a cubic box. The volume of the box is 1 cubic inch. What is the length of each side of the box in inches?",
+      "new symbolic struct": "[[var 1 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-12-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 125 = (k ** 3)]]\n[[question d = ['k']]]\ntheme: Flower",
+      "statement": "A unique type of flower grows in the shape of a cube. Each cubic centimeter of this flower holds 1 milliliter of nectar. If a particular flower holds 125 milliliters of nectar, what is the length of one side of this cubic flower in centimeters?",
+      "new symbolic struct": "[[var 125 = f ** 3]]\n[[question n = ['f']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-13-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 125 = (n ** 3)]]\n[[question h = ['n']]]\ntheme: Forest",
+      "statement": "In a forest, the volume of a cubical tree stump was found to be 125 cubic meters. What is the length of one side of the tree stump?",
+      "new symbolic struct": "[[var 125 = x ** 3]]\n[[question y = ['x']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-14-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1000 = (z ** 3)]]\n[[question p = ['z']]]\ntheme: Bracelet",
+      "statement": "A jeweler is designing a bracelet in the shape of a cube. The volume of the bracelet is 1000 cubic millimeters. What is the length of each edge of the bracelet in millimeters?",
+      "new symbolic struct": "[[var 1000 = c ** 3]]\n[[question a = ['c']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-15-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1 = (b ** 3)]]\n[[question w = ['b']]]\ntheme: Soap",
+      "statement": "A bar of soap is in the shape of a cube. If its volume is 1 cubic cm, what is the length of each side of the soap in cm?\n",
+      "new symbolic struct": "[[var 1 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-16-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (y ** 3)]]\n[[question z = ['y']]]\ntheme: Forest",
+      "statement": "A forest ranger discovered a rare cubic yew tree with a volume of 216 cubic meters. What is the length of each edge of this yew tree in meters?",
+      "new symbolic struct": "[[var 216 = x ** 3]]\n[[question e = ['x']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-18-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1000 = (x ** 3)]]\n[[question a = ['x']]]\ntheme: Blanket",
+      "statement": "A blanket is folded in a perfect cube shape and has a volume of 1000 cubic cm. What is the length of each side of the blanket in centimeters?",
+      "new symbolic struct": "[[var 1000 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-19-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 125 = (l ** 3)]]\n[[question q = ['l']]]\ntheme: Train",
+      "statement": "A toy train is positioned inside a box, which is a cube. The volume of the box is 125 cubic centimeters. What is the length of each side of the box in centimeters?",
+      "new symbolic struct": "[[var 125 = b ** 3]]\n[[question m = ['b']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-20-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 125 = (j ** 3)]]\n[[question i = ['j']]]\ntheme: Bottle",
+      "statement": "A perfume bottle is shaped like a cube and it has a volume of 125 cubic centimeters. What is the length of each side of the bottle in centimeters?",
+      "new symbolic struct": "[[var 125 = c ** 3]]\n[[question n = ['c']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-21-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (t ** 3)]]\n[[question q = ['t']]]\ntheme: Pencil",
+      "statement": "A pencil-shaped building has a cuboidal structure. The building has a uniform cross-sectional area all along its height. When the volume of the building is calculated, it comes out to be 216 cubic meters. If the building height, width and depth are all equal, what is the length in meters of one side?",
+      "new symbolic struct": "[[var 216 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-24-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (y ** 3)]]\n[[question o = ['y']]]\ntheme: Chair",
+      "statement": "A chair is designed in the shape of a cube, and its volume is 343 cubic feet. What is the length of each side of the chair in feet?",
+      "new symbolic struct": "[[var 343 = c ** 3]]\n[[question n = ['c']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-26-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 729 = (b ** 3)]]\n[[question a = ['b']]]\ntheme: Roller skates",
+      "statement": "A roller skate company designs a new line of cubes that will go on the end of each skate. The volume of each cube is calculated to be 729 cubic inches. What is the length, in inches, of a side of each cube?",
+      "new symbolic struct": "[[var 729 = c ** 3]]\n[[question x = ['c']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-27-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 8 = (c ** 3)]]\n[[question z = ['c']]]\ntheme: Alien",
+      "statement": "An alien species uses cubical spaceships for traveling. The volume of one of these spaceships is 8 cubic miles. What is the length in miles of each edge of the spaceship?",
+      "new symbolic struct": "[[var 8 = s ** 3]]\n[[question p = ['s']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-28-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (t ** 3)]]\n[[question d = ['t']]]\ntheme: Strawberry",
+      "statement": "A strawberry farmer builds a cube-shaped cold storage unit for his strawberries. The cold storage has a volume of 343 cubic feet. What is the length of each side of the storage unit in feet?",
+      "new symbolic struct": "[[var 343 = s ** 3]]\n[[question l = ['s']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-29-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 8 = (p ** 3)]]\n[[question i = ['p']]]\ntheme: Compass",
+      "statement": "The volume of the compass cube is 8 cubic inches. What is the length of the edge of the compass cube in inches?",
+      "new symbolic struct": "[[var 8 = c ** 3]]\n[[question d = ['c']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-31-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 729 = (b ** 3)]]\n[[question w = ['b']]]\ntheme: Potato",
+      "statement": "A potato farmer has a unique farm and prefers to grow his potatoes in cubic plots. One plot has a volume that measures 729 cubic meters. What is the length of each side of the plot in meters?",
+      "new symbolic struct": "[[var 729 = p ** 3]]\n[[question n = ['p']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-32-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1000 = (y ** 3)]]\n[[question p = ['y']]]\ntheme: Slide",
+      "statement": "A slide in the amusement park has a cuboid shape. The volume of this slide is given as 1000 cubic feet. If the slide has the same length, width, and height, what is the length of one side of the slide in feet?",
+      "new symbolic struct": "[[var 1000 = a ** 3]]\n[[question n = ['a']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-33-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (z ** 3)]]\n[[question y = ['z']]]\ntheme: Monkey",
+      "statement": "A zookeeper is building a new play cube for the monkeys. The volume of the cube is huge - exactly 512 cubic feet! The zookeeper wants all sides of the play cube to be of equal length. What is the length of each side of the play cube in feet?",
+      "new symbolic struct": "[[var 512 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-34-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 27 = (e ** 3)]]\n[[question u = ['e']]]\ntheme: Hat",
+      "statement": "A magical hat inflates into the shape of a perfect cube. When fully inflated, its volume measures 27 cubic centimeters. Can you figure out the length of one edge of the hat when it is fully inflated?",
+      "new symbolic struct": "[[var 27 = p ** 3]]\n[[question n = ['p']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-35-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 27 = (q ** 3)]]\n[[question w = ['q']]]\ntheme: Grapes",
+      "statement": "A grape farmer is packing his grapes into cube-shaped containers. If one such container holds 27 grapes, how many grapes does each side of the cube hold?",
+      "new symbolic struct": "[[var 27 = g ** 3]]\n[[question n = ['g']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-37-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (l ** 3)]]\n[[question i = ['l']]]\ntheme: Truck",
+      "statement": "A truck driver transports cargo in a big cube-shaped container. He knows that the volume of the container is given as 216 cubic meters. Can you help him find out the length of one side of the cube container?",
+      "new symbolic struct": "[[var 216 = c ** 3]]\n[[question o = ['c']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-38-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 64 = (d ** 3)]]\n[[question t = ['d']]]\ntheme: Bracelet",
+      "statement": "A cube-shaped bracelet charm has a volume of 64 mm^3. What is the length of each edge of the cube charm in millimeters?",
+      "new symbolic struct": "[[var 64 = c ** 3]]\n[[question n = ['c']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-39-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 64 = (j ** 3)]]\n[[question t = ['j']]]\ntheme: Number",
+      "statement": "If a number is cubed and the result is 64, what is the number?",
+      "new symbolic struct": "[[var 64 = y ** 3]]\n[[question n = ['y']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-40-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1 = (y ** 3)]]\n[[question j = ['y']]]\ntheme: Hot chocolate",
+      "statement": "Your petite mug is perfect for hot chocolate and has a cubic shape, accommodating comfy 1 liter of hot drink. Can you tell me, how long, in liters, is each side of the petite mug?",
+      "new symbolic struct": "[[var 1 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-42-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (m ** 3)]]\n[[question d = ['m']]]\ntheme: Blanket",
+      "statement": "The volume of a cube-shaped blanket is 343 cubic inches when fully fluffed. What is the length of one side of this fluffed blanket in inches?",
+      "new symbolic struct": "[[var 343 = x ** 3]]\n[[question y = ['x']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-43-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 729 = (i ** 3)]]\n[[question g = ['i']]]\ntheme: Penguin",
+      "statement": "A Penguin has stacked ice cubes in a specific way to form a larger perfect cube. The volume of the larger cube made up of smaller cubes is 729 cubic cm. If each side of the smaller ice cube is the same length in cm, what is that length?",
+      "new symbolic struct": "[[var 729 = p ** 3]]\n[[question n = ['p']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-44-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (c ** 3)]]\n[[question k = ['c']]]\ntheme: Scooter",
+      "statement": "A kid on a scooter notices that his new scooter wheel, which has a cubic shape, has a volume of 216 cubic cm. What is the length of each side of the wheel in cm?",
+      "new symbolic struct": "[[var 216 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-45-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (v ** 3)]]\n[[question p = ['v']]]\ntheme: Butterfly",
+      "statement": "A butterfly places an egg in a cubic flower bud. The volume of the bud is 216 cubic millimeters. What length, in millimeters, is each edge of this flower bud?",
+      "new symbolic struct": "[[var 216 = p ** 3]]\n[[question n = ['p']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-46-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 27 = (v ** 3)]]\n[[question m = ['v']]]\ntheme: Snail",
+      "statement": "A snail carries a shell that is shaped like a cube. The volume of the shell is 27 cm^3. What is the length of each side of the snail's cubical shell in centimeters?",
+      "new symbolic struct": "[[var 27 = s ** 3]]\n[[question n = ['s']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-47-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 27 = (p ** 3)]]\n[[question o = ['p']]]\ntheme: Party",
+      "statement": "For a party, a giant cubic party balloon is being used. If the volume of the balloon is 27 cubic feet, what is the length of one side of the balloon in feet?",
+      "new symbolic struct": "[[var 27 = u ** 3]]\n[[question v = ['u']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-48-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (v ** 3)]]\n[[question y = ['v']]]\ntheme: Firefighter",
+      "statement": "A firefighter is pumping water out of a cubic tank to fight a fire. If the tank has a volume of 216 cubic feet, what is the length of one edge of the tank in feet?",
+      "new symbolic struct": "[[var 216 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-49-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (l ** 3)]]\n[[question q = ['l']]]\ntheme: Card",
+      "statement": "You have a cube-shaped box of cards with a volume of 216 cubic inches. What is the length of one side of the box in inches?",
+      "new symbolic struct": "[[var 216 = c ** 3]]\n[[question n = ['c']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-50-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 125 = (q ** 3)]]\n[[question k = ['q']]]\ntheme: Skirt",
+      "statement": "A designer is making a cube-shaped pocket for a skirt. She needs 125 cubic inches of fabric to create this uniquely shaped pocket. What is the length in inches of each edge of the pocket?",
+      "new symbolic struct": "[[var 125 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-51-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 125 = (q ** 3)]]\n[[question v = ['q']]]\ntheme: Flower",
+      "statement": "A gardener arranged her flowers in a cube shape for an exhibition. The total number of flowers used was 125. What is the length of each side of the flower cube?",
+      "new symbolic struct": "[[var 125 = f ** 3]]\n[[question n = ['f']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-52-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1000 = (e ** 3)]]\n[[question z = ['e']]]\ntheme: Cucumber",
+      "statement": "A farmer grows cucumbers in the shape of a perfect cube for a special contest. One of his cucumbers has a volume of 1000 cubic centimeters. What is the length in centimeters of a side of this cubic cucumber?",
+      "new symbolic struct": "[[var 1000 = c ** 3]]\n[[question n = ['c']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-53-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 27 = (j ** 3)]]\n[[question u = ['j']]]\ntheme: Plane",
+      "statement": "A small airplane has a cargo hold whose volume is 27 cubic meters, and all sides of the hold have equal length. What is the length in meters of one side of this cargo hold?",
+      "new symbolic struct": "[[var 27 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-54-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (b ** 3)]]\n[[question e = ['b']]]\ntheme: Cucumber",
+      "statement": "A cucumber farmer is experimenting with a new variety of cucumbers that grow in a perfect cubic shape. One of these cubic cucumbers has a volume of 216 cubic centimeters. What is the length of each side of this cubic cucumber in centimeters?",
+      "new symbolic struct": "[[var 216 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-55-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 729 = (m ** 3)]]\n[[question y = ['m']]]\ntheme: Skateboard",
+      "statement": "A skateboard company designs a cubic box to ship its skateboards. If the volume of the box is 729 cubic feet, what is the length of one edge of the box (in feet)?",
+      "new symbolic struct": "[[var 729 = v ** 3]]\n[[question n = ['v']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-56-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 27 = (z ** 3)]]\n[[question y = ['z']]]\ntheme: Letter",
+      "statement": "The number 27 appears in a dream of a person who loves cryptic letters. He knows this number corresponds to a number obtained by cubing a letter's position in the alphabet. Can you find that letter by its position? (Let's use 'a' as 1, 'b' as 2, and so on.)",
+      "new symbolic struct": "[[var 27 = c ** 3]]\n[[question d = ['c']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-57-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1 = (z ** 3)]]\n[[question j = ['z']]]\ntheme: Boat",
+      "statement": "A company manufactures small cubical buoys for use in boating. One buoy has a volume of 1 cubic foot. What is the length of each side of the buoy in feet?",
+      "new symbolic struct": "[[var 1 = a ** 3]]\n[[question n = ['a']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-58-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 729 = (i ** 3)]]\n[[question x = ['i']]]\ntheme: Sun",
+      "statement": "The sun emits rays of energy that heat a cubical object to a temperature of 729 degrees. If the temperature at the heart of this object is directly proportional to the cube of its length, what is the length of the object in units?",
+      "new symbolic struct": "[[var 729 = t ** 3]]\n[[question n = ['t']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-59-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 8 = (j ** 3)]]\n[[question r = ['j']]]\ntheme: Orange",
+      "statement": "An orange was shaped perfectly into a cube, with its volume being 8 cubic centimeters. What is the length of each side of the cube-shaped orange in centimeters?",
+      "new symbolic struct": "[[var 8 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-60-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 729 = (n ** 3)]]\n[[question s = ['n']]]\ntheme: Telescope",
+      "statement": "A particular telescope has a cubical mirror box where the volume of the box is 729 cubic centimeters. What is the length of one edge of this box, in centimeters?",
+      "new symbolic struct": "[[var 729 = v ** 3]]\n[[question a = ['v']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-61-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 125 = (s ** 3)]]\n[[question c = ['s']]]\ntheme: Backpack",
+      "statement": "A backpack has a cubical storage compartment. The volume of this compartment is 125 cubic inches. What is the length of one side of the compartment in inches?",
+      "new symbolic struct": "[[var 125 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-62-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (x ** 3)]]\n[[question b = ['x']]]\ntheme: Stuffed animal",
+      "statement": "A particular model of a stuffed animal comes in a cube-shaped box. The volume of this box is 343 cubic inches. What is the length of each side of the box, in inches?",
+      "new symbolic struct": "[[var 343 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-64-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (t ** 3)]]\n[[question n = ['t']]]\ntheme: Candy",
+      "statement": "A certain type of candy comes in cube-shaped packages. When you measured the volume of one of these packages, it turned out to be 512 cubic centimeters. How long is each edge of a candy package?",
+      "new symbolic struct": "[[var 512 = c ** 3]]\n[[question n = ['c']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-65-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (d ** 3)]]\n[[question h = ['d']]]\ntheme: Jungle gym",
+      "statement": "A solid cube jungle gym at the park has a volume of 512 cubic feet. What is the length of a side of this jungle gym in feet?",
+      "new symbolic struct": "[[var 512 = j ** 3]]\n[[question n = ['j']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-66-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 729 = (h ** 3)]]\n[[question y = ['h']]]\ntheme: Toothbrush",
+      "statement": "A company designs toothbrushes in a perfect cube shape for easy handling. One model has a volume of 729 cubic centimeters. What is the length of each edge of the toothbrush in centimeters?",
+      "new symbolic struct": "[[var 729 = t ** 3]]\n[[question e = ['t']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-68-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 8 = (l ** 3)]]\n[[question b = ['l']]]\ntheme: Star",
+      "statement": "There's a star in a distance galaxy shaped like a perfect cube. Its volume is 8 cubic light years. What is the length of each edge of the star (in light years)?",
+      "new symbolic struct": "[[var 8 = s ** 3]]\n[[question l = ['s']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-69-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1 = (h ** 3)]]\n[[question b = ['h']]]\ntheme: Dolphin",
+      "statement": "A Dolphin can completely fill a cubical chamber with its calls, where the intensity of the call's volume is effectively 1 unit^3. What is the length of each side of the cubical chamber?",
+      "new symbolic struct": "[[var 1 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-71-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1000 = (a ** 3)]]\n[[question s = ['a']]]\ntheme: Watch",
+      "statement": "The volume of a cubic gadget inside a watch mechanism is 1000 mm^3. What is the length of each side of this cubic gadget in millimeters?",
+      "new symbolic struct": "[[var 1000 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-72-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1 = (x ** 3)]]\n[[question m = ['x']]]\ntheme: Shape",
+      "statement": "There is a cube with a volume of 1 cubic meter. Can you find the length of one edge of this cube in meters?",
+      "new symbolic struct": "[[var 1 = x ** 3]]\n[[question l = ['x']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-73-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (n ** 3)]]\n[[question p = ['n']]]\ntheme: Unicorn",
+      "statement": "A unicorn keeps her treasure in a magical cube-shaped box. The box has a volume of 216 cubic meters. How long is each side of this box in meters?",
+      "new symbolic struct": "[[var 216 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-74-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 64 = (t ** 3)]]\n[[question b = ['t']]]\ntheme: House",
+      "statement": "A cube-shaped house has a volume of 64 cubic feet. What is the length of one side of the house in feet?",
+      "new symbolic struct": "[[var 64 = x ** 3]]\n[[question y = ['x']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-75-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1000 = (y ** 3)]]\n[[question f = ['y']]]\ntheme: Toothbrush",
+      "statement": "The volume of a cubical toothbrush holder is 1000 cubic centimeters. What is the length in centimeters of the edge of the toothbrush holder?",
+      "new symbolic struct": "[[var 1000 = e ** 3]]\n[[question n = ['e']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-76-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 125 = (f ** 3)]]\n[[question v = ['f']]]\ntheme: Sandwich",
+      "statement": "A sandwich shop has a signature bread loaf which is in a cubic form. They bake their bread in a cube-shaped oven whose volume is 125 cubic inches. Determine the length of each side of the loaf (f) in inches?",
+      "new symbolic struct": "[[var 125 = f ** 3]]\n[[question o = ['f']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-77-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 64 = (k ** 3)]]\n[[question z = ['k']]]\ntheme: Strawberry",
+      "statement": "A special variety of strawberry is shaped like a cube. The strawberry has a volume of 64 cubic millimeters. What is the length of one side of the strawberry in millimeters?",
+      "new symbolic struct": "[[var 64 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-78-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (w ** 3)]]\n[[question o = ['w']]]\ntheme: Rocket",
+      "statement": "A rocket is designed in the shape of a perfect cube. The rocket has a volume of 216 cubic meters. What is the length of each side of the rocket in meters?",
+      "new symbolic struct": "[[var 216 = t ** 3]]\n[[question n = ['t']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-79-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (i ** 3)]]\n[[question u = ['i']]]\ntheme: Lamp",
+      "statement": "A company manufactures cubic lamp bases. Each lamp base has a volume of 512 cubic inches. Find the length of one edge of the base.",
+      "new symbolic struct": "[[var 512 = l ** 3]]\n[[question n = ['l']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-80-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 27 = (d ** 3)]]\n[[question t = ['d']]]\ntheme: Fish",
+      "statement": "A certain species of fish lays eggs in a cubical arrangement. If one fish lays 27 eggs, what is the length of the edge of this cube?",
+      "new symbolic struct": "[[var 27 = e ** 3]]\n[[question n = ['e']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-81-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (p ** 3)]]\n[[question y = ['p']]]\ntheme: School bus",
+      "statement": "The volume of a mini school bus is 512 cubic meters. If the shape of the bus can be closely approximated as a cube, then what is the length in meters of one edge of this 'cube'?",
+      "new symbolic struct": "[[var 512 = b ** 3]]\n[[question m = ['b']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-82-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (j ** 3)]]\n[[question r = ['j']]]\ntheme: Balloon",
+      "statement": "A giant cubic balloon used in a carnival has a volume of 343 cubic meters. What is the length of each edge of this balloon in meters?",
+      "new symbolic struct": "[[var 343 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-84-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (m ** 3)]]\n[[question n = ['m']]]\ntheme: Shirt",
+      "statement": "A shirt was created in a very unique 3D cube design with a total volume of 343 cubic centimeters. What is the length of one side of this cubic shirt design in centimeters?",
+      "new symbolic struct": "[[var 343 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-85-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (k ** 3)]]\n[[question l = ['k']]]\ntheme: Roller skates",
+      "statement": "A roller skate is a cube-shaped container for a certain piece of equipment. It has a volume of 216 cubic inches. What is the length of each side of this roller skate container in inches?",
+      "new symbolic struct": "[[var 216 = u ** 3]]\n[[question p = ['u']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-86-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (o ** 3)]]\n[[question l = ['o']]]\ntheme: Water",
+      "statement": "There's a cubic water tank which can hold up to 343 cubic meters of water. What is the side length of this cubic water tank?",
+      "new symbolic struct": "[[var 343 = w ** 3]]\n[[question n = ['w']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-87-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 216 = (i ** 3)]]\n[[question g = ['i']]]\ntheme: Backpack",
+      "statement": "A backpack has a cubical shape and can hold a volume of 216 cubic inches. What is the length of each side of the backpack in inches?",
+      "new symbolic struct": "[[var 216 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "6",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-88-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1 = (a ** 3)]]\n[[question h = ['a']]]\ntheme: Dinosaur",
+      "statement": "A scientist studying a particular type of dinosaur discovered that the volume of the dinosaur's cube-shaped brain was 1 cubic meter. What is the length in meters of each side of the dinosaur's brain's cube structure?",
+      "new symbolic struct": "[[var 1 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-89-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1000 = (a ** 3)]]\n[[question j = ['a']]]\ntheme: Flower",
+      "statement": "A certain species of flower grows in clusters shaped as perfect cubes. One cluster of flowers has a volume of 1000 cubic centimeters. How long, in centimeters, is the edge of this flower cube?",
+      "new symbolic struct": "[[var 1000 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "10",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-90-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (l ** 3)]]\n[[question i = ['l']]]\ntheme: Princess",
+      "statement": "A princess has a magical cube-shaped box that can hold 512 cubic inches of fairy dust. What is the length of one side of this box in inches?",
+      "new symbolic struct": "[[var 512 = v ** 3]]\n[[question r = ['v']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-91-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 64 = (n ** 3)]]\n[[question i = ['n']]]\ntheme: Toy car",
+      "statement": "A toy car toy is designed in the shape of a cube. If the toy car has a volume of 64 cubic inches, what is the length in inches of each side of the toy car?",
+      "new symbolic struct": "[[var 64 = v ** 3]]\n[[question n = ['v']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-92-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 27 = (z ** 3)]]\n[[question d = ['z']]]\ntheme: Clock",
+      "statement": "A special cube-shaped clock has a volume of 27 cubic inches. What is the length of each side of the clock in inches?",
+      "new symbolic struct": "[[var 27 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-93-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 8 = (l ** 3)]]\n[[question z = ['l']]]\ntheme: Truck",
+      "statement": "A semi-truck has a cuboidal trailer. The volume of the cargo space in the trailer is 8 cubic meters, but the height and width are both the same length. What is the length of a side of this cubical cargo space?",
+      "new symbolic struct": "[[var 8 = s ** 3]]\n[[question r = ['s']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-94-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (x ** 3)]]\n[[question s = ['x']]]\ntheme: Grapes",
+      "statement": "A grocer has a cubic box that perfectly fits 343 grapes in it. What is the length of the side of the box marked in grapes?",
+      "new symbolic struct": "[[var 343 = g ** 3]]\n[[question n = ['g']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-95-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (h ** 3)]]\n[[question w = ['h']]]\ntheme: Elephant",
+      "statement": "The volume of an elephant is approximately 343 cubic meters. If the elephant has a perfect cube shape, what is the length of each side in meters?",
+      "new symbolic struct": "[[var 343 = e ** 3]]\n[[question n = ['e']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-96-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 27 = (h ** 3)]]\n[[question g = ['h']]]\ntheme: Camera",
+      "statement": "A camera company produces boxes for their cameras that are in the shape of a cube. The volume of each box is 27 cubic centimeters. Find the length of an edge of the box in centimeters.",
+      "new symbolic struct": "[[var 27 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "3",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-97-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 8 = (a ** 3)]]\n[[question n = ['a']]]\ntheme: Lion",
+      "statement": "A lion roars in a cube-shaped territory of its own. The volume of the territory is 8 km^3. What is the edge length of this territory in kilometers?",
+      "new symbolic struct": "[[var 8 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-98-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 125 = (n ** 3)]]\n[[question j = ['n']]]\ntheme: Backpack",
+      "statement": "In a school, the students use cube-shaped backpacks to carry their books. One of these cube backpacks has a volume of 125 cubic inches. What is the length of each side of the backpack in inches?",
+      "new symbolic struct": "[[var 125 = b ** 3]]\n[[question m = ['b']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-99-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 64 = (u ** 3)]]\n[[question l = ['u']]]\ntheme: Superhero",
+      "statement": "A particular superhero has the ability to enclose villains in a cube of energy. If the cube has a volume of 64 cubic meters, what is the length of each side of the cube?",
+      "new symbolic struct": "[[var 64 = p ** 3]]\n[[question n = ['p']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-100-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 125 = (y ** 3)]]\n[[question u = ['y']]]\ntheme: Treasure chest",
+      "statement": "A treasure chest has a cube shape. The volume of the treasure chest is 125 cubic feet. What is the length of each side of the treasure chest in feet?",
+      "new symbolic struct": "[[var 125 = v ** 3]]\n[[question n = ['v']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-101-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1 = (c ** 3)]]\n[[question o = ['c']]]\ntheme: Fish",
+      "statement": "A fish tank in the shape of a cube holds exactly 1 cubic meter of water. What is the length, in meters, of each side of the fish tank?",
+      "new symbolic struct": "[[var 1 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-103-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 125 = (h ** 3)]]\n[[question m = ['h']]]\ntheme: Food",
+      "statement": "A chef is experimenting with cubed food presentations and crafts an appetizer from cheese. The appetizer's volume is 125 cubic centimeters. What is the length of one side of this cheese cube in centimeters?",
+      "new symbolic struct": "[[var 125 = c ** 3]]\n[[question n = ['c']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-105-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (v ** 3)]]\n[[question o = ['v']]]\ntheme: Roller skates",
+      "statement": "A roller skater is skating in a skatepark modeled as a perfect cube. The volume of the skatepark, in cubic meters, is 343. What is the length of the edges of the skatepark in meters?",
+      "new symbolic struct": "[[var 343 = s ** 3]]\n[[question l = ['s']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-106-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 1 = (a ** 3)]]\n[[question o = ['a']]]\ntheme: Ice skates",
+      "statement": "An ice skate manufacturer has a design for cubical boxes to package a pair of skates. If the volume of this box is 1 cubic foot, what is the length of a side of this box in feet?",
+      "new symbolic struct": "[[var 1 = s ** 3]]\n[[question n = ['s']]]",
+      "answer": "1",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-107-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 729 = (k ** 3)]]\n[[question z = ['k']]]\ntheme: Game",
+      "statement": "In a video game, a player notices that a treasure chest contains an item cube with a volume of 729 cubic units. What is the length of each side of the item cube?",
+      "new symbolic struct": "[[var 729 = y ** 3]]\n[[question p = ['y']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-108-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 512 = (p ** 3)]]\n[[question x = ['p']]]\ntheme: Cookie",
+      "statement": "A cookie dough is kneaded into a cube shape before baking. If the dough has a volume of 512 cubic cm, what is the length of each side of the cube in cm?",
+      "new symbolic struct": "[[var 512 = u ** 3]]\n[[question n = ['u']]]",
+      "answer": "8",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-109-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 8 = (a ** 3)]]\n[[question t = ['a']]]\ntheme: Tree",
+      "statement": "A tree has a cubical hole in its trunk. The volume of the cubical hole is 8 cubic feet. What is the length of the edge of this cubic hole in feet?",
+      "new symbolic struct": "[[var 8 = a ** 3]]\n[[question n = ['a']]]",
+      "answer": "2",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-110-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 343 = (g ** 3)]]\n[[question u = ['g']]]\ntheme: Guitar",
+      "statement": "A guitarist uses a particular type of guitar string. The thickness of the string, in hundreds of a millimeter, cubed, will determine the pitch of a certain note, the guitarist wishes to play. If he needs the pitch to equal 343 Hz, what is the thickness of the string he should choose?",
+      "new symbolic struct": "[[var 343 = t ** 3]]\n[[question n = ['t']]]",
+      "answer": "7",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-111-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 729 = (w ** 3)]]\n[[question f = ['w']]]\ntheme: Compass",
+      "statement": "The cubic area of the compass box is 729 cubic cm. What is the length of one edge of this cubical compass box, given that it is a cube?",
+      "new symbolic struct": "[[var 729 = c ** 3]]\n[[question p = ['c']]]",
+      "answer": "9",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.A.2-112-0",
+      "standard": "8.EE.A.2",
+      "symbolic-struct": "[[var 64 = (d ** 3)]]\n[[question z = ['d']]]\ntheme: Book",
+      "statement": "A book is written with a unique style where every page is in the shape of a cube. If the volume of one page is 64 cubic inches, what is the side length of each page?",
+      "new symbolic struct": "[[var 64 = p ** 3]]\n[[question n = ['p']]]",
+      "answer": "4",
+      "tag": "original problem"
+    }
+  ]
+]

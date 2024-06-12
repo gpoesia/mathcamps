@@ -1,0 +1,1102 @@
+[
+  [
+    {
+      "id": "3.MD.D.8-triangle-0-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 990 = (3 * h)]]\n[[question a = ['h']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 990cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 990 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "330",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-1-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 997 = ((2 + 667) + o)]]\n[[question v = ['o']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 997m. Two of its sides have lengths of 2m and 667m. What is the length of the third side?",
+      "new symbolic struct": "[[var 997 = 2 + 667 + x]]\n[[question t = ['x']]]",
+      "answer": "328",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-2-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 579 = (3 * m)]]\n[[question l = ['m']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 579 cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 579 = 3 * s]]\n[[question t = ['s']]]",
+      "answer": "193",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-3-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 684 = (3 * y)]]\n[[question z = ['y']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 684m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 684 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "228",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-4-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 503 = ((z + 223) + 46)]]\n[[question x = ['z']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 503 meters. One side of the triangle is 223 meters long and another side is 46 meters long. What is the length of the remaining side?",
+      "new symbolic struct": "[[var 503 = 223 + 46 + x]]\n[[question t = ['x']]]",
+      "answer": "234",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-5-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 105 = (3 * i)]]\n[[question o = ['i']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 105m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 105 = 3 * b]]\n[[question t = ['b']]]",
+      "answer": "35",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-6-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 306 = (3 * h)]]\n[[question p = ['h']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 306cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 306 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "102",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-7-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 33 = (3 * c)]]\n[[question i = ['c']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 33 cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 33 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "11",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-8-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 861 = ((192 + x) + 159)]]\n[[question j = ['x']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 861m. Two of the sides are known to be 192m and 159m in length. Can you find the length of the third side?",
+      "new symbolic struct": "[[var 861 = 192 + 159 + x]]\n[[question t = ['x']]]",
+      "answer": "510",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-9-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 489 = (3 * t)]]\n[[question s = ['t']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 489 centimeters. If each of its sides is of equal length, what is the length of one side?",
+      "new symbolic struct": "[[var 489 = 3 * a]]\n[[question x = ['a']]]",
+      "answer": "163",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-10-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 696 = (3 * f)]]\n[[question i = ['f']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 696 meters. What is the length of each side of this triangle?",
+      "new symbolic struct": "[[var 696 = 3 * s]]\n[[question h = ['s']]]",
+      "answer": "232",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-11-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 804 = ((i + 180) + 579)]]\n[[question d = ['i']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "The perimeter of a triangle is 804m. One side of the triangle is 180m long, and another side is 579m long. What is the length of the third side?",
+      "new symbolic struct": "[[var 804 = 180 + 579 + x]]\n[[question t = ['x']]]",
+      "answer": "45",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-12-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 915 = (3 * a)]]\n[[question b = ['a']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 915cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 915 = 3 * s]]\n[[question t = ['s']]]",
+      "answer": "305",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-13-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 564 = (3 * l)]]\n[[question p = ['l']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 564 cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 564 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "188",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-14-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 594 = (3 * q)]]\n[[question g = ['q']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 594 cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 594 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "198",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-15-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 453 = (3 * f)]]\n[[question y = ['f']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 453 cm. How long is each side of the triangle?",
+      "new symbolic struct": "[[var 453 = 3 * a]]\n[[question s = ['a']]]",
+      "answer": "151",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-16-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 898 = ((250 + 435) + q)]]\n[[question y = ['q']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a total perimeter of 898m. The lengths of two of its sides are 250m and 435m respectively. Can you find the length of the third side of the triangle?",
+      "new symbolic struct": "[[var 898 = 250 + 435 + x]]\n[[question t = ['x']]]",
+      "answer": "213",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-17-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 405 = (3 * x)]]\n[[question b = ['x']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a total perimeter of 405 cm. Can you determine the length of each side?",
+      "new symbolic struct": "[[var 405 = 3 * b]]\n[[question s = ['b']]]",
+      "answer": "135",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-18-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 612 = (3 * t)]]\n[[question u = ['t']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "Somehow you got lost in the forest and got trapped in a mysterious place where you find an equilateral triangle-shaped space. The total perimeter of this space is 612 meters. Can you find out the length of each side of this triangle?",
+      "new symbolic struct": "[[var 612 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "204",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-19-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 591 = (3 * w)]]\n[[question c = ['w']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 591 cm. Can you find the length of each side of this triangle?",
+      "new symbolic struct": "[[var 591 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "197",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-20-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 858 = (3 * k)]]\n[[question i = ['k']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 858m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 858 = 3 * a]]\n[[question x = ['a']]]",
+      "answer": "286",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-21-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 543 = (3 * j)]]\n[[question e = ['j']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 543 meters. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 543 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "181",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-22-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 255 = (3 * z)]]\n[[question u = ['z']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has three equal sides. If the perimeter of the triangle is 255 meters, what is the length of each side?",
+      "new symbolic struct": "[[var 255 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "85",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-23-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 570 = (3 * m)]]\n[[question a = ['m']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 570mm. Find the length of each side of this triangle.",
+      "new symbolic struct": "[[var 570 = 3 * a]]\n[[question s = ['a']]]",
+      "answer": "190",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-24-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 129 = (3 * f)]]\n[[question r = ['f']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 129m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 129 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "43",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-25-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 858 = (3 * y)]]\n[[question f = ['y']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 858 meters. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 858 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "286",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-26-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 513 = (3 * i)]]\n[[question e = ['i']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 513 km, and it's known to be an equilateral triangle - meaning all three sides are of equal length. Can you determine how long each side of this triangle is?",
+      "new symbolic struct": "[[var 513 = 3 * a]]\n[[question s = ['a']]]",
+      "answer": "171",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-27-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 828 = ((105 + 434) + q)]]\n[[question l = ['q']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangular field has a perimeter of 828 meters. Two sides of the field are 105 and 434 meters long. How long is the third side of the field?",
+      "new symbolic struct": "[[var 828 = 105 + 434 + x]]\n[[question t = ['x']]]",
+      "answer": "289",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-28-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 773 = ((j + 37) + 559)]]\n[[question a = ['j']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "The perimeter of a triangle is 773 cm. Two of its sides measure 37 cm and 559 cm, respectively. Find the length of the third side?",
+      "new symbolic struct": "[[var 773 = 37 + 559 + x]]\n[[question t = ['x']]]",
+      "answer": "177",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-30-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 714 = (3 * g)]]\n[[question v = ['g']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 714m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 714 = 3 * a]]\n[[question x = ['a']]]",
+      "answer": "238",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-31-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 792 = ((e + 147) + 590)]]\n[[question y = ['e']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "In a large triangular garden, one of its sides is 147m and another side is 590m. If the perimeter of the garden is 792m, can you find the length of the third side?",
+      "new symbolic struct": "[[var 792 = 147 + 590 + x]]\n[[question t = ['x']]]",
+      "answer": "55",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-32-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 871 = ((q + 321) + 528)]]\n[[question z = ['q']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "The perimeter of a triangle is 871 meters. One of the sides is 321 meters long and another is 528 meters long. What is the length of the third side?",
+      "new symbolic struct": "[[var 871 = 321 + 528 + x]]\n[[question l = ['x']]]",
+      "answer": "22",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-33-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 991 = ((424 + w) + 246)]]\n[[question g = ['w']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 991m. Two sides of the triangle measure 424m and 246m respectively. Find the length of the third side of the triangle.",
+      "new symbolic struct": "[[var 991 = 424 + 246 + x]]\n[[question t = ['x']]]",
+      "answer": "321",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-34-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 936 = (3 * d)]]\n[[question a = ['d']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 936m. How long is each side of the triangle?",
+      "new symbolic struct": "[[var 936 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "312",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-35-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 721 = ((e + 204) + 195)]]\n[[question c = ['e']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 721m. Two of its sides have lengths of 204m and 195m, respectively. What is the length of the third side of the triangle?",
+      "new symbolic struct": "[[var 721 = 204 + 195 + x]]\n[[question t = ['x']]]",
+      "answer": "322",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-36-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 201 = (3 * z)]]\n[[question y = ['z']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 201m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 201 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "67",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-37-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 756 = (3 * u)]]\n[[question d = ['u']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A large equilateral triangle has a perimeter of 756m. Find the length of each of its sides.",
+      "new symbolic struct": "[[var 756 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "252",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-38-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 923 = ((u + 735) + 144)]]\n[[question r = ['u']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "The perimeter of a triangle is 923m. Two of its sides are 735m and 144m long respectively. What is the length of the third side?",
+      "new symbolic struct": "[[var 923 = 735 + 144 + x]]\n[[question t = ['x']]]",
+      "answer": "44",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-39-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 813 = (3 * s)]]\n[[question p = ['s']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 813 cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 813 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "271",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-40-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 834 = (3 * c)]]\n[[question v = ['c']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 834 feet. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 834 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "278",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-41-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 105 = (3 * u)]]\n[[question g = ['u']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 105m and all its sides are equal in length. How long is one side of the triangle?",
+      "new symbolic struct": "[[var 105 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "35",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-42-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 195 = (3 * v)]]\n[[question z = ['v']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 195cm. Given that all sides of the triangle are equal, what is the length of each side?",
+      "new symbolic struct": "[[var 195 = 3 * a]]\n[[question s = ['a']]]",
+      "answer": "65",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-43-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 919 = ((350 + d) + 154)]]\n[[question u = ['d']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 919m. You know that one of its sides is 350m long and the other side is 154m long. What is the length of the third side?",
+      "new symbolic struct": "[[var 919 = 350 + 154 + x]]\n[[question p = ['x']]]",
+      "answer": "415",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-44-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 989 = ((128 + 288) + m)]]\n[[question v = ['m']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 989m. You know that two of its sides are 128m and 288m long respectively. What is the length of the third side?",
+      "new symbolic struct": "[[var 989 = 128 + 288 + x]]\n[[question t = ['x']]]",
+      "answer": "573",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-45-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 321 = (3 * a)]]\n[[question j = ['a']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 321 meters. If all sides are equal, what is the length of each side of the triangle?",
+      "new symbolic struct": "[[var 321 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "107",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-46-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 258 = (3 * m)]]\n[[question w = ['m']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 258 cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 258 = 3 * a]]\n[[question s = ['a']]]",
+      "answer": "86",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-47-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 75 = (3 * t)]]\n[[question q = ['t']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 75m. What is the length of each side of the triangle?",
+      "new symbolic struct": "[[var 75 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "25",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-49-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 979 = ((h + 620) + 80)]]\n[[question w = ['h']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "The perimeter of a triangle is 979m. Two of its sides are 620m and 80m respectively. What is the length of the third side?",
+      "new symbolic struct": "[[var 979 = 620 + 80 + a]]\n[[question h = ['a']]]",
+      "answer": "279",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-50-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 966 = (3 * s)]]\n[[question a = ['s']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 966 meters. What is the length of each side of this triangle?",
+      "new symbolic struct": "[[var 966 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "322",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-51-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 486 = (3 * d)]]\n[[question h = ['d']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 486 cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 486 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "162",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-52-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 948 = (3 * w)]]\n[[question h = ['w']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 948 meters. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 948 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "316",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-53-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 998 = ((252 + 687) + w)]]\n[[question q = ['w']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A scalene triangle has three sides of different lengths. The first side is 252m, and the second side is 687m. The total perimeter of the triangle is 998m. Can you find the length of the third side?",
+      "new symbolic struct": "[[var 998 = 252 + 687 + x]]\n[[question t = ['x']]]",
+      "answer": "59",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-54-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 618 = (3 * j)]]\n[[question k = ['j']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 618m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 618 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "206",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-55-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 483 = (3 * x)]]\n[[question d = ['x']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 483 meters. How long is each side?",
+      "new symbolic struct": "[[var 483 = 3 * s]]\n[[question q = ['s']]]",
+      "answer": "161",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-56-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 804 = ((v + 262) + 90)]]\n[[question k = ['v']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 804m. One of its sides is 262m long and another is 90m long. What is the length of the third side?",
+      "new symbolic struct": "[[var 804 = 262 + 90 + x]]\n[[question t = ['x']]]",
+      "answer": "452",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-57-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 925 = ((183 + 498) + p)]]\n[[question x = ['p']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A large triangle has a perimeter of 925m. Two of its sides are 183m and 498m, respectively. What is the length of the third side?",
+      "new symbolic struct": "[[var 925 = 183 + 498 + x]]\n[[question t = ['x']]]",
+      "answer": "244",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-58-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 573 = ((t + 103) + 386)]]\n[[question e = ['t']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A scalene triangle has a total perimeter of 573m. One of its sides measures 103m and another side measures 386m. What is the length of the third side?",
+      "new symbolic struct": "[[var 573 = 103 + 386 + x]]\n[[question t = ['x']]]",
+      "answer": "84",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-59-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 330 = (3 * y)]]\n[[question v = ['y']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 330m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 330 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "110",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-60-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 850 = ((57 + r) + 426)]]\n[[question t = ['r']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 850m. Two of its sides have lengths of 57m and 426m, respectively. What is the length of the third side?",
+      "new symbolic struct": "[[var 850 = 57 + 426 + x]]\n[[question t = ['x']]]",
+      "answer": "367",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-61-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 764 = ((265 + j) + 56)]]\n[[question x = ['j']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 764m. Two of its sides are 265m and 56m in length. What is the length of the third side?",
+      "new symbolic struct": "[[var 764 = 265 + 56 + x]]\n[[question t = ['x']]]",
+      "answer": "443",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-62-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 723 = (3 * v)]]\n[[question h = ['v']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 723cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 723 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "241",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-63-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 738 = ((c + 315) + 100)]]\n[[question b = ['c']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a side with a length of 315m and another side with a length of 100m. If the perimeter of the triangle is 738m, what is the length of the third side?",
+      "new symbolic struct": "[[var 738 = 315 + 100 + x]]\n[[question y = ['x']]]",
+      "answer": "323",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-64-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 762 = ((f + 131) + 147)]]\n[[question o = ['f']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 762m. If one of the sides measures 131m, and the other side is 147m long, what is the length of the third side?",
+      "new symbolic struct": "[[var 762 = 131 + 147 + x]]\n[[question t = ['x']]]",
+      "answer": "484",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-65-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 784 = ((471 + 1) + u)]]\n[[question k = ['u']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 784m and you know the sum of two of its sides is 472m. What is the length of the third side?",
+      "new symbolic struct": "[[var 784 = 472 + x]]\n[[question t = ['x']]]",
+      "answer": "312",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-66-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 543 = (3 * y)]]\n[[question n = ['y']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 543mm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 543 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "181",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-67-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 867 = ((287 + 475) + k)]]\n[[question c = ['k']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a first side length of 287m, a second side length of 475m, and a perimeter of 867m. What is the length of the third side?",
+      "new symbolic struct": "[[var 867 = 287 + 475 + x]]\n[[question t = ['x']]]",
+      "answer": "105",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-68-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 934 = ((828 + 10) + m)]]\n[[question h = ['m']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "The perimeter of a triangle is 934m. The lengths of two of its sides add up to 838m (one is 828m and the other is 10m). What is the length of the third side?",
+      "new symbolic struct": "[[var 934 = 828 + 10 + c]]\n[[question t = ['c']]]",
+      "answer": "96",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-69-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 677 = ((109 + r) + 530)]]\n[[question c = ['r']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 677m. Two of its sides measure 109m and 530m respectively. What is the length of the third side?",
+      "new symbolic struct": "[[var 677 = 109 + 530 + x]]\n[[question t = ['x']]]",
+      "answer": "38",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-70-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 582 = (3 * o)]]\n[[question t = ['o']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 582 cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 582 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "194",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-72-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 499 = ((11 + i) + 259)]]\n[[question v = ['i']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 499m. Its largest side is 259m long, and one of the other sides is 11m long. What is the length of the last side?",
+      "new symbolic struct": "[[var 499 = 259 + 11 + x]]\n[[question t = ['x']]]",
+      "answer": "229",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-73-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 966 = (3 * l)]]\n[[question j = ['l']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 966m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 966 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "322",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-74-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 894 = (3 * t)]]\n[[question o = ['t']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 894 inches. What is the length of each side of the triangle?",
+      "new symbolic struct": "[[var 894 = 3 * s]]\n[[question t = ['s']]]",
+      "answer": "298",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-75-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 891 = (3 * e)]]\n[[question v = ['e']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 891cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 891 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "297",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-76-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 762 = ((122 + l) + 245)]]\n[[question h = ['l']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 762 meters. Two sides of these triangle are known to be 122 meters and 245 meters long respectively. Can you calculate the length of the third side?",
+      "new symbolic struct": "[[var 762 = 122 + 245 + x]]\n[[question t = ['x']]]",
+      "answer": "395",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-77-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 411 = (3 * n)]]\n[[question e = ['n']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 411m. What is the length of each side of the triangle?",
+      "new symbolic struct": "[[var 411 = 3 * s]]\n[[question l = ['s']]]",
+      "answer": "137",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-78-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 72 = (3 * r)]]\n[[question v = ['r']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has three identical sides and the total length of the sides is 72m. What is the length of each side of the triangle?",
+      "new symbolic struct": "[[var 72 = 3 * s]]\n[[question h = ['s']]]",
+      "answer": "24",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-80-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 930 = ((537 + 68) + o)]]\n[[question p = ['o']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A large triangle has a perimeter of 930 meters. Two of its sides measure 537 meters and 68 meters respectively. What is the length of the third side?",
+      "new symbolic struct": "[[var 930 = 537 + 68 + x]]\n[[question t = ['x']]]",
+      "answer": "325",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-82-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 657 = (3 * v)]]\n[[question m = ['v']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 657 meters. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 657 = 3 * s]]\n[[question length = ['s']]]",
+      "answer": "219",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-83-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 909 = ((368 + 230) + u)]]\n[[question w = ['u']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A scalene triangle has a side that measures 368m and another side that measures 230m. If the perimeter of the triangle is 909m, what is the length of the third side?",
+      "new symbolic struct": "[[var 909 = 368 + 230 + x]]\n[[question t = ['x']]]",
+      "answer": "311",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-84-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 700 = ((140 + a) + 525)]]\n[[question z = ['a']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 700 m. Two of its sides are 140m and 525m long. What is the length of the third side?",
+      "new symbolic struct": "[[var 700 = 140 + 525 + x]]\n[[question t = ['x']]]",
+      "answer": "35",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-85-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 915 = ((484 + 130) + k)]]\n[[question f = ['k']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 915cm. Two of its sides are 484cm and 130cm respectively. What length is the third side of the triangle?",
+      "new symbolic struct": "[[var 915 = 484 + 130 + x]]\n[[question t = ['x']]]",
+      "answer": "301",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-86-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 120 = (3 * e)]]\n[[question n = ['e']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 120 cm. How long is each side of the triangle?",
+      "new symbolic struct": "[[var 120 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "40",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-87-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 661 = ((c + 382) + 151)]]\n[[question r = ['c']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangular field has a perimeter of 661m. Two sides of the field are known to be 382m and 151m respectively. What is the length of the third side?",
+      "new symbolic struct": "[[var 661 = 382 + 151 + x]]\n[[question t = ['x']]]",
+      "answer": "128",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-88-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 678 = ((419 + i) + 164)]]\n[[question y = ['i']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a total perimeter of 678 feet. Two of its sides measure 419 feet and 164 feet respectively. What is the length of the third side?",
+      "new symbolic struct": "[[var 678 = 419 + 164 + x]]\n[[question t = ['x']]]",
+      "answer": "95",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-89-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 248 = ((186 + 37) + e)]]\n[[question x = ['e']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "The perimeter of a triangle is 248m. Two of the sides are 186m and 37m long, respectively. What is the length of the remaining side?",
+      "new symbolic struct": "[[var 248 = 186 + 37 + x]]\n[[question t = ['x']]]",
+      "answer": "25",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-91-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 246 = (3 * j)]]\n[[question a = ['j']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 246 centimeters. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 246 = 3 * s]]\n[[question q = ['s']]]",
+      "answer": "82",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-92-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 739 = ((180 + 338) + z)]]\n[[question g = ['z']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "The total perimeter of a triangular field is 739 meters. Two of its sides measure 180 meters and 338 meters respectively. Find the length of the third side.",
+      "new symbolic struct": "[[var 739 = 180 + 338 + x]]\n[[question t = ['x']]]",
+      "answer": "221",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-93-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 684 = (3 * c)]]\n[[question h = ['c']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 684cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 684 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "228",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-95-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 537 = (3 * b)]]\n[[question y = ['b']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 537m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 537 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "179",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-96-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 568 = ((110 + 205) + f)]]\n[[question o = ['f']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has a perimeter of 568m. The lengths of two of its sides are 110m and 205m. What is the length of the third side?",
+      "new symbolic struct": "[[var 568 = 110 + 205 + x]]\n[[question t = ['x']]]",
+      "answer": "253",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-97-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 942 = (3 * m)]]\n[[question b = ['m']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 942mm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 942 = 3 * a]]\n[[question t = ['a']]]",
+      "answer": "314",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-98-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 633 = ((325 + a) + 15)]]\n[[question z = ['a']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangular garden has one side that is 325 meters long and another that is 15 meters long. The total perimeter of the triangle is 633 meters. What is the length of the third side of the garden?",
+      "new symbolic struct": "[[var 633 = 325 + 15 + x]]\n[[question g = ['x']]]",
+      "answer": "293",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-100-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 504 = (3 * l)]]\n[[question e = ['l']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 504 meters. What is the length of each side of the triangle?",
+      "new symbolic struct": "[[var 504 = 3 * a]]\n[[question s = ['a']]]",
+      "answer": "168",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-101-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 51 = (3 * t)]]\n[[question b = ['t']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 51 cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 51 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "17",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-102-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 501 = (3 * x)]]\n[[question a = ['x']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 501 feet. What is the length of each side of the triangle?",
+      "new symbolic struct": "[[var 501 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "167",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-103-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 411 = (3 * q)]]\n[[question i = ['q']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "The perimeter of an equilateral triangle is 411 meters. What is the length of each side of the triangle?",
+      "new symbolic struct": "[[var 411 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "137",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-104-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 114 = (3 * s)]]\n[[question u = ['s']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 114cm. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 114 = 3 * s]]\n[[question t = ['s']]]",
+      "answer": "38",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-105-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 69 = (3 * a)]]\n[[question u = ['a']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 69m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 69 = 3 * a]]\n[[question h = ['a']]]",
+      "answer": "23",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-106-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 907 = ((464 + m) + 377)]]\n[[question z = ['m']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "A triangle has sides of lengths 464m and 377m respectively. If the total perimeter of the triangle is 907m, what is the length of the third side?\n",
+      "new symbolic struct": "[[var 907 = 464 + 377 + x]]\n[[question t = ['x']]]",
+      "answer": "66",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "3.MD.D.8-triangle-107-0",
+      "standard": "3.MD.D.8-triangle",
+      "symbolic-struct": "[[var 966 = (3 * a)]]\n[[question z = ['a']]]\nmath concept: create a math problem involving perimeters of triangles, including finding the perimeter given the side lengths of the triangle, or finding an unknown side length",
+      "statement": "An equilateral triangle has a perimeter of 966m. What is the length of each of its sides?",
+      "new symbolic struct": "[[var 966 = 3 * a]]\n[[question y = ['a']]]",
+      "answer": "322",
+      "tag": "original problem"
+    }
+  ]
+]

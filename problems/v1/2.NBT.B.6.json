@@ -1,0 +1,2434 @@
+[
+  [
+    {
+      "id": "2.NBT.B.6-0-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var s = (66 + 6)]]\n[[var g = (s + 62)]]\n[[var r = (52 + g)]]\n[[question e = ['r']]]\ntheme: Party",
+      "statement": "At a party, 66 teenagers and 6 adults attend at first. Later on, the number of guests increases by 62. Near the end, an additional group of 52 people join the party. How many people attended the party in total?",
+      "new symbolic struct": "[[var initial_teenagers = 66]]\n[[var initial_adults = 6]]\n[[var guests_increase = 62]]\n[[var additional_people = 52]]\n[[question result = ['(initial_teenagers + initial_adults + guests_increase) + additional_people']]]",
+      "answer": "186",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-0-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var s = (66 + 6)]]\n[[var g = (s + 62)]]\n[[var r = (52 + g)]]\n[[var x = (r + s)]]\n[[question h = ['x']]]\ntheme: Party",
+      "statement": "Following the party, the hosts want to estimate the total attendance for both the party and its pre-party. At the pre-party, the original group of teenagers and adults also attended (66 teenagers and 6 adults). How many people attended both events in total?",
+      "new symbolic struct": "[[var initial_teenagers = 66]]\n[[var initial_adults = 6]]\n[[var guests_increase = 62]]\n[[var additional_people = 52]]\n[[var party_people = (initial_teenagers + initial_adults + guests_increase) + additional_people]]\n[[var pre_party_people = initial_teenagers + initial_adults]]\n[[question result = ['party_people + pre_party_people']]]",
+      "answer": "258",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-1-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = 11]]\n[[var x = (42 + u)]]\n[[question e = ['x']]]\ntheme: Hat",
+      "statement": "Tom has 11 hats. He then buys a box of hats that contains 42 more. How many hats does Tom have now?",
+      "new symbolic struct": "[[var initial_hats = 11]]\n[[var bought_hats = 42]]\n[[question result = ['initial_hats + bought_hats']]]",
+      "answer": "53",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-1-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = 8]]\n[[var x = (42 + u)]]\n[[question e = ['x']]]\ntheme: Hat",
+      "statement": "Continuing from the previous problem, what if Tom originally had 8 hats instead of 11? How many hats would Tom have after buying the box of 42 hats?",
+      "new symbolic struct": "[[var initial_hats = 8]]\n[[var bought_hats = 42]]\n[[question result = ['initial_hats + bought_hats']]]",
+      "answer": "50",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-3-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var p = 9]]\n[[var g = 56]]\n[[question s = ['(g + p)']]]\ntheme: Backpack",
+      "statement": "Penny has 9 pens in her backpack. Later in the day, she finds 56 gum wrappers in her backpack. How many items does Penny have in her backpack in total?",
+      "new symbolic struct": "[[var pen_count = 9]]\n[[var gum_wrapper_count = 56]]\n[[question result = ['pen_count + gum_wrapper_count']]]",
+      "answer": "65",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-3-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var p = 90]]\n[[var g = 56]]\n[[question s = ['(g + p)']]]\ntheme: Backpack",
+      "statement": "Penny realizes she drastically underestimated the number of pens in her backpack. There are actually 90 pens, not 9. With the 56 gum wrappers, how many items does Penny have in her backpack now?",
+      "new symbolic struct": "[[var pen_count_correct = 90]]\n[[var gum_wrapper_count = 56]]\n[[question result = ['pen_count_correct + gum_wrapper_count']]]",
+      "answer": "146",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-4-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 75]]\n[[var p = (z + 78)]]\n[[question u = ['p']]]\ntheme: Beach ball",
+      "statement": "At a beach party, one participant inflated 75 beach balls. Shortly after, another participant added 78 more beach balls. How many beach balls are there in total at the beach party?",
+      "new symbolic struct": "[[var initial_beach_balls = 75]]\n[[var added_beach_balls = 78]]\n[[question result = ['initial_beach_balls + added_beach_balls']]]",
+      "answer": "153",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-4-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 75]]\n[[var p = (z + 78)]]\n[[var w = (96 + p)]]\n[[question c = ['w']]]\ntheme: Beach ball",
+      "statement": "After all the beach balls were inflated at the party, a group of latecomers showed up with 96 more beach balls of their own to add to the mix. How many beach balls are there now in total at the beach party?",
+      "new symbolic struct": "[[var initial_beach_balls = 75]]\n[[var added_beach_balls = 78]]\n[[var latecomer_beach_balls = 96]]\n[[question result = ['initial_beach_balls + added_beach_balls + latecomer_beach_balls']]]",
+      "answer": "249",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-5-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = (74 + 58)]]\n[[var y = (20 + l)]]\n[[question a = ['y']]]\ntheme: Party",
+      "statement": "At a party, 74 adults and 58 children were enjoying the games and food. Later, an additional 20 adults arrived. How many total people were at the party then?",
+      "new symbolic struct": "[[var initial_adults = 74]]\n[[var children = 58]]\n[[var additional_adults = 20]]\n[[var total_people = (initial_adults + children) + additional_adults]]\n[[question result = ['total_people']]]",
+      "answer": "152",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-5-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = (74 + 58)]]\n[[var y = (20 + l)]]\n[[var g = (65 + y)]]\n[[question k = ['g']]]\ntheme: Party",
+      "statement": "At the party where 74 adults and 58 children were enjoying the games and food, 20 more adults arrived later. After a while, a bus with 65 more people, both adults, and children, came to join the party. How many total people were at the party after the bus arrived?",
+      "new symbolic struct": "[[var initial_adults = 74]]\n[[var children = 58]]\n[[var additional_adults = 20]]\n[[var bus_people = 65]]\n[[var total_people = ((initial_adults + children) + additional_adults) + bus_people]]\n[[question result = ['total_people']]]",
+      "answer": "217",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-5-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = (74 + 11)]]\n[[var y = (20 + l)]]\n[[question a = ['y']]]\ntheme: Party",
+      "statement": "Originally at the party there were 74 adults and 58 children. However, what if there were only 11 children to start with instead of 58? 20 more adults still arrive later. How many total people would be at the party then?",
+      "new symbolic struct": "[[var initial_adults = 74]]\n[[var children = 11]]\n[[var additional_adults = 20]]\n[[var total_people = (initial_adults + children) + additional_adults]]\n[[question result = ['total_people']]]",
+      "answer": "105",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-6-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var r = (43 + 25)]]\n[[var u = (33 + r)]]\n[[question i = ['u']]]\ntheme: Boat",
+      "statement": "A boat starts on the east coast and travels 43 squids (a joke nickname for miles) west. It then takes a detour for an additional 25 squids. After this, it travels another 33 squids. How far in total, in squids, has the boat traveled from the starting point of east coast?\n",
+      "new symbolic struct": "[[var initial_travel = 43]]\n[[var detour_travel = 25]]\n[[var final_travel = 33]]\n[[question result = ['initial_travel + detour_travel + final_travel']]]",
+      "answer": "101",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-6-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var r = (43 + 25)]]\n[[var u = (33 + r)]]\n[[var d = (u + 83)]]\n[[question w = ['d']]]\ntheme: Boat",
+      "statement": "Continuing from the last problem, the boat decides to continue its journey, traveling for another 83 squids. How far in total, in squids, has the boat traveled from the starting point of the East Coast now?",
+      "new symbolic struct": "[[var initial_travel = 43]]\n[[var detour_travel = 25]]\n[[var final_travel = 33]]\n[[var continued_travel = 83]]\n[[var total_travel_before = initial_travel + detour_travel + final_travel]]\n[[question result = ['total_travel_before + continued_travel']]]",
+      "answer": "184",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-6-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var r = (43 + 25)]]\n[[var u = (30 + r)]]\n[[question i = ['u']]]\ntheme: Boat",
+      "statement": "Let's revisit the previous scenario. Suppose that the boat started on the East Coast and initially traveled 43 squids west, then took a detour that was only 25 squids long. But instead of moving an additional 33 squids as before, this time, it only travels another 30 squids. Now, how far, in squids, has the boat traveled from the starting point of the East Coast?",
+      "new symbolic struct": "[[var initial_travel = 43]]\n[[var detour_travel = 25]]\n[[var final_travel = 30]]\n[[question result = ['initial_travel + detour_travel + final_travel']]]",
+      "answer": "98",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-8-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var n = 89]]\n[[var d = (n + 60)]]\n[[question j = ['d']]]\ntheme: Guitar",
+      "statement": "Mary has 89 guitar picks in her collection. She goes to a music festival and indicates that she will have the amount she currently has plus 60 more after the event. How many guitar picks will Mary have after the festival?",
+      "new symbolic struct": "[[var initial_guitar_picks = 89]]\n[[var additional_guitar_picks = 60]]\n[[question result = ['initial_guitar_picks + additional_guitar_picks']]]",
+      "answer": "149",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-8-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var n = 89]]\n[[var d = (n + 60)]]\n[[var o = 31]]\n[[question f = ['(o + d)']]]\ntheme: Guitar",
+      "statement": "After the music festival, Mary's friend James gives her an additional 31 guitar picks for her collection. Now, with the ones she got from the festival and the ones James gave her, how many guitar picks does Mary have in her collection?",
+      "new symbolic struct": "[[var initial_guitar_picks = 89]]\n[[var additional_guitar_picks = 60]]\n[[var james_guitar_picks = 31]]\n[[question result = ['(initial_guitar_picks + additional_guitar_picks) + james_guitar_picks']]]",
+      "answer": "180",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-8-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var n = 89]]\n[[var d = (n + 27)]]\n[[question j = ['d']]]\ntheme: Guitar",
+      "statement": "Instead of obtaining 60 guitar picks at the music festival, what if Mary had only managed to gather 27 more picks? How many guitar picks would Mary have had after the music festival in that case?",
+      "new symbolic struct": "[[var initial_guitar_picks = 89]]\n[[var new_additional_guitar_picks = 27]]\n[[question result = ['initial_guitar_picks + new_additional_guitar_picks']]]",
+      "answer": "116",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-9-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = (90 + 14)]]\n[[var w = (56 + 46)]]\n[[var h = (l + w)]]\n[[question i = ['h']]]\ntheme: Fish",
+      "statement": "A fisherman was in his boat out on the lake. The total length, in inches, of all the fish he caught today was 90 inches. On the way back to shore, he caught 14 more inches of fish. He also caught a total of 56 inches of fish yesterday. Before he went home he caught an additional 46 inches of fish from the dock. If he added all the inches of fish he caught together, how many total inches of fish did he catch?",
+      "new symbolic struct": "[[var lake_fish = 90]]\n[[var boat_fish = 14]]\n[[var yesterday_fish = 56]]\n[[var dock_fish = 46]]\n[[question result = ['(lake_fish + boat_fish) + (yesterday_fish + dock_fish)']]]",
+      "answer": "206",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-11-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var a = (49 + 80)]]\n[[var k = (a + 27)]]\n[[question o = ['k']]]\ntheme: Phone",
+      "statement": "Jackie has 49 contacts on her phone. She meets new people at a conference and adds 80 more contacts. Then, her co-worker gives her a list with 27 additional contacts. How many contacts does Jackie have on her phone now?",
+      "new symbolic struct": "[[var initial_contacts = 49]]\n[[var conference_contacts = 80]]\n[[var coworker_contacts = 27]]\n[[question result = ['(initial_contacts + conference_contacts) + coworker_contacts']]]",
+      "answer": "156",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-11-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var a = (32 + 80)]]\n[[var k = (a + 27)]]\n[[question o = ['k']]]\ntheme: Phone",
+      "statement": "What if, instead of initially having 49 contacts, Jackie only had 32 contacts on her phone before the conference? How many contacts would she have on her phone after adding the 80 from the conference and the additional 27 from her co-worker?",
+      "new symbolic struct": "[[var initial_contacts = 32]]\n[[var conference_contacts = 80]]\n[[var coworker_contacts = 27]]\n[[question result = ['(initial_contacts + conference_contacts) + coworker_contacts']]]",
+      "answer": "139",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-12-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var e = (70 + 55)]]\n[[var u = (e + 52)]]\n[[question a = ['u']]]\ntheme: Necklace",
+      "statement": "Elizabeth has 70 beads and buys another 55 beads for making her necklace. She also gets another 52 beads as a gift from her friend. How many beads does she have altogether now?",
+      "new symbolic struct": "[[var initial_beads = 70]]\n[[var bought_beads = 55]]\n[[var gift_beads = 52]]\n[[question result = ['(initial_beads + bought_beads) + gift_beads']]]",
+      "answer": "177",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-12-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var e = (70 + 55)]]\n[[var u = (e + 75)]]\n[[question a = ['u']]]\ntheme: Necklace",
+      "statement": "Following the previous question, let's consider a different scenario. Suppose initially, Elizabeth had 70 beads and still bought another 55. However, her friend, instead of giving her 52 beads, gave her 75 beads. How many beads does she have in this case?",
+      "new symbolic struct": "[[var initial_beads = 70]]\n[[var bought_beads = 55]]\n[[var friend_gift_beads = 75]]\n[[question result = ['(initial_beads + bought_beads) + friend_gift_beads']]]",
+      "answer": "200",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-13-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = 66]]\n[[var e = (o + 67)]]\n[[var w = 13]]\n[[question u = ['(w + e)']]]\ntheme: Unicorn",
+      "statement": "In a mythical land, a unicorn, named Oscar, discovered 66 golden apples. To his surprise, after a magical event, the number of apples increased by 67. On his way back home, he found an extra 13 golden apples. How many golden apples does Oscar have now?",
+      "new symbolic struct": "[[var initial_apples = 66]]\n[[var magical_apples = 67]]\n[[var found_apples = 13]]\n[[question result = ['(initial_apples + magical_apples) + found_apples']]]",
+      "answer": "146",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-14-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var g = 96]]\n[[var b = (73 + g)]]\n[[question j = ['b']]]\ntheme: Bracelet",
+      "statement": "Jenny starts her day with 96 beads. She then gets an additional bracelet that has 73 more beads than she started with. How many beads are on the new bracelet?",
+      "new symbolic struct": "[[var initial_beads = 96]]\n[[var additional_beads = 73]]\n[[question new_bracelet_beads = ['initial_beads + additional_beads']]]",
+      "answer": "169",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-14-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var g = 96]]\n[[var b = (73 + g)]]\n[[var s = 2]]\n[[question z = ['(s + b)']]]\ntheme: Bracelet",
+      "statement": "After receiving the new bracelet, Jenny decides to add 2 beads that she found in her room to her collection. How many beads does Jenny have now in total?",
+      "new symbolic struct": "[[var initial_beads = 96]]\n[[var additional_beads = 73]]\n[[var new_bracelet_beads = initial_beads + additional_beads]]\n[[var room_beads = 2]]\n[[question result = ['new_bracelet_beads + room_beads']]]",
+      "answer": "171",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-14-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var g = 29]]\n[[var b = (73 + g)]]\n[[question j = ['b']]]\ntheme: Bracelet",
+      "statement": "Instead of starting the day with 96 beads, imagine that Jenny had only 29 beads to begin with. She still adds a new bracelet to her collection, which has 73 more beads than she started the day with. How many beads are on this new bracelet?",
+      "new symbolic struct": "[[var initial_beads = 29]]\n[[var additional_beads = 73]]\n[[question new_bracelet_beads = ['initial_beads + additional_beads']]]",
+      "answer": "102",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-15-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var m = 50]]\n[[var v = 89]]\n[[var e = (v + m)]]\n[[question k = ['e']]]\ntheme: Cat",
+      "statement": "A cat named Whiskers catches 50 mice in a year. In the same year, another cat named Velvet catches 89. How many mice combined did Whiskers and Velvet catch in that year?",
+      "new symbolic struct": "[[var whiskers_mice = 50]]\n[[var velvet_mice = 89]]\n[[question result = ['whiskers_mice + velvet_mice']]]",
+      "answer": "139",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-15-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var m = 50]]\n[[var v = 89]]\n[[var e = (v + m)]]\n[[var u = (m + e)]]\n[[question s = ['u']]]\ntheme: Cat",
+      "statement": "Following the previous problem, suppose Whiskers had a surge in hunting activity and caught an additional amount of mice equal to the combined total previously calculated. How many mice would Whiskers have caught in total by the end of the year?",
+      "new symbolic struct": "[[var whiskers_mice_initial = 50]]\n[[var velvet_mice = 89]]\n[[var combined_initial = whiskers_mice_initial + velvet_mice]]\n[[var whiskers_mice_end = whiskers_mice_initial + combined_initial]]\n[[question result = ['whiskers_mice_end']]]",
+      "answer": "189",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-15-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var m = 4]]\n[[var v = 89]]\n[[var e = (v + m)]]\n[[question k = ['e']]]\ntheme: Cat",
+      "statement": "Referring back to the first problem, suppose Whiskers only caught 4 mice in the year instead of 50. Considering Velvet still caught 89 mice, how many mice combined did Whiskers and Velvet catch in that year?",
+      "new symbolic struct": "[[var whiskers_mice_new = 4]]\n[[var velvet_mice = 89]]\n[[question result = ['whiskers_mice_new + velvet_mice']]]",
+      "answer": "93",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-16-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = 80]]\n[[var m = (o + 77)]]\n[[question a = ['m']]]\ntheme: Map",
+      "statement": "Oliver has 80 maps in his collection. Then, he acquires an additional 77 maps. How many maps does Oliver have in his collection now?",
+      "new symbolic struct": "[[var initial_maps = 80]]\n[[var acquired_maps = 77]]\n[[question result = ['initial_maps + acquired_maps']]]",
+      "answer": "157",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-16-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = 80]]\n[[var m = (o + 77)]]\n[[var t = 61]]\n[[question k = ['(t + m)']]]\ntheme: Map",
+      "statement": "Following the previous question, Oliver decided to visit a flea market and found additional 61 old maps to add to his collection. Now, how many maps does Oliver have in his collection?\n",
+      "new symbolic struct": "[[var initial_maps = 80]]\n[[var acquired_maps = 77]]\n[[var market_maps = 61]]\n[[question result = ['(initial_maps + acquired_maps) + market_maps']]]",
+      "answer": "218",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-16-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = 72]]\n[[var m = (o + 77)]]\n[[question a = ['m']]]\ntheme: Map",
+      "statement": "Consider the map collection problem again. What if Oliver originally had 72 maps instead of 80, but still added the same number of maps (77) to his collection. Now, how many maps does Oliver have in his collection?",
+      "new symbolic struct": "[[var initial_maps = 72]]\n[[var acquired_maps = 77]]\n[[question result = ['initial_maps + acquired_maps']]]",
+      "answer": "149",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-17-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var q = (17 + 33)]]\n[[var k = (19 + q)]]\n[[question a = ['k']]]\ntheme: Blanket",
+      "statement": "Joseph was weaving a blanket and the first day, he made 17 pieces. On the second day, he added an additional 33 pieces to his work. After seeing his work, his grandmother made 19 more pieces and added them to Joseph's work. How many pieces were made in total?",
+      "new symbolic struct": "[[var joseph_day1 = 17]]\n[[var joseph_day2 = 33]]\n[[var grandmother_pieces = 19]]\n[[var total_pieces = joseph_day1 + joseph_day2 + grandmother_pieces]]\n[[question result = ['total_pieces']]]",
+      "answer": "69",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-18-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 79]]\n[[var v = (92 + i)]]\n[[var x = (v + 24)]]\n[[question n = ['x']]]\ntheme: Food",
+      "statement": "Mark has 79 apples from his apple picking trip. His friend gifts him more apples such that the total count is now 92 more than his initial count. A week later, his neighbor gifts him another 24 apples. How many apples does Mark have now?",
+      "new symbolic struct": "[[var initial_apples = 79]]\n[[var friend_apples = 92]]\n[[var neighbor_apples = 24]]\n[[question result = ['(initial_apples + friend_apples) + neighbor_apples']]]",
+      "answer": "195",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-18-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 79]]\n[[var v = (92 + i)]]\n[[var x = (v + 24)]]\n[[var r = (x + 40)]]\n[[question g = ['r']]]\ntheme: Food",
+      "statement": "Following the previous scenario, Mark's cousin visits him and, being aware of his enthusiasm for apples, gifts him another 40 apples. Now, how many apples does Mark have in total?",
+      "new symbolic struct": "[[var initial_apples = 79]]\n[[var friend_apples = 92]]\n[[var neighbor_apples = 24]]\n[[var cousin_apples = 40]]\n[[question result = ['((initial_apples + friend_apples) + neighbor_apples) + cousin_apples']]]",
+      "answer": "235",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-18-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 79]]\n[[var v = (92 + i)]]\n[[var x = (v + 64)]]\n[[question n = ['x']]]\ntheme: Food",
+      "statement": "Going back to Mark's initial apple count, let's say he originally had 79 apples from his apple picking trip. His friend gifts him more apples such that the total count is now 92 more than his initial count. This time, however, his neighbour gifts him another 64 apples instead of 24. How many apples does Mark have in this scenario?",
+      "new symbolic struct": "[[var initial_apples = 79]]\n[[var friend_apples = 92]]\n[[var neighbor_apples = 64]]\n[[question result = ['(initial_apples + friend_apples) + neighbor_apples']]]",
+      "answer": "235",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-20-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 35]]\n[[var z = 69]]\n[[question d = ['(z + k)']]]\ntheme: Fairy",
+      "statement": "In a fairy realm, Twinkle, a star fairy finds 35 magical clovers. Lumina, a light fairy finds 69 more. How many magical clovers did they both find in total?",
+      "new symbolic struct": "[[var twinkle_clovers = 35]]\n[[var lumina_clovers = 69]]\n[[question result = ['twinkle_clovers + lumina_clovers']]]",
+      "answer": "104",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-20-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 35]]\n[[var z = 69]]\n[[var f = (k + z)]]\n[[question y = ['f']]]\ntheme: Fairy",
+      "statement": "After gathering their magical clovers, Twinkle and Lumina decide to pool their findings together. How many magical clovers do Twinkle and Lumina have together now?",
+      "new symbolic struct": "[[var twinkle_clovers = 35]]\n[[var lumina_clovers = 69]]\n[[question result = ['twinkle_clovers + lumina_clovers']]]",
+      "answer": "104",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-20-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 24]]\n[[var z = 69]]\n[[question d = ['(z + k)']]]\ntheme: Fairy",
+      "statement": "After re-counting their magical clovers, Twinkle realizes that she actually found 24, not 35. If Lumina still found 69, how many magical clovers do they have now when pooled together?",
+      "new symbolic struct": "[[var twinkle_clovers = 24]]\n[[var lumina_clovers = 69]]\n[[question result = ['twinkle_clovers + lumina_clovers']]]",
+      "answer": "93",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-21-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var c = 93]]\n[[var w = (c + c)]]\n[[question u = ['w']]]\ntheme: Wind",
+      "statement": "A weather instrument measured the wind speed at 93 miles per hour at one location. At another location, the wind speed was exactly the same. What was the combined wind speed recorded at the two locations?",
+      "new symbolic struct": "[[var location1_wind_speed = 93]]\n[[var location2_wind_speed = location1_wind_speed]]\n[[question result = ['location1_wind_speed + location2_wind_speed']]]",
+      "answer": "186",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-21-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var c = 93]]\n[[var w = (c + c)]]\n[[var a = (w + c)]]\n[[question b = ['a']]]\ntheme: Wind",
+      "statement": "Continuing from the last problem, an additional location was checked, and its wind speed was also 93 miles per hour. What is the total wind speed recorded across all three locations?",
+      "new symbolic struct": "[[var location1_wind_speed = 93]]\n[[var location2_wind_speed = location1_wind_speed]]\n[[var location3_wind_speed = location1_wind_speed]]\n[[question result = ['location1_wind_speed + location2_wind_speed + location3_wind_speed']]]",
+      "answer": "279",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-21-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var c = 99]]\n[[var w = (c + c)]]\n[[question u = ['w']]]\ntheme: Wind",
+      "statement": "Continuing from the previous problem, suppose that the wind speed at each of the initial two locations was 99 miles per hour instead of 93. What would the combined wind speed from these two locations be then?",
+      "new symbolic struct": "[[var location1_wind_speed_new = 99]]\n[[var location2_wind_speed_new = location1_wind_speed_new]]\n[[question result = ['location1_wind_speed_new + location2_wind_speed_new']]]",
+      "answer": "198",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-22-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var w = 10]]\n[[var u = (w + 26)]]\n[[question v = ['u']]]\ntheme: Robot",
+      "statement": "A robot is programmed to drive around a circuit. Initially, it travels 10 meters. Then, it runs an updated programming command that allows it to travel 26 meters more than it originally did. How far in total does the robot travel after running the updated programming command?",
+      "new symbolic struct": "[[var initial_distance = 10]]\n[[var updated_distance = initial_distance + 26]]\n[[question result = ['updated_distance']]]",
+      "answer": "36",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-22-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var w = 10]]\n[[var u = (w + 26)]]\n[[var p = (89 + u)]]\n[[question l = ['p']]]\ntheme: Robot",
+      "statement": "After the robot ran the updated programming command, it was given another update that allowed it to travel an additional 89 meters beyond the distance it covered with the first update. How far in total did the robot travel after this second update?",
+      "new symbolic struct": "[[var initial_distance = 10]]\n[[var first_updated_distance = initial_distance + 26]]\n[[var second_updated_distance = first_updated_distance + 89]]\n[[question result = ['second_updated_distance']]]",
+      "answer": "125",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-22-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var w = 43]]\n[[var u = (w + 26)]]\n[[question v = ['u']]]\ntheme: Robot",
+      "statement": "Consider if the robot initially traveled 43 meters instead of 10 meters before running the updated programming command. How far in total would the robot travel after running the updated programming command then?",
+      "new symbolic struct": "[[var initial_distance_updated = 43]]\n[[var updated_distance_updated = initial_distance_updated + 26]]\n[[question result = ['updated_distance_updated']]]",
+      "answer": "69",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-23-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var e = 5]]\n[[var z = 30]]\n[[var c = (z + e)]]\n[[question d = ['c']]]\ntheme: Pen",
+      "statement": "Ella owns 5 pens, while Zach owns 30 pens. They both decide to donate all their pens to a local school. How many pens are they donating to the school?",
+      "new symbolic struct": "[[var Ella_pens = 5]]\n[[var Zach_pens = 30]]\n[[question result = ['Ella_pens + Zach_pens']]]",
+      "answer": "35",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-23-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var e = 5]]\n[[var z = 30]]\n[[var c = (z + e)]]\n[[var s = (c + 80)]]\n[[question a = ['s']]]\ntheme: Pen",
+      "statement": "After Ella and Zach donate their pens to the local school, the school received another donation of 80 pens from a stationery company. How many total pens does the school now have after receiving all of the donation?",
+      "new symbolic struct": "[[var Ella_pens = 5]]\n[[var Zach_pens = 30]]\n[[var stationery_company_pens = 80]]\n[[var total_donated_pens = Ella_pens + Zach_pens]]\n[[question result = ['total_donated_pens + stationery_company_pens']]]",
+      "answer": "115",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-23-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var e = 50]]\n[[var z = 30]]\n[[var c = (z + e)]]\n[[question d = ['c']]]\ntheme: Pen",
+      "statement": "Ella realized that she actually had 50 pens instead of 5. Adding to Zach's 30 pens they had earlier, how many pens are they donating to the local school now?",
+      "new symbolic struct": "[[var Ella_pens_new = 50]]\n[[var Zach_pens = 30]]\n[[question result = ['Ella_pens_new + Zach_pens']]]",
+      "answer": "80",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-24-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 62]]\n[[var d = 52]]\n[[var s = (i + d)]]\n[[question p = ['s']]]\ntheme: Dog",
+      "statement": "A dog shelter has 62 indoor kennels and 52 outdoor kennels for the dogs. How many kennels do they have altogether?",
+      "new symbolic struct": "[[var indoor_kennels = 62]]\n[[var outdoor_kennels = 52]]\n[[question result = ['indoor_kennels + outdoor_kennels']]]",
+      "answer": "114",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-24-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 89]]\n[[var d = 52]]\n[[var s = (i + d)]]\n[[question p = ['s']]]\ntheme: Dog",
+      "statement": "What if at the start, the shelter originally had 89 indoor kennels instead of 62. How many kennels would they have combined with the 52 outdoor kennels in this scenario?",
+      "new symbolic struct": "[[var original_indoor_kennels = 89]]\n[[var outdoor_kennels = 52]]\n[[question result = ['original_indoor_kennels + outdoor_kennels']]]",
+      "answer": "141",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-25-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var t = (92 + 84)]]\n[[var l = (t + 90)]]\n[[var n = (66 + l)]]\n[[question r = ['n']]]\ntheme: Shape",
+      "statement": "In a math class, students have to draw shapes based on certain numeric conditions. One student starts by rotating an angle to form 92 degrees. Then, he rotates the same angle by an additional 84 degrees. This gives him shape 't'. He modifies shape 't' by rotating another 90 degrees and labels this as shape 'l'. Finally, he rotates it by another 66 degrees to form shape 'n'. What is the total degree measure of the rotations made to get shape 'n'?",
+      "new symbolic struct": "[[var initial_rotation = 92]]\n[[var second_rotation = 84]]\n[[var third_rotation = 90]]\n[[var final_rotation = 66]]\n[[question result = ['(initial_rotation + second_rotation) + (third_rotation + final_rotation)']]]",
+      "answer": "332",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-25-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var t = (92 + 84)]]\n[[var l = (t + 90)]]\n[[var n = (66 + l)]]\n[[var z = (22 + n)]]\n[[question y = ['z']]]\ntheme: Shape",
+      "statement": "After the student creates shape 'n', he isn't quite satisfied. He rotates his most recent shape by another 22 degrees in order to make shape 'z'. What is the total degree measure of the rotations made to end up with shape 'z'?",
+      "new symbolic struct": "[[var initial_rotation = 92]]\n[[var second_rotation = 84]]\n[[var third_rotation = 90]]\n[[var near_final_rotation = 66]]\n[[var final_rotation = 22]]\n[[question result = ['(initial_rotation + second_rotation) + (third_rotation + near_final_rotation) + final_rotation']]]",
+      "answer": "354",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-25-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var t = (92 + 84)]]\n[[var l = (t + 90)]]\n[[var n = (30 + l)]]\n[[question r = ['n']]]\ntheme: Shape",
+      "statement": "Let's change the scenario a bit. Suppose the student does everything as before, rotating an angle to form 92 degrees, and again by an additional of 84 degrees to form shape 't'. Then they modify shape 't' by adding another 90 degrees to form shape 'l'. But this time, instead of rotating an additional 66 degrees for shape 'n', he rotates by 30 degrees. What would be the total degree measure of the rotations made to get to shape 'n' in this case?",
+      "new symbolic struct": "[[var initial_rotation = 92]]\n[[var second_rotation = 84]]\n[[var third_rotation = 90]]\n[[var final_rotation = 30]]\n[[question result = ['(initial_rotation + second_rotation) + (third_rotation + final_rotation)']]]",
+      "answer": "296",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-26-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var j = 28]]\n[[var f = 4]]\n[[question h = ['(f + j)']]]\ntheme: Cheese",
+      "statement": "Jeremy bought 28 pieces of cheese from the cheese shop. Later that day, he buys 4 more pieces from the market. How many pieces of cheese does Jeremy now have?",
+      "new symbolic struct": "[[var cheese_shop = 28]]\n[[var market_cheese = 4]]\n[[question result = ['cheese_shop + market_cheese']]]",
+      "answer": "32",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-26-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var j = 26]]\n[[var f = 4]]\n[[question h = ['(f + j)']]]\ntheme: Cheese",
+      "statement": "Let's imagine that when Jeremy first went shopping, he actually only bought 26 pieces of cheese from the cheese shop, but he still bought 4 more pieces from the market later that day. How many pieces of cheese would Jeremy have then?",
+      "new symbolic struct": "[[var cheese_shop = 26]]\n[[var market_cheese = 4]]\n[[question result = ['cheese_shop + market_cheese']]]",
+      "answer": "30",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-27-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var m = 84]]\n[[var u = (m + 83)]]\n[[question g = ['u']]]\ntheme: Princess",
+      "statement": "Once upon a time, there were 84 magic jewels in the secret treasure chest of the kingdom. Young princess Mia found the treasure chest and a magical charm that whenever she puts it on 83 more magic jewels appear in the chest. How many magic jewels are there in the treasure chest now?",
+      "new symbolic struct": "[[var initial_jewels = 84]]\n[[var charm_jewels = 83]]\n[[question result = ['initial_jewels + charm_jewels']]]",
+      "answer": "167",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-27-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var m = 84]]\n[[var u = (m + 83)]]\n[[var e = (u + 72)]]\n[[question l = ['e']]]\ntheme: Princess",
+      "statement": "After Princess Mia discovered the magic of the charm, she was very excited and couldn't resist using the charm one more time. This time, instead of 83 magic jewels, 72 extra magic jewels appeared in the treasure chest. How many magic jewels are there in the treasure chest now?",
+      "new symbolic struct": "[[var initial_jewels = 84]]\n[[var charm_jewels_1 = 83]]\n[[var charm_jewels_2 = 72]]\n[[question result = ['initial_jewels + charm_jewels_1 + charm_jewels_2']]]",
+      "answer": "239",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-28-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = 98]]\n[[var o = (59 + u)]]\n[[question h = ['o']]]\ntheme: Ring",
+      "statement": "In a jewelry store, there are 98 rings on display. In another display case, there are an additional number of rings that is equal to 59 plus the number of rings in the first display case. How many rings are in the second display case?",
+      "new symbolic struct": "[[var first_display_rings = 98]]\n[[var add_rings = 59]]\n[[var second_display_rings = add_rings + first_display_rings]]\n[[question result = ['second_display_rings']]]",
+      "answer": "157",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-28-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = 98]]\n[[var o = (59 + u)]]\n[[var z = 84]]\n[[question d = ['(z + o)']]]\ntheme: Ring",
+      "statement": "Following the previous scenario, the jewelry store receives a new batch of 84 rings that are added to the second display case. What is the new total number of rings in the second display case after adding the new batch?\n",
+      "new symbolic struct": "[[var first_display_rings = 98]]\n[[var add_rings = 59]]\n[[var second_display_rings = add_rings + first_display_rings]]\n[[var new_batch_rings = 84]]\n[[var updated_second_display_rings = second_display_rings + new_batch_rings]]\n[[question result = ['updated_second_display_rings']]]",
+      "answer": "241",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-28-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = 98]]\n[[var o = (43 + u)]]\n[[question h = ['o']]]\ntheme: Ring",
+      "statement": "Let's rethink our original scenario at the jewelry store. Suppose instead that the second display contained a number of rings equal to 43 plus the number of rings in the first display case, which was 98. In that case, how many rings would the second display case have held?",
+      "new symbolic struct": "[[var first_display_rings = 98]]\n[[var add_rings = 43]]\n[[var second_display_rings = add_rings + first_display_rings]]\n[[question result = ['second_display_rings']]]",
+      "answer": "141",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-29-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 74]]\n[[var s = (v + 32)]]\n[[question b = ['s']]]\ntheme: Eraser",
+      "statement": "In a school stationery shop, there are 74 erasers available. If the shopkeeper adds 32 more erasers to the inventory, how many erasers are there in total?",
+      "new symbolic struct": "[[var initial_erasers = 74]]\n[[var added_erasers = 32]]\n[[question result = ['initial_erasers + added_erasers']]]",
+      "answer": "106",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-29-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 74]]\n[[var s = (v + 32)]]\n[[var i = (s + 24)]]\n[[question r = ['i']]]\ntheme: Eraser",
+      "statement": "In a school stationery shop, there are 74 erasers available. A shopkeeper adds 32 more erasers to the inventory. Later in the day, a student donates another 24 erasers to the school shop. How many erasers are there in total now?",
+      "new symbolic struct": "[[var initial_erasers = 74]]\n[[var added_erasers = 32]]\n[[var donated_erasers = 24]]\n[[question result = ['initial_erasers + (added_erasers + donated_erasers)']]]",
+      "answer": "130",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-30-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var s = 57]]\n[[var j = (s + 57)]]\n[[var x = (j + 92)]]\n[[question o = ['x']]]\ntheme: Swing",
+      "statement": "Sally was on a swing and she swung back and forth 57 times. Jack also started swinging and he swung back and forth 57 more times than Sally. Xavier, feeling competitive, starts swinging too and he further manages to swing back forth 92 times more than Jack. How many times did Xavier swing back and forth?",
+      "new symbolic struct": "[[var sally_swing = 57]]\n[[var jack_swing = sally_swing + 57]]\n[[var xavier_swing = jack_swing + 92]]\n[[question result = ['xavier_swing']]]",
+      "answer": "206",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-30-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var s = 57]]\n[[var j = (s + 57)]]\n[[var x = (j + 92)]]\n[[var f = 95]]\n[[question n = ['(x + f)']]]\ntheme: Swing",
+      "statement": "After Xavier finishes his turn on the swing, Faye decides to take a ride. She swings back and forth 95 times. If we add the number of times Faye swung to the number of times Xavier swung, how many total swings is that?",
+      "new symbolic struct": "[[var sally_swing = 57]]\n[[var jack_swing = sally_swing + 57]]\n[[var xavier_swing = jack_swing + 92]]\n[[var faye_swing = 95]]\n[[var total_swings = xavier_swing + faye_swing]]\n[[question result = ['total_swings']]]",
+      "answer": "301",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-30-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var s = 57]]\n[[var j = (s + 46)]]\n[[var x = (j + 92)]]\n[[question o = ['x']]]\ntheme: Swing",
+      "statement": "In the previous problem, we learned that Jack swung 57 times more than Sally. But what if Jack had only swung 46 times more than Sally? Sally still swung 57 times. If Jack then swung 46 more times than Sally, and Xavier again swung 92 times more than Jack, how many swings would Xavier have taken in this case?",
+      "new symbolic struct": "[[var sally_swing = 57]]\n[[var jack_swing = sally_swing + 46]]\n[[var xavier_swing = jack_swing + 92]]\n[[question result = ['xavier_swing']]]",
+      "answer": "195",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-31-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var w = 15]]\n[[var a = (w + w)]]\n[[var o = (a + 31)]]\n[[question m = ['o']]]\ntheme: Ice cream",
+      "statement": "Tommy absolutely loves ice cream. One day he ate 15 ice creams. The next day, he ate twice that amount. On the third day, he couldn't resist and ate 31 more than he did on the second day. How many ice creams did Tommy eat on the third day?",
+      "new symbolic struct": "[[var day1_icecreams = 15]]\n[[var day2_icecreams = 2 * day1_icecreams]]\n[[var day3_icecreams = day2_icecreams + 31]]\n[[question result = ['day3_icecreams']]]",
+      "answer": "61",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-31-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var w = 15]]\n[[var a = (w + w)]]\n[[var o = (a + 32)]]\n[[question m = ['o']]]\ntheme: Ice cream",
+      "statement": "In the initial scenario, Tommy ate 15 ice creams on the first day and twice that amount on the second. Given this, suppose on the third day, Tommy ate 32 more than the number of ice creams he had on the second day, instead of 31. How many ice creams would Tommy have eaten on the third day, then?",
+      "new symbolic struct": "[[var day1_icecreams_initial = 15]]\n[[var day2_icecreams_initial = 2 * day1_icecreams_initial]]\n[[var day3_icecreams_modified = day2_icecreams_initial + 32]]\n[[question result = ['day3_icecreams_modified']]]",
+      "answer": "62",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-32-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var m = 97]]\n[[var t = (m + 65)]]\n[[question w = ['t']]]\ntheme: Camera",
+      "statement": "Michael has a camera collection. He starts off with 97 cameras. He wins a major auction and adds another 65 cameras. How many cameras does he have in his collection now?",
+      "new symbolic struct": "[[var initial_cameras = 97]]\n[[var auction_cameras = 65]]\n[[question result = ['initial_cameras + auction_cameras']]]",
+      "answer": "162",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-32-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var m = 97]]\n[[var t = (m + 65)]]\n[[var b = 82]]\n[[question d = ['(b + t)']]]\ntheme: Camera",
+      "statement": "After winning the auction, Michael receives a gift of 82 more cameras from a close friend who is retiring from photography. How many cameras does he have in his collection now?",
+      "new symbolic struct": "[[var initial_cameras = 97]]\n[[var auction_cameras = 65]]\n[[var gift_cameras = 82]]\n[[question result = ['initial_cameras + auction_cameras + gift_cameras']]]",
+      "answer": "244",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-32-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var m = 35]]\n[[var t = (m + 65)]]\n[[question w = ['t']]]\ntheme: Camera",
+      "statement": "What would have been the total number of cameras if Michael originally started off with 35 cameras instead of 97 before he won the auction and received additional cameras?",
+      "new symbolic struct": "[[var initial_cameras = 35]]\n[[var auction_cameras = 65]]\n[[question result = ['initial_cameras + auction_cameras']]]",
+      "answer": "100",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-33-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var a = 75]]\n[[var v = (a + 68)]]\n[[var e = (v + 46)]]\n[[question w = ['e']]]\ntheme: Skateboard",
+      "statement": "Sam has 75 skateboard stickers. His friend Zack gives him another 68 stickers. Later, his other friend Ethan gives him 46 more stickers. How many skateboard stickers does Sam have now?",
+      "new symbolic struct": "[[var sam_initial_stickers = 75]]\n[[var zack_stickers = 68]]\n[[var ethan_stickers = 46]]\n[[question result = ['(sam_initial_stickers + zack_stickers) + ethan_stickers']]]",
+      "answer": "189",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-33-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var a = 75]]\n[[var v = (a + 68)]]\n[[var e = (v + 16)]]\n[[question w = ['e']]]\ntheme: Skateboard",
+      "statement": "Let's imagine that this time, Sam originally had 75 skateboard stickers, but his friend Zack gave him fewer stickers than before, just 68 stickers. However, his other friend Ethan only contributes 16 stickers this time. How many skateboard stickers does Sam have now?",
+      "new symbolic struct": "[[var sam_initial_stickers = 75]]\n[[var zack_stickers = 68]]\n[[var ethan_stickers = 16]]\n[[question result = ['(sam_initial_stickers + zack_stickers) + ethan_stickers']]]",
+      "answer": "159",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-34-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = 54]]\n[[var c = 20]]\n[[question m = ['(y + c)']]]\ntheme: Crayon",
+      "statement": "Samantha has 54 yellow crayons in her art box. Then, her friend Christina gave her 20 more crayons. How many crayons does Samantha have in total?",
+      "new symbolic struct": "[[var samantha_yellow_crayons = 54]]\n[[var christina_crayons = 20]]\n[[question result = ['samantha_yellow_crayons + christina_crayons']]]",
+      "answer": "74",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-34-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = 54]]\n[[var c = 20]]\n[[var n = (c + y)]]\n[[question h = ['n']]]\ntheme: Crayon",
+      "statement": "Samantha counts all the crayons in her art box. She realizes that she now has a new total number of crayons due to the 54 yellow ones and the 20 her friend Christina gave her. How many crayons does Samantha have now?",
+      "new symbolic struct": "[[var samantha_yellow_crayons = 54]]\n[[var christina_crayons = 20]]\n[[question result = ['samantha_yellow_crayons + christina_crayons']]]",
+      "answer": "74",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-34-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = 3]]\n[[var c = 20]]\n[[question m = ['(y + c)']]]\ntheme: Crayon",
+      "statement": "Suppose Samantha originally had only 3 yellow crayons in her art box instead of 54 before her friend Christina gave her 20 more crayons. How many crayons would Samantha have in that case?",
+      "new symbolic struct": "[[var samantha_yellow_crayons = 3]]\n[[var christina_crayons = 20]]\n[[question result = ['samantha_yellow_crayons + christina_crayons']]]",
+      "answer": "23",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-35-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var t = 75]]\n[[var o = 73]]\n[[var g = (o + t)]]\n[[question z = ['g']]]\ntheme: Slide",
+      "statement": "In an amusement park, there are 75 people waiting in line to slide down one slide, while 73 people are lined up for another slide. How many total people are waiting to slide down the slides?",
+      "new symbolic struct": "[[var slide1_people = 75]]\n[[var slide2_people = 73]]\n[[question result = ['slide1_people + slide2_people']]]",
+      "answer": "148",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-35-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var t = 27]]\n[[var o = 73]]\n[[var g = (o + t)]]\n[[question z = ['g']]]\ntheme: Slide",
+      "statement": "After recounting, it turns out that there were actually 27 people waiting in line for one slide, not 75, while 73 people are still lined up for the other slide. Now, how many total people are waiting to slide down the slides?",
+      "new symbolic struct": "[[var revised_slide1_people = 27]]\n[[var slide2_people = 73]]\n[[question result = ['revised_slide1_people + slide2_people']]]",
+      "answer": "100",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-36-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var g = (10 + 13)]]\n[[var o = (36 + 80)]]\n[[var s = (g + o)]]\n[[question j = ['s']]]\ntheme: Teacher",
+      "statement": "A teacher has a classroom of 10 students in the morning and 13 students in the afternoon. The other teacher has 36 students in the morning and 80 in the afternoon. How many students do these teachers teach in total in a day?",
+      "new symbolic struct": "[[var teacher1_morning = 10]]\n[[var teacher1_afternoon = 13]]\n[[var teacher2_morning = 36]]\n[[var teacher2_afternoon = 80]]\n[[var total_students = (teacher1_morning + teacher1_afternoon) + (teacher2_morning + teacher2_afternoon)]]\n[[question result = ['total_students']]]",
+      "answer": "139",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-36-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var g = (10 + 13)]]\n[[var o = (36 + 80)]]\n[[var s = (g + o)]]\n[[var d = (s + 85)]]\n[[question w = ['d']]]\ntheme: Teacher",
+      "statement": "A teacher has a classroom of 10 students in the morning and 13 students in the afternoon. The other teacher has 36 students in the morning and 80 in the afternoon. The school just received a transfer of 85 more students. How many students do these teachers teach in total in a day after the new students arrive?",
+      "new symbolic struct": "[[var teacher1_morning = 10]]\n[[var teacher1_afternoon = 13]]\n[[var teacher2_morning = 36]]\n[[var teacher2_afternoon = 80]]\n[[var transfer_students = 85]]\n[[var total_students = (teacher1_morning + teacher1_afternoon + teacher2_morning + teacher2_afternoon) + transfer_students]]\n[[question result = ['total_students']]]",
+      "answer": "224",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-36-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var g = (30 + 13)]]\n[[var o = (36 + 80)]]\n[[var s = (g + o)]]\n[[question j = ['s']]]\ntheme: Teacher",
+      "statement": "In the original scenario, one teacher had a classroom of 10 students in the morning and 13 students in the afternoon. But what if there were actually 30 students in the morning instead of 10? The other teacher has 36 students in the morning and 80 in the afternoon, as before. How many students do these teachers teach in total in a day in this new scenario?",
+      "new symbolic struct": "[[var teacher1_morning_new = 30]]\n[[var teacher1_afternoon = 13]]\n[[var teacher2_morning = 36]]\n[[var teacher2_afternoon = 80]]\n[[var total_students_new = (teacher1_morning_new + teacher1_afternoon) + (teacher2_morning + teacher2_afternoon)]]\n[[question result = ['total_students_new']]]",
+      "answer": "159",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-37-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 43]]\n[[var f = (78 + 85)]]\n[[var q = (k + f)]]\n[[question x = ['q']]]\ntheme: Wizard",
+      "statement": "A wizard named Albus needs to perform an enchantment. The enchantment requires 43 units of sage. To make the spell stronger, he also adds a mixture that contains 78 units of elderberry and 85 units of thistle. What is the total amount of ingredients used in the enchantment?",
+      "new symbolic struct": "[[var sage = 43]]\n[[var elderberry = 78]]\n[[var thistle = 85]]\n[[question result = ['sage + elderberry + thistle']]]",
+      "answer": "206",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-37-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 43]]\n[[var f = (78 + 85)]]\n[[var q = (k + f)]]\n[[var l = (q + 67)]]\n[[question p = ['l']]]\ntheme: Wizard",
+      "statement": "Albus, the wizard, realizes he needs to amplify the enchantment even further. He decides to add 67 units of phoenix feather in addition to the sage, elderberry and thistle. Now, what is the total amount of ingredients used in the enchantment?",
+      "new symbolic struct": "[[var sage = 43]]\n[[var elderberry = 78]]\n[[var thistle = 85]]\n[[var phoenix_feather = 67]]\n[[question result = ['sage + elderberry + thistle + phoenix_feather']]]",
+      "answer": "273",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-38-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var x = 59]]\n[[var i = (22 + 58)]]\n[[var a = (i + x)]]\n[[question s = ['a']]]\ntheme: Jacket",
+      "statement": "John bought 59 jackets for the winter season. Later, he bought another 22 jackets. Driven by the sale, he also bought 58 jackets with different colors and patterns. How many jackets did John buy in total?",
+      "new symbolic struct": "[[var initial_jackets = 59]]\n[[var additional_jackets = 22]]\n[[var sale_jackets = 58]]\n[[question result = ['(initial_jackets + additional_jackets) + sale_jackets']]]",
+      "answer": "139",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-38-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var x = 59]]\n[[var i = (22 + 58)]]\n[[var a = (i + x)]]\n[[var q = (35 + a)]]\n[[question n = ['q']]]\ntheme: Jacket",
+      "statement": "In the previous question, John had bought a total of 139 jackets. However, his family members also wanted some jackets for themselves. So, he bought an additional 35 jackets for his family. How many jackets did John buy in total now?",
+      "new symbolic struct": "[[var initial_total_jackets = 139]]\n[[var family_jackets = 35]]\n[[question result = ['initial_total_jackets + family_jackets']]]",
+      "answer": "174",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-38-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var x = 59]]\n[[var i = (83 + 58)]]\n[[var a = (i + x)]]\n[[question s = ['a']]]\ntheme: Jacket",
+      "statement": "In the previous scenario, John initially bought 59 jackets. However, let's reconsider that scenario with a slight modification. \n\nThis time, after buying the initial 59 jackets, John went to another store and bought 83 more jackets. Then, as he was leaving, he noticed a stand with discount jackets and purchased 58 more of them there. \n\nHow many jackets did John buy in total under these new conditions?",
+      "new symbolic struct": "[[var initial_jackets = 59]]\n[[var additional_jackets = 83]]\n[[var discount_jackets = 58]]\n[[question result = ['(initial_jackets + additional_jackets) + discount_jackets']]]",
+      "answer": "200",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-40-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var g = 69]]\n[[var c = (g + 31)]]\n[[var n = 82]]\n[[question b = ['(n + c)']]]\ntheme: Rain",
+      "statement": "On Thursday, the city experienced rainfall of about 69mm. On Friday, it rained more with an increase of 31mm compared to the previous day. On Saturday, it poured heavily throughout the day and the city saw 82mm of rain. How much total rainfall did the city experience on Friday and Saturday?",
+      "new symbolic struct": "[[var thursday_rainfall = 69]]\n[[var increase_friday = 31]]\n[[var friday_rainfall = thursday_rainfall + increase_friday]]\n[[var saturday_rainfall = 82]]\n[[question result = ['friday_rainfall + saturday_rainfall']]]",
+      "answer": "182",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-40-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var g = 69]]\n[[var c = (g + 19)]]\n[[var n = 82]]\n[[question b = ['(n + c)']]]\ntheme: Rain",
+      "statement": "In the previous problem, we considered an increase in rainfall of 31mm from Thursday to Friday. But what if the increase was less, let's say only 19mm more than Thursday's rainfall of 69mm? Then how much total rainfall did the city experience on Friday and Saturday?",
+      "new symbolic struct": "[[var thursday_rainfall = 69]]\n[[var new_increase_friday = 19]]\n[[var new_friday_rainfall = thursday_rainfall + new_increase_friday]]\n[[var saturday_rainfall = 82]]\n[[question result = ['new_friday_rainfall + saturday_rainfall']]]",
+      "answer": "170",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-41-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 66]]\n[[var u = (70 + z)]]\n[[var y = (36 + u)]]\n[[question n = ['y']]]\ntheme: Penguin",
+      "statement": "A penguin named Zazu finds 66 shiny stones. Zazu sees that his friend Umi has found 70 more shiny stones than him. Another friend named Yara tucked away 36 shiny stones in addition to what Umi found. How many shiny stones did Yara find in total?",
+      "new symbolic struct": "[[var zazu_stones = 66]]\n[[var umi_more_stones = 70]]\n[[var yara_additional_stones = 36]]\n[[var yara_stones = umi_more_stones + zazu_stones + yara_additional_stones]]\n[[question result = ['yara_stones']]]",
+      "answer": "172",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-41-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 66]]\n[[var u = (70 + z)]]\n[[var y = (36 + u)]]\n[[var d = 34]]\n[[question r = ['(y + d)']]]\ntheme: Penguin",
+      "statement": "After all the shiny stones have been counted, a penguin named Dina dives and finds an additional 34 shiny stones. How many shiny stones are there in total now considering Yara's stones and the ones that Dina found?",
+      "new symbolic struct": "[[var zazu_stones = 66]]\n[[var umi_more_stones = 70]]\n[[var yara_additional_stones = 36]]\n[[var yara_stones = umi_more_stones + zazu_stones + yara_additional_stones]]\n[[var dina_stones = 34]]\n[[var total_stones = yara_stones + dina_stones]]\n[[question result = ['total_stones']]]",
+      "answer": "206",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-41-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 66]]\n[[var u = (70 + z)]]\n[[var y = (45 + u)]]\n[[question n = ['y']]]\ntheme: Penguin",
+      "statement": "Recall from the last time, Zazu found 66 shiny stones initially. Umi found 70 more shiny stones than Zazu. However, now consider that Yara only found 45 shiny stones more than what Umi found, instead of the 36 as previously stated. How many shiny stones did Yara find in this new scenario?",
+      "new symbolic struct": "[[var zazu_stones = 66]]\n[[var umi_more_stones = 70]]\n[[var yara_new_additional_stones = 45]]\n[[var yara_new_stones = umi_more_stones + zazu_stones + yara_new_additional_stones]]\n[[question result = ['yara_new_stones']]]",
+      "answer": "181",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-42-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = (77 + 26)]]\n[[var x = (99 + z)]]\n[[question r = ['x']]]\ntheme: River",
+      "statement": "A river is composed of 77 miles of calm water. A new tributary recently merged and extended the river by an additional 26 miles. Later, a 99-mile rapid water stretch is discovered and added to the river's length. How long is the river in total?",
+      "new symbolic struct": "[[var calm_water = 77]]\n[[var tributary = 26]]\n[[var rapid_water = 99]]\n[[var total_river_length = calm_water + tributary + rapid_water]]\n[[question result = ['total_river_length']]]",
+      "answer": "202",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-43-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var w = (44 + 84)]]\n[[var t = (77 + w)]]\n[[question y = ['t']]]\ntheme: Glasses",
+      "statement": "An optical shop manages to sell 44 eyeglasses in the month of May and 84 in the month of June. The total number of glasses sold before May was 77. How many eyeglasses has the shop sold in total?",
+      "new symbolic struct": "[[var may_sales = 44]]\n[[var june_sales = 84]]\n[[var previous_sales = 77]]\n[[var total_sales = may_sales + june_sales + previous_sales]]\n[[question result = ['total_sales']]]",
+      "answer": "205",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-43-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var w = (44 + 84)]]\n[[var t = (44 + w)]]\n[[question y = ['t']]]\ntheme: Glasses",
+      "statement": "What if instead of selling 77 eyeglasses before May, they only sold 44 eyeglasses? How many eyeglasses has the shop sold in total then (including sales in May, June, and the first week of July)?",
+      "new symbolic struct": "[[var may_sales = 44]]\n[[var june_sales = 84]]\n[[var previous_sales = 44]]\n[[var total_sales = may_sales + june_sales + previous_sales]]\n[[question result = ['total_sales']]]",
+      "answer": "172",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-44-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = (8 + 88)]]\n[[var h = (y + 17)]]\n[[var s = 77]]\n[[question m = ['(s + h)']]]\ntheme: Tent",
+      "statement": "In preparing for a camping trip, a group of friends collected 8 small tents and 88 large tents. They then added 17 medium tents to their collection. Separately, they also managed to gather 77 ground mats for the tents. How many total items including both tents and ground mats did they gather for the camping trip?",
+      "new symbolic struct": "[[var small_tents = 8]]\n[[var large_tents = 88]]\n[[var medium_tents = 17]]\n[[var ground_mats = 77]]\n[[var total_items = small_tents + large_tents + medium_tents + ground_mats]]\n[[question result = ['total_items']]]",
+      "answer": "190",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-44-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = (8 + 89)]]\n[[var h = (y + 17)]]\n[[var s = 77]]\n[[question m = ['(s + h)']]]\ntheme: Tent",
+      "statement": "Now consider this - instead of initially collecting 8 small tents, the group collected 9. They still maintained the same number of large tents at 88 and added 17 medium tents just as before. If they also collected 77 ground mats, how many total items including both tents and ground mats did they gather for the camping trip now?",
+      "new symbolic struct": "[[var small_tents_new = 9]]\n[[var large_tents = 88]]\n[[var medium_tents = 17]]\n[[var ground_mats = 77]]\n[[var total_items_new = small_tents_new + large_tents + medium_tents + ground_mats]]\n[[question result = ['total_items_new']]]",
+      "answer": "191",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-45-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = 61]]\n[[var q = 49]]\n[[var v = (o + q)]]\n[[question p = ['v']]]\ntheme: Grapes",
+      "statement": "In Lila's vineyard, one grapevine produced 61 grapes while another produced 49 grapes. What is the total number of grapes produced by these two grapevines?",
+      "new symbolic struct": "[[var vine1_grapes = 61]]\n[[var vine2_grapes = 49]]\n[[question result = ['vine1_grapes + vine2_grapes']]]",
+      "answer": "110",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-45-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = 61]]\n[[var q = 49]]\n[[var v = (o + q)]]\n[[var i = 94]]\n[[question u = ['(i + v)']]]\ntheme: Grapes",
+      "statement": "In addition to Lila's vineyard, her neighbor also runs a vineyard. This year, the neighbor's vineyard produced 94 grapes. What is the total number of grapes produced by Lila and her neighbor's vineyards combined?",
+      "new symbolic struct": "[[var vine1_grapes = 61]]\n[[var vine2_grapes = 49]]\n[[var neighbor_vine_grapes = 94]]\n[[var total_vineyard_grapes = vine1_grapes + vine2_grapes]]\n[[question result = ['total_vineyard_grapes + neighbor_vine_grapes']]]",
+      "answer": "204",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-45-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = 50]]\n[[var q = 49]]\n[[var v = (o + q)]]\n[[question p = ['v']]]\ntheme: Grapes",
+      "statement": "Let's reconsider Lila's vineyard. Suppose one of the grapevines originally produced 50 grapes instead of 61. With the other grapevine still producing 49 grapes, what would then be the total number of grapes produced by these two grapevines?",
+      "new symbolic struct": "[[var vine1_grapes = 50]]\n[[var vine2_grapes = 49]]\n[[question result = ['vine1_grapes + vine2_grapes']]]",
+      "answer": "99",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-47-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var x = 63]]\n[[var z = 6]]\n[[var s = (z + x)]]\n[[question b = ['s']]]\ntheme: Sock",
+      "statement": "Sally is a fashion designer who loves knitting socks. One day, she made 63 colourful pairs of socks. The next day, she decided to add 6 more pairs to her collection. How many pairs of socks does Sally have now?",
+      "new symbolic struct": "[[var initial_socks = 63]]\n[[var additional_socks = 6]]\n[[question result = ['initial_socks + additional_socks']]]",
+      "answer": "69",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-47-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var x = 63]]\n[[var z = 6]]\n[[var s = (z + x)]]\n[[var i = (s + 16)]]\n[[question r = ['i']]]\ntheme: Sock",
+      "statement": "After knitting her socks, Sally decided to try knitting mittens as well. She found that she really liked it, and she was able to knit 16 pairs of mittens. How many pairs of socks and mittens does Sally have now?",
+      "new symbolic struct": "[[var initial_socks = 63]]\n[[var additional_socks = 6]]\n[[var sock_total = initial_socks + additional_socks]]\n[[var mittens = 16]]\n[[question result = ['sock_total + mittens']]]",
+      "answer": "85",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-47-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var x = 9]]\n[[var z = 6]]\n[[var s = (z + x)]]\n[[question b = ['s']]]\ntheme: Sock",
+      "statement": "Suppose Sally didn't make 63 pairs of socks, but she actually only made 9 pairs of socks initially. She still added 6 more pairs of socks the next day as she did previously. How many pairs of socks does Sally have now?",
+      "new symbolic struct": "[[var initial_socks = 9]]\n[[var additional_socks = 6]]\n[[question result = ['initial_socks + additional_socks']]]",
+      "answer": "15",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-48-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = (13 + 55)]]\n[[var z = (57 + 33)]]\n[[var o = (z + u)]]\n[[question l = ['o']]]\ntheme: Water",
+      "statement": "Mike is the owner of an aquarium. He added 13 gallons of water to one of his tanks in the morning. Later in the afternoon, he added another 55 gallons to the same tank. Meanwhile, in another tank, he added 57 gallons in the morning and an additional 33 gallons in the afternoon. What is the total quantity of water (in gallons) that Mike added to both of his tanks throughout the day?",
+      "new symbolic struct": "[[var morning_tank1 = 13]]\n[[var afternoon_tank1 = 55]]\n[[var morning_tank2 = 57]]\n[[var afternoon_tank2 = 33]]\n[[var total_water = (morning_tank1 + afternoon_tank1) + (morning_tank2 + afternoon_tank2)]]\n[[question result = ['total_water']]]",
+      "answer": "158",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-48-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = (13 + 55)]]\n[[var z = (57 + 33)]]\n[[var o = (z + u)]]\n[[var w = (56 + o)]]\n[[question m = ['w']]]\ntheme: Water",
+      "statement": "Now, imagine that Mike also has a large pond outside his house. In the evening, he decides to refill it and adds 56 gallons of water. Considering all three locations (the two tanks and the pond), how much total water did Mike add throughout the day?",
+      "new symbolic struct": "[[var morning_tank1 = 13]]\n[[var afternoon_tank1 = 55]]\n[[var morning_tank2 = 57]]\n[[var afternoon_tank2 = 33]]\n[[var pond = 56]]\n[[var total_water_tanks = (morning_tank1 + afternoon_tank1) + (morning_tank2 + afternoon_tank2)]]\n[[var total_water = total_water_tanks + pond]]\n[[question result = ['total_water']]]",
+      "answer": "214",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-48-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = (13 + 96)]]\n[[var z = (57 + 33)]]\n[[var o = (z + u)]]\n[[question l = ['o']]]\ntheme: Water",
+      "statement": "Let's reconsider the scenario. Instead of adding 55 gallons of water to his first tank, suppose Mike instead adds 96 gallons of water in the afternoon. Given that all other quantities remain the same with 13 gallons added in the morning to the first tank, and the second tank receiving 57 gallons in the morning and an additional 33 gallons in the afternoon, how much total water did Mike add to both tanks throughout the day?\n",
+      "new symbolic struct": "[[var morning_tank1_original = 13]]\n[[var afternoon_tank1_new = 96]]\n[[var morning_tank2_original = 57]]\n[[var afternoon_tank2_original = 33]]\n[[var total_water_new = (morning_tank1_original + afternoon_tank1_new) + (morning_tank2_original + afternoon_tank2_original)]]\n[[question result = ['total_water_new']]]",
+      "answer": "199",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-50-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 64]]\n[[var e = (60 + k)]]\n[[var w = (e + e)]]\n[[question t = ['w']]]\ntheme: Teddy bear",
+      "statement": "Teddy has a favorite toy which is a tiny teddy bear. One day, Teddy's dad gave him 64 more teddy bears. Teddy's mom, feeling envious, gave Teddy 60 more teddy bears plus the exact number of teddy bears Teddy's dad gave him. At the end of the day, Teddy's grandma surprised him with twice the number of teddy bears his mom gave him. How many teddy bears did Teddy receive from his grandma?",
+      "new symbolic struct": "[[var dad_toys = 64]]\n[[var mom_toys = 60 + dad_toys]]\n[[var grandma_toys = 2 * mom_toys]]\n[[question result = ['grandma_toys']]]",
+      "answer": "248",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-50-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 30]]\n[[var e = (60 + k)]]\n[[var w = (e + e)]]\n[[question t = ['w']]]\ntheme: Teddy bear",
+      "statement": "Let's imagine that instead of 64 teddy bears, Teddy's dad initially gave him only 30 teddy bears. Teddy's mom, feeling envious as before, gave Teddy 60 more bears plus the exact number of bears Teddy's dad gave him. At the end of the day, Teddy's grandma, wanting to double the joy, surprised him with twice the number of teddy bears his mom gave him. How many teddy bears did Teddy receive from his grandma under this new scenario?",
+      "new symbolic struct": "[[var new_dad_toys = 30]]\n[[var new_mom_toys = 60 + new_dad_toys]]\n[[var new_grandma_toys = 2 * new_mom_toys]]\n[[question result = ['new_grandma_toys']]]",
+      "answer": "180",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-52-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 84]]\n[[var u = (k + 75)]]\n[[question a = ['u']]]\ntheme: Forest",
+      "statement": "In a forest, there are 84 oak trees. If the number of pine trees adds 75 more to the total number of trees, how many trees are there in the forest?",
+      "new symbolic struct": "[[var oak_trees = 84]]\n[[var pine_trees = 75]]\n[[var total_trees = oak_trees + pine_trees]]\n[[question result = ['total_trees']]]",
+      "answer": "159",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-52-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 84]]\n[[var u = (k + 75)]]\n[[var r = 68]]\n[[question w = ['(u + r)']]]\ntheme: Forest",
+      "statement": "Continuing from the previous question, suppose that the forest officials plant an additional 68 maple trees in the forest. Now how many trees are there overall in the forest?",
+      "new symbolic struct": "[[var oak_trees = 84]]\n[[var pine_trees = 75]]\n[[var initial_total_trees = oak_trees + pine_trees]]\n[[var maple_trees = 68]]\n[[var final_total_trees = initial_total_trees + maple_trees]]\n[[question result = ['final_total_trees']]]",
+      "answer": "227",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-52-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 84]]\n[[var u = (k + 27)]]\n[[question a = ['u']]]\ntheme: Forest",
+      "statement": "In retrospect, considering the number of oak trees in the forest, it was mistaken before. There are actually 84 oak trees, not including other types of trees. If the number of pine trees adds 27 more to the total number of trees, how many trees are there in the forest now?",
+      "new symbolic struct": "[[var oak_trees = 84]]\n[[var pine_trees = 27]]\n[[var total_trees = oak_trees + pine_trees]]\n[[question result = ['total_trees']]]",
+      "answer": "111",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-53-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var n = 71]]\n[[var f = 56]]\n[[question l = ['(n + f)']]]\ntheme: Dinosaur",
+      "statement": "In a newly discovered dinosaur park, scientists found 71 Neovenator dinosaurs and 56 Ferrotholus dinosaurs. How many total dinosaurs did they find in all?",
+      "new symbolic struct": "[[var neovenator = 71]]\n[[var ferrotholus = 56]]\n[[question result = ['neovenator + ferrotholus']]]",
+      "answer": "127",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-53-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var n = 71]]\n[[var f = 56]]\n[[var j = (n + f)]]\n[[question o = ['j']]]\ntheme: Dinosaur",
+      "statement": "After their initial discovery at the dinosaur park, scientists found another group of dinosaurs which was equal to the total number of Neovenator and Ferrotholus dinosaurs combined. How many dinosaurs did the scientists find in this second group?",
+      "new symbolic struct": "[[var neovenator = 71]]\n[[var ferrotholus = 56]]\n[[var total_first_group = neovenator + ferrotholus]]\n[[var second_group = total_first_group]]\n[[question result = ['second_group']]]",
+      "answer": "127",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-53-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var n = 54]]\n[[var f = 56]]\n[[question l = ['(n + f)']]]\ntheme: Dinosaur",
+      "statement": "In their initial findings, the scientists had made a miscount and actually found 54 Neovenator dinosaurs instead of 71. With the same number of Ferrotholus dinosaurs being 56, what is the corrected total number of dinosaurs they found?",
+      "new symbolic struct": "[[var neovenator_corrected = 54]]\n[[var ferrotholus = 56]]\n[[question result = ['neovenator_corrected + ferrotholus']]]",
+      "answer": "110",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-54-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 88]]\n[[var d = (92 + v)]]\n[[var h = (d + 61)]]\n[[question o = ['h']]]\ntheme: Boat",
+      "statement": "A boat has traveled 88 miles today. The next day, it travels 92 more miles plus the miles it traveled today. The third day, it travels an additional 61 miles plus the miles it traveled the previous days. How many miles has the boat traveled in these three days?",
+      "new symbolic struct": "[[var first_day_travel = 88]]\n[[var second_day_additional = 92]]\n[[var third_day_additional = 61]]\n[[question total_travel = ['(first_day_travel + second_day_additional) + third_day_additional']]]",
+      "answer": "241",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-54-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 88]]\n[[var d = (92 + v)]]\n[[var h = (d + 61)]]\n[[var c = (h + 78)]]\n[[question f = ['c']]]\ntheme: Boat",
+      "statement": "After traveling for three days, the boat continues its journey. On the fourth day, it travels an additional 78 miles plus the miles it traveled in the previous three days. How many miles has the boat traveled in total over these four days?",
+      "new symbolic struct": "[[var first_day_travel = 88]]\n[[var second_day_additional = 92]]\n[[var third_day_additional = 61]]\n[[var fourth_day_additional = 78]]\n[[question total_travel = ['(first_day_travel + second_day_additional + third_day_additional) + fourth_day_additional']]]",
+      "answer": "319",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-54-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 88]]\n[[var d = (37 + v)]]\n[[var h = (d + 61)]]\n[[question o = ['h']]]\ntheme: Boat",
+      "statement": "In the previous scenario, suppose that on the second day, the boat had traveled only 37 miles instead of 92, in addition to the miles it traveled on the first day. The boat continued to travel 61 miles plus the previous day's on the third day as before. How many miles has the boat traveled in these three days under this new scenario?",
+      "new symbolic struct": "[[var first_day_travel = 88]]\n[[var second_day_additional_updated = 37]]\n[[var third_day_additional = 61]]\n[[question total_travel = ['(first_day_travel + second_day_additional_updated) + third_day_additional']]]",
+      "answer": "186",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-55-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 7]]\n[[var f = 69]]\n[[question r = ['(i + f)']]]\ntheme: Juice",
+      "statement": "Sarah has 7 liters of apple juice. She went to the store and bought 69 more liters. How many liters of apple juice does Sarah have now?",
+      "new symbolic struct": "[[var initial_juice = 7]]\n[[var bought_juice = 69]]\n[[question result = ['initial_juice + bought_juice']]]",
+      "answer": "76",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-55-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 55]]\n[[var f = 69]]\n[[question r = ['(i + f)']]]\ntheme: Juice",
+      "statement": "Initially, Sarah thought she had bought only 7 liters of juice, but she realized she had actually bought 55 liters of apple juice. If she still bought an additional 69 liters from the store, how much apple juice does Sarah have in total now?",
+      "new symbolic struct": "[[var initial_juice = 55]]\n[[var bought_juice = 69]]\n[[question result = ['initial_juice + bought_juice']]]",
+      "answer": "124",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-56-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = 83]]\n[[var z = (l + 33)]]\n[[question w = ['z']]]\ntheme: Marshmallow",
+      "statement": "Sally is on a mission to build the biggest marshmallow tower. She starts with 83 marshmallows, but then her friend brings an additional 33 marshmallows. How many marshmallows does Sally have now for her tower?",
+      "new symbolic struct": "[[var initial_marshmallows = 83]]\n[[var additional_marshmallows = 33]]\n[[question result = ['initial_marshmallows + additional_marshmallows']]]",
+      "answer": "116",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-56-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = 83]]\n[[var z = (l + 33)]]\n[[var p = 22]]\n[[question i = ['(z + p)']]]\ntheme: Marshmallow",
+      "statement": "After Sally counts all her marshmallows, her other friend decides to contribute as well and brings 22 more marshmallows. How many marshmallows does Sally have in total now for her tower?",
+      "new symbolic struct": "[[var initial_marshmallows = 83]]\n[[var first_friend_marshmallows = 33]]\n[[var second_friend_marshmallows = 22]]\n[[question result = ['(initial_marshmallows + first_friend_marshmallows) + second_friend_marshmallows']]]",
+      "answer": "138",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-56-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = 13]]\n[[var z = (l + 33)]]\n[[question w = ['z']]]\ntheme: Marshmallow",
+      "statement": "Suppose Sally started with only 13 marshmallows instead of 83 and then her friend brought the same amount of 33 additional marshmallows. How many marshmallows would Sally have had then for her tower?",
+      "new symbolic struct": "[[var initial_marshmallows = 13]]\n[[var additional_marshmallows = 33]]\n[[question result = ['initial_marshmallows + additional_marshmallows']]]",
+      "answer": "46",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-57-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = 48]]\n[[var v = (l + 34)]]\n[[var a = (v + 24)]]\n[[question u = ['a']]]\ntheme: Earrings",
+      "statement": "Jenna is a jewelry maker. She currently has 48 earrings in stock. She makes an additional 34 earrings for a special event. After the event, Jenna makes 24 more earrings to replenish her stock. How many earrings does she have in total?",
+      "new symbolic struct": "[[var initial_earrings = 48]]\n[[var event_earrings = 34]]\n[[var replenish_earrings = 24]]\n[[question result = ['initial_earrings + event_earrings + replenish_earrings']]]",
+      "answer": "106",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-57-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = 48]]\n[[var v = (l + 34)]]\n[[var a = (v + 94)]]\n[[question u = ['a']]]\ntheme: Earrings",
+      "statement": "After the special event, Jenna decides to replenish her stock by making 94 more earrings instead of the 24 she initially planned. Now, how many earrings does she have on her shelf?",
+      "new symbolic struct": "[[var initial_earrings = 48]]\n[[var event_earrings = 34]]\n[[var new_replenish_earrings = 94]]\n[[question result = ['initial_earrings + event_earrings + new_replenish_earrings']]]",
+      "answer": "176",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-58-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var f = 48]]\n[[var q = 25]]\n[[question r = ['(f + q)']]]\ntheme: Baby",
+      "statement": "In a city, 48 babies were born in March, and in April, another 25 were born. How many babies were born in these two months in total?",
+      "new symbolic struct": "[[var march_babies = 48]]\n[[var april_babies = 25]]\n[[question total_babies = ['march_babies + april_babies']]]",
+      "answer": "73",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-58-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var f = 48]]\n[[var q = 25]]\n[[var o = (f + q)]]\n[[question p = ['o']]]\ntheme: Baby",
+      "statement": "In May, the number of babies born matches the total of both March and April. How many babies were born in May?",
+      "new symbolic struct": "[[var march_babies = 48]]\n[[var april_babies = 25]]\n[[var total_march_april = march_babies + april_babies]]\n[[question may_babies = ['total_march_april']]]",
+      "answer": "73",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-58-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var f = 55]]\n[[var q = 25]]\n[[question r = ['(f + q)']]]\ntheme: Baby",
+      "statement": "In a rethink, the hospital realized that there were actually 55 babies born in March, not 48. With the 25 born in April, how many babies were born in total over the two months?",
+      "new symbolic struct": "[[var revised_march_babies = 55]]\n[[var april_babies = 25]]\n[[question total_babies = ['revised_march_babies + april_babies']]]",
+      "answer": "80",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-59-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var f = (52 + 1)]]\n[[var s = 46]]\n[[question r = ['(s + f)']]]\ntheme: Drum",
+      "statement": "At a drum store, there are 52 drum sets on display and 1 more drum set in the store room. In a different section of the same store, there are also 46 single drums. How many total drums and drum sets are in the store?",
+      "new symbolic struct": "[[var drum_sets_display = 52]]\n[[var drum_sets_store_room = 1]]\n[[var single_drums = 46]]\n[[var total_drums = drum_sets_display + drum_sets_store_room + single_drums]]\n[[question result = ['total_drums']]]",
+      "answer": "99",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-59-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var f = (52 + 1)]]\n[[var s = 46]]\n[[question r = ['(s + f)']]]\ntheme: Drum",
+      "statement": "Suppose in the store, instead of having 52 drum sets, there were only 52 single drums, in addition to the 1 drum set in the store room. Given that there are still 46 single drums in a different section, how many drums and drum sets are then in the store?",
+      "new symbolic struct": "[[var single_drums_display = 52]]\n[[var drum_sets_store_room = 1]]\n[[var single_drums_section = 46]]\n[[var total_drums_updated = single_drums_display + drum_sets_store_room + single_drums_section]]\n[[question result = ['total_drums_updated']]]",
+      "answer": "99",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-61-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 9]]\n[[var z = (v + 22)]]\n[[var k = (26 + z)]]\n[[question e = ['k']]]\ntheme: Orange",
+      "statement": "A store sells 9 boxes of oranges each day. The following day, the seller added 22 more boxes to the total from the previous day. The next day, he added another 26 boxes to that day's total. How many boxes of oranges does the store have on the last day?",
+      "new symbolic struct": "[[var previous_day = 9]]\n[[var following_day = previous_day + 22]]\n[[var next_day = following_day + 26]]\n[[question result = ['next_day']]]",
+      "answer": "57",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-61-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 9]]\n[[var z = (v + 22)]]\n[[var k = (26 + z)]]\n[[var l = (96 + k)]]\n[[question o = ['l']]]\ntheme: Orange",
+      "statement": "Following on from the problem with the orange seller: after the seller added 26 boxes to the previous day's total, he decided to get a major shipment of oranges. So, he added an impressive shipment of 96 more boxes to the pile. Now, how many boxes of oranges does the store have?",
+      "new symbolic struct": "[[var previous_day = 9]]\n[[var following_day = previous_day + 22]]\n[[var second_day = following_day + 26]]\n[[var large_shipment = 96]]\n[[var total_boxes = second_day + large_shipment]]\n[[question result = ['total_boxes']]]",
+      "answer": "153",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-61-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 9]]\n[[var z = (v + 22)]]\n[[var k = (66 + z)]]\n[[question e = ['k']]]\ntheme: Orange",
+      "statement": "Following on from the previous scenario with the orange seller: suppose that the seller initially had only 9 boxes of orange but on the subsequent day, he added 22 new boxes as before. However, instead of adding 26 boxes to total on the third day this time, he adds 66 boxes. How many boxes of oranges does the store have now?",
+      "new symbolic struct": "[[var initial_boxes = 9]]\n[[var additional_boxes_day_2 = 22]]\n[[var additional_boxes_day_3 = 66]]\n[[var total_boxes = (initial_boxes + additional_boxes_day_2) + additional_boxes_day_3]]\n[[question result = ['total_boxes']]]",
+      "answer": "97",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-62-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = 27]]\n[[var j = 19]]\n[[var h = (y + j)]]\n[[question a = ['h']]]\ntheme: Ball",
+      "statement": "Yvonne has 27 balls in her collection. She went to a fair and won 19 more. How many balls does Yvonne have in her collection now?",
+      "new symbolic struct": "[[var initial_balls = 27]]\n[[var won_balls = 19]]\n[[question result = ['initial_balls + won_balls']]]",
+      "answer": "46",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-62-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = 97]]\n[[var j = 19]]\n[[var h = (y + j)]]\n[[question a = ['h']]]\ntheme: Ball",
+      "statement": "After donating some of her balls, Yvonne now has 97 balls left in her collection. She goes to another fair and wins 19 more. How many balls does Yvonne have in her collection now?",
+      "new symbolic struct": "[[var collection_after_donation = 97]]\n[[var won_at_fair = 19]]\n[[question result = ['collection_after_donation + won_at_fair']]]",
+      "answer": "116",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-64-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var t = (8 + 13)]]\n[[var o = (t + t)]]\n[[question u = ['o']]]\ntheme: Cloud",
+      "statement": "In the sky, a cloud split into 8 small clouds and 13 larger ones. Another cloud split the same way. How many total clouds were formed?",
+      "new symbolic struct": "[[var small_clouds_split = 8]]\n[[var large_clouds_split = 13]]\n[[var total_clouds_per_split = small_clouds_split + large_clouds_split]]\n[[var total_clouds = 2*total_clouds_per_split]]\n[[question result = ['total_clouds']]]",
+      "answer": "42",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-64-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var t = (8 + 13)]]\n[[var o = (t + t)]]\n[[var h = (o + 91)]]\n[[question j = ['h']]]\ntheme: Cloud",
+      "statement": "After splitting, the original clouds came back together and formed 91 additional smaller clouds. How many total clouds are there now including the additional smaller clouds formed?",
+      "new symbolic struct": "[[var small_clouds_split = 8]]\n[[var large_clouds_split = 13]]\n[[var total_clouds_per_split = small_clouds_split + large_clouds_split]]\n[[var total_clouds = 2*total_clouds_per_split]]\n[[var additional_small_clouds = 91]]\n[[var total_clouds_now = total_clouds + additional_small_clouds]]\n[[question result = ['total_clouds_now']]]",
+      "answer": "133",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-64-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var t = (43 + 13)]]\n[[var o = (t + t)]]\n[[question u = ['o']]]\ntheme: Cloud",
+      "statement": "What if initially, instead of splitting into 8 small clouds, each of the two clouds split into 43 small clouds and kept the 13 larger ones the same? How many total clouds would have formed in that case?",
+      "new symbolic struct": "[[var new_small_clouds_split = 43]]\n[[var large_clouds_split = 13]]\n[[var total_clouds_per_new_split = new_small_clouds_split + large_clouds_split]]\n[[var total_new_clouds = 2*total_clouds_per_new_split]]\n[[question result = ['total_new_clouds']]]",
+      "answer": "112",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-65-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = 77]]\n[[var w = (o + o)]]\n[[question y = ['w']]]\ntheme: Skateboard",
+      "statement": "Oliver recently took up skateboard stunting. He can perform 77 stunts with his skateboard. Now, if he learns to perform each stunt in reverse as well, how many stunts will he be able to perform in total?",
+      "new symbolic struct": "[[var original_stunts = 77]]\n[[var reverse_stunts = original_stunts]]\n[[question result = ['original_stunts + reverse_stunts']]]",
+      "answer": "154",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-65-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = 77]]\n[[var w = (o + o)]]\n[[var v = (w + 27)]]\n[[question x = ['v']]]\ntheme: Skateboard",
+      "statement": "Following his initial success, Oliver spends a few more months and learns 27 additional new skateboard stunts. Now, including his ability to perform the original stunts in reverse, how many skateboard stunts can Oliver perform in total?",
+      "new symbolic struct": "[[var original_stunts = 77]]\n[[var reverse_stunts = original_stunts]]\n[[var new_stunts = 27]]\n[[question result = ['(original_stunts + reverse_stunts) + new_stunts']]]",
+      "answer": "181",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-65-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = 61]]\n[[var w = (o + o)]]\n[[question y = ['w']]]\ntheme: Skateboard",
+      "statement": "After learning from his experience, Oliver realizes that he initially only needed to learn 61 stunts, as he could perform each stunt in reverse to effectively create a new trick. If he is still able to perform each of these stunts in reverse, how many skateboard stunts can Oliver perform now?",
+      "new symbolic struct": "[[var new_stunts = 61]]\n[[var reverse_new_stunts = new_stunts]]\n[[question result = ['new_stunts + reverse_new_stunts']]]",
+      "answer": "122",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-66-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var r = 22]]\n[[var v = 26]]\n[[var y = (r + v)]]\n[[question j = ['y']]]\ntheme: Binoculars",
+      "statement": "A pair of binoculars increases visibility by 22 degrees in one direction and 26 degrees in another direction. What is the total increase in the angle of visibility when both directions are considered?",
+      "new symbolic struct": "[[var one_direction_increase = 22]]\n[[var another_direction_increase = 26]]\n[[question total_increase = ['one_direction_increase + another_direction_increase']]]",
+      "answer": "48",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-66-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var r = 22]]\n[[var v = 26]]\n[[var y = (r + v)]]\n[[var l = (y + 76)]]\n[[question e = ['l']]]\ntheme: Binoculars",
+      "statement": "Continuing from the previous problem, after the binoculars increase visibility by 22 degrees in one direction and 26 degrees in another direction, an additional lens is added that further increases the visibility by 76 degrees. What is the total increase in the angle of visibility considering all enhancements?",
+      "new symbolic struct": "[[var one_direction_increase = 22]]\n[[var another_direction_increase = 26]]\n[[var additional_increase = 76]]\n[[question total_increase = ['one_direction_increase + another_direction_increase + additional_increase']]]",
+      "answer": "124",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-66-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var r = 14]]\n[[var v = 26]]\n[[var y = (r + v)]]\n[[question j = ['y']]]\ntheme: Binoculars",
+      "statement": "Continuing from the previous problem, consider that the binoculars initially increased visibility by 14 degrees in one direction instead of 22 degrees, while the increase in the other direction remains 26 degrees. What is the total increase in the angle of visibility now when both directions are considered?",
+      "new symbolic struct": "[[var one_direction_increase = 14]]\n[[var another_direction_increase = 26]]\n[[question total_increase = ['one_direction_increase + another_direction_increase']]]",
+      "answer": "40",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-68-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 83]]\n[[var k = (z + 50)]]\n[[var j = 45]]\n[[question m = ['(k + j)']]]\ntheme: Star",
+      "statement": "In a galaxy, there are 83 stars in the Great Nebula. Fifty more are spotted in the South Nebula. In the Eastern Nebula, there are 45 stars. How many stars are there in total in the Great Nebula, South Nebula, and Eastern Nebula?",
+      "new symbolic struct": "[[var great_nebula_stars = 83]]\n[[var south_nebula_stars = 50]]\n[[var eastern_nebula_stars = 45]]\n[[question total_stars = ['great_nebula_stars + south_nebula_stars + eastern_nebula_stars']]]",
+      "answer": "178",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-68-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 32]]\n[[var k = (z + 50)]]\n[[var j = 45]]\n[[question m = ['(k + j)']]]\ntheme: Star",
+      "statement": "Following from the previous problem, a recalculation by astronomers reveals that there are actually 32 stars, not 83, in the Great Nebula. Considering this recalculation, with 50 stars still in the South Nebula, and 45 in the Eastern Nebula, how many stars are there now across these three nebulas?",
+      "new symbolic struct": "[[var corrected_great_nebula_stars = 32]]\n[[var south_nebula_stars = 50]]\n[[var eastern_nebula_stars = 45]]\n[[question total_stars = ['corrected_great_nebula_stars + south_nebula_stars + eastern_nebula_stars']]]",
+      "answer": "127",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-69-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var c = 15]]\n[[var w = (c + 22)]]\n[[question v = ['w']]]\ntheme: Ball",
+      "statement": "A boy has 15 balls. He goes to the store and buys another 22 balls. How many balls does he have now?",
+      "new symbolic struct": "[[var initial_balls = 15]]\n[[var bought_balls = 22]]\n[[question result = ['initial_balls + bought_balls']]]",
+      "answer": "37",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-69-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var c = 15]]\n[[var w = (c + 22)]]\n[[var m = (w + 64)]]\n[[question u = ['m']]]\ntheme: Ball",
+      "statement": "In addition to the balls he already has, his friends give him 64 more balls for his upcoming birthday. Now, how many balls does the boy have in total?",
+      "new symbolic struct": "[[var initial_balls = 15]]\n[[var bought_balls = 22]]\n[[var gift_balls = 64]]\n[[question result = ['(initial_balls + bought_balls) + gift_balls']]]",
+      "answer": "101",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-69-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var c = 48]]\n[[var w = (c + 22)]]\n[[question v = ['w']]]\ntheme: Ball",
+      "statement": "Consider instead that the boy originally had 48 balls instead of 15. After buying another 22 balls from the store, how many balls does he have now?",
+      "new symbolic struct": "[[var initial_balls = 48]]\n[[var bought_balls = 22]]\n[[question result = ['initial_balls + bought_balls']]]",
+      "answer": "70",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-71-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var m = 82]]\n[[var e = 12]]\n[[question b = ['(m + e)']]]\ntheme: Flower",
+      "statement": "Mira has 82 beautiful roses in her garden, and she decides to plant 12 additional daisies to add more variety. How many flowers does Mira have in her garden after planting the daisies?",
+      "new symbolic struct": "[[var initial_roses = 82]]\n[[var additional_daisies = 12]]\n[[question result = ['initial_roses + additional_daisies']]]",
+      "answer": "94",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-71-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var m = 88]]\n[[var e = 12]]\n[[question b = ['(m + e)']]]\ntheme: Flower",
+      "statement": "Suppose instead Mira originally had 88 roses in her garden before planting the 12 daisies. How many flowers would there be in Mira's garden then?",
+      "new symbolic struct": "[[var initial_roses = 88]]\n[[var additional_daisies = 12]]\n[[question result = ['initial_roses + additional_daisies']]]",
+      "answer": "100",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-72-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var s = 82]]\n[[var e = (s + 79)]]\n[[var q = (e + 58)]]\n[[question d = ['q']]]\ntheme: Bracelet",
+      "statement": "A jeweler strings together 82 gems to begin making a bracelet. He then adds 79 more gems to it. He finishes off the bracelet by adding 58 more gems. How many gems are there in total on the bracelet?",
+      "new symbolic struct": "[[var initial_gems = 82]]\n[[var added_gems = 79]]\n[[var final_added_gems = 58]]\n[[question result = ['(initial_gems + added_gems) + final_added_gems']]]",
+      "answer": "219",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-72-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var s = 82]]\n[[var e = (s + 79)]]\n[[var q = (e + 58)]]\n[[var v = (60 + q)]]\n[[question x = ['v']]]\ntheme: Bracelet",
+      "statement": "Following the previous problem: after the jeweler has strung together the number of gems on the bracelet, he decides to make a matching necklace. He adds another 60 gems to the total number of gems he has already used. How many gems in total did the jeweler use for both the bracelet and the necklace?",
+      "new symbolic struct": "[[var initial_gems = 82]]\n[[var added_gems = 79]]\n[[var final_added_gems = 58]]\n[[var total_gems_bracelet = (initial_gems + added_gems) + final_added_gems]]\n[[var necklace_gems = 60]]\n[[question result = ['total_gems_bracelet + necklace_gems']]]",
+      "answer": "279",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-72-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var s = 77]]\n[[var e = (s + 79)]]\n[[var q = (e + 58)]]\n[[question d = ['q']]]\ntheme: Bracelet",
+      "statement": "The jeweler has a change of mind and decides to start recreating the bracelet, but this time he starts with 77 gems instead of 82. He once again adds 79 more gems and completes it by adding 58 more gems. How many gems are now on this new bracelet in total?",
+      "new symbolic struct": "[[var initial_gems = 77]]\n[[var added_gems = 79]]\n[[var final_added_gems = 58]]\n[[question result = ['(initial_gems + added_gems) + final_added_gems']]]",
+      "answer": "214",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-73-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 65]]\n[[var b = (z + z)]]\n[[question h = ['b']]]\ntheme: Tomato",
+      "statement": "Dalia has a stock of 65 tomatoes. She decides to buy the same quantity again. How many tomatoes does she have now?",
+      "new symbolic struct": "[[var initial_tomatoes = 65]]\n[[var bought_tomatoes = initial_tomatoes]]\n[[question result = ['initial_tomatoes + bought_tomatoes']]]",
+      "answer": "130",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-73-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 65]]\n[[var b = (z + z)]]\n[[var u = (50 + b)]]\n[[question s = ['u']]]\ntheme: Tomato",
+      "statement": "After buying the same quantity of tomatoes again, Dalia decides to buy 50 more from her friend's farm. How many tomatoes does she have in total now?",
+      "new symbolic struct": "[[var initial_tomatoes = 65]]\n[[var bought_tomatoes = initial_tomatoes]]\n[[var friend_farm_tomatoes = 50]]\n[[question result = ['(initial_tomatoes + bought_tomatoes) + friend_farm_tomatoes']]]",
+      "answer": "180",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-73-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 89]]\n[[var b = (z + z)]]\n[[question h = ['b']]]\ntheme: Tomato",
+      "statement": "After seeing how her tomato stock fared last time, Dalia decides to start with 89 tomatoes this time. She decides again to buy the same quantity from her supplier. How many tomatoes does she have in stock now?",
+      "new symbolic struct": "[[var initial_tomatoes = 89]]\n[[var bought_tomatoes = initial_tomatoes]]\n[[question result = ['initial_tomatoes + bought_tomatoes']]]",
+      "answer": "178",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-74-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var d = 25]]\n[[var p = 34]]\n[[question k = ['(d + p)']]]\ntheme: Pen",
+      "statement": "David has 25 pens in his pencil case. His best friend Pam gives him 34 more pens as a gift. How many pens does David have now?",
+      "new symbolic struct": "[[var initial_pens = 25]]\n[[var gift_pens = 34]]\n[[question result = ['initial_pens + gift_pens']]]",
+      "answer": "59",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-74-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var d = 25]]\n[[var p = 34]]\n[[var c = (p + d)]]\n[[question q = ['c']]]\ntheme: Pen",
+      "statement": "David decided to count his pens to make sure he knows how many he has. When counting, he realizes he has as many pens as the total of the 25 pens in his pencil case and the 34 pens Pam gave him. How many pens does David count?",
+      "new symbolic struct": "[[var initial_pens = 25]]\n[[var gift_pens = 34]]\n[[question result = ['initial_pens + gift_pens']]]",
+      "answer": "59",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-74-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var d = 55]]\n[[var p = 34]]\n[[question k = ['(d + p)']]]\ntheme: Pen",
+      "statement": "David rechecks his pencil case and realizes he made a mistake. He actually had 55 pens in his pencil case, not 25. If Pam still gave him 34 pens, how many pens does David have now?",
+      "new symbolic struct": "[[var corrected_initial_pens = 55]]\n[[var gift_pens = 34]]\n[[question result = ['corrected_initial_pens + gift_pens']]]",
+      "answer": "89",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-75-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = 86]]\n[[var c = (11 + l)]]\n[[var w = (c + c)]]\n[[question a = ['w']]]\ntheme: Shirt",
+      "statement": "A clothing designer is creating a custom shirt. The length of the shirt is 86 cm. The chest measurement is the length added by 11 cm. The waist measurement is the same as the sum of the two chest measurements. What is the waist measurement of the shirt in cm?",
+      "new symbolic struct": "[[var length = 86]]\n[[var chest = length + 11]]\n[[var waist = chest * 2]]\n[[question result = ['waist']]]",
+      "answer": "194",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-75-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = 86]]\n[[var c = (11 + l)]]\n[[var w = (c + c)]]\n[[var p = (9 + w)]]\n[[question x = ['p']]]\ntheme: Shirt",
+      "statement": "The clothing designer decides to adjust the shirt after taking the initial measurements. To ensure a comfortable fit, the designer adds a further 9 cm to the final waist measurement, which was the same as the sum of the two chest measurements. What is the new adjusted waist measurement of the shirt in cm?",
+      "new symbolic struct": "[[var length = 86]]\n[[var chest = length + 11]]\n[[var waist = chest * 2]]\n[[var adjusted_waist = waist + 9]]\n[[question result = ['adjusted_waist']]]",
+      "answer": "203",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-75-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var l = 99]]\n[[var c = (11 + l)]]\n[[var w = (c + c)]]\n[[question a = ['w']]]\ntheme: Shirt",
+      "statement": "Recall the clothing designer from before. This time, the designer is creating a shirt with a different length of 99 cm. In this design, the chest measurement is defined as the length added by 11 cm. The waist measurement is set as the sum of the two chest measurements. What is the waist measurement of this new shirt design in cm?",
+      "new symbolic struct": "[[var length = 99]]\n[[var chest = length + 11]]\n[[var waist = chest * 2]]\n[[question result = ['waist']]]",
+      "answer": "220",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-76-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = 96]]\n[[var l = (84 + u)]]\n[[question j = ['l']]]\ntheme: Computer",
+      "statement": "The computer has an initial operating power of 96 Watts. Later, an update increases the operational power by an additional 84 Watts. What is the computer's operation power after the update?",
+      "new symbolic struct": "[[var initial_power = 96]]\n[[var power_increase = 84]]\n[[question result = ['initial_power + power_increase']]]",
+      "answer": "180",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-76-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = 36]]\n[[var l = (84 + u)]]\n[[question j = ['l']]]\ntheme: Computer",
+      "statement": "Suppose that the computer initially had an operating power of 36 Watts instead of 96 Watts. Then, the same update increases the operational power by an additional 84 Watts. How much operation power would the computer have after the update in this scenario?",
+      "new symbolic struct": "[[var initial_power_alternative = 36]]\n[[var power_increase = 84]]\n[[question result = ['initial_power_alternative + power_increase']]]",
+      "answer": "120",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-77-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var w = 62]]\n[[var f = (40 + w)]]\n[[question u = ['f']]]\ntheme: Toothpaste",
+      "statement": "A company produces 62 tubes of toothpaste every hour at their plant. Later, the company upgrades their production capacity and is now able to make 40 more tubes every hour. How many tubes of toothpaste can the company produce per hour after the upgrade?",
+      "new symbolic struct": "[[var initial_production = 62]]\n[[var upgrade_increase = 40]]\n[[question result = ['initial_production + upgrade_increase']]]",
+      "answer": "102",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-77-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var w = 75]]\n[[var f = (40 + w)]]\n[[question u = ['f']]]\ntheme: Toothpaste",
+      "statement": "Suppose the company initially started with a production capacity of 75 tubes of toothpaste every hour instead of 62. After the first upgrade, which still added an additional 40 tubes of toothpaste to their hour production, how many toothpaste tubes can the company produce per hour?",
+      "new symbolic struct": "[[var new_initial_production = 75]]\n[[var upgrade_increase = 40]]\n[[question result = ['new_initial_production + upgrade_increase']]]",
+      "answer": "115",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-78-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var d = 31]]\n[[var x = (31 + d)]]\n[[var a = (x + d)]]\n[[question w = ['a']]]\ntheme: Penguin",
+      "statement": "At the beginning of the month, a penguin had 31 fish. By the middle of the month, he had as many fish as the initial amount plus 31 more. At the end of the month, he had as many fish as the amount he had in the middle of the month and the initial 31 fish. How many fish did the penguin have at the end of the month?",
+      "new symbolic struct": "[[var initial_fish = 31]]\n[[var middle_month_fish = initial_fish + 31]]\n[[var end_month_fish = middle_month_fish + initial_fish]]\n[[question result = ['end_month_fish']]]",
+      "answer": "93",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-78-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var d = 31]]\n[[var x = (21 + d)]]\n[[var a = (x + d)]]\n[[question w = ['a']]]\ntheme: Penguin",
+      "statement": "Let's reconsider the original scenario with the penguin. Instead of getting the original 31 extra fish in the middle of the month, the penguin now only gets an additional 21 fish. Using the rest of the fish count as before, how many fish does the penguin have by the end of the month now?",
+      "new symbolic struct": "[[var initial_fish = 31]]\n[[var middle_month_fish = initial_fish + 21]]\n[[var end_month_fish = middle_month_fish + initial_fish]]\n[[question result = ['end_month_fish']]]",
+      "answer": "83",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-79-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 34]]\n[[var o = (k + k)]]\n[[question z = ['o']]]\ntheme: Cookie",
+      "statement": "Katie baked 34 cookies in the morning. She baked the same amount in the afternoon. How many cookies did Katie bake in total?",
+      "new symbolic struct": "[[var morning_cookies = 34]]\n[[var afternoon_cookies = morning_cookies]]\n[[question result = ['morning_cookies + afternoon_cookies']]]",
+      "answer": "68",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-79-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 23]]\n[[var o = (k + k)]]\n[[question z = ['o']]]\ntheme: Cookie",
+      "statement": "Continuing from the previous problem, what if instead of making 34 cookies in the morning and afternoon, Katie actually baked 23 cookies during each time period? How many cookies did she make in total in that case?\n",
+      "new symbolic struct": "[[var new_morning_cookies = 23]]\n[[var new_afternoon_cookies = new_morning_cookies]]\n[[question result = ['new_morning_cookies + new_afternoon_cookies']]]",
+      "answer": "46",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-82-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var f = 17]]\n[[var c = (71 + 38)]]\n[[var j = (f + c)]]\n[[question g = ['j']]]\ntheme: Toothbrush",
+      "statement": "Emma bought 17 toothbrushes for her family. Her friend Clarissa then gave her an additional sum of 71 and 38 toothbrushes from her dentist's office. How many toothbrushes does Emma have now?",
+      "new symbolic struct": "[[var initial_toothbrushes = 17]]\n[[var clarissa_toothbrushes_1 = 71]]\n[[var clarissa_toothbrushes_2 = 38]]\n[[var total_toothbrushes = initial_toothbrushes + clarissa_toothbrushes_1 + clarissa_toothbrushes_2]]\n[[question result = ['total_toothbrushes']]]",
+      "answer": "126",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-82-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var f = 17]]\n[[var c = (71 + 38)]]\n[[var j = (f + c)]]\n[[var s = 59]]\n[[question n = ['(j + s)']]]\ntheme: Toothbrush",
+      "statement": "Emma then visited a local health fair where she received an additional 59 toothbrushes to add to her collection. How many toothbrushes does Emma now have in total?",
+      "new symbolic struct": "[[var initial_toothbrushes = 17]]\n[[var clarissa_toothbrushes_1 = 71]]\n[[var clarissa_toothbrushes_2 = 38]]\n[[var health_fair_toothbrushes = 59]]\n[[var total_toothbrushes = initial_toothbrushes + clarissa_toothbrushes_1 + clarissa_toothbrushes_2 + health_fair_toothbrushes]]\n[[question result = ['total_toothbrushes']]]",
+      "answer": "185",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-82-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var f = 17]]\n[[var c = (80 + 38)]]\n[[var j = (f + c)]]\n[[question g = ['j']]]\ntheme: Toothbrush",
+      "statement": "In the previous problem, suppose Emma initially bought 17 toothbrushes. But this time, Clarissa gives her an additional sum of 80 and 38 toothbrushes instead of the previous amount she received. How many toothbrushes does Emma have now?",
+      "new symbolic struct": "[[var initial_toothbrushes = 17]]\n[[var clarissa_toothbrushes_1 = 80]]\n[[var clarissa_toothbrushes_2 = 38]]\n[[var total_toothbrushes = initial_toothbrushes + clarissa_toothbrushes_1 + clarissa_toothbrushes_2]]\n[[question result = ['total_toothbrushes']]]",
+      "answer": "135",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-84-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 31]]\n[[var s = (v + v)]]\n[[question x = ['s']]]\ntheme: Frog",
+      "statement": "A frog is sitting on a leaf. The leaf is 31 cm from the ground. The frog jumps and reaches an exact same spot on another leaf. How much distance in centimeters did the frog cover in total?",
+      "new symbolic struct": "[[var leaf_height = 31]]\n[[var total_distance = 2*leaf_height]]\n[[question result = ['total_distance']]]",
+      "answer": "62",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-84-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 31]]\n[[var s = (v + v)]]\n[[var t = 69]]\n[[question y = ['(t + s)']]]\ntheme: Frog",
+      "statement": "After jumping to another leaf, the frog decided to jump again to a flower that is 69 cm above from the ground. Considering the distance the frog covered in his previous jumps, how much distance in centimeters did the frog cover in total?",
+      "new symbolic struct": "[[var leaf_height = 31]]\n[[var initial_total_distance = 2*leaf_height]]\n[[var flower_height = 69]]\n[[var final_total_distance = (initial_total_distance + flower_height)]]\n[[question result = ['final_total_distance']]]",
+      "answer": "131",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-84-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 20]]\n[[var s = (v + v)]]\n[[question x = ['s']]]\ntheme: Frog",
+      "statement": "Suppose instead of the initial 31 cm, the leaves were only 20 cm above the ground when the frog first started jumping. Given the same jumps as before, how much distance in centimeters would the frog cover then?",
+      "new symbolic struct": "[[var leaf_height = 20]]\n[[var total_distance = 2*leaf_height]]\n[[question result = ['total_distance']]]",
+      "answer": "40",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-85-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = (70 + 23)]]\n[[var i = 17]]\n[[var d = (i + o)]]\n[[question s = ['d']]]\ntheme: Word",
+      "statement": "In a summer vacation assignment, Olivia wrote 70 words on her first day and 23 words on the second day. In addition to this, Isabella wrote 17 words in her assignment. Find the total number of words written by both Olivia and Isabella.",
+      "new symbolic struct": "[[var olivia_day1 = 70]]\n[[var olivia_day2 = 23]]\n[[var isabella_words = 17]]\n[[var total_words = olivia_day1 + olivia_day2 + isabella_words]]\n[[question result = ['total_words']]]",
+      "answer": "110",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-85-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = (70 + 23)]]\n[[var i = 17]]\n[[var d = (i + o)]]\n[[var e = (d + i)]]\n[[question h = ['e']]]\ntheme: Word",
+      "statement": "Now imagine that after Olivia and Isabella completed their assignments, Isabella decided to write an additional 17 words. With this additional contribution, what is the total number of words written by both Olivia and Isabella?",
+      "new symbolic struct": "[[var olivia_total_words = 70 + 23]]\n[[var isabella_initial_words = 17]]\n[[var isabella_additional_words = 17]]\n[[var total_words_new = olivia_total_words + isabella_initial_words + isabella_additional_words]]\n[[question result = ['total_words_new']]]",
+      "answer": "127",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-85-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var o = (4 + 23)]]\n[[var i = 17]]\n[[var d = (i + o)]]\n[[question s = ['d']]]\ntheme: Word",
+      "statement": "In the previous scenario, consider now that Olivia initially wrote only 4 words on the first day instead of 70, but still wrote 23 words on the second day. Isabella wrote 17 words as before. Given this, how many total words have Olivia and Isabella written now?",
+      "new symbolic struct": "[[var olivia_day1_new = 4]]\n[[var olivia_day2 = 23]]\n[[var isabella_words = 17]]\n[[var total_words_new = olivia_day1_new + olivia_day2 + isabella_words]]\n[[question result = ['total_words_new']]]",
+      "answer": "44",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-86-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var x = 48]]\n[[var c = (x + 18)]]\n[[question a = ['c']]]\ntheme: Bus",
+      "statement": "On a morning commute, a bus picks up 48 riders at one stop. At the next stop, it picks up another 18 riders. How many riders are there in all on the bus?",
+      "new symbolic struct": "[[var first_stop_riders = 48]]\n[[var second_stop_riders = 18]]\n[[question result = ['first_stop_riders + second_stop_riders']]]",
+      "answer": "66",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-86-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var x = 48]]\n[[var c = (x + 18)]]\n[[var l = (c + c)]]\n[[question j = ['l']]]\ntheme: Bus",
+      "statement": "After the morning commute, the same bus does an afternoon route. The number of riders it picks up is exactly the same as the morning route. How many riders does the bus pick up in total for both the morning and afternoon routes?",
+      "new symbolic struct": "[[var first_stop_riders = 48]]\n[[var second_stop_riders = 18]]\n[[var morning_route_riders = first_stop_riders + second_stop_riders]]\n[[var afternoon_route_riders = morning_route_riders]]\n[[question result = ['morning_route_riders + afternoon_route_riders']]]",
+      "answer": "132",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-86-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var x = 48]]\n[[var c = (x + 52)]]\n[[question a = ['c']]]\ntheme: Bus",
+      "statement": "In a new scenario, the bus picks up 48 riders on the morning commute, just like before. But this time at the next stop, it picks up 52 more riders. How many riders are there in all on the bus now?",
+      "new symbolic struct": "[[var first_stop_riders = 48]]\n[[var second_stop_riders = 52]]\n[[question result = ['first_stop_riders + second_stop_riders']]]",
+      "answer": "100",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-87-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = (24 + 35)]]\n[[var g = (v + 22)]]\n[[question s = ['g']]]\ntheme: Card",
+      "statement": "Sophia found a box of old trading cards in the attic. She counted 24 of them as baseball cards and 35 as basketball cards. Later on, she discovered 22 more cards from various sports. How many trading cards has Sophia found in total?",
+      "new symbolic struct": "[[var baseball_cards = 24]]\n[[var basketball_cards = 35]]\n[[var various_cards = 22]]\n[[question result = ['(baseball_cards + basketball_cards) + various_cards']]]",
+      "answer": "81",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-87-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = (24 + 35)]]\n[[var g = (v + 22)]]\n[[var e = (g + 45)]]\n[[question n = ['e']]]\ntheme: Card",
+      "statement": "After Sophia counted 24 baseball cards, 35 basketball cards, and another 22 cards from various sports that she had found in the attic, she remembered her old shoebox full of trading cards under her bed. In the shoebox, she found 45 more cards. How many total trading cards does Sophia have now?",
+      "new symbolic struct": "[[var baseball_cards = 24]]\n[[var basketball_cards = 35]]\n[[var various_cards = 22]]\n[[var shoebox_cards = 45]]\n[[question result = ['(baseball_cards + basketball_cards) + various_cards + shoebox_cards']]]",
+      "answer": "126",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-87-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = (24 + 35)]]\n[[var g = (v + 92)]]\n[[question s = ['g']]]\ntheme: Card",
+      "statement": "Sophia initially found 24 baseball cards and 35 basketball cards in the attic. Later, she discovered 92 more cards, making it a wide variety of sports cards. How many trading cards has Sophia found in total now?",
+      "new symbolic struct": "[[var baseball_cards = 24]]\n[[var basketball_cards = 35]]\n[[var more_sport_cards = 92]]\n[[question result = ['(baseball_cards + basketball_cards) + more_sport_cards']]]",
+      "answer": "151",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-88-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 16]]\n[[var p = (z + 8)]]\n[[var k = 23]]\n[[question o = ['(k + p)']]]\ntheme: Gift",
+      "statement": "For his birthday, Jenny's father receives 16 gifts. Eight more gifts arrive in the mail the next day. In addition, Jenny's dad gets 23 gifts at his office. How many gifts did Jenny's dad receive in total?",
+      "new symbolic struct": "[[var birthday_gifts = 16]]\n[[var mail_gifts = 8]]\n[[var office_gifts = 23]]\n[[var total_gifts = birthday_gifts + mail_gifts + office_gifts]]\n[[question result = ['total_gifts']]]",
+      "answer": "47",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-88-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 38]]\n[[var p = (z + 8)]]\n[[var k = 23]]\n[[question o = ['(k + p)']]]\ntheme: Gift",
+      "statement": "What if Jenny had made a mistake in her original count and her dad actually received 38 gifts initially, not 16? Eight more gifts still arrive in the mail the next day and he still gets the 23 gifts at his office. With these changes, how many gifts did Jenny's dad receive in total now?",
+      "new symbolic struct": "[[var birthday_gifts_corrected = 38]]\n[[var mail_gifts = 8]]\n[[var office_gifts = 23]]\n[[var total_gifts_corrected = birthday_gifts_corrected + mail_gifts + office_gifts]]\n[[question result = ['total_gifts_corrected']]]",
+      "answer": "69",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-89-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = 30]]\n[[var g = (y + y)]]\n[[question e = ['g']]]\ntheme: Number",
+      "statement": "Let's say you have 30 pencils. You bought an exact same amount more. How many pencils do you have now?",
+      "new symbolic struct": "[[var initial_pencils = 30]]\n[[var bought_pencils = initial_pencils]]\n[[question result = ['initial_pencils + bought_pencils']]]",
+      "answer": "60",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-89-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = 30]]\n[[var g = (y + y)]]\n[[var a = (g + 15)]]\n[[question z = ['a']]]\ntheme: Number",
+      "statement": "After buying the same amount of additional pencils, you find that your friend has gifted you 15 more pencils. How many pencils do you have in total now?",
+      "new symbolic struct": "[[var initial_pencils = 30]]\n[[var bought_pencils = initial_pencils]]\n[[var gifted_pencils = 15]]\n[[question result = ['(initial_pencils + bought_pencils) + gifted_pencils']]]",
+      "answer": "75",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-89-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = 80]]\n[[var g = (y + y)]]\n[[question e = ['g']]]\ntheme: Number",
+      "statement": "Let's consider the previous scenario but this time, you initially have 80 pencils instead of 30. If you again bought an exact same amount more, how many pencils would you have now?",
+      "new symbolic struct": "[[var initial_pencils = 80]]\n[[var bought_pencils = initial_pencils]]\n[[question result = ['initial_pencils + bought_pencils']]]",
+      "answer": "160",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-91-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var p = 93]]\n[[var y = 84]]\n[[var a = (p + y)]]\n[[question k = ['a']]]\ntheme: TV",
+      "statement": "Peter watched 93 minutes of TV in the morning. Later in the evening, he watched another 84 minutes. How many total minutes of TV did Peter watch in a day?",
+      "new symbolic struct": "[[var morning_TV_time = 93]]\n[[var evening_TV_time = 84]]\n[[var total_TV_time = morning_TV_time + evening_TV_time]]\n[[question result = ['total_TV_time']]]",
+      "answer": "177",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-91-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var p = 93]]\n[[var y = 84]]\n[[var a = (p + y)]]\n[[var r = (a + 92)]]\n[[question d = ['r']]]\ntheme: TV",
+      "statement": "Continuing from the last time, after Peter had watched a total of minutes from morning and the evening, he again watched an additional 92 minutes of TV before his bedtime. How many total minutes of TV did Peter watch now in the whole day?",
+      "new symbolic struct": "[[var morning_TV_time = 93]]\n[[var evening_TV_time = 84]]\n[[var before_bed_TV_time = 92]]\n[[var total_TV_time = morning_TV_time + evening_TV_time + before_bed_TV_time]]\n[[question result = ['total_TV_time']]]",
+      "answer": "269",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-91-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var p = 83]]\n[[var y = 84]]\n[[var a = (p + y)]]\n[[question k = ['a']]]\ntheme: TV",
+      "statement": "Suppose instead of 93 minutes in the morning, Peter initially watched 83 minutes of TV. He still watched 84 minutes later in the evening. Now, how many total minutes of TV did Peter watch in a day?",
+      "new symbolic struct": "[[var morning_TV_time = 83]]\n[[var evening_TV_time = 84]]\n[[var total_TV_time = morning_TV_time + evening_TV_time]]\n[[question result = ['total_TV_time']]]",
+      "answer": "167",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-92-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 69]]\n[[var t = (k + k)]]\n[[question x = ['t']]]\ntheme: Ball",
+      "statement": "Jake has 69 balls. He goes to a store and buys the same amount of balls. How many balls does Jake have now?",
+      "new symbolic struct": "[[var initial_balls = 69]]\n[[var bought_balls = initial_balls]]\n[[question result = ['initial_balls + bought_balls']]]",
+      "answer": "138",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-92-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 69]]\n[[var t = (k + k)]]\n[[var h = (t + 12)]]\n[[question c = ['h']]]\ntheme: Ball",
+      "statement": "Following up on the previous problem, after Jake buys the same amount of balls from the store, his friend decides to give him an additional 12 balls as a gift. How many balls does Jake have now?",
+      "new symbolic struct": "[[var initial_balls = 69]]\n[[var bought_balls = initial_balls]]\n[[var gift_balls = 12]]\n[[question result = ['(initial_balls + bought_balls) + gift_balls']]]",
+      "answer": "150",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-92-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 54]]\n[[var t = (k + k)]]\n[[question x = ['t']]]\ntheme: Ball",
+      "statement": "Continuing from the previous problem, let's say Jake initially bought only 54 balls instead of 69. He still doubles that amount by buying the same number of balls from the store. How many balls would Jake have then?",
+      "new symbolic struct": "[[var initial_balls = 54]]\n[[var bought_balls = initial_balls]]\n[[question result = ['initial_balls + bought_balls']]]",
+      "answer": "108",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-93-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = (53 + 71)]]\n[[var f = (72 + u)]]\n[[question j = ['f']]]\ntheme: Elephant",
+      "statement": "A zookeeper takes count of the elephants in the zoo. In the first section, he finds 53 elephants. In the next section, he finds 71 more. On his way out, he realizes that he needs to revisit a previously counted section of 72 elephants. How many elephants did he count altogether?",
+      "new symbolic struct": "[[var first_section = 53]]\n[[var second_section = 71]]\n[[var recount_section = 72]]\n[[question result = ['(first_section + second_section) + recount_section']]]",
+      "answer": "196",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-93-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var u = (53 + 71)]]\n[[var f = (72 + u)]]\n[[var x = (f + u)]]\n[[question v = ['x']]]\ntheme: Elephant",
+      "statement": "After the zookeeper's day shift, he decides to check the recorded count of the elephants during his night shift. He revisits the first two sections counting 53 and 71 elephants and recounts the same number. He then adds this to his previous total count including the section with the 72 elephants. What is his total count of the elephants now after his night shift?",
+      "new symbolic struct": "[[var first_section_day = 53]]\n[[var second_section_day = 71]]\n[[var recount_section_day = 72]]\n[[var day_total = (first_section_day + second_section_day) + recount_section_day]]\n[[var first_section_night = 53]]\n[[var second_section_night = 71]]\n[[var night_total = first_section_night + second_section_night]]\n[[question result = ['day_total + night_total']]]",
+      "answer": "320",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-94-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var a = (7 + 96)]]\n[[var k = 26]]\n[[question f = ['(k + a)']]]\ntheme: Dress",
+      "statement": "Sally is organizing her wardrobe and she notices she has a total of 7 dresses and 96 skirts. Later, she also finds another 26 shirts. How many total items of clothing does Sally have in her wardrobe?",
+      "new symbolic struct": "[[var dresses = 7]]\n[[var skirts = 96]]\n[[var shirts = 26]]\n[[question result = ['dresses + skirts + shirts']]]",
+      "answer": "129",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-94-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var a = (7 + 99)]]\n[[var k = 26]]\n[[question f = ['(k + a)']]]\ntheme: Dress",
+      "statement": "After going through her wardrobe again, Sally realizes she actually has 99 skirts instead of 96. Keeping the count of 7 dresses and 26 shirts the same, how many total items of clothing does Sally have in her wardrobe now?",
+      "new symbolic struct": "[[var dresses = 7]]\n[[var skirts = 99]]\n[[var shirts = 26]]\n[[question result = ['dresses + skirts + shirts']]]",
+      "answer": "132",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-95-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var s = 80]]\n[[var k = (33 + s)]]\n[[question z = ['k']]]\ntheme: Sandwich",
+      "statement": "Sarah has managed to bake 80 sandwiches for the local fundraiser. Later in the day, Kevin, her friend, comes over and makes an additional quantity of sandwiches such that in total, the sandwiches he makes added to Sarah's make up 33 more than the number of sandwiches made by Sarah. How many sandwiches did Kevin make?",
+      "new symbolic struct": "[[var sarah_sandwiches = 80]]\n[[var kevin_sandwiches = 33 + sarah_sandwiches]]\n[[question result = ['kevin_sandwiches']]]",
+      "answer": "113",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-95-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var s = 95]]\n[[var k = (33 + s)]]\n[[question z = ['k']]]\ntheme: Sandwich",
+      "statement": "Earlier, we mentioned that Kevin had made 33 sandwiches more than what Sarah initially did. However, let's consider a situation where Sarah actually started by baking 95 sandwiches for the local fundraiser instead. In this new scenario, how many sandwiches would Kevin have made so that the total sandwiches he makes and those made by Sarah still yield the same differential of 33?",
+      "new symbolic struct": "[[var sarah_sandwiches_new = 95]]\n[[var kevin_sandwiches_new = 33 + sarah_sandwiches_new]]\n[[question result = ['kevin_sandwiches_new']]]",
+      "answer": "128",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-97-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var g = (31 + 75)]]\n[[var j = (64 + g)]]\n[[question b = ['j']]]\ntheme: Grapes",
+      "statement": "Gabriella has 31 grapes. She buys 75 more. John has 64 grapes and decides to add to his pile all the grapes that Gabriella has. How many grapes does John have now?",
+      "new symbolic struct": "[[var initial_grapes_gabriella = 31]]\n[[var bought_grapes_gabriella = 75]]\n[[var total_grapes_gabriella = initial_grapes_gabriella + bought_grapes_gabriella]]\n[[var initial_grapes_john = 64]]\n[[var total_grapes_john = initial_grapes_john + total_grapes_gabriella]]\n[[question result = ['total_grapes_john']]]",
+      "answer": "170",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-97-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var g = (31 + 45)]]\n[[var j = (64 + g)]]\n[[question b = ['j']]]\ntheme: Grapes",
+      "statement": "Instead of buying 75 grapes, what if Gabriella had bought 45 grapes initially. In this scenario, she would start with 31 grapes, then buy an additional 45 grapes, and then John would take his 64 grapes and add all the grapes Gabriella has. How many grapes would John have then?",
+      "new symbolic struct": "[[var initial_grapes_gabriella = 31]]\n[[var bought_grapes_gabriella = 45]]\n[[var total_grapes_gabriella = initial_grapes_gabriella + bought_grapes_gabriella]]\n[[var initial_grapes_john = 64]]\n[[var total_grapes_john = initial_grapes_john + total_grapes_gabriella]]\n[[question result = ['total_grapes_john']]]",
+      "answer": "140",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-99-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var x = (51 + 64)]]\n[[var c = (x + 53)]]\n[[var u = (c + 79)]]\n[[question f = ['u']]]\ntheme: Bee",
+      "statement": "A queen bee lays 51 eggs and then lays an additional 64 eggs. The worker bees find 53 more eggs in the hive, and then they discover another cache of 79 eggs. How many eggs are in the hive in total?",
+      "new symbolic struct": "[[var queen_first_lay = 51]]\n[[var queen_second_lay = 64]]\n[[var worker_found_eggs = 53]]\n[[var worker_found_more_eggs = 79]]\n[[question result = ['(queen_first_lay + queen_second_lay) + (worker_found_eggs + worker_found_more_eggs)']]]",
+      "answer": "247",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-99-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var x = (51 + 64)]]\n[[var c = (x + 53)]]\n[[var u = (c + 79)]]\n[[var m = (u + 5)]]\n[[question s = ['m']]]\ntheme: Bee",
+      "statement": "Following the discovery of the cache of 79 eggs in the hive, an experienced beekeeper gives the worker bees a batch of 5 eggs from another hive. How many eggs are in the hive now?",
+      "new symbolic struct": "[[var queen_first_lay = 51]]\n[[var queen_second_lay = 64]]\n[[var worker_found_eggs = 53]]\n[[var worker_found_more_eggs = 79]]\n[[var beekeeper_adds = 5]]\n[[question result = ['(queen_first_lay + queen_second_lay + worker_found_eggs + worker_found_more_eggs) + beekeeper_adds']]]",
+      "answer": "252",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-101-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 68]]\n[[var p = 35]]\n[[question b = ['(p + v)']]]\ntheme: Banana",
+      "statement": "A fruit vendor sells 68 bananas in a day. Meanwhile, a small market nearby sells 35 bananas during the same day. How many bananas were sold in total that day?",
+      "new symbolic struct": "[[var vendor_bananas = 68]]\n[[var market_bananas = 35]]\n[[question result = ['vendor_bananas + market_bananas']]]",
+      "answer": "103",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-101-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 68]]\n[[var p = 35]]\n[[var z = (v + p)]]\n[[question u = ['z']]]\ntheme: Banana",
+      "statement": "From the bananas sold in a day, a fruit vendor picks up the total number of bananas he and the nearby small market have sold. This number is noted down for record keeping. What is the recorded total number of bananas sold in a day?",
+      "new symbolic struct": "[[var vendor_bananas = 68]]\n[[var market_bananas = 35]]\n[[var total_bananas = vendor_bananas + market_bananas]]\n[[question result = ['total_bananas']]]",
+      "answer": "103",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-101-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 49]]\n[[var p = 35]]\n[[question b = ['(p + v)']]]\ntheme: Banana",
+      "statement": "Earlier, the fruit vendor sold 68 bananas in a day, but the following day he sells only 49 bananas. The same small market nearby keeps its sales consistent and sells 35 bananas again. How many bananas were sold in total on this new day?",
+      "new symbolic struct": "[[var new_vendor_bananas = 49]]\n[[var market_bananas = 35]]\n[[question result = ['new_vendor_bananas + market_bananas']]]",
+      "answer": "84",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-102-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = 23]]\n[[var l = 98]]\n[[var i = (l + y)]]\n[[question p = ['i']]]\ntheme: Computer",
+      "statement": "Sam's computer has 23GB of storage space left. After compressing some files, he is able to free up an additional 98GB. How much total storage space does Sam's computer have now?",
+      "new symbolic struct": "[[var initial_storage = 23]]\n[[var extra_storage = 98]]\n[[question result = ['initial_storage + extra_storage']]]",
+      "answer": "121",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-102-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var y = 96]]\n[[var l = 98]]\n[[var i = (l + y)]]\n[[question p = ['i']]]\ntheme: Computer",
+      "statement": "Now, suppose Sam had originally had a total of 96GB of storage space available on his computer instead of 23GB. After compressing the same files, he is still able to free up an additional 98GB. With this scenario, how much total storage space does Sam's computer have now?",
+      "new symbolic struct": "[[var initial_storage = 96]]\n[[var extra_storage = 98]]\n[[question result = ['initial_storage + extra_storage']]]",
+      "answer": "194",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-103-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 77]]\n[[var a = (i + 19)]]\n[[question o = ['a']]]\ntheme: Fish",
+      "statement": "Frank has a fish farm with 77 fish in one of the tanks. One day, he decides to add an additional 19 fish into the tank. How many fish are there in the tank in total?",
+      "new symbolic struct": "[[var initial_fish = 77]]\n[[var added_fish = 19]]\n[[question result = ['initial_fish + added_fish']]]",
+      "answer": "96",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-103-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 77]]\n[[var a = (i + 19)]]\n[[var l = (51 + a)]]\n[[question j = ['l']]]\ntheme: Fish",
+      "statement": "Frank continues to grow his fish farm and adds an additional 51 fish into the tank. Now, how many fish are there in the tank in total?",
+      "new symbolic struct": "[[var initial_fish = 77]]\n[[var added_fish1 = 19]]\n[[var total_fish_after_first_addition = initial_fish + added_fish1]]\n[[var added_fish2 = 51]]\n[[question result = ['total_fish_after_first_addition + added_fish2']]]",
+      "answer": "147",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-103-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 4]]\n[[var a = (i + 19)]]\n[[question o = ['a']]]\ntheme: Fish",
+      "statement": "Following up on the previous question, imagine Frank started with a smaller tank that only had 4 fish. He adds the same number of fish as before, an additional 19 into the tank. How many fish are now in that tank in total?",
+      "new symbolic struct": "[[var initial_fish_small_tank = 4]]\n[[var added_fish = 19]]\n[[question result = ['initial_fish_small_tank + added_fish']]]",
+      "answer": "23",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-104-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var d = (83 + 36)]]\n[[var s = (d + 99)]]\n[[var w = (7 + s)]]\n[[question b = ['w']]]\ntheme: Truck",
+      "statement": "A truck driver starts his journey with 83 gallons of gas in his tank. He stops at the first station and fills up an additional 36 gallons. Then he drives until he needs to refill and adds 99 more gallons. Finally, he stops near his destination and tops off his tank with 7 gallons. How many total gallons of gas did the truck driver use for his journey?",
+      "new symbolic struct": "[[var initial_gas = 83]]\n[[var first_station_gas = 36]]\n[[var second_station_gas = 99]]\n[[var final_station_gas = 7]]\n[[question result = ['(initial_gas + first_station_gas) + (second_station_gas + final_station_gas)']]]",
+      "answer": "225",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-104-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var d = (83 + 36)]]\n[[var s = (d + 99)]]\n[[var w = (39 + s)]]\n[[question b = ['w']]]\ntheme: Truck",
+      "statement": "Instead of topping off his tank with 7 gallons near his destination as in the initial journey, the truck driver decides to fill up 39 gallons this time. With this change, how many total gallons of gas did the truck driver use for his journey?",
+      "new symbolic struct": "[[var initial_gas = 83]]\n[[var first_station_gas = 36]]\n[[var second_station_gas = 99]]\n[[var final_station_gas = 39]]\n[[question result = ['(initial_gas + first_station_gas) +(second_station_gas + final_station_gas)']]]",
+      "answer": "257",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-105-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var f = (56 + 53)]]\n[[var o = (f + 5)]]\n[[var r = (o + 34)]]\n[[question e = ['r']]]\ntheme: Swing",
+      "statement": "Bobby goes to the local park and decides to test how high he can swing on three different swings. On the first swing, he goes 56 feet in the air, then comes back down and goes another 53 feet high. On the second swing, he goes as high as he did on the first one plus an additional 5 feet. On the third swing, he challenges himself and goes as high as he did on the second one plus an additional 34 feet. How high did Bobby swing on the third swing?",
+      "new symbolic struct": "[[var first_swing_initial = 56]]\n[[var first_swing_additional = 53]]\n[[var first_swing_height = first_swing_initial + first_swing_additional]]\n[[var second_swing_extra = 5]]\n[[var second_swing_height = first_swing_height + second_swing_extra]]\n[[var third_swing_extra = 34]]\n[[question result = ['second_swing_height + third_swing_extra']]]",
+      "answer": "148",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-105-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var f = (56 + 53)]]\n[[var o = (f + 5)]]\n[[var r = (o + 34)]]\n[[var s = (r + 69)]]\n[[question i = ['s']]]\ntheme: Swing",
+      "statement": "Thrilled with his success on the first three swings, Bobby decides to attempt a final swing. This time, he pushes himself to go as high as he did on the third swing plus an additional 69 feet. How high did Bobby swing on this final powerhouse swing?",
+      "new symbolic struct": "[[var first_swing_initial = 56]]\n[[var first_swing_additional = 53]]\n[[var first_swing_height = first_swing_initial + first_swing_additional]]\n[[var second_swing_extra = 5]]\n[[var second_swing_height = first_swing_height + second_swing_extra]]\n[[var third_swing_extra = 34]]\n[[var third_swing_height = second_swing_height + third_swing_extra]]\n[[var final_swing_extra = 69]]\n[[question result = ['third_swing_height + final_swing_extra']]]",
+      "answer": "217",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-107-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var b = (88 + 40)]]\n[[var m = (b + 56)]]\n[[question z = ['m']]]\ntheme: Wallet",
+      "statement": "Bob starts with a wallet containing $88. He finds $40 on the ground and adds it to his wallet. Later, his mom gives him an additional $56 for doing chores. How much money does Bob have in his wallet now?",
+      "new symbolic struct": "[[var start_money = 88]]\n[[var found_money = 40]]\n[[var chore_money = 56]]\n[[question result = ['(start_money + found_money) + chore_money']]]",
+      "answer": "184",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-107-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var b = (88 + 40)]]\n[[var m = (b + 56)]]\n[[var p = 13]]\n[[question g = ['(m + p)']]]\ntheme: Wallet",
+      "statement": "In addition to the money Bob has in his wallet, his sister Penny gives him $13 from her piggy bank to help him buy a new game. How much money does Bob have now?",
+      "new symbolic struct": "[[var start_money = 88]]\n[[var found_money = 40]]\n[[var chore_money = 56]]\n[[var sister_money = 13]]\n[[var total_money = start_money + found_money + chore_money]]\n[[question result = ['total_money + sister_money']]]",
+      "answer": "197",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-107-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var b = (88 + 53)]]\n[[var m = (b + 56)]]\n[[question z = ['m']]]\ntheme: Wallet",
+      "statement": "Instead of finding $40 on the ground, Bob initially finds $53. He adds this to his original $88 he had in the wallet, and his mom still gives him an additional $56 for doing chores. How much money does Bob have in his wallet now?",
+      "new symbolic struct": "[[var start_money = 88]]\n[[var found_money = 53]]\n[[var chore_money = 56]]\n[[question result = ['(start_money + found_money) + chore_money']]]",
+      "answer": "197",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-108-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var e = 98]]\n[[var m = (71 + e)]]\n[[var d = (m + 59)]]\n[[question w = ['d']]]\ntheme: Wizard",
+      "statement": "In a magical wizard world, Eugene the wizard has 98 magic orbs. Merlin, another wizard, has 71 more orbs than Eugene. Damien, a third wizard, has 59 orbs more than Merlin. How many orbs does Damien have?",
+      "new symbolic struct": "[[var eugene_orbs = 98]]\n[[var merlin_difference = 71]]\n[[var merlin_orbs = eugene_orbs + merlin_difference]]\n[[var damien_difference = 59]]\n[[var damien_orbs = merlin_orbs + damien_difference]]\n[[question result = ['damien_orbs']]]",
+      "answer": "228",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-108-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var e = 98]]\n[[var m = (71 + e)]]\n[[var d = (m + 59)]]\n[[var g = (d + 90)]]\n[[question x = ['g']]]\ntheme: Wizard",
+      "statement": "In the further adventures of our magical wizards, Gertrude, a wise wizard, acquires 90 orbs more than Damien. How many orbs does Gertrude have now?",
+      "new symbolic struct": "[[var eugene_orbs = 98]]\n[[var merlin_difference = 71]]\n[[var merlin_orbs = eugene_orbs + merlin_difference]]\n[[var damien_difference = 59]]\n[[var damien_orbs = merlin_orbs + damien_difference]]\n[[var gertrude_difference = 90]]\n[[var gertrude_orbs = damien_orbs + gertrude_difference]]\n[[question result = ['gertrude_orbs']]]",
+      "answer": "318",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-108-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var e = 85]]\n[[var m = (71 + e)]]\n[[var d = (m + 59)]]\n[[question w = ['d']]]\ntheme: Wizard",
+      "statement": "Let's revisit our magical wizards' adventure, but this time, envision Eugene starting off with a different amount of magic orbs. Suppose Eugene initially had only 85 magic orbs instead of 98. Following the same chain of orb-acquiring, with Merlin having 71 more orbs than Eugene and Damien having 59 more orbs than Merlin, how many orbs would Damien have now?",
+      "new symbolic struct": "[[var eugene_orbs = 85]]\n[[var merlin_difference = 71]]\n[[var merlin_orbs = eugene_orbs + merlin_difference]]\n[[var damien_difference = 59]]\n[[var damien_orbs = merlin_orbs + damien_difference]]\n[[question result = ['damien_orbs']]]",
+      "answer": "215",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-109-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 5]]\n[[var e = (v + v)]]\n[[question l = ['e']]]\ntheme: Doll",
+      "statement": "Emma has 5 dolls. Sophia gives her the same number of dolls as she already has. How many dolls does Emma have now?",
+      "new symbolic struct": "[[var initial_dolls = 5]]\n[[var given_dolls = initial_dolls]]\n[[question result = ['initial_dolls + given_dolls']]]",
+      "answer": "10",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-109-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var v = 12]]\n[[var e = (v + v)]]\n[[question l = ['e']]]\ntheme: Doll",
+      "statement": "Let's say that instead of starting with 5 dolls, Emma originally had 12 dolls. If Sophia gives her the same number of dolls as she originally had, how many dolls does Emma have now?",
+      "new symbolic struct": "[[var initial_dolls = 12]]\n[[var given_dolls = initial_dolls]]\n[[question result = ['initial_dolls + given_dolls']]]",
+      "answer": "24",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-110-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = (36 + 84)]]\n[[var n = (i + 34)]]\n[[question l = ['n']]]\ntheme: Hot chocolate",
+      "statement": "During a chilly winter, Sally makes a hot chocolate recipe that requires 36 spoons of chocolate and 84 spoons of milk. After she adds the chocolate and milk, she also adds 34 spoons of whipped cream. How many total spoons of ingredients does Sally use for her hot chocolate?",
+      "new symbolic struct": "[[var chocolate_spoons = 36]]\n[[var milk_spoons = 84]]\n[[var whipped_cream_spoons = 34]]\n[[var total_spoons = chocolate_spoons + milk_spoons + whipped_cream_spoons]]\n[[question result = ['total_spoons']]]",
+      "answer": "154",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-110-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = (64 + 84)]]\n[[var n = (i + 34)]]\n[[question l = ['n']]]\ntheme: Hot chocolate",
+      "statement": "Continuing from the previous problem, what if Sally decided to increase her hot chocolate formula by using 64 spoons of chocolate instead of 36, while keeping the amount of milk and whipped cream identical. How many total spoons of ingredients does Sally now use for her hot chocolate recipe?",
+      "new symbolic struct": "[[var new_chocolate_spoons = 64]]\n[[var milk_spoons = 84]]\n[[var whipped_cream_spoons = 34]]\n[[var total_spoons = new_chocolate_spoons + milk_spoons + whipped_cream_spoons]]\n[[question result = ['total_spoons']]]",
+      "answer": "182",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-112-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 3]]\n[[var u = (31 + z)]]\n[[question b = ['u']]]\ntheme: Word",
+      "statement": "In a word game, the letter Z is given a score of 3. The score of the letter U is the sum of 31 and the score of Z. What is the score of the letter U?",
+      "new symbolic struct": "[[var z_score = 3]]\n[[var u_score = 31 + z_score]]\n[[question result = ['u_score']]]",
+      "answer": "34",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-112-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 3]]\n[[var u = (31 + z)]]\n[[var c = (69 + u)]]\n[[question x = ['c']]]\ntheme: Word",
+      "statement": "In the same word game, the letter C is assigned a score which is the sum of 69 and the score of U. What is the score of the letter C?",
+      "new symbolic struct": "[[var z_score = 3]]\n[[var u_score = 31 + z_score]]\n[[var c_score = 69 + u_score]]\n[[question result = ['c_score']]]",
+      "answer": "103",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-112-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 90]]\n[[var u = (31 + z)]]\n[[question b = ['u']]]\ntheme: Word",
+      "statement": "Continuing with the same word game, let's change the rule a bit. Now, the letter Z is given a new score of 90. With the rule still in place that the score of the letter U is the sum of 31 and the score of Z, what is the new score of the letter U?",
+      "new symbolic struct": "[[var z_new_score = 90]]\n[[var u_new_score = 31 + z_new_score]]\n[[question result = ['u_new_score']]]",
+      "answer": "121",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-116-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 81]]\n[[var y = (99 + k)]]\n[[question w = ['y']]]\ntheme: Juice",
+      "statement": "Mathew has 81 ounces of apple juice. He wants to add some orange juice to it. So, he pours in another 99 ounces. After pouring the orange juice, how many ounces of juice does Mathew have overall?",
+      "new symbolic struct": "[[var apple_juice = 81]]\n[[var orange_juice = 99]]\n[[question result = ['apple_juice + orange_juice']]]",
+      "answer": "180",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-116-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var k = 17]]\n[[var y = (99 + k)]]\n[[question w = ['y']]]\ntheme: Juice",
+      "statement": "Continuing from the last problem - Suppose initially, Mathew only had 17 ounces of apple juice instead of 81 ounces. He still adds 99 ounces of orange juice. With this change, how many ounces of juice does Mathew have now?",
+      "new symbolic struct": "[[var initial_apple_juice = 17]]\n[[var orange_juice = 99]]\n[[question result = ['initial_apple_juice + orange_juice']]]",
+      "answer": "116",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-117-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 91]]\n[[var j = (i + 80)]]\n[[question k = ['j']]]\ntheme: Binoculars",
+      "statement": "Carla is testing a new feature on her binoculars that allows her to see objects from greater distances. Initially, she sets the view distance at 91 meters. Then, she increases the view distance by 80 more meters. What is the new adjusted viewing distance on her binoculars?",
+      "new symbolic struct": "[[var initial_distance = 91]]\n[[var increase_distance = 80]]\n[[question new_distance = ['initial_distance + increase_distance']]]",
+      "answer": "171",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-117-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 91]]\n[[var j = (i + 80)]]\n[[var n = (j + 92)]]\n[[question t = ['n']]]\ntheme: Binoculars",
+      "statement": "Carla is now even more interested and decides to push her new binoculars to their limits. She decides to add another 92 meters to the viewing distance on her binoculars. After making this additional adjustment, what is the total viewing distance on Carla's binoculars now?",
+      "new symbolic struct": "[[var initial_distance = 91]]\n[[var first_increase_distance = 80]]\n[[var second_increase_distance = 92]]\n[[var total_distance = initial_distance + first_increase_distance + second_increase_distance ]]\n[[question result = ['total_distance']]]",
+      "answer": "263",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-117-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var i = 91]]\n[[var j = (i + 85)]]\n[[question k = ['j']]]\ntheme: Binoculars",
+      "statement": "Carla is considering her initial experimental trial with the binoculars. She thinks back to the first time she adjusted the binoculars, but she remembers that she initially set the view distance to 91 meters, but then increased it by 85 meters, not 80. What was the adjusted viewing distance on her binoculars during her initial trial?",
+      "new symbolic struct": "[[var initial_distance = 91]]\n[[var increase_distance = 85]]\n[[question new_distance = ['initial_distance + increase_distance']]]",
+      "answer": "176",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-118-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 42]]\n[[var l = (z + 56)]]\n[[var m = (z + l)]]\n[[question u = ['m']]]\ntheme: Keys",
+      "statement": "Bobby has 42 keys. He gets another set of keys that has 56 more than the original set. Bobby also has a keychain that includes both the original set of keys and the new set of keys. How many keys does Bobby have in total?",
+      "new symbolic struct": "[[var original_keys = 42]]\n[[var new_keys = original_keys + 56]]\n[[var total_keys = original_keys + new_keys]]\n[[question result = ['total_keys']]]",
+      "answer": "140",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-118-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 42]]\n[[var l = (z + 23)]]\n[[var m = (z + l)]]\n[[question u = ['m']]]\ntheme: Keys",
+      "statement": "In the previous scenario, let's suppose Bobby originally had 42 keys, but he instead received an additional set of keys that only had 23 more than the original set. If Bobby's keychain still includes both the original set of keys and this new smaller set of keys, how many keys does Bobby now have in total?",
+      "new symbolic struct": "[[var original_keys = 42]]\n[[var new_keys = original_keys + 23]]\n[[var total_keys = original_keys + new_keys]]\n[[question result = ['total_keys']]]",
+      "answer": "107",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-119-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var j = 45]]\n[[var s = (j + j)]]\n[[question a = ['s']]]\ntheme: Carrot",
+      "statement": "Jordy has 45 carrots. She manages to gather the same amount again from her farm. How many carrots does Jordy have now?",
+      "new symbolic struct": "[[var initial_carrots = 45]]\n[[var farm_carrots = initial_carrots]]\n[[question result = ['initial_carrots + farm_carrots']]]",
+      "answer": "90",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-119-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var j = 45]]\n[[var s = (j + j)]]\n[[var z = (4 + s)]]\n[[question x = ['z']]]\ntheme: Carrot",
+      "statement": "After gathering the same amount of carrots from her farm, Jordy decides to go to the local market where she buys 4 more carrots. How many carrots does Jordy have now?",
+      "new symbolic struct": "[[var initial_carrots = 45]]\n[[var farm_carrots = initial_carrots]]\n[[var market_carrots = 4]]\n[[var total_carrots = initial_carrots + farm_carrots]]\n[[question result = ['total_carrots + market_carrots']]]",
+      "answer": "94",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-119-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var j = 14]]\n[[var s = (j + j)]]\n[[question a = ['s']]]\ntheme: Carrot",
+      "statement": "If originally Jordy had started with 14 carrots instead of 45 and she still managed to gather the same amount from her farm, how many carrots would she have then?",
+      "new symbolic struct": "[[var initial_carrots = 14]]\n[[var farm_carrots = initial_carrots]]\n[[question result = ['initial_carrots + farm_carrots']]]",
+      "answer": "28",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-123-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var q = (43 + 53)]]\n[[var y = (67 + q)]]\n[[var z = (y + y)]]\n[[question l = ['z']]]\ntheme: Color",
+      "statement": "In a painting competition, one artist uses 43 blue strokes and 53 red strokes to complete his painting. Another artist, inspired by the first one, decides to use 67 more strokes in addition to what the first artist used. A third artist doubles the total number of strokes used by the second artist for her painting. How many strokes did the third artist use in her painting?",
+      "new symbolic struct": "[[var first_artist_strokes = 43 + 53]]\n[[var second_artist_strokes = first_artist_strokes + 67]]\n[[var third_artist_strokes = 2 * second_artist_strokes]]\n[[question result = ['third_artist_strokes']]]",
+      "answer": "326",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-123-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var q = (43 + 81)]]\n[[var y = (67 + q)]]\n[[var z = (y + y)]]\n[[question l = ['z']]]\ntheme: Color",
+      "statement": "Looking at the painting in the gallery, the artist realizes that the painting is not quite balanced. She thinks back to the painting competition, and remembers that if she had originally used 81 blue strokes instead of 53, her painting might have been more harmonious. Keeping all other elements the same, and doubling the total number of strokes for her painting just like before, she wonders how many strokes would there have been in her painting if she had made this change. How many strokes would there have been?",
+      "new symbolic struct": "[[var modified_first_artist_strokes = 43 + 81]]\n[[var modified_second_artist_strokes = modified_first_artist_strokes + 67]]\n[[var modified_third_artist_strokes = 2 * modified_second_artist_strokes]]\n[[question result = ['modified_third_artist_strokes']]]",
+      "answer": "382",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-125-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 42]]\n[[var x = (z + z)]]\n[[question e = ['x']]]\ntheme: Ice cream",
+      "statement": "You buy 42 ice cream cones for your friends. You then decide to buy the same amount for another group of friends. How many ice cream cones did you buy in total?",
+      "new symbolic struct": "[[var initial_ice_cream_cones = 42]]\n[[var other_group_ice_cream_cones = initial_ice_cream_cones]]\n[[question result = ['(initial_ice_cream_cones + other_group_ice_cream_cones)']]]",
+      "answer": "84",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-125-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var z = 42]]\n[[var x = (z + z)]]\n[[var q = 59]]\n[[question b = ['(q + x)']]]\ntheme: Ice cream",
+      "statement": "After you've bought ice cream for both groups of friends, another group of 59 friends shows up! You decide you don't want them to feel left out, so you buy ice cream for them too. How many total ice cream cones have you bought?",
+      "new symbolic struct": "[[var initial_ice_cream_cones = 42]]\n[[var other_group_ice_cream_cones = initial_ice_cream_cones]]\n[[var last_group_ice_cream_cones = 59]]\n[[question result = ['(initial_ice_cream_cones + other_group_ice_cream_cones) + last_group_ice_cream_cones']]]",
+      "answer": "143",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-126-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var r = (30 + 56)]]\n[[var t = 67]]\n[[question a = ['(r + t)']]]\ntheme: Binoculars",
+      "statement": "Mike's left binocular lens can magnify objects from a distance of 30 miles away, and the right lens can magnify objects that are 56 miles away. He also has a telescope that can magnify objects from a distance of 67 miles away. What is the total distance from which both his binoculars and telescope can magnify objects?",
+      "new symbolic struct": "[[var left_binocular_lens = 30]]\n[[var right_binocular_lens = 56]]\n[[var telescope = 67]]\n[[var total_distance = left_binocular_lens + right_binocular_lens + telescope]]\n[[question result = ['total_distance']]]",
+      "answer": "153",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-126-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var r = (54 + 56)]]\n[[var t = 67]]\n[[question a = ['(r + t)']]]\ntheme: Binoculars",
+      "statement": "In the previous problem, we considered the distance that Mike's binocular's two lenses can magnify. Consider now that we made a mistake and that the left lens can actually magnify objects from a distance of 54 miles away instead of 30 miles. Keeping the right lense and the telescope the same at 56 and 67 miles respectively, what would be the new total distance from which both his binoculars and telescope can magnify objects?",
+      "new symbolic struct": "[[var corrected_left_binocular_lens = 54]]\n[[var right_binocular_lens = 56]]\n[[var telescope = 67]]\n[[var corrected_total_distance = corrected_left_binocular_lens + right_binocular_lens + telescope]]\n[[question result = ['corrected_total_distance']]]",
+      "answer": "177",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "2.NBT.B.6-127-0",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var q = 50]]\n[[var n = (q + 5)]]\n[[var p = (25 + n)]]\n[[question h = ['p']]]\ntheme: Wizard",
+      "statement": "In the land of the Wizarding World, one wand spells costs 50 magical crystals known as Quiblets. Quintus the wizard adds 5 Quiblets more to this to cast a slightly stronger spell. This amount is then topped up by 25 magical Quiblets to cast the most powerful spell. How many Quiblets does Quintus the wizard need to cast the most powerful spell?",
+      "new symbolic struct": "[[var wand_spell_cost = 50]]\n[[var quintus_addition = 5]]\n[[var powerful_spell_topup = 25]]\n[[question result = ['(wand_spell_cost + quintus_addition) + powerful_spell_topup']]]",
+      "answer": "80",
+      "tag": "original problem"
+    },
+    {
+      "id": "2.NBT.B.6-127-1",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var q = 50]]\n[[var n = (q + 5)]]\n[[var p = (25 + n)]]\n[[var c = (50 + p)]]\n[[question m = ['c']]]\ntheme: Wizard",
+      "statement": "As an extension to the previous problem, let's say Quintus the wizard then decides to cast an ancient and profound spell. To cast this spell, he needs to gather an additional number of Quiblets equivalent to his most powerful spell, plus 50 more. How many Quiblets does Quintus the wizard need in total to cast this ancient spell?",
+      "new symbolic struct": "[[var wand_spell_cost = 50]]\n[[var quintus_addition = 5]]\n[[var powerful_spell_topup = 25]]\n[[var most_powerful_spell = (wand_spell_cost + quintus_addition) + powerful_spell_topup]]\n[[var ancient_spell_extra = most_powerful_spell + 50]]\n[[question result = ['ancient_spell_extra']]]",
+      "answer": "130",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "2.NBT.B.6-127-2",
+      "standard": "2.NBT.B.6",
+      "symbolic-struct": "[[var q = 50]]\n[[var n = (q + 5)]]\n[[var p = (87 + n)]]\n[[question h = ['p']]]\ntheme: Wizard",
+      "statement": "As a variation to the previous problem, let's say the most powerful spell that Quintus the wizard wants to cast actually requires an additional 87 Quiblets on top of the slightly stronger spell, not just 25. How many Quiblets does he now need to cast this more demanding powerful spell?",
+      "new symbolic struct": "[[var wand_spell_cost = 50]]\n[[var quintus_addition = 5]]\n[[var more_demanding_powerful_spell_topup = 87]]\n[[question result = ['(wand_spell_cost + quintus_addition) + more_demanding_powerful_spell_topup']]]",
+      "answer": "142",
+      "tag": "modified information follow up"
+    }
+  ]
+]

@@ -1,0 +1,1876 @@
+[
+  [
+    {
+      "id": "4.MD.A.3-0-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 21) + (2 * 37))]]\n[[question n = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 21m and a width of 37m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2 * 21]]\n[[var b = 2 * 37]]\n[[question c = ['a + b']]]",
+      "answer": "116",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-0-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 4) + (2 * 37))]]\n[[question n = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now consider that the length of the rectangle has changed to 4m while the width remains at 37m. What is the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var d = 2 * 4]]\n[[var e = 2 * 37]]\n[[question f = ['d + e']]]",
+      "answer": "82",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-1-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var z = ((2 * 20) + (2 * 50))]]\n[[question e = ['z']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular garden has a length of 50 feet and a width of 20 feet. What is the perimeter of the garden?",
+      "new symbolic struct": "[[var a = 2*(50 + 20)]]\n[[question h = ['a']]]",
+      "answer": "140",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-1-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var z = ((2 * 20) + (2 * 15))]]\n[[question e = ['z']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A landscaper plans to reduce the length of the rectangular garden to 15 feet while keeping the width the same. What will the new perimeter of the garden be?",
+      "new symbolic struct": "[[var a = 50]]\n[[var b = 20]]\n[[var c = 2*(15 + b)]]\n[[question d = ['c']]]",
+      "answer": "70",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-4-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var j = (7 * 26)]]\n[[question n = ['j']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a width of 7m and a length of 26m. What is the area of this rectangle?",
+      "new symbolic struct": "[[var x = 7 * 26]]\n[[question y = ['x']]]",
+      "answer": "182",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-4-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var j = (7 * 35)]]\n[[question n = ['j']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The width of the rectangle stays the same at 7m, but the length extends by 9m to become 35m. What is the area of the rectangle now?",
+      "new symbolic struct": "[[var b = 7 * 35]]\n[[question c = ['b']]]",
+      "answer": "245",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-6-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var a = ((2 * 15) + (2 * 50))]]\n[[question o = ['a']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 50m and a width of 15m. What is its perimeter?",
+      "new symbolic struct": "[[var a = 2 * 50]]\n[[var b = 2 * 15]]\n[[question c = ['a + b']]]",
+      "answer": "130",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-6-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var a = ((2 * 9) + (2 * 50))]]\n[[question o = ['a']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The rectangle mentioned in the previous problem had its width reduced to 9m while the length remained the same. What is the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2*50]]\n[[var d = 2*9]]\n[[question e = ['a + d']]]",
+      "answer": "118",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-7-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var d = ((2 * 5) + (2 * 19))]]\n[[question l = ['d']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular fence has a side length of 5m and another side of 19m. What is the total distance, in meters, around the fence (perimeter)?",
+      "new symbolic struct": "[[var p = 2 * 5 + 2 * 19]]\n[[question q = ['p']]]",
+      "answer": "48",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-7-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var d = ((2 * 5) + (2 * 36))]]\n[[question l = ['d']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The owner of the fence decided to extend the side that originally measured 19m to a new length of 36m, while the other side remains the same. After the extension, what will be the new total distance, in meters, around the fence (perimeter)?",
+      "new symbolic struct": "[[var a = 2 * 5 + 2 * 36]]\n[[question b = ['a']]]",
+      "answer": "82",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-8-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var t = ((2 * 49) + (2 * 6))]]\n[[question e = ['t']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has sides of length 49m and 6m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = (2 * 49 + 2 * 6)]]\n[[question b = ['a']]]",
+      "answer": "110",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-8-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var t = ((2 * 17) + (2 * 6))]]\n[[question e = ['t']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose we were mistaken in the original measurement, and one side of the rectangle was actually 17m instead of 49m. What would the new perimeter of the rectangle be?",
+      "new symbolic struct": "[[var a = (2 * 17 + 2 * 6)]]\n[[question b = ['a']]]",
+      "answer": "46",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-9-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var f = ((2 * 7) + (2 * 26))]]\n[[question m = ['f']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Joshua plans to lay a wire around his rectangular garden. If the garden is 7m wide and 26m long, how much wire will Joshua need to enclose the garden completely?",
+      "new symbolic struct": "[[var a = 7]]\n[[var b = 26]]\n[[var p = 2 * a + 2 * b]]\n[[question q = ['p']]]",
+      "answer": "66",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-11-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var h = ((2 * 18) + (2 * 11))]]\n[[question x = ['h']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 18 meters and a width of 11 meters. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2 * 18]]\n[[var b = 2 * 11]]\n[[question c = ['a + b']]]",
+      "answer": "58",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-11-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var h = ((2 * 18) + (2 * 44))]]\n[[question x = ['h']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the width of the rectangle changed to 44 meters, while the length remained at 18 meters. What would be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2 * 18]]\n[[var b = 2 * 44]]\n[[question c = ['a + b']]]",
+      "answer": "124",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-14-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var u = ((2 * 22) + (2 * 39))]]\n[[question v = ['u']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The dimensions of a rectangle are 22 feet by 39 feet. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var p = 2 * 22 + 2 * 39]]\n[[question q = ['p']]]",
+      "answer": "122",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-14-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var u = ((2 * 22) + (2 * 26))]]\n[[question v = ['u']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "If the length of the rectangle is now 26 feet instead of 39 feet, while the width remains the same at 22 feet, what would then be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var p_new = 2 * 26 + 2 * 22]]\n[[question q = ['p_new']]]",
+      "answer": "96",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-15-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var q = ((2 * 45) + (2 * 25))]]\n[[question k = ['q']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has two sides measuring 45m and the other two sides measuring 25m each. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * 45 + 2 * 25]]\n[[question q = ['p']]]",
+      "answer": "140",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-15-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var q = ((2 * 42) + (2 * 25))]]\n[[question k = ['q']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous rectangle question, suppose one of the sides measuring 45m was incorrectly assessed. The actual measurement is found to be 42m. With this new information, what would be the adjusted perimeter of the rectangle?",
+      "new symbolic struct": "[[var p = 2 * 42 + 2 * 25]]\n[[question q = ['p']]]",
+      "answer": "134",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-17-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var j = ((2 * 5) + (2 * 8))]]\n[[question o = ['j']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular garden has a length of 8m and a width of 5m. What is the perimeter of this garden?",
+      "new symbolic struct": "[[var g = (2 * 8 + 2 * 5)]]\n[[question h = ['g']]]",
+      "answer": "26",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-17-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var j = ((2 * 5) + (2 * 46))]]\n[[question o = ['j']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The owner of the rectangular garden decided to extend its length to 46m while keeping the width the same, i.e., 5m. What is the new perimeter of the garden now?",
+      "new symbolic struct": "[[var g = (2 * 46 + 2 * 5)]]\n[[question h = ['g']]]",
+      "answer": "102",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-18-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var d = (19 * 17)]]\n[[question z = ['d']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In a rectangle, the length is 19 units and the width is 17 units. What is the area of this rectangle?",
+      "new symbolic struct": "[[var a = 19 * 17]]\n[[question h = ['a']]]",
+      "answer": "323",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-18-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var d = (22 * 17)]]\n[[question z = ['d']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous rectangle problem, what if the length was 22 units instead of 19 units while the width remained the same at 17 units? What would be the new area of the rectangle?",
+      "new symbolic struct": "[[var a_prime = 22 * 17]]\n[[question h_prime = ['a_prime']]]",
+      "answer": "374",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-21-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var y = ((2 * 42) + (2 * 8))]]\n[[question k = ['y']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 42 meters and a width of 8 meters. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2*(42 + 8)]]\n[[question b = ['a']]]",
+      "answer": "100",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-23-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var p = (16 * 38)]]\n[[question v = ['p']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a width of 16m and a length of 38m. What is the area of this rectangle?",
+      "new symbolic struct": "[[var a = 16 * 38]]\n[[question area = ['a']]]",
+      "answer": "608",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-23-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var p = (16 * 22)]]\n[[question v = ['p']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the rectangle from the previous problem, suppose we replace the length of 38m with a new length of 22m. What would the new area of the rectangle be?",
+      "new symbolic struct": "[[var w = 16]]\n[[var l_old = 38]]\n[[var l_new = 22]]\n[[var a_old = w * l_old]]\n[[var a_new = w * l_new]]\n[[question area = ['a_new']]]",
+      "answer": "352",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-24-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var l = (28 * 17)]]\n[[question z = ['l']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Consider a rectangular plot of land. The plot has a length of 28m and a width of 17m. What is the area of the plot?",
+      "new symbolic struct": "[[var a = 28 * 17]]\n[[question b = ['a']]]",
+      "answer": "476",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-24-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var l = (10 * 17)]]\n[[question z = ['l']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose instead of the original 28m, the length of the rectangular plot of land were only 10m while keeping the width the same at 17m. What would then be the area of the rectangular plot of land?",
+      "new symbolic struct": "[[var a = 10 * 17]]\n[[question b = ['a']]]",
+      "answer": "170",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-25-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var b = ((2 * 43) + (2 * 41))]]\n[[question f = ['b']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 43m and a width of 41m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2*43 + 2*41]]\n[[question q = ['p']]]",
+      "answer": "168",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-25-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var b = ((2 * 18) + (2 * 41))]]\n[[question f = ['b']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the rectangle from the previous problem had its length reduced to 18m while keeping the width the same. What would be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var w = 41]]\n[[var new_p = 2*18 + 2*w]]\n[[question q = ['new_p']]]",
+      "answer": "118",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-28-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var n = ((2 * 44) + (2 * 17))]]\n[[question h = ['n']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has one side that measures 44m, and the other side that measures 17m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var p = 2 * 44 + 2 * 17]]\n[[question q = ['p']]]",
+      "answer": "122",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-28-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var n = ((2 * 44) + (2 * 21))]]\n[[question h = ['n']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous problem, we considered a rectangle with one side that measures 44m, and the other side that measures 17m. What would be the perimeter of the rectangle if instead the length of the second side were 21m?",
+      "new symbolic struct": "[[var p1 = 2 * 44 + 2 * 17]]\n[[var p2 = 2 * 44 + 2 * 21]]\n[[question q = ['p2']]]",
+      "answer": "130",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-29-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var d = ((2 * 2) + (2 * 20))]]\n[[question p = ['d']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle's perimeter is twice the sum of its width and length. If the rectangle's width is 2m and its length is 20m, what is its perimeter?",
+      "new symbolic struct": "[[var a = 2]]\n[[var b = 20]]\n[[var c = 2 * (a + b)]]\n[[question d = ['c']]]",
+      "answer": "44",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-29-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var d = ((2 * 32) + (2 * 20))]]\n[[question p = ['d']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "If the width of the rectangle is increased from 2m to 32m, while keeping the length the same at 20m, what is the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var a_prime = 32]]\n[[var b = 20]]\n[[var c_prime = 2 * (a_prime + b)]]\n[[question d_prime = ['c_prime']]]",
+      "answer": "104",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-31-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var z = ((2 * 4) + (2 * 5))]]\n[[question m = ['z']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 4 meters and a width of 5 meters. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var p = 2 * 4 + 2 * 5]]\n[[question q = ['p']]]",
+      "answer": "18",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-31-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var z = ((2 * 42) + (2 * 5))]]\n[[question m = ['z']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Consider the same rectangle from before, but now suppose its length is extended to 42 meters while the width remains 5 meters. What would then be the perimeter of the rectangle?",
+      "new symbolic struct": "[[var n = 2 * 42 + 2 * 5]]\n[[question m = ['n']]]",
+      "answer": "94",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-32-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var m = ((2 * 45) + (2 * 37))]]\n[[question r = ['m']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 45m and a width of 37m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2*45 + 2*37]]\n[[question p = ['p']]]",
+      "answer": "164",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-32-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var m = ((2 * 45) + (2 * 47))]]\n[[question r = ['m']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "If the length of the rectangle remains the same at 45m, but the width is increased to 47m, what would be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var p1 = 2*45 + 2*37]]\n[[var p2 = 2*45 + 2*47]]\n[[question p2 = ['p2']]]",
+      "answer": "184",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-33-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var r = ((2 * 27) + (2 * 21))]]\n[[question e = ['r']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 27m and a width of 21m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * 27 + 2 * 21]]\n[[question p = ['p']]]",
+      "answer": "96",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-33-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var r = ((2 * 45) + (2 * 21))]]\n[[question e = ['r']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose we extended the length of the rectangle from the previous problem to 45m, while keeping the width at 21m. What would the new perimeter of this rectangle be?",
+      "new symbolic struct": "[[var p1 = 2 * 45 + 2 * 21]]\n[[question new_p = ['p1']]]",
+      "answer": "132",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-34-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var x = ((2 * 30) + (2 * 20))]]\n[[question g = ['x']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular garden has a length of 30m and a width of 20m. What is the perimeter of the garden?",
+      "new symbolic struct": "[[var a = 2 * (30 + 20)]]\n[[question a = ['a']]]",
+      "answer": "100",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-34-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var x = ((2 * 30) + (2 * 48))]]\n[[question g = ['x']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the width of the rectangular garden is increased to 48m, while the length remains the same at 30m. What would be the new perimeter of the garden?",
+      "new symbolic struct": "[[var b = 2 * (30 + 48)]]\n[[question b = ['b']]]",
+      "answer": "156",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-35-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var n = ((2 * 27) + (2 * 30))]]\n[[question g = ['n']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 30m and a width of 27m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * (30 + 27)]]\n[[question p = ['p']]]",
+      "answer": "114",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-36-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var m = (23 * 11)]]\n[[question f = ['m']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 23m and a width of 11m. What is the area of this rectangle?",
+      "new symbolic struct": "[[var a = 23 * 11]]\n[[question b = ['a']]]",
+      "answer": "253",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-37-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 3) + (2 * 9))]]\n[[question f = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 3m and a width of 9m. What would be the total perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * (3 + 9)]]\n[[question b = ['a']]]",
+      "answer": "24",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-37-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 3) + (2 * 13))]]\n[[question f = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Continuing from the previous problem, suppose the length of the rectangle is still 3m, but now the width has increased to 13m. What is the new total perimeter of the rectangle?",
+      "new symbolic struct": "[[var c = 2 * (3 + 13)]]\n[[question d = ['c']]]",
+      "answer": "32",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-40-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 31) + (2 * 6))]]\n[[question p = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 31m and a width of 6m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var f = 2 * (31 + 6)]]\n[[question g = ['f']]]",
+      "answer": "74",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-40-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 43) + (2 * 6))]]\n[[question p = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now consider, if instead of a length of 31m, the rectangle had a length of 43m but the width remained the same at 6m. What would be the new perimeter of this rectangle?",
+      "new symbolic struct": "[[var h = 2 * (43 + 6)]]\n[[question i = ['h']]]",
+      "answer": "98",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-42-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var q = (12 * 33)]]\n[[question g = ['q']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 12m and a width of 33m. What is the area of this rectangle?",
+      "new symbolic struct": "[[var a = 12]]\n[[var b = 33]]\n[[question c = ['a * b']]]",
+      "answer": "396",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-42-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var q = (18 * 33)]]\n[[question g = ['q']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now, consider that the length of the rectangle was initially 18m instead of 12m, while the width remains the same at 33m. What would be the area of the rectangle in this scenario?",
+      "new symbolic struct": "[[var a = 18]]\n[[var b = 33]]\n[[question c = ['a * b']]]",
+      "answer": "594",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-43-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var h = (4 * 20)]]\n[[question n = ['h']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 20m and all of its sides are of equal length. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var b = 20]]\n[[var c = 4 * b]]\n[[question d = ['c']]]",
+      "answer": "80",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-44-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var w = ((2 * 9) + (2 * 35))]]\n[[question a = ['w']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular playground has a length of 35m and a width of 9m. What is the perimeter of the playground?",
+      "new symbolic struct": "[[var a = 35]]\n[[var b = 9]]\n[[var c = 2 * (a + b)]]\n[[question d = ['c']]]",
+      "answer": "88",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-44-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var w = ((2 * 9) + (2 * 26))]]\n[[question a = ['w']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the length of the rectangular playground was initially stated incorrectly and it's actually 26m, while the width remains 9m. What would be the correct perimeter of the playground in this case?",
+      "new symbolic struct": "[[var a = 26]]\n[[var b = 9]]\n[[var c = 2 * (a + b)]]\n[[question d = ['c']]]",
+      "answer": "70",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-45-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var f = (9 * 25)]]\n[[question o = ['f']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 9m and a width of 25m. What is the area of the rectangle?",
+      "new symbolic struct": "[[var a = 9 * 25]]\n[[question b = ['a']]]",
+      "answer": "225",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-45-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var f = (9 * 16)]]\n[[question o = ['f']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the length of the rectangle was actually 16m and the width remained the same at 9m. What would be the new area of the rectangle in this case?",
+      "new symbolic struct": "[[var a = 16 * 9]]\n[[question b = ['a']]]",
+      "answer": "144",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-46-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var v = (13 * 43)]]\n[[question w = ['v']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 13m and a width of 43m. What is the area of the rectangle?",
+      "new symbolic struct": "[[var g = (13 * 43)]]\n[[question h = ['g']]]",
+      "answer": "559",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-46-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var v = (13 * 42)]]\n[[question w = ['v']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose we realized later that the width of the rectangle was actually 42m, not 43m. What would then be the area of the rectangle?",
+      "new symbolic struct": "[[var previous_width = 43]]\n[[var correct_width = 42]]\n[[var length = 13]]\n[[var wrong_area = length * previous_width]]\n[[var correct_area = length * correct_width]]\n[[question h = ['correct_area']]]",
+      "answer": "546",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-48-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var d = ((2 * 27) + (2 * 47))]]\n[[question q = ['d']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a width of 27m and a length of 47m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var w = 27]]\n[[var l = 47]]\n[[var p = 2*(w + l)]]\n[[question q = ['p']]]",
+      "answer": "148",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-48-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var d = ((2 * 9) + (2 * 47))]]\n[[question q = ['d']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the width of the rectangle is actually 9m instead of 27m. What would be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var w_old = 27]]\n[[var w_new = 9]]\n[[var l = 47]]\n[[var p_old = 2*(w_old + l)]]\n[[var p_new = 2*(w_new + l)]]\n[[question q = ['p_new']]]",
+      "answer": "112",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-49-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var m = (21 * 42)]]\n[[question j = ['m']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular football field has an area of 21m * 42m, calculate the area of the football field.",
+      "new symbolic struct": "[[var f = 21 * 42]]\n[[question area = ['f']]]",
+      "answer": "882",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-50-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var m = (27 * 25)]]\n[[question f = ['m']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle's area is found by multiplying its length by its width. If the width of a certain rectangle is 27m and the length is 25m, what is the area of the rectangle?\n",
+      "new symbolic struct": "[[var a = 27 * 25]]\n[[question b = ['a']]]",
+      "answer": "675",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-50-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var m = (11 * 25)]]\n[[question f = ['m']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the width of the rectangle in the previous problem was not 27m, but was instead 11m, with the length remaining at 25m. What would then be the new area of the rectangle?",
+      "new symbolic struct": "[[var c = 11 * 25]]\n[[question d = ['c']]]",
+      "answer": "275",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-51-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var f = ((2 * 45) + (2 * 48))]]\n[[question y = ['f']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 45m and a width of 48m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2 * 45]]\n[[var b = 2 * 48]]\n[[question c = ['a + b']]]",
+      "answer": "186",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-51-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var f = ((2 * 45) + (2 * 34))]]\n[[question y = ['f']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous example, consider if the width of the rectangle was actually 34m instead of 48m. Now, what would be the perimeter of that rectangle?",
+      "new symbolic struct": "[[var a = 2 * 45]]\n[[var d = 2 * 34]]\n[[question e = ['a + d']]]",
+      "answer": "158",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-52-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var l = ((2 * 11) + (2 * 7))]]\n[[question w = ['l']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 11 meters and a width of 7 meters. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2*11]]\n[[var b = 2*7]]\n[[question c = ['a + b']]]",
+      "answer": "36",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-52-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var l = ((2 * 10) + (2 * 7))]]\n[[question w = ['l']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the length of the rectangle was instead 10 meters while the width remained 7 meters. What would be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var d = 2*10]]\n[[var e = 2*7]]\n[[question f = ['d + e']]]",
+      "answer": "34",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-53-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var j = ((2 * 30) + (2 * 2))]]\n[[question d = ['j']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular field has a length of 30m and a width of 2m. Can you calculate the perimeter of the field?",
+      "new symbolic struct": "[[var p = 2*(30 + 2)]]\n[[question p = ['p']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-53-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var j = ((2 * 20) + (2 * 2))]]\n[[question d = ['j']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "As a follow-up to the previous problem, let's say that the length of the rectangular field is reduced to 20m instead of 30m, while the width remains the same. What would the new perimeter of the field be?",
+      "new symbolic struct": "[[var w = 2]]\n[[var l1 = 30]]\n[[var p1 = 2*(l1 + w)]]\n[[var l2 = 20]]\n[[var p2 = 2*(l2 + w)]]\n[[question p2 = ['p2']]]",
+      "answer": "44",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-54-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var y = ((2 * 7) + (2 * 8))]]\n[[question v = ['y']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has one side that is 7m long and another side that is 8m long. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var p = 2*(7) + 2*(8)]]\n[[question a = ['p']]]",
+      "answer": "30",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-54-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var y = ((2 * 19) + (2 * 8))]]\n[[question v = ['y']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Consider that the length of the rectangle was originally 19m instead of 7m. How would the new perimeter be calculated then?",
+      "new symbolic struct": "[[var p_new = 2*(19) + 2*(8)]]\n[[question a_new = ['p_new']]]",
+      "answer": "54",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-55-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var w = ((2 * 14) + (2 * 18))]]\n[[question y = ['w']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 14m and a width of 18m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * 14]]\n[[var b = 2 * 18]]\n[[question c = ['a + b']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-55-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var w = ((2 * 9) + (2 * 18))]]\n[[question y = ['w']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now let's consider another rectangle. The length of this rectangle is 9m rather than 14m, while the width remains the same at 18m. What is the perimeter of this new rectangle?",
+      "new symbolic struct": "[[var d = 2 * 9]]\n[[var e = 2 * 18]]\n[[question f = ['d + e']]]",
+      "answer": "54",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-57-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var i = ((2 * 43) + (2 * 3))]]\n[[question v = ['i']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 43 units and a width of 3 units. Calculate the perimeter of this rectangle.",
+      "new symbolic struct": "[[var p = 2 * 43 + 2 * 3]]\n[[question q = ['p']]]",
+      "answer": "92",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-57-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var i = ((2 * 43) + (2 * 39))]]\n[[question v = ['i']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Let's consider the same rectangle from before, but this time, the width has increased to 39 units while the length remained the same at 43 units. What is the new perimeter of this rectangle?",
+      "new symbolic struct": "[[var p_new = 2 * 43 + 2 * 39]]\n[[question q_new = ['p_new']]]",
+      "answer": "164",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-58-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 36) + (2 * 42))]]\n[[question v = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has one side that measures 36 meters and another side that measures 42 meters. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * 36]]\n[[var b = 2 * 42]]\n[[question c = ['a + b']]]",
+      "answer": "156",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-58-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 36) + (2 * 48))]]\n[[question v = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now suppose that the longer side of the rectangle measures 48 meters instead of 42. What would be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2 * 36]]\n[[var b = 2 * 48]]\n[[question c = ['a + b']]]",
+      "answer": "168",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-59-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var x = ((2 * 1) + (2 * 6))]]\n[[question q = ['x']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 1m and a width of 6m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * 1 + 2 * 6]]\n[[question q = ['p']]]",
+      "answer": "14",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-59-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var x = ((2 * 28) + (2 * 6))]]\n[[question q = ['x']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now consider that the length of the rectangle has changed to 28m, while the width remains at 6m. What is the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var p2 = 2 * 28 + 2 * 6]]\n[[question q2 = ['p2']]]",
+      "answer": "68",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-60-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var k = ((2 * 45) + (2 * 8))]]\n[[question z = ['k']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has two sides measuring 45m and two sides measuring 8m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * 45 + 2 * 8]]\n[[question q = ['p']]]",
+      "answer": "106",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-65-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var w = ((2 * 25) + (2 * 37))]]\n[[question h = ['w']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular garden has a length of 25 meters and a width of 37 meters. What is the perimeter of the garden?",
+      "new symbolic struct": "[[var a = 2*25]]\n[[var b = 2*37]]\n[[question p = ['a + b']]]",
+      "answer": "124",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-65-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var w = ((2 * 16) + (2 * 37))]]\n[[question h = ['w']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose we reduce the length of the garden from 25 meters to 16 meters, while the width remains unchanged at 37 meters. What would be the new perimeter of the garden?",
+      "new symbolic struct": "[[var c = 2*16]]\n[[var d = 2*37]]\n[[question e = ['c + d']]]",
+      "answer": "106",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-68-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var v = ((2 * 36) + (2 * 3))]]\n[[question d = ['v']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has length 36m and width 3m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * 36 + 2 * 3]]\n[[question q = ['p']]]",
+      "answer": "78",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-68-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var v = ((2 * 1) + (2 * 3))]]\n[[question d = ['v']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose we made a change to the rectangle from the previous problem. Instead of a length of 36m, we shortened it to only 1m. What would be the new perimeter of this rectangle?",
+      "new symbolic struct": "[[var p_new = 2 * 1 + 2 * 3]]\n[[question q_new = ['p_new']]]",
+      "answer": "8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-69-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var z = ((2 * 45) + (2 * 50))]]\n[[question m = ['z']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular garden has a length of 45 meters and a width of 50 meters. Calculate the perimeter of the garden.",
+      "new symbolic struct": "[[var a = 2 * (45 + 50)]]\n[[question b = ['a']]]",
+      "answer": "190",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-70-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var r = ((2 * 44) + (2 * 34))]]\n[[question j = ['r']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 44m and a width of 34m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2*44 + 2*34]]\n[[question h = ['p']]]",
+      "answer": "156",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-70-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var r = ((2 * 44) + (2 * 36))]]\n[[question j = ['r']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now suppose the width of the rectangle changes to 36m while the length remains the same at 44m. What would be the new perimeter of the rectangle in this case?",
+      "new symbolic struct": "[[var p1 = 2*44 + 2*36]]\n[[question h1 = ['p1']]]",
+      "answer": "160",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-71-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 42) + (2 * 29))]]\n[[question p = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 42 m and a width of 29 m. Calculate the perimeter of the rectangle.",
+      "new symbolic struct": "[[var p = 2*(42 + 29)]]\n[[question q = ['p']]]",
+      "answer": "142",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-71-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 42) + (2 * 38))]]\n[[question p = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the width of the rectangle was actually 38 m instead of 29 m. What would then be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var l = 42]]\n[[var new_width = 38]]\n[[var new_p = 2*(l + new_width)]]\n[[question q = ['new_p']]]",
+      "answer": "160",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-72-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var y = ((2 * 44) + (2 * 35))]]\n[[question m = ['y']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 44 meters and a width of 35 meters. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2*44]]\n[[var b = 2*35]]\n[[question c = ['a+b']]]",
+      "answer": "158",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-72-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var y = ((2 * 44) + (2 * 43))]]\n[[question m = ['y']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Consider the same rectangle from the previous problem, but now the width has changed to 43 meters while the length remains the same at 44 meters. What is the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2*44]]\n[[var b = 2*43]]\n[[question c = ['a+b']]]",
+      "answer": "174",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-73-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var e = ((2 * 44) + (2 * 45))]]\n[[question v = ['e']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 44m and a width of 45m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * 44 + 2 * 45]]\n[[question b = ['a']]]",
+      "answer": "178",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-73-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var e = ((2 * 44) + (2 * 48))]]\n[[question v = ['e']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The previous rectangle had its width increased from 45m to 48m while keeping the length the same. What is the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2 * 44 + 2 * 48]]\n[[question b = ['a']]]",
+      "answer": "184",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-74-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var b = ((2 * 3) + (2 * 39))]]\n[[question f = ['b']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 3 meters and a width of 39 meters. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * 3]]\n[[var b = 2 * 39]]\n[[question c = ['a+b']]]",
+      "answer": "84",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-74-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var b = ((2 * 17) + (2 * 39))]]\n[[question f = ['b']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the length of the rectangle was actually 17 meters instead of 3 meters, keeping the width the same. What would be the new perimeter of the rectangle now?",
+      "new symbolic struct": "[[var a = 2 * 17]]\n[[var b = 2 * 39]]\n[[question c = ['a+b']]]",
+      "answer": "112",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-75-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var e = ((2 * 32) + (2 * 12))]]\n[[question g = ['e']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular garden has sides that measure 32m and 12m. What is the perimeter of this garden?",
+      "new symbolic struct": "[[var d = 2 * 32 + 2 * 12]]\n[[question e = ['d']]]",
+      "answer": "88",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-77-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var p = ((2 * 24) + (2 * 6))]]\n[[question c = ['p']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular swimming pool has a length of 24 feet and a width of 6 feet. What is the perimeter of the swimming pool?",
+      "new symbolic struct": "[[var a = 24]]\n[[var b = 6]]\n[[var c = 2 * (a + b)]]\n[[question d = ['c']]]",
+      "answer": "60",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-81-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var w = (27 * 21)]]\n[[question a = ['w']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 27m and a width of 21m. What is the area of this rectangle?",
+      "new symbolic struct": "[[var a = (27 * 21)]]\n[[question b = ['a']]]",
+      "answer": "567",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-81-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var w = (27 * 8)]]\n[[question a = ['w']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous problem, the rectangle had a length of 27m and a width of 21m. Now, consider that the width of the rectangle is instead 8m. What is the area of this rectangle?",
+      "new symbolic struct": "[[var a = (27 * 8)]]\n[[question b = ['a']]]",
+      "answer": "216",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-82-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var b = (2 * 49)]]\n[[question k = ['b']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has twice the length of a square. If the square's side is 49m, what is the length of the rectangle?",
+      "new symbolic struct": "[[var a = 49]]\n[[var b = 2 * a]]\n[[question c = ['b']]]",
+      "answer": "98",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-82-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var b = (2 * 18)]]\n[[question k = ['b']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous problem, we found the length of the rectangle when the square's side was 49m. Now, consider a square with a side length of 18m. What would be the length of the rectangle if it's still twice the length of the square?",
+      "new symbolic struct": "[[var d = 18]]\n[[var e = 2 * d]]\n[[question f = ['e']]]",
+      "answer": "36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-83-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 36) + (2 * 50))]]\n[[question s = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 50m and a width of 36m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * (50 + 36)]]\n[[question q = ['p']]]",
+      "answer": "172",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-83-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 44) + (2 * 50))]]\n[[question s = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In our previous rectangle, if we now increase the width from 36m to 44m, while keeping the length the same, what will be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var l = 50]]\n[[var w1 = 36]]\n[[var p1 = 2 * (l + w1)]]\n[[var w2 = 44]]\n[[var p2 = 2 * (l + w2)]]\n[[question t = ['p2']]]",
+      "answer": "188",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-85-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 8) + (2 * 44))]]\n[[question n = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 8m and a width of 44m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var p = 2 * (8 + 44)]]\n[[question s = ['p']]]",
+      "answer": "104",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-85-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 40) + (2 * 44))]]\n[[question n = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Consider the same rectangle from the previous problem, but now its length increases to 40m, while the width remains the same at 44m. What is the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var q = 2 * (40 + 44)]]\n[[question t = ['q']]]",
+      "answer": "168",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-88-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var w = (47 * 21)]]\n[[question l = ['w']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "If a rectangle has a length of 47 feet and a width of 21 feet, what is the area of the rectangle?",
+      "new symbolic struct": "[[var a = 47 * 21]]\n[[question b = ['a']]]",
+      "answer": "987",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-88-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var w = (15 * 21)]]\n[[question l = ['w']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now, suppose we adjusted the measurements of the previous rectangle. If the length of the rectangle remained the same at 21 feet, but the width of the rectangle was reduced to 15 feet, what would the new area of the rectangle be?",
+      "new symbolic struct": "[[var c = 21 * 15]]\n[[question d = ['c']]]",
+      "answer": "315",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-89-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var z = ((2 * 19) + (2 * 28))]]\n[[question b = ['z']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 19m and a breadth of 28m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var l = 19]]\n[[var b = 28]]\n[[question p = ['2*(l+b)']]]",
+      "answer": "94",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-89-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var z = ((2 * 27) + (2 * 28))]]\n[[question b = ['z']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous problem, what if the length of the rectangle was 27m instead of 19m while keeping the breadth the same? What would be the new perimeter?",
+      "new symbolic struct": "[[var l = 27]]\n[[var b = 28]]\n[[question p = ['2*(l+b)']]]",
+      "answer": "110",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-91-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var d = (39 * 10)]]\n[[question x = ['d']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "One side of a rectangle is four times the length of the other side. If the longer side measures 39 meters, what is the area of the rectangle when the shorter side is 10 meters?",
+      "new symbolic struct": "[[var d = 10*39]]\n[[question a = ['d']]]",
+      "answer": "390",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-91-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var d = (37 * 10)]]\n[[question x = ['d']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose we discovered an error in the original measurements of the rectangle. The longer side is actually 37 meters instead of 39 meters. With the shorter side still at 10 meters, what is the new area of the rectangle?",
+      "new symbolic struct": "[[var e = 10*37]]\n[[question a = ['e']]]",
+      "answer": "370",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-92-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var p = ((2 * 19) + (2 * 19))]]\n[[question q = ['p']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has identical sides, each measuring 19 meters. What is the total perimeter of the rectangle?",
+      "new symbolic struct": "[[var b = 4 * 19]]\n[[question c = ['b']]]",
+      "answer": "76",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-92-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var p = ((2 * 19) + (2 * 6))]]\n[[question q = ['p']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The rectangle mentioned in the previous problem has been resized. The new rectangle now has a length of 19 meters but a width of 6 meters. What is the new total perimeter of the rectangle?",
+      "new symbolic struct": "[[var d = 2 * 19 + 2 * 6]]\n[[question e = ['d']]]",
+      "answer": "50",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-93-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var p = (9 * 26)]]\n[[question n = ['p']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The area of a rectangle is given by the equation length * width. If the length is 9m and the width is 26m, what is the area of the rectangle?",
+      "new symbolic struct": "[[var a = 9 * 26]]\n[[question b = ['a']]]",
+      "answer": "234",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-93-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var p = (9 * 47)]]\n[[question n = ['p']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The rectangle now has a new dimension with its length increased to 47m while the width is still 9m. What is the new area of the rectangle?",
+      "new symbolic struct": "[[var c = 47 * 9]]\n[[question d = ['c']]]",
+      "answer": "423",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-95-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var o = ((2 * 19) + (2 * 7))]]\n[[question u = ['o']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has one side measuring 19cm and another side measuring 7cm. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var p = 2 * (19 + 7)]]\n[[question q = ['p']]]",
+      "answer": "52",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-95-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var o = ((2 * 21) + (2 * 7))]]\n[[question u = ['o']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose we extended the rectangle's length from the previous question from 19cm to 21cm. In this case, what would be the new perimeter?",
+      "new symbolic struct": "[[var old_length = 19]]\n[[var new_length = 21]]\n[[var width = 7]]\n[[var old_perimeter = 2 * (old_length + width)]]\n[[var new_perimeter = 2 * (new_length + width)]]\n[[question q = ['new_perimeter']]]",
+      "answer": "56",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-96-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var l = (6 * 10)]]\n[[question u = ['l']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A shutter is in the shape of a rectangle. Its length is 10m and its width is 6m. What is the total area of the shutter?",
+      "new symbolic struct": "[[var t = (10 * 6)]]\n[[question A = ['t']]]",
+      "answer": "60",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-98-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 24) + (2 * 15))]]\n[[question u = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 24 units and a width of 15 units. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2 * 24]]\n[[var b = 2 * 15]]\n[[question c = ['a + b']]]",
+      "answer": "78",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-98-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 24) + (2 * 10))]]\n[[question u = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now, imagine the rectangle's width was reduced to 10 units, while the length remained 24 units. What would be the new perimeter of the rectangle under these conditions?",
+      "new symbolic struct": "[[var a = 2 * 24]]\n[[var b = 2 * 10]]\n[[question c = ['a + b']]]",
+      "answer": "68",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-99-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var k = (27 * 32)]]\n[[question e = ['k']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "If a rectangular plot of land has a length of 32m and a width of 27m, what is the area of the plot in square meters?",
+      "new symbolic struct": "[[var a = 32 * 27]]\n[[question b = ['a']]]",
+      "answer": "864",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-99-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var k = (18 * 32)]]\n[[question e = ['k']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous scenario, suppose the width of the rectangular plot of land was actually 18m rather than 27m. What would then be the area of the plot in square meters?",
+      "new symbolic struct": "[[var c = 32 * 18]]\n[[question d = ['c']]]",
+      "answer": "576",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-101-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 15) + (2 * 10))]]\n[[question d = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has one side that measures 15m and another side that measures 10m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2*(15 + 10)]]\n[[question a = ['p']]]",
+      "answer": "50",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-101-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 33) + (2 * 10))]]\n[[question d = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now consider the rectangle has one side that measures 33m instead of 15m while the other side still measures 10m. What is the new perimeter of this rectangle?",
+      "new symbolic struct": "[[var p2 = 2*(33 + 10)]]\n[[question a = ['p2']]]",
+      "answer": "86",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-102-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var k = ((2 * 44) + (2 * 37))]]\n[[question v = ['k']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 44m and a width of 37m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * 44 + 2 * 37]]\n[[question q = ['p']]]",
+      "answer": "162",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-102-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var k = ((2 * 25) + (2 * 37))]]\n[[question v = ['k']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "What would the perimeter of the rectangle be if the length was 25m instead of 44m but the width remained the same at 37m?",
+      "new symbolic struct": "[[var p1 = 2 * 25 + 2 * 37]]\n[[question q1 = ['p1']]]",
+      "answer": "124",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-103-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 14) + (2 * 8))]]\n[[question r = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has length of 14 cm and width 8 cm. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var p = 2*(14 + 8)]]\n[[question q = ['p']]]",
+      "answer": "44",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-103-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 14) + (2 * 18))]]\n[[question r = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "If the length of the rectangle remains 14 cm, but the width is increased to 18 cm, what would be the new perimeter of the rectangle now?",
+      "new symbolic struct": "[[var p1 = 2*(14 + 18)]]\n[[question q1 = ['p1']]]",
+      "answer": "64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-104-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var c = ((2 * 26) + (2 * 28))]]\n[[question x = ['c']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 26m and a width of 28m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * 26 + 2 * 28]]\n[[question q = ['p']]]",
+      "answer": "108",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-104-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var c = ((2 * 26) + (2 * 26))]]\n[[question x = ['c']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous scenario, if the rectangle was actually a square with all sides measuring 26m, what would the new perimeter be?",
+      "new symbolic struct": "[[var p_square = 4 * 26]]\n[[question q_square = ['p_square']]]",
+      "answer": "104",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-105-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var x = ((2 * 15) + (2 * 37))]]\n[[question d = ['x']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 15m and a width of 37m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * 15 + 2 * 37]]\n[[question b = ['a']]]",
+      "answer": "104",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-105-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var x = ((2 * 15) + (2 * 19))]]\n[[question d = ['x']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The width of the rectangle mentioned in the previous problem is now changed to 19m, while the length is still 15m. What is the new perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * 15 + 2 * 37]]\n[[var b = 2 * 15 + 2 * 19]]\n[[question c = ['b']]]",
+      "answer": "68",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-106-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 42) + (2 * 40))]]\n[[question w = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 42m and a width of 40m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * 42 + 2 * 40]]\n[[question q = ['p']]]",
+      "answer": "164",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-106-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 42) + (2 * 24))]]\n[[question w = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The rectangle you were previously given now has a length of 42m and the width has been adjusted to 24m. What is the new perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * 42 + 2 * 24]]\n[[question q = ['p']]]",
+      "answer": "132",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-107-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var j = ((2 * 21) + (2 * 30))]]\n[[question u = ['j']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular garden has one side that measures 21 feet and another side that measures 30 feet. What is the perimeter of the garden?",
+      "new symbolic struct": "[[var p = 2*(21 + 30)]]\n[[question q = ['p']]]",
+      "answer": "102",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-107-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var j = ((2 * 21) + (2 * 5))]]\n[[question u = ['j']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now, imagine that the side of the garden that initially measured 30 feet was actually only 5 feet long. What would be the new perimeter of the garden?",
+      "new symbolic struct": "[[var s = 2*(21 + 5)]]\n[[question t = ['s']]]",
+      "answer": "52",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-108-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var i = (17 * 44)]]\n[[question b = ['i']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A certain playground is in the shape of a rectangle. The area of the playground is given as the product of 17 and 44. How many square meters is the playground?",
+      "new symbolic struct": "[[var a = 17 * 44]]\n[[question b = ['a']]]",
+      "answer": "748",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-108-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var i = (17 * 37)]]\n[[question b = ['i']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Let's assume that the length of the playground was mistakenly recorded. Instead of 44m, the correct measurement is 37m. Given this information, how many square meters is the playground now?",
+      "new symbolic struct": "[[var a = 17 * 44]]\n[[var c = 17 * 37]]\n[[question d = ['c']]]",
+      "answer": "629",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-110-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var a = ((2 * 47) + (2 * 50))]]\n[[question s = ['a']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Rectangle ABCD has a width of 47m and a length of 50m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var w = 47]]\n[[var l = 50]]\n[[question p = ['2 * w + 2 * l']]]",
+      "answer": "194",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-110-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var a = ((2 * 47) + (2 * 48))]]\n[[question s = ['a']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now consider that the rectangle ABCD's dimensions have changed slightly. The width is still 47m, but the length has adjusted to 48m. What is the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var w = 47]]\n[[var l = 48]]\n[[question p_new = ['2 * w + 2 * l']]]",
+      "answer": "190",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-111-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var t = ((2 * 11) + (2 * 31))]]\n[[question i = ['t']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 11m and a width of 31m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var p = 2*11 + 2*31]]\n[[question y = ['p']]]",
+      "answer": "84",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-111-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var t = ((2 * 36) + (2 * 31))]]\n[[question i = ['t']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose we later find out that the actual length of the rectangle is 36m, not 11m as we originally thought, while the width remains the same at 31m. What would then be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var p2 = 2*36 + 2*31]]\n[[question z = ['p2']]]",
+      "answer": "134",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-112-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var i = (39 * 19)]]\n[[question k = ['i']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular garden has a length of 39m and a width of 19m. What is the area of this garden?",
+      "new symbolic struct": "[[var a = (39 * 19)]]\n[[question b = ['a']]]",
+      "answer": "741",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-112-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var i = (35 * 19)]]\n[[question k = ['i']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "If the length of the rectangular garden was actually 35m instead of 39m, keeping the width the same, what would be the new area of the garden?",
+      "new symbolic struct": "[[var a = (35 * 19)]]\n[[question b = ['a']]]",
+      "answer": "665",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-114-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var e = (29 * 11)]]\n[[question x = ['e']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A carpenter wants to install a wooden floor in a rectangular hallway. The wooden plank has a width of 29 cm and the carpenter has cut it to a length of 11 cm. How many square centimeters of area does one cut wooden plank cover?",
+      "new symbolic struct": "[[var h = (29 * 11)]]\n[[question i = ['h']]]",
+      "answer": "319",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-114-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var e = (29 * 5)]]\n[[question x = ['e']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "If instead the carpenter decided to cut the same 29 cm wide wooden plank into shorter lengths of 5 cm each, how many square centimeters of area does one of these shorter cut wooden planks cover?",
+      "new symbolic struct": "[[var j = (29 * 5)]]\n[[question k = ['j']]]",
+      "answer": "145",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-116-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var u = ((2 * 25) + (2 * 11))]]\n[[question i = ['u']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 25m and a width of 11m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var p = 2 * 25 + 2 * 11]]\n[[question a = ['p']]]",
+      "answer": "72",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-116-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var u = ((2 * 25) + (2 * 17))]]\n[[question i = ['u']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now, suppose the rectangle's width is changed from 11m to 17m. What will be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 25]]\n[[var b = 11]]\n[[var c = 17]]\n[[var p1 = 2 * a + 2 * b]]\n[[var p2 = 2 * a + 2 * c]]\n[[question d = ['p2']]]",
+      "answer": "84",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-123-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var e = ((2 * 9) + (2 * 49))]]\n[[question l = ['e']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 49m and a breadth of 9m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2 * 49 + 2 * 9]]\n[[question p = ['a']]]",
+      "answer": "116",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-123-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var e = ((2 * 19) + (2 * 49))]]\n[[question l = ['e']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose that the breadth of the same rectangle was instead 19m, while the length remains the same at 49m. What would be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var b = 2 * 49 + 2 * 19]]\n[[question p_new = ['b']]]",
+      "answer": "136",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-124-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var f = (7 * 16)]]\n[[question j = ['f']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 16m and a width of 7m. What is the area of this rectangle?",
+      "new symbolic struct": "[[var a = 16 * 7]]\n[[question b = ['a']]]",
+      "answer": "112",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-125-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var v = ((2 * 14) + (2 * 2))]]\n[[question o = ['v']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The perimeter of a rectangular playground is found by the formula 2*(Length + Breadth). If the length of the playground is 14m and the breadth is 2m, what is the perimeter of the playground?",
+      "new symbolic struct": "[[var p = 2 * (14 + 2)]]\n[[question q = ['p']]]",
+      "answer": "32",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-125-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var v = ((2 * 14) + (2 * 3))]]\n[[question o = ['v']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now, consider that the breadth of the rectangular playground is changed to 3m, keeping the length the same as before (14m). What is the new perimeter of the playground?",
+      "new symbolic struct": "[[var n = 2 * (14 + 3)]]\n[[question o = ['n']]]",
+      "answer": "34",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-126-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var a = ((2 * 16) + (2 * 16))]]\n[[question v = ['a']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A square has a side length of 16 units. What is the perimeter of the square?",
+      "new symbolic struct": "[[var p = 16 * 4]]\n[[question q = ['p']]]",
+      "answer": "64",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-126-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var a = ((2 * 22) + (2 * 16))]]\n[[question v = ['a']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous problem, the square's side length was 16 units. Now consider a rectangle with a length of 22 units and a width of 16 units. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var r = 2*(22 + 16)]]\n[[question s = ['r']]]",
+      "answer": "76",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-127-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var l = ((2 * 7) + (2 * 21))]]\n[[question d = ['l']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangular garden has a width of 7 meters and a length of 21 meters. What is the perimeter of this garden?",
+      "new symbolic struct": "[[var w = 7]]\n[[var l = 21]]\n[[question p = ['2*(w + l)']]]",
+      "answer": "56",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-127-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var l = ((2 * 7) + (2 * 17))]]\n[[question d = ['l']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The width of the garden remains the same, but the length is reduced to 17 meters. Now, what is the new perimeter of the garden?",
+      "new symbolic struct": "[[var w = 7]]\n[[var l = 17]]\n[[question p = ['2*(w + l)']]]",
+      "answer": "48",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-128-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var n = (20 * 5)]]\n[[question j = ['n']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 20 meters and a width of 5 meters. What is the area of the rectangle?",
+      "new symbolic struct": "[[var a = 20 * 5]]\n[[question b = ['a']]]",
+      "answer": "100",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-128-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var n = (20 * 17)]]\n[[question j = ['n']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous problem, we calculated the area of a rectangle with a length of 20 meters and a width of 5 meters. This time, instead of having the width as 5 meters, we have a new rectangle where the width is 17 meters. With the length still being 20 meters, what is the area of this new rectangle?",
+      "new symbolic struct": "[[var c = 20 * 17]]\n[[question d = ['c']]]",
+      "answer": "340",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-129-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var m = ((2 * 37) + (2 * 43))]]\n[[question q = ['m']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 37m and a width of 43m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * 37]]\n[[var b = 2 * 43]]\n[[question c = ['a + b']]]",
+      "answer": "160",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-129-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var m = ((2 * 32) + (2 * 43))]]\n[[question q = ['m']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the length of the rectangle is now changed to 32m while the width remains the same at 43m. What will be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2 * 32]]\n[[var b = 2 * 43]]\n[[question c = ['a + b']]]",
+      "answer": "150",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-130-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var y = (1 * 9)]]\n[[question m = ['y']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 9m. If the width of the rectangle is 1m, what is the area?",
+      "new symbolic struct": "[[var a = 9 * 1]]\n[[question b = ['a']]]",
+      "answer": "9",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-130-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var y = (40 * 9)]]\n[[question m = ['y']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the previous problem, we considered a rectangle with a length of 9m and a width of 1m. Now, consider if the width of the rectangle was actually 40m instead of 1m. What would be the new area of the rectangle?",
+      "new symbolic struct": "[[var c = 9 * 40]]\n[[question d = ['c']]]",
+      "answer": "360",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-131-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var c = (22 * 23)]]\n[[question f = ['c']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle's area is the product of 22m and 23m. What is the area of the rectangle?",
+      "new symbolic struct": "[[var k = 22 * 23]]\n[[question n = ['k']]]",
+      "answer": "506",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-131-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var c = (22 * 6)]]\n[[question f = ['c']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "What if we reconsider the area of the rectangle, but this time its width is 6m instead of 23m, while maintaining the length at 22m. What would then be the area of the rectangle?",
+      "new symbolic struct": "[[var l = 22 * 6]]\n[[question m = ['l']]]",
+      "answer": "132",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-132-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var z = ((2 * 14) + (2 * 21))]]\n[[question m = ['z']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has one side that measures 14 cm and another side that measures 21 cm. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * 14]]\n[[var b = 2 * 21]]\n[[question c = ['a + b']]]",
+      "answer": "70",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-132-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var z = ((2 * 14) + (2 * 47))]]\n[[question m = ['z']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Consider the previous rectangle and suppose its side that previously measured 21 cm now measures 47 cm. What is the new perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * 14]]\n[[var b = 2 * 47]]\n[[question c = ['a + b']]]",
+      "answer": "122",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-133-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var i = (23 * 12)]]\n[[question y = ['i']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In Clara's backyard, there is a rectangular swimming pool. The length of the pool is 23 meters, while the width is 12 meters. What is the area of the swimming pool in Clara's backyard?",
+      "new symbolic struct": "[[var k = 23 * 12]]\n[[question l = ['k']]]",
+      "answer": "276",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-135-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var l = ((2 * 39) + (2 * 8))]]\n[[question a = ['l']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 39 meters and a width of 8 meters. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * 39]]\n[[var b = 2 * 8]]\n[[question c = ['a + b']]]",
+      "answer": "94",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-135-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var l = ((2 * 39) + (2 * 23))]]\n[[question a = ['l']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the width of the rectangle was actually 23 meters instead of 8 meters. What would the perimeter of the rectangle be in this case?",
+      "new symbolic struct": "[[var length = 39]]\n[[var width = 23]]\n[[var a = 2 * length]]\n[[var b = 2 * width]]\n[[question c = ['a + b']]]",
+      "answer": "124",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-139-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var a = ((2 * 27) + (2 * 40))]]\n[[question q = ['a']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a width of 27m and a length of 40m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var a = 2*27]]\n[[var b = 2*40]]\n[[question c = ['a + b']]]",
+      "answer": "134",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-139-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var a = ((2 * 27) + (2 * 44))]]\n[[question q = ['a']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "What if the length of the rectangle was 44m instead of 40m while keeping the width still at 27m? What would the new perimeter of the rectangle be?",
+      "new symbolic struct": "[[var a = 2*27]]\n[[var b = 2*44]]\n[[question c = ['a + b']]]",
+      "answer": "142",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-140-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var t = ((2 * 35) + (2 * 9))]]\n[[question a = ['t']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle's length is 35m and its width is 9m. What is the perimeter of the rectangle?",
+      "new symbolic struct": "[[var p = 2 * (35 + 9)]]\n[[question a = ['p']]]",
+      "answer": "88",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-140-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var t = ((2 * 19) + (2 * 9))]]\n[[question a = ['t']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose we resized the rectangle and shortened its length from 35m to 19m, while keeping the width the same. What would the new perimeter of the rectangle be?",
+      "new symbolic struct": "[[var t = 2 * (19 + 9)]]\n[[question b = ['t']]]",
+      "answer": "56",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-141-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 38) + (2 * 11))]]\n[[question f = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 38m and a width of 11m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var a = 2 * 38]]\n[[var b = 2 * 11]]\n[[question p = ['a + b']]]",
+      "answer": "98",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-141-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var g = ((2 * 38) + (2 * 23))]]\n[[question f = ['g']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "In the rectangle mentioned earlier, suppose we now construct another rectangle such that its length remains the same (38m), but the width is now 23m instead of 11m. How would the perimeter of this new rectangle be calculated?",
+      "new symbolic struct": "[[var c = 2 * 38]]\n[[var d = 2 * 23]]\n[[question q = ['c + d']]]",
+      "answer": "122",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-142-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var a = (28 * 29)]]\n[[question p = ['a']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "One side of a rectangle is 28m long, and the other side is 29m long. What is the area of this rectangle?",
+      "new symbolic struct": "[[var k = 28 * 29]]\n[[question l = ['k']]]",
+      "answer": "812",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-142-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var a = (28 * 35)]]\n[[question p = ['a']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the side of the rectangle previously mentioned gets extended to 35m instead of 29m, while the other side remains 28m. What would be the new area of the rectangle in this case?",
+      "new symbolic struct": "[[var m = 35 * 28]]\n[[question n = ['m']]]",
+      "answer": "980",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-143-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var k = ((2 * 9) + (2 * 9))]]\n[[question j = ['k']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A square has a side length of 9m. What is the total length of fencing needed to enclose the square's perimeter?",
+      "new symbolic struct": "[[var p = 4 * 9]]\n[[question f = ['p']]]",
+      "answer": "36",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-145-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var j = ((2 * 38) + (2 * 29))]]\n[[question h = ['j']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has a length of 38m and a width of 29m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var g = 2*(38 + 29)]]\n[[question h = ['g']]]",
+      "answer": "134",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-145-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var j = ((2 * 6) + (2 * 29))]]\n[[question h = ['j']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Now consider that the rectangle from the previous question actually had a length of 6m instead of 38m. What would be the new perimeter of the rectangle?",
+      "new symbolic struct": "[[var g = 2*(6 + 29)]]\n[[question h = ['g']]]",
+      "answer": "70",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-146-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var h = ((2 * 45) + (2 * 47))]]\n[[question t = ['h']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "A rectangle has one side of length 45m and another side of length 47m. Find the perimeter of the rectangle.",
+      "new symbolic struct": "[[var r = 2 * (45 + 47)]]\n[[question h = ['r']]]",
+      "answer": "184",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-146-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var h = ((2 * 45) + (2 * 46))]]\n[[question t = ['h']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Suppose the length of one side of the rectangle is altered from 47m to 46m. What would be the new perimeter of the rectangle now?",
+      "new symbolic struct": "[[var r_new = 2 * (45 + 46)]]\n[[question h = ['r_new']]]",
+      "answer": "182",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-147-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var r = ((2 * 20) + (2 * 24))]]\n[[question m = ['r']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Given a rectangle where the length is 24m and the width is 20m, what is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var p = 2 * 24 + 2 * 20]]\n[[question p = ['p']]]",
+      "answer": "88",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-147-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var r = ((2 * 17) + (2 * 24))]]\n[[question m = ['r']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "Continuing from the previous scenario, imagine the length of the rectangle stayed the same at 24m, but the width was reduced to 17m. Now, what would be the new perimeter of this rectangle?",
+      "new symbolic struct": "[[var p_new = 2 * 24 + 2 * 17]]\n[[question p_new = ['p_new']]]",
+      "answer": "82",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "4.MD.A.3-148-0",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 32) + (2 * 32))]]\n[[question k = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The length and width of a rectangle are both 32m. What is the perimeter of this rectangle?",
+      "new symbolic struct": "[[var m = 2 * (32 + 32)]]\n[[question p = ['m']]]",
+      "answer": "128",
+      "tag": "original problem"
+    },
+    {
+      "id": "4.MD.A.3-148-2",
+      "standard": "4.MD.A.3",
+      "symbolic-struct": "[[var s = ((2 * 13) + (2 * 32))]]\n[[question k = ['s']]]\nmath concept: create a math problem involving perimeters or areas of rectangles, including finding the perimeter or area given the side lengths, or finding an unknown side length",
+      "statement": "The length of the rectangle from the previous problem remains the same, but the width of the rectangle is now adjusted to 13m. What is the new perimeter of this rectangle?",
+      "new symbolic struct": "[[var n = 32]]\n[[var o = 13]]\n[[var p = 2 * (n + o)]]\n[[question q = ['p']]]",
+      "answer": "90",
+      "tag": "modified information follow up"
+    }
+  ]
+]

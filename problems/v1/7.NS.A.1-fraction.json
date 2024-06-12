@@ -1,0 +1,2749 @@
+[
+  [
+    {
+      "id": "7.NS.A.1-fraction-0-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((74 / 63) + (91 / 78))]]\n[[question w = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Math problem: Determine the value of the sum when adding (74 / 63) and (91 / 78).",
+      "new symbolic struct": "[[var a = 74 / 63 + 91 / 78]]\n[[question b = ['a']]]",
+      "answer": "295/126",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-0-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((74 / 63) + (91 / 78))]]\n[[var o = (t + t)]]\n[[question u = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of (74 / 63) and (91 / 78), compute what will be the sum if you add the result to itself.",
+      "new symbolic struct": "[[var a = 74 / 63 + 91 / 78]]\n[[var b = a + a]]\n[[question c = ['b']]]",
+      "answer": "295/63",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-0-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((35 / 63) + (91 / 78))]]\n[[question w = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous problem you calculated the sum of (74 / 63) and (91 / 78). Now, assume instead of 74 in the first fraction, there were 35. What is the new sum when you add (35 / 63) and (91 / 78)?",
+      "new symbolic struct": "[[var a = 35 / 63 + 91 / 78]]\n[[question b = ['a']]]",
+      "answer": "31/18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-1-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((94 / 5) + (1 / 25))]]\n[[question a = ['l']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of adding 94/5 to 1/25?",
+      "new symbolic struct": "[[var a = 94/5 + 1/25]]\n[[question b = ['a']]]",
+      "answer": "471/25",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-1-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((94 / 5) + (1 / 25))]]\n[[var h = ((73 / 89) + l)]]\n[[question x = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If the sum from the previous problem is then added to 73/89, what is the final result?",
+      "new symbolic struct": "[[var a = 94/5 + 1/25]]\n[[var b = a + 73/89]]\n[[question c = ['b']]]",
+      "answer": "43744/2225",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-1-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((94 / 89) + (1 / 25))]]\n[[question a = ['l']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If instead of adding 94/5 you had added 94/89 to 1/25 in the previous problem, what would have been the result?",
+      "new symbolic struct": "[[var c = 94/89 + 1/25]]\n[[question d = ['c']]]",
+      "answer": "2439/2225",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-2-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var e = ((49 / 8) - (48 / 20))]]\n[[question w = ['e']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of subtracting 48/20 from 49/8? Answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 48/20]]\n[[var b = 49/8]]\n[[var c = b - a]]\n[[question res = ['c']]]",
+      "answer": "149/40",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-2-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var e = ((49 / 8) - (48 / 14))]]\n[[question w = ['e']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Suppose we had made a mistake in the original problem and it was actually 48/14 we were to subtract from 49/8. What would the result have been in that case? Please answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 48/14]]\n[[var b = 49/8]]\n[[var c2 = b - a]]\n[[question res2 = ['c2']]]",
+      "answer": "151/56",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-3-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((45 / 5) - (6 / 47))]]\n[[question a = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the value of the expression ((45 / 5) - (6 / 47)).",
+      "new symbolic struct": "[[var a = (45 / 5) - (6 / 47)]]\n[[question b = ['a']]]",
+      "answer": "417/47",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-3-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((45 / 5) - (6 / 47))]]\n[[var d = (z + z)]]\n[[question c = ['d']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the value of ((45 / 5) - (6 / 47)), what would be the result if you add this value to itself?",
+      "new symbolic struct": "[[var a = (45 / 5) - (6 / 47)]]\n[[var c = a + a]]\n[[question d = ['c']]]",
+      "answer": "834/47",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-3-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((63 / 5) - (6 / 47))]]\n[[question a = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After reconsideration, suppose there were actually 63 oranges instead of 45. Now calculate the value of the expression ((63 / 5) - (6 / 47)).",
+      "new symbolic struct": "[[var c = (63 / 5) - (6 / 47)]]\n[[question d = ['c']]]",
+      "answer": "2931/235",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-4-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var p = ((22 / 49) + (72 / 35))]]\n[[question q = ['p']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 22/49 and 72/35? Provide your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 22/49 + 72/35]]\n[[question b = ['a']]]",
+      "answer": "614/245",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-4-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var p = ((22 / 49) + (72 / 35))]]\n[[var w = (p + (32 / 21))]]\n[[question n = ['w']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After you've computed the sum of 22/49 and 72/35, add this result to 32/21. What is the final sum, presented as a simplified fraction?",
+      "new symbolic struct": "[[var a = 22/49 + 72/35]]\n[[var b = a + 32/21]]\n[[question c = ['b']]]",
+      "answer": "2962/735",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-4-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var p = ((22 / 34) + (72 / 35))]]\n[[question q = ['p']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Imagine you originally had 22/34 of a basket of ripe apples instead of 22/49, and you also have 72/35 of a basket of oranges. How much do you have in total, given these new amounts? Provide your answer in simplified form.",
+      "new symbolic struct": "[[var a = 22/34 + 72/35]]\n[[question b = ['a']]]",
+      "answer": "1609/595",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-5-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((39 / 9) - (44 / 69))]]\n[[question r = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of (39 / 9) - (44 / 69)?",
+      "new symbolic struct": "[[var x = 39/9 - 44/69]]\n[[question a = ['x']]]",
+      "answer": "85/23",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-5-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((39 / 9) - (44 / 69))]]\n[[var w = (u + (7 / 78))]]\n[[question b = ['w']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result if you add 7/78 to the difference of (39 / 9) and (44 / 69)?",
+      "new symbolic struct": "[[var y = 39/9 - 44/69]]\n[[var z = y + 7/78]]\n[[question a = ['z']]]",
+      "answer": "6791/1794",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-6-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((49 / 79) + (18 / 21))]]\n[[question c = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of 49/79 and 18/21.",
+      "new symbolic struct": "[[var x = 49/79 + 18/21]]\n[[question l = ['x']]]",
+      "answer": "817/553",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-6-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((49 / 79) + (18 / 21))]]\n[[var y = ((71 / 97) + n)]]\n[[question b = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After getting the sum of 49/79 and 18/21 from the previous problem, let's denote this sum as n. Calculate the result of adding 71/97 to n.",
+      "new symbolic struct": "[[var n = 49/79 + 18/21]]\n[[var y = n + 71/97]]\n[[question l = ['y']]]",
+      "answer": "118512/53641",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-6-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((49 / 3) + (18 / 21))]]\n[[question c = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous problem, we found the sum of 49/79 and 18/21. Now, let's alter the scenario a bit. Instead of having 49/79 part, let's say we have 49/3 part. Keeping the 18/21 part the same, what would be the new total? Calculate the sum of 49/3 and 18/21.",
+      "new symbolic struct": "[[var a = 49/79 + 18/21]]\n[[var b = 49/3 + 18/21]]\n[[question c = ['b']]]",
+      "answer": "361/21",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-7-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((95 / 46) + (65 / 31))]]\n[[question q = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 95/46 and 65/31?",
+      "new symbolic struct": "[[var a = 95/46 + 65/31]]\n[[question b = ['a']]]",
+      "answer": "5935/1426",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-7-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((95 / 46) + (65 / 31))]]\n[[var k = (t + t)]]\n[[question o = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What would be the addition of the results if we add 95/46 and 65/31 together twice?",
+      "new symbolic struct": "[[var a = 2*(95/46 + 65/31)]]\n[[question b = ['a']]]",
+      "answer": "5935/713",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-7-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((31 / 46) + (65 / 31))]]\n[[question q = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous question, we added 95/46 and 65/31. But what if we used 31/46 instead of 95/46? What's the result when we add 31/46 and 65/31?",
+      "new symbolic struct": "[[var a = 31/46 + 65/31]]\n[[question b = ['a']]]",
+      "answer": "3951/1426",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-8-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((25 / 63) + (74 / 6))]]\n[[question a = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 25 over 63 and 74 over 6?",
+      "new symbolic struct": "[[var x = 25/63 + 74/6]]\n[[question l = ['x']]]",
+      "answer": "802/63",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-8-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((25 / 63) + (74 / 6))]]\n[[var h = (b - (9 / 47))]]\n[[question s = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If you subtract 9 over 47 from the result obtained from summing 25 over 63 and 74 over 6, what new value do you get?",
+      "new symbolic struct": "[[var a = 25/63 + 74/6]]\n[[var b = a - 9/47]]\n[[question c = ['b']]]",
+      "answer": "37127/2961",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-8-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((25 / 63) + (6 / 6))]]\n[[question a = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What would be the new sum if we change the previous problem of adding 25 over 63 and 74 over 6 to now adding 25 over 63 and 6 over 6 instead?",
+      "new symbolic struct": "[[var x = 25/63 + 6/6]]\n[[question l = ['x']]]",
+      "answer": "88/63",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-9-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((79 / 91) + (100 / 47))]]\n[[question r = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 79/91 and 100/47?",
+      "new symbolic struct": "[[var x = 79/91 + 100/47]]\n[[question l = ['x']]]",
+      "answer": "12813/4277",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-9-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((79 / 91) + (100 / 47))]]\n[[var j = (c + c)]]\n[[question o = ['j']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of 79/91 and 100/47, what is the result if you add this sum to itself?",
+      "new symbolic struct": "[[var x = 79/91 + 100/47]]\n[[var y = 2 * x]]\n[[question l = ['y']]]",
+      "answer": "25626/4277",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-10-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var h = ((55 / 47) + (72 / 21))]]\n[[question w = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of ((55 / 47) + (72 / 21))?",
+      "new symbolic struct": "[[var a = 55/47 + 72/21]]\n[[question b = ['a']]]",
+      "answer": "1513/329",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-10-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var h = ((55 / 47) + (72 / 21))]]\n[[var r = ((52 / 28) + h)]]\n[[question s = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result from ((55 / 47) + (72 / 21)), what would you get if you add that result to (52 / 28)?",
+      "new symbolic struct": "[[var a = 55/47 + 72/21]]\n[[var b = a + 52/28]]\n[[question c = ['b']]]",
+      "answer": "2124/329",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-10-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var h = ((55 / 47) + (34 / 21))]]\n[[question w = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result from ((55 / 47) + (72 / 21)), what would the new result be if we changed the second fraction from (72 / 21) to (34 / 21) instead?",
+      "new symbolic struct": "[[var a = 55/47 + 72/21]]\n[[var c = 55/47 + 34/21]]\n[[question d = ['c']]]",
+      "answer": "2753/987",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-11-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((86 / 62) + (99 / 41))]]\n[[question p = ['d']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 86/62 and 99/41?",
+      "new symbolic struct": "[[var a = 86/62 + 99/41]]\n[[question b = ['a']]]",
+      "answer": "4832/1271",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-11-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((86 / 62) + (99 / 41))]]\n[[var q = (d - (57 / 52))]]\n[[question r = ['q']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result when you subtract 57/52 from the sum of 86/62 and 99/41?",
+      "new symbolic struct": "[[var a = 86/62 + 99/41]]\n[[var b = a - 57/52]]\n[[question c = ['b']]]",
+      "answer": "178817/66092",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-11-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((88 / 62) + (99 / 41))]]\n[[question p = ['d']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What would be the sum if the fraction was changed from 86/62 to 88/62? In other words, what is 88/62 + 99/41?",
+      "new symbolic struct": "[[var c = 88/62 + 99/41]]\n[[question d = ['c']]]",
+      "answer": "4873/1271",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-12-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var r = ((87 / 88) + (24 / 13))]]\n[[question x = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of 87/88 and 24/13.",
+      "new symbolic struct": "[[var s = 87/88 + 24/13]]\n[[question a = ['s']]]",
+      "answer": "3243/1144",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-12-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var r = ((87 / 88) + (24 / 13))]]\n[[var w = (r + (36 / 9))]]\n[[question t = ['w']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After you calculated the sum of 87/88 and 24/13, find the result when you add this sum to 36/9.",
+      "new symbolic struct": "[[var s = 87/88 + 24/13]]\n[[var r = s + 36/9]]\n[[question a = ['r']]]",
+      "answer": "7819/1144",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-12-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var r = ((87 / 83) + (24 / 13))]]\n[[question x = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After you calculated the sum of 87/88 and 24/13 and added 36/9 to this sum, reconsider the problem. This time, let's say we started with 87/83 instead of 87/88. What would be the sum of 87/83 and 24/13?",
+      "new symbolic struct": "[[var s1 = 87/88 + 24/13 + 36/9]]\n[[var s2 = 87/83 + 24/13]]\n[[question a = ['s2']]]",
+      "answer": "3123/1079",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-13-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((68 / 33) + (70 / 25))]]\n[[question v = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate ((68 / 33) + (70 / 25)). Write your answer in its simplest form.",
+      "new symbolic struct": "[[var a = 68 / 33]]\n[[var b = 70 / 25]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "802/165",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-13-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((68 / 33) + (70 / 25))]]\n[[var g = (z - (90 / 92))]]\n[[question w = ['g']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After you calculated the sum ((68 / 33) + (70 / 25)), now subtract (90 / 92) from the previous result. What is the new value?",
+      "new symbolic struct": "[[var a = 68 / 33]]\n[[var b = 70 / 25]]\n[[var c = a + b]]\n[[var d = 90 / 92]]\n[[var e = c - d]]\n[[question f = ['e']]]",
+      "answer": "29467/7590",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-13-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((68 / 33) + (39 / 25))]]\n[[question v = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Previously, you had calculated ((68 / 33) + (70 / 25)). Now consider if the 70 in the second term was replaced by 39. What value would you get when you calculate ((68 / 33) + (39 / 25))?",
+      "new symbolic struct": "[[var a = 68 / 33]]\n[[var b = 39 / 25]]\n[[var e = a + b]]\n[[question f = ['e']]]",
+      "answer": "2987/825",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-14-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((35 / 97) + (11 / 9))]]\n[[question j = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the summation of 35/97 and 11/9? Express the result in simplest form.",
+      "new symbolic struct": "[[var a = 35/97 + 11/9]]\n[[question b = ['a']]]",
+      "answer": "1382/873",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-14-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((35 / 97) + (11 / 9))]]\n[[var c = (b + (11 / 25))]]\n[[question m = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the summation of 35/97 and 11/9, what would be the result if you add 11/25 to that sum? Express the result as a simplified fraction.",
+      "new symbolic struct": "[[var a = 35/97 + 11/9]]\n[[var b = a + 11/25]]\n[[question c = ['b']]]",
+      "answer": "44153/21825",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-14-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((35 / 97) + (11 / 15))]]\n[[question j = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Suppose instead of adding 35/97 and 11/9, we change the problem slightly to adding 35/97 and 11/15. What would be the result of the sum? Express it in simplest form.",
+      "new symbolic struct": "[[var a = 35/97 + 11/15]]\n[[question b = ['a']]]",
+      "answer": "1592/1455",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-15-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var x = ((11 / 5) - (79 / 70))]]\n[[question o = ['x']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of subtracting 79/70 from 11/5?",
+      "new symbolic struct": "[[var a = 11/5 - 79/70]]\n[[question b = ['a']]]",
+      "answer": "15/14",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-15-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var x = ((11 / 5) - (79 / 70))]]\n[[var t = ((62 / 46) + x)]]\n[[question u = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result when you add 62/46 to your previous answer from subtracting 79/70 from 11/5?",
+      "new symbolic struct": "[[var a = 11/5 - 79/70]]\n[[var c = a + 62/46]]\n[[question d = ['c']]]",
+      "answer": "779/322",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-15-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var x = ((61 / 5) - (79 / 70))]]\n[[question o = ['x']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Previously, we solved for the difference when you subtracted 79/70 from 11/5. Now, consider what happens if you originally started with 61/5 instead of 11/5. What would be the result when you subtract 79/70 from this new value?",
+      "new symbolic struct": "[[var a = 61/5 - 79/70]]\n[[question b = ['a']]]",
+      "answer": "155/14",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-16-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var i = ((68 / 16) + (52 / 78))]]\n[[question r = ['i']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 68/16 and 52/78?",
+      "new symbolic struct": "[[var x = 68/16 + 52/78]]\n[[question l = ['x']]]",
+      "answer": "59/12",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-16-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var i = ((68 / 16) + (52 / 78))]]\n[[var d = (i + (37 / 38))]]\n[[question c = ['d']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Following the original problem of finding the sum of 68/16 and 52/78, now add 37/38 to that result. What is the new sum?",
+      "new symbolic struct": "[[var x = 68/16 + 52/78]]\n[[var y = x + 37/38]]\n[[question z = ['y']]]",
+      "answer": "1343/228",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-16-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var i = ((8 / 16) + (52 / 78))]]\n[[question r = ['i']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the original problem, we added 68/16 and 52/78. Now, consider what happens if we start with 8/16 instead of 68/16. What is the sum of 8/16 and 52/78?",
+      "new symbolic struct": "[[var m = 8/16]]\n[[var p = 52/78]]\n[[var q = m + p]]\n[[question r = ['q']]]",
+      "answer": "7/6",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-17-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((21 / 75) + (44 / 47))]]\n[[question e = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Find the sum of 21/75 and 44/47.",
+      "new symbolic struct": "[[var x = 21/75 + 44/47]]\n[[question y = ['x']]]",
+      "answer": "1429/1175",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-17-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((21 / 75) + (44 / 47))]]\n[[var u = (c + c)]]\n[[question l = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Now that you calculated the sum of 21/75 and 44/47, can you find out what would be the total of two such sums added together?",
+      "new symbolic struct": "[[var a = 21/75 + 44/47]]\n[[var b = 2 * a]]\n[[question c = ['b']]]",
+      "answer": "2858/1175",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-17-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((21 / 63) + (44 / 47))]]\n[[question e = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Previously, you computed the sum of 21/75 and 44/47. Now, imagine instead that the fraction was 21/63 rather than 21/75. What would the sum of 21/63 and 44/47 be?",
+      "new symbolic struct": "[[var x = 21/63 + 44/47]]\n[[question y = ['x']]]",
+      "answer": "179/141",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-18-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((77 / 5) + (4 / 11))]]\n[[question n = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the result of (77/5 + 4/11).",
+      "new symbolic struct": "[[var a = 77/5 + 4/11]]\n[[question b = ['a']]]",
+      "answer": "867/55",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-18-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((77 / 5) + (4 / 11))]]\n[[var r = (z + (94 / 60))]]\n[[question i = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result of (77/5 + 4/11), add that result to 94/60. What is the final answer?",
+      "new symbolic struct": "[[var a = 77/5 + 4/11]]\n[[var c = a + 94/60]]\n[[question d = ['c']]]",
+      "answer": "5719/330",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-18-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((77 / 5) + (4 / 79))]]\n[[question n = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Instead of the original problem (77/5 + 4/11), consider a change such that now we are adding 77/5 and 4/79 instead. In the context of the previous word problem, if we were originally adding parts of a recipe, we could consider the change as modifying one part of the recipe. What happens if we modify the recipe in this way, by replacing the quantity we originally added with 4/79?",
+      "new symbolic struct": "[[var c = 77/5 + 4/79]]\n[[question d = ['c']]]",
+      "answer": "6103/395",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-20-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((60 / 48) + (37 / 47))]]\n[[question g = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What's the sum of 60/48 and 37/47?",
+      "new symbolic struct": "[[var a = 60/48 + 37/47]]\n[[question b = ['a']]]",
+      "answer": "383/188",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-20-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((60 / 48) + (37 / 47))]]\n[[var i = (b + (35 / 35))]]\n[[question u = ['i']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of 60/48 and 37/47, what would you get if you then added 35/35 to your result?",
+      "new symbolic struct": "[[var a = 60/48 + 37/47]]\n[[var c = a + 35/35]]\n[[question d = ['c']]]",
+      "answer": "571/188",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-20-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((60 / 45) + (37 / 47))]]\n[[question g = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After reconsidering her grocery list, Jane decided to buy 60/45 kilograms of apples instead of 60/48. If she still buys 37/47 kilograms of oranges, what would be the total weight of the apples and oranges she buys?",
+      "new symbolic struct": "[[var a = 60/45 + 37/47]]\n[[question b = ['a']]]",
+      "answer": "299/141",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-21-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((14 / 72) + (25 / 6))]]\n[[question w = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Solve ((14 / 72) + (25 / 6)).",
+      "new symbolic struct": "[[var a = (14 / 72) + (25 / 6)]]\n[[question b = ['a']]]",
+      "answer": "157/36",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-21-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((14 / 72) + (25 / 6))]]\n[[var c = ((14 / 24) + z)]]\n[[question k = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In addition to the calculation you did in the last question, let's add another operation. Solve ((14 / 24) + ((14 / 72) + (25 / 6))).",
+      "new symbolic struct": "[[var a = 14 / 24]]\n[[var b = (14 / 72) + (25 / 6)]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "89/18",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-21-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((14 / 72) + (90 / 6))]]\n[[question w = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous problem, we calculated the sum ((14 / 72) + (25 / 6)). But what if we made a mistake and it wasn't 25/6 of something added, but it was actually 90/6? Given this new information, what would be the new value of ((14 / 72) + (90 / 6))?",
+      "new symbolic struct": "[[var a = (14 / 72) + (90 / 6)]]\n[[question b = ['a']]]",
+      "answer": "547/36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-22-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((84 / 97) + (25 / 2))]]\n[[question a = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 84/97 and 25/2?",
+      "new symbolic struct": "[[var x = 84/97 + 25/2]]\n[[question y = ['x']]]",
+      "answer": "2593/194",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-22-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((84 / 97) + (25 / 2))]]\n[[var y = (n - (100 / 71))]]\n[[question d = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of 84/97 and 25/2, subtract 100/71 from your result. What is the new result?",
+      "new symbolic struct": "[[var a = 84/97 + 25/2]]\n[[var b = a - 100/71]]\n[[question c = ['b']]]",
+      "answer": "164703/13774",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-22-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((84 / 96) + (25 / 2))]]\n[[question a = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After previously finding the sum of 84/97 and 25/2, now consider a new scenario. What if, instead of having 84 parts out of 97, we had 84 parts out of 96? What then would be the sum of these fractions: 84/96 and 25/2?",
+      "new symbolic struct": "[[var a = 84/96 + 25/2]]\n[[question b = ['a']]]",
+      "answer": "107/8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-23-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((66 / 20) - (4 / 78))]]\n[[question n = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the difference between the fractions 66/20 and 4/78?",
+      "new symbolic struct": "[[var a = 66/20]]\n[[var b = 4/78]]\n[[var c = a - b]]\n[[question d = ['c']]]",
+      "answer": "1267/390",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-23-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((66 / 20) - (4 / 78))]]\n[[var y = (v + (6 / 15))]]\n[[question h = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the difference between the fractions 66/20 and 4/78, what would the result be if you add 6/15 to your answer?",
+      "new symbolic struct": "[[var a = 66/20]]\n[[var b = 4/78]]\n[[var c = a - b]]\n[[var e = 6/15]]\n[[var f = c + e]]\n[[question g = ['f']]]",
+      "answer": "1423/390",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-23-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((66 / 21) - (4 / 78))]]\n[[question n = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Suppose that instead of having 66/20 in the original problem, we have 66/21. What would be the difference between the fractions 66/21 and 4/78?",
+      "new symbolic struct": "[[var e = 66/21]]\n[[var f = 4/78]]\n[[var g = e - f]]\n[[question h = ['g']]]",
+      "answer": "844/273",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-24-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((83 / 37) - (12 / 14))]]\n[[question o = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the expression: 83 divided by 37 minus 12 divided by 14.",
+      "new symbolic struct": "[[var a = 83/37 - 12/14]]\n[[question b = ['a']]]",
+      "answer": "359/259",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-24-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((83 / 37) - (12 / 14))]]\n[[var z = (u + (32 / 65))]]\n[[question h = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the value of 83 divided by 37 minus 12 divided by 14, add to your result the quantity 32 divided by 65. What sum do you get?",
+      "new symbolic struct": "[[var a = 83/37 - 12/14]]\n[[var b = a + 32/65]]\n[[question c = ['b']]]",
+      "answer": "31623/16835",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-24-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((83 / 38) - (12 / 14))]]\n[[question o = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Suppose instead of dividing 83 by 37 as in the previous problem, you divided 83 by 38 and then subtracted 12 divided by 14. What would be the result in that case?",
+      "new symbolic struct": "[[var c = 83/38 - 12/14]]\n[[question d = ['c']]]",
+      "answer": "353/266",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-25-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var g = ((95 / 57) + (28 / 80))]]\n[[question m = ['g']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 95/57 and 28/80?",
+      "new symbolic struct": "[[var a = 95/57 + 28/80]]\n[[question b = ['a']]]",
+      "answer": "121/60",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-25-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var g = ((95 / 57) + (28 / 80))]]\n[[var z = (g + g)]]\n[[question f = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If you double the sum of 95/57 and 28/80, what will you get?",
+      "new symbolic struct": "[[var a = 95/57 + 28/80]]\n[[var b = 2*a]]\n[[question c = ['b']]]",
+      "answer": "121/30",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-25-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var g = ((95 / 21) + (28 / 80))]]\n[[question m = ['g']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous problem you considered the sum of 95/57 and 28/80, now consider what would happen if you changed the 57 in the denominator of the first fraction to a 21. What would be the new sum of 95/21 and 28/80?",
+      "new symbolic struct": "[[var c = 95/21 + 28/80]]\n[[question d = ['c']]]",
+      "answer": "2047/420",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-26-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((14 / 57) + (92 / 42))]]\n[[question w = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of 14/57 and 92/42.",
+      "new symbolic struct": "[[var a = 14/57 + 92/42]]\n[[question b = ['a']]]",
+      "answer": "324/133",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-26-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((14 / 57) + (92 / 42))]]\n[[var o = (b - (38 / 65))]]\n[[question i = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If you subtract 38/65 from the sum of 14/57 and 92/42, what would be the result?",
+      "new symbolic struct": "[[var a = 14/57 + 92/42]]\n[[var result = a - 38/65]]\n[[question z = ['result']]]",
+      "answer": "16006/8645",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-26-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((14 / 57) + (32 / 42))]]\n[[question w = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous problem, you found the result of adding 14/57 and 92/42. Now consider a different scenario where instead of adding 92/42 you add 32/42 to 14/57. What would be the new result?",
+      "new symbolic struct": "[[var c = 14/57 + 32/42]]\n[[question d = ['c']]]",
+      "answer": "134/133",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-27-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((77 / 55) + (6 / 5))]]\n[[question w = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of ((77 / 55) + (6 / 5))?",
+      "new symbolic struct": "[[var a = 77/55 + 6/5]]\n[[question b = ['a']]]",
+      "answer": "13/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-27-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((77 / 55) + (6 / 5))]]\n[[var p = ((39 / 64) + n)]]\n[[question d = ['p']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If we add the previously calculated result to 39/64, what fraction do we get?",
+      "new symbolic struct": "[[var a = 77/55 + 6/5]]\n[[var b = a + 39/64]]\n[[question c = ['b']]]",
+      "answer": "1027/320",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-27-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((77 / 55) + (6 / 79))]]\n[[question w = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Let's change the previous problem a bit. Instead of adding 6/5, what if we added 6/79 to 77/55? What fraction would we get then?",
+      "new symbolic struct": "[[var c = 77/55 + 6/79]]\n[[question d = ['c']]]",
+      "answer": "583/395",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-28-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var y = ((56 / 8) + (90 / 86))]]\n[[question b = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the value of (56 / 8) + (90 / 86). How much does it equal?",
+      "new symbolic struct": "[[var x = (56 / 8) + (90 / 86)]]\n[[question y = ['x']]]",
+      "answer": "346/43",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-28-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var y = ((56 / 8) + (90 / 86))]]\n[[var i = (y - (41 / 76))]]\n[[question z = ['i']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Following the previous calculation of (56 / 8) + (90 / 86), what would the result be if you then subtracted (41 / 76) from that sum?",
+      "new symbolic struct": "[[var a = (56 / 8) + (90 / 86)]]\n[[var b = a - (41 / 76)]]\n[[question c = ['b']]]",
+      "answer": "24533/3268",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-28-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var y = ((56 / 8) + (90 / 91))]]\n[[question b = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous problem, we calculated the sum of (56 / 8) and (90 / 86). However, now consider the scenario where instead of 86 parts, the second fraction is divided into 91 parts. What would be the sum of (56 / 8) and (90 / 91)?",
+      "new symbolic struct": "[[var a = (56 / 8) + (90 / 91)]]\n[[question b = ['a']]]",
+      "answer": "727/91",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-29-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((23 / 20) + (82 / 97))]]\n[[question m = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 23/20 and 82/97?",
+      "new symbolic struct": "[[var x = 23/20 + 82/97]]\n[[question l = ['x']]]",
+      "answer": "3871/1940",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-29-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((23 / 20) + (82 / 97))]]\n[[var f = (c - (7 / 44))]]\n[[question d = ['f']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Previously, you found the sum of 23/20 and 82/97. Now, take that result and subtract 7/44 from it. What's the answer?",
+      "new symbolic struct": "[[var x = (23/20 + 82/97) - 7/44]]\n[[question l = ['x']]]",
+      "answer": "19593/10670",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-29-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((23 / 43) + (82 / 97))]]\n[[question m = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Previously, you found the sum of 23/20 and 82/97. Now imagine instead of 23/20, you have 23/43. What would be the new result if you add 23/43 and 82/97?",
+      "new symbolic struct": "[[var m = 23/43 + 82/97]]\n[[question n = ['m']]]",
+      "answer": "5757/4171",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-30-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((54 / 88) + (28 / 10))]]\n[[question u = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of 54/88 and 28/10.",
+      "new symbolic struct": "[[var a = 54/88 + 28/10]]\n[[question s = ['a']]]",
+      "answer": "751/220",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-30-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((54 / 88) + (28 / 10))]]\n[[var g = (n + (21 / 13))]]\n[[question t = ['g']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of 54/88 and 28/10, add this to 21/13 and find the resulting value.",
+      "new symbolic struct": "[[var a = 54/88 + 28/10]]\n[[var b = a + 21/13]]\n[[question s = ['b']]]",
+      "answer": "14383/2860",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-31-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((7 / 69) + (71 / 47))]]\n[[question a = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of the following operation: 7 / 69 + 71 / 47?",
+      "new symbolic struct": "[[var x = 7 / 69 + 71 / 47]]\n[[question y = ['x']]]",
+      "answer": "5228/3243",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-31-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((7 / 69) + (71 / 47))]]\n[[var x = (b + (61 / 7))]]\n[[question d = ['x']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result of the operation: 7 / 69 + 71 / 47, what is the outcome when you add 61 / 7 to that result?",
+      "new symbolic struct": "[[var x = 7/69 + 71/47]]\n[[var y = x + 61/7]]\n[[question z = ['y']]]",
+      "answer": "234419/22701",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-31-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((7 / 69) + (58 / 47))]]\n[[question a = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Following the previous question where you found the result of 7 / 69 + 71 / 47, now let's change the second fraction to 58 / 47 instead of 71 / 47. What is the result of the new operation: 7 / 69 + 58 / 47?",
+      "new symbolic struct": "[[var a = 7 / 69]]\n[[var b = 58 / 47]]\n[[var result = a + b]]\n[[question new_result = ['result']]]",
+      "answer": "4331/3243",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-32-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var r = ((15 / 32) + (65 / 15))]]\n[[question y = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 15/32 and 65/15?",
+      "new symbolic struct": "[[var a = 15/32 + 65/15]]\n[[question b = ['a']]]",
+      "answer": "461/96",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-32-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var r = ((15 / 32) + (65 / 15))]]\n[[var q = ((87 / 26) + r)]]\n[[question c = ['q']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 87/26 and the result of the previous problem ((15/32) + (65/15))?",
+      "new symbolic struct": "[[var a = 15/32 + 65/15]]\n[[var c = a + 87/26]]\n[[question d = ['c']]]",
+      "answer": "10169/1248",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-33-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((4 / 31) + (76 / 11))]]\n[[question j = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 4/31 and 76/11?",
+      "new symbolic struct": "[[var x = 4/31 + 76/11]]\n[[question y = ['x']]]",
+      "answer": "2400/341",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-33-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((4 / 31) + (76 / 11))]]\n[[var o = (c - (63 / 35))]]\n[[question m = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of 4/31 and 76/11, from that result subtract the fraction 63/35. What is the final result?",
+      "new symbolic struct": "[[var a = 4/31 + 76/11]]\n[[var b = a - 63/35]]\n[[question c = ['b']]]",
+      "answer": "8931/1705",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-33-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((42 / 31) + (76 / 11))]]\n[[question j = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous problem, instead of adding 4/31 to 76/11, what would the result be if we started with 42/31 and added it to 76/11 instead?",
+      "new symbolic struct": "[[var a = 42/31 + 76/11]]\n[[question b = ['a']]]",
+      "answer": "2818/341",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-34-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((82 / 15) + (100 / 12))]]\n[[question r = ['l']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum when you add 82/15 to 100/12?",
+      "new symbolic struct": "[[var a = 82/15]]\n[[var b = 100/12]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "69/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-34-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((82 / 15) + (100 / 12))]]\n[[var f = ((46 / 83) + l)]]\n[[question q = ['f']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Now, in addition to the previous question, what is the sum when you add the fraction 46/83 to the result of adding 82/15 and 100/12?",
+      "new symbolic struct": "[[var a = 82/15]]\n[[var b = 100/12]]\n[[var c = 46/83]]\n[[var d = a + b]]\n[[var e = d + c]]\n[[question f = ['e']]]",
+      "answer": "5957/415",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-34-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((61 / 15) + (100 / 12))]]\n[[question r = ['l']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Now suppose we made an adjustment. Instead of adding 82/15 to 100/12, we are going to add 61/15 to 100/12. What would be the new sum?",
+      "new symbolic struct": "[[var a = 61/15]]\n[[var b = 100/12]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "62/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-35-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var o = ((92 / 29) + (41 / 33))]]\n[[question n = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the result of the expression ((92 / 29) + (41 / 33)). Write your answer as a simplified fraction or a whole number.",
+      "new symbolic struct": "[[var a = 92 / 29]]\n[[var b = 41 / 33]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "4225/957",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-35-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var o = ((92 / 29) + (41 / 33))]]\n[[var b = (o + (55 / 26))]]\n[[question p = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After calculating the result of the expression ((92 / 29) + (41 / 33)), what do you get when you add the result to (55/26)? Write your answer as a simplified fraction or a whole number.",
+      "new symbolic struct": "[[var a = 92 / 29]]\n[[var b = 41 / 33]]\n[[var c = a + b]]\n[[var d = 55 / 26]]\n[[var e = c + d]]\n[[question f = ['e']]]",
+      "answer": "162485/24882",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-36-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var w = ((57 / 29) + (14 / 98))]]\n[[question f = ['w']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 57/29 and 14/98?",
+      "new symbolic struct": "[[var v = 57/29 + 14/98]]\n[[question w = ['v']]]",
+      "answer": "428/203",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-36-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var w = ((57 / 29) + (14 / 98))]]\n[[var s = (w - (78 / 92))]]\n[[question k = ['s']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If you subtract 78/92 from the sum of 57/29 and 14/98 (from the previous problem), what do you get?",
+      "new symbolic struct": "[[var x = 57/29 + 14/98]]\n[[var y = x - 78/92]]\n[[question z = ['y']]]",
+      "answer": "11771/9338",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-36-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var w = ((57 / 29) + (14 / 26))]]\n[[question f = ['w']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If instead of the sum of 57/29 and 14/98, you calculated the sum of 57/29 and 14/26, what would be the new answer?",
+      "new symbolic struct": "[[var x = 57/29 + 14/26]]\n[[question y = ['x']]]",
+      "answer": "944/377",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-37-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var p = ((70 / 25) + (83 / 28))]]\n[[question o = ['p']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Solve the given expression: 70/25 + 83/28.",
+      "new symbolic struct": "[[var x = 70/25 + 83/28]]\n[[question y = ['x']]]",
+      "answer": "807/140",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-37-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var p = ((70 / 25) + (83 / 28))]]\n[[var z = (p - (47 / 13))]]\n[[question r = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result from the previous problem: 70/25 + 83/28, what is the result when you subtract 47/13 from your answer?",
+      "new symbolic struct": "[[var x = 70/25 + 83/28]]\n[[var y = x - 47/13]]\n[[question z = ['y']]]",
+      "answer": "3911/1820",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-37-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var p = ((70 / 25) + (83 / 8))]]\n[[question o = ['p']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Let's revise the problem from before. If instead of having 70/25 oranges, you had 70/25 apples, and instead of having 83/28 more apples, you had 83/8 more oranges. What is the total of apples and oranges you have now?",
+      "new symbolic struct": "[[var a = 70/25]]\n[[var o = 83/8]]\n[[var total = a + o]]\n[[question t = ['total']]]",
+      "answer": "527/40",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-39-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((50 / 73) + (20 / 23))]]\n[[question b = ['d']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of adding the fractions 50/73 and 20/23?",
+      "new symbolic struct": "[[var y = 50/73 + 20/23]]\n[[question z = ['y']]]",
+      "answer": "2610/1679",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-39-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((50 / 73) + (20 / 23))]]\n[[var v = ((83 / 35) + d)]]\n[[question a = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If you add 83/35 to the result of adding the fractions 50/73 and 20/23, what is the total value?",
+      "new symbolic struct": "[[var y = 50/73 + 20/23]]\n[[var z = 83/35 + y]]\n[[question total = ['z']]]",
+      "answer": "230707/58765",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-39-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((50 / 57) + (20 / 23))]]\n[[question b = ['d']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous scenario, instead of having 50/73 of an hour left to complete your project, you have 50/57 of an hour left. Now, if you still have the additional 20/23 of an hour, how much total time do you have now?",
+      "new symbolic struct": "[[var y = 50/57 + 20/23]]\n[[question z = ['y']]]",
+      "answer": "2290/1311",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-40-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((49 / 57) + (89 / 99))]]\n[[question g = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the value of ((49 / 57) + (89 / 99))?",
+      "new symbolic struct": "[[var a = (49 / 57) + (89 / 99)]]\n[[question b = ['a']]]",
+      "answer": "3308/1881",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-40-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((49 / 57) + (89 / 99))]]\n[[var f = (c + c)]]\n[[question p = ['f']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the value of (49 / 57) + (89 / 99), what would be the sum if you add the resultant value to itself?",
+      "new symbolic struct": "[[var a = (49 / 57) + (89 / 99)]]\n[[var b = a + a]]\n[[question c = ['b']]]",
+      "answer": "6616/1881",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-40-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((59 / 57) + (89 / 99))]]\n[[question g = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Earlier you found out the sum of (49 / 57) + (89 / 99). Now suppose the numerator of the first fraction was increased from 49 to 59. What is the sum of (59 / 57) + (89 / 99)?",
+      "new symbolic struct": "[[var a = (49 / 57) + (89 / 99)]]\n[[var c = (59 / 57) + (89 / 99)]]\n[[question d = ['c']]]",
+      "answer": "3638/1881",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-41-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var y = ((94 / 35) - (23 / 49))]]\n[[question b = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the result of 94 / 35 - 23 / 49. Report your answer as a simplified fraction.",
+      "new symbolic struct": "[[var y = 94/35 - 23/49]]\n[[question z = ['y']]]",
+      "answer": "543/245",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-41-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var y = ((94 / 35) - (23 / 49))]]\n[[var k = ((27 / 72) + y)]]\n[[question u = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result of 94 / 35 - 23 / 49, add the result to the fraction 27 / 72. What is the final simplified fraction?",
+      "new symbolic struct": "[[var a = 94/35 - 23/49]]\n[[var b = a + 27/72]]\n[[question c = ['b']]]",
+      "answer": "5079/1960",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-41-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var y = ((54 / 35) - (23 / 49))]]\n[[question b = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Instead of 94 / 35, assume there were only 54 / 35 of something. You still subtract the same amount of 23 / 49. What is the new result as a simplified fraction?",
+      "new symbolic struct": "[[var a = 54/35]]\n[[var b = 23/49]]\n[[var y = a - b]]\n[[question z = ['y']]]",
+      "answer": "263/245",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-42-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((58 / 30) + (49 / 37))]]\n[[question u = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of 58/30 and 49/37 and leave your answer as a fraction.",
+      "new symbolic struct": "[[var a = 58/30]]\n[[var b = 49/37]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "1808/555",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-42-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((58 / 30) + (49 / 37))]]\n[[var p = (b + b)]]\n[[question k = ['p']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If the sum of 58/30 and 49/37 is represented by the variable 't', what would be the value of 't' added to 't'?",
+      "new symbolic struct": "[[var a = 58/30]]\n[[var b = 49/37]]\n[[var t = a + b]]\n[[var s = t + t]]\n[[question u = ['s']]]",
+      "answer": "3616/555",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-43-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((45 / 53) + (71 / 50))]]\n[[question z = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of 45/53 and 71/50.",
+      "new symbolic struct": "[[var x = 45/53 + 71/50]]\n[[question y = ['x']]]",
+      "answer": "6013/2650",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-43-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((45 / 53) + (71 / 50))]]\n[[var s = ((8 / 100) + k)]]\n[[question e = ['s']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After adding 45/53 and 71/50, add this sum to an additional 8/100. What is the final result?",
+      "new symbolic struct": "[[var x = 45/53 + 71/50]]\n[[var y = x + 8/100]]\n[[question z = ['y']]]",
+      "answer": "249/106",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-43-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((45 / 53) + (71 / 72))]]\n[[question z = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Instead of adding 45/53 and 71/50, let's now consider if we add 45/53 and 71/72. What result do we get?",
+      "new symbolic struct": "[[var x = 45/53 + 71/72]]\n[[question y = ['x']]]",
+      "answer": "7003/3816",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-44-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var r = ((36 / 72) + (49 / 1))]]\n[[question e = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of 36/72 and 49/1.",
+      "new symbolic struct": "[[var p = 36/72 + 49/1]]\n[[question q = ['p']]]",
+      "answer": "99/2",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-44-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var r = ((36 / 72) + (49 / 1))]]\n[[var y = (r - (48 / 10))]]\n[[question d = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After calculating the sum of 36/72 and 49/1, subtract 48/10 from the result. What is the final answer?",
+      "new symbolic struct": "[[var x = 36/72 + 49/1]]\n[[var y = x - 48/10]]\n[[question z = ['y']]]",
+      "answer": "447/10",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-44-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var r = ((36 / 72) + (14 / 1))]]\n[[question e = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Earlier, you calculated the sum of 36/72 and 49/1. But what if instead of adding 49/1, you only added 14/1? What would be the new sum?",
+      "new symbolic struct": "[[var r = 36/72 + 14/1]]\n[[question s = ['r']]]",
+      "answer": "29/2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-45-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((61 / 20) + (29 / 15))]]\n[[question z = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 61/20 and 29/15?",
+      "new symbolic struct": "[[var x = 61/20 + 29/15]]\n[[question l = ['x']]]",
+      "answer": "299/60",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-45-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((61 / 20) + (29 / 15))]]\n[[var y = ((58 / 31) + t)]]\n[[question e = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of 61/20 and 29/15, add that result to 58/31. What is the final answer?",
+      "new symbolic struct": "[[var a = 61/20 + 29/15]]\n[[var x = a + 58/31]]\n[[question l = ['x']]]",
+      "answer": "12749/1860",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-45-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((61 / 20) + (29 / 67))]]\n[[question z = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Previously you found the sum of 61/20 and 29/15. Now let's change the 15 in the denominator of the second fraction to 67, so that we are adding 61/20 and 29/67. What will the new sum be?",
+      "new symbolic struct": "[[var x_previous = 61/20 + 29/15]]\n[[var x_new = 61/20 + 29/67]]\n[[question l = ['x_new']]]",
+      "answer": "4667/1340",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-46-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((33 / 90) + (77 / 79))]]\n[[question b = ['d']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Solve the expression ((33 / 90) + (77 / 79)). Give your answer as an unsimplified fraction.",
+      "new symbolic struct": "[[var a = (33 / 90) + (77 / 79)]]\n[[question b = ['a']]]",
+      "answer": "3179/2370",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-46-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((33 / 90) + (77 / 79))]]\n[[var r = (d - (7 / 89))]]\n[[question y = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In continuation of the previous question, what would you get if you subtract 7/89 from the result of ((33 / 90) + (77 / 79))? Please give your answer as an unsimplified fraction.",
+      "new symbolic struct": "[[var a = (33 / 90) + (77 / 79)]]\n[[var c = a - 7/89]]\n[[question d = ['c']]]",
+      "answer": "266341/210930",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-46-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((33 / 90) + (98 / 79))]]\n[[question b = ['d']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Taking the previous problem into consideration, what if the fraction you were initially adding to 33/90 was 98/79 instead of 77/79? Solve the expression ((33 / 90) + (98 / 79)) and give your answer as an unsimplified fraction.",
+      "new symbolic struct": "[[var a = (33 / 90) + (77 / 79)]]\n[[var c = (33 / 90) + (98 / 79)]]\n[[question d = ['c']]]",
+      "answer": "3809/2370",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-47-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((30 / 79) + (29 / 6))]]\n[[question o = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 30/79 and 29/6? Give your answer as a fraction.",
+      "new symbolic struct": "[[var x = 30/79 + 29/6]]\n[[question y = ['x']]]",
+      "answer": "2471/474",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-47-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((30 / 79) + (29 / 6))]]\n[[var h = (v - (44 / 75))]]\n[[question c = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of 30/79 and 29/6, subtract 44/75 from it. What is the result?",
+      "new symbolic struct": "[[var a = 30/79 + 29/6]]\n[[var b = a - 44/75]]\n[[question c = ['b']]]",
+      "answer": "54823/11850",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-47-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((30 / 97) + (29 / 6))]]\n[[question o = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After recalculating, you realized you had 30/97 instead of 30/79. Now, add that to 29/6. What is the new result?",
+      "new symbolic struct": "[[var x = 30/97 + 29/6]]\n[[question y = ['x']]]",
+      "answer": "2993/582",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-48-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((59 / 2) - (11 / 66))]]\n[[question c = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the answer when you subtract 11/66 from 59/2?",
+      "new symbolic struct": "[[var a = 11/66]]\n[[var b = 59/2]]\n[[var c = b - a]]\n[[question d = ['c']]]",
+      "answer": "88/3",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-48-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((59 / 2) - (11 / 66))]]\n[[var f = ((63 / 51) + t)]]\n[[question q = ['f']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 63/51 and the result of subtracting 11/66 from 59/2?",
+      "new symbolic struct": "[[var a = 11/66]]\n[[var b = 59/2]]\n[[var c = b - a]]\n[[var e = 63/51]]\n[[var f = e + c]]\n[[question g = ['f']]]",
+      "answer": "1559/51",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-48-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((59 / 2) - (11 / 31))]]\n[[question c = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What would the result be if we subtracted 11/31 instead of 11/66 from 59/2 in the previous problem?",
+      "new symbolic struct": "[[var a = 11/31]]\n[[var b = 59/2]]\n[[var c = b - a]]\n[[question d = ['c']]]",
+      "answer": "1807/62",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-49-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var s = ((58 / 23) + (25 / 26))]]\n[[question c = ['s']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Consider these two fractions: 58/23 and 25/26. What is the sum when those two fractions are added together?",
+      "new symbolic struct": "[[var a = 58/23]]\n[[var b = 25/26]]\n[[var c = a + b]]\n[[question result = ['c']]]",
+      "answer": "2083/598",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-49-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var s = ((45 / 23) + (25 / 26))]]\n[[question c = ['s']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "We previously calculated the sum of the fractions 58/23 and 25/26. Now, suppose we had started with 45/23 instead of 58/23. How does the sum of 45/23 and 25/26 compare to the original calculation?",
+      "new symbolic struct": "[[var a1 = 45/23]]\n[[var b = 25/26]]\n[[var c1 = a1 + b]]\n[[question result1 = ['c1']]]",
+      "answer": "1745/598",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-50-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((70 / 13) + (17 / 52))]]\n[[question e = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of the fractions 70/13 and 17/52.",
+      "new symbolic struct": "[[var x = 70/13 + 17/52]]\n[[question y = ['x']]]",
+      "answer": "297/52",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-50-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((70 / 13) + (17 / 52))]]\n[[var l = (b - (35 / 87))]]\n[[question j = ['l']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After calculating the sum of the fractions 70/13 and 17/52, subtract 35/87 from the result. What is your new answer?",
+      "new symbolic struct": "[[var x = 70/13 + 17/52]]\n[[var y = x - 35/87]]\n[[question z = ['y']]]",
+      "answer": "24019/4524",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-50-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((70 / 93) + (17 / 52))]]\n[[question e = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After reconsidering the quantities, suppose that originally there were 70/93 oranges instead of 70/13. Recalculate the sum of the fractions with this quantity of oranges and 17/52 apples. What is your new answer?",
+      "new symbolic struct": "[[var a = 70/93 + 17/52]]\n[[question b = ['a']]]",
+      "answer": "5221/4836",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-52-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var j = ((78 / 44) + (17 / 91))]]\n[[question m = ['j']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 78/44 and 17/91?",
+      "new symbolic struct": "[[var a = 78/44 + 17/91]]\n[[question b = ['a']]]",
+      "answer": "3923/2002",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-52-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var j = ((78 / 44) + (17 / 91))]]\n[[var z = ((84 / 34) + j)]]\n[[question x = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Next, what is the result if you add the sum of 84/34 to the result of the previous problem (the sum of 78/44 and 17/91)?",
+      "new symbolic struct": "[[var a = 78/44 + 17/91]]\n[[var b = a + 84/34]]\n[[question c = ['b']]]",
+      "answer": "150775/34034",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-52-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var j = ((78 / 44) + (17 / 67))]]\n[[question m = ['j']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Suppose that instead of the previous problem where we added 78/44 and 17/91, we actually had to add 78/44 and 17/67 instead. What would be the new sum?",
+      "new symbolic struct": "[[var c = 78/44 + 17/67]]\n[[question d = ['c']]]",
+      "answer": "2987/1474",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-53-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var r = ((43 / 4) + (71 / 4))]]\n[[question l = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 43/4 and 71/4?",
+      "new symbolic struct": "[[var s = 43/4 + 71/4]]\n[[question t = ['s']]]",
+      "answer": "57/2",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-53-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var r = ((43 / 4) + (71 / 4))]]\n[[var t = (r + (92 / 79))]]\n[[question v = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 43/4 and 71/4 plus 92/79?",
+      "new symbolic struct": "[[var a = 43/4 + 71/4]]\n[[var b = a + 92/79]]\n[[question c = ['b']]]",
+      "answer": "4687/158",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-53-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var r = ((43 / 4) + (71 / 89))]]\n[[question l = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What if instead of adding 71/4, we added 71/89 to 43/4? What would be the new total?",
+      "new symbolic struct": "[[var u = 43/4 + 71/89]]\n[[question v = ['u']]]",
+      "answer": "4111/356",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-54-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var f = ((17 / 74) + (53 / 27))]]\n[[question v = ['f']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of adding the fractions 17/74 and 53/27?",
+      "new symbolic struct": "[[var x = 17/74 + 53/27]]\n[[question l = ['x']]]",
+      "answer": "4381/1998",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-54-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var f = ((17 / 74) + (53 / 27))]]\n[[var l = (f - (23 / 29))]]\n[[question o = ['l']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If the result from the previous calculation is subtracted by 23/29, what is the final result?",
+      "new symbolic struct": "[[var a = 17/74 + 53/27]]\n[[var b = a - 23/29]]\n[[question c = ['b']]]",
+      "answer": "81095/57942",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-54-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var f = ((28 / 74) + (53 / 27))]]\n[[question v = ['f']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If initially, instead of having 17/74 of the fruit basket filled with oranges, we had 28/74 of it filled with oranges, and we still added the same 53/27 fraction of the basket filled with apples, then what would the total fraction of the fruit basket be when filled with these fruits?",
+      "new symbolic struct": "[[var x = 28/74 + 53/27]]\n[[question l = ['x']]]",
+      "answer": "2339/999",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-55-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((76 / 76) + (96 / 16))]]\n[[question a = ['l']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Compute the value of (76/76) + (96/16).",
+      "new symbolic struct": "[[var a = (76/76) + (96/16)]]\n[[question x = ['a']]]",
+      "answer": "7",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-55-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((76 / 76) + (96 / 16))]]\n[[var c = (l + l)]]\n[[question o = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the value of (76/76) + (96/16), what is the result when you add the solution to itself?",
+      "new symbolic struct": "[[var a = (76/76) + (96/16)]]\n[[var s = a + a]]\n[[question x = ['s']]]",
+      "answer": "14",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-55-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((76 / 76) + (96 / 33))]]\n[[question a = ['l']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "You originally calculated (76/76) + (96/16). Now reconsider your thought, what would be the new total if the second fraction was 96/33 instead of 96/16?",
+      "new symbolic struct": "[[var a = (76/76) + (96/33)]]\n[[question x = ['a']]]",
+      "answer": "43/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-56-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((94 / 14) - (50 / 90))]]\n[[question c = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of ((94 / 14) - (50 / 90))? Answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 94/14]]\n[[var b = 50/90]]\n[[var c = a - b]]\n[[question d = ['c']]]",
+      "answer": "388/63",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-56-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((94 / 14) - (50 / 19))]]\n[[question c = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After calculating the result of ((94 / 14) - (50 / 90)), reconsider the calculation by replacing (50 / 90) with (50 / 19) instead. What is the result of ((94 / 14) - (50 / 19))? What is the final result as a simplified fraction?",
+      "new symbolic struct": "[[var a1 = 94/14]]\n[[var b1 = 50/19]]\n[[var c1 = a1 - b1]]\n[[question d1 = ['c1']]]",
+      "answer": "543/133",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-57-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var a = ((33 / 7) - (29 / 79))]]\n[[question y = ['a']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of subtracting twenty-nine seventy-ninths from thirty-three sevenths?",
+      "new symbolic struct": "[[var t = 33/7 - 29/79]]\n[[question u = ['t']]]",
+      "answer": "2404/553",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-57-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var a = ((33 / 7) - (29 / 79))]]\n[[var i = (a - (61 / 76))]]\n[[question u = ['i']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Now, after you found the result of subtracting 29/79 from 33/7, what would you get if you subtract 61/76 from that earlier result?",
+      "new symbolic struct": "[[var t = 33/7 - 29/79]]\n[[var v = t - 61/76]]\n[[question w = ['v']]]",
+      "answer": "148971/42028",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-57-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var a = ((33 / 7) - (11 / 79))]]\n[[question y = ['a']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Suppose in the previous problem, instead of subtracting 29/79 from 33/7, we subtract 11/79 from 33/7. What would be the new result?",
+      "new symbolic struct": "[[var v = 33/7 - 11/79]]\n[[question w = ['v']]]",
+      "answer": "2530/553",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-58-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var e = ((60 / 79) + (53 / 38))]]\n[[question m = ['e']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 60/79 and 53/38?",
+      "new symbolic struct": "[[var y = 60/79 + 53/38]]\n[[question z = ['y']]]",
+      "answer": "6467/3002",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-58-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var e = ((60 / 79) + (53 / 38))]]\n[[var d = ((5 / 11) + e)]]\n[[question q = ['d']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the new total if you add 5/11 to the previous result of 60/79 and 53/38?",
+      "new symbolic struct": "[[var a = 60/79 + 53/38]]\n[[var b = a + 5/11]]\n[[question c = ['b']]]",
+      "answer": "86147/33022",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-58-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var e = ((79 / 79) + (53 / 38))]]\n[[question m = ['e']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What would be the new sum if instead of 60/79 in the previous problem, we had 79/79? So, what is 79/79 + 53/38?",
+      "new symbolic struct": "[[var a = 79/79 + 53/38]]\n[[question b = ['a']]]",
+      "answer": "91/38",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-59-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var m = ((39 / 48) + (19 / 84))]]\n[[question q = ['m']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Solve the following fraction equation: 39/48 + 19/84.",
+      "new symbolic struct": "[[var a = 39/48 + 19/84]]\n[[question b = ['a']]]",
+      "answer": "349/336",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-59-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var m = ((39 / 48) + (19 / 84))]]\n[[var n = (m + m)]]\n[[question o = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After calculating the value of 39/48 + 19/84, what would be the result if you added the obtained result to itself?",
+      "new symbolic struct": "[[var a = 39/48 + 19/84]]\n[[var b = 2*a]]\n[[question c = ['b']]]",
+      "answer": "349/168",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-59-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var m = ((39 / 48) + (19 / 13))]]\n[[question q = ['m']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If instead of adding 39/48 and 19/84, you were to add 39/48 and 19/13, what would be the result?",
+      "new symbolic struct": "[[var a = 39/48 + 19/13]]\n[[question b = ['a']]]",
+      "answer": "473/208",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-60-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((16 / 86) + (60 / 3))]]\n[[question b = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 16/86 and 60/3?",
+      "new symbolic struct": "[[var x = 16/86 + 60/3]]\n[[question l = ['x']]]",
+      "answer": "868/43",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-60-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((16 / 86) + (60 / 3))]]\n[[var i = ((86 / 82) + u)]]\n[[question s = ['i']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Given the sum you found in the last problem, add that number to 86/82. What is the result?",
+      "new symbolic struct": "[[var a = 16/86 + 60/3]]\n[[var b = a + 86/82]]\n[[question z = ['b']]]",
+      "answer": "37437/1763",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-60-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((75 / 86) + (60 / 3))]]\n[[question b = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What if we change the previous problem so that instead of sharing 75/86 of a pie, we share 75/86 of it, and instead of adding 60/3 slices, we still add 60/3 slices to it. What is the total number of slices now?",
+      "new symbolic struct": "[[var x = 75/86 + 60/3]]\n[[question l = ['x']]]",
+      "answer": "1795/86",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-61-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((95 / 69) + (67 / 9))]]\n[[question d = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Solve the following equation: ((95 / 69) + (67 / 9))",
+      "new symbolic struct": "[[var a = (95 / 69) + (67 / 9)]]\n[[question r = ['a']]]",
+      "answer": "1826/207",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-61-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((95 / 69) + (67 / 9))]]\n[[var n = ((73 / 40) + z)]]\n[[question a = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After you solve the equation from the previous question ((95 / 69) + (67 / 9)), add the result to the fraction 73 / 40. What is the final result?",
+      "new symbolic struct": "[[var a = (95 / 69) + (67 / 9)]]\n[[var b = a + 73/40]]\n[[question r = ['b']]]",
+      "answer": "88151/8280",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-61-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var z = ((95 / 79) + (67 / 9))]]\n[[question d = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Suppose in the previous problem, instead of using the fraction (95 / 69), we used a slightly different fraction, (95 / 79). In this case, how would the result change when you add it to (67 / 9)?",
+      "new symbolic struct": "[[var b = (95 / 79) + (67 / 9)]]\n[[question t = ['b']]]",
+      "answer": "6148/711",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-62-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var q = ((95 / 16) - (43 / 60))]]\n[[question c = ['q']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the result of 95 / 16 - 43 / 60.",
+      "new symbolic struct": "[[var a = 95 / 16 - 43 / 60]]\n[[question b = ['a']]]",
+      "answer": "1253/240",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-62-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var q = ((95 / 16) - (43 / 60))]]\n[[var w = ((80 / 79) + q)]]\n[[question b = ['w']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result of 95 / 16 - 43 / 60, add the result to 80 / 79. What is the final answer?",
+      "new symbolic struct": "[[var a = 95 / 16 - 43 / 60]]\n[[var b = a + 80 / 79]]\n[[question c = ['b']]]",
+      "answer": "118187/18960",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-62-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var q = ((91 / 16) - (43 / 60))]]\n[[question c = ['q']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result of 95 / 16 - 43 / 60 in the previous problem, let's change it a bit. What if instead of 95/16, you had 91/16 and you subtracted 43/60 from it? What would the new result be?",
+      "new symbolic struct": "[[var a = 95 / 16 - 43 / 60]]\n[[var c = 91 / 16 - 43 / 60]]\n[[question d = ['c']]]",
+      "answer": "1193/240",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-63-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var h = ((38 / 8) + (4 / 16))]]\n[[question f = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of the fractions 38/8 and 4/16?",
+      "new symbolic struct": "[[var x = 38/8 + 4/16]]\n[[question y = ['x']]]",
+      "answer": "5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-63-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var h = ((38 / 8) + (4 / 16))]]\n[[var q = ((32 / 64) + h)]]\n[[question x = ['q']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Recalling the fraction calculation from the previous problem (38/8 and 4/16), what is the new total if you were to add 32/64 to this sum?",
+      "new symbolic struct": "[[var a = 38/8 + 4/16]]\n[[var b = a + 32/64]]\n[[question c = ['b']]]",
+      "answer": "11/2",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-63-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var h = ((12 / 8) + (4 / 16))]]\n[[question f = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous problem, we considered the sum of the fractions 38/8 and 4/16 and then added 32/64. Now, instead of 38/8, let's consider 12/8. What would be the new sum if you added 12/8 and 4/16 together?",
+      "new symbolic struct": "[[var x = 38/8 + 4/16]]\n[[var y = 32/64 + x]]\n[[var a = 12/8 + 4/16]]\n[[question b = ['a']]]",
+      "answer": "7/4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-64-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((67 / 15) - (27 / 12))]]\n[[question j = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the result of 67 / 15 - 27 / 12.",
+      "new symbolic struct": "[[var x = 67/15 - 27/12]]\n[[question y = ['x']]]",
+      "answer": "133/60",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-64-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((67 / 15) - (27 / 12))]]\n[[var w = (k - (7 / 35))]]\n[[question x = ['w']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After calculating 67 / 15 - 27 / 12 from the previous problem, what would be the result if you subtract 7 / 35 from your answer?",
+      "new symbolic struct": "[[var a = 67/15 - 27/12]]\n[[var b = a - 7/35]]\n[[question c = ['b']]]",
+      "answer": "121/60",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-64-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((67 / 15) - (27 / 50))]]\n[[question j = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous question, we considered the difference between 67 / 15 and 27 / 12. Now, if there were only 27 / 50 instead of 27 / 12, what would the difference between the 67 / 15 and this new value be?",
+      "new symbolic struct": "[[var a = 67/15 - 27/50]]\n[[question b = ['a']]]",
+      "answer": "589/150",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-65-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((38 / 59) + (80 / 94))]]\n[[question x = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of 38/59 and 80/94.",
+      "new symbolic struct": "[[var a = 38/59 + 80/94]]\n[[question b = ['a']]]",
+      "answer": "4146/2773",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-65-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((38 / 59) + (80 / 94))]]\n[[var c = (n + (84 / 30))]]\n[[question l = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If you add 84/30 to the sum of 38/59 and 80/94, what is the resultant value?",
+      "new symbolic struct": "[[var a = 38/59 + 80/94]]\n[[var b = a + 84/30]]\n[[question c = ['b']]]",
+      "answer": "59552/13865",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-65-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((38 / 39) + (80 / 94))]]\n[[question x = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If instead of 38/59, the fraction was 38/39, what would be the new sum when combined with 80/94?",
+      "new symbolic struct": "[[var a = 38/59 + 80/94]]\n[[var c = 38/39 + 80/94]]\n[[question d = ['c']]]",
+      "answer": "3346/1833",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-66-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var g = ((10 / 14) + (70 / 20))]]\n[[question j = ['g']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of 10/14 and 70/20. Report your answer as a decimal.",
+      "new symbolic struct": "[[var a = 10/14 + 70/20]]\n[[question b = ['a']]]",
+      "answer": "59/14",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-66-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var g = ((10 / 14) + (70 / 20))]]\n[[var s = ((100 / 20) + g)]]\n[[question b = ['s']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After calculating the sum of 10/14 and 70/20, add this result to 100/20. What is the new total?",
+      "new symbolic struct": "[[var a = 10/14 + 70/20]]\n[[var b = a + 100/20]]\n[[question c = ['b']]]",
+      "answer": "129/14",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-66-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var g = ((10 / 18) + (70 / 20))]]\n[[question j = ['g']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After reviewing your previous calculation, you realize that the first fraction was not 10/14 but actually 10/18. Now find the sum of the corrected fraction, 10/18 and the same second fraction, 70/20. What is the revised total?",
+      "new symbolic struct": "[[var a = 10/18 + 70/20]]\n[[question b = ['a']]]",
+      "answer": "73/18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-68-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((33 / 5) - (19 / 44))]]\n[[question w = ['l']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of subtracting 19/44 from 33/5?",
+      "new symbolic struct": "[[var x = 33/5 - 19/44]]\n[[question y = ['x']]]",
+      "answer": "1357/220",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-68-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((33 / 5) - (19 / 44))]]\n[[var r = ((32 / 76) + l)]]\n[[question z = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result of subtracting 19/44 from 33/5, what will be the resulting fraction when you add 32/76 to the previous outcome?",
+      "new symbolic struct": "[[var a = 33/5 - 19/44]]\n[[var b = a + 32/76]]\n[[question c = ['b']]]",
+      "answer": "27543/4180",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-68-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var l = ((33 / 5) - (17 / 44))]]\n[[question w = ['l']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Previously, we calculated the result of subtracting 19/44 from 33/5. But what if instead of subtracting 19/44, we subtracted 17/44 from 33/5? What would be the new result?",
+      "new symbolic struct": "[[var x_previous = 33/5 - 19/44]]\n[[var x_new = 33/5 - 17/44]]\n[[question y = ['x_new']]]",
+      "answer": "1367/220",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-69-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var o = ((97 / 13) + (62 / 22))]]\n[[question e = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Find the result for (97 / 13) + (62 / 22). Answer as a decimal to the nearest hundredth.",
+      "new symbolic struct": "[[var a = 97 / 13]]\n[[var b = 62 / 22]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "1470/143",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-69-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var o = ((97 / 13) + (62 / 22))]]\n[[var c = (o - (35 / 70))]]\n[[question g = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding out the result for (97 / 13) + (62 / 22), subtract the value of (35 / 70) from it. What value do you get after performing this operation?",
+      "new symbolic struct": "[[var a = 97 / 13]]\n[[var b = 62 / 22]]\n[[var c = a + b]]\n[[var d = 35 / 70]]\n[[var e = c - d]]\n[[question f = ['e']]]",
+      "answer": "2797/286",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-69-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var o = ((97 / 13) + (62 / 90))]]\n[[question e = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After previously calculating the result of (97 / 13) + (62 / 22), let's reconsider the problem. What if originally, we had (62 / 90) instead of (62 / 22)? Find the new result when you add (97 / 13) to (62 / 90).",
+      "new symbolic struct": "[[var a = 97 / 13]]\n[[var e = 62 / 90]]\n[[var f = a + e]]\n[[question g = ['f']]]",
+      "answer": "4768/585",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-70-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((78 / 35) + (30 / 60))]]\n[[question y = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 78 divided by 35 and 30 divided by 60?",
+      "new symbolic struct": "[[var a = 78 / 35]]\n[[var b = 30 / 60]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "191/70",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-71-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var o = ((49 / 75) + (88 / 58))]]\n[[question b = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 49/75 and 88/58?",
+      "new symbolic struct": "[[var a = 49/75 + 88/58]]\n[[question s = ['a']]]",
+      "answer": "4721/2175",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-71-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var o = ((49 / 75) + (88 / 58))]]\n[[var h = (o + (3 / 82))]]\n[[question u = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Following the previous problem, suppose we now also add 3/82 to the sum of 49/75 and 88/58, what would the new sum be?",
+      "new symbolic struct": "[[var b = 49/75 + 88/58 + 3/82]]\n[[question t = ['b']]]",
+      "answer": "393647/178350",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-71-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var o = ((12 / 75) + (88 / 58))]]\n[[question b = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Now consider a different scenario where we started with 12/75 instead of 49/75, and we still add 88/58. What would we get as the sum in this case?",
+      "new symbolic struct": "[[var b = 12/75 + 88/58]]\n[[question r = ['b']]]",
+      "answer": "1216/725",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-72-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((50 / 2) - (50 / 32))]]\n[[question a = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of ((50 / 2) - (50 / 32))?",
+      "new symbolic struct": "[[var a = (50 / 2) - (50 / 32)]]\n[[question b = ['a']]]",
+      "answer": "375/16",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-72-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((50 / 2) - (50 / 32))]]\n[[var w = ((72 / 81) + c)]]\n[[question v = ['w']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Following up on our previous question, what is the result when you add (72 / 81) to the difference between (50 / 2) and (50 / 32)?",
+      "new symbolic struct": "[[var a = (50 / 2) - (50 / 32)]]\n[[var c = a + (72 / 81)]]\n[[question d = ['c']]]",
+      "answer": "3503/144",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-72-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((50 / 2) - (50 / 91))]]\n[[question a = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Following the previous problem, consider this change, what would the result be if instead of dividing by 32, you divide 50 by 91? What would be the new result for ((50 / 2) - (50 / 91))?",
+      "new symbolic struct": "[[var c = (50 / 2) - (50 / 91)]]\n[[question d = ['c']]]",
+      "answer": "2225/91",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-73-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((77 / 30) + (18 / 51))]]\n[[question r = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of ((77 / 30) + (18 / 51))?",
+      "new symbolic struct": "[[var v = (77 / 30) + (18 / 51)]]\n[[question t = ['v']]]",
+      "answer": "1489/510",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-73-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((77 / 30) + (18 / 51))]]\n[[var s = (u + u)]]\n[[question t = ['s']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result when you add the sum of ((77 / 30) + (18 / 51)) to itself?",
+      "new symbolic struct": "[[var v = (77 / 30) + (18 / 51)]]\n[[var u = v + v]]\n[[question t = ['u']]]",
+      "answer": "1489/255",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-73-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((77 / 30) + (18 / 74))]]\n[[question r = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result if instead of adding (18 / 51), we add (18 / 74) to (77 / 30)?",
+      "new symbolic struct": "[[var v1 = (77 / 30) + (18 / 74)]]\n[[question t1 = ['v1']]]",
+      "answer": "3119/1110",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-75-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((36 / 37) + (8 / 4))]]\n[[question w = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of (36 / 37) + (8 / 4)?",
+      "new symbolic struct": "[[var x = 36 / 37 + 8 / 4]]\n[[question y = ['x']]]",
+      "answer": "110/37",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-75-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((36 / 37) + (8 / 4))]]\n[[var t = (k + k)]]\n[[question c = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "First, calculate (36 / 37) + (8 / 4). Then, add the result to itself. What is the final result?",
+      "new symbolic struct": "[[var a = 36 / 37 + 8 / 4]]\n[[var b = a + a]]\n[[question c = ['b']]]",
+      "answer": "220/37",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-75-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((36 / 37) + (8 / 56))]]\n[[question w = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Initially, you calculated (36 / 37) + (8 / 4) and added the result to itself. Now, suppose the initial calculation was actually (36 / 37) + (8 / 56) instead. What is the new result?",
+      "new symbolic struct": "[[var a = 36 / 37 + 8 / 4]]\n[[var b = a + a]]\n[[var c = 36 / 37 + 8 / 56]]\n[[question d = ['c']]]",
+      "answer": "289/259",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-76-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((57 / 22) - (72 / 48))]]\n[[question n = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the result of (57 / 22) - (72 / 48) expressing your answer as a fraction in the simplest form.",
+      "new symbolic struct": "[[var a = 57/22]]\n[[var b = 72/48]]\n[[var c = a - b]]\n[[question answer = ['c']]]",
+      "answer": "12/11",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-76-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((57 / 22) - (72 / 48))]]\n[[var w = (b + b)]]\n[[question r = ['w']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the result of (57 / 22) - (72 / 48) expressing your answer as a fraction in the simplest form. Then, add this result to itself. What is the final simplified fraction?",
+      "new symbolic struct": "[[var a = 57/22]]\n[[var b = 72/48]]\n[[var c = a - b]]\n[[var d = c + c]]\n[[question answer = ['d']]]",
+      "answer": "24/11",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-76-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((57 / 22) - (72 / 100))]]\n[[question n = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Originally, you calculated the result of (57 / 22) - (72 / 48) and expressed your answer as a fraction in the simplest form. Now, consider the scenario where you miscalculated and the second fraction was actually (72 / 100) instead of (72 / 48). Recalculate the expression (57 / 22) - (72 / 100). What is the final simplified fraction in this case?",
+      "new symbolic struct": "[[var a = 57/22]]\n[[var b = 72/100]]\n[[var c = a - b]]\n[[question answer = ['c']]]",
+      "answer": "1029/550",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-77-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var m = ((48 / 16) + (12 / 29))]]\n[[question q = ['m']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 48 divided by 16 and 12 divided by 29?",
+      "new symbolic struct": "[[var a = 48/16]]\n[[var b = 12/29]]\n[[question c = ['a + b']]]",
+      "answer": "99/29",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-77-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var m = ((48 / 16) + (12 / 29))]]\n[[var x = (m + m)]]\n[[question e = ['x']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If the sum of 48 divided by 16 and 12 divided by 29 is represented as a variable, what would be the value if we add this variable to itself?",
+      "new symbolic struct": "[[var a = 48/16]]\n[[var b = 12/29]]\n[[var c = a + b]]\n[[question d = ['2 * c']]]",
+      "answer": "198/29",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-77-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var m = ((48 / 16) + (12 / 32))]]\n[[question q = ['m']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Earlier, we found the sum of 48 divided by 16 and 12 divided by 29. Now, consider if the second fraction was 12 divided by 32 instead of 12 divided by 29. What would be the new sum?",
+      "new symbolic struct": "[[var d = 48/16]]\n[[var e = 12/32]]\n[[question f = ['d + e']]]",
+      "answer": "27/8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-78-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var e = ((37 / 20) + (16 / 75))]]\n[[question l = ['e']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 37/20 and 16/75? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 37/20 + 16/75]]\n[[question b = ['a']]]",
+      "answer": "619/300",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-78-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var e = ((37 / 20) + (16 / 75))]]\n[[var o = ((61 / 80) + e)]]\n[[question v = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In addition to the previously computed sum of 37/20 and 16/75, now add the fraction 61/80 to this sum. What is the total when all three fractions are added together?",
+      "new symbolic struct": "[[var a = 37/20 + 16/75]]\n[[var b = a + 61/80]]\n[[question c = ['b']]]",
+      "answer": "3391/1200",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-78-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var e = ((60 / 20) + (16 / 75))]]\n[[question l = ['e']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If there originally were 60/20 portions of a cake and you added 16/75 portions of another cake to it, how much cake would you have in total? Please write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = 60/20 + 16/75]]\n[[question d = ['c']]]",
+      "answer": "241/75",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-79-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var h = ((83 / 40) + (6 / 8))]]\n[[question l = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the summation: 83/40 + 6/8.",
+      "new symbolic struct": "[[var c = 83/40 + 6/8]]\n[[question d = ['c']]]",
+      "answer": "113/40",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-79-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var h = ((83 / 40) + (6 / 8))]]\n[[var t = (h - (24 / 64))]]\n[[question p = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result of 83/40 + 6/8, subtract 24/64 from it. What do you get?",
+      "new symbolic struct": "[[var e = 83/40 + 6/8]]\n[[var f = e - 24/64]]\n[[question g = ['f']]]",
+      "answer": "49/20",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-79-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var h = ((83 / 18) + (6 / 8))]]\n[[question l = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After adjusting our original calculation, we now have 83/18 instead of 83/40. So now, what is the result of 83/18 + 6/8?",
+      "new symbolic struct": "[[var e = 83/18 + 6/8]]\n[[question f = ['e']]]",
+      "answer": "193/36",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-80-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var h = ((37 / 69) + (67 / 61))]]\n[[question l = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Find the result of the addition of the fractions 37/69 and 67/61.",
+      "new symbolic struct": "[[var a = 37/69 + 67/61]]\n[[question b = ['a']]]",
+      "answer": "6880/4209",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-80-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var h = ((37 / 69) + (67 / 61))]]\n[[var p = (h + (100 / 7))]]\n[[question n = ['p']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result of the addition of the fractions 37/69 and 67/61, what would you get if you further added 100/7 to the result?",
+      "new symbolic struct": "[[var a = 37/69 + 67/61]]\n[[var c = a + 100/7]]\n[[question d = ['c']]]",
+      "answer": "469060/29463",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-81-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var f = ((89 / 84) + (75 / 34))]]\n[[question b = ['f']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 89/84 and 75/34?",
+      "new symbolic struct": "[[var x = 89/84 + 75/34]]\n[[question l = ['x']]]",
+      "answer": "4663/1428",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-81-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var f = ((89 / 84) + (75 / 34))]]\n[[var r = (f + f)]]\n[[question o = ['r']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of 89/84 and 75/34 from the previous problem, what would be the result if you added that fraction to itself?",
+      "new symbolic struct": "[[var x = 89/84 + 75/34]]\n[[var y = 2 * x]]\n[[question z = ['y']]]",
+      "answer": "4663/714",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-81-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var f = ((94 / 84) + (75 / 34))]]\n[[question b = ['f']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Assume the original problem was about adding fractions from two recipes. The first recipe demanded 89/84 gallons of milk and the second demanded 75/34 gallons. Now consider a slightly altered scenario where the first recipe demands 94/84 gallons of milk instead of 89/84 gallons. What is the new total amount of milk needed for both recipes in this altered scenario?",
+      "new symbolic struct": "[[var x = 94/84]]\n[[var y = 75/34]]\n[[var z = x + y]]\n[[question total = ['z']]]",
+      "answer": "1187/357",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-82-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((51 / 78) + (44 / 83))]]\n[[question b = ['d']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result when you add 51/78 and 44/83?",
+      "new symbolic struct": "[[var x = 51/78 + 44/83]]\n[[question l = ['x']]]",
+      "answer": "2555/2158",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-82-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((51 / 78) + (44 / 83))]]\n[[var i = ((71 / 92) + d)]]\n[[question g = ['i']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If you already found the sum of 51/78 and 44/83, what would be the result if you added that sum to 71/92?",
+      "new symbolic struct": "[[var a = 51/78 + 44/83]]\n[[var b = a + 71/92]]\n[[question c = ['b']]]",
+      "answer": "194139/99268",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-82-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var d = ((51 / 74) + (44 / 83))]]\n[[question b = ['d']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "You previously calculated the sum of 51/78 and 44/83. What if you made a mistake and the first fraction was actually 51/74 instead of 51/78? What would be the new sum of 51/74 and 44/83?",
+      "new symbolic struct": "[[var x_old = 51/78 + 44/83]]\n[[var x_new = 51/74 + 44/83]]\n[[question l = ['x_new']]]",
+      "answer": "7489/6142",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-83-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var s = ((99 / 85) + (77 / 55))]]\n[[question e = ['s']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of the fractions 99/85 and 77/55.",
+      "new symbolic struct": "[[var x = 99/85 + 77/55]]\n[[question y = ['x']]]",
+      "answer": "218/85",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-83-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var s = ((99 / 85) + (96 / 55))]]\n[[question e = ['s']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If you instead added the fractions 99/85 and 96/55, what would the new sum be?",
+      "new symbolic struct": "[[var z = 99/85 + 96/55]]\n[[question a = ['z']]]",
+      "answer": "2721/935",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-84-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((97 / 56) - (31 / 52))]]\n[[question w = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the value of 97 / 56 - 31 / 52? Represent your answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = 97 / 56 - 31 / 52]]\n[[question y = ['x']]]",
+      "answer": "827/728",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-84-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((97 / 56) - (31 / 52))]]\n[[var g = (k + (100 / 25))]]\n[[question j = ['g']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the value of 97 / 56 - 31 / 52, what is the result of adding it to 100 / 25? Write your final answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 97 / 56 - 31 / 52]]\n[[var b = a + 100 / 25]]\n[[question z = ['b']]]",
+      "answer": "3739/728",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-84-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((97 / 56) - (26 / 52))]]\n[[question w = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If instead of 31/52 in the previous problem you had 26/52 to subtract from 97/56, what would the new result be? Please express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 97 / 56]]\n[[var b = 26 / 52]]\n[[var c = a - b]]\n[[question d = ['c']]]",
+      "answer": "69/56",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-85-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((78 / 74) + (72 / 51))]]\n[[question k = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the result of the following fraction operation: (78 / 74) + (72 / 51).",
+      "new symbolic struct": "[[var a = 78 / 74 + 72 / 51]]\n[[question b = ['a']]]",
+      "answer": "1551/629",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-85-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((78 / 74) + (72 / 51))]]\n[[var s = (t + t)]]\n[[question q = ['s']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After you have calculated the result of the previous operation (78 / 74) + (72 / 51), find the sum if you add the result of the operation to itself. What is the final answer?",
+      "new symbolic struct": "[[var a = 78 / 74 + 72 / 51]]\n[[var b = a + a]]\n[[question c = ['b']]]",
+      "answer": "3102/629",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-85-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((78 / 74) + (56 / 51))]]\n[[question k = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Suppose in our previous operation, instead of adding (72 / 51), we were to add (56 / 51) to (78 / 74). What would be the new result of the operation (78 / 74) + (56 / 51)?",
+      "new symbolic struct": "[[var m = 78 / 74 + 56 / 51]]\n[[question n = ['m']]]",
+      "answer": "4061/1887",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-86-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((33 / 23) - (12 / 75))]]\n[[question o = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of the operation (33 / 23) - (12 / 75)? Express your answer as a fraction.",
+      "new symbolic struct": "[[var x = (33 / 23) - (12 / 75)]]\n[[question l = ['x']]]",
+      "answer": "733/575",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-86-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((33 / 23) - (12 / 75))]]\n[[var c = ((24 / 81) + u)]]\n[[question p = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After calculating the result of (33 / 23) - (12 / 75), now find the sum when you add this result to 24 / 81. Express your answer as a fraction.",
+      "new symbolic struct": "[[var x = (33 / 23) - (12 / 75)]]\n[[var y = x + 24 / 81]]\n[[question l = ['y']]]",
+      "answer": "24391/15525",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-87-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((85 / 42) - (98 / 99))]]\n[[question y = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of the operation 85/42 - 98/99? Simplify your answer to the nearest hundredth.",
+      "new symbolic struct": "[[var a = 85/42 - 98/99]]\n[[question b = ['a']]]",
+      "answer": "1433/1386",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-87-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((85 / 42) - (98 / 99))]]\n[[var q = ((78 / 2) + u)]]\n[[question j = ['q']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result of the operation 85/42 - 98/99, what value do you get if you add it to 78/2?",
+      "new symbolic struct": "[[var a = 85/42 - 98/99]]\n[[var b = a + 78/2]]\n[[question c = ['b']]]",
+      "answer": "55487/1386",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-88-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((19 / 30) + (75 / 77))]]\n[[question f = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 19/30 and 75/77? Express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 19/30 + 75/77]]\n[[question b = ['a']]]",
+      "answer": "3713/2310",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-88-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((19 / 30) + (75 / 77))]]\n[[var c = (t + (1 / 88))]]\n[[question q = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Suppose we add 1/88 to the sum of 19/30 and 75/77. What is the resultant fraction? Simplify your answer.",
+      "new symbolic struct": "[[var a = 19/30 + 75/77]]\n[[var c = a + 1/88]]\n[[question b = ['c']]]",
+      "answer": "14957/9240",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-88-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var t = ((19 / 30) + (75 / 68))]]\n[[question f = ['t']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Previously, we added 19/30 and 75/77. Now suppose that instead of adding 75/77 we add 75/68. What will be the new sum of these fractions? Please give your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 19/30]]\n[[var c = 75/68]]\n[[var d = a + c]]\n[[question e = ['d']]]",
+      "answer": "1771/1020",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-89-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var q = ((57 / 66) + (39 / 64))]]\n[[question x = ['q']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 57/66 and 39/64? Please express your answer as a fraction.",
+      "new symbolic struct": "[[var a = 57/66 + 39/64]]\n[[question t = ['a']]]",
+      "answer": "1037/704",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-89-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var q = ((57 / 66) + (39 / 64))]]\n[[var w = (q + (10 / 29))]]\n[[question f = ['w']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of 57/66 and 39/64, what is its sum with 10/29? Please express your answer as a fraction.",
+      "new symbolic struct": "[[var a = 57/66 + 39/64]]\n[[var b = a + 10/29]]\n[[question c = ['b']]]",
+      "answer": "37113/20416",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-89-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var q = ((57 / 66) + (49 / 64))]]\n[[question x = ['q']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "When we earlier calculated the sum of two fractions, we used 57/66 and 39/64. However, there was a mistake in our calculation and the second fraction should have been 49/64 instead. Could you please recalculate and find the correct sum of the fractions 57/66 and 49/64?",
+      "new symbolic struct": "[[var b = 57/66 + 49/64]]\n[[question u = ['b']]]",
+      "answer": "1147/704",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-90-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var j = ((80 / 13) + (2 / 48))]]\n[[question n = ['j']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 80/13 and 2/48?",
+      "new symbolic struct": "[[var s = 80/13 + 2/48]]\n[[question t = ['s']]]",
+      "answer": "1933/312",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-90-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var j = ((80 / 13) + (2 / 48))]]\n[[var u = (j + j)]]\n[[question m = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum if you add the result of 80/13 + 2/48 to itself?",
+      "new symbolic struct": "[[var u = (80/13 + 2/48) * 2]]\n[[question v = ['u']]]",
+      "answer": "1933/156",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-90-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var j = ((80 / 5) + (2 / 48))]]\n[[question n = ['j']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What would be the result if you were to add 80/5 and 2/48 instead of 80/13 and 2/48?",
+      "new symbolic struct": "[[var r = 80/5 + 2/48]]\n[[question q = ['r']]]",
+      "answer": "385/24",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-91-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((55 / 30) - (1 / 72))]]\n[[question z = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the result of the operation ((55 / 30) - (1 / 72)).",
+      "new symbolic struct": "[[var x = (55 / 30) - (1 / 72)]]\n[[question y = ['x']]]",
+      "answer": "131/72",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-91-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((55 / 30) - (1 / 72))]]\n[[var v = (k + (73 / 92))]]\n[[question w = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous problem, you calculated the result of the operation ((55 / 30) - (1 / 72)). What would be the result if you added the fraction (73 / 92) to your answer?",
+      "new symbolic struct": "[[var a = (55 / 30) - (1 / 72)]]\n[[var b = a + (73/92)]]\n[[question c = ['b']]]",
+      "answer": "4327/1656",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-91-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((80 / 30) - (1 / 72))]]\n[[question z = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous problem, we started with the operation ((55 / 30) - (1 / 72)). Suppose now that we started with 80 instead of 55 in the first fraction. How will the result change when you calculate the new operation ((80 / 30) - (1 / 72))?",
+      "new symbolic struct": "[[var old_operation = (55 / 30) - (1 / 72)]]\n[[var new_operation = (80 / 30) - (1 / 72)]]\n[[question final = ['new_operation']]]",
+      "answer": "191/72",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-92-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((69 / 21) + (71 / 86))]]\n[[question z = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of the fractions 69/21 and 71/86.",
+      "new symbolic struct": "[[var a = 69/21 + 71/86]]\n[[question b = ['a']]]",
+      "answer": "2475/602",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-92-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((69 / 21) + (71 / 86))]]\n[[var a = (v + (86 / 62))]]\n[[question s = ['a']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of the fractions 69/21 and 71/86, add the result to 86/62. What is the result?",
+      "new symbolic struct": "[[var a = 69/21 + 71/86]]\n[[var b = a + 86/62]]\n[[question c = ['b']]]",
+      "answer": "102611/18662",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-92-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((69 / 60) + (71 / 86))]]\n[[question z = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Suppose instead that the fractions in the previous problem were 69/60 and 71/86. What is the sum of these fractions?",
+      "new symbolic struct": "[[var a = 69/60 + 71/86]]\n[[question b = ['a']]]",
+      "answer": "1699/860",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-93-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((24 / 60) + (42 / 45))]]\n[[question t = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 24/60 and 42/45? Answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 24/60 + 42/45]]\n[[question b = ['a']]]",
+      "answer": "4/3",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-93-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((24 / 60) + (42 / 45))]]\n[[var v = ((66 / 12) + u)]]\n[[question j = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If we take the sum of 24/60 and 42/45 from the previous problem, and add it to the fraction 66/12, what is the new total? Answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 24/60 + 42/45]]\n[[var b = a + 66/12]]\n[[question c = ['b']]]",
+      "answer": "41/6",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-93-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var u = ((24 / 60) + (42 / 67))]]\n[[question t = ['u']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the previous problem, suppose the fraction we added to 24/60 was actually 42/67, not 42/45. What would the new total be? Answer as a simplified fraction.",
+      "new symbolic struct": "[[var c = 24/60 + 42/67]]\n[[question d = ['c']]]",
+      "answer": "344/335",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-95-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var i = ((64 / 76) + (35 / 33))]]\n[[question c = ['i']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 64/76 and 35/33?",
+      "new symbolic struct": "[[var x = 64/76 + 35/33]]\n[[question y = ['x']]]",
+      "answer": "1193/627",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-95-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var i = ((64 / 76) + (35 / 33))]]\n[[var h = (i + (47 / 38))]]\n[[question m = ['h']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the sum of 64/76 and 35/33, what is the result when you add 47/38 to that sum?",
+      "new symbolic struct": "[[var a = 64/76 + 35/33]]\n[[var b = a + 47/38]]\n[[question result = ['b']]]",
+      "answer": "3937/1254",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-95-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var i = ((43 / 76) + (35 / 33))]]\n[[question c = ['i']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After reconsidering the previous problem, suppose initially there were 43/76 of an orange instead of 64/76. What will be the new sum when you add it to the same 35/33 of an apple?",
+      "new symbolic struct": "[[var x = 43/76 + 35/33]]\n[[question y = ['x']]]",
+      "answer": "4079/2508",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-96-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((47 / 16) + (96 / 10))]]\n[[question d = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 47/16 and 96/10? Please, express your answer as a mixed fraction if necessary.",
+      "new symbolic struct": "[[var p = 47/16 + 96/10]]\n[[question r = ['p']]]",
+      "answer": "1003/80",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-96-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((47 / 16) + (96 / 10))]]\n[[var z = (n - (72 / 22))]]\n[[question i = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Following up on the last problem, after you find the sum of 47/16 and 96/10, subtract 72/22 from that sum. What is the result?",
+      "new symbolic struct": "[[var p = 47/16 + 96/10]]\n[[var q = p - 72/22]]\n[[question r = ['q']]]",
+      "answer": "8153/880",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-96-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var n = ((47 / 16) + (64 / 10))]]\n[[question d = ['n']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Following the last problem where you added 47/16 and 96/10, let's consider a slightly different scenario: What if you were to add 47/16 and 64/10 instead? What would be the sum?",
+      "new symbolic struct": "[[var s = 47/16 + 64/10]]\n[[question t = ['s']]]",
+      "answer": "747/80",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-98-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var s = ((58 / 2) + (31 / 32))]]\n[[question c = ['s']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the result of the operation (58 / 2) + (31 / 32)?",
+      "new symbolic struct": "[[var a = 58/2]]\n[[var b = 31/32]]\n[[question c = ['a + b']]]",
+      "answer": "959/32",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-98-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var s = ((58 / 2) + (31 / 32))]]\n[[var z = (s - (90 / 58))]]\n[[question h = ['z']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After you have calculated the result of the operation (58 / 2) + (31 / 32), subtract 90 / 58 from your answer. What is the final result?",
+      "new symbolic struct": "[[var a = 58/2]]\n[[var b = 31/32]]\n[[var c = 90/58]]\n[[var d = a + b - c]]\n[[question e = ['d']]]",
+      "answer": "26371/928",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-98-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var s = ((58 / 2) + (10 / 32))]]\n[[question c = ['s']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "In the problem of adding (58 / 2) + (31 / 32), what would the result be if we originally had (58 / 2) + (10 / 32) instead? Now, compute the value.",
+      "new symbolic struct": "[[var a = 58/2]]\n[[var b = 10/32]]\n[[question c = ['a + b']]]",
+      "answer": "469/16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-100-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((26 / 90) + (50 / 26))]]\n[[question b = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 26/90 and 50/26 when calculated as a fraction?",
+      "new symbolic struct": "[[var x = 26/90 + 50/26]]\n[[question l = ['x']]]",
+      "answer": "1294/585",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-100-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((26 / 90) + (50 / 26))]]\n[[var e = (c - (92 / 89))]]\n[[question q = ['e']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After you have calculated the sum of 26/90 and 50/26, subtract 92/89 from the result of that sum. What is the final value as a fraction?",
+      "new symbolic struct": "[[var x = 26/90 + 50/26]]\n[[var y = x - 92/89]]\n[[question l = ['y']]]",
+      "answer": "61346/52065",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-100-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((26 / 90) + (50 / 38))]]\n[[question b = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After calculating the sum of 26/90 and 50/26, suppose instead you added 26/90 and 50/38. How would the result change? Please give the answer as a simplified fraction.",
+      "new symbolic struct": "[[var x = 26/90 + 50/26]]\n[[var y = 26/90 + 50/38]]\n[[question z = ['y']]]",
+      "answer": "1372/855",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-101-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var y = ((80 / 98) + (92 / 82))]]\n[[question g = ['y']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of 80/98 and 92/82.",
+      "new symbolic struct": "[[var a = 80/98 + 92/82]]\n[[question b = ['a']]]",
+      "answer": "3894/2009",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-101-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var y = ((80 / 98) + (92 / 82))]]\n[[var q = (y + y)]]\n[[question i = ['q']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After calculating the sum of 80/98 and 92/82, what would the result be if we added this sum to itself?",
+      "new symbolic struct": "[[var a = 80/98 + 92/82]]\n[[var b = a + a]]\n[[question c = ['b']]]",
+      "answer": "7788/2009",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-102-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var o = ((89 / 44) + (69 / 5))]]\n[[question q = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the sum of 89/44 and 69/5.",
+      "new symbolic struct": "[[var a = 89/44 + 69/5]]\n[[question x = ['a']]]",
+      "answer": "3481/220",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-102-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var o = ((89 / 44) + (69 / 5))]]\n[[var g = (o + o)]]\n[[question w = ['g']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What would be the result if you added together the sum of 89/44 and 69/5 to itself?",
+      "new symbolic struct": "[[var a = 89/44 + 69/5]]\n[[var b = 2*a]]\n[[question z = ['b']]]",
+      "answer": "3481/110",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-102-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var o = ((89 / 44) + (69 / 38))]]\n[[question q = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What would be the result if we instead added 89/44 and 69/38, rather than 89/44 and 69/5 as was done in the original problem?",
+      "new symbolic struct": "[[var b = 89/44 + 69/38]]\n[[question y = ['b']]]",
+      "answer": "3209/836",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-103-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((79 / 32) - (52 / 55))]]\n[[question e = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the following expression: 79/32 - 52/55.",
+      "new symbolic struct": "[[var x = 79/32 - 52/55]]\n[[question y = ['x']]]",
+      "answer": "2681/1760",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-103-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((79 / 32) - (52 / 55))]]\n[[var m = ((42 / 99) + k)]]\n[[question o = ['m']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Let's extend the previous problem. If you take the result of 79/32 - 52/55 and add it to 42/99, what is the new result?",
+      "new symbolic struct": "[[var x = 79/32 - 52/55]]\n[[var y = x + 42/99]]\n[[question z = ['y']]]",
+      "answer": "10283/5280",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-103-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var k = ((79 / 32) - (7 / 55))]]\n[[question e = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Suppose instead of the original problem where we subtracted 52/55 from 79/32, we now subtract 7/55 from 79/32 instead. What is the new result?",
+      "new symbolic struct": "[[var a = 79/32 - 7/55]]\n[[question b = ['a']]]",
+      "answer": "4121/1760",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-104-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var m = ((45 / 2) - (18 / 90))]]\n[[question o = ['m']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If Wooden Treasures, a furniture workshop, cuts a log into pieces. Each piece is 45/2 feet long. If they sell a piece of wood that is 18/90 feet shorter than the usual length, how long is the piece they sold?",
+      "new symbolic struct": "[[var a = 45/2]]\n[[var b = 18/90]]\n[[var c = a - b]]\n[[question length_sold = ['c']]]",
+      "answer": "223/10",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-104-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var m = ((45 / 2) - (62 / 90))]]\n[[question o = ['m']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Now, suppose Wooden Treasures had initially cut their log into piece of lengths (45/2) feet. After, they sold a piece that was 62/90 feet shorter than the standard length. How long was the piece they sold this time?",
+      "new symbolic struct": "[[var a = 45/2]]\n[[var d = 62/90]]\n[[var e = a - d]]\n[[question length_sold2 = ['e']]]",
+      "answer": "1963/90",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-105-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((99 / 92) + (15 / 74))]]\n[[question v = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What is the sum of 99/92 and 15/74 as a simplified fraction?",
+      "new symbolic struct": "[[var a = 99/92 + 15/74]]\n[[question b = ['a']]]",
+      "answer": "4353/3404",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-105-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((99 / 92) + (15 / 74))]]\n[[var k = ((27 / 71) + c)]]\n[[question m = ['k']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Following the previous problem, add the result of 99/92 + 15/74 to 27/71. What is the new sum as a simplified fraction?",
+      "new symbolic struct": "[[var a = 99/92 + 15/74]]\n[[var c = a + 27/71]]\n[[question d = ['c']]]",
+      "answer": "400971/241684",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-105-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var c = ((99 / 92) + (15 / 54))]]\n[[question v = ['c']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Instead of the previous calculation, what would be the sum of 99/92 and 15/54 as a simplified fraction?",
+      "new symbolic struct": "[[var c = 99/92 + 15/54]]\n[[question d = ['c']]]",
+      "answer": "1121/828",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-106-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((54 / 1) + (62 / 30))]]\n[[question z = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "Calculate the result of 54/1 + 62/30. Express your answer in simplest terms.",
+      "new symbolic struct": "[[var a = 54/1]]\n[[var b = 62/30]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "841/15",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-106-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((54 / 1) + (62 / 30))]]\n[[var j = (b - (53 / 41))]]\n[[question y = ['j']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If we subtract 53/41 from the result of 54/1 + 62/30, what is the new result? Express your answer in simplest terms.",
+      "new symbolic struct": "[[var a = 54/1]]\n[[var b = 62/30]]\n[[var c = a + b]]\n[[var d = 53/41]]\n[[var e = c - d]]\n[[question f = ['e']]]",
+      "answer": "33686/615",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-106-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var b = ((93 / 1) + (62 / 30))]]\n[[question z = ['b']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "If we had originally started with 93 instead of 54, and added 62/30 to that, what would be the new result? Express the answer in simplest terms.",
+      "new symbolic struct": "[[var e = 93]]\n[[var f = 62/30]]\n[[var g = e + f]]\n[[question h = ['g']]]",
+      "answer": "1426/15",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.1-fraction-107-0",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((85 / 29) + (47 / 7))]]\n[[question q = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "What value do you get by adding 85/29 and 47/7?",
+      "new symbolic struct": "[[var x = 85/29 + 47/7]]\n[[question l = ['x']]]",
+      "answer": "1958/203",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.1-fraction-107-1",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((85 / 29) + (47 / 7))]]\n[[var o = (v + (81 / 42))]]\n[[question i = ['o']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After finding the result of adding 85/29 and 47/7, what is the new total if you also add 81/42?",
+      "new symbolic struct": "[[var a = 85/29 + 47/7]]\n[[var b = a + 81/42]]\n[[question c = ['b']]]",
+      "answer": "4699/406",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.1-fraction-107-2",
+      "standard": "7.NS.A.1-fraction",
+      "symbolic-struct": "[[var v = ((85 / 64) + (47 / 7))]]\n[[question q = ['v']]]\nmath concept: Write a question about adding and subtracting fractions.",
+      "statement": "After calculating the result from the previous problem, consider a new situation: You have now 85/64 of a pound of oranges and 47/7 pounds of apples. What is the new total weight of your fruits in pounds?",
+      "new symbolic struct": "[[var a = 85/64]]\n[[var b = 47/7]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "3603/448",
+      "tag": "modified information follow up"
+    }
+  ]
+]

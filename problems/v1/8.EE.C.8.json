@@ -1,0 +1,1102 @@
+[
+  [
+    {
+      "id": "8.EE.C.8-0-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 37 = ((40 * s) - (91 * q))]]\n[[var 121 = ((30 * s) + (12 * q))]]\n[[question y = ['q', 's']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Let's find the values of variables q and s by solving the following system of equations:\n\n1. (40 * s) - (91 * q) = 37\n2. (30 * s) + (12 * q) = 121",
+      "new symbolic struct": "[[var 37 = (40 * s) - (91 * q)]]\n[[var 121 = (30 * s) + (12 * q)]]\n[[question x = ['q', 's']]]",
+      "answer": "{q: 373/321, s: 2291/642}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-1-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 180 = ((4 * b) + (44 * m))]]\n[[var 48 = ((79 * m) - (6 * b))]]\n[[question f = ['b', 'm']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of b and m: 4 * b + 44 * m = 180 \nand 79 * m - 6 * b = 48.",
+      "new symbolic struct": "[[var 180 = 4 * b + 44 * m]]\n[[var 48 = 79 * m - 6 * b]]\n[[question x = ['b', 'm']]]",
+      "answer": "{b: 3027/145, m: 318/145}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-2-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 28 = ((42 * o) - (15 * g))]]\n[[var 141 = ((47 * o) + (29 * g))]]\n[[question x = ['g', 'o']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations to find the values of o and g: \n\n42 * o - 15 * g = 28 \n\n47 * o + 29 * g = 141.",
+      "new symbolic struct": "[[var 28 = 42 * o - 15 * g]]\n[[var 141 = 47 * o + 29 * g]]\n[[question x = ['o', 'g']]]",
+      "answer": "{g: 4606/1923, o: 2927/1923}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-3-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 21 = ((12 * v) - (6 * o))]]\n[[var 50 = ((76 * v) - (45 * o))]]\n[[question p = ['v', 'o']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following system of equations, determine the values of v and o: \nThe first equation is: ((12 * v) - (6 * o)) = 21\nThe second equation is:  ((76 * v) - (45 * o)) = 50.",
+      "new symbolic struct": "[[var 21 = (12 * v) - (6 * o)]]\n[[var 50 = (76 * v) - (45 * o)]]\n[[question v_o = ['v', 'o']]]",
+      "answer": "{o: 83/7, v: 215/28}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-4-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 138 = ((75 * f) + (25 * g))]]\n[[var 143 = ((2 * f) + (90 * g))]]\n[[question k = ['f', 'g']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of f and g in the following system of equations: 75 * f + 25 * g = 138 and 2 * f + 90 * g = 143.",
+      "new symbolic struct": "[[var 138 = 75 * f + 25 * g]]\n[[var 143 = 2 * f + 90 * g]]\n[[question x = ['f', 'g']]]",
+      "answer": "{f: 1769/1340, g: 10449/6700}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-5-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 194 = ((4 * y) + (14 * n))]]\n[[var 7 = ((65 * n) - (79 * y))]]\n[[question m = ['y', 'n']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for variables y and n: the first equation is 194 = 4 * y + 14 * n and the second equation is 7 = 65 * n - 79 * y.",
+      "new symbolic struct": "[[var 194 = 4 * y + 14 * n]]\n[[var 7 = 65 * n - 79 * y]]\n[[question x = ['y', 'n']]]",
+      "answer": "{n: 7677/683, y: 6256/683}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-6-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 146 = ((28 * g) + (26 * l))]]\n[[var 6 = ((41 * l) - (53 * g))]]\n[[question a = ['l', 'g']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of l and g that satisfy these two equations: \nThe first equation is 146 = 28 * g + 26 * l.\nThe second equation is 6 = 41 * l - 53 * g.",
+      "new symbolic struct": "[[var 146 = 28 * g + 26 * l]]\n[[var 6 = 41 * l - 53 * g]]\n[[question x = ['g', 'l']]]",
+      "answer": "{g: 2915/1263, l: 3953/1263}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-7-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 90 = ((20 * p) + (56 * y))]]\n[[var 98 = ((89 * p) + (7 * y))]]\n[[question o = ['p', 'y']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Consider the following system of equations:\n\n1) 20 * p + 56 * y = 90\n2) 89 * p + 7 * y = 98\n\nResolve this system and find the values of p and y.",
+      "new symbolic struct": "[[var 90 = 20 * p + 56 * y]]\n[[var 98 = 89 * p + 7 * y]]\n[[question x = ['p', 'y']]]",
+      "answer": "{p: 347/346, y: 3025/2422}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-8-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 17 = ((72 * k) - (22 * d))]]\n[[var 96 = ((6 * d) + (69 * k))]]\n[[question u = ['k', 'd']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the system of equations: 72*k - 22*d = 17 and 6*d +69*k = 96, find the values of variables k and d.",
+      "new symbolic struct": "[[var 17 = 72*k - 22*d]]\n[[var 96 = 6*d +69*k]]\n[[question x = ['k', 'd']]]",
+      "answer": "{d: 1913/650, k: 369/325}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-9-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 48 = ((73 * h) - (33 * d))]]\n[[var 91 = ((10 * d) + (14 * h))]]\n[[question x = ['d', 'h']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations to find the values of d and h:\n\n73 * h - 33 * d = 48\n\n10 * d + 14 * h = 91",
+      "new symbolic struct": "[[var 48 = 73 * h - 33 * d]]\n[[var 91 = 10 * d + 14 * h]]\n[[question x = ['d', 'h']]]",
+      "answer": "{d: 5971/1192, h: 3483/1192}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-11-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 29 = ((43 * q) - (44 * e))]]\n[[var 130 = ((30 * q) + (43 * e))]]\n[[question x = ['q', 'e']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of q and e: \n\n1) 43 * q - 44 * e = 29 \n2) 30 * q + 43 * e = 130",
+      "new symbolic struct": "[[var 29 = 43 * q - 44 * e]]\n[[var 130 = 30 * q + 43 * e]]\n[[question x = ['q', 'e']]]",
+      "answer": "{e: 4720/3169, q: 6967/3169}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-13-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 53 = ((89 * r) - (74 * a))]]\n[[var 109 = ((37 * a) + (6 * r))]]\n[[question o = ['r', 'a']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of r and a in the following system of equations: \n\n53 = ((89 * r) - (74 * a))\n109 = ((37 * a) + (6 * r))",
+      "new symbolic struct": "[[var 53 = (89 * r) - (74 * a)]]\n[[var 109 = (37 * a) + (6 * r)]]\n[[question b = ['r', 'a']]]",
+      "answer": "{a: 9383/3737, r: 271/101}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-14-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 169 = ((42 * g) + (12 * q))]]\n[[var 19 = ((12 * q) - (50 * g))]]\n[[question w = ['q', 'g']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following pair of equations where 'g' and 'q' represent the quantities of two different types of grains in a mix, solve for 'g' and 'q':\n\n1. The sum of the weights of 42 units of 'g' and 12 units of 'q' equals 169 kg.\n2. The weight of 12 units of 'q' minus the weight of 50 units of 'g' results in 19 kg.",
+      "new symbolic struct": "[[var 169 = 42*g + 12*q]]\n[[var 19 = 12*q - 50*g]]\n[[question x = ['g', 'q']]]",
+      "answer": "{g: 75/46, q: 578/69}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-15-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 54 = ((37 * s) - (11 * v))]]\n[[var 41 = ((82 * s) - (62 * v))]]\n[[question a = ['v', 's']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of s and v for the following system of equations:\n\n37 * s - 11 * v = 54\n\n82 * s - 62 * v = 41",
+      "new symbolic struct": "[[var 54 = 37 * s - 11 * v]]\n[[var 41 = 82 * s - 62 * v]]\n[[question x = ['s', 'v']]]",
+      "answer": "{s: 2897/1392, v: 2911/1392}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-16-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 151 = ((41 * c) + (65 * z))]]\n[[var 48 = ((78 * z) - (48 * c))]]\n[[question i = ['c', 'z']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Based on the following two equations, find the values for c and z: \n\nThe first equation is 41 * c + 65 * z = 151\nThe second equation is 78 * z - 48 * c = 48.",
+      "new symbolic struct": "[[var 151 = 41 * c + 65 * z]]\n[[var 48 = 78 * z - 48 * c]]\n[[question b = ['c', 'z']]]",
+      "answer": "{c: 37/27, z: 512/351}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-19-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 7 = ((60 * c) - (91 * i))]]\n[[var 148 = ((7 * i) + (76 * c))]]\n[[question w = ['c', 'i']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following system of equations:\n\n60 * c - 91 * i = 7\n\n7 * i + 76 * c = 148\n\nWhat are the values of c and i?",
+      "new symbolic struct": "[[var 7 = 60 * c - 91 * i]]\n[[var 148 = 7 * i + 76 * c]]\n[[question x = ['c', 'i']]]",
+      "answer": "{c: 1931/1048, i: 2087/1834}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-20-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 69 = ((71 * v) - (37 * e))]]\n[[var 184 = ((41 * e) + (76 * v))]]\n[[question c = ['e', 'v']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of e and v that satisfy the following two simultaneous linear equations: \n\n1) 71*v - 37*e = 69\n2) 41*e + 76*v = 184",
+      "new symbolic struct": "[[var 69 = 71*v - 37*e]]\n[[var 184 = 41*e + 76*v]]\n[[question x = ['v', 'e']]]",
+      "answer": "{e: 7820/5723, v: 9637/5723}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-21-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 113 = ((25 * v) + (69 * d))]]\n[[var 85 = ((26 * d) + (42 * v))]]\n[[question m = ['d', 'v']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "What are the values of 'd' and 'v' in the following system of equations? \n\nThe sum of 25 times 'v' and 69 times 'd' equals 113.\n\nThe sum of 26 times 'd' and 42 times 'v' equals 85.",
+      "new symbolic struct": "[[var 113 = 25*v + 69*d]]\n[[var 85 = 26*d + 42*v]]\n[[question x = ['v', 'd']]]",
+      "answer": "{d: 2621/2248, v: 2927/2248}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-22-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 33 = ((43 * z) - (91 * g))]]\n[[var 68 = ((72 * g) - (3 * z))]]\n[[question a = ['g', 'z']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following equations for g and z: \n\n43 * z - 91 * g = 33\n72 * g - 3 * z = 68",
+      "new symbolic struct": "[[var 33 = 43 * z - 91 * g]]\n[[var 68 = 72 * g - 3 * z]]\n[[question x = ['g', 'z']]]",
+      "answer": "{g: 3023/2823, z: 8564/2823}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-24-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 92 = ((50 * c) + (12 * f))]]\n[[var 34 = ((36 * c) - (21 * f))]]\n[[question h = ['c', 'f']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Alex's and Brad's baskets contained c cherries and f figs respectively. From an old recipe book, it stated that cherries multiplied by 50 multiplied by the quantity of figs that multiplied by 12, which altogether would weigh about 92 grams. Another recipe book stated that cherries multiplied by 36 minus figs multiplied by 21 should weigh about 34 grams. Can you find the quantity of cherries (c) and figs (f)? Use the following system of equations to solve:\n\n50c + 12f = 92\n36c - 21f = 34.",
+      "new symbolic struct": "[[var 92 = 50*c + 12*f]]\n[[var 34 = 36*c - 21*f]]\n[[question x = ['c', 'f']]]",
+      "answer": "{c: 30/19, f: 62/57}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-26-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 7 = ((87 * u) - (75 * d))]]\n[[var 54 = ((85 * d) - (82 * u))]]\n[[question f = ['u', 'd']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Here are the equations you'll need to solve (remember, the goal is to find the values of u and d):\n\n1) 87u - 75d = 7\n2) 85d - 82u = 54",
+      "new symbolic struct": "[[var 7 = 87*u - 75*d]]\n[[var 54 = 85*d - 82*u]]\n[[question x = ['u', 'd']]]",
+      "answer": "{d: 5272/1245, u: 929/249}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-27-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 42 = ((75 * a) - (4 * i))]]\n[[var 160 = ((10 * i) + (13 * a))]]\n[[question d = ['i', 'a']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Bill is trying to decipher a secret code. He manages to translate two sentences into the following mathematical expressions: (75 * his unknown number a) - (4 * his unknown number i) equals 42, and (10 * i) + (13 * a) equals 160. Using these equations, can you figure out the values of i and a for him?",
+      "new symbolic struct": "[[var 42 = 75*a - 4*i]]\n[[var 160 = 10*i + 13*a]]\n[[question x = ['a', 'i']]]",
+      "answer": "{a: 530/401, i: 5727/401}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-28-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 183 = ((37 * p) + (74 * c))]]\n[[var 13 = ((27 * c) - (18 * p))]]\n[[question b = ['p', 'c']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of p and c:\n\n37 * p + 74 * c = 183\n27 * c - 18 * p = 13",
+      "new symbolic struct": "[[var 183 = 37 * p + 74 * c]]\n[[var 13 = 27 * c - 18 * p]]\n[[question x = ['p', 'c']]]",
+      "answer": "{c: 3775/2331, p: 3979/2331}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-29-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 37 = ((48 * k) - (30 * p))]]\n[[var 105 = ((16 * p) + (33 * k))]]\n[[question g = ['k', 'p']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of k and p from the following system of equations:\n(48 * k) - (30 * p) = 37\n(16 * p) + (33 * k) = 105.",
+      "new symbolic struct": "[[var 37 = (48 * k) - (30 * p)]]\n[[var 105 = (16 * p) + (33 * k)]]\n[[question x = ['k', 'p']]]",
+      "answer": "{k: 1871/879, p: 1273/586}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-30-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 14 = ((75 * v) - (69 * f))]]\n[[var 110 = ((46 * f) + (53 * v))]]\n[[question x = ['v', 'f']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Consider the following pair of equations.\n\n1. 75v - 69f = 14 \n2. 46f + 53v = 110\n\nDetermine the values for v and f that satisfy these simultaneous equations.",
+      "new symbolic struct": "[[var 14 = 75*v - 69*f]]\n[[var 110 = 46*f + 53*v]]\n[[question x = ['v', 'f']]]",
+      "answer": "{f: 7508/7107, v: 358/309}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-31-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 131 = ((7 * o) + (13 * g))]]\n[[var 37 = ((89 * g) - (70 * o))]]\n[[question f = ['o', 'g']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of o and g from the following system of equations: \n7 * o + 13 * g = 131 \n89 * g - 70 * o = 37.",
+      "new symbolic struct": "[[var 131 = 7 * o + 13 * g]]\n[[var 37 = 89 * g - 70 * o]]\n[[question x = ['o', 'g']]]",
+      "answer": "{g: 449/73, o: 3726/511}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-32-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 38 = ((88 * d) - (60 * k))]]\n[[var 46 = ((33 * k) - (11 * d))]]\n[[question t = ['d', 'k']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of d and k:\n88 * d - 60 * k = 38\n33 * k - 11 * d = 46.",
+      "new symbolic struct": "[[var 38 = 88 * d - 60 * k]]\n[[var 46 = 33 * k - 11 * d]]\n[[question x = ['d', 'k']]]",
+      "answer": "{d: 669/374, k: 203/102}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-33-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 139 = ((24 * z) + (72 * y))]]\n[[var 96 = ((2 * z) + (82 * y))]]\n[[question d = ['y', 'z']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Consider the following system of equations, calculate the values of y and z: 24 * z + 72 * y = 139,\n2 * z + 82 * y = 96.",
+      "new symbolic struct": "[[var 139 = 24 * z + 72 * y]]\n[[var 96 = 2 * z + 82 * y]]\n[[question x = ['z', 'y']]]",
+      "answer": "{y: 1013/912, z: 2243/912}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-34-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 1 = ((87 * o) - (29 * v))]]\n[[var 91 = ((8 * v) + (30 * o))]]\n[[question u = ['v', 'o']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the variables v and o: (87 * o) - (29 * v) = 1 and (8 * v) + (30 * o) = 91.",
+      "new symbolic struct": "[[var 1 = (87 * o) - (29 * v)]]\n[[var 91 = (8 * v) + (30 * o)]]\n[[question d = ['v', 'o']]]",
+      "answer": "{o: 2647/1566, v: 2629/522}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-35-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 58 = ((23 * h) - (46 * p))]]\n[[var 124 = ((11 * p) + (23 * h))]]\n[[question m = ['h', 'p']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for h and p:\n \nThe first equation is (23 * h) - (46 * p) = 58 \nThe second equation is (11 * p) + (23 * h) = 124.",
+      "new symbolic struct": "[[var 58 = (23 * h) - (46 * p)]]\n[[var 124 = (11 * p) + (23 * h)]]\n[[question x = ['h', 'p']]]",
+      "answer": "{h: 2114/437, p: 22/19}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-36-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 120 = ((19 * d) + (6 * f))]]\n[[var 69 = ((90 * d) - (42 * f))]]\n[[question g = ['d', 'f']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "If the following system of equations represents the relationship between integers d and f, determine their values:\n1) 19d + 6f = 120, \n2) 90d - 42f = 69.",
+      "new symbolic struct": "[[var 120 = 19*d + 6*f]]\n[[var 69 = 90*d - 42*f]]\n[[question x = ['d', 'f']]]",
+      "answer": "{d: 909/223, f: 3163/446}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-37-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 127 = ((42 * m) + (55 * r))]]\n[[var 44 = ((66 * m) - (52 * r))]]\n[[question a = ['r', 'm']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Here's a problem: \n\nA system of linear equations is given by the following formulas: \n\n1) 42 * m + 55 * r = 127 \n2) 66 * m - 52 * r = 44 \n\nCan you solve this system to find the values of 'r' and 'm'?",
+      "new symbolic struct": "[[var 127 = 42 * m + 55 * r]]\n[[var 44 = 66 * m - 52 * r]]\n[[question x = ['m', 'r']]]",
+      "answer": "{m: 1504/969, r: 363/323}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-38-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 120 = ((31 * n) + (64 * w))]]\n[[var 173 = ((57 * w) + (71 * n))]]\n[[question d = ['n', 'w']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of n and w that satisfy the following system of linear equations simultaneously:\n \n31n + 64w = 120\n\n57w + 71n = 173",
+      "new symbolic struct": "[[var 120 = 31*n + 64*w]]\n[[var 173 = 57*w + 71*n]]\n[[question x = ['n', 'w']]]",
+      "answer": "{n: 4232/2777, w: 3157/2777}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-39-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 112 = ((72 * a) + (26 * u))]]\n[[var 31 = ((76 * u) - (77 * a))]]\n[[question f = ['u', 'a']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of u and a from the following system of linear equations:\n\n1) 72 * a + 26 * u = 112\n\n2) 76 * u - 77 * a = 31.",
+      "new symbolic struct": "[[var 112 = 72 * a + 26 * u]]\n[[var 31 = 76 * u - 77 * a]]\n[[question b = ['a', 'u']]]",
+      "answer": "{a: 3853/3737, u: 5428/3737}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-40-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 143 = ((54 * n) + (18 * b))]]\n[[var 48 = ((87 * n) - (93 * b))]]\n[[question x = ['b', 'n']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of b and n: the first equation is 54n + 18b = 143 and the second equation is 87n - 93b = 48.",
+      "new symbolic struct": "[[var 143 = 54*n + 18*b]]\n[[var 48 = 87*n - 93*b]]\n[[question x = ['b', 'n']]]",
+      "answer": "{b: 3283/2196, n: 4721/2196}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-41-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 103 = ((53 * e) + (7 * p))]]\n[[var 6 = ((69 * e) - (88 * p))]]\n[[question s = ['p', 'e']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following system of equations about a company's production economics, where e represents the cost of electricity and p is the cost of petroleum:\n\n53 * e + 7 * p = 103\n69 * e - 88 * p = 6\n\nWhat are the costs of electricity (e) and petroleum (p)?",
+      "new symbolic struct": "[[var 103 = 53 * e + 7 * p]]\n[[var 6 = 69 * e - 88 * p]]\n[[question x = ['e', 'p']]]",
+      "answer": "{e: 9106/5147, p: 6789/5147}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-42-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 21 = ((18 * p) - (7 * s))]]\n[[var 14 = ((51 * s) - (24 * p))]]\n[[question y = ['p', 's']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Consider the following pair of linear equations. \n\nFirst equation: ((18 * p) - (7 * s)) = 21\nSecond equation: ((51 * s) - (24 * p)) = 14\n\nFind the values of p and s that satisfy both equations.",
+      "new symbolic struct": "[[var 21 = (18 * p) - (7 * s)]]\n[[var 14 = (51 * s) - (24 * p)]]\n[[question x = ['p', 's']]]",
+      "answer": "{p: 1169/750, s: 126/125}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-43-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 84 = ((59 * c) - (34 * w))]]\n[[var 98 = ((11 * c) + (42 * w))]]\n[[question d = ['c', 'w']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for c and w:\nThe first equation is 59 times c minus 34 times w is equal to 84.\nThe second equation is 11 times c plus 42 times w is equal to 98.",
+      "new symbolic struct": "[[var 84 = 59*c - 34*w]]\n[[var 98 = 11*c + 42*w]]\n[[question x = ['c', 'w']]]",
+      "answer": "{c: 1715/713, w: 2429/1426}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-44-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 101 = ((45 * f) + (42 * z))]]\n[[var 13 = ((60 * z) - (42 * f))]]\n[[question e = ['z', 'f']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of f and z: \n\nFirst equation is 45 * f + 42 * z = 101,\nSecond equation is 60 * z - 42 * f = 13.",
+      "new symbolic struct": "[[var 101 = 45 * f + 42 * z]]\n[[var 13 = 60 * z - 42 * f]]\n[[question x = ['f', 'z']]]",
+      "answer": "{f: 919/744, z: 1609/1488}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-45-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 6 = ((26 * p) - (21 * u))]]\n[[var 83 = ((15 * p) + (58 * u))]]\n[[question l = ['p', 'u']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Calculate the values of p and u from the following system of equations: \n26 * p - 21 * u = 6 \n15 * p + 58 * u = 83.",
+      "new symbolic struct": "[[var 6 = 26 * p - 21 * u]]\n[[var 83 = 15 * p + 58 * u]]\n[[question c = ['p', 'u']]]",
+      "answer": "{p: 2091/1823, u: 2068/1823}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-46-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 62 = ((92 * n) - (38 * s))]]\n[[var 75 = ((59 * n) + (8 * s))]]\n[[question y = ['n', 's']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve for the values of n and s using these two simultaneous equations: \n\n1) 92 * n - 38 * s = 62\n2) 59 * n + 8 * s = 75",
+      "new symbolic struct": "[[var 62 = 92 * n - 38 * s]]\n[[var 75 = 59 * n + 8 * s]]\n[[question k = ['n', 's']]]",
+      "answer": "{n: 1673/1489, s: 1621/1489}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-48-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 63 = ((87 * z) - (35 * e))]]\n[[var 154 = ((81 * z) + (58 * e))]]\n[[question r = ['e', 'z']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solving the following pairs of simultaneous equations, what would be the values for e and z? The equations are: 87 * z - 35 * e = 63 and 81 * z + 58 * e = 154.",
+      "new symbolic struct": "[[var 63 = 87 * z - 35 * e]]\n[[var 154 = 81 * z + 58 * e]]\n[[question x = ['z', 'e']]]",
+      "answer": "{e: 2765/2627, z: 9044/7881}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-49-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 110 = ((11 * t) + (44 * h))]]\n[[var 18 = ((98 * t) - (36 * h))]]\n[[question f = ['h', 't']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "To find the values of h and t, solve the following system of simultaneous linear equations:\n\n(11 * t) + (44 * h) = 110\n(98 * t) - (36 * h) = 18.",
+      "new symbolic struct": "[[var 110 = (11 * t) + (44 * h)]]\n[[var 18 = (98 * t) - (36 * h)]]\n[[question x = ['t', 'h']]]",
+      "answer": "{h: 481/214, t: 108/107}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-50-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 55 = ((69 * b) - (50 * o))]]\n[[var 85 = ((41 * o) + (18 * b))]]\n[[question f = ['b', 'o']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of linear equations to find the values of b and o: ((69 * b) - (50 * o)) = 55\n((41 * o) + (18 * b)) = 85.",
+      "new symbolic struct": "[[var 55 = (69 * b) - (50 * o)]]\n[[var 85 = (41 * o) + (18 * b)]]\n[[question x = ['b', 'o']]]",
+      "answer": "{b: 6505/3729, o: 1625/1243}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-51-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 65 = ((67 * q) - (80 * p))]]\n[[var 177 = ((6 * q) + (5 * p))]]\n[[question k = ['p', 'q']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations to find the values of p and q: 67 * q - 80 * p = 65,\n and 6 * q + 5 * p = 177.",
+      "new symbolic struct": "[[var 65 = 67 * q - 80 * p]]\n[[var 177 = 6 * q + 5 * p]]\n[[question x = ['p', 'q']]]",
+      "answer": "{p: 11469/815, q: 2897/163}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-52-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 161 = ((10 * k) + (48 * f))]]\n[[var 31 = ((33 * k) - (41 * f))]]\n[[question p = ['k', 'f']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of k and f that satisfy the following system of equations: 10 * k + 48 * f = 161\n33 * k - 41 * f = 31.",
+      "new symbolic struct": "[[var 161 = 10 * k + 48 * f]]\n[[var 31 = 33 * k - 41 * f]]\n[[question x = ['k', 'f']]]",
+      "answer": "{f: 5003/1994, k: 8089/1994}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-53-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 31 = ((58 * l) - n)]]\n[[var 103 = (n + (73 * l))]]\n[[question t = ['l', 'n']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of l and n: \n\nThe first equation is 31 = 58 * l - n\nThe second equation is 103 = n + 73 * l",
+      "new symbolic struct": "[[var 31 = 58 * l - n]]\n[[var 103 = n + 73 * l]]\n[[question x = ['l', 'n']]]",
+      "answer": "{l: 134/131, n: 3711/131}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-55-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 39 = ((29 * y) - (28 * j))]]\n[[var 116 = ((25 * y) + (37 * j))]]\n[[question o = ['j', 'y']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of y and j that satisfy the following system of equations:\n\n29y - 28j = 39\n25y + 37j = 116",
+      "new symbolic struct": "[[var 39 = 29*y - 28*j]]\n[[var 116 = 25*y + 37*j]]\n[[question x = ['y', 'j']]]",
+      "answer": "{j: 2389/1773, y: 4691/1773}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-56-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 74 = ((93 * u) - (85 * a))]]\n[[var 186 = ((96 * u) + (17 * a))]]\n[[question r = ['u', 'a']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following system of equations, solve for u and a: \n\nThe first equation is 93u - 85a = 74 \nThe second equation is 96u + 17a = 186.",
+      "new symbolic struct": "[[var 74 = 93*u - 85*a]]\n[[var 186 = 96*u + 17*a]]\n[[question x = ['u', 'a']]]",
+      "answer": "{a: 3398/3247, u: 1004/573}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-57-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 15 = ((97 * u) - (61 * g))]]\n[[var 186 = ((85 * u) + (23 * g))]]\n[[question x = ['u', 'g']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following pair of simultaneous equations, please find out the values of u and g:\n\n97 * u - 61 * g = 15\n\n85 * u + 23 * g = 186",
+      "new symbolic struct": "[[var 15 = 97 * u - 61 * g]]\n[[var 186 = 85 * u + 23 * g]]\n[[question x = ['u', 'g']]]",
+      "answer": "{g: 1863/824, u: 1299/824}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-58-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 103 = ((17 * r) + (67 * b))]]\n[[var 187 = ((85 * r) + (67 * b))]]\n[[question e = ['b', 'r']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of r and b that satisfy the following system of equations. \n\nThe first equation is (17 * r) + (67 * b) = 103. \n\nThe second equation is (85 * r) + (67 * b) = 187.",
+      "new symbolic struct": "[[var 103 = 17*r + 67*b]]\n[[var 187 = 85*r + 67*b]]\n[[question x = ['r', 'b']]]",
+      "answer": "{b: 82/67, r: 21/17}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-59-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 41 = ((85 * n) - (54 * t))]]\n[[var 126 = ((38 * t) + (30 * n))]]\n[[question w = ['t', 'n']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following system of equations, solve for the values of t and n:\n\n1. (85 * n) - (54 * t) = 41\n2. (38 * t) + (30 * n) = 126.",
+      "new symbolic struct": "[[var 41 = (85 * n) - (54 * t)]]\n[[var 126 = (38 * t) + (30 * n)]]\n[[question b = ['t', 'n']]]",
+      "answer": "{n: 4181/2425, t: 948/485}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-60-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 5 = ((75 * u) - (69 * q))]]\n[[var 140 = ((48 * u) + (25 * q))]]\n[[question r = ['u', 'q']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of u and q:\n\n1) The result of multiplying 75 by u and subtracting the product of 69 and q is equal to 5.\n\n2) The sum of the product of 48 and u and the product of 25 and q is 140.",
+      "new symbolic struct": "[[var 5 = 75*u - 69*q]]\n[[var 140 = 48*u + 25*q]]\n[[question x = ['u', 'q']]]",
+      "answer": "{q: 180/91, u: 515/273}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-61-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 149 = ((20 * v) + (17 * x))]]\n[[var 22 = ((24 * x) - (49 * v))]]\n[[question s = ['v', 'x']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of v and x from the following system of equations: ((20 * v) + (17 * x)) = 149 and ((24 * x) - (49 * v)) = 22.",
+      "new symbolic struct": "[[var 149 = (20 * v) + (17 * x)]]\n[[var 22 = (24 * x) - (49 * v)]]\n[[question x = ['v', 'x']]]",
+      "answer": "{v: 3202/1313, x: 7741/1313}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-62-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 147 = ((39 * t) + (41 * g))]]\n[[var 42 = ((94 * t) - (91 * g))]]\n[[question m = ['t', 'g']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of t and g: \n\n39 * t + 41 * g = 147\n94 * t - 91 * g = 42.",
+      "new symbolic struct": "[[var 147 = 39 * t + 41 * g]]\n[[var 42 = 94 * t - 91 * g]]\n[[question x = ['t', 'g']]]",
+      "answer": "{g: 12180/7403, t: 15099/7403}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-63-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 112 = ((6 * c) + (55 * o))]]\n[[var 36 = ((55 * c) - (48 * o))]]\n[[question y = ['c', 'o']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of c and o that satisfy the following system of equations: 6c + 55o = 112, and 55c - 48o = 36.",
+      "new symbolic struct": "[[var 112 = 6*c + 55*o]]\n[[var 36 = 55*c - 48*o]]\n[[question x = ['c', 'o']]]",
+      "answer": "{c: 7356/3313, o: 5944/3313}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-64-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 170 = ((8 * w) + (68 * u))]]\n[[var 8 = ((71 * w) - (94 * u))]]\n[[question l = ['u', 'w']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of u and w that satisfy the following system of equations:\n 8w + 68u = 170, \n 71w - 94u = 8.",
+      "new symbolic struct": "[[var 170 = 8*w + 68*u]]\n[[var 8 = 71*w - 94*u]]\n[[question x = ['u', 'w']]]",
+      "answer": "{u: 667/310, w: 459/155}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-65-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 92 = ((68 * r) + (8 * f))]]\n[[var 182 = ((97 * f) + (38 * r))]]\n[[question m = ['r', 'f']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of r and f: \n\n68*r + 8*f = 92\n97*f + 38*r = 182",
+      "new symbolic struct": "[[var 92 = 68*r + 8*f]]\n[[var 182 = 97*f + 38*r]]\n[[question x = ['r', 'f']]]",
+      "answer": "{f: 2220/1573, r: 1867/1573}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-67-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 50 = ((67 * d) - (37 * r))]]\n[[var 16 = ((39 * r) - (21 * d))]]\n[[question q = ['r', 'd']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the equations below, find the values of r and d:\n\nFor the first equation, consider 67 apples, each worth d dollars, and 37 ragdolls, each worth r dollars. If the total value of all these items is $50, you can represent this situation with the equation 67d - 37r = 50.\n\nIn another case, consider 39 ragdolls, each worth r dollars, and 21 apples, each worth d dollars. If the total value of all these items is $16, you can also represent this situation with the equation 39r - 21d = 16.\n\nFrom these two equations, find the values of d (the cost of each apple) and r (the cost of each ragdoll).",
+      "new symbolic struct": "[[var 50 = 67*d - 37*r]]\n[[var 16 = 39*r - 21*d]]\n[[question y = ['d', 'r']]]",
+      "answer": "{d: 1271/918, r: 1061/918}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-68-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 163 = ((50 * x) + a)]]\n[[var 24 = ((98 * x) - (84 * a))]]\n[[question r = ['x', 'a']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "To find the values of x and a, solve the following system of simultaneous linear equations: \n\nFirst equation: 163 equals 50 times x plus a\nSecond equation: 24 equals 98 times x minus 84 times a.",
+      "new symbolic struct": "[[var 163 = 50 * x + a]]\n[[var 24 = 98 * x - 84 * a]]\n[[question b = ['x', 'a']]]",
+      "answer": "{a: 7387/2149, x: 6858/2149}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-69-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 110 = ((67 * p) + (18 * b))]]\n[[var 58 = ((82 * b) - (44 * p))]]\n[[question l = ['b', 'p']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of p and b:\n67 * p + 18 * b = 110\n82 * b - 44 * p = 58.",
+      "new symbolic struct": "[[var 110 = 67 * p + 18 * b]]\n[[var 58 = 82 * b - 44 * p]]\n[[question x = ['p', 'b']]]",
+      "answer": "{b: 4363/3143, p: 3988/3143}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-70-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 27 = ((63 * c) - (36 * e))]]\n[[var 69 = ((8 * c) + (32 * e))]]\n[[question j = ['e', 'c']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of c and e from the following simultaneous equations: \n\nThe difference between 63 times c and 36 times e equals 27, and 8 times c added to 32 times e equals 69.",
+      "new symbolic struct": "[[var 27 = 63*c - 36*e]]\n[[var 69 = 8*c + 32*e]]\n[[question x = ['c', 'e']]]",
+      "answer": "{c: 93/64, e: 459/256}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-71-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 107 = ((26 * x) + (29 * p))]]\n[[var 4 = ((61 * x) - (51 * p))]]\n[[question n = ['x', 'p']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of linear equations to find the values of x and p:\n\n26 * x + 29 * p = 107 \n\n61 * x - 51 * p = 4",
+      "new symbolic struct": "[[var 107 = 26 * x + 29 * p]]\n[[var 4 = 61 * x - 51 * p]]\n[[question d = ['x', 'p']]]",
+      "answer": "{p: 6423/3095, x: 5573/3095}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-72-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 68 = ((29 * l) + (17 * g))]]\n[[var 17 = ((31 * g) - (10 * l))]]\n[[question f = ['g', 'l']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values for g and l from the system of equations below.\n\nThe first equation is: ((29 * l) + (17 * g)) = 68.\nThe second equation is: ((31 * g) - (10 * l)) = 17.",
+      "new symbolic struct": "[[var 68 = (29 * l) + (17 * g)]]\n[[var 17 = (31 * g) - (10 * l)]]\n[[question x = ['l', 'g']]]",
+      "answer": "{g: 1173/1069, l: 1819/1069}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-73-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 20 = ((33 * a) - (54 * c))]]\n[[var 29 = ((24 * a) - (26 * c))]]\n[[question z = ['c', 'a']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following system of equations, what are the values for a and c?\n\n33*a - 54*c = 20 \n\n24*a - 26*c = 29.",
+      "new symbolic struct": "[[var 20 = 33*a - 54*c]]\n[[var 29 = 24*a - 26*c]]\n[[question x = ['a', 'c']]]",
+      "answer": "{a: 523/219, c: 159/146}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-74-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 132 = ((71 * d) + (9 * j))]]\n[[var 91 = ((43 * j) - (84 * d))]]\n[[question l = ['j', 'd']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Kat found herself stuck solving the following system of equations with two variables, d and j. Can you help her resolve it?\n\n71d + 9j = 132\n43j - 84d = 91.",
+      "new symbolic struct": "[[var 132 = 71*d + 9*j]]\n[[var 91 = 43*j - 84*d]]\n[[question a = ['d', 'j']]]",
+      "answer": "{d: 4857/3809, j: 17549/3809}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-75-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 163 = ((81 * o) + (26 * n))]]\n[[var 143 = ((87 * n) + (23 * o))]]\n[[question m = ['o', 'n']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of o and n by solving this system of equations: \n\n(81 * o) + (26 * n) = 163\n(87 * n) + (23 * o) = 143.",
+      "new symbolic struct": "[[var 163 = 81 * o + 26 * n]]\n[[var 143 = 87 * n + 23 * o]]\n[[question x = ['o', 'n']]]",
+      "answer": "{n: 7834/6449, o: 10463/6449}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-76-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 2 = ((46 * s) - (61 * w))]]\n[[var 178 = ((61 * s) + (67 * w))]]\n[[question p = ['w', 's']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for w and s:\n\n46 * s - 61 * w = 2 \n61 * s + 67 * w = 178.",
+      "new symbolic struct": "[[var 2 = 46 * s - 61 * w]]\n[[var 178 = 61 * s + 67 * w]]\n[[question x = ['w', 's']]]",
+      "answer": "{s: 10992/6803, w: 8066/6803}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-77-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 86 = ((51 * k) - (8 * i))]]\n[[var 193 = ((39 * i) + (8 * k))]]\n[[question o = ['i', 'k']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "In the following system of equations, calculate the values of i and k. System of equations:\n51*k - 8*i = 86\n39*i + 8*k = 193.",
+      "new symbolic struct": "[[var 86 = 51*k - 8*i]]\n[[var 193 = 39*i + 8*k]]\n[[question x = ['i', 'k']]]",
+      "answer": "{i: 9155/2053, k: 4898/2053}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-78-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 146 = ((26 * m) + (17 * l))]]\n[[var 126 = ((93 * m) + l)]]\n[[question y = ['l', 'm']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of l and m: \n\n26m + 17l = 146\n93m + l = 126",
+      "new symbolic struct": "[[var 146 = 26*m + 17*l]]\n[[var 126 = 93*m + l]]\n[[question x = ['l', 'm']]]",
+      "answer": "{l: 10302/1555, m: 1996/1555}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-79-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 66 = ((8 * f) + (39 * h))]]\n[[var 119 = ((29 * f) + (46 * h))]]\n[[question t = ['h', 'f']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of 'h' and 'f' by solving the following system of equations:\n\n1) (8 * f) + (39 * h) = 66\n\n2) (29 * f) + (46 * h) = 119",
+      "new symbolic struct": "[[var 66 = (8 * f) + (39 * h)]]\n[[var 119 = (29 * f) + (46 * h)]]\n[[question x = ['f', 'h']]]",
+      "answer": "{f: 1605/763, h: 962/763}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-80-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 109 = ((22 * b) + (23 * k))]]\n[[var 14 = ((62 * k) - (69 * b))]]\n[[question f = ['k', 'b']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of k and b that satisfy the following system of equations: 22 * b + 23 * k = 109 and 62 * k - 69 * b = 14.",
+      "new symbolic struct": "[[var 109 = 22 * b + 23 * k]]\n[[var 14 = 62 * k - 69 * b]]\n[[question x = ['b', 'k']]]",
+      "answer": "{b: 6436/2951, k: 7829/2951}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-81-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 1 = ((84 * m) - (55 * s))]]\n[[var 98 = ((63 * m) - (2 * s))]]\n[[question a = ['s', 'm']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of linear equations for the values of m and s:\n\n1. 84m - 55s = 1\n2. 63m - 2s = 98.",
+      "new symbolic struct": "[[var 1 = 84*m - 55*s]]\n[[var 98 = 63*m - 2*s]]\n[[question x = ['m', 's']]]",
+      "answer": "{m: 1796/1099, s: 389/157}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-82-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 105 = ((6 * b) + (5 * k))]]\n[[var 67 = ((95 * k) - (51 * b))]]\n[[question f = ['b', 'k']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following system of equations, find the values of b and k:\n\n1. (6 * b) + (5 * k) = 105\n2. (95 * k) - (51 * b) = 67.",
+      "new symbolic struct": "[[var 105 = (6 * b) + (5 * k)]]\n[[var 67 = (95 * k) - (51 * b)]]\n[[question a = ['b', 'k']]]",
+      "answer": "{b: 1928/165, k: 1919/275}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-83-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 114 = ((33 * d) + (62 * u))]]\n[[var 83 = ((32 * u) + (40 * d))]]\n[[question c = ['u', 'd']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of d and u from the following pair of simultaneous linear equations: \n\n33d + 62u = 114 and\n32u + 40d = 83.",
+      "new symbolic struct": "[[var 114 = 33*d + 62*u]]\n[[var 83 = 32*u + 40*d]]\n[[question x = ['d', 'u']]]",
+      "answer": "{d: 749/712, u: 1821/1424}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-84-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 102 = ((5 * c) + (28 * p))]]\n[[var 13 = ((20 * c) - (67 * p))]]\n[[question a = ['p', 'c']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "There are two equations below that contain the variables c and p. Can you solve this system of equations to find the values of c and p?\n\n5 * c + 28 * p = 102\n20 * c - 67 * p = 13",
+      "new symbolic struct": "[[var 102 = 5 * c + 28 * p]]\n[[var 13 = 20 * c - 67 * p]]\n[[question a = ['c', 'p']]]",
+      "answer": "{c: 7198/895, p: 395/179}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-85-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 147 = ((58 * r) + (12 * q))]]\n[[var 76 = ((97 * q) - (76 * r))]]\n[[question z = ['r', 'q']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following system of linear equations, determine the value of r and q. The system of equations is:\n58 * r + 12 * q = 147\n97 * q - 76 * r = 76.",
+      "new symbolic struct": "[[var 147 = 58 * r + 12 * q]]\n[[var 76 = 97 * q - 76 * r]]\n[[question b = ['r', 'q']]]",
+      "answer": "{q: 7790/3269, r: 13347/6538}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-86-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 10 = ((47 * v) - (3 * k))]]\n[[var 128 = ((73 * v) + (2 * k))]]\n[[question n = ['v', 'k']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Resolve the provided system of simultaneous linear equations for v and k:\n47 * v - 3 * k = 10 \n73 * v + 2 * k = 128.",
+      "new symbolic struct": "[[var 10 = 47 * v - 3 * k]]\n[[var 128 = 73 * v + 2 * k]]\n[[question x = ['v', 'k']]]",
+      "answer": "{k: 5286/313, v: 404/313}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-87-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 60 = ((89 * p) - (41 * q))]]\n[[var 124 = ((27 * p) + (91 * q))]]\n[[question u = ['q', 'p']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "You are given the following system of equations:\nThe result of 89 multiplied by p minus 41 multiplied by q equals 60.\nThe result of 27 multiplied by p plus 91 multiplied by q equals 124.\nWhat are the values of p and q?",
+      "new symbolic struct": "[[var 60 = 89*p - 41*q]]\n[[var 124 = 27*p + 91*q]]\n[[question x = ['p', 'q']]]",
+      "answer": "{p: 5272/4603, q: 4708/4603}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-88-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 12 = ((88 * u) - (96 * d))]]\n[[var 71 = ((27 * u) + (36 * d))]]\n[[question k = ['d', 'u']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of u and d that make these equations true: \n\nThe first equation is: (88 * u) - (96 * d) = 12 \n\nThe second equation is: (27 * u) + (36 * d) = 71",
+      "new symbolic struct": "[[var 12 = (88 * u) - (96 * d)]]\n[[var 71 = (27 * u) + (36 * d)]]\n[[question answer = ['u', 'd']]]",
+      "answer": "{d: 1481/1440, u: 151/120}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-89-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 9 = ((20 * n) - (18 * f))]]\n[[var 70 = ((3 * n) - (2 * f))]]\n[[question g = ['f', 'n']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of f and n: 20 * n - 18 * f = 9 \nand 3 * n - 2 * f = 70.",
+      "new symbolic struct": "[[var 9 = 20 * n - 18 * f]]\n[[var 70 = 3 * n - 2 * f]]\n[[question x = ['f', 'n']]]",
+      "answer": "{f: 1373/14, n: 621/7}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-90-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 133 = ((7 * l) + (97 * j))]]\n[[var 76 = ((22 * j) + (37 * l))]]\n[[question e = ['j', 'l']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of j and l from the following system of equations: \n7 * l + 97 * j = 133 \n22 * j + 37 * l = 76.",
+      "new symbolic struct": "[[var 133 = 7 * l + 97 * j]]\n[[var 76 = 22 * j + 37 * l]]\n[[question x = ['j', 'l']]]",
+      "answer": "{j: 1463/1145, l: 1482/1145}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-92-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 53 = ((21 * d) - (46 * f))]]\n[[var 133 = ((8 * d) + (84 * f))]]\n[[question h = ['f', 'd']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of d and f from the following system of equations:\n\n21d - 46f = 53 \n8d + 84f = 133.",
+      "new symbolic struct": "[[var 53 = 21*d - 46*f]]\n[[var 133 = 8*d + 84*f]]\n[[question x = ['d', 'f']]]",
+      "answer": "{d: 5285/1066, f: 2369/2132}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-93-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 116 = ((74 * u) + (11 * w))]]\n[[var 21 = ((66 * u) - (68 * w))]]\n[[question p = ['w', 'u']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of u and w that satisfy the following system of equations: 74u + 11w = 116\n66u - 68w = 21.",
+      "new symbolic struct": "[[var 116 = 74*u + 11*w]]\n[[var 21 = 66*u - 68*w]]\n[[question x = ['u', 'w']]]",
+      "answer": "{u: 8119/5758, w: 3051/2879}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-94-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 96 = ((76 * f) - (42 * j))]]\n[[var 136 = ((47 * j) + (34 * f))]]\n[[question w = ['f', 'j']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of f and j that will satisfy the following system of equations: 76 * f - 42 * j = 96\n47 * j + 34 * f = 136.",
+      "new symbolic struct": "[[var 96 = 76 * f - 42 * j]]\n[[var 136 = 47 * j + 34 * f]]\n[[question x = ['f', 'j']]]",
+      "answer": "{f: 1278/625, j: 884/625}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-95-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 174 = ((68 * u) + (32 * e))]]\n[[var 1 = ((63 * e) - (69 * u))]]\n[[question l = ['u', 'e']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Consider the following system of equations. Find the values of u and e:\n68u + 32e = 174\n63e - 69u = 1.",
+      "new symbolic struct": "[[var 174 = 68*u + 32*e]]\n[[var 1 = 63*e - 69*u]]\n[[question x = ['u', 'e']]]",
+      "answer": "{e: 6037/3246, u: 5465/3246}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-96-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 129 = ((57 * p) + (4 * n))]]\n[[var 154 = ((24 * p) + (39 * n))]]\n[[question v = ['p', 'n']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of p and n that satisfy the following system of linear equations: \n\n57p + 4n = 129 and\n24p + 39n = 154.",
+      "new symbolic struct": "[[var 129 = 57*p + 4*n]]\n[[var 154 = 24*p + 39*n]]\n[[question d = ['p', 'n']]]",
+      "answer": "{n: 1894/709, p: 4415/2127}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-97-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 32 = ((66 * z) - (44 * y))]]\n[[var 116 = ((60 * y) + (14 * z))]]\n[[question d = ['z', 'y']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of y and z from the given system of equations:\n\n66 * z - 44 * y = 32 \n60 * y + 14 * z = 116.",
+      "new symbolic struct": "[[var 32 = 66 * z - 44 * y]]\n[[var 116 = 60 * y + 14 * z]]\n[[question b = ['y', 'z']]]",
+      "answer": "{y: 901/572, z: 439/286}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-98-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 45 = ((83 * t) - (58 * h))]]\n[[var 124 = ((69 * h) + (11 * t))]]\n[[question o = ['t', 'h']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the variables t and h:\n\nThe first equation is 83 * t - 58 * h = 45.\nThe second equation is 69 * h + 11 * t = 124.",
+      "new symbolic struct": "[[var 45 = 83 * t - 58 * h]]\n[[var 124 = 69 * h + 11 * t]]\n[[question x = ['t', 'h']]]",
+      "answer": "{h: 9797/6365, t: 10297/6365}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-99-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 9 = ((79 * h) - (61 * o))]]\n[[var 9 = ((16 * h) - (12 * o))]]\n[[question v = ['o', 'h']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the system of equations ((79 * h) - (61 * o)) = 9 and ((16 * h) - (12 * o)) = 9, what are the values of o and h?",
+      "new symbolic struct": "[[var 9 = (79 * h) - (61 * o)]]\n[[var 9 = (16 * h) - (12 * o)]]\n[[question f = ['h', 'o']]]",
+      "answer": "{h: 63/4, o: 81/4}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-100-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 139 = ((4 * y) + (56 * s))]]\n[[var 16 = ((65 * y) - (90 * s))]]\n[[question h = ['s', 'y']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve for variables s and y when the following system of equations is satisfied:\n\n4 * y + 56 * s = 139 \n\n65 * y - 90 * s = 16",
+      "new symbolic struct": "[[var 139 = 4 * y + 56 * s]]\n[[var 16 = 65 * y - 90 * s]]\n[[question x = ['y', 's']]]",
+      "answer": "{s: 8971/4000, y: 6703/2000}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-101-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 75 = ((42 * d) - (4 * z))]]\n[[var 162 = ((40 * d) + (45 * z))]]\n[[question t = ['d', 'z']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following pair of simultaneous equations:\n\n42 * d - 4 * z = 75\n40 * d + 45 * z = 162\n\nFind the values of d and z.",
+      "new symbolic struct": "[[var 75 = 42 * d - 4 * z]]\n[[var 162 = 40 * d + 45 * z]]\n[[question x = ['d', 'z']]]",
+      "answer": "{d: 4023/2050, z: 1902/1025}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-102-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 142 = ((42 * o) + (24 * a))]]\n[[var 75 = ((42 * a) + (6 * o))]]\n[[question q = ['a', 'o']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Determine the values of 'a' and 'o' from the following system of equations: (42 * o) + (24 * a) = 142\n (42 * a) + (6 * o) = 75.",
+      "new symbolic struct": "[[var 142 = (42 * o) + (24 * a)]]\n[[var 75 = (42 * a) + (6 * o)]]\n[[question x = ['o', 'a']]]",
+      "answer": "{a: 383/270, o: 347/135}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-103-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 45 = ((39 * r) - (2 * p))]]\n[[var 36 = ((16 * p) - (84 * r))]]\n[[question a = ['p', 'r']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following system of equations, find the values of p and r: 39*r - 2*p = 45 and 16*p - 84*r = 36.",
+      "new symbolic struct": "[[var 45 = 39*r - 2*p]]\n[[var 36 = 16*p - 84*r]]\n[[question b = ['p', 'r']]]",
+      "answer": "{p: 216/19, r: 33/19}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-104-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 7 = ((23 * d) - (52 * w))]]\n[[var 58 = ((64 * w) - (8 * d))]]\n[[question o = ['w', 'd']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following system of equations, solve for the values of 'd' and 'w':\n\n1. (23 * d) - (52 * w) = 7\n2. (64 * w) - (8 * d) = 58",
+      "new symbolic struct": "[[var 7 = (23 * d) - (52 * w)]]\n[[var 58 = (64 * w) - (8 * d)]]\n[[question z = ['d', 'w']]]",
+      "answer": "{d: 433/132, w: 695/528}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-105-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 184 = ((71 * z) + (60 * n))]]\n[[var 19 = ((52 * z) - (47 * n))]]\n[[question q = ['n', 'z']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Solve the following system of equations for the values of n and z: \n\n(71 * z) + (60 * n) = 184 \n(52 * z) - (47 * n) = 19.",
+      "new symbolic struct": "[[var 184 = (71 * z) + (60 * n)]]\n[[var 19 = (52 * z) - (47 * n)]]\n[[question a = ['n', 'z']]]",
+      "answer": "{n: 8219/6457, z: 9788/6457}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-106-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 189 = ((70 * e) + (90 * z))]]\n[[var 20 = ((99 * z) - (84 * e))]]\n[[question l = ['z', 'e']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Given the following system of equations, find the values of e and z:\n\n70 * e + 90 * z = 189 \n99 * z - 84 * e = 20",
+      "new symbolic struct": "[[var 189 = 70 * e + 90 * z]]\n[[var 20 = 99 * z - 84 * e]]\n[[question c = ['e', 'z']]]",
+      "answer": "{e: 1879/1610, z: 1234/1035}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-107-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 95 = ((26 * o) - (44 * f))]]\n[[var 169 = ((87 * f) + (11 * o))]]\n[[question y = ['o', 'f']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of o and f that satisfy the following system of equations:\n\n1) 26o - 44f = 95\n2) 87f + 11o = 169.",
+      "new symbolic struct": "[[var 95 = 26*o - 44*f]]\n[[var 169 = 87*f + 11*o]]\n[[question x = ['o', 'f']]]",
+      "answer": "{f: 3349/2746, o: 15701/2746}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-108-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 51 = ((40 * z) - (20 * p))]]\n[[var 165 = ((6 * z) + (58 * p))]]\n[[question s = ['z', 'p']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Calculate the values of z and p using the following system of equations: 40*z - 20*p = 51\n 6*z + 58*p = 165.",
+      "new symbolic struct": "[[var 51 = 40*z - 20*p]]\n[[var 165 = 6*z + 58*p]]\n[[question x = ['z', 'p']]]",
+      "answer": "{p: 3147/1220, z: 3129/1220}",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "8.EE.C.8-109-0",
+      "standard": "8.EE.C.8",
+      "symbolic-struct": "[[var 5 = ((71 * s) - (89 * f))]]\n[[var 93 = ((3 * f) + (10 * s))]]\n[[question d = ['s', 'f']]]\nmath concept: Write a problem about analyzing and solving pairs of simultaneous linear equations.",
+      "statement": "Find the values of s and f from the given system of equations:\n\n(71 * s) - (89 * f) = 5 \n(3 * f) + (10 * s) = 93.",
+      "new symbolic struct": "[[var 5 = (71 * s) - (89 * f)]]\n[[var 93 = (3 * f) + (10 * s)]]\n[[question x = ['s', 'f']]]",
+      "answer": "{f: 6553/1103, s: 8292/1103}",
+      "tag": "original problem"
+    }
+  ]
+]

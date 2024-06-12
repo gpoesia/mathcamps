@@ -1,0 +1,8 @@
+openai
+vertexai
+anthropic
+together
+transformers
+vllm
+scipy
+torch

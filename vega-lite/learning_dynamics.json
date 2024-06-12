@@ -1,0 +1,87 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 300,
+    "layer": [
+        {
+            "mark": {
+                "type": "line",
+                "point": true
+            },
+            "encoding": {
+                "x": {
+                    "field": "training_steps",
+                    "type": "quantitative",
+                    "title": "Training Steps",
+                    "axis": {
+                        "labelFontSize": 14,
+                        "titleFontSize": 16
+                    },
+                    "scale": {
+                        "domain": [0, 145000]
+                    }
+                },
+                "y": {
+                    "field": "accuracy",
+                    "type": "quantitative",
+                    "title": "Accuracy",
+                    "scale": {
+                        "domain": [0, 0.75]
+                    },
+                    "axis": {
+                        "labelFontSize": 14,
+                        "titleFontSize": 16,
+                        "format": ".2f"
+                    }
+                },
+                "color": {
+                    "field": "standard",
+                    "type": "nominal",
+                    "title": "CC Standard",
+                    "legend": {
+                        "orient": "none",
+                        "legendX": 20,
+                        "legendY": 10,
+                        "labelFontSize": 14,
+                        "titleFontSize": 16
+                    }
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "point",
+                "filled": true,
+                "size": 50
+            },
+            "encoding": {
+                "x": {
+                    "field": "training_steps",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [0, 145000]
+                    }
+                },
+                "y": {
+                    "field": "accuracy",
+                    "type": "quantitative"
+                },
+                "color": {
+                    "field": "standard",
+                    "type": "nominal"
+                }
+            }
+        }
+    ],
+    "config": {
+        "title": {
+            "fontSize": 18,
+            "anchor": "middle"
+        }
+    },
+    "title": {
+        "text": "Accuracy vs. Training Steps by Common Core Standard",
+        "fontSize": 20,
+        "anchor": "middle"
+    }
+}

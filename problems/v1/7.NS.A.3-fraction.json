@@ -1,0 +1,2200 @@
+[
+  [
+    {
+      "id": "7.NS.A.3-fraction-0-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var c = ((22 / 3) * (22 / 19))]]\n[[var v = ((23 / 17) * c)]]\n[[question i = ['v']]]\ntheme: Cucumber",
+      "statement": "Carla has a garden and wants to calculate the amount of cucumbers she will be able to grow. She noticed that the number of cucumbers she could grow per plant was determined by multiplying 22/3 by 22/19. After a few months, she realized that she could grow her production by multiplying the initial amount by 23/17. How many cucumbers is she expecting to grow per plant after adjusting her production method?",
+      "new symbolic struct": "[[var w = 22/3 * 22/19]]\n[[var x = w * 23/17]]\n[[question y = ['x']]]",
+      "answer": "11132/969",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-1-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var s = ((19 / 4) - (7 / 25))]]\n[[var p = ((30 / 9) + s)]]\n[[question k = ['p']]]\ntheme: Grapes",
+      "statement": "Pierre has 19/4 kg of grapes. One afternoon, he ate 7/25 kg of them. In the evening, his mother gave him 30/9 kg more grapes. How many kilograms of grapes does Pierre have now?",
+      "new symbolic struct": "[[var a = 19/4]]\n[[var b = a - 7/25]]\n[[var c = b + 30/9]]\n[[question k = ['c']]]",
+      "answer": "2341/300",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-1-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var s = ((19 / 14) - (7 / 25))]]\n[[var p = ((30 / 9) + s)]]\n[[question k = ['p']]]\ntheme: Grapes",
+      "statement": "In hindsight, Pierre realized he initially had less grapes than he thought. He actually started with 19/14 kg of grapes instead of 19/4 kg. He still ate 7/25 kg of grapes that afternoon, and his mother gave him the same amount, 30/9 kg, of additional grapes in the evening. Now how many kilograms of grapes does Pierre have?",
+      "new symbolic struct": "[[var a = 19/14]]\n[[var b = a - 7/25]]\n[[var c = b + 30/9]]\n[[question k = ['c']]]",
+      "answer": "4631/1050",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-4-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = (26 / 22)]]\n[[var h = (g + (4 / 29))]]\n[[var d = (h + (11 / 3))]]\n[[question b = ['d']]]\ntheme: Castle",
+      "statement": "King Arthur is calculating the costs for restoring his castle. The wall repairs cost 26/22 of his castle's annual budget. Meanwhile, the moat renovations cost an additional 4/29 of the budget. Finally, installing new defensive catapults takes up an 11/3 portion of the budget. How much (expressed as a fraction of the castle's annual budget) has King Arthur spent on these projects in total?",
+      "new symbolic struct": "[[var wall_repairs = 26/22]]\n[[var moat_renovations = 4/29]]\n[[var catapult_installations = 11/3]]\n[[var total_spent = wall_repairs + moat_renovations + catapult_installations]]\n[[question r = ['total_spent']]]",
+      "answer": "4772/957",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-5-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var l = ((25 / 19) * (30 / 26))]]\n[[var c = (l * l)]]\n[[var y = (c * l)]]\n[[question u = ['y']]]\ntheme: Giraffe",
+      "statement": "A giraffe at the local zoo has a peculiar eating habit. When it is fed 25/19 lbs of acacia leaves, it eats 30/26 times more than what it usually does in a day. If the zoo calculates the weekly feeding amount by multiplying the daily intake by itself (making the result \"weekly feeding amount squared\") and then multiplying that with the regular daily intake, how many pounds of acacia leaves should they prepare for the giraffe for a week? Calculate ((25 / 19) * (30 / 26))^2 * ((25 / 19) * (30 / 26)) and provide your answer.",
+      "new symbolic struct": "[[var daily_increased = (25/19) * (30/26)]]\n[[var weekly_squaring = daily_increased * daily_increased]]\n[[var weekly_feeding = weekly_squaring * daily_increased]]\n[[question pounds = ['weekly_feeding']]]",
+      "answer": "52734375/15069223",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-5-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var l = ((25 / 19) * (30 / 26))]]\n[[var c = (l * l)]]\n[[var y = (c * l)]]\n[[var f = (y + y)]]\n[[question v = ['f']]]\ntheme: Giraffe",
+      "statement": "Continuing from the previous scenario, the zookeepers found an additional giraffe with the same peculiar eating habits. They decided to combine the weekly feeding amounts for both giraffes. If the feeding amount for each giraffe for the week is calculated as in the previous problem ((25 / 19) * (30 / 26))^2 * ((25 / 19) * (30 / 26)), what would be the total amount of acacia leaves the zoo should prepare to feed both giraffes for a week? Calculate (y + y) where y is the weekly feeding amount for one giraffe.",
+      "new symbolic struct": "[[var daily_increased = (25/19) * (30/26)]]\n[[var weekly_squaring = daily_increased * daily_increased]]\n[[var weekly_feeding = weekly_squaring * daily_increased]]\n[[var combined_weekly_feeding = weekly_feeding + weekly_feeding]]\n[[question total_pounds = ['combined_weekly_feeding']]]",
+      "answer": "105468750/15069223",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-5-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var l = ((25 / 19) * (27 / 26))]]\n[[var c = (l * l)]]\n[[var y = (c * l)]]\n[[question u = ['y']]]\ntheme: Giraffe",
+      "statement": "In continuation of the old scenario, now imagine that the same giraffe's diet has changed slightly. Instead of eating 30/26 times more than its usual intake, it now eats 27/26 times more. So now, with these changes, how much acacia leaves should the zookeepers prepare for a week? Calculate ((25 / 19) * (27 / 26))^2 * ((25 / 19) * (27 / 26)) to estimate the total amount of food needed.",
+      "new symbolic struct": "[[var daily_increased_new = (25/19) * (27/26)]]\n[[var weekly_squaring_new = daily_increased_new * daily_increased_new]]\n[[var weekly_feeding_new = weekly_squaring_new * daily_increased_new]]\n[[question pounds_new = ['weekly_feeding_new']]]",
+      "answer": "307546875/120553784",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-7-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = ((11 / 3) + (8 / 30))]]\n[[question y = ['n']]]\ntheme: Necklace",
+      "statement": "Lara wants to make a necklace. The necklace requires (11/3) feet of yarn. She also wants to add smaller beads which will extend the length of the necklace by (8/30) feet. How many feet of materials will Lara need to make the necklace?\n",
+      "new symbolic struct": "[[var yarn = 11/3]]\n[[var beads = 8/30]]\n[[var total_materials = yarn + beads]]\n[[question l = ['total_materials']]]",
+      "answer": "59/15",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-7-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = ((11 / 3) + (8 / 30))]]\n[[var w = (n + (24 / 17))]]\n[[question g = ['w']]]\ntheme: Necklace",
+      "statement": "Lara was pleased with her initial necklace design, but she decided she wants to add some larger beads to the necklace. These larger beads require an additional (24/17) feet of yarn. How many total feet of material will Lara now need to finish her necklace with the added beads?",
+      "new symbolic struct": "[[var yarn = 11/3]]\n[[var beads_small = 8/30]]\n[[var beads_large = 24/17]]\n[[var total_materials = yarn + beads_small + beads_large]]\n[[question l = ['total_materials']]]",
+      "answer": "1363/255",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-7-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = ((11 / 3) + (8 / 28))]]\n[[question y = ['n']]]\ntheme: Necklace",
+      "statement": "Lara realized that she made a slight miscalculation. The amount of smaller beads she wants to add to the necklace extends its length by (8/28) feet not by (8/30) feet as she initially thought. Given this new information, how many total feet of material will Lara need to make her necklace, before adding the larger beads?",
+      "new symbolic struct": "[[var yarn = 11/3]]\n[[var beads_new = 8/28]]\n[[var total_materials_new = yarn + beads_new]]\n[[question l = ['total_materials_new']]]",
+      "answer": "83/21",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-8-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var r = ((24 / 11) - (26 / 27))]]\n[[question s = ['r']]]\ntheme: Plane",
+      "statement": "Two planes depart from an airport at the exact same time. Plane A is flying at a speed of 24/11 miles per minute and Plane B is flying at a speed of 26/27 miles per minute. How much farther (in miles) did Plane A travel than Plane B after exactly one minute, assuming they keep flying at a stable speed? Calculate the difference and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var speedA = 24/11]]\n[[var speedB = 26/27]]\n[[var difference = speedA - speedB]]\n[[question x = ['difference']]]",
+      "answer": "362/297",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-8-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var r = ((24 / 11) - (2 / 27))]]\n[[question s = ['r']]]\ntheme: Plane",
+      "statement": "Following on from the previous problem:\n\nLet's say Plane A has slowed down slightly and is now flying at a speed of 24/11 miles per minute. Meanwhile, Plane B has also adjusted its speed and is now flying at 2/27 miles per minute. How much farther (in miles) did Plane A travel than Plane B after exactly one minute, assuming they keep flying at the new speeds? Calculate the difference and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var speedA_new = 24/11]]\n[[var speedB_new = 2/27]]\n[[var difference_new = speedA_new - speedB_new]]\n[[question x_new = ['difference_new']]]",
+      "answer": "626/297",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-10-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var a = ((14 / 7) * (25 / 13))]]\n[[question d = ['a']]]\ntheme: Bear",
+      "statement": "In the wild, an adult bear eats about 14/7 pounds of fish per day. A young bear eats about 25/13 pounds of fish per day. Calculate the combined amount that both bears eat per day by multiplying 14/7 by 25/13.",
+      "new symbolic struct": "[[var adult_bear = 14/7]]\n[[var young_bear = 25/13]]\n[[var total = adult_bear * young_bear]]\n[[question combined = ['total']]]",
+      "answer": "50/13",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-10-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var a = ((22 / 7) * (25 / 13))]]\n[[question d = ['a']]]\ntheme: Bear",
+      "statement": "Imagine if instead of eating 14/7 pounds of fish per day, the adult bear actually eats 22/7 pounds of fish per day. Recalculate the total combined daily amount of fish the adult and young bear eat by multiplying 22/7 and 25/13.",
+      "new symbolic struct": "[[var adult_bear_new = 22/7]]\n[[var young_bear = 25/13]]\n[[var total_new = adult_bear_new * young_bear]]\n[[question combined_new = ['total_new']]]",
+      "answer": "550/91",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-11-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var k = ((12 / 8) + (12 / 3))]]\n[[question c = ['k']]]\ntheme: Guitar",
+      "statement": "Toby plays guitar. His first song takes 12/8 hours to play and his second song takes 12/3 hours to play. How long does it take Toby to play both of his songs? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var s1 = 12/8]]\n[[var s2 = 12/3]]\n[[var t = s1 + s2]]\n[[question total_time = ['t']]]",
+      "answer": "11/2",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-11-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var k = ((12 / 8) + (12 / 3))]]\n[[var t = (19 / 14)]]\n[[question a = ['(k + t)']]]\ntheme: Guitar",
+      "statement": "After playing his two songs, Toby decides to play a third song that takes 19/14 hours. How long does it take Toby to play all three songs? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var s1 = 12/8]]\n[[var s2 = 12/3]]\n[[var s3 = 19/14]]\n[[var t_total = s1 + s2 + s3]]\n[[question total_time = ['t_total']]]",
+      "answer": "48/7",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-11-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var k = ((12 / 15) + (12 / 3))]]\n[[question c = ['k']]]\ntheme: Guitar",
+      "statement": "Toby realized that he made a mistake. His first song actually takes 12/15 hours to play, not 12/8 hours. Given this information, how long does it take Toby to play his first and second songs now? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var s1_corrected = 12/15]]\n[[var s2 = 12/3]]\n[[var t_updated = s1_corrected + s2]]\n[[question total_time_updated = ['t_updated']]]",
+      "answer": "24/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-14-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var l = ((28 / 29) + (8 / 22))]]\n[[question b = ['l']]]\ntheme: Number",
+      "statement": "Suppose you have 28 out of 29 chocolate bars. Then, you found 8 out of 22 more chocolate bars. What fraction represents the total chocolate bars you have now?",
+      "new symbolic struct": "[[var a = 28/29]]\n[[var b = 8/22]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "424/319",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-15-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var q = (27 / 26)]]\n[[var f = (q + q)]]\n[[var i = (f + (27 / 6))]]\n[[question w = ['i']]]\ntheme: Compass",
+      "statement": "A compass maker is creating some specialty compasses. \n\nThe compass needle is made from a special material. It takes 27/26 of a pound to create one needle. \n\nIf the maker is trying to produce two identical needles, how much material will he require? \n\nAfter producing the two needles, the maker realizes he needs to produce an additional piece for the compass that requires 27/6 pounds of the material. \n\nHow much total material will the compass maker need to produce the two needles and the additional piece?",
+      "new symbolic struct": "[[var needle_weight = 27/26]]\n[[var total_needles = 2]]\n[[var total_needle_weight = needle_weight * total_needles]]\n[[var additional_piece_weight = 27/6]]\n[[var total_material = total_needle_weight + additional_piece_weight]]\n[[question total_material_needed = ['total_material']]]",
+      "answer": "171/26",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-15-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var q = (27 / 26)]]\n[[var f = (q + q)]]\n[[var i = (f + (22 / 6))]]\n[[question w = ['i']]]\ntheme: Compass",
+      "statement": "In the previous scenario, the compass maker originally used 27/6 pounds of material to produce an additional piece for the compass.\n\nNow, suppose that the compass maker has found a way to redesign this additional piece to reduce the material requirement to 22/6 pounds instead. \n\nIf the maker is still trying to produce two identical needles with each needing 27/26 pounds of material, how much total material will the compass maker need now to produce the two needles and the redesigned additional piece?",
+      "new symbolic struct": "[[var needle_weight = 27/26]]\n[[var total_needles = 2]]\n[[var total_needle_weight = needle_weight * total_needles]]\n[[var redesigned_additional_piece_weight = 22/6]]\n[[var total_material_redesigned = total_needle_weight + redesigned_additional_piece_weight]]\n[[question total_material_needed_redesigned = ['total_material_redesigned']]]",
+      "answer": "224/39",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-17-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = (6 / 4)]]\n[[var r = (x + (14 / 16))]]\n[[question q = ['r']]]\ntheme: Candle",
+      "statement": "Liam bought a candle that burns at a rate of 6/4 inches per hour. After some time, he bought another candle that burns at a slower rate of 14/16 inches per hour. What is the total rate at which the two candles burn together?",
+      "new symbolic struct": "[[var a = 6/4]]\n[[var b = 14/16]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "19/8",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-17-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = (6 / 4)]]\n[[var r = (x + (26 / 16))]]\n[[question q = ['r']]]\ntheme: Candle",
+      "statement": "Liam reevaluated and decided to change the second candle he bought, which now burns at a rate of 26/16 inches per hour, instead of the initial slow rate. Considering the rate of the first candle, what is the total rate at which the two candles now burn?",
+      "new symbolic struct": "[[var e = 6/4]]\n[[var f = 26/16]]\n[[var g = e + f]]\n[[question h = ['g']]]",
+      "answer": "25/8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-20-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = ((17 / 20) + (1 / 4))]]\n[[var q = (j + (1 / 1))]]\n[[question d = ['q']]]\ntheme: Money",
+      "statement": "Sophia has 17/20 of a dollar. Her friend gives her another 1/4 of a dollar. After some time, her brother gives her 1 dollar. How much money does Sophia have now in dollars?",
+      "new symbolic struct": "[[var initial_money = 17/20]]\n[[var friend_money = 1/4]]\n[[var brother_money = 1]]\n[[var total_money = initial_money + friend_money + brother_money]]\n[[question x = ['total_money']]]",
+      "answer": "21/10",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-20-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = ((17 / 20) + (1 / 4))]]\n[[var q = (j + (1 / 1))]]\n[[var i = (q * (10 / 14))]]\n[[question b = ['i']]]\ntheme: Money",
+      "statement": "After collecting the money from her friend and brother, Sophia decided to invest a fraction of it, exactly 10/14, into a new toy. How much money did she spend on the new toy?",
+      "new symbolic struct": "[[var total_money_before_invest = 17/20 + 1/4 + 1]]\n[[var money_spent_on_toy = total_money_before_invest * 10/14]]\n[[question y = ['money_spent_on_toy']]]",
+      "answer": "3/2",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-20-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = ((17 / 19) + (1 / 4))]]\n[[var q = (j + (1 / 1))]]\n[[question d = ['q']]]\ntheme: Money",
+      "statement": "Suppose instead of having 17/20 of a dollar originally, Sophia actually had 17/19 of a dollar. Then her friend gave her another 1/4 of a dollar, and her brother gave her 1 dollar. How much money does she have now in total?",
+      "new symbolic struct": "[[var initial_money = 17/19]]\n[[var friend_money = 1/4]]\n[[var brother_money = 1]]\n[[var total_money = initial_money + friend_money + brother_money]]\n[[question x = ['total_money']]]",
+      "answer": "163/76",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-21-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var p = ((16 / 4) + (16 / 29))]]\n[[var b = ((28 / 13) + p)]]\n[[var z = (b - (18 / 4))]]\n[[question f = ['z']]]\ntheme: Song",
+      "statement": "Imagine you're a music producer who is working on a new song. Your resources are divided into different sections.\n\n- First, you dedicate 16/4 hours to composing the music and another 16/29 hours to writing the lyrics. This is your initial time investment for the song (let's call it p).\n\n- Then, you spend 28/13 hours for mixing and mastering the song in addition to the initial time investment (let's call this new total time b).\n\n- Suddenly, a drummer you hired for a session uses 18/4 hours less because he finished his parts quickly.\n\nWhat is the final time you spent on producing the song, if your total time is expressed as (b - (18 / 4))?",
+      "new symbolic struct": "[[var p = 16/4 + 16/29]]\n[[var b = p + 28/13]]\n[[var c = 18/4]]\n[[var final_time = b - c]]\n[[question answer = ['final_time']]]",
+      "answer": "1663/754",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-21-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var p = ((16 / 4) + (16 / 1))]]\n[[var b = ((28 / 13) + p)]]\n[[var z = (b - (18 / 4))]]\n[[question f = ['z']]]\ntheme: Song",
+      "statement": "Let's revisit the music production scenario, but this time with a minor difference.\n\n- To begin, you allocate 16/4 hours to create the melodies and a larger chunk of your time, 16/1 hours, to pen the lyrics. This forms your initial time investment (p) in the song.\n\n- Afterwards, you spend an additional 28/13 hours on mixing and mastering the track, in conjunction with your initial time (Let's call this newly computed total time b).\n\n- However, your drummer who was initially scheduled for a certain number of hours finishes faster, using up 18/4 hours less than planned.\n\nGiven these adjustments, what will be the new total footage of your song, if the final time is computed as (b - (18 / 4))?",
+      "new symbolic struct": "[[var p = 16/4 + 16/1]]\n[[var b = p + 28/13]]\n[[var c = 18/4]]\n[[var final_time = b - c]]\n[[question answer = ['final_time']]]",
+      "answer": "459/26",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-26-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var h = (21 / 15)]]\n[[var i = (h + (29 / 17))]]\n[[var y = (i * (7 / 5))]]\n[[question l = ['y']]]\ntheme: Cookie",
+      "statement": "Monica has 21/15 dozens of cookies at her bakery shop. Later in the day, she bakes additional 29/17 dozens of cookies to add into her stock. At the end of the day, she decides to increase her total stock of cookies by a ratio of 7/5 for an upcoming cookie festival. How many dozens of cookies will Monica have for the cookie festival?",
+      "new symbolic struct": "[[var a = 21/15]]\n[[var b = 29/17]]\n[[var c = a + b]]\n[[var d = c * (7/5)]]\n[[question e = ['d']]]",
+      "answer": "1848/425",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-26-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var h = (21 / 15)]]\n[[var i = (h + (29 / 26))]]\n[[var y = (i * (7 / 5))]]\n[[question l = ['y']]]\ntheme: Cookie",
+      "statement": "In the previous scenario, Monica initially had 21/15 dozens of cookies in her bakery shop. Suppose now she initially has the same amount but later bakes 29/26 dozens of cookies instead of 29/17 dozens. At the end of the day, she still decides to increase the total stock of cookies by a ratio of 7/5 for a different event. How many dozens of cookies will Monica have now for this event?",
+      "new symbolic struct": "[[var f = 21/15]]\n[[var g = 29/26]]\n[[var h = f + g]]\n[[var i = h * (7/5)]]\n[[question j = ['i']]]",
+      "answer": "2289/650",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-27-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = (26 / 24)]]\n[[var c = ((28 / 1) - n)]]\n[[var l = (c + (10 / 6))]]\n[[question u = ['l']]]\ntheme: Cake",
+      "statement": "In a bakery, a certain cake recipe requires 26/24 kg of sugar per cake. If a chef starts with 28 kg of sugar, how many kilograms of sugar will they have left after making one cake and then adding 10/6 kg of sugar to their supply?",
+      "new symbolic struct": "[[var a = 26/24]]\n[[var b = 28]]\n[[var c = b - a]]\n[[var d = 10/6]]\n[[var e = c + d]]\n[[question f = ['e']]]",
+      "answer": "343/12",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-27-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = (26 / 24)]]\n[[var c = ((28 / 1) - n)]]\n[[var l = (c + (10 / 6))]]\n[[var g = (l - (13 / 23))]]\n[[question v = ['g']]]\ntheme: Cake",
+      "statement": "Following the previous scenario in the bakery, after the chef adds 10/6 kg of sugar to their supply, they then use 13/23 kg of sugar to make a glaze. How many kilograms of sugar does the chef have left after all of these operations?",
+      "new symbolic struct": "[[var a = 26/24]]\n[[var b = 28]]\n[[var c = b - a]]\n[[var d = 10/6]]\n[[var e = c + d]]\n[[var g = 13/23]]\n[[var h = e - g]]\n[[question i = ['h']]]",
+      "answer": "7733/276",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-27-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = (24 / 24)]]\n[[var c = ((28 / 1) - n)]]\n[[var l = (c + (10 / 6))]]\n[[question u = ['l']]]\ntheme: Cake",
+      "statement": "Continuing the bakery scenario, let's adjust the sugar quantity in the cake recipe. Now, suppose the cake recipe only requires 24/24 kg of sugar per cake, instead of 26/24 kg as in the previous scenario. If the chef starts with 28 kg of sugar, how many kilograms of sugar will they have left after making one cake and then adding 10/6 kg of sugar to their supply?",
+      "new symbolic struct": "[[var g = 24/24]]\n[[var h = 28]]\n[[var i = h - g]]\n[[var j = 10/6]]\n[[var k = i + j]]\n[[question l = ['k']]]",
+      "answer": "86/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-28-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = (6 / 3)]]\n[[var y = (16 / 4)]]\n[[question s = ['(y - g)']]]\ntheme: Plane",
+      "statement": "On a plane trip, Emily watched a total of 16 / 4 hours of movies. During this time, she spent 6 / 3 hours watching a comedy film. How many hours did she spend watching movies other than the comedy film?",
+      "new symbolic struct": "[[var total_movie_time = 16 / 4]]\n[[var comedy_time = 6 / 3]]\n[[var other_movie_time = total_movie_time - comedy_time]]\n[[question x = ['other_movie_time']]]",
+      "answer": "2",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-28-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = (7 / 3)]]\n[[var y = (16 / 4)]]\n[[question s = ['(y - g)']]]\ntheme: Plane",
+      "statement": "On the same plane trip, Emily watched a thriller film for 7 / 3 hours. With her total watching time staying at 16 / 4 hours, how many hours did she spend watching movies other than the thriller film?",
+      "new symbolic struct": "[[var total_movie_time = 16 / 4]]\n[[var thriller_time = 7 / 3]]\n[[var other_movie_time = total_movie_time - thriller_time]]\n[[question x = ['other_movie_time']]]",
+      "answer": "5/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-29-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = ((10 / 12) + (10 / 29))]]\n[[question j = ['g']]]\ntheme: Princess",
+      "statement": "Princess Lily was dining at a finely set table and in front of her, two dishes were placed, one with slices of apple pie and the other with slices of blueberry pie. She can eat pie slices endlessly! She ate 10 out of the 12 slices of the apple pie and 10 out of the 29 slices of the blueberry pie. How much of the pies (combined) did she eat? Represent your answer as a fraction.",
+      "new symbolic struct": "[[var a = 10/12]]\n[[var b = 10/29]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "205/174",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-29-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = ((10 / 1) + (10 / 29))]]\n[[question j = ['g']]]\ntheme: Princess",
+      "statement": "As Princess Lily was about to leave the dining room, she noticed another plate - this one filled with 29 slices of peach pie. She decided to help herself and ate 10 of the slices. Before her peach pie adventure, she had already eaten an entire 10-slice chocolate cake.\n\nNow, how much of the total food (chocolate cake and peach pie) did Princess Lily eat? Please represent your answer as a fraction.",
+      "new symbolic struct": "[[var e = 10/1]]\n[[var f = 10/29]]\n[[var g = e + f]]\n[[question h = ['g']]]",
+      "answer": "300/29",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-30-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var b = ((20 / 11) * (23 / 26))]]\n[[question l = ['b']]]\ntheme: Colored pencil",
+      "statement": "Marta has a box of colored pencils. She uses 20 of the colored pencils every 11 days on her art projects. However, she only uses about 23 out of every 26 colored pencils for shading techniques. How many colored pencils does Marta use for shading in her art projects over an 11-day period? Evaluate by performing the operation (20 / 11) * (23 / 26) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 20 / 11]]\n[[var b = 23 / 26]]\n[[var shadingPencils = a * b]]\n[[question c = ['shadingPencils']]]",
+      "answer": "230/143",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-30-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var b = ((20 / 11) * (23 / 26))]]\n[[var m = ((8 / 6) + b)]]\n[[question a = ['m']]]\ntheme: Colored pencil",
+      "statement": "In addition to the colored pencils Marta uses for her art projects, she also has a pack of special metallic colored pencils. She uses 8 of these special pencils every 6 days. Adding these two amounts together, how many colored pencils in total does Marta use over an 11-day period? \n\nTo find this, you need to add the fraction of colored pencils she uses from the previous problem to the amount of metallic pencils she uses. Evaluate this by performing the operation (8 / 6) + ((20 / 11) * (23 / 26)) and write your answer as a simplified fraction.\n",
+      "new symbolic struct": "[[var a = 20 / 11]]\n[[var b = 23 / 26]]\n[[var shadingPencils = a * b]]\n[[var d = 8 / 6]]\n[[var totalPencils = d + shadingPencils]]\n[[question e = ['totalPencils']]]",
+      "answer": "1262/429",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-30-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var b = ((20 / 11) * (23 / 24))]]\n[[question l = ['b']]]\ntheme: Colored pencil",
+      "statement": "Marta realized that she actually only uses 23 out of 24 colored pencils for shading techniques, not 23 out of 26 as previously mentioned. Now, how many colored pencils does Marta use for shading in her art projects over an 11-day period? \n\nTo find this, you need to adjust the previous calculation. Evaluate this by performing the operation (20 / 11) * (23 / 24) and write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var d = 20 / 11]]\n[[var e = 23 / 24]]\n[[var shadingPencilsCorrected = d * e]]\n[[question f = ['shadingPencilsCorrected']]]",
+      "answer": "115/66",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-36-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var i = ((26 / 6) / (25 / 17))]]\n[[var h = ((18 / 8) - (17 / 23))]]\n[[var f = (h * i)]]\n[[question b = ['f']]]\ntheme: Police",
+      "statement": "A police investigator is analyzing two evidence specimens. The first specimen has a unique property that decreases its value by 26 out of every 6 units. The second specimen decreases its value by 25 out of every 17 units. The investigator needs to find the ratio of these changes, referred to as indicator i.\n\nAdditionally, he needs to figure out a set of changes in another pair of evidence specimens. The first one of this pair increases its value by 18 out of every 8 units and the second one increases its value by 17 out of every 23 units. The investigator has to find the difference between these two rates and refer to it as indicator h.\n\nHe then combines these two indicators (h and i) by multiplying them to get a final evidence factor, referred to as indicator f. This will help determine the likelihood of a particular suspect\u2019s involvement. Calculate the value of f.",
+      "new symbolic struct": "[[var rate1 = 26/6]]\n[[var rate2 = 25/17]]\n[[var i = rate1/rate2]]\n[[var rate3 = 18/8]]\n[[var rate4 = 17/23]]\n[[var h = rate3 - rate4]]\n[[var f = i * h]]\n[[question g = ['f']]]",
+      "answer": "30719/6900",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-38-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var i = ((20 / 22) + (15 / 1))]]\n[[var m = (i - (15 / 20))]]\n[[question t = ['m']]]\ntheme: Lion",
+      "statement": "In a wildlife park, there are lions and giraffes. During one particular year, the gestation period of a lioness is represented as 20/22 of a year, while a giraffe's gestation period is 15 years. Find the total gestation period of both animals together. \n\nLater in the same year, a lioness is pregnant again but this time her gestation period reduces by 15/20 of a year compared to the earlier total gestation period of both animals. How long will it take for the lioness to give birth this second time?",
+      "new symbolic struct": "[[var lion_gestation = 20/22]]\n[[var giraffe_gestation = 15]]\n[[var total_gestation = lion_gestation + giraffe_gestation]]\n[[var lion_gestation_again = total_gestation - 15/20]]\n[[question d = ['lion_gestation_again']]]",
+      "answer": "667/44",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-39-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var f = ((30 / 7) * (19 / 6))]]\n[[var t = (f * (18 / 17))]]\n[[question o = ['t']]]\ntheme: Shape",
+      "statement": "A rectangle's length is 30/7 meters and its width is 19/6 meters. The area of the rectangle is found by multiplying the length and the width. If a similar rectangle has an area which is 18/17 times bigger than the original rectangle, what is the area of the similar rectangle?",
+      "new symbolic struct": "[[var l = 30/7]]\n[[var w = 19/6]]\n[[var a = l * w]]\n[[var bigger_a = 18/17 * a]]\n[[question b_a = ['bigger_a']]]",
+      "answer": "1710/119",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-39-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var f = ((30 / 7) * (19 / 6))]]\n[[var t = (f * (18 / 17))]]\n[[var a = (t - (19 / 2))]]\n[[question v = ['a']]]\ntheme: Shape",
+      "statement": "A rectangle's length is 30/7 meters and its width is 19/6 meters. The area of the rectangle is found by multiplying the length and the width. A similar rectangle has an area which is 18/17 times larger than the original rectangle. If we subtract 19/2 square meters from the area of the similar rectangle, what is the remaining area?",
+      "new symbolic struct": "[[var l = 30/7]]\n[[var w = 19/6]]\n[[var a = l * w]]\n[[var bigger_a = 18/17 * a]]\n[[var remaining_area = bigger_a - 19/2]]\n[[question r_a = ['remaining_area']]]",
+      "answer": "1159/238",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-39-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var f = ((30 / 7) * (19 / 6))]]\n[[var t = (f * (15 / 17))]]\n[[question o = ['t']]]\ntheme: Shape",
+      "statement": "A rectangle's length is 30/7 meters and its width is 19/6 meters. The area of the rectangle is found by multiplying the length and the width. Previously, we considered a similar rectangle that was 18/17 times larger than the original one. Now, let's consider a different scenario. If a similar rectangle has an area which is 15/17 times larger than the original rectangle, what would its area be?",
+      "new symbolic struct": "[[var l = 30/7]]\n[[var w = 19/6]]\n[[var a = l * w]]\n[[var larger_a = 15/17 * a]]\n[[question new_a = ['larger_a']]]",
+      "answer": "1425/119",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-42-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = (23 / 8)]]\n[[var j = (x + (4 / 20))]]\n[[var a = (j - (19 / 24))]]\n[[question d = ['a']]]\ntheme: Soap",
+      "statement": "A soap factory produces 23/8 tonnes of soap each day. One day, they decided to increase production by an extra 4/20 of a tonne. However, later that same day, they reduce the production by 19/24 of a tonne due to a sudden power cut. How many tonnes of soap does the factory produce that day after these adjustments?",
+      "new symbolic struct": "[[var a = 23/8]]\n[[var b = 4/20]]\n[[var c = 19/24]]\n[[var production = a + b - c]]\n[[question d = ['production']]]",
+      "answer": "137/60",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-42-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = (23 / 8)]]\n[[var j = (x + (4 / 20))]]\n[[var a = (j - (8 / 24))]]\n[[question d = ['a']]]\ntheme: Soap",
+      "statement": "In the same soap factory, consider a new scenario where instead of reducing production by 19/24 of a tonne due to a power cut, they only reduce production by 8/24 of a tonne. Following the same adjustment of increasing production by an extra 4/20 of a tonne earlier in the day, how many tonnes of soap does the factory produce that day?",
+      "new symbolic struct": "[[var a = 23/8]]\n[[var b = 4/20]]\n[[var e = 8/24]]\n[[var new_production = a + b - e]]\n[[question f = ['new_production']]]",
+      "answer": "329/120",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-45-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((24 / 8) - (12 / 8))]]\n[[var x = (d - (1 / 28))]]\n[[question k = ['x']]]\ntheme: Paint",
+      "statement": "You have a paint mixing machine that creates specific shades of color.\n\nThe machine starts by mixing 24/8 gallons of red paint. It then pours away 12/8 gallons of the mix. Let 'd' represent the amount of red paint left in the machine.\n\nFinally, the machine adds another 1/28 gallon of blue pigment to lighten the color, subtract that from 'd' to find 'x' in gallons, which is the total amount of paint. Find the value of 'x'.",
+      "new symbolic struct": "[[var a = 24/8]]\n[[var b = 12/8]]\n[[var d = a - b]]\n[[var c = 1/28]]\n[[var x = d - c]]\n[[question x = ['x']]]",
+      "answer": "41/28",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-45-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((24 / 8) - (12 / 8))]]\n[[var x = (d - (1 / 21))]]\n[[question k = ['x']]]\ntheme: Paint",
+      "statement": "Suppose, while creating the paint mixture you started with the revised amount of 24/8 gallons of red paint. However, this time instead of adding 1/28 gallon blue pigment, you added 1/21 gallon of blue pigment to adjust the color. \n\nSubtract this newer amount of blue pigment from 'd' to find 'x' in gallons, which is the total amount of paint. What is the value of 'x' now?",
+      "new symbolic struct": "[[var a = 24/8]]\n[[var b = 12/8]]\n[[var d = a - b]]\n[[var c = 1/21]]\n[[var x = d - c]]\n[[question x = ['x']]]",
+      "answer": "61/42",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-46-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((27 / 14) * (17 / 13))]]\n[[question w = ['d']]]\ntheme: Banana",
+      "statement": "A banana bread recipe requires you to multiply the fractions (27 / 14) and (17 / 13) together to determine how many ounces of mashed bananas you'll need. Compute the product of these fractions and write your answer as a simplified fraction to find out how many ounces are required.",
+      "new symbolic struct": "[[var w = (27 / 14) * (17 / 13)]]\n[[question y = ['w']]]",
+      "answer": "459/182",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-46-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((27 / 14) * (17 / 13))]]\n[[var e = ((8 / 4) * d)]]\n[[question g = ['e']]]\ntheme: Banana",
+      "statement": "After finding out how many ounces of mashed bananas you'll need for the banana bread, you realize that you need to scale up the recipe by the factor represented by the fraction (8 / 4). Compute the product of the original fraction and the scaling factor (8 / 4) to determine the new amount of mashed bananas that will be needed. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var w = (27 / 14) * (17 / 13)]]\n[[var z = w * (8 / 4)]]\n[[question y = ['z']]]",
+      "answer": "459/91",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-46-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((27 / 14) * (17 / 15))]]\n[[question w = ['d']]]\ntheme: Banana",
+      "statement": "After reevaluating the recipe, you discover that the amount of mashed bananas required is actually determined by multiplying the fractions (27 / 14) and (17 / 15), not (27 / 14) and (17 / 13) as you initially thought. Recompute the product of these fractions to find out the correct amount of mashed bananas needed for the banana bread. Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = (27 / 14) * (17 / 15)]]\n[[question b = ['a']]]",
+      "answer": "153/70",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-48-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var c = ((21 / 12) + (6 / 27))]]\n[[var v = (c + (3 / 18))]]\n[[question y = ['v']]]\ntheme: Toothpaste",
+      "statement": "Sonia uses 21/12 oz of toothpaste to brush her teeth every day. Her brother Anthony uses less toothpaste, just 6/27 oz daily. Add both quantities of toothpaste to get the total daily amount used by Sonia and Anthony.\n\nNow, suppose their mom includes an amount of toothpaste for herself to the total - she uses 3/18 oz of toothpaste daily. Add this amount to the total used by Sonia and Anthony to get the final total daily toothpaste usage for the whole family. Solve each fraction separately and give the answer as a simplified fraction.",
+      "new symbolic struct": "[[var s_toothpaste = 21/12]]\n[[var a_toothpaste = 6/27]]\n[[var s_a_toothpaste = s_toothpaste + a_toothpaste]]\n[[var m_toothpaste = 3/18]]\n[[var total_toothpaste = s_a_toothpaste + m_toothpaste]]\n[[question daily_toothpaste_usage = ['total_toothpaste']]]",
+      "answer": "77/36",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-48-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var c = ((21 / 12) + (6 / 27))]]\n[[var v = (c + (3 / 18))]]\n[[var b = (v + (24 / 28))]]\n[[question r = ['b']]]\ntheme: Toothpaste",
+      "statement": "Sonia uses 21/12 oz of toothpaste to brush her teeth every day, and her brother Anthony uses 6/27 oz daily. Their mom includes her daily usage of 3/18 oz of toothpaste to the total. \n\nNow, their visiting grandma also starts using toothpaste daily. She uses a different toothpaste amount, specifically, she uses 24/28 oz daily. Add grandma's toothpaste usage to the already calculated total daily toothpaste usage for Sonia, Anthony, and their mom to get the final total daily toothpaste usage for the whole family including grandma. Give your answer as a simplified fraction.",
+      "new symbolic struct": "[[var s_toothpaste = 21/12]]\n[[var a_toothpaste = 6/27]]\n[[var s_a_toothpaste = s_toothpaste + a_toothpaste]]\n[[var m_toothpaste = 3/18]]\n[[var s_a_m_toothpaste = s_a_toothpaste + m_toothpaste]]\n[[var g_toothpaste = 24/28]]\n[[var total_toothpaste = s_a_m_toothpaste + g_toothpaste]]\n[[question daily_toothpaste_usage = ['total_toothpaste']]]",
+      "answer": "755/252",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-48-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var c = ((21 / 12) + (26 / 27))]]\n[[var v = (c + (3 / 18))]]\n[[question y = ['v']]]\ntheme: Toothpaste",
+      "statement": "In our ongoing toothpaste saga, consider the situation where Sonia is still using 21/12 oz of toothpaste to brush her teeth daily but Anthony decides to use more toothpaste and now uses 26/27 oz daily instead. Their mom's daily toothpaste usage remains at 3/18 oz. \n\nCalculate the new total daily toothpaste usage for Sonia, Anthony, and their mom. Give your answer as a simplified fraction.",
+      "new symbolic struct": "[[var s_toothpaste_new = 21/12]]\n[[var a_toothpaste_new = 26/27]]\n[[var s_a_toothpaste_new = s_toothpaste_new + a_toothpaste_new]]\n[[var m_toothpaste_new = 3/18]]\n[[var total_toothpaste_new = s_a_toothpaste_new + m_toothpaste_new]]\n[[question daily_toothpaste_usage_new = ['total_toothpaste_new']]]",
+      "answer": "311/108",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-49-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = ((7 / 18) + (21 / 14))]]\n[[var s = (g - (2 / 4))]]\n[[question k = ['s']]]\ntheme: Sandwich",
+      "statement": "Let's suppose for a special recipe sandwich, you need to divide a wheel of cheese into 14 equal parts and a pickle jar into 18 equal parts. \n\nTo make one special sandwich, you need 21 parts of the wheel of cheese and 7 parts from the pickle jar.\n\nYou've just made these sandwiches and you are down to ((7 / 18) + (21 / 14)) of your original ingredients.\n\nLater, you decided to make a simpler version of the sandwich which required half of the wheel of cheese and did not use any pickles.\n\nWhat fraction of the original ingredients do you have left after making the simpler sandwich? Calculate the answer by subtracting (2 / 4) from the fraction you had after making the first sandwich.",
+      "new symbolic struct": "[[var x = (7 / 18) + (21 / 14)]]\n[[var y = 2 / 4]]\n[[var z = x - y]]\n[[question a = ['z']]]",
+      "answer": "25/18",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-49-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = ((19 / 18) + (21 / 14))]]\n[[var s = (g - (2 / 4))]]\n[[question k = ['s']]]\ntheme: Sandwich",
+      "statement": "In the same scenario, let's say you found a jar of pickles in the back of your fridge, so now you have 19 parts of the pickle jar instead of the 7 you thought you had.\n\nSo, for the initial special recipe sandwiches, you now have ((19 / 18) + (21 / 14)) of your original ingredients.\n\nJust like before, later, you decided to make a simpler version of the sandwich that required half of the wheel of cheese and didn't use any pickles.\n\nWhat fraction of the original ingredients do you now have left after making the simpler sandwich? Calculate the answer by subtracting (2 / 4) from the fraction you had after making the first special recipe sandwiches with the extra pickles.",
+      "new symbolic struct": "[[var x = (19 / 18) + (21 / 14)]]\n[[var y = 2 / 4]]\n[[var z = x - y]]\n[[question a = ['z']]]",
+      "answer": "37/18",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-50-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var w = ((15 / 6) + (7 / 16))]]\n[[question f = ['w']]]\ntheme: Window",
+      "statement": "A window washer needs to clean two windows in a large building. The first window is 15/6 meters tall while the other one is 7/16 meters tall. How tall are the windows in total?",
+      "new symbolic struct": "[[var a = 15/6]]\n[[var b = 7/16]]\n[[question c = ['a + b']]]",
+      "answer": "47/16",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-50-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var w = ((15 / 5) + (7 / 16))]]\n[[question f = ['w']]]\ntheme: Window",
+      "statement": "The window washer noticed that he made an error in measuring the first window. It is actually 15/5 meters tall, not 15/6 meters tall as he initially recorded. How tall are the windows in total now?",
+      "new symbolic struct": "[[var a = 15/5]]\n[[var b = 7/16]]\n[[question c = ['a + b']]]",
+      "answer": "55/16",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-53-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = ((16 / 6) + (20 / 12))]]\n[[var y = (j + (2 / 3))]]\n[[question c = ['y']]]\ntheme: Juice",
+      "statement": "Jan is mixing some fruit juices for a party. She mixes 16/6 liters of apple juice with 20/12 liters of orange juice. To add some tartness, she also adds 2/3 liters of cranberry juice. How many liters of juice does she have in total?",
+      "new symbolic struct": "[[var a = 16/6]]\n[[var b = 20/12]]\n[[var c = 2/3]]\n[[var total = a + b + c]]\n[[question j = ['total']]]",
+      "answer": "5",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-54-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var r = ((4 / 3) * (13 / 10))]]\n[[question f = ['r']]]\ntheme: Puzzle",
+      "statement": "In a puzzle game, each level gives you 4/3 points. If you have played 13/10 of these levels, how many points have you earned? Standardize your response as a simplified fraction.\n",
+      "new symbolic struct": "[[var points_per_level = 4/3]]\n[[var levels_played = 13/10]]\n[[var total_points = points_per_level * levels_played]]\n[[question x = ['total_points']]]",
+      "answer": "26/15",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-54-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var r = ((4 / 3) * (13 / 13))]]\n[[question f = ['r']]]\ntheme: Puzzle",
+      "statement": "In the same puzzle game, let's say now each level gives you the same amount of points, 4/3, but you've only played the game completely (13/13 of the levels). How many points have you earned now? Write your response as a simplified fraction.",
+      "new symbolic struct": "[[var points_per_level = 4/3]]\n[[var complete_levels = 13/13]]\n[[var total_points = points_per_level * complete_levels]]\n[[question x = ['total_points']]]",
+      "answer": "4/3",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-55-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = ((18 / 8) + (26 / 2))]]\n[[var j = ((30 / 8) + g)]]\n[[question t = ['j']]]\ntheme: Astronaut",
+      "statement": "An astronaut on a mission has a routine where he spends 18/8 hours a day cycling on the spaceship's exercise bike and 26/2 hours a day conducting scientific experiments. The total amount of time spent on these activities in a day makes up what he calls his \"work\".\n\nOne day he decides to add another activity to his routine around 30/8 hours of reviewing data from the mission so far. He adds this time to his previous \"work\" routine. How many hours does the astronaut spend on his whole daily routine now?",
+      "new symbolic struct": "[[var x = 18/8 + 26/2]]\n[[var y = x + 30/8]]\n[[question total = ['y']]]",
+      "answer": "19",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-55-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = ((18 / 8) + (11 / 2))]]\n[[var j = ((30 / 8) + g)]]\n[[question t = ['j']]]\ntheme: Astronaut",
+      "statement": "The astronaut then decides to reduce the time he spends on scientific experiments from 26/2 hours a day to 11/2 hours a day, but keeps his exercise and data review routines the same. After making these adjustments, how many hours does the astronaut spend on his routine now?",
+      "new symbolic struct": "[[var a = 18/8 + 11/2]]\n[[var b = a + 30/8]]\n[[question total_new = ['b']]]",
+      "answer": "23/2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-56-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = (30 / 9)]]\n[[var d = (n - (17 / 22))]]\n[[question z = ['d']]]\ntheme: Sandwich",
+      "statement": "Jeremy went to a sandwich shop that slices cheese by weight measured in ounces. He ordered slices of cheese that weighed 30/9 ounces in total. However, upon weighing, he found that there was 17/22 ounces less cheese than he requested. Calculate how much cheese he actually received. Use the equation 'd = n - (17 / 22)' to find the answer.",
+      "new symbolic struct": "[[var n = 30/9]]\n[[var d = n - (17 / 22)]]\n[[question total_cheese = ['d']]]",
+      "answer": "169/66",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-56-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = (30 / 9)]]\n[[var d = (n - (17 / 22))]]\n[[var k = ((30 / 18) * d)]]\n[[question q = ['k']]]\ntheme: Sandwich",
+      "statement": "Following the previous problem, Jeremy decided to make sandwiches for his friends. Each of his friends wanted a sandwich that had (30 / 18) ounces of the cheese Jeremy received from the shop. Calculate the total amount of cheese in ounces that Jeremy will have to use if he uses 'd' ounces of cheese from what he received for each sandwich. Use the formula 'k = (30 / 18) * d' to find your answer.",
+      "new symbolic struct": "[[var previous_cheese = 30/9 - 17/22]]\n[[var d = previous_cheese]]\n[[var k = (30 / 18) * d]]\n[[question total_cheese_used = ['k']]]",
+      "answer": "845/198",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-56-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = (30 / 9)]]\n[[var d = (n - (20 / 22))]]\n[[question z = ['d']]]\ntheme: Sandwich",
+      "statement": "Based on the previous problem, suppose now that when Jeremy weighed his cheese, he found that there was actually 20/22 ounces less cheese than he requested, instead of 17/22 ounces. With this change, calculate how much cheese he actually received now. Use the equation 'd = n - (20 / 22)' to find the answer.",
+      "new symbolic struct": "[[var n = 30/9]]\n[[var d = n - (20 / 22)]]\n[[question total_cheese = ['d']]]",
+      "answer": "80/33",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-57-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = ((13 / 4) + (20 / 18))]]\n[[var k = ((21 / 17) + x)]]\n[[var i = (k - (16 / 30))]]\n[[question r = ['i']]]\ntheme: Sunglasses",
+      "statement": "Sophia is a researcher who studies sunglasses. She was examining a batch of sunglasses and trying to calculate the average light blocking efficiency.\n\nIn the first test, she found that 13 out of every 4 sunglasses blocked all UV rays completely, while in the second test, 20 out of every 18 sunglasses also blocked all UV rays.\n\nSophia decided to add these numbers to her total. Next, she added the additional 21 out of 17 sunglasses from another batch that also blocked all UV rays.\n\nLater, she realized she made a mistake and needed to subtract the 16 out of 30 sunglasses that actually did not block all UV rays.\n\nWhat is the final corrected number of sunglasses that blocked all UV rays, according to Sophia's tests and calculations? Please give your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 13 / 4]]\n[[var b = 20 / 18]]\n[[var c = 21 / 17]]\n[[var d = 16 / 30]]\n[[var e = a + b + c - d]]\n[[question final_corrected = ['e']]]",
+      "answer": "15493/3060",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-57-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = ((13 / 4) + (20 / 18))]]\n[[var k = ((21 / 17) + x)]]\n[[var i = (k - (16 / 30))]]\n[[var s = ((13 / 6) * i)]]\n[[question g = ['s']]]\ntheme: Sunglasses",
+      "statement": "After making her final corrections, Sophia wanted to estimate the impact of the sunglasses' UV blocking efficiency. She decided to conduct an experiment, where she subjected 13 out of 6 pairs of sunglasses from the final corrected number to a special UV light test, and then multiplied the results by the rest. \n\nWhat fraction represents this result? Please give your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 13 / 4]]\n[[var b = 20 / 18]]\n[[var c = 21 / 17]]\n[[var d = 16 / 30]]\n[[var e = a + b + c - d]]\n[[var f = 13 / 6]]\n[[var g = e * f]]\n[[question h = ['g']]]",
+      "answer": "201409/18360",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-57-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = ((13 / 28) + (20 / 18))]]\n[[var k = ((21 / 17) + x)]]\n[[var i = (k - (16 / 30))]]\n[[question r = ['i']]]\ntheme: Sunglasses",
+      "statement": "Sophia revisited her calculations and identified an error. She had originally noted that 13 out of every 4 sunglasses blocked all UV rays. However, upon double-checking, she discovered that actually 13 out of every 28 sunglasses blocked all UV rays. She wants to correct this while keeping the rest of her operations the same.\n\nAfter correcting this mistake, and continuing to add the 20 out of 18 sunglasses from the second test, adding an additional 21 out of 17 sunglasses from another batch, and finally subtracting the 16 out of 30 sunglasses that did not meet the standard, what is the final corrected number of sunglasses that blocked all UV rays, according to Sophia's tests and calculations? Please give your answer as a simplified fraction.\n",
+      "new symbolic struct": "[[var a_corrected = 13 / 28]]\n[[var b = 20 / 18]]\n[[var c = 21 / 17]]\n[[var d = 16 / 30]]\n[[var e_corrected = a_corrected + b + c - d]]\n[[question final_corrected_new = ['e_corrected']]]",
+      "answer": "48781/21420",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-59-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((23 / 28) + (6 / 9))]]\n[[var e = ((18 / 12) + d)]]\n[[var n = (4 / 4)]]\n[[question p = ['(e * n)']]]\ntheme: Sandwich",
+      "statement": "Shawn is making sandwiches for a picnic. The recipe for the sandwiches requires different amounts of mayonnaise and sandwich spread. \n\nTo make a sandwich, Shawn uses 23/28 cups of mayonnaise and 6/9 cups of sandwich spread. How many cups of these two ingredients does Shawn use in total to make a sandwich?\n\nWhile preparing the sandwiches, Shawn realizes that he has to add 18/12 cups of cheese spread to his recipe. Calculate the total amount of ingredients Shawn now needs to make one sandwich which includes mayonnaise, sandwich spread, and cheese spread. \n\nFinally, if Shawn has to make an equal number of sandwiches using 4/4 cups of all the ingredients combined, how many cups of ingredients will he use in total to make those sandwiches?",
+      "new symbolic struct": "[[var a = 23/28]]\n[[var b = 6/9]]\n[[var c = a + b]]\n[[var d = 18/12]]\n[[var e = c + d]]\n[[var f = 4/4]]\n[[var g = f * e]]\n[[question total = ['g']]]",
+      "answer": "251/84",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-59-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((23 / 28) + (6 / 9))]]\n[[var e = ((18 / 12) + d)]]\n[[var n = (4 / 4)]]\n[[var a = (n + e)]]\n[[question c = ['a']]]\ntheme: Sandwich",
+      "statement": "Following the previous scenario, Shawn has now decided to add another ingredient to his sandwiches.\n\nIn addition to the mayonnaise, sandwich spread, and cheese spread, Shawn wants to add 4/4 cups of ham to each sandwich. Calculate the total amount of ingredients Shawn now needs to make one sandwich which includes mayonnaise, sandwich spread, cheese spread, and ham.",
+      "new symbolic struct": "[[var a = 23/28]]\n[[var b = 6/9]]\n[[var c = a + b]]\n[[var d = 18/12]]\n[[var e = c + d]]\n[[var h = 4/4]]\n[[var i = e + h]]\n[[question total = ['i']]]",
+      "answer": "335/84",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-59-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((25 / 28) + (6 / 9))]]\n[[var e = ((18 / 12) + d)]]\n[[var n = (4 / 4)]]\n[[question p = ['(e * n)']]]\ntheme: Sandwich",
+      "statement": "Following the previous scenario, Shawn has decided to slightly adjust his mayonnaise ratio in his sandwich recipe.\n\nInstead of 23/28 cups of mayonnaise, Shawn now wants to use 25/28 cups of mayonnaise while still using the same amounts of sandwich spread, cheese spread, and ham for each sandwich. Calculate how many cups of all these ingredients Shawn will need in total to make one sandwich. \n\nFinally, if Shawn still plans to make an equal number of sandwiches using 4/4 cups of all the ingredients combined, how many cups of ingredients will he now use in total to make those sandwiches?",
+      "new symbolic struct": "[[var a_new = 25/28]]\n[[var b = 6/9]]\n[[var d = 18/12]]\n[[var e_new = a_new + b + d]]\n[[var f = 4/4]]\n[[var g_new = f * e_new]]\n[[question total_new = ['g_new']]]",
+      "answer": "257/84",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-61-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = (7 / 6)]]\n[[var z = (x - (1 / 21))]]\n[[question m = ['z']]]\ntheme: Keys",
+      "statement": "Cassandra collected keys for a hobby. At first she had a collection equivalent to 7/6 of a key set. After she lost 1/21 of a key set, how many key sets does she have now?",
+      "new symbolic struct": "[[var k1 = 7/6]]\n[[var k2 = 1/21]]\n[[var k_final = k1 - k2]]\n[[question keys = ['k_final']]]",
+      "answer": "47/42",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-61-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = (23 / 6)]]\n[[var z = (x - (1 / 21))]]\n[[question m = ['z']]]\ntheme: Keys",
+      "statement": "Let's consider a slight variation. Instead, Cassandra started her key-hobby with a collection that equaled 23/6 of a key set. After losing 1/21 of a key set, just as before, how many key sets remains in her collection now?",
+      "new symbolic struct": "[[var k1_new = 23/6]]\n[[var k2 = 1/21]]\n[[var k_final_new = k1_new - k2]]\n[[question keys_new = ['k_final_new']]]",
+      "answer": "53/14",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-63-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var k = ((29 / 23) + (19 / 17))]]\n[[var q = (26 / 26)]]\n[[question o = ['(k - q)']]]\ntheme: Song",
+      "statement": "A songwriter is composing a new piece. In the first section, he uses a ratio of 29 notes every 23 measures. In the second section, he uses a ratio of 19 notes every 17 measures. \n\nCalculate the difference between the sum of the ratios of the two sections ((29 / 23) + (19 / 17)) and the ratio of a rest, which is equivalent to one whole measure (26/26), used in the third section of his composition.",
+      "new symbolic struct": "[[var a = 29 / 23]]\n[[var b = 19 / 17]]\n[[var c = a + b]]\n[[var d = 26 / 26]]\n[[var e = c - d]]\n[[question f = ['e']]]",
+      "answer": "539/391",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-63-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var k = ((29 / 23) + (19 / 23))]]\n[[var q = (26 / 26)]]\n[[question o = ['(k - q)']]]\ntheme: Song",
+      "statement": "In the same song composition, the songwriter decided to revise the second section. Instead of having a ratio of 19 notes every 17 measures, he decided to keep it consistent with the first section and have a ratio of 19 notes every 23 measures just like in the first section.\n\nCalculate the difference between the sum of the ratios of the two sections ((29 / 23) + (19 / 23)) and the ratio of a rest, which is equivalent to one whole measure (26/26), used in the third section of his composition after this change.",
+      "new symbolic struct": "[[var a = 29 / 23]]\n[[var b = 19 / 23]]\n[[var c = a + b]]\n[[var d = 26 / 26]]\n[[var e = c - d]]\n[[question f = ['e']]]",
+      "answer": "25/23",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-64-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var t = ((22 / 25) * (22 / 8))]]\n[[question p = ['t']]]\ntheme: Puzzle",
+      "statement": "You're trying to solve a puzzle that requires you to multiply two fractions together. The fractions are 22/25 and 22/8. Calculate the product to get the answer you need to advance in the puzzle.",
+      "new symbolic struct": "[[var a = 22/25 * 22/8]]\n[[question b = ['a']]]",
+      "answer": "121/50",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-64-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var t = ((22 / 25) * (22 / 8))]]\n[[var j = (23 / 13)]]\n[[question g = ['(j + t)']]]\ntheme: Puzzle",
+      "statement": "You solved the first part of the puzzle with the result from multiplying the fractions 22/25 and 22/8. Now, you've come across a key with the number 23/13 etched on it. To open the next door, you need to add the result from the step you just completed to the number on the key. What is the sum of these two values?",
+      "new symbolic struct": "[[var a = 22/25 * 22/8]]\n[[var k = 23/13]]\n[[var s = a + k]]\n[[question t = ['s']]]",
+      "answer": "2723/650",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-64-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var t = ((13 / 25) * (22 / 8))]]\n[[question p = ['t']]]\ntheme: Puzzle",
+      "statement": "Previously, you multiplied fractions 22/25 and 22/8 in the first part of the puzzle. Suppose instead of the 22/25 that you initially saw, the actual fraction in the text was 13/25. Now, you wonder how this change in information might affect your product. Recalculate the result using the correct fractions, which are now 13/25 and 22/8. What is the new product of these fractions?",
+      "new symbolic struct": "[[var a = 22/25 * 22/8]]\n[[var c = 13/25 * 22/8]]\n[[question d = ['c']]]",
+      "answer": "143/100",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-66-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = (23 / 9)]]\n[[var s = (n + (22 / 25))]]\n[[var b = ((16 / 13) * s)]]\n[[question q = ['b']]]\ntheme: Pillow",
+      "statement": "James is making a decorative pillow and would like to add a matching border. He needs to calculate the length of border material he will need. The pillow is 23/9 feet long. He had an additional 22/25 feet of length due to the fluffing of the pillow. The total length is then multiplied by 16/13 to account for overlap and corners. Calculate the length of border material James will need for his pillow.",
+      "new symbolic struct": "[[var a = 23/9]]\n[[var b = 22/25]]\n[[var c = a + b]]\n[[var d = c * 16/13]]\n[[question e = ['d']]]",
+      "answer": "12368/2925",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-66-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = (12 / 9)]]\n[[var s = (n + (22 / 25))]]\n[[var b = ((16 / 13) * s)]]\n[[question q = ['b']]]\ntheme: Pillow",
+      "statement": "James realizes he made a mistake when measuring the length of his pillow. The pillow is actually 12/9 feet long, not 23/9 feet as previously calculated. Using this corrected length, and still considering the added 22/25 feet for fluffing plus the factor of 16/13 for overlap and corners, how much border material will he need for his pillow now?",
+      "new symbolic struct": "[[var a_modified = 12/9]]\n[[var b = 22/25]]\n[[var c_modified = a_modified + b]]\n[[var d_modified = c_modified * 16/13]]\n[[question e_modified = ['d_modified']]]",
+      "answer": "2656/975",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-74-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var r = (21 / 4)]]\n[[var q = ((16 / 13) - (1 / 21))]]\n[[var x = (q * r)]]\n[[question p = ['x']]]\ntheme: Car",
+      "statement": "A car travels 21/4 miles every hour. One day, the car was needed to travel an extra 16/13 miles, but due to a detour, it only traveled an additional 1/21 miles. How many more miles was the car supposed to travel in total that day, given that it ran continuously at the same speed? Calculate by multiplying the additional distance needed by the average miles the car travels in an hour.",
+      "new symbolic struct": "[[var a = 21/4]]\n[[var b = 16/13 - 1/21]]\n[[var c = a * b]]\n[[question d = ['c']]]",
+      "answer": "323/52",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-74-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var r = (21 / 4)]]\n[[var q = ((16 / 6) - (1 / 21))]]\n[[var x = (q * r)]]\n[[question p = ['x']]]\ntheme: Car",
+      "statement": "Continuing from the original scenario, instead of an extra 16/13 miles, suppose the car was actually supposed to travel an additional 16/6 miles, but still it only traveled an additional 1/21 miles due to the detour. How many more miles was the car supposed to travel in total that day, given that it ran continuously at the same speed? Calculate this by multiplying the new additional distance needed by the average miles the car travels in an hour.",
+      "new symbolic struct": "[[var a = 21/4]]\n[[var b = 16/6 - 1/21]]\n[[var c = a * b]]\n[[question d = ['c']]]",
+      "answer": "55/4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-75-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((20 / 5) + (18 / 17))]]\n[[var s = (d - (6 / 15))]]\n[[var q = (s * d)]]\n[[question j = ['q']]]\ntheme: Book",
+      "statement": "In a book publishing company, the manager has to look after various departments. The editing team takes 20/5 hours to edit a manuscript of a book, while the typesetting team needs 18/17 hours to adjust the layout of a page. \n\nSome break delay happens that results in a collective loss of 6/15 hours. \n\nAfter these delays and losses, the manager, to compensate, extended the working hours by the same amount of time as the initial time span of the process. \n\nOn a particular day, they continue to work. What's the total extended time in hours, if you multiply the time required for the entire process and the extended time after the reduction of the lost hours with the initial total time required?",
+      "new symbolic struct": "[[var editing_hours = 20/5]]\n[[var typesetting_hours = 18/17]]\n[[var total_hours = editing_hours + typesetting_hours]]\n[[var lost_hours = 6/15]]\n[[var working_hours_after_loss = total_hours - lost_hours]]\n[[var extended_time = working_hours_after_loss]]\n[[var total_extended_hours = total_hours * extended_time]]\n[[question total_time = ['total_extended_hours']]]",
+      "answer": "34056/1445",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-75-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((20 / 16) + (18 / 17))]]\n[[var s = (d - (6 / 15))]]\n[[var q = (s * d)]]\n[[question j = ['q']]]\ntheme: Book",
+      "statement": "Continuing from the previous scenario at the book publishing company, this time, the layout team has improved their efficiency. Now, they can adjust the layout of a page in 20/16 hours. The editing team is still taking the same amount of time, 18/17 hours.\n\nA break delay happens again, which leads to a loss of 6/15 hours. \n\nAfter these delays and losses, the manager finds it suitable to compensate them by extending the working time exactly by the same amount of time as the initial time span of the process. \n\nOn that particular day, they continue to work. What's the total extended time in hours, if you multiply the time required for the entire process and the extended time after the reduction of the lost hours with the initial total time required?",
+      "new symbolic struct": "[[var editing_hours = 18/17]]\n[[var new_typesetting_hours = 20/16]]\n[[var new_total_hours = editing_hours + new_typesetting_hours]]\n[[var lost_hours = 6/15]]\n[[var new_working_hours_after_loss = new_total_hours - lost_hours]]\n[[var new_extended_time = new_working_hours_after_loss]]\n[[var new_total_extended_hours = new_total_hours * new_extended_time]]\n[[question total_time = ['new_total_extended_hours']]]",
+      "answer": "101893/23120",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-76-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var f = (13 / 11)]]\n[[var p = (f * (21 / 3))]]\n[[var i = (p * (21 / 15))]]\n[[question k = ['i']]]\ntheme: Potato",
+      "statement": "Jenny plants 13/11 rows of potatoes in her garden. Each row yields approximately 21/3 bushels. If Jenny sells her yield at the farmer's market where each bushel earns her 21/15 dollars, how many dollars will she make in total by selling all her potatoes?",
+      "new symbolic struct": "[[var a = 13/11]]\n[[var b = 21/3]]\n[[var c = a * b]]\n[[var d = 21/15]]\n[[question e = ['c * d']]]",
+      "answer": "637/55",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-79-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((14 / 28) + (13 / 26))]]\n[[question w = ['o']]]\ntheme: Ring",
+      "statement": "A jeweler uses 14/28 of a kilogram of gold to craft a certain type of rings. Additionally, he uses 13/26 of a kilogram of silver to design another type of rings. What is the sum of the amount of gold and silver used by the jeweler in kilograms?",
+      "new symbolic struct": "[[var a = 14/28]]\n[[var b = 13/26]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "1",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-79-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((21 / 28) + (13 / 26))]]\n[[question w = ['o']]]\ntheme: Ring",
+      "statement": "The jeweler decided to use a more expensive gold making process for his rings, which requires a slightly larger amount of gold, specifically 21/28 of a kilogram instead of the original 14/28. Taking this into account, now how much total weight of gold and silver is he using to craft his rings?",
+      "new symbolic struct": "[[var a = 21/28]]\n[[var b = 13/26]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "5/4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-80-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var r = (25 / 9)]]\n[[var p = (r + r)]]\n[[var s = (p + (2 / 26))]]\n[[question f = ['s']]]\ntheme: Bee",
+      "statement": "In a beehive, there are sections for honey storage and bee rearing. Each section is classified into many sub-sections. One day, the beekeeper discovered that each honey storage sub-section had (25 / 9) gallons of honey. He also found the same amount of honey in each bee rearing sub-section. \n\nIf he combined the honey from both a honey storage sub-section and a bee rearing sub-section, the beekeeper would have a total quantity represented by 'p'. \n\nHowever, one honey storage sub-section had an additional (2 / 26) gallons of honey. So, if the beekeeper was calculating the total amount from this sub-section plus a bee rearing sub-section, the total amount of honey would be defined as 's'. \n\nWhat quantity of honey ('s') would the beekeeper have in total from this scenario?",
+      "new symbolic struct": "[[var a = 25 / 9]]\n[[var b = a]]\n[[var p = a + b]]\n[[var addition = 2 / 26]]\n[[var q = a + addition]]\n[[var s = q + b]]\n[[question s = ['s']]]",
+      "answer": "659/117",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-80-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var r = (25 / 4)]]\n[[var p = (r + r)]]\n[[var s = (p + (2 / 26))]]\n[[question f = ['s']]]\ntheme: Bee",
+      "statement": "After reflecting on the honey production in the beehive, the beekeeper discovered new data. Instead of each sub-section having (25 / 9) gallons of honey, they each actually had (25 / 4) gallons of honey. This new quantity is represented by 'r'. \n\nWhen he combines the honey from a honey storage sub-section and a bee rearing sub-section, the total amount of honey is now represented by 'p'. \n\nHowever, the particular honey storage sub-section that had an additional (2 / 26) gallons of honey has changed. This new quantity is represented by 's'. \n\nUsing the updated quantities, how much honey ('s') does the beekeeper now have in total from this scenario?",
+      "new symbolic struct": "[[var r = 25 / 4]]\n[[var b = r]]\n[[var p = r + b]]\n[[var addition = 2 / 26]]\n[[var q = r + addition]]\n[[var s = q + b]]\n[[question s = ['s']]]",
+      "answer": "327/26",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-82-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var k = ((16 / 8) + (6 / 17))]]\n[[question j = ['k']]]\ntheme: Dinosaur",
+      "statement": "In prehistoric times, a herbivorous dinosaur eats 16/8 bunches of leaves per hour during the day. But at night, it only eats 6/17 bunches of leaves every hour because of reduced visibility. Calculate the total bunches of leaves the dinosaur eats in an hour if it is eating day and night.",
+      "new symbolic struct": "[[var day_eating_rate = 16/8]]\n[[var night_eating_rate = 6/17]]\n[[var total_eating_rate = day_eating_rate + night_eating_rate]]\n[[question total = ['total_eating_rate']]]",
+      "answer": "40/17",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-82-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var k = ((16 / 8) + (6 / 17))]]\n[[var l = ((27 / 13) + k)]]\n[[question d = ['l']]]\ntheme: Dinosaur",
+      "statement": "If this dinosaur finds a field where, due to unique plant growth conditions, it can eat an additional 27/13 bunches of leaves per hour, regardless of whether it's day or night, how many bunches of leaves would the dinosaur eat in total in an hour? Include the quantities it was previously eating during the day and night.",
+      "new symbolic struct": "[[var day_eating_rate = 16/8]]\n[[var night_eating_rate = 6/17]]\n[[var additional_eating_rate = 27/13]]\n[[var total_previous_eating_rate = day_eating_rate + night_eating_rate]]\n[[var total_eating_rate = total_previous_eating_rate + additional_eating_rate]]\n[[question total = ['total_eating_rate']]]",
+      "answer": "979/221",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-83-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var w = ((28 / 6) + (21 / 18))]]\n[[var j = (24 / 22)]]\n[[question f = ['(j + w)']]]\ntheme: Bear",
+      "statement": "A bear ate 28/6 pounds of fish one day and 21/18 pounds the next day. On the third day, the bear ate 24/22 pounds of fish. How many total pounds of fish did the bear eat in these three days, written as a fraction?",
+      "new symbolic struct": "[[var a = 28/6]]\n[[var b = 21/18]]\n[[var c = 24/22]]\n[[question total = ['a + b + c']]]",
+      "answer": "457/66",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-83-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var w = ((28 / 6) + (5 / 18))]]\n[[var j = (24 / 22)]]\n[[question f = ['(j + w)']]]\ntheme: Bear",
+      "statement": "In the previously mentioned problem, suppose on the second day, the bear ate only 5/18 pounds of fish rather than 21/18 pounds. With this change, how many total pounds of fish did the bear eat in those three days? Write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 28/6]]\n[[var b = 5/18]]\n[[var c = 24/22]]\n[[question total = ['a + b + c']]]",
+      "answer": "1195/198",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-84-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var h = ((11 / 17) + (6 / 2))]]\n[[var m = (h * (29 / 21))]]\n[[question q = ['m']]]\ntheme: Food",
+      "statement": "Heather was preparing a special three-course dinner for her family. \n\nFor the first course, she had a bread recipe that required 11/17 of a cup of sugar. In addition, she baked a custard for dessert that required another 6/2 cups of sugar. \n\nAs her family loves sweet dishes, she decided to increase the total quantity of sugar by a factor of 29/21. How many cups of sugar did Heather use in total?\n",
+      "new symbolic struct": "[[var a = 11/17 + 6/2]]\n[[var b = a * 29/21]]\n[[question c = ['b']]]",
+      "answer": "1798/357",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-84-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var h = ((11 / 25) + (6 / 2))]]\n[[var m = (h * (29 / 21))]]\n[[question q = ['m']]]\ntheme: Food",
+      "statement": "Suppose while preparing the dinner, Heather discovered that instead of 11/17 cups of sugar, the bread recipe only required 11/25 cups of sugar. With this adjustment, and keeping the increased factor of 29/21 the same, how many cups of sugar did Heather use in total for her special three-course dinner?",
+      "new symbolic struct": "[[var d = 11/25 + 6/2]]\n[[var e = d * 29/21]]\n[[question f = ['e']]]",
+      "answer": "2494/525",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-86-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var l = ((7 / 8) + (21 / 18))]]\n[[question n = ['l']]]\ntheme: Teacher",
+      "statement": "Ms. Parker, a math teacher, was grading papers and noticed that a student did the calculation ((7 / 8) + (21 / 18)), but she didn't write down the final answer. What is the result of this calculation as a simplified fraction?",
+      "new symbolic struct": "[[var a = 7/8]]\n[[var b = 21/18]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "49/24",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-86-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var l = ((7 / 8) + (25 / 18))]]\n[[question n = ['l']]]\ntheme: Teacher",
+      "statement": "In the previous exercise, the student was initially solving the problem ((7 / 8) + (21 / 18)). However, upon double-checking their work, they realised that the second part of their calculation had been wrong, it wasn't (21 / 18), but instead (25 / 18). What would be the answer to ((7 / 8) + (25 / 18)) as a simplified fraction?",
+      "new symbolic struct": "[[var a = 7/8]]\n[[var b = 25/18]]\n[[var correct_sum = a + b]]\n[[question correct_answer = ['correct_sum']]]",
+      "answer": "163/72",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-87-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var v = ((15 / 7) + (15 / 24))]]\n[[var i = ((26 / 20) * v)]]\n[[var x = (v + i)]]\n[[question p = ['x']]]\ntheme: Castle",
+      "statement": "King Arthur is planning a grand feast at his castle. He estimates that each guest will consume 15/7 gallons of water and 15/24 gallons of wine. \n\nOn the other hand, the royal baker needs 26/20 gallons of milk for each of the cakes he's baking.\n\nCalculate the total amount of liquid (v) that will be consumed if the baker's requirement is multiplied by the guests' consumption (i), and then add this to the guests' consumption (v) to find the total amount of liquid (x) needed for the feast.",
+      "new symbolic struct": "[[var i = 15/7 + 15/24]]\n[[var v = 26/20]]\n[[var j = i * v]]\n[[var x = i + j]]\n[[question total_liquid = ['x']]]",
+      "answer": "713/112",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-87-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var v = ((15 / 7) + (15 / 24))]]\n[[var i = ((19 / 20) * v)]]\n[[var x = (v + i)]]\n[[question p = ['x']]]\ntheme: Castle",
+      "statement": "In preparation for a subsequent feast at King Arthur's castle, the royal baker has tweaked his recipes and now needs 19/20 gallons of milk for each cake he's baking, as opposed to the previous requirement of 26/20 gallons.\n\nCalculate the new total amount of liquid (v) that will be consumed if the baker's revised requirement is multiplied by the guests' consumption (i), and then add this to the guests' original consumption (v). How much total liquid (x) will now be needed for the feast?",
+      "new symbolic struct": "[[var i = 15/7 + 15/24]]\n[[var v_new = 19/20]]\n[[var j_new = i * v_new]]\n[[var x_new = i + j_new]]\n[[question total_liquid_new = ['x_new']]]",
+      "answer": "1209/224",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-89-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var v = (30 / 17)]]\n[[var y = ((18 / 15) + v)]]\n[[var u = ((24 / 13) * y)]]\n[[question h = ['u']]]\ntheme: Teddy bear",
+      "statement": "Teddy is a bear who loves to play with numbers. One day, Teddy was playing with his favorite number, which just so happened to be 30/17. While playing, he saw another number, 18/15, and decided to add it to his favorite number. With this new number in mind, he then saw another, 24/13, and decided to multiply it by his new number. What is Teddy's final number?",
+      "new symbolic struct": "[[var a = 30/17]]\n[[var b = a + 18/15]]\n[[var c = b * 24/13]]\n[[question d = ['c']]]",
+      "answer": "6048/1105",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-89-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var v = (20 / 17)]]\n[[var y = ((18 / 15) + v)]]\n[[var u = ((24 / 13) * y)]]\n[[question h = ['u']]]\ntheme: Teddy bear",
+      "statement": "In the previous calculation, Teddy the bear started with the number 30/17. But what if Teddy had started with the number 20/17 instead? Then he added 18/15 to this number, and multiplied the result by 24/13. What is Teddy's final number now?",
+      "new symbolic struct": "[[var e = 20/17]]\n[[var f = e + 18/15]]\n[[var g = f * 24/13]]\n[[question h = ['g']]]",
+      "answer": "4848/1105",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-91-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((20 / 6) * (11 / 21))]]\n[[question m = ['d']]]\ntheme: Scooter",
+      "statement": "Johnny is building a scooter from scratch. He needs to drill holes into the scooter deck to attach the wheels. The size of each hole should be approximately (20/6) cm in diameter. Unfortunately, his drill bit only has a diameter of (11/21) cm. If he uses his current drill bit, he needs to drill a hole, move it over and drill again to achieve the diameter he needs. If he drills each hole exactly once with his drill bit, calculate what fraction of the desired diameter would each hole have? Don't simplify the fraction, keep as (20/6) * (11 / 21).",
+      "new symbolic struct": "[[var a = 20/6]]\n[[var b = 11/21]]\n[[var c = a * b]]\n[[question d = ['c']]]",
+      "answer": "110/63",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-91-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((20 / 6) * (11 / 21))]]\n[[var n = (d + (27 / 22))]]\n[[question a = ['n']]]\ntheme: Scooter",
+      "statement": "After drilling the holes in the scooter deck with his current drill, Johnny then needs to carve a groove around each hole using a different tool. The additional carving adds an extra size of (27/22) cm to the diameter of each hole. How big would the final diameter be for each hole, keeping the fraction (20/6) * (11 / 21) + (27 / 22) unsimplified in your calculation?",
+      "new symbolic struct": "[[var a = 20/6]]\n[[var b = 11/21]]\n[[var c = a * b]]\n[[var d = 27/22]]\n[[var e = c + d]]\n[[question f = ['e']]]",
+      "answer": "4121/1386",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-93-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var e = ((17 / 10) - (12 / 23))]]\n[[question f = ['e']]]\ntheme: Car",
+      "statement": "Aaron has a small model car collection. His favorite car model takes exactly 17/10 hours to assemble. He started assembling a new car model and realized that it was simpler, taking only 12/23 hours to complete. \n\nHow much less time, in hours, will the second model take than the first one? Write your answer as a simplified fraction or decimal.",
+      "new symbolic struct": "[[var b = 17/10]]\n[[var c = 12/23]]\n[[var t = b - c]]\n[[question t_ans = ['t']]]",
+      "answer": "271/230",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-93-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var e = ((18 / 10) - (12 / 23))]]\n[[question f = ['e']]]\ntheme: Car",
+      "statement": "Aaron realized he had made a mistake in his timekeeping. Assembling his favorite car model actually took 18/10 hours, not 17/10 hours as he initially thought. \n\nHow much less time, in hours, will it now take to assemble the second model as compared to the new time for the first model? Write your answer as a simplified fraction or decimal.",
+      "new symbolic struct": "[[var d = 18/10]]\n[[var e = 12/23]]\n[[var u = d - e]]\n[[question u_ans = ['u']]]",
+      "answer": "147/115",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-94-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var u = (20 / 15)]]\n[[var v = ((24 / 5) * (7 / 6))]]\n[[var d = (v + u)]]\n[[question r = ['d']]]\ntheme: Chair",
+      "statement": "Carlos is very handy, and he decided to start a business making and selling chairs. He usually makes each chair using 20/15 units of wood. For a special order, he decided to design a larger, sturdier chair that uses (24/5) times (7/6) units more wood than usual. \n\nIn total, how many units of wood would Carlos need to make one of these special chairs? Please give your answer in simplest form.",
+      "new symbolic struct": "[[var a = 20/15]]\n[[var b = (24/5) * (7/6)]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "104/15",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-94-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var u = (20 / 8)]]\n[[var v = ((24 / 5) * (7 / 6))]]\n[[var d = (v + u)]]\n[[question r = ['d']]]\ntheme: Chair",
+      "statement": "Carlos realized he could be using a more efficient design for his chairs. Instead of using 20/15 units of wood as he was previously, he can now use only 20/8 units for the basic chair design. The larger design with the special feature still requires (24/5) times (7/6) units more wood than the basic chair.\n\nWith this more efficient design for the basic chair, how many units of wood would Carlos now need in total to make one of these larger special design chairs? Please express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 20/8]]\n[[var b = (24/5) * (7/6)]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "81/10",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-95-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = (13 / 4)]]\n[[var a = (d - (14 / 15))]]\n[[var r = (a + (30 / 15))]]\n[[question w = ['r']]]\ntheme: Police",
+      "statement": "Officer Davis was monitoring traffic for speeders. He was measuring the speed of cars passing by him using a radar gun. The gun showed one car was going 13/4 miles per minute. Suddenly, the car slows down and reduces his speed by 14/15 miles per minute. Officer Davis noted down the new speed of the car. Suddenly, the car increased its speed again by 30/15 miles per minute. What was the final speed of the car according to Officer Davis's radar gun?",
+      "new symbolic struct": "[[var initial_speed = 13/4]]\n[[var reduced_speed = initial_speed - 14/15]]\n[[var final_speed = reduced_speed + 30/15]]\n[[question result = ['final_speed']]]",
+      "answer": "259/60",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-95-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = (13 / 4)]]\n[[var a = (d - (14 / 15))]]\n[[var r = (a + (30 / 15))]]\n[[var f = ((14 / 29) + r)]]\n[[question t = ['f']]]\ntheme: Police",
+      "statement": "The car that Officer Davis was monitoring suddenly picked up a passenger who urged the driver to speed up a bit. The car's speed increased again by an additional 14/29 miles per minute. What was the final speed of the car now, according to Officer Davis's radar gun?",
+      "new symbolic struct": "[[var initial_speed = 13/4]]\n[[var reduced_speed = initial_speed - 14/15]]\n[[var first_final_speed = reduced_speed + 30/15]]\n[[var second_final_speed = first_final_speed + 14/29]]\n[[question result = ['second_final_speed']]]",
+      "answer": "8351/1740",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-95-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = (13 / 4)]]\n[[var a = (d - (14 / 15))]]\n[[var r = (a + (19 / 15))]]\n[[question w = ['r']]]\ntheme: Police",
+      "statement": "After reviewing his radar readings, Officer Davis realized he made an error in his measurements. Instead of the car increasing its speed by 30/15 miles per minute after it slowed down, it had actually only increased its speed by 19/15 miles per minute. What would the corrected final speed of the car be, according to Officer Davis's radar gun?",
+      "new symbolic struct": "[[var initial_speed = 13/4]]\n[[var reduced_speed = initial_speed - 14/15]]\n[[var corrected_final_speed = reduced_speed + 19/15]]\n[[question corrected_result = ['corrected_final_speed']]]",
+      "answer": "43/12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-96-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = ((19 / 2) * (19 / 29))]]\n[[var z = ((7 / 11) * j)]]\n[[var h = ((9 / 10) * z)]]\n[[question a = ['h']]]\ntheme: Grapes",
+      "statement": "Jake is trying to figure out how many grapes he can get from a certain vineyard. \n\n- The vineyard can usually produce 19/2 baskets of grapes every season. However, due to weather conditions, only 19/29 of the usual amount were produced this season. How many baskets of grapes were produced this season?\n\n- But Jake isn't the only one interested in these grapes. He has to share the grapes with others. He gets to keep only 7/11 of the total amount of grapes. How many baskets of grapes does he get?\n\n- Out of the grapes that he got, Jake wants to make some grape juice. But he only uses 9/10 of his grapes to make the juice. How many baskets of grapes does he use for the juice?",
+      "new symbolic struct": "[[var a = 19/2 * 19/29]]\n[[var b = a * 7/11]]\n[[var c = b * 9/10]]\n[[question l = ['c']]]",
+      "answer": "22743/6380",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-96-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = ((19 / 2) * (19 / 29))]]\n[[var z = ((7 / 11) * j)]]\n[[var h = ((9 / 10) * z)]]\n[[var m = ((23 / 21) * h)]]\n[[question r = ['m']]]\ntheme: Grapes",
+      "statement": "Now, consider a business opportunity Jake got. An old friend asked him if Jake could supply 23/21 of the amount of grapes he uses for the juice to their upcoming local market. How many baskets of grapes would Jake need for this request?",
+      "new symbolic struct": "[[var a = 19/2 * 19/29]]\n[[var b = a * 7/11]]\n[[var c = b * 9/10]]\n[[var d = c * 23/21]]\n[[question e = ['d']]]",
+      "answer": "24909/6380",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-96-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = ((19 / 2) * (19 / 13))]]\n[[var z = ((7 / 11) * j)]]\n[[var h = ((9 / 10) * z)]]\n[[question a = ['h']]]\ntheme: Grapes",
+      "statement": "Suppose that next season the vineyard performs better and can produce 19/13 times its normal yield, which is 19/2 baskets of grapes in a season. \n\n- With the improved yield, how many baskets of grapes would the vineyard produce next season?\n\n- Jake still needs to share the total amount of grapes with others and only gets to keep 7/11 of the total amount. How many baskets does he get this time?\n\n- Jake is still making grape juice, using 9/10 of his share of the grapes. How many baskets of grapes would he use for grape juice making under these new conditions?",
+      "new symbolic struct": "[[var d = 19/2 * 19/13]]\n[[var e = d * 7/11]]\n[[var f = e * 9/10]]\n[[question m = ['f']]]",
+      "answer": "22743/2860",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-97-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var b = ((9 / 2) + (10 / 22))]]\n[[question o = ['b']]]\ntheme: Grapes",
+      "statement": "Joel has a grape farm. One day, he picked 9/2 bushels of red grapes and 10/22 bushels of green grapes from his farm. Calculate the total number of bushels of grapes Joel picked that day.",
+      "new symbolic struct": "[[var r = 9/2]]\n[[var g = 10/22]]\n[[question t = ['r + g']]]",
+      "answer": "109/22",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-97-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var b = ((9 / 2) + (10 / 22))]]\n[[var h = (25 / 17)]]\n[[question u = ['(h * b)']]]\ntheme: Grapes",
+      "statement": "Joel then sold a unique juice blend at a farmer's market. He used a ratio of 25/17 bushels of juice per bushel of grapes. Calculate how many bushels of juice Joel made for the market using the total number of bushels of grapes he picked.",
+      "new symbolic struct": "[[var r = 9/2]]\n[[var g = 10/22]]\n[[var t = r + g]]\n[[var j = 25/17]]\n[[question b = ['t * j']]]",
+      "answer": "2725/374",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-97-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var b = ((9 / 3) + (10 / 22))]]\n[[question o = ['b']]]\ntheme: Grapes",
+      "statement": "Suppose Joel made an error and actually only picked 9/3 bushels of red grapes instead of 9/2 bushels. He still picked 10/22 bushels of green grapes. Calculate the corrected total number of bushels of grapes Joel picked.\n",
+      "new symbolic struct": "[[var r2 = 9/3]]\n[[var g2 = 10/22]]\n[[question t2 = ['r2 + g2']]]",
+      "answer": "38/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-98-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = ((17 / 8) + (1 / 20))]]\n[[question h = ['g']]]\ntheme: Snowman",
+      "statement": "A snowman is constructed by stacking two different sized snowballs on top of each other. The larger snowball at the bottom has a diameter of 17/8 feet, and the smaller snowball on top has a diameter of 1/20 feet. What is the total height of the snowman in feet when these two snowballs are stacked on top of each other?",
+      "new symbolic struct": "[[var a = 17/8]]\n[[var b = 1/20]]\n[[var c = a + b]]\n[[question total_height = ['c']]]",
+      "answer": "87/40",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-98-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = ((17 / 8) + (1 / 20))]]\n[[var w = (g + (14 / 19))]]\n[[question b = ['w']]]\ntheme: Snowman",
+      "statement": "After constructing the snowman with two snowballs, we decide to add a unusually tall hat with a height of 14/19 feet to the snowman. What is the total height of the snowman now, with the two snowballs and the hat?",
+      "new symbolic struct": "[[var a = 17/8]]\n[[var b = 1/20]]\n[[var c = a + b]]\n[[var d = 14/19]]\n[[var e = c + d]]\n[[question total_height_with_hat = ['e']]]",
+      "answer": "2213/760",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-98-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var g = ((17 / 6) + (1 / 20))]]\n[[question h = ['g']]]\ntheme: Snowman",
+      "statement": "In our previous snowman, the larger snowball at the bottom had a diameter of 17/8 feet. Now imagine that the larger snowball had a larger diameter of 17/6 feet instead. The smaller snowball on top still has a diameter of 1/20 feet. What is the total height of the snowman now, with these two adjusted snowballs stacked on top of each other?",
+      "new symbolic struct": "[[var d = 17/6]]\n[[var e = 1/20]]\n[[var f = d + e]]\n[[question total_height_new = ['f']]]",
+      "answer": "173/60",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-99-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var w = (24 / 7)]]\n[[var b = (w - (2 / 16))]]\n[[question t = ['b']]]\ntheme: Sandbox",
+      "statement": "In a sandbox, a child splits up 24/7 parts of the sand in a fair way. Later on, another child takes away 2/16 part of the sand. Calculate the remaining part of sand in the sandbox.",
+      "new symbolic struct": "[[var a = 24/7]]\n[[var b = 2/16]]\n[[var c = a - b]]\n[[question d = ['c']]]",
+      "answer": "185/56",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-99-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var w = (24 / 16)]]\n[[var b = (w - (2 / 16))]]\n[[question t = ['b']]]\ntheme: Sandbox",
+      "statement": "Suppose now the child originally splits up 24/16 parts of the sand in the sandbox. Later on, the same amount of 2/16 part of the sand is taken away again. How much sand remains in the sandbox this time?",
+      "new symbolic struct": "[[var e = 24/16]]\n[[var f = 2/16]]\n[[var g = e - f]]\n[[question h = ['g']]]",
+      "answer": "11/8",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-101-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = (28 / 26)]]\n[[var w = (23 / 9)]]\n[[var a = (w - n)]]\n[[question p = ['a']]]\ntheme: Lion",
+      "statement": "In the jungle, a lion ate 28/26 of a zebra in one day and 23/9 of a wildebeest the next day. How much less of the zebra did the lion eat compared with the wildebeest? Calculate your answer as a simplified fraction.",
+      "new symbolic struct": "[[var zebra = 28/26]]\n[[var wildebeest = 23/9]]\n[[var difference = wildebeest - zebra]]\n[[question y = ['difference']]]",
+      "answer": "173/117",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-101-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = (28 / 26)]]\n[[var w = (23 / 9)]]\n[[var a = (w - n)]]\n[[var e = (a * (21 / 4))]]\n[[question d = ['e']]]\ntheme: Lion",
+      "statement": "In the jungle, a lion ate 28/26 of a zebra in one day and 23/9 of a wildebeest the next day. The lion realized it was still hungry, so it ate 21/4 as much as the difference between the wildebeest and the zebra the next day. How much did the lion eat the next day? Please express your answer as a simplified fraction.",
+      "new symbolic struct": "[[var zebra = 28/26]]\n[[var wildebeest = 23/9]]\n[[var difference = wildebeest - zebra]]\n[[var next_day = difference * 21/4]]\n[[question y = ['next_day']]]",
+      "answer": "1211/156",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-106-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((14 / 4) * (21 / 11))]]\n[[question k = ['o']]]\ntheme: Chocolate",
+      "statement": "A chocolate factory makes a batch of chocolate by combining 14/4 kilograms of cocoa and 21/11 liters of milk for every kilogram. How many kilograms of chocolate will the factory produce by combining these ingredients? Calculate your answer to the following expression, ((14 / 4) * (21 / 11)).",
+      "new symbolic struct": "[[var c=(14 / 4) * (21 / 11)]]\n[[question x=['c']]]",
+      "answer": "147/22",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-106-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((14 / 4) * (21 / 11))]]\n[[var z = (o - (12 / 4))]]\n[[question l = ['z']]]\ntheme: Chocolate",
+      "statement": "After the chocolate factory combines the ingredients to make the chocolate, they find out that some of it has spoiled. If the spoiled chocolate weighed 12/4 kilograms, calculate the new amount of the chocolate they have left. Use the expression (o - (12 / 4)) to determine this.",
+      "new symbolic struct": "[[var o=(14 / 4) * (21 / 11)]]\n[[var s=12/4]]\n[[var n=o-s]]\n[[question r=['n']]]",
+      "answer": "81/22",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-106-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((14 / 4) * (6 / 11))]]\n[[question k = ['o']]]\ntheme: Chocolate",
+      "statement": "Let's say the chocolate factory decided to reduce their cocoa to milk ratio in the chocolate in order to experiment with the taste. If they decrease the amount of milk used in each batch of chocolate from 21/11 liters to 6/11 liters while keeping the quantity of cocoa constant at 14/4 kilograms, calculate the amount of chocolate they will produce now. Use the expression ((14 / 4) * (6 / 11)) to find the new amount of chocolate.",
+      "new symbolic struct": "[[var c=(14 / 4) * (6 / 11)]]\n[[question x=['c']]]",
+      "answer": "21/11",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-111-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var u = ((12 / 29) + (30 / 10))]]\n[[question a = ['u']]]\ntheme: Banana",
+      "statement": "In the tropical rainforest, there are two different species of banana trees. One species produces 12 bananas every 29 days, while another species produces 30 bananas every 10 days. If a day is chosen at random, what is the expected number of bananas that the two species together will have produced on that day? Use the formula ((12 / 29) + (30 / 10)) to calculate the answer.",
+      "new symbolic struct": "[[var a = 12 / 29]]\n[[var b = 30 / 10]]\n[[question c = ['a + b']]]",
+      "answer": "99/29",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-111-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var u = ((12 / 29) + (30 / 10))]]\n[[var o = (u * u)]]\n[[question s = ['o']]]\ntheme: Banana",
+      "statement": "Continuing from the previous question, suppose the number of bananas produced collectively by the two species of banana trees is proportional to the square of the expected number of bananas produced per day. What would be the new expected total number of bananas produced per day? Use the formula (u * u) where u is the answer you found from the previous problem to calculate this.",
+      "new symbolic struct": "[[var u = 12 / 29 + 30 / 10]]\n[[question v = ['u * u']]]",
+      "answer": "9801/841",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-111-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var u = ((12 / 13) + (30 / 10))]]\n[[question a = ['u']]]\ntheme: Banana",
+      "statement": "Following the previous question, suppose the species of banana tree that was previously producing 12 bananas every 29 days begins to produce 12 bananas every 13 days instead, while the other species continues to produce 30 bananas every 10 days. If a day is chosen at random, what is the new expected number of bananas that the two species together will have produced on that day? Use the formula ((12 / 13) + (30 / 10)) to calculate the answer.",
+      "new symbolic struct": "[[var a = 12 / 13]]\n[[var b = 30 / 10]]\n[[question c = ['a + b']]]",
+      "answer": "51/13",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-112-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var z = ((11 / 11) + (26 / 14))]]\n[[question w = ['z']]]\ntheme: Giraffe",
+      "statement": "A giraffe needs to eat a total of 11/11 ton of acacia leaves plus 26/14 ton of grasses a day. Calculate the total ton of food the giraffe needs to eat in a day.",
+      "new symbolic struct": "[[var a = 11/11]]\n[[var b = 26/14]]\n[[var total = a + b]]\n[[question t = ['total']]]",
+      "answer": "20/7",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-112-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var z = ((11 / 11) + (26 / 14))]]\n[[var t = ((10 / 30) + z)]]\n[[question c = ['t']]]\ntheme: Giraffe",
+      "statement": "In addition to the acacia leaves and grasses, the giraffe also drinks 10/30 ton of water per day. What is the total weight of food and water that the giraffe consumes in a day?",
+      "new symbolic struct": "[[var a = 11/11]]\n[[var b = 26/14]]\n[[var c = 10/30]]\n[[var total = a + b + c]]\n[[question t = ['total']]]",
+      "answer": "67/21",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-112-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var z = ((11 / 11) + (24 / 14))]]\n[[question w = ['z']]]\ntheme: Giraffe",
+      "statement": "In the previous scenario, suppose the giraffe ate 24/14 ton of grasses, instead of 26/14 ton. How much total food does the giraffe eat per day now?",
+      "new symbolic struct": "[[var a = 11/11]]\n[[var c = 24/14]]\n[[var new_total = a + c]]\n[[question n_t = ['new_total']]]",
+      "answer": "19/7",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-113-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((18 / 24) * (27 / 13))]]\n[[question f = ['o']]]\ntheme: Bear",
+      "statement": "A bear spends 18 hours of the day sleeping. Given that each day has 24 hours, this bear spends 18/24th of each day asleep. For 27 days of the month, the bear's activity is tracked. Assume that the bear has a regular sleeping pattern. Calculate the fraction of time the bear has spent sleeping over the 27 days assuming each month has 13 weeks. Your answer should be the result of (18 / 24) * (27 / 13). Write your answer as a decimal.",
+      "new symbolic struct": "[[var a = 18/24]]\n[[var b = 27/13]]\n[[var c = a * b]]\n[[question d = ['c']]]",
+      "answer": "81/52",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-113-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((18 / 24) * (27 / 13))]]\n[[var q = (23 / 20)]]\n[[question b = ['(q * o)']]]\ntheme: Bear",
+      "statement": "After calculating the amount of time the bear spends sleeping over the 27 days, consider that for a ratio of 23 hours every 20 days, the bear is disturbed by hikers and awoken from its slumber, interrupting the sleeping schedule. How much of the time would be spent awake due to this disturbance over the course of the 27 days tracked of the month? To solve this, you will need to first calculate the fraction of time the bear is awake based on the ratio, and then multiply this by the previous answer. This becomes a problem expressed as (q * o) where q=23/20 and o is the previous answer.",
+      "new symbolic struct": "[[var a = 18/24]]\n[[var b = 27/13]]\n[[var o = a * b]]\n[[var q = 23/20]]\n[[var p = q * o]]\n[[question r = ['p']]]",
+      "answer": "1863/1040",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-113-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((29 / 24) * (27 / 13))]]\n[[question f = ['o']]]\ntheme: Bear",
+      "statement": "Let's continue with our sleepy bear story. Suppose, instead of sleeping for 18 hours a day, this bear actually spends 29 hours a day in hibernation during the winter. Considering that a day is still 24 hours long, and keeping the same observation period of 27 days in a 13-week month, what proportion of this time does the bear spend hibernating? To find this, calculate the result of (29 / 24) * (27 / 13). Write your answer as a decimal.",
+      "new symbolic struct": "[[var e = 29/24]]\n[[var f = 27/13]]\n[[var g = e * f]]\n[[question h = ['g']]]",
+      "answer": "261/104",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-115-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var f = ((9 / 14) + (19 / 2))]]\n[[question s = ['f']]]\ntheme: Forest",
+      "statement": "In a beautiful forest, the park rangers recorded that 9 out of every 14 trees were pine trees. They also noticed an exceptional occurrence where 19 out of every 2 trees were birches. If you count all the pine trees and birch trees together, what fraction of the trees in the forest are either pine or birch? Use the formula f = ((9 / 14) + (19 / 2)) to solve this.",
+      "new symbolic struct": "[[var a = 9/14]]\n[[var b = 19/2]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "71/7",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-115-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var f = ((9 / 14) + (30 / 2))]]\n[[question s = ['f']]]\ntheme: Forest",
+      "statement": "In the same forest, the park rangers conducted another seasonal survey. This time, they found that the number of pine trees made up 9 out of every 14 trees. In an unexpected turn of events, the number of birch trees significantly increased to 30 out of every 2 trees. Given these new numbers, what fraction of the trees in the forest are either pine or birch now? Use the updated formula f = ((9 / 14) + (30 / 2)) to solve this.",
+      "new symbolic struct": "[[var e = 9/14]]\n[[var f = 30/2]]\n[[var g = e + f]]\n[[question h = ['g']]]",
+      "answer": "219/14",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-117-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var l = ((14 / 2) / (23 / 17))]]\n[[var s = ((16 / 24) + l)]]\n[[question m = ['s']]]\ntheme: Alien",
+      "statement": "On planet Zog, aliens use an interesting system to track their energy levels. At the beginning of the day, Zogorian calculates his energy level to be (14 / 2) / (23 / 17) zogs. Later in the day, after harnessing energy from their primary star, his energy level increases by (16 / 24) zogs. Calculate the Zogorian's energy level after the increase.",
+      "new symbolic struct": "[[var a = (14 / 2) / (23 / 17)]]\n[[var b = 16 / 24]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "403/69",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-117-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var l = ((14 / 2) / (23 / 17))]]\n[[var s = ((16 / 24) + l)]]\n[[var q = ((18 / 11) * s)]]\n[[question d = ['q']]]\ntheme: Alien",
+      "statement": "After the Zogorian's energy level increased, he used a special device that multiplies the current energy level by a factor of (18 / 11) to store the additional energy for later use. Calculate the Zogorian's new energy level in zogs after using the device.",
+      "new symbolic struct": "[[var a = (14 / 2) / (23 / 17)]]\n[[var b = 16 / 24]]\n[[var c = a + b]]\n[[var f = 18 / 11]]\n[[var e = c * f]]\n[[question d = ['e']]]",
+      "answer": "2418/253",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-117-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var l = ((14 / 2) / (23 / 17))]]\n[[var s = ((23 / 24) + l)]]\n[[question m = ['s']]]\ntheme: Alien",
+      "statement": "Let's continue tracking this Zogorian's energy levels. Suppose instead, after harnessing energy from their primary star, his energy level had increased by (23 / 24) zogs instead of (16 / 24) zogs. Calculate the Zogorian's energy level after this larger increase.",
+      "new symbolic struct": "[[var a = (14 / 2) / (23 / 17)]]\n[[var e = 23 / 24]]\n[[var f = a + e]]\n[[question g = ['f']]]",
+      "answer": "3385/552",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-118-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var f = ((18 / 11) - (8 / 21))]]\n[[var n = (f * f)]]\n[[question e = ['n']]]\ntheme: Stuffed animal",
+      "statement": "Teddy, the bear, loves to play hide and seek with his friends. One day, he decided to play a game where he hides some number of his stuffed animal friends. Teddy hides 18/11 of his friends in the forest and 8/21 of his friends at the beach. First calculate how many more friends Teddy hides in the forest than at the beach. Let's call this number 'f'. Then square 'f' to find 'n', the total number of hiding spots Teddy needs. How many hiding spots does Teddy need?",
+      "new symbolic struct": "[[var a = 18/11]]\n[[var b = 8/21]]\n[[var f = a - b]]\n[[var n = f * f]]\n[[question o = ['n']]]",
+      "answer": "84100/53361",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-118-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var f = ((18 / 11) - (8 / 21))]]\n[[var n = (f * f)]]\n[[var o = ((18 / 28) * n)]]\n[[question r = ['o']]]\ntheme: Stuffed animal",
+      "statement": "After hiding all his friends, Teddy, the bear, thinks about a new challenge. He decides to tack on an extra task that each of his friends must complete. The task involves going through an obstacle course, and only 18/28 of his friends decide to take on the new challenge. Teddy decides that the new challenge will require as many action points as there were hiding spots, but multiplied by the fraction of his friends who decided to take on the challenge. This is represented by 'o' = (18/28) * 'n'. \n\nSo, calculate 'o', how many total action points are needed for Teddy's new challenge?",
+      "new symbolic struct": "[[var a = 18/11]]\n[[var b = 8/21]]\n[[var f = a - b]]\n[[var n = f * f]]\n[[var p = 18/28]]\n[[var o = p * n]]\n[[question q = ['o']]]",
+      "answer": "42050/41503",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-118-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var f = ((21 / 11) - (8 / 21))]]\n[[var n = (f * f)]]\n[[question e = ['n']]]\ntheme: Stuffed animal",
+      "statement": "As Teddy's game continues, he changes the number of friends he initially hides. This time, he hides 21/11 of his friends in the forest instead of 18/11, while still hiding 8/21 of his friends at the beach. Now first calculate how many more friends Teddy hides in the forest than at the beach, using this new number. Let's still call this number 'f'. Then square 'f' to find 'n', the new total number of hiding spots Teddy needs. What is the new total number of hiding spots Teddy needs?",
+      "new symbolic struct": "[[var c = 21/11]]\n[[var d = 8/21]]\n[[var f_new = c - d]]\n[[var n_new = f_new * f_new]]\n[[question o_new = ['n_new']]]",
+      "answer": "124609/53361",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-119-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var w = (25 / 10)]]\n[[var c = (w - (27 / 23))]]\n[[question u = ['c']]]\ntheme: Robot",
+      "statement": "A robot is performing a maintenance task. It starts with 25/10 units of energy. However, it quickly uses 27/23 units of energy to complete a series of complex computations. Calculate how much energy it has left.",
+      "new symbolic struct": "[[var energy_start = 25/10]]\n[[var energy_used = 27/23]]\n[[var energy_left = energy_start - energy_used]]\n[[question energy = ['energy_left']]]",
+      "answer": "61/46",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-119-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var w = (25 / 10)]]\n[[var c = (w - (14 / 23))]]\n[[question u = ['c']]]\ntheme: Robot",
+      "statement": "Considering the same robot doing the maintenance task, suppose instead that it initially starts with 25/10 units of energy but it uses only 14/23 unit of energy to complete the calculations, different from what we thought before. Calculate how much energy the robot has remaining after performing these computations.",
+      "new symbolic struct": "[[var energy_start = 25/10]]\n[[var new_energy_used = 14/23]]\n[[var new_energy_left = energy_start - new_energy_used]]\n[[question new_energy = ['new_energy_left']]]",
+      "answer": "87/46",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-120-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var q = ((17 / 21) + (20 / 24))]]\n[[var u = (18 / 17)]]\n[[var v = (q * u)]]\n[[question m = ['v']]]\ntheme: Snail",
+      "statement": "During rainy weather, a small snail moves at a snail-pace covering 17/21 of a meter in an hour. Another slightly faster snail covers 20/24 of a meter in the same time during such weather. \n\nOne rainy day, the first snail started an hour earlier than the second. At the time when the second snail began, a third snail that covers 18/17 of a meter per hour also started moving. \n\nWhat is their total distance in meters 1 hour after all three have started moving? Compute the result using the operation ((17 / 21) + (20 / 24)) for the first two snails' distance, and multiply this result by (18 / 17) for the total distance , including the third snail.",
+      "new symbolic struct": "[[var a = 17/21]]\n[[var b = 20/24]]\n[[var sum_ab = a + b]]\n[[var c = 18/17]]\n[[var total_distance = sum_ab * c]]\n[[question d = ['total_distance']]]",
+      "answer": "207/119",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-120-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var q = ((17 / 21) + (20 / 24))]]\n[[var u = (18 / 17)]]\n[[var v = (q * u)]]\n[[var n = (v + (25 / 23))]]\n[[question k = ['n']]]\ntheme: Snail",
+      "statement": "Continuing from the previous snail problem, after the hour was up, an ultra-fast snail appeared and traveled a distance of 25/23 meters in just half an hour.\n\nWhat is the total distance in meters covered by all four snails 1.5 hours after the third snail had started moving? To compute this, take the total distance covered by the first three snails, represented as ((17 / 21) + (20 / 24)) * (18 / 17), and then add to this the ultra-fast snail's distance of 25/23 meters.",
+      "new symbolic struct": "[[var a = 17/21]]\n[[var b = 20/24]]\n[[var sum_ab = a + b]]\n[[var c = 18/17]]\n[[var total_distance_before = sum_ab * c]]\n[[var ultra_fast_snail = 25/23]]\n[[var total_distance_after = total_distance_before + ultra_fast_snail]]\n[[question total = ['total_distance_after']]]",
+      "answer": "7736/2737",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-120-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var q = ((17 / 21) + (18 / 24))]]\n[[var u = (18 / 17)]]\n[[var v = (q * u)]]\n[[question m = ['v']]]\ntheme: Snail",
+      "statement": "In the first scenario, we determined the total distance covered by the snails in an hour. \n\nBut now, let's revise our story a little bit and adjust the distance that one of our snails covers. The second snail, instead of covering 20/24 of a meter in an hour during rainy weather, now can only cover 18/24 of a meter.\n\nGiven this new information, can you recalculate the total distance covered by the first three snails in the hour after they all start moving? Use the following structure: ((17 / 21) + (18 / 24)) * (18 / 17).",
+      "new symbolic struct": "[[var a = 17/21]]\n[[var b2 = 18/24]]\n[[var sum_ab2 = a + b2]]\n[[var c = 18/17]]\n[[var total_distance2 = sum_ab2 * c]]\n[[question d2 = ['total_distance2']]]",
+      "answer": "393/238",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-122-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = ((24 / 14) - (9 / 29))]]\n[[var m = ((15 / 2) * n)]]\n[[question e = ['m']]]\ntheme: Stuffed animal",
+      "statement": "Johnny had 24/14 of a yard of fabric that he used to make stuffed animals. After creating a few, he found he only had 9/29 of a yard left. He then got a new type of fabric and used 15/2 times the difference of the original and remaining fabric to make more stuffed animals. How many yards of the new fabric did Johnny use?",
+      "new symbolic struct": "[[var a = 24/14]]\n[[var b = 9/29]]\n[[var c = a - b]]\n[[var d = 15/2 * c]]\n[[question e = ['d']]]",
+      "answer": "4275/406",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-122-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var n = ((24 / 14) - (8 / 29))]]\n[[var m = ((15 / 2) * n)]]\n[[question e = ['m']]]\ntheme: Stuffed animal",
+      "statement": "Now let's consider that Johnny had originally miscalculated the amount of fabric he had left after creating the first few stuffed animals. Instead of having 9/29 of a yard left, he actually had 8/29 of a yard left. Keeping the calculation for the new fabric the same, i.e., using 15/2 times the difference of the original and the remaining fabric to make more stuffed animals, how many yards of the new fabric did Johnny use this time?",
+      "new symbolic struct": "[[var a = 24/14]]\n[[var f = 8/29]]\n[[var g = a - f]]\n[[var h = 15/2 * g]]\n[[question i = ['h']]]",
+      "answer": "2190/203",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-123-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var a = ((2 / 10) + (21 / 4))]]\n[[question u = ['a']]]\ntheme: Swing",
+      "statement": "In a park, there are some kids lining up for the swings. Part of the waiting line consists of 2/10 of the total number of kids in the park, while another part is made up of 21/4 kids. What is the total number of kids waiting for the swing? Add together 2/10 and 21/4 to find your answer.",
+      "new symbolic struct": "[[var a = 2/10]]\n[[var b = 21/4]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "109/20",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-123-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var a = ((2 / 27) + (21 / 4))]]\n[[question u = ['a']]]\ntheme: Swing",
+      "statement": "Now consider that the number of children forming a part of the waiting line is not 2/10 but 2/27 of the total number of children in the park. The other part of the line is still made up of 21/4 children. What is the new total number of children waiting for the swing? To find out, add together 2/27 and 21/4.",
+      "new symbolic struct": "[[var e = 2/27]]\n[[var f = 21/4]]\n[[var g = e + f]]\n[[question h = ['g']]]",
+      "answer": "575/108",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-124-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var p = ((18 / 30) * (22 / 6))]]\n[[question i = ['p']]]\ntheme: UFO",
+      "statement": "An alien spacecraft has 18 fuel tanks out of a total of 30 fuel tanks filled. Each fuel tank can power the spacecraft for 22/6 hours. How many hours of power does the spacecraft currently have? Calculate (18 / 30) * (22 / 6) to find out.",
+      "new symbolic struct": "[[var a = 18 / 30]]\n[[var b = 22 / 6]]\n[[var c = a * b]]\n[[question h = ['c']]]",
+      "answer": "11/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-124-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var p = ((18 / 5) * (22 / 6))]]\n[[question i = ['p']]]\ntheme: UFO",
+      "statement": "In the previous problem, we found out how many hours of power the alien spacecraft has when there were 18 fuel tanks filled out of 30. Now suppose a mechanism cleaned the fuel tanks in the spacecraft, enabling 18 out of 5 tanks to be filled instead. If each fuel tank can still power the spacecraft for 22/6 hours, how many hours of power does the spacecraft currently have? Just as before, calculate ((18 / 5) * (22 / 6)) to find out.",
+      "new symbolic struct": "[[var d = 18 / 5]]\n[[var b = 22 / 6]] \n[[var e = d * b]]\n[[question f = ['e']]]",
+      "answer": "66/5",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-125-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var f = ((16 / 12) + (6 / 10))]]\n[[question z = ['f']]]\ntheme: Cat",
+      "statement": "A cat is fed twice a day. In the morning, it eats 16/12 of a can of cat food. in the evening, it eats 6/10 of a can. How much of a can in total does the cat eat in one day?",
+      "new symbolic struct": "[[var morning = 16/12]]\n[[var evening = 6/10]]\n[[question total = ['morning + evening']]]",
+      "answer": "29/15",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-125-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var f = ((16 / 21) + (6 / 10))]]\n[[question z = ['f']]]\ntheme: Cat",
+      "statement": "Continuing from the original problem, suppose the morning serving size changes and the cat now eats 16/21 of a can of cat food in the morning rather than the original 16/12 of a can. Maintaining the same evening portion of 6/10 of a can, how much does the cat eat in total in one day with the new morning serving size?",
+      "new symbolic struct": "[[var morning_new = 16/21]]\n[[var evening = 6/10]]\n[[question total_new = ['morning_new + evening']]]",
+      "answer": "143/105",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-126-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((12 / 3) - (11 / 4))]]\n[[question p = ['d']]]\ntheme: Starfish",
+      "statement": "A starfish laid 12 eggs in 3 nests and 11 eggs in 4 other nests. How much is the difference between the average number of eggs per nest for these two groups of nests?",
+      "new symbolic struct": "[[var a = 12/3]]\n[[var b = 11/4]]\n[[question z = ['a-b']]]",
+      "answer": "5/4",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-126-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((12 / 3) - (1 / 4))]]\n[[question p = ['d']]]\ntheme: Starfish",
+      "statement": "Considering the previous scenario with the starfish, suppose instead, the starfish laid 12 eggs in 3 nests and only one egg in another 4 nests. How much is the difference between the average number of eggs per nest for this revised scenario?",
+      "new symbolic struct": "[[var a = 12/3]]\n[[var c = 1/4]]\n[[question z = ['a-c']]]",
+      "answer": "15/4",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-129-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var y = ((22 / 7) * (10 / 25))]]\n[[var g = (y - (3 / 28))]]\n[[question u = ['g']]]\ntheme: Monkey",
+      "statement": "A monkey finds a pile of bananas and ends up eating (22 / 7) times (10 / 25) of the pile. Later, he gives (3 / 28) of the pile to his friend. How much of the pile does the monkey have left?",
+      "new symbolic struct": "[[var a = (22 / 7) * (10 / 25)]]\n[[var b = a - (3 / 28)]]\n[[question c = ['b']]]",
+      "answer": "23/20",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-129-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var y = ((22 / 7) * (10 / 25))]]\n[[var g = (y - (3 / 29))]]\n[[question u = ['g']]]\ntheme: Monkey",
+      "statement": "In the previous scenario, what if the monkey shared slightly more bananas with his friend, i.e., (3 / 29) of the pile, after eating his portion? How much of the pile would the monkey have left then?",
+      "new symbolic struct": "[[var a = (22 / 7) * (10 / 25)]]\n[[var d = a - (3 / 29)]]\n[[question e = ['d']]]",
+      "answer": "1171/1015",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-130-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var q = ((24 / 20) * (23 / 2))]]\n[[question c = ['q']]]\ntheme: Mouse",
+      "statement": "A mouse runs at a speed of 24/20 feet per second. If the mouse runs for 23/2 seconds, how many feet does the mouse run?",
+      "new symbolic struct": "[[var speed = 24/20]]\n[[var time = 23/2]]\n[[var distance = speed * time]]\n[[question total_feet = ['distance']]]",
+      "answer": "69/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-130-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var q = ((24 / 20) * (23 / 2))]]\n[[var n = (q + (26 / 17))]]\n[[question r = ['n']]]\ntheme: Mouse",
+      "statement": "After running the initial distance, the mouse continues to run for an additional 26/17 feet. What is the total distance that the mouse runs?",
+      "new symbolic struct": "[[var initial_distance = 24/20 * 23/2]]\n[[var additional_distance = 26/17]]\n[[var total_distance = initial_distance + additional_distance]]\n[[question total_feet = ['total_distance']]]",
+      "answer": "1303/85",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-130-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var q = ((24 / 20) * (10 / 2))]]\n[[question c = ['q']]]\ntheme: Mouse",
+      "statement": "In the previous problem, we observed a mouse running at a speed of 24/20 feet per second for 23/2 seconds. Let's reconsider the situation, but now the mouse runs at the same speed for only 10/2 seconds. How far does the mouse run now?",
+      "new symbolic struct": "[[var speed_previous = 24/20]]\n[[var time_new = 10/2]]\n[[var distance_new = speed_previous * time_new]]\n[[question total_feet_new = ['distance_new']]]",
+      "answer": "6",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-133-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var m = (29 / 9)]]\n[[var q = ((26 / 25) * m)]]\n[[var o = (q + (2 / 19))]]\n[[question u = ['o']]]\ntheme: Party",
+      "statement": "At a party, the drinks are served in glasses that contain 29/9 ounces of beverage each. If 26/25 of them were consumed, how many ounces of beverage were consumed? Now imagine that the party goers then drink an additional 2/19 ounces of beverages. How many total ounces of beverages were consumed at the party in total?",
+      "new symbolic struct": "[[var a = 29/9]]\n[[var b = 26/25]]\n[[var c = a * b]]\n[[var d = 2/19]]\n[[var e = c + d]]\n[[question f = ['e']]]",
+      "answer": "14776/4275",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-133-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var m = (29 / 9)]]\n[[var q = ((26 / 25) * m)]]\n[[var o = (q + (4 / 19))]]\n[[question u = ['o']]]\ntheme: Party",
+      "statement": "Revisiting the previous party scenario, suppose the glasses contain 29/9 ounces of beverage each and 26/25 of them were consumed just like before. However, this time around, the party goers decide to drink an additional 4/19 ounces of beverages instead of 2/19 ounces. How many total ounces of beverages were consumed at the party now?",
+      "new symbolic struct": "[[var a = 29/9]]\n[[var b = 26/25]]\n[[var c = a * b]]\n[[var d = 4/19]]\n[[var e = c + d]]\n[[question f = ['e']]]",
+      "answer": "15226/4275",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-135-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var i = ((7 / 15) + (9 / 1))]]\n[[var f = (i * (26 / 27))]]\n[[question h = ['f']]]\ntheme: Toothbrush",
+      "statement": "You decide to start a toothbrush collection and you add 7/15 of a new set of toothbrushes to your current collection. Suddenly, a friend gifts you 9 more sets. After grouping everything, you realized you can only fit 26/27 of them in your display case. How many sets of toothbrushes can you fit in your display case?",
+      "new symbolic struct": "[[var A = 7/15 + 9]]\n[[var B = A * 26/27]]\n[[question C = ['B']]]",
+      "answer": "3692/405",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-136-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = ((27 / 20) + (1 / 6))]]\n[[question y = ['j']]]\ntheme: Backpack",
+      "statement": "Joan has a backpack which weighs 27/20 kilograms when it's empty. She adds a book which weighs 1/6 kilograms. Calculate the total weight of the backpack in kilograms now. Please write the answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 27/20]]\n[[var b = 1/6]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "91/60",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-136-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = ((27 / 20) + (21 / 6))]]\n[[question y = ['j']]]\ntheme: Backpack",
+      "statement": "Let's revise our original situation. This time, Joan's backpack weighs 27/20 kilograms when it's empty. She then adds a heavier book which weighs 21/6 kilograms. What's the total weight of her backpack now? Please write your answer as a simplified fraction.",
+      "new symbolic struct": "[[var a1 = 27/20]]\n[[var b1 = 21/6]]\n[[var c1 = a1 + b1]]\n[[question d1 = ['c1']]]",
+      "answer": "97/20",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-137-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var u = ((7 / 7) * (25 / 22))]]\n[[question l = ['u']]]\ntheme: Bottle",
+      "statement": "A soda company is changing its bottle design. The new design will change the volume of the bottles so that they become (7 / 7) * (25 / 22) times larger. What will be the multiplier of the new bottle compared to the old one?",
+      "new symbolic struct": "[[var x = (7 / 7) * (25 / 22)]]\n[[question y = ['x']]]",
+      "answer": "25/22",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-137-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var u = ((7 / 7) * (25 / 22))]]\n[[var q = ((28 / 13) * u)]]\n[[question y = ['q']]]\ntheme: Bottle",
+      "statement": "The soda company decided to further increase the size of the new bottle design. Now the bottles will be enlarged by a multiplier of (28 / 13) times the previous size change. What will be the new multiplier of the updated bottle compared to the original one?",
+      "new symbolic struct": "[[var a = (7 / 7) * (25 / 22)]]\n[[var b = a * (28 / 13)]]\n[[question c = ['b']]]",
+      "answer": "350/143",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-137-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var u = ((7 / 7) * (25 / 12))]]\n[[question l = ['u']]]\ntheme: Bottle",
+      "statement": "The soda company revises their decision and decides to slightly reduce the increase in the size of the new bottle design. Now, the bottles will be (7 / 7) * (25 / 12) times larger than the original design. What will be the new multiplier for the revised bottle compared to the origianl one?",
+      "new symbolic struct": "[[var a = (7 / 7) * (25 / 12)]]\n[[question b = ['a']]]",
+      "answer": "25/12",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-138-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var k = ((25 / 9) + (8 / 13))]]\n[[var g = ((24 / 27) + k)]]\n[[var e = (g + (21 / 26))]]\n[[question b = ['e']]]\ntheme: Turtle",
+      "statement": "Turtle Tilly is collecting food for the winter. She has gathered 25/9 kg of sea plants, and she then finds 8/13 kg more. In a close-by rock, she spots another food stash weighing 24/27 kg. After gobbling up these finds, Tilly stumbles upon yet another food source weighing 21/26 kg. If Tilly combines all her found food, how many kilograms does she now have in total? Answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 25/9]]\n[[var b = 8/13]]\n[[var c = 24/27]]\n[[var d = 21/26]]\n[[var total = a + b + c + d]]\n[[question f = ['total']]]",
+      "answer": "397/78",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-138-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var k = ((25 / 9) + (8 / 13))]]\n[[var g = ((24 / 27) + k)]]\n[[var e = (g + (29 / 26))]]\n[[question b = ['e']]]\ntheme: Turtle",
+      "statement": "In the previous problem, Turtle Tilly initially found a food source weighing 21/26 kg. However, if Tilly instead stumbled upon a food source weighing 29/26 kg, how many kilograms of food would she have in total? Answer as a simplified fraction.",
+      "new symbolic struct": "[[var a = 25/9]]\n[[var b = 8/13]]\n[[var c = 24/27]]\n[[var d = 29/26]]\n[[var new_total = a + b + c + d]]\n[[question f2 = ['new_total']]]",
+      "answer": "421/78",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-140-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var u = ((17 / 2) - (4 / 2))]]\n[[var o = (u + (14 / 9))]]\n[[var x = ((22 / 15) * o)]]\n[[question q = ['x']]]\ntheme: Boat",
+      "statement": "Captain Alf undertakes multi-step calculations to ensure the safe navigation of his boat. First, he calculates the difference in his current location and the distance of a nearby island. The distance to the island is 17/2 nautical miles, and his boat is currently 4/2 nautical miles away from the island. \n\nNext, Captain Alf adjusts for the tide, which he has estimated to push his boat off course by 14/9 nautical miles. He adds this to his previous calculations.\n\nFinally, when considering his fuel efficiency rated at 22/15 nautical miles per gallon, Captain Alf multiplies his adjusted distance by this rate to figure out his fuel requirements. \n\nWhat does Captain Alf\u2019s final calculation come to? Use these steps and corresponding fractions to find your answer.",
+      "new symbolic struct": "[[var distance_island = 17/2]]\n[[var current_distance = 4/2]]\n[[var tide_adjustment = 14/9]]\n[[var fuel_efficiency = 22/15]]\n[[var navigation_discrepancy = distance_island - current_distance]]\n[[var adjusted_distance = navigation_discrepancy + tide_adjustment]]\n[[var fuel_req = adjusted_distance * fuel_efficiency]]\n[[question final_calculation = ['fuel_req']]]",
+      "answer": "319/27",
+      "tag": "original problem"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-143-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var l = ((14 / 3) - (2 / 18))]]\n[[question v = ['l']]]\ntheme: Forest",
+      "statement": "A forest ranger patrolled 14/3 miles of trails in the morning. In the afternoon, he patrolled 2/18 mile less than what he walked in the morning. How many miles did the forest ranger patrol in the afternoon?",
+      "new symbolic struct": "[[var d1 = 14/3]]\n[[var d2 = d1 - (2/18)]]\n[[question totalDistance = ['d2']]]",
+      "answer": "41/9",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-143-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var l = ((29 / 3) - (2 / 18))]]\n[[question v = ['l']]]\ntheme: Forest",
+      "statement": "Instead of the 14/3 miles, suppose the forest ranger actually patrolled 29/3 miles of trails in the morning. Considering he covered 2/18 mile less in the afternoon, how many miles did he patrol in the afternoon now?",
+      "new symbolic struct": "[[var d1 = 29/3]]\n[[var d2 = d1 - (2/18)]]\n[[question totalDistance = ['d2']]]",
+      "answer": "86/9",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-144-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var e = ((20 / 21) + (11 / 29))]]\n[[question z = ['e']]]\ntheme: Piano",
+      "statement": "Arthur practices piano for 20/21 of an hour every day. On weekends, he practices an additional 11/29 of an hour per day. How many hours in total does Arthur spend practicing the piano each day on the weekend?",
+      "new symbolic struct": "[[var n = 20/21]]\n[[var m = 11/29]]\n[[var t = n + m]]\n[[question y = ['t']]]",
+      "answer": "811/609",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-144-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var e = ((20 / 21) + (11 / 29))]]\n[[var d = (e + (4 / 20))]]\n[[question q = ['d']]]\ntheme: Piano",
+      "statement": "In addition to his daily piano practice, Arthur spends an extra 4/20 of an hour on music theory each weekend day. How many hours in total does Arthur spend on piano practice and music theory each weekend day?",
+      "new symbolic struct": "[[var n = 20/21]]\n[[var m = 11/29]]\n[[var o = 4/20]]\n[[var t = n + m + o]]\n[[question y = ['t']]]",
+      "answer": "4664/3045",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-144-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var e = ((20 / 21) + (11 / 24))]]\n[[question z = ['e']]]\ntheme: Piano",
+      "statement": "Suppose that instead of practicing the piano for an additional 11/29 of an hour on the weekends, Arthur changes his routine and now practices an extra 11/24 of an hour. How many hours in total does Arthur spend practicing the piano each day on the weekend now?",
+      "new symbolic struct": "[[var n = 20/21]]\n[[var m_new = 11/24]]\n[[var t_new = n + m_new]]\n[[question y_new = ['t_new']]]",
+      "answer": "79/56",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-146-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var v = ((18 / 3) - (27 / 19))]]\n[[question r = ['v']]]\ntheme: Shirt",
+      "statement": "Lucas has a shirt store. Initially, he had 18 shirts which he divided equally among his 3 siblings. Later, he bought 27 more shirts but wanted to sell them at a higher price, so he decided to keep only 1/19 of those shirts for each sibling. How many more or fewer shirts does each sibling now have as compared to before? Calculate the difference using the expression ((18 / 3) - (27 / 19)) and find out the result.",
+      "new symbolic struct": "[[var a = 18/3]]\n[[var b = 27/19]]\n[[var difference = a - b]]\n[[question c = ['difference']]]",
+      "answer": "87/19",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-146-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var v = ((18 / 3) - (29 / 19))]]\n[[question r = ['v']]]\ntheme: Shirt",
+      "statement": "Let's modify the earlier scenario from Lucas's shirt store. This time, Lucas initially divided 18 shirts equally among his 3 siblings as before. However, later he purchased 29 shirts instead of 27. If he still wants to distribute 1/19 of these new shirts to each sibling, how many more or fewer shirts will each sibling now have compared to before? Calculate the difference using the expression ((18 / 3) - (29 / 19)) and find out the result.",
+      "new symbolic struct": "[[var d = 18/3]]\n[[var e = 29/19]]\n[[var difference_2 = d - e]]\n[[question f = ['difference_2']]]",
+      "answer": "85/19",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-150-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var q = (7 / 1)]]\n[[var a = ((2 / 5) + q)]]\n[[var d = (a - (18 / 4))]]\n[[question u = ['d']]]\ntheme: Paint",
+      "statement": "A painter mixed 7 gallons of white paint with 2/5 gallon of blue paint to make a light blue paint. After using 18/4 gallons of the light blue paint for a project, how many gallons does the painter have left?",
+      "new symbolic struct": "[[var x = 7 + 2/5]]\n[[var y = 18/4]]\n[[var z = x - y]]\n[[question l = ['z']]]",
+      "answer": "29/10",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-150-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var q = (24 / 1)]]\n[[var a = ((2 / 5) + q)]]\n[[var d = (a - (18 / 4))]]\n[[question u = ['d']]]\ntheme: Paint",
+      "statement": "Suppose initially the painter had 24 gallons of white paint instead of 7 gallons. After mixing 2/5 gallon of blue paint with it and then using 18/4 gallons of the resulting light blue paint for a project, how many gallons of light blue paint does the painter have left now?",
+      "new symbolic struct": "[[var a = 24 + 2/5]]\n[[var b = 18/4]]\n[[var c = a - b]]\n[[question m = ['c']]]",
+      "answer": "199/10",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-151-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var i = (24 / 7)]]\n[[var f = (i + (30 / 20))]]\n[[question d = ['f']]]\ntheme: Roller skates",
+      "statement": "Jayson went to the roller rink and spent 24/7 hours skating on the first day. On the second day, he decided to skate for an additional 30/20 hours. How many hours in total did Jayson spend skate skating over the two days?",
+      "new symbolic struct": "[[var a = 24/7]]\n[[var b = 30/20]]\n[[var c = a + b]]\n[[question total_hours = ['c']]]",
+      "answer": "69/14",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-151-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var i = (24 / 22)]]\n[[var f = (i + (30 / 20))]]\n[[question d = ['f']]]\ntheme: Roller skates",
+      "statement": "Initially we said Jayson had spent 24/7 hours skating at the roller rink on the first day. However, his friend Jill remembered that they had actually only spent 24/22 hours skating that day. Given this new information, how many hours did Jayson spend roller skating during the first two days including the 30/20 hours on the second day?",
+      "new symbolic struct": "[[var a = 24/22]]\n[[var b = 30/20]]\n[[var c = a + b]]\n[[question total_hours = ['c']]]",
+      "answer": "57/22",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-153-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var c = ((3 / 4) * (18 / 3))]]\n[[question y = ['c']]]\ntheme: Dolphin",
+      "statement": "Dolphins can leap approximately 18/3 feet out of the water. If a dolphin only manages to jump 3/4 of his usual height one day, how high did the dolphin jump?",
+      "new symbolic struct": "[[var x = 18/3]]\n[[var y = x * 3/4]]\n[[question z = ['y']]]",
+      "answer": "9/2",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-153-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var c = ((3 / 4) * (18 / 3))]]\n[[var a = (c - (14 / 25))]]\n[[question j = ['a']]]\ntheme: Dolphin",
+      "statement": "After observing that the dolphin managed to only jump 3/4 of his usual 18/3 feet out of the water, the trainer noted a reduction in his jumping height by 14/25 feet the next day. How high did the dolphin jump this time?",
+      "new symbolic struct": "[[var x = 18/3]]\n[[var y = x * 3/4]]\n[[var z = y - 14/25]]\n[[question a = ['z']]]",
+      "answer": "197/50",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-153-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var c = ((19 / 4) * (18 / 3))]]\n[[question y = ['c']]]\ntheme: Dolphin",
+      "statement": "Previously, we measured the dolphin's jump when it managed to reach 3/4 of his usual height of 18/3 feet. Now let's consider a day when the dolphin jumps to an unusually high 19/4 of his normal height. If the dolphin's usual jump is 18/3 feet, how high does the dolphin jump on this particular day?",
+      "new symbolic struct": "[[var x = 18/3]]\n[[var y = x * 19/4]]\n[[question z = ['y']]]",
+      "answer": "57/2",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-154-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var c = ((20 / 15) + (16 / 22))]]\n[[var s = ((22 / 27) * (23 / 8))]]\n[[var y = (s * c)]]\n[[question k = ['y']]]\ntheme: Pen",
+      "statement": "Callie owns a pen business. Last month, she sold 20 pens for every 15 she produced. At the same time, she sold an additional 16 pens for every 22 she put out for sale. \n\nMeanwhile, she found that for every 22 pens she advertised, 27 were interested customers. For each 23 pens she produced this week, she was able to sell 8. \n\nWhat is the result when she multiplies the ratio of last month's sales to production (20/15 + 16/22) and this week's figure for the ratio of interested customers to production (22/27 * 23/8)? Leave your answer as an unsimplified fraction.",
+      "new symbolic struct": "[[var a = 20/15 + 16/22]]\n[[var b = 22/27 * 23/8]]\n[[question c = ['a * b']]]",
+      "answer": "391/81",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-154-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var c = ((20 / 15) + (16 / 22))]]\n[[var s = ((22 / 27) * (23 / 8))]]\n[[var y = (s * c)]]\n[[var a = ((6 / 3) * y)]]\n[[question x = ['a']]]\ntheme: Pen",
+      "statement": "Continuing from the previous problem, Callie decides to adjust her production strategy for next month. She plans on increasing her production by a factor of 6/3 (which is actually doubling her production).\n\nWhat would be the combined impact on her business of last month's sales ratio (20/15 + 16/22), this week's interest to production ratio (22/27 * 23/8), and her planned production increase (6/3), considering they multiply together? Leave your answer as an unsimplified fraction.",
+      "new symbolic struct": "[[var a = 20/15 + 16/22]]\n[[var b = 22/27 * 23/8]]\n[[var d = 6/3]]\n[[question e = ['a * b * d']]]",
+      "answer": "782/81",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-154-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var c = ((14 / 15) + (16 / 22))]]\n[[var s = ((22 / 27) * (23 / 8))]]\n[[var y = (s * c)]]\n[[question k = ['y']]]\ntheme: Pen",
+      "statement": "In the following month, Callie evaluates her pen business again. This time, for every 15 pens she produced, she sold 14. Just like the previous month, she managed to sell an additional 16 pens for every 22 she displayed for sale. \n\nThe ratio of interested customers to the number of pens she produced this week remained the same as the previous week, with 22 for every 27 that were interested. Out of all the pens produced, she was able to sell 23 for every 8 she made.\n\nWhat would now be the result when she takes this month's sales to production ratio (14/15 + 16/22) and multiplies it by this week's ratio of interested customers to production (22/27 * 23/8)? Leave your answer as an unsimplified fraction.",
+      "new symbolic struct": "[[var d = 14/15 + 16/22]]\n[[var e = 22/27 * 23/8]]\n[[question f = ['d * e']]]",
+      "answer": "3151/810",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-155-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((30 / 15) - (1 / 17))]]\n[[question t = ['o']]]\ntheme: Song",
+      "statement": "Consider a band practice session in which a musician played a song for exactly 30 minutes. After dividing this time equally between 15 songs, how much time did they spend on each song? From this average time per song, the band reduced the time spent on a particular song by 1/17 of an hour. Can you calculate the final duration of that song?",
+      "new symbolic struct": "[[var t1 = 30 / 15]]\n[[var t2 = t1 - 1/17]]\n[[question t_final = ['t2']]]",
+      "answer": "33/17",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-155-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((30 / 18) - (1 / 17))]]\n[[question t = ['o']]]\ntheme: Song",
+      "statement": "In the previous problem, the band divided their 30-minute practice session into 15 songs. What if they actually divided it amongst 18 songs instead? From the average time per song from this new division, they still reduced the time spent on a particular song by 1/17 of an hour. Can you calculate the updated duration of that song now?",
+      "new symbolic struct": "[[var t3 = 30 / 18]]\n[[var t4 = t3 - 1/17]]\n[[question t_final_updated = ['t4']]]",
+      "answer": "82/51",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-156-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var a = ((18 / 1) + (1 / 12))]]\n[[var x = ((7 / 17) + a)]]\n[[question y = ['x']]]\ntheme: Scooter",
+      "statement": "Josh rented a scooter for a day. He rode the scooter for a total of 18 hours during the first day. The next day, he rode the scooter for an additional 1/12 of an hour. \n\nLater that afternoon, his friend Jack also rented a scooter and rode it for 7/17 of an hour. \n\nHow many hours did they both ride scooters in total (expressed as a fraction)? Combine the hours they both rode and simplify the fraction to get the answer.",
+      "new symbolic struct": "[[var josh_first_day = 18]]\n[[var josh_second_day = 1/12]]\n[[var jack_hours = 7/17]]\n[[var total_hours = josh_first_day + josh_second_day + jack_hours]]\n[[question l = ['total_hours']]]",
+      "answer": "3773/204",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-156-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var a = ((18 / 1) + (1 / 12))]]\n[[var x = ((7 / 17) + a)]]\n[[var q = (x + (1 / 21))]]\n[[question v = ['q']]]\ntheme: Scooter",
+      "statement": "Continuing from the previous situation, suppose a second friend, Maria, decided to rent a scooter too. She rode the scooter for an additional 1/21 of an hour. \n\nAdding up the time Maria rode her scooter, how many total hours did all three friends ride scooters, expressed as a fraction? Make sure to simplify any fractions used in your final answer.",
+      "new symbolic struct": "[[var josh_first_day = 18]]\n[[var josh_second_day = 1/12]]\n[[var jack_hours = 7/17]]\n[[var maria_hours = 1/21]]\n[[var total_hours = josh_first_day + josh_second_day + jack_hours + maria_hours]]\n[[question l = ['total_hours']]]",
+      "answer": "26479/1428",
+      "tag": "additional information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-159-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var i = ((4 / 26) + (15 / 11))]]\n[[var f = (i + (23 / 28))]]\n[[var w = (f + (8 / 19))]]\n[[question o = ['w']]]\ntheme: Lamp",
+      "statement": "A lamp store owner is doing inventory of all the lamps in his store. He found that he has 4/26 of lamps that are floor lamps, 15/11 that are desk lamps, he also discovered he has 23/28 of table lamps and finally 8/19 of lamps that are decorative. What fraction of his total inventory do these lamps constitute?",
+      "new symbolic struct": "[[var a = 4/26]]\n[[var b = 15/11]]\n[[var c = 23/28]]\n[[var d = 8/19]]\n[[var e = a + b + c + d]]\n[[question t = ['e']]]",
+      "answer": "209967/76076",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-159-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var i = ((4 / 26) + (15 / 11))]]\n[[var f = (i + (7 / 28))]]\n[[var w = (f + (8 / 19))]]\n[[question o = ['w']]]\ntheme: Lamp",
+      "statement": "After reviewing his inventory once more, the lamp store owner realized that he made another error in his calculations. Instead of having 23/28 of table lamps, he actually had 7/28. Considering this revision along with the previously counted fractions for the floor lamps, desk lamps, and decorative lamps, what new fraction of his total inventory do these lamps make up now?",
+      "new symbolic struct": "[[var a = 4/26]]\n[[var b = 15/11]]\n[[var c = 7/28]]\n[[var d = 8/19]]\n[[var e = a + b + c + d]]\n[[question t = ['e']]]",
+      "answer": "23785/10868",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-161-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((26 / 19) + (7 / 11))]]\n[[var x = (o * (5 / 8))]]\n[[question m = ['x']]]\ntheme: Kite",
+      "statement": "Oliver has a kite string that is 26/19 meters long and another kite string that is 7/11 meters long. He decides to add these two strings to create an even longer kite string. Later on, he decides to use only 5/8 of this combined string. How long is the kite string that he is using now? Do not simplify your fractions within your calculation.",
+      "new symbolic struct": "[[var a = 26/19 + 7/11]]\n[[var b = 5/8 * a]]\n[[question c = ['b']]]",
+      "answer": "2095/1672",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-161-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((26 / 19) + (7 / 11))]]\n[[var x = (o * (5 / 8))]]\n[[var i = (x + x)]]\n[[question f = ['i']]]\ntheme: Kite",
+      "statement": "After using the combined kite string, Oliver realizes he needs a similar length of string for another kite. He decides to use the same length of string that he used earlier, effectively doubling his previous length. What is the total length of the kite string Oliver is now using? Note: Do not simplify your fractions within your calculation.\n",
+      "new symbolic struct": "[[var a = 26/19 + 7/11]]\n[[var b = 5/8 * a]]\n[[var d = 2 * b]]\n[[question e = ['d']]]",
+      "answer": "2095/836",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-161-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var o = ((26 / 19) + (7 / 11))]]\n[[var x = (o * (26 / 8))]]\n[[question m = ['x']]]\ntheme: Kite",
+      "statement": "Previously, Oliver used a string that was 5/8 of the combined total. However, now, he decides to use 26/8 of the same combined total length (26/19 meters and 7/11 meters) for a larger kite. What would be the length of the string that he is using now? Note: Do not simplify your fractions within your calculation.",
+      "new symbolic struct": "[[var d = 26/19 + 7/11]]\n[[var e = 26/8 * d]]\n[[question f = ['e']]]",
+      "answer": "5447/836",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-162-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var u = ((9 / 19) + (6 / 8))]]\n[[var j = (u + (4 / 1))]]\n[[question s = ['j']]]\ntheme: Snowball",
+      "statement": "In a snow fight, Mike threw 9/19 of his snowballs and his friend, John threw 6/8 of his snowballs. After a while, Mike found 4 more snowballs to throw.\n\nThe question is, if 'u' represents the number of snowballs thrown by both Mike and John and 'j' is the total number of snowballs Mike had after finding more, how many snowballs did Mike have in total?\n\nSolve the following equations to find the variable 'j':\n\nu = 9/19 + 6/8\n\nj = u + 4/1\n",
+      "new symbolic struct": "[[var u = 9/19 + 6/8]]\n[[var j = u + 4/1]]\n[[question total_snowballs_mike = ['j']]]",
+      "answer": "397/76",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-162-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var u = ((9 / 19) + (6 / 8))]]\n[[var j = (u + (5 / 1))]]\n[[question s = ['j']]]\ntheme: Snowball",
+      "statement": "Continuing from the initial problem, suppose that instead of finding 4 more snowballs, Mike now finds 5 more snowballs instead.\n\nNow, if 'u' represents the number of snowballs thrown by both Mike and John initially, and 'j' is the total number of snowballs Mike has after finding more, how many snowballs does Mike have in total now?\n\nSolve the following equations to find the updated value of 'j':\n\nu = 9/19 + 6/8\n\nj = u + 5/1",
+      "new symbolic struct": "[[var u2 = 9/19 + 6/8]]\n[[var j2 = u2 + 5/1]]\n[[question total_snowballs_mike_updated = ['j2']]]",
+      "answer": "473/76",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-163-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var b = ((26 / 18) + (15 / 15))]]\n[[question m = ['b']]]\ntheme: Chocolate",
+      "statement": "In a chocolate factory, one worker packages 26 pieces of chocolate in 18 minutes, while another worker can package 15 pieces of chocolate every 15 minutes. Find out the total amount of chocolate they can package in one minute.",
+      "new symbolic struct": "[[var a = 26/18]]\n[[var b = 15/15]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "22/9",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-163-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var b = ((26 / 18) + (14 / 15))]]\n[[question m = ['b']]]\ntheme: Chocolate",
+      "statement": "In our previous scenario at the chocolate factory, one worker was packaging 26 pieces of chocolate in 18 minutes, and another worker was packaging 15 pieces of chocolate every 15 minutes. \n\nNow let's consider a small change: the second worker's speed has slightly decreased, and they are now able to package only 14 pieces of chocolate every 15 minutes instead of 15. \n\nHow does this change the total amount of chocolate the two workers can package together in one minute?",
+      "new symbolic struct": "[[var a = 26/18]]\n[[var b = 14/15]]\n[[var c = a + b]]\n[[question total = ['c']]]",
+      "answer": "107/45",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-164-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var r = ((24 / 20) + (25 / 15))]]\n[[question a = ['r']]]\ntheme: Towel",
+      "statement": "Yesterday, Joanna washed 24/20 batches of small towels and 25/15 batches of large towels. Find the total number of batches of towels she washed.",
+      "new symbolic struct": "[[var small_batches_num = 24/20]]\n[[var large_batches_num = 25/15]]\n[[var total_batches_num = small_batches_num + large_batches_num]]\n[[question x = ['total_batches_num']]]",
+      "answer": "43/15",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-164-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var r = ((24 / 20) + (25 / 7))]]\n[[question a = ['r']]]\ntheme: Towel",
+      "statement": "Joanna originally thought she washed 25/15 batches of large towels. However, she realized that she had actually washed 25/7 batches. Taking this into account, with the 24/20 batches of small towels she washed, how many total batches of towels did Joanna wash?",
+      "new symbolic struct": "[[var large_batches_num_corrected = 25/7]]\n[[var small_batches_num = 24/20]]\n[[var total_batches_num_corrected = small_batches_num + large_batches_num_corrected]]\n[[question y = ['total_batches_num_corrected']]]",
+      "answer": "167/35",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-165-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((27 / 3) / (11 / 7))]]\n[[var e = (d - (21 / 26))]]\n[[var g = ((22 / 9) + e)]]\n[[question h = ['g']]]\ntheme: Cookie",
+      "statement": "Debra is baking cookies and she realizes she has two different recipes for the same type of cookie. She's wondering if she combines the ingredients from both, if she will end up with even more cookies or not. \n\nThe first recipe requires (27 / 3) cups flour and (11 / 7) cups sugar. She determines the ratio of flour to sugar by dividing the amount of flour by the amount of sugar. She then subtracts (21 / 26) from this ratio because that's how many cups of sugar her friend says makes the cookies too sweet. After that, she adds (22 / 9) cups of flour from the second recipe to the new ratio to see how many total cups of flour she will need. How many cups of flour will she have in the end?",
+      "new symbolic struct": "[[var a = (27 / 3) / (11 / 7)]]\n[[var b = a - (21 / 26)]]\n[[var c = b + (22 / 9)]]\n[[question d = ['c']]]",
+      "answer": "18955/2574",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-165-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((27 / 3) / (11 / 7))]]\n[[var e = (d - (22 / 26))]]\n[[var g = ((22 / 9) + e)]]\n[[question h = ['g']]]\ntheme: Cookie",
+      "statement": "Revisiting the same baking scenario, Debra decides to tweak her original cookie recipe a bit. This time, instead of subtracting (21 / 26) cups of sugar from the ratio, she chooses to subtract (22 / 26) cups of sugar. Her friend had previously recommended that (21 / 26) cups makes the cookies too sweet, and Debra wants to test if reducing the sugar by just a little bit more makes a noticeable difference.\n\nAfter making this adjustment to the sugar, she continues to add (22 / 9) cups of flour from the second recipe. With the new sugar to flour ratio, Debra wonders - how many total cups of flour does she have now for her experiment?",
+      "new symbolic struct": "[[var a = (27 / 3) / (11 / 7)]]\n[[var b = a - (22 / 26)]]\n[[var c = b + (22 / 9)]]\n[[question d = ['c']]]",
+      "answer": "9428/1287",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-166-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = ((26 / 13) - (9 / 16))]]\n[[var j = (x * (19 / 21))]]\n[[question i = ['j']]]\ntheme: Chicken",
+      "statement": "There are 26/13 chickens in one farm and 9/16 chickens in another farm. Farmer John calculated the difference between the number of chickens in the two farms. After a week, the number of chickens multiplied by 19/21 due to new chickens born. How many chickens are there now in Farmer John's farm?",
+      "new symbolic struct": "[[var x = 26/13 - 9/16]]\n[[var y = x * 19/21]]\n[[question total_chickens = ['y']]]",
+      "answer": "437/336",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-166-1",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = ((26 / 13) - (9 / 16))]]\n[[var j = (x * (19 / 21))]]\n[[var z = (j + (28 / 28))]]\n[[question t = ['z']]]\ntheme: Chicken",
+      "statement": "Farmer John was excited to find that after one week, not only did the number of chickens multiplied by 19/21 due to new chickens being born, but also an additional chicken (representing 28/28) wandered into his farm. How many chickens does Farmer John have on his farm now?",
+      "new symbolic struct": "[[var x = 26/13 - 9/16]]\n[[var a = x * 19/21]]\n[[var b = a + 28/28]]\n[[question total_chickens = ['b']]]",
+      "answer": "773/336",
+      "tag": "additional information follow up"
+    },
+    {
+      "id": "7.NS.A.3-fraction-166-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var x = ((26 / 13) - (9 / 16))]]\n[[var j = (x * (19 / 4))]]\n[[question i = ['j']]]\ntheme: Chicken",
+      "statement": "After reconsidering his calculations, Farmer John realized that instead of multiplying the number of chickens by 19/21 , he should have multiplied by 19/4 due to a miscalculation in the number of new chickens born. How many chickens does Farmer John have on his farm now?",
+      "new symbolic struct": "[[var a = 26/13 - 9/16]]\n[[var b = a * 19/4]]\n[[question total_chickens_after_correction = ['b']]]",
+      "answer": "437/64",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-169-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var w = (24 / 14)]]\n[[var t = (w * w)]]\n[[question s = ['t']]]\ntheme: Helicopter",
+      "statement": "A helicopter traveled a distance of 24/14 miles for a training exercise. During a second exercise, the helicopter flew the same distance. If we let 'w' be the distance flown for each exercise and 't' be the total distance flown for both exercises represented as the product of 'w' times 'w', what is the value of 't'?",
+      "new symbolic struct": "[[var w = 24/14]]\n[[var t = w * w]]\n[[question value_of_t = ['t']]]",
+      "answer": "144/49",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-169-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var w = (17 / 14)]]\n[[var t = (w * w)]]\n[[question s = ['t']]]\ntheme: Helicopter",
+      "statement": "Let's consider a modification in our previous problem. Instead of initially flying a distance of 24/14 miles for each exercise, the helicopter now travels a distance of 17/14 miles for each exercise. If we still let 'w' be the distance flown for each exercise and 't' be the total distance flown for both exercises, which is represented as the product of 'w' times 'w', what is the new value of 't'?",
+      "new symbolic struct": "[[var w_2 = 17/14]]\n[[var t_2 = w_2 * w_2]]\n[[question value_of_t2 = ['t_2']]]",
+      "answer": "289/196",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-170-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var t = ((20 / 16) + (24 / 25))]]\n[[question s = ['t']]]\ntheme: UFO",
+      "statement": "A UFO has made two fuel stops. During the first refuel, the UFO was able to fill 20/16 of its fuel tank. At the second fuel stop, the UFO filled another 24/25 of its tank. Calculate the total fraction of the tank that the UFO was able to refill during these two stops.",
+      "new symbolic struct": "[[var fuel_first = 20/16]]\n[[var fuel_second = 24/25]]\n[[var total_fuel = fuel_first + fuel_second]]\n[[question t = ['total_fuel']]]",
+      "answer": "221/100",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-170-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var t = ((30 / 16) + (24 / 25))]]\n[[question s = ['t']]]\ntheme: UFO",
+      "statement": "On the next mission, the UFO only managed to refill 30/16 of its fuel tank at the first stop, while at the second fuel stop, it still refilled 24/25 of its tank. What is the total fraction of the tank that the UFO was able to refill during these two stops on this mission?",
+      "new symbolic struct": "[[var fuel_first_next_mission = 30/16]]\n[[var fuel_second_same = 24/25]]\n[[var total_fuel_next_mission = fuel_first_next_mission + fuel_second_same]]\n[[question t_next_mission = ['total_fuel_next_mission']]]",
+      "answer": "567/200",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-171-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((24 / 27) + (30 / 26))]]\n[[question p = ['d']]]\ntheme: Telescope",
+      "statement": "Professor Astro is working on his telescope. He believes the power of his telescope is directly proportional to the sum of two fractions. The first fraction is the light gathering power of the lens, which is 24 out of 27. The second fraction is the zooming potential, which is 30 out of 26. So, Professor Astro calculates the sum of these two fractions ((24 / 27) + (30 / 26)). What does he find?",
+      "new symbolic struct": "[[var a = 24 / 27]]\n[[var b = 30 / 26]]\n[[var c = a + b]]\n[[question d = ['c']]]",
+      "answer": "239/117",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-171-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var d = ((12 / 27) + (30 / 26))]]\n[[question p = ['d']]]\ntheme: Telescope",
+      "statement": "Upon recalculating his telescope's potential with more accurate data, Professor Astro realizes that the light gathering power of his lens is actually 12 out of 27, not 24 out of 27 as previously calculated. Professor Astro recalculates the sum of these two fractions ((12 / 27) + (30 / 26)). What is the resulting sum now?",
+      "new symbolic struct": "[[var e = 12 / 27]]\n[[var f = 30 / 26]]\n[[var g = e + f]]\n[[question h = ['g']]]",
+      "answer": "187/117",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-172-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = (11 / 6)]]\n[[var s = (j + j)]]\n[[question y = ['s']]]\ntheme: Monkey",
+      "statement": "Kiki is a lively little monkey. She loves eating bananas. She ate 11/6 bananas in the morning and the same amount in the afternoon. How many bananas did she eat in total? Express your answer as an improper fraction.",
+      "new symbolic struct": "[[var a = 11/6]]\n[[var b = a * 2]]\n[[question c = ['b']]]",
+      "answer": "11/3",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-172-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = (11 / 1)]]\n[[var s = (j + j)]]\n[[question y = ['s']]]\ntheme: Monkey",
+      "statement": "Kiki realized that she miscounted the amount of bananas she ate. Instead of eating 11/6 bananas in the morning, she actually ate 11 whole bananas in the morning and another 11 in the afternoon. Given this new information, how many bananas did Kiki eat in total?",
+      "new symbolic struct": "[[var d = 11]]\n[[var e = d * 2]]\n[[question f = ['e']]]",
+      "answer": "22",
+      "tag": "modified information follow up"
+    }
+  ],
+  [
+    {
+      "id": "7.NS.A.3-fraction-174-0",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = ((26 / 14) * (28 / 20))]]\n[[question q = ['j']]]\ntheme: Milk",
+      "statement": "Jaden is a dairy farmer who milks his cows twice a day. In the morning, his cows give him 26/14 gallons of milk per cow, and in the evening, they give 28/20 gallons of milk per cow. If he multiplies these two fractions together, how much milk is he getting from one cow in one day?",
+      "new symbolic struct": "[[var milk_morning = 26/14]]\n[[var milk_evening = 28/20]]\n[[var total_milk_per_cow = milk_morning * milk_evening]]\n[[question total = ['total_milk_per_cow']]]",
+      "answer": "13/5",
+      "tag": "original problem"
+    },
+    {
+      "id": "7.NS.A.3-fraction-174-2",
+      "standard": "7.NS.A.3-fraction",
+      "symbolic-struct": "[[var j = ((26 / 14) * (28 / 10))]]\n[[question q = ['j']]]\ntheme: Milk",
+      "statement": "Following the previous problem, let's consider that Jaden has made some changes on his farm that affected the milk production in the evening. Now, his cows give him 28/10 gallons of milk per cow in the evening instead of the previous 28/20 gallons. If we still take the morning milk production as 26/14 gallons per cow, how much milk is he getting from one cow in one day now?",
+      "new symbolic struct": "[[var milk_morning_new = 26/14]]\n[[var milk_evening_new = 28/10]]\n[[var total_milk_per_cow_new = milk_morning_new * milk_evening_new]]\n[[question total_new = ['total_milk_per_cow_new']]]",
+      "answer": "26/5",
+      "tag": "modified information follow up"
+    }
+  ]
+]
