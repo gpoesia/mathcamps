@@ -20,6 +20,7 @@ import re
 from tree import VariableDeclaration, QuestionDeclaration, Num, Const, Var, Add, Sub, Mult, Div, Compare, Frac, Square, Cube, Exponent, Remainder, Expr, Node, BinOp
 import math
 import unittest
+from anthropic import Anthropic
 
 
 
@@ -69,10 +70,11 @@ class Context:
 
 
 class Standard:
-    def __init__(self, id, description, filters, transforms, expressions,
+    def __init__(self, id, description, short_description, filters, transforms, expressions,
                  min_number, max_number, max_depth, min_length, max_length, min_value, max_value, unknowns, num_unknowns, min_coeff, max_coeff, skip_count, number_type, custom_final_answer, types_of_fup, math_concept, samples):
         self.id = id
         self.description = description
+        self.short_description = short_description
         self.filters = filters
         self.transforms = transforms
         self.expressions = expressions
@@ -826,6 +828,7 @@ def load_standards() -> list[Standard]:
         standards[o["id"]] = Standard(
             o["id"],
             o["description"],
+            o["short_description"],
             filters, transforms, expressions,
             o["min_number"],
             o["max_number"],
@@ -920,6 +923,11 @@ def initialize_json(json_file_path):
 def write_to_json(data, json_file_path):
     # Writing to the JSON file
     with open(json_file_path, 'w') as f:
+        json.dump(data, f, indent=2)
+        
+def append_to_json(data, json_file_path):
+    # Writing to the JSON file
+    with open(json_file_path, 'a') as f:
         json.dump(data, f, indent=2)
 
 
@@ -1297,6 +1305,12 @@ if __name__ == '__main__':
 
     # Add the --generate flag to indicate generate mode
     parser.add_argument('--generate', action='store_true', help='Enable generate mode')
+    
+    # Add the --include_bad_problems flag to indicate that non-cycle-consistent problems shouldn't be removed
+    parser.add_argument('--include_bad_problems', action='store_true', help='Includes problems that dont pass cycle consistency.')
+    
+    # Add the --use_claude flag to generate problems with claude instead of gpt
+    parser.add_argument('--use_claude', action='store_true', help='Uses claude to generate problems.')
 
     # Add the --standard option followed by a standard ID
     parser.add_argument('--standard', type=str, help='Common Core Standard ID for generation')
@@ -1351,17 +1365,17 @@ if __name__ == '__main__':
     """
     # generate_all_sym_structs(standards, args.n, args.n_fup)
     for standard in standards:
+        data = []
         print(standards[standard].id)
         standard = standards[standard]
         print(len(standards))
 
-        if standard.id not in ['K.CC.C.7', 'K.OA.A.4', 'K.OA.A.5', 'K.NBT.A.1', '1.OA.A.1', '1.OA.A.2', '1.OA.D.8', '2.OA.A.1', '2.NBT.B.5', '2.NBT.B.6', '2.NBT.B.7', '2.MD.B.5', '2.MD.C.8', '3.OA.A.3', '3.OA.A.4', '3.OA.C.7', '3.OA.D.8', '3.MD.D.8-triangle', '3.MD.D.8-quadrilateral', '3.MD.D.8-polygon', '3.NBT.A.2', '4.OA.A.3', '4.OA.B.4', '4.NBT.B.4', '4.NBT.B.5', '4.NBT.B.6', '4.NF.A.2', '4.MD.A.2-decimal', '4.MD.A.2-fraction', '4.MD.A.3', '5.OA.A.1', '5.NBT.B.5', '5.NBT.B.6', '5.NBT.B.7', '5.NF.A.1', '5.NF.A.2', '5.NF.B.4', '6.NS.B.2']:
+        if standard.id not in ['K.CC.C.7', 'K.OA.A.4']:
             # standard = standards[args.standard]
 
             g_problems = generate_many(4*args.n, standard, args.n_fup)
             
             print("Standard", str(standard))
-            data = []
             for i, g_problem in enumerate(g_problems):
                 p_seq = [ (0, g_problem.problem) ]
                 if g_problem.followup_problems is not None:
@@ -1422,11 +1436,21 @@ if __name__ == '__main__':
                     for message in messages_to_nl:
                         print(message)
                     """
-                    response = client.chat.completions.create(
-                    model="gpt-4",
-                    messages=messages_to_nl
-                    )
-                    word_problem = response.choices[0].message.content
+                    if args.use_claude:
+                        client = Anthropic()
+                        message = client.messages.create(
+                            model="claude-3-opus-20240229",
+                            max_tokens=1000,
+                            system=messages_to_nl[0]['content'],
+                            messages=messages_to_nl[1:]
+                        )
+                        word_problem = message.content[0].text
+                    else:
+                        response = client.chat.completions.create(
+                        model="gpt-4",
+                        messages=messages_to_nl
+                        )
+                        word_problem = response.choices[0].message.content
                     print(word_problem)
                     """
                     if j == 0:
@@ -1444,11 +1468,21 @@ if __name__ == '__main__':
                         print(message)
                     """
                     # generating the symbolic structure based on the problem
-                    response1 = client.chat.completions.create(
-                        model="gpt-4",
-                        messages=messages_to_sym
-                    )
-                    gpt_symbolic_structure = response1.choices[0].message.content
+                    if args.use_claude:
+                        client = Anthropic()
+                        message = client.messages.create(
+                            model="claude-3-opus-20240229",
+                            max_tokens=1000,
+                            system=messages_to_sym[0]['content'],
+                            messages=messages_to_sym[1:]
+                        )
+                        gpt_symbolic_structure = message.content[0].text
+                    else:
+                        response1 = client.chat.completions.create(
+                            model="gpt-4",
+                            messages=messages_to_sym
+                        )
+                        gpt_symbolic_structure = response1.choices[0].message.content
                     if j == 0:
                         messages_to_sym.append({"role": "assistant", "content": gpt_symbolic_structure})
                     print("new symbolic structure: \n", gpt_symbolic_structure)
@@ -1459,29 +1493,57 @@ if __name__ == '__main__':
                         messages_to_sym = messages_to_sym[:-1]
                     # Check the symbolic structure
                     if standard.id not in ["4.NF.A.2", "K.CC.C.7", "4.OA.B.4"]:
-                        if check_sym_struct(gpt_symbolic_structure, final_answer, standard):
+                        if args.include_bad_problems:
                             p_seq_data.append({
                                 "id": standard.id + "-" + str(i) + "-" + str(j),
                                 "standard": standard.id,
                                 "symbolic-struct": input_problem,
                                 "statement": word_problem,
                                 "new symbolic struct": gpt_symbolic_structure,
+                                "cycle_consistent": check_sym_struct(gpt_symbolic_structure, final_answer, standard),
                                 "answer": str(final_answer),
+                                "bad_problem": None,
                                 "tag": tag
+                                # save even if new final answer doesnt match old, "cycle_consistent": t/f, add "bad_problem" field, set to null originally, manually edit
                                 })
                         else:
-                            if j == 0:
-                                break
+                            if check_sym_struct(gpt_symbolic_structure, final_answer, standard):
+                                p_seq_data.append({
+                                    "id": standard.id + "-" + str(i) + "-" + str(j),
+                                    "standard": standard.id,
+                                    "symbolic-struct": input_problem,
+                                    "statement": word_problem,
+                                    "new symbolic struct": gpt_symbolic_structure,
+                                    "answer": str(final_answer),
+                                    "tag": tag
+                                    })
+                            else:
+                                if j == 0:
+                                    break
                     else:
-                        p_seq_data.append({
-                            "id": standard.id  + "-" + str(i) + "-" + str(j),
-                            "standard": standard.id,
-                            "symbolic-struct": input_problem,
-                            "statement": word_problem,
-                            "new symbolic struct": gpt_symbolic_structure,
-                            "answer": str(final_answer),
-                            "tag": tag
-                        })
+                        if args.include_bad_problems:
+                            p_seq_data.append({
+                                "id": standard.id + "-" + str(i) + "-" + str(j),
+                                "standard": standard.id,
+                                "symbolic-struct": input_problem,
+                                "statement": word_problem,
+                                "new symbolic struct": gpt_symbolic_structure,
+                                "cycle_consistent": True,
+                                "answer": str(final_answer),
+                                "bad_problem": None,
+                                "tag": tag
+                                # save even if new final answer doesnt match old, "cycle_consistent": t/f, add "bad_problem" field, set to null originally, manually edit
+                                })
+                        else:
+                            p_seq_data.append({
+                                "id": standard.id  + "-" + str(i) + "-" + str(j),
+                                "standard": standard.id,
+                                "symbolic-struct": input_problem,
+                                "statement": word_problem,
+                                "new symbolic struct": gpt_symbolic_structure,
+                                "answer": str(final_answer),
+                                "tag": tag
+                            })
                 if p_seq_data != []:
                     data.append(p_seq_data)
                 if len(data) >= args.n:

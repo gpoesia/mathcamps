@@ -40,7 +40,7 @@ Each JSON file has an *array* of *problem sequences* (with each such *sequence**
       "tag": "modified information follow up"
     }
   ],
-...
+```
 
 Here, *statement* has the word problem statement, and answer has the expected answer. The symbolic structure is what was sampled from our grammar encoding Common Core standards.
 

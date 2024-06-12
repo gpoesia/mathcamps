@@ -1,5 +1,6 @@
 - id: K.CC.C.7
   description: "Compare two numbers between 1 and 10 presented as written numerals."
+  short_description: "Compare nums. btwn. 1 and 10"
   filters: [ ]
   transforms: [ ]
   expressions: ["compare"]
@@ -27,6 +28,7 @@
 
 - id: K.OA.A.4
   description: "For any number from 1 to 9, find the number that makes 10 when added to the given number, e.g., by using objects or drawings, and record the answer with a drawing or equation."
+  short_description: "Adding to equal 10"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables", "ContainsTen"]
   transforms: ["NoUselessVariables"]
   expressions: ["addition"]
@@ -46,7 +48,7 @@
   number_type: ["Int"]
   types_of_fup: []
   math_concept: None
-  samples: ["[[var 10 = 2 + x]][[question a = ['x']]]\ntheme: Pizza",
+  samples: ["[[var 10 = 2 + x]]\n[[question a = ['x']]]\ntheme: Pizza",
             "Lucy made 10 cookies in one night. Her first round consisted of 2 cookies. How many cookies did she make in the second round?",
             "[[var y = (5 + z))]]\n[[question d = ['z']]]\ntheme: Building blocks",
             "Bob has purple and red building blocks. If he has 5 purple building blocks, how many red building blocks does he have?"]
@@ -54,6 +56,7 @@
 
 - id: K.OA.A.5
   description: "Fluently add and subtract within 5."
+  short_description: "Add/sub within 5"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: ["NoUselessVariables", "Simplify"]
   expressions: ["number", "addition", "subtraction", "variable"]
@@ -80,6 +83,7 @@
 
 - id: K.NBT.A.1
   description: "Compose and decompose numbers from 11 to 19 Into ten ones and some further ones, e.g., by using objects or drawings, and record each composition or decomposition by a drawing or equation (e.g., 18 = 10 + 8); understand that these numbers are composed of ten ones and one, two, three, four, five, six, seven, eight, or nine ones."
+  short_description: "Decompose into 10s"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables", "ContainsTen" ]
   transforms: [ "NoUselessVariables" ]
   expressions: [ "addition" ]
@@ -106,6 +110,7 @@
 
 - id: 1.OA.A.1
   description: "Use addition and subtraction within 20 to solve word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions, e.g., by using objects, drawings, and equations with a symbol for the unknown number to represent the problem."
+  short_description: "Add/sub within 20"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: [ "number", "addition", "subtraction", "variable" ]
@@ -132,6 +137,7 @@
   
 - id: 1.OA.A.2
   description: "Solve word problems that call for addition of three whole numbers whose sum is less than or equal to 20, e.g., by using objects, drawings, and equations with a symbol for the unknown number to represent the problem."
+  short_description: "Add three nums within 20"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "variable"]
@@ -160,6 +166,7 @@
   
 - id: 1.OA.D.8
   description: "Determine the unknown whole number in an addition or subtraction equation relating three whole numbers."
+  short_description: "Determine unknowns in add/sub probs"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["addition", "subtraction"]
@@ -185,6 +192,7 @@
             "A free book pick up stand started with 17 books one morning. By the end of the day, it had 13 books left. How many books did people pick up during the day?"]
 - id: 2.OA.A.1
   description: "Use addition and subtraction within 100 to solve one- and two-step word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem."
+  short_description: "Add/sub within 100"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: [ "addition", "subtraction" ]
@@ -211,6 +219,7 @@
   
 - id: 2.NBT.B.5
   description: "Fluently add and subtract within 100 using strategies based on place value, properties of operations, and/or the relationship between addition and subtraction."
+  short_description: "Add/sub within 100"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "variable"]
@@ -238,6 +247,7 @@
 
 - id: 2.NBT.B.6
   description: "Add up to four two-digit numbers using strategies based on place value and properties of operations."
+  short_description: "Add four 2 digit nums"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "variable"]
@@ -264,6 +274,7 @@
             
 - id: 2.NBT.B.7
   description: "Add and subtract within 1000, using concrete models or drawings and strategies based on place value, properties of operations, and/or the relationship between addition and subtraction; relate the strategy to a written method. Understand that in adding or subtracting three-digit numbers, one adds or subtracts hundreds and hundreds, tens and tens, ones and ones; and sometimes it is necessary to compose or decompose tens or hundreds."
+  short_description: "Add/sub within 100"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "variable"]
@@ -290,6 +301,7 @@
             
 - id: 2.MD.B.5
   description: "Use addition and subtraction within 100 to solve word problems involving lengths that are given in the same units, e.g., by using drawings (such as drawings of rulers) and equations with a symbol for the unknown number to represent the problem."
+  short_description: "Add/sub within 100"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: ["NoUselessVariables"]
   expressions: ["number", "addition", "subtraction", "variable"]
@@ -316,6 +328,7 @@
 
 - id: 2.MD.C.8
   description: "Solve word problems involving dollar bills, quarters, dimes, nickels, and pennies, using $ and ¢ symbols appropriately."
+  short_description: "Add/sub within 100"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "variable"]
@@ -342,6 +355,7 @@
 
 - id: 3.OA.A.3
   description: "Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem."
+  short_description: "Mul/div within 100"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "multiplication", "division", "variable"]
@@ -371,6 +385,7 @@
 
 - id: 3.OA.A.4
   description: "Determine the unknown whole number in a multiplication or division equation relating three whole numbers."
+  short_description: "Determine unknowns in mul/div probs"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["multiplication", "division"]
@@ -397,6 +412,7 @@
   
 - id: 3.OA.C.7
   description: "Fluently multiply and divide within 100, using strategies such as the relationship between multiplication and division (e.g., knowing that 8 × 5 = 40, one knows 40 ÷ 5 = 8) or properties of operations. By the end of Grade 3, know from memory all products of two one-digit numbers."
+  short_description: "Mul/div within 100"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "multiplication", "division", "variable"]
@@ -423,6 +439,7 @@
             
 - id: 3.OA.D.8
   description: "Solve two-step word problems using the four operations. Represent these problems using equations with a letter standing for the unknown quantity. Assess the reasonableness of answers using mental computation and estimation strategies including rounding."
+  short_description: "Two-step word probs"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "multiplication", "division", "variable"]
@@ -449,6 +466,7 @@
 
 - id: 3.MD.D.8-triangle
   description: "Solve real world and mathematical problems involving perimeters of polygons, including finding the perimeter given the side lengths, finding an unknown side length, and exhibiting rectangles with the same perimeter and different areas or with the same area and different perimeters."
+  short_description: "Triangle perimeter"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: ["triangle_perimeter"]
@@ -475,6 +493,7 @@
 
 - id: 3.MD.D.8-quadrilateral
   description: "Solve real world and mathematical problems involving perimeters of polygons, including finding the perimeter given the side lengths, finding an unknown side length, and exhibiting rectangles with the same perimeter and different areas or with the same area and different perimeters."
+  short_description: "Quadrilateral perimeter"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: ["quadrilateral_perimeter"]
@@ -501,6 +520,7 @@
 
 - id: 3.MD.D.8-polygon
   description: "Solve real world and mathematical problems involving perimeters of polygons, including finding the perimeter given the side lengths, finding an unknown side length, and exhibiting rectangles with the same perimeter and different areas or with the same area and different perimeters."
+  short_description: "Polygon perimeter"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: ["polygon_perimeter"]
@@ -527,6 +547,7 @@
 
 - id: 3.NBT.A.2
   description: "Fluently add and subtract within 1000 using strategies and algorithms based on place value, properties of operations, and/or the relationship between addition and subtraction."
+  short_description: "Add/sub within 1000"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "variable"]
@@ -553,6 +574,7 @@
 
 - id: 4.OA.A.3
   description: "Solve multistep word problems posed with whole numbers and having whole-number answers using the four operations, including problems in which remainders must be Interpreted. Represent these problems using equations with a letter standing for the unknown quantity. Assess the reasonableness of answers using mental computation and estimation strategies including rounding."
+  short_description: "Multistep word probs"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "multiplication", "division", "variable"]
@@ -579,6 +601,7 @@
 
 - id: 4.OA.B.4
   description: "Find all factor pairs for a whole number in the range 1-100. Recognize that a whole number is a multiple of each of its factors. Determine whether a given whole number in the range 1-100 is a multiple of a given one-digit number. Determine whether a given whole number in the range 1-100 is prime or composite."
+  short_description: "Factor pairs within 100"
   filters: [ ]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number"]
@@ -606,6 +629,7 @@
 
 - id: 4.NBT.B.4
   description: "Fluently add and subtract multi-digit whole numbers using the standard algorithm."
+  short_description: "Add/sub multi-digit nums"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "variable"]
@@ -632,6 +656,7 @@
 
 - id: 4.NBT.B.5
   description: "Multiply a whole number of up to four digits by a one-digit whole number, and multiply two two-digit numbers, using strategies based on place value and the properties of operations. Illustrate and explain the calculation by using equations, rectangular arrays, and/or area models."
+  short_description: "4 digit * 1 digit mult"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["mult_4nbtb5", "variable"]
@@ -658,6 +683,7 @@
 
 - id: 4.NBT.B.6
   description: "Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division. Illustrate and explain the calculation by using equations, rectangular arrays, and/or area models."
+  short_description: "4 digit / 1 digit div"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: [ "number", "remainder", "variable" ]
@@ -684,6 +710,7 @@
 
 - id: 4.NF.A.2
   description: "Compare two fractions with different numerators and different denominators, e.g., by creating common denominators or numerators, or by comparing to a benchmark fraction such as 1/2. Recognize that comparisons are valid only when the two fractions refer to the same whole. Record the results of comparisons with symbols >, =, or <, and justify the conclusions, e.g., by using a visual fraction model."
+  short_description: "Compare two fractions"
   filters: [ ]
   transforms: [ ]
   expressions: ["compare"]
@@ -711,6 +738,7 @@
 
 - id: 4.MD.A.2-decimal
   description: "Use the four operations to solve word problems involving distances, Intervals of time, liquid volumes, masses of objects, and money, including problems involving simple fractions or decimals, and problems that require expressing measurements given in a larger unit in terms of a smaller unit. Represent measurement quantities using diagrams such as number line diagrams that feature a measurement scale."
+  short_description: "Word problems with decimals"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "multiplication", "division", "variable"]
@@ -737,6 +765,7 @@
 
 - id: 4.MD.A.2-fraction
   description: "Use the four operations to solve word problems involving distances, Intervals of time, liquid volumes, masses of objects, and money, including problems involving simple fractions or decimals, and problems that require expressing measurements given in a larger unit in terms of a smaller unit. Represent measurement quantities using diagrams such as number line diagrams that feature a measurement scale."
+  short_description: "Word problems with fractions"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "multiplication", "division", "variable"]
@@ -764,6 +793,7 @@
 
 - id: 4.MD.A.3
   description: "Apply the area and perimeter formulas for rectangles in real world and mathematical problems."
+  short_description: "Rectangle area and perimeter"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: ["rectangle_perimeter", "rectangle_area"]
@@ -790,6 +820,7 @@
 
 - id: 5.OA.A.1
   description: "Use parentheses, brackets, or braces in numerical expressions, and evaluate expressions with these symbols."
+  short_description: "Evaluating with parentheses"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "multiplication", "division", "variable"]
@@ -817,6 +848,7 @@
 
 - id: 5.NBT.B.5
   description: "Fluently multiply multi-digit whole numbers using the standard algorithm."
+  short_description: "Mult multi-digit nums"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "multiplication", "variable"]
@@ -843,6 +875,7 @@
 
 - id: 5.NBT.B.6
   description: "Find whole-number quotients of whole numbers with up to four-digit dividends and two-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division. Illustrate and explain the calculation by using equations, rectangular arrays, and/or area models."
+  short_description: "4 digit / 2 digit div"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["div_5nbtb6", "variable"]
@@ -869,6 +902,7 @@
 
 - id: 5.NBT.B.7
   description: "Add, subtract, multiply, and divide decimals to hundredths, using concrete models or drawings and strategies based on place value, properties of operations, and/or the relationship between addition and subtraction; relate the strategy to a written method and explain the reasoning used."
+  short_description: "Add/sub/mult/div decimals"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "multiplication", "div_5nbtb7", "variable"]
@@ -895,6 +929,7 @@
 
 - id: 5.NF.A.1
   description: "Add and subtract fractions with unlike denominators (including mixed numbers) by replacing given fractions with equivalent fractions in such a way as to produce an equivalent sum or difference of fractions with like denominators."
+  short_description: "Add/sub fractions"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: ["NoUselessVariables"]
   expressions: [ "addition", "subtraction", "variable" ]
@@ -921,6 +956,7 @@
 
 - id: 5.NF.A.2
   description: "Solve word problems involving addition and subtraction of fractions referring to the same whole, including cases of unlike denominators, e.g., by using visual fraction models or equations to represent the problem. Use benchmark fractions and number sense of fractions to estimate mentally and assess the reasonableness of answers."
+  short_description: "Add/sub fraction word problems"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: ["NoUselessVariables"]
   expressions: [ "addition", "subtraction", "variable" ]
@@ -947,6 +983,7 @@
 
 - id: 5.NF.B.4
   description: "Apply and extend previous understandings of multiplication to multiply a fraction or whole number by a fraction."
+  short_description: "Mult fractions"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: [ "multiplication", "variable" ]
@@ -974,6 +1011,7 @@
 
 - id: 6.NS.B.2
   description: "Fluently divide multi-digit numbers using the standard algorithm."
+  short_description: "Multi-digit div"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "division", "variable"]
@@ -1000,6 +1038,7 @@
 
 - id: 6.NS.B.3
   description: "Add, subtract, multiply, and divide decimals to hundredths, using concrete models or drawings and strategies based on place value, properties of operations, and/or the relationship between addition and subtraction; relate the strategy to a written method and explain the reasoning used."
+  short_description: "Add/sub/mult/div decimals"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["number", "addition", "subtraction", "multiplication", "div_5nbtb7", "variable"]
@@ -1026,6 +1065,7 @@
 
 - id: 6.EE.A.1
   description: "Write and evaluate numerical expressions involving whole-number exponents."
+  short_description: "Evaluate exponents"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: [ "number", "square", "cube" , "exponent", "variable"]
@@ -1052,6 +1092,7 @@
 
 - id : 6.EE.B.7
   description: "Solve real-world and mathematical problems by writing and solving equations of the form x + p = q and px = q for cases in which p, q and x are all nonnegative rational numbers."
+  short_description: "Solve one-variable systems"
   filters: [ "ProblemLength", "CheckIntermediateValues", "ChainsOfVariables" ]
   transforms: [ "NoUselessVariables" ]
   expressions: [ "addition", "multiplication" ]
@@ -1078,6 +1119,7 @@
 
 - id: 7.NS.A.1-fraction
   description: "Apply and extend previous understandings of addition and subtraction to add and subtract rational numbers; represent addition and subtraction on a horizontal or vertical number line diagram."
+  short_description: "Add/sub with fractions"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: ["NoUselessVariables"]
   expressions: [ "addition", "subtraction", "variable" ]
@@ -1104,6 +1146,7 @@
 
 - id: 7.NS.A.1-decimal
   description: "Apply and extend previous understandings of addition and subtraction to add and subtract rational numbers; represent addition and subtraction on a horizontal or vertical number line diagram."
+  short_description: "Add/sub with decimals"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: ["NoUselessVariables"]
   expressions: [ "addition", "subtraction", "variable" ]
@@ -1130,6 +1173,7 @@
 
 - id: 7.NS.A.2
   description: "Apply and extend previous understandings of multiplication and division and of fractions to multiply and divide rational numbers."
+  short_description: "Mult/div with fractions"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: ["NoUselessVariables"]
   expressions: [ "multiplication", "division", "variable" ]
@@ -1156,6 +1200,7 @@
 
 - id: 7.NS.A.3-fraction
   description: "Solve real-world and mathematical problems involving the four operations with rational numbers."
+  short_description: "Add/sub/mult/div with fractions"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: ["NoUselessVariables"]
   expressions: [ "number", "addition", "subtraction", "multiplication", "division", "variable" ]
@@ -1182,6 +1227,7 @@
 
 - id: 7.NS.A.3-decimal
   description: "Solve real-world and mathematical problems involving the four operations with rational numbers."
+  short_description: "Add/sub/mult/div with decimals"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: ["NoUselessVariables"]
   expressions: [ "number", "addition", "subtraction", "multiplication", "division", "variable" ]
@@ -1208,6 +1254,7 @@
 
 - id: 8.EE.A.2
   description: "Use square root and cube root symbols to represent solutions to equations of the form x² = p and x³ = p, where p is a positive rational number. Evaluate square roots of small perfect squares and cube roots of small perfect cubes. Know that the square root of 2 is irrational."
+  short_description: "Calculate square and cube roots"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["square", "cube"]
@@ -1235,6 +1282,7 @@
 
 - id: 8.EE.C.7
   description: "Solve linear equations in one variable."
+  short_description: "Solve one-variable systems"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["addition", "subtraction"]
@@ -1262,6 +1310,7 @@
 
 - id: 8.EE.C.8
   description: "Analyze and solve pairs of simultaneous linear equations."
+  short_description: "Solve two-variable systems"
   filters: ["ProblemLength", "CheckIntermediateValues", "ChainsOfVariables"]
   transforms: [ "NoUselessVariables" ]
   expressions: ["addition", "subtraction"]
