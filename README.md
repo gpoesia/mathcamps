@@ -40,10 +40,12 @@ Each JSON file has an *array* of *problem sequences* (with each such *sequence**
       "tag": "modified information follow up"
     }
   ],
+...
 ```
 
 Here, *statement* has the word problem statement, and answer has the expected answer. The symbolic structure is what was sampled from our grammar encoding Common Core standards.
 
+The model responses to these problems are under `model-responses/v1/`. These contain more than 220K LLM responses to all problems, across 21 models we evaluated on MathCAMPS (including GPT-4o, GPT-3.5 Turbo, all Claude 3 models, all LLaMA-3 models, etc), along with the extracted final answer from the model's response, the ground-truth answer, and whether the final answer was correct (which is obtained with a semantic comparison, e.g. equivalent fractions are considered equal).
 
 ## Changelog
 

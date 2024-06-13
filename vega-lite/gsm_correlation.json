@@ -1,53 +1,78 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
-  "height": 600,
-  "config": {
-    "axis": {
-      "labelFontSize": 14,
-      "titleFontSize": 16
-    },
-    "text": {
-      "fontSize": 14
-    },
-    "title": {
-      "fontSize": 18
-    }
-  },
-  "encoding": {
-    "x": {
-      "field": "gsm8k_accuracy",
-      "type": "quantitative",
-      "axis": {
-        "tickCount": 5,
-        "title": "GSM8k Accuracy"
-      }
-    },
-    "y": {
-      "field": "accuracy",
-      "type": "quantitative",
-      "axis": {
-        "tickCount": 5,
-        "title": "MathCAMPS Accuracy"
-      }
-    }
-  },
-  "layer": [
-    {
-      "mark": "point"
-    },
-    {
-      "mark": {
-        "type": "text",
-        "dy": -14,
-        "fontSize": 14
-      },
-      "encoding": {
-        "text": {
-          "field": "model"
-        }
-      }
-    }
-  ],
-  "title": "GSM8k vs MathCAMPS Accuracy"
+	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+	"width": 600,
+	"height": 600,
+	"config": {
+		"axis": {
+			"labelFontSize": 14,
+			"titleFontSize": 16
+		},
+		"text": {
+			"fontSize": 14
+		},
+		"title": {
+			"fontSize": 18
+		}
+	},
+	"encoding": {
+		"x": {
+			"field": "gsm8k_accuracy",
+			"type": "quantitative",
+			"axis": {
+				"tickCount": 5,
+				"title": "GSM8k Accuracy"
+			}
+		},
+		"y": {
+			"field": "accuracy",
+			"type": "quantitative",
+			"axis": {
+				"tickCount": 5,
+				"title": "MathCAMPS Accuracy"
+			}
+		}
+	},
+	"layer": [
+		{
+			"mark": "point"
+		},
+		{
+			"mark": {
+				"type": "text",
+				"dy": -14,
+				"fontSize": 14
+			},
+			"encoding": {
+				"text": {
+					"field": "model"
+				}
+			}
+		},
+		{
+			"mark": {
+				"type": "line",
+				"color": "firebrick",
+				"opacity": 0.2
+			},
+			"transform": [
+				{
+					"regression": "accuracy",
+					"on": "gsm8k_accuracy"
+				}
+			],
+			"encoding": {
+				"x": {
+					"field": "gsm8k_accuracy",
+					"type": "quantitative"
+				},
+				"y": {
+					"field": "accuracy",
+					"type": "quantitative"
+				}
+			}
+		}
+	],
+	"title": {
+		"text": "GSM8k vs MathCAMPS Accuracy"
+	}
 }
