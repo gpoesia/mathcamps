@@ -14,36 +14,41 @@ With chain-of-thought prompting, GPT-3 scored 51.3% on GSM8K. GPT-4 was much bet
 
 ## Problems and model responses
 
-MathCAMPS v1.0 contains 4900 original problems, and a total of 4707 follow-up problems from 44 distinct Common Core standards. The problems can be accessed in `problems/v1/`. This directory contains one JSON file for each standard (but 49 JSON files in total, since we have broken down some standards into multiple during generation).
+MathCAMPS v1.0 contains 9707 total problems (4900 original problems, and a total of 4707 follow-up problems) from 44 distinct Common Core standards. The problems can be found in `problems/v1/mathcamps.json`. This directory also contains one JSON file for each standard (but 49 JSON files in addition to `mathcamps.json`, since we have broken down some standards into multiple during generation). The standard-specific files also have the symbolic structure associated with problems, which were stripped in `mathcamps.json` for simplicity.
 
-Each JSON file has an *array* of *problem sequences* (with each such *sequence** being an array of objects representing individual problems). The first problem in a sequence is the "original problem", while subsequent problems are follow-ups (between 0 and 2 follow-ups, depending on the standard). For now, follow-ups are not cumulative - in cases where there are two of them, they both follow up on the original problem, not on each other. Here is an example from standard `3.OA.A.3` ("Use multiplication and division within 100 to solve word problems in situations involving equal groups, arrays, and measurement quantities"):
+`problems/v1/mathcamps.json` is a JSON file with a single array of problems. Each problem is an object with the following fields:
 
-``` json
-[
-  [
-    {
-      "id": "3.OA.A.3-2-0",
-      "standard": "3.OA.A.3",
-      "symbolic-struct": "[[var x = 12]]\n[[var s = (8 * x)]]\n[[question f = ['s']]]\ntheme: Chair",
-      "statement": "John has 12 tables. Each table requires 8 chairs. How many chairs does John need to accommodate all the tables?",
-      "new symbolic struct": "[[var tables = 12]]\n[[var chairs_per_table = 8]]\n[[var total_chairs = tables * chairs_per_table]]\n[[question result = ['total_chairs']]]",
-      "answer": "96",
-      "tag": "original problem"
-    },
-    {
-      "id": "3.OA.A.3-2-2",
-      "standard": "3.OA.A.3",
-      "symbolic-struct": "[[var x = 2]]\n[[var s = (8 * x)]]\n[[question f = ['s']]]\ntheme: Chair",
-      "statement": "Suppose now, John only has 2 tables instead of 12. Using the same number of chairs per table, how many chairs would John need now to accommodate these tables?",
-      "new symbolic struct": "[[var tables = 2]]\n[[var chairs_per_table = 8]]\n[[var total_chairs = tables * chairs_per_table]]\n[[question result = ['total_chairs']]]",
-      "answer": "16",
-      "tag": "modified information follow up"
-    }
-  ],
-...
+```json
+{
+  "id": "<<unique problem identifier>>",
+  "standard": "<<ID of the Common Core standard this problem belongs to>>",
+  "statement": "<<problem statement, in natural language>>",
+  "answer": "<<expected final answer>>",
+  "type": "<<either 'original-problem', 'incremental-follow-up' or 'counterfactual-followup'>>",
+  "followup-to": "<<if type is not 'original-followup', then the ID of the problem this one follow-up on. Otherwise null>>"
+},
 ```
 
-Here, *statement* has the word problem statement, and answer has the expected answer. The symbolic structure is what was sampled from our grammar encoding Common Core standards.
+For example:
+
+```json
+{
+  "id": "2.MD.C.8-0-0",
+  "standard": "2.MD.C.8",
+  "statement": "Liam had $90 in twenties, tens and fives. He spent $81 on a new video game. How much money in dollars does Liam have left?",
+  "answer": "9",
+  "type": "original-problem",
+  "followup_to": null
+},
+```
+
+You can also load the dataset from the Hugging Face datasets hub:
+
+```python
+import datasets
+mathcamps = datasets.load_dataset('mathcamps/mathcamps')
+print(mathcamps['train'][1000]['statement'])
+```
 
 The model responses to these problems are under `model-responses/v1/`. These contain more than 220K LLM responses to all problems, across 21 models we evaluated on MathCAMPS (including GPT-4o, GPT-3.5 Turbo, all Claude 3 models, all LLaMA-3 models, etc), along with the extracted final answer from the model's response, the ground-truth answer, and whether the final answer was correct (which is obtained with a semantic comparison, e.g. equivalent fractions are considered equal).
 
@@ -52,3 +57,8 @@ The model responses to these problems are under `model-responses/v1/`. These con
 ### v1.0.0
 
 - Initial release of the dataset, problem generation pipeline and model outputs
+
+### v1.0.1
+
+- Release of `mathcamps.json` and Hugging Face dataset
+
