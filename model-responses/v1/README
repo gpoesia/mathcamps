@@ -1,0 +1,4 @@
+JSON files with the final evaluation.
+
+regraded/ contains the results after answer was re-extracted using LLaMA 3 70B.
+These were the final results used in the paper submission to NeurIPS D&B 2024.

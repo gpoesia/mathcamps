@@ -27,7 +27,14 @@
         ["Mistral", "mistralai/Mixtral-8x22B-Instruct-v0.1", "Mixtral 8x22B", "open"],
 
         ["OpenAI", "gpt-4o-2024-05-13", "GPT-4o", "closed"],
-        ["OpenAI", "gpt-3.5-turbo-0125", "GPT-3.5 Turbo", "closed"]
+        ["OpenAI", "gpt-3.5-turbo-0125", "GPT-3.5 Turbo", "closed"],
+
+        ["InternLM", "internlm/internlm2-math-base-7b", "InternLM-Math Base 7B", "open"],
+        ["InternLM", "internlm/internlm2-math-base-20b", "InternLM-Math Base 20B", "open"],
+        ["Qwen", "Qwen/Qwen2-Math-7B", "Qwen2-Math 7B", "open"],
+        ["Qwen", "Qwen/Qwen2-Math-72B", "Qwen2-Math 72B", "open"],
+        ["Numina", "AI-MO/NuminaMath-7B-TIR", "NuminaMath 7B TIR", "open"],
+        ["DeepSeek", "deepseek-ai/deepseek-math-7b-base", "DeepSeek Math 7B Base", "open"]
     ],
     "skipped_models": [
         ["Meta", "codellama/CodeLlama-70b-Instruct-hf", "CodeLlama 70B", "open"]

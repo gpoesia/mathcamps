@@ -3,118 +3,516 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/style.css">
+    <script src="/mathcamps.js" defer></script>
     <title>MathCAMPS</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f0f0f0; /* Set your desired background color */
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        h2 {
-            color: #222;
-        }
-        .json-container {
-            background-color: #FFCFE4;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        a {
-            color: #300030;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .authors {
-            font-size: 1em;
-            margin-top: 10px;
-        }
-        .authors span {
-            display: block;
-        }
-        .buttons {
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 5px;
-            font-size: 16px;
-            color: #300030;
-            background-color: #FFCFE4;
-            text-decoration: none;
-            border-radius: 20px;
-            transition: background-color 0.3s;
-        }
-
-        .button:hover {
-            background-color: #FF93C2;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>MathCAMPS</h1>
-            <h2>Fine-grained Synthesis of Mathematical Problems From Human Curricula</h2>
-            <div class="authors">
-                <p>
-                    <a href="https://shubhramishra07.github.io" target="_blank">Shubhra Mishra</a><sup>*</sup>,
-                    <a href="https://gpoesia.com" target="_blank">Gabriel Poesia</a><sup>*</sup>,
-                    <a>Belinda Mo</a><sup></sup>,
-                    <a href="https://cocolab.stanford.edu/ndg" target="_blank">Noah D. Goodman</a><sup></sup>
-                </p>
-                <span><sup>1</sup>Stanford University</span>
-            </div>
-        </div>
-        <div class="buttons">
-		<!--            <a href="https://TODO:arxiv-link-here" class="button" target="_blank">📄 Paper</a> -->
-            <a href="https://github.com/gpoesia/mathcamps" class="button" target="_blank">💻 Code</a>
-	    <!--            <a href="https://TODO:hf-link-here" class="button" target="_blank">🤗 HuggingFace</a> -->
-        </div>
-        </header>
-        
-        <!--
-        <section>
-            <h2>JSON Data</h2>
-            <div class="json-container">
-                <pre id="json-data">
-                [
-                    {"name": "Sample Data 1", "value": 123},
-                    {"name": "Sample Data 2", "value": 456}
-                ]
-                </pre>
-            </div>
-        </section>
+    <header>
+    <h1>
+    <img src="/images/mathcamps-logo-1.png" alt="MathCAMPS Logo" width="350">
+</h1>
 
-        <section>
-            <h2>Links</h2>
-            <ul>
-                <li><a href="https://github.com/gpoesia/tinymath" target="_blank">MathCAMPS GitHub Repository</a></li>
-            </ul>
-        </section>
-        -->
-        <!-- Future sections for more detailed results will go here -->
-
+    <h2>Fine-grained Synthesis of Mathematical Problems From Human Curricula</h2>
+    <div class="authors">
+        <p>
+            <a href="https://shubhramishra07.github.io" target="_blank">Shubhra Mishra</a><sup>*</sup>,
+            <a href="https://gpoesia.com" target="_blank">Gabriel Poesia</a><sup>*</sup>,
+            <a>Belinda Mo</a><sup></sup>,
+            <a href="https://cocolab.stanford.edu/ndg" target="_blank">Noah D. Goodman</a><sup></sup>
+        </p>
+        <span><sup>1</sup>Stanford University</span>
     </div>
+    </div>
+    <div class="buttons">
+        <a href="https://github.com/gpoesia/mathcamps" class="button" target="_blank">💻 Code</a>
+        <a href="https://arxiv.org/abs/2407.00900" class="button" target="_blank">📄 Paper</a>
+        <a href="https://huggingface.co/datasets/mathcamps/mathcamps" class="button" target="_blank">🤗 Hugging Face</a>
+    </div>
+</header>
+
+
+    <h2>
+        Gradewise and Overall Performance
+    </h2>
+    <p>
+        Click on any model's name to see that model's detailed performance by grade and standard level.
+        You will also be able to see the model's responses to individual problems in each standard.
+    </p>
+
+    <table>
+    <thead>
+        <tr>
+            <th>Vendor</th>
+            <th>Model</th>
+            <th>All</th>
+            <th>K</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="model-row-closed">
+            <td>OpenAI</td>
+            <td><a href="/models/gpt-4o-2024-05-13">GPT-4o</a></td>
+            <td class="hover-cell"><a href="models/gpt-4o-2024-05-13/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.92</a></td>
+            <td class="hover-cell"><a href="models/gpt-4o-2024-05-13/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/gpt-4o-2024-05-13/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/gpt-4o-2024-05-13/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/gpt-4o-2024-05-13/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/gpt-4o-2024-05-13/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.92</a></td>
+            <td class="hover-cell"><a href="models/gpt-4o-2024-05-13/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.88</a></td>
+            <td class="hover-cell"><a href="models/gpt-4o-2024-05-13/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.95</a></td>
+            <td class="hover-cell"><a href="models/gpt-4o-2024-05-13/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.89</a></td>
+            <td class="hover-cell"><a href="models/gpt-4o-2024-05-13/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.64</a></td>
+        </tr>
+        <tr class="model-row-closed">
+            <td>Anthropic</td>
+            <td><a href="/models/claude-3-opus-20240229">Claude-3 Opus</a></td>
+            <td class="hover-cell"><a href="models/claude-3-opus-20240229/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.89</a></td>
+            <td class="hover-cell"><a href="models/claude-3-opus-20240229/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/claude-3-opus-20240229/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.99</a></td>
+            <td class="hover-cell"><a href="models/claude-3-opus-20240229/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/claude-3-opus-20240229/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/claude-3-opus-20240229/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.89</a></td>
+            <td class="hover-cell"><a href="models/claude-3-opus-20240229/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.83</a></td>
+            <td class="hover-cell"><a href="models/claude-3-opus-20240229/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/claude-3-opus-20240229/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.73</a></td>
+            <td class="hover-cell"><a href="models/claude-3-opus-20240229/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.56</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Qwen</td>
+            <td><a href="/models/Qwen/Qwen2-Math-72B">Qwen2-Math 72B</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-72B/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.89</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-72B/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-72B/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.99</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-72B/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-72B/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-72B/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.90</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-72B/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.80</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-72B/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.91</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-72B/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.77</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-72B/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.59</a></td>
+        </tr>
+        <tr class="model-row-closed">
+            <td>Google</td>
+            <td><a href="/models/gemini-1.5-pro-001">Gemini-1.5 Pro</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-pro-001/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.89</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-pro-001/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.95</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-pro-001/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-pro-001/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-pro-001/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-pro-001/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.89</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-pro-001/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.83</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-pro-001/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.93</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-pro-001/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.78</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-pro-001/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.54</a></td>
+        </tr>
+        <tr class="model-row-closed">
+            <td>Google</td>
+            <td><a href="/models/gemini-1.5-flash-001">Gemini-1.5 Flash</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-flash-001/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.87</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-flash-001/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-flash-001/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-flash-001/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-flash-001/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-flash-001/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.80</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-flash-001/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.80</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-flash-001/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.90</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-flash-001/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.84</a></td>
+            <td class="hover-cell"><a href="models/gemini-1.5-flash-001/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.56</a></td>
+        </tr>
+        <tr class="model-row-closed">
+            <td>OpenAI</td>
+            <td><a href="/models/gpt-3.5-turbo-0125">GPT-3.5 Turbo</a></td>
+            <td class="hover-cell"><a href="models/gpt-3.5-turbo-0125/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.87</a></td>
+            <td class="hover-cell"><a href="models/gpt-3.5-turbo-0125/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/gpt-3.5-turbo-0125/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/gpt-3.5-turbo-0125/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/gpt-3.5-turbo-0125/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/gpt-3.5-turbo-0125/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.86</a></td>
+            <td class="hover-cell"><a href="models/gpt-3.5-turbo-0125/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.77</a></td>
+            <td class="hover-cell"><a href="models/gpt-3.5-turbo-0125/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.90</a></td>
+            <td class="hover-cell"><a href="models/gpt-3.5-turbo-0125/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.77</a></td>
+            <td class="hover-cell"><a href="models/gpt-3.5-turbo-0125/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.56</a></td>
+        </tr>
+        <tr class="model-row-closed">
+            <td>Anthropic</td>
+            <td><a href="/models/claude-3-sonnet-20240229">Claude-3 Sonnet</a></td>
+            <td class="hover-cell"><a href="models/claude-3-sonnet-20240229/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.86</a></td>
+            <td class="hover-cell"><a href="models/claude-3-sonnet-20240229/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/claude-3-sonnet-20240229/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/claude-3-sonnet-20240229/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/claude-3-sonnet-20240229/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/claude-3-sonnet-20240229/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.88</a></td>
+            <td class="hover-cell"><a href="models/claude-3-sonnet-20240229/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.74</a></td>
+            <td class="hover-cell"><a href="models/claude-3-sonnet-20240229/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.94</a></td>
+            <td class="hover-cell"><a href="models/claude-3-sonnet-20240229/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.66</a></td>
+            <td class="hover-cell"><a href="models/claude-3-sonnet-20240229/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.49</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Meta</td>
+            <td><a href="/models/meta-llama/Llama-3-70b-chat-hf">Llama 3 70B</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-70b-chat-hf/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.85</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-70b-chat-hf/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-70b-chat-hf/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-70b-chat-hf/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-70b-chat-hf/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-70b-chat-hf/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.85</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-70b-chat-hf/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.71</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-70b-chat-hf/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.87</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-70b-chat-hf/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.73</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-70b-chat-hf/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.50</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Mistral</td>
+            <td><a href="/models/mistralai/Mixtral-8x22B-Instruct-v0.1">Mixtral 8x22B</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x22B-Instruct-v0.1/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.84</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x22B-Instruct-v0.1/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x22B-Instruct-v0.1/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.99</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x22B-Instruct-v0.1/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x22B-Instruct-v0.1/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x22B-Instruct-v0.1/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.79</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x22B-Instruct-v0.1/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.69</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x22B-Instruct-v0.1/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.88</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x22B-Instruct-v0.1/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.73</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x22B-Instruct-v0.1/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.61</a></td>
+        </tr>
+        <tr class="model-row-closed">
+            <td>Anthropic</td>
+            <td><a href="/models/claude-3-haiku-20240307">Claude-3 Haiku</a></td>
+            <td class="hover-cell"><a href="models/claude-3-haiku-20240307/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.84</a></td>
+            <td class="hover-cell"><a href="models/claude-3-haiku-20240307/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/claude-3-haiku-20240307/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/claude-3-haiku-20240307/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/claude-3-haiku-20240307/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.98</a></td>
+            <td class="hover-cell"><a href="models/claude-3-haiku-20240307/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.87</a></td>
+            <td class="hover-cell"><a href="models/claude-3-haiku-20240307/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.69</a></td>
+            <td class="hover-cell"><a href="models/claude-3-haiku-20240307/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.92</a></td>
+            <td class="hover-cell"><a href="models/claude-3-haiku-20240307/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.59</a></td>
+            <td class="hover-cell"><a href="models/claude-3-haiku-20240307/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.51</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Qwen</td>
+            <td><a href="/models/Qwen/Qwen2-Math-7B">Qwen2-Math 7B</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-7B/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.83</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-7B/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-7B/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.99</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-7B/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-7B/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.93</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-7B/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.85</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-7B/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.66</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-7B/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.91</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-7B/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.58</a></td>
+            <td class="hover-cell"><a href="models/Qwen/Qwen2-Math-7B/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.62</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>DeepSeek</td>
+            <td><a href="/models/deepseek-ai/deepseek-llm-67b-chat">DeepSeek 67B</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-llm-67b-chat/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.80</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-llm-67b-chat/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.95</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-llm-67b-chat/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.99</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-llm-67b-chat/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-llm-67b-chat/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.93</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-llm-67b-chat/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.82</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-llm-67b-chat/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.60</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-llm-67b-chat/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.84</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-llm-67b-chat/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.61</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-llm-67b-chat/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.47</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>DeepSeek</td>
+            <td><a href="/models/deepseek-ai/deepseek-math-7b-base">DeepSeek Math 7B Base</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-math-7b-base/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.78</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-math-7b-base/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.94</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-math-7b-base/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-math-7b-base/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.93</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-math-7b-base/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.89</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-math-7b-base/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.75</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-math-7b-base/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.63</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-math-7b-base/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.86</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-math-7b-base/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.53</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-math-7b-base/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.55</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Numina</td>
+            <td><a href="/models/AI-MO/NuminaMath-7B-TIR">NuminaMath 7B TIR</a></td>
+            <td class="hover-cell"><a href="models/AI-MO/NuminaMath-7B-TIR/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.78</a></td>
+            <td class="hover-cell"><a href="models/AI-MO/NuminaMath-7B-TIR/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.89</a></td>
+            <td class="hover-cell"><a href="models/AI-MO/NuminaMath-7B-TIR/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/AI-MO/NuminaMath-7B-TIR/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.95</a></td>
+            <td class="hover-cell"><a href="models/AI-MO/NuminaMath-7B-TIR/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.90</a></td>
+            <td class="hover-cell"><a href="models/AI-MO/NuminaMath-7B-TIR/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.72</a></td>
+            <td class="hover-cell"><a href="models/AI-MO/NuminaMath-7B-TIR/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.63</a></td>
+            <td class="hover-cell"><a href="models/AI-MO/NuminaMath-7B-TIR/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.84</a></td>
+            <td class="hover-cell"><a href="models/AI-MO/NuminaMath-7B-TIR/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.59</a></td>
+            <td class="hover-cell"><a href="models/AI-MO/NuminaMath-7B-TIR/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.53</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Meta</td>
+            <td><a href="/models/meta-llama/Llama-3-8b-chat-hf">Llama 3 8B</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-8b-chat-hf/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.77</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-8b-chat-hf/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.94</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-8b-chat-hf/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.97</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-8b-chat-hf/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-8b-chat-hf/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.94</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-8b-chat-hf/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.78</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-8b-chat-hf/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.55</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-8b-chat-hf/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.79</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-8b-chat-hf/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.53</a></td>
+            <td class="hover-cell"><a href="models/meta-llama/Llama-3-8b-chat-hf/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.43</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Mistral</td>
+            <td><a href="/models/mistralai/Mixtral-8x7B-Instruct-v0.1">Mixtral 8x7B</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x7B-Instruct-v0.1/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.76</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x7B-Instruct-v0.1/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.94</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x7B-Instruct-v0.1/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x7B-Instruct-v0.1/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.93</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x7B-Instruct-v0.1/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.91</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x7B-Instruct-v0.1/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.75</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x7B-Instruct-v0.1/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.52</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x7B-Instruct-v0.1/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.80</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x7B-Instruct-v0.1/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.53</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mixtral-8x7B-Instruct-v0.1/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.45</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>InternLM</td>
+            <td><a href="/models/internlm/internlm2-math-base-20b">InternLM-Math Base 20B</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-20b/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.74</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-20b/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.95</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-20b/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-20b/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.95</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-20b/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.86</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-20b/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.68</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-20b/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.55</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-20b/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.79</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-20b/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.52</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-20b/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.47</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Mistral</td>
+            <td><a href="/models/mistralai/Mistral-7B-Instruct-v0.3">Mistral 7B</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mistral-7B-Instruct-v0.3/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.68</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mistral-7B-Instruct-v0.3/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.89</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mistral-7B-Instruct-v0.3/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.94</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mistral-7B-Instruct-v0.3/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.91</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mistral-7B-Instruct-v0.3/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.84</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mistral-7B-Instruct-v0.3/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.61</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mistral-7B-Instruct-v0.3/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.42</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mistral-7B-Instruct-v0.3/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.66</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mistral-7B-Instruct-v0.3/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.45</a></td>
+            <td class="hover-cell"><a href="models/mistralai/Mistral-7B-Instruct-v0.3/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.42</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>DeepSeek</td>
+            <td><a href="/models/deepseek-ai/deepseek-coder-33b-instruct">DeepSeek Coder 33B</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-coder-33b-instruct/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.65</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-coder-33b-instruct/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.88</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-coder-33b-instruct/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.93</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-coder-33b-instruct/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.92</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-coder-33b-instruct/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.83</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-coder-33b-instruct/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.54</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-coder-33b-instruct/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.36</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-coder-33b-instruct/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.66</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-coder-33b-instruct/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.44</a></td>
+            <td class="hover-cell"><a href="models/deepseek-ai/deepseek-coder-33b-instruct/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.38</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Meta</td>
+            <td><a href="/models/codellama/CodeLlama-34b-Instruct-hf">CodeLlama 34B</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-34b-Instruct-hf/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.64</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-34b-Instruct-hf/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.90</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-34b-Instruct-hf/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.94</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-34b-Instruct-hf/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.92</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-34b-Instruct-hf/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.85</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-34b-Instruct-hf/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.51</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-34b-Instruct-hf/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.38</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-34b-Instruct-hf/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.70</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-34b-Instruct-hf/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.37</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-34b-Instruct-hf/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.30</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Microsoft</td>
+            <td><a href="/models/microsoft/phi-2">phi-2</a></td>
+            <td class="hover-cell"><a href="models/microsoft/phi-2/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.63</a></td>
+            <td class="hover-cell"><a href="models/microsoft/phi-2/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.95</a></td>
+            <td class="hover-cell"><a href="models/microsoft/phi-2/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.96</a></td>
+            <td class="hover-cell"><a href="models/microsoft/phi-2/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.89</a></td>
+            <td class="hover-cell"><a href="models/microsoft/phi-2/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.78</a></td>
+            <td class="hover-cell"><a href="models/microsoft/phi-2/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.46</a></td>
+            <td class="hover-cell"><a href="models/microsoft/phi-2/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.38</a></td>
+            <td class="hover-cell"><a href="models/microsoft/phi-2/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.61</a></td>
+            <td class="hover-cell"><a href="models/microsoft/phi-2/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.37</a></td>
+            <td class="hover-cell"><a href="models/microsoft/phi-2/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.41</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>EleutherAI</td>
+            <td><a href="/models/EleutherAI/llemma_7b">LLemma 7B</a></td>
+            <td class="hover-cell"><a href="models/EleutherAI/llemma_7b/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.62</a></td>
+            <td class="hover-cell"><a href="models/EleutherAI/llemma_7b/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.78</a></td>
+            <td class="hover-cell"><a href="models/EleutherAI/llemma_7b/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.90</a></td>
+            <td class="hover-cell"><a href="models/EleutherAI/llemma_7b/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.85</a></td>
+            <td class="hover-cell"><a href="models/EleutherAI/llemma_7b/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.79</a></td>
+            <td class="hover-cell"><a href="models/EleutherAI/llemma_7b/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.48</a></td>
+            <td class="hover-cell"><a href="models/EleutherAI/llemma_7b/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.41</a></td>
+            <td class="hover-cell"><a href="models/EleutherAI/llemma_7b/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.67</a></td>
+            <td class="hover-cell"><a href="models/EleutherAI/llemma_7b/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.41</a></td>
+            <td class="hover-cell"><a href="models/EleutherAI/llemma_7b/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.36</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Google</td>
+            <td><a href="/models/google/gemma-7b-it">Gemma 7B</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-7b-it/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.62</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-7b-it/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.83</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-7b-it/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.92</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-7b-it/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.90</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-7b-it/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.82</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-7b-it/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.47</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-7b-it/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.36</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-7b-it/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.65</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-7b-it/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.36</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-7b-it/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.30</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Meta</td>
+            <td><a href="/models/codellama/CodeLlama-13b-Instruct-hf">CodeLlama 13B</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-13b-Instruct-hf/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.58</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-13b-Instruct-hf/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.87</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-13b-Instruct-hf/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.92</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-13b-Instruct-hf/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.87</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-13b-Instruct-hf/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.75</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-13b-Instruct-hf/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.41</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-13b-Instruct-hf/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.30</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-13b-Instruct-hf/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.61</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-13b-Instruct-hf/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.32</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-13b-Instruct-hf/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.34</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>InternLM</td>
+            <td><a href="/models/internlm/internlm2-math-base-7b">InternLM-Math Base 7B</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-7b/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.58</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-7b/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.71</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-7b/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.73</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-7b/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.73</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-7b/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.72</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-7b/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.54</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-7b/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.38</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-7b/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.61</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-7b/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.37</a></td>
+            <td class="hover-cell"><a href="models/internlm/internlm2-math-base-7b/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.39</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Meta</td>
+            <td><a href="/models/codellama/CodeLlama-7b-Instruct-hf">CodeLlama 7B</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-7b-Instruct-hf/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.52</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-7b-Instruct-hf/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.85</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-7b-Instruct-hf/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.92</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-7b-Instruct-hf/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.84</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-7b-Instruct-hf/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.69</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-7b-Instruct-hf/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.37</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-7b-Instruct-hf/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.25</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-7b-Instruct-hf/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.57</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-7b-Instruct-hf/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.25</a></td>
+            <td class="hover-cell"><a href="models/codellama/CodeLlama-7b-Instruct-hf/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.16</a></td>
+        </tr>
+        <tr class="model-row-open">
+            <td>Google</td>
+            <td><a href="/models/google/gemma-2b-it">Gemma 2B</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-2b-it/index.html#grade-All" target="_blank" style="text-decoration: none;" >0.51</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-2b-it/index.html#grade-K" target="_blank" style="text-decoration: none;" >0.66</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-2b-it/index.html#grade-1" target="_blank" style="text-decoration: none;" >0.76</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-2b-it/index.html#grade-2" target="_blank" style="text-decoration: none;" >0.74</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-2b-it/index.html#grade-3" target="_blank" style="text-decoration: none;" >0.67</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-2b-it/index.html#grade-4" target="_blank" style="text-decoration: none;" >0.42</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-2b-it/index.html#grade-5" target="_blank" style="text-decoration: none;" >0.28</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-2b-it/index.html#grade-6" target="_blank" style="text-decoration: none;" >0.55</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-2b-it/index.html#grade-7" target="_blank" style="text-decoration: none;" >0.30</a></td>
+            <td class="hover-cell"><a href="models/google/gemma-2b-it/index.html#grade-8" target="_blank" style="text-decoration: none;" >0.27</a></td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
+
+<!--
+<h2>Model Comparison</h2>
+
+<div class="center-container">
+    <label for="model1">Select Model 1:</label>
+    <select id="model1" onchange="updateTable()">
+        <option value="">--Select a Model--</option>
+        <option value="claude-3-opus-20240229">Claude-3 Opus</option>
+        <option value="claude-3-sonnet-20240229">Claude-3 Sonnet</option>
+        <option value="claude-3-haiku-20240307">Claude-3 Haiku</option>
+        <option value="deepseek-ai/deepseek-coder-33b-instruct">DeepSeek Coder 33B</option>
+        <option value="deepseek-ai/deepseek-llm-67b-chat">DeepSeek 67B</option>
+        <option value="EleutherAI/llemma_7b">LLemma 7B</option>
+        <option value="gemini-1.5-pro-001">Gemini-1.5 Pro</option>
+        <option value="gemini-1.5-flash-001">Gemini-1.5 Flash</option>
+        <option value="google/gemma-2b-it">Gemma 2B</option>
+        <option value="google/gemma-7b-it">Gemma 7B</option>
+        <option value="meta-llama/Llama-3-8b-chat-hf">Llama 3 8B</option>
+        <option value="meta-llama/Llama-3-70b-chat-hf">Llama 3 70B</option>
+        <option value="codellama/CodeLlama-7b-Instruct-hf">CodeLlama 7B</option>
+        <option value="codellama/CodeLlama-13b-Instruct-hf">CodeLlama 13B</option>
+        <option value="codellama/CodeLlama-34b-Instruct-hf">CodeLlama 34B</option>
+        <option value="microsoft/phi-2">phi-2</option>
+        <option value="mistralai/Mistral-7B-Instruct-v0.3">Mistral 7B</option>
+        <option value="mistralai/Mixtral-8x7B-Instruct-v0.1">Mixtral 8x7B</option>
+        <option value="mistralai/Mixtral-8x22B-Instruct-v0.1">Mixtral 8x22B</option>
+        <option value="gpt-4o-2024-05-13">GPT-4o</option>
+        <option value="gpt-3.5-turbo-0125">GPT-3.5 Turbo</option>
+    </select>
+
+    <label for="model2">Select Model 2:</label>
+    <select id="model2" onchange="updateTable()">
+        <option value="">--Select a Model--</option>
+        <option value="claude-3-opus-20240229">Claude-3 Opus</option>
+        <option value="claude-3-sonnet-20240229">Claude-3 Sonnet</option>
+        <option value="claude-3-haiku-20240307">Claude-3 Haiku</option>
+        <option value="deepseek-ai/deepseek-coder-33b-instruct">DeepSeek Coder 33B</option>
+        <option value="deepseek-ai/deepseek-llm-67b-chat">DeepSeek 67B</option>
+        <option value="EleutherAI/llemma_7b">LLemma 7B</option>
+        <option value="gemini-1.5-pro-001">Gemini-1.5 Pro</option>
+        <option value="gemini-1.5-flash-001">Gemini-1.5 Flash</option>
+        <option value="google/gemma-2b-it">Gemma 2B</option>
+        <option value="google/gemma-7b-it">Gemma 7B</option>
+        <option value="meta-llama/Llama-3-8b-chat-hf">Llama 3 8B</option>
+        <option value="meta-llama/Llama-3-70b-chat-hf">Llama 3 70B</option>
+        <option value="codellama/CodeLlama-7b-Instruct-hf">CodeLlama 7B</option>
+        <option value="codellama/CodeLlama-13b-Instruct-hf">CodeLlama 13B</option>
+        <option value="codellama/CodeLlama-34b-Instruct-hf">CodeLlama 34B</option>
+        <option value="microsoft/phi-2">phi-2</option>
+        <option value="mistralai/Mistral-7B-Instruct-v0.3">Mistral 7B</option>
+        <option value="mistralai/Mixtral-8x7B-Instruct-v0.1">Mixtral 8x7B</option>
+        <option value="mistralai/Mixtral-8x22B-Instruct-v0.1">Mixtral 8x22B</option>
+        <option value="gpt-4o-2024-05-13">GPT-4o</option>
+        <option value="gpt-3.5-turbo-0125">GPT-3.5 Turbo</option>
+    </select>
+</div>
+
+<table id="comparisonTable">
+    <thead>
+        <tr>
+            <th>CC Standard</th>
+            <th>Description</th>
+            <th id="model1Header"></th>
+            <th id="model2Header"></th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+-->
+
 </body>
 </html>

@@ -1370,10 +1370,10 @@ if __name__ == '__main__':
         standard = standards[standard]
         print(len(standards))
 
-        if standard.id not in ['K.CC.C.7', 'K.OA.A.4']:
+        if standard.id in ['3.MD.D.8-polygon']:
             # standard = standards[args.standard]
 
-            g_problems = generate_many(4*args.n, standard, args.n_fup)
+            g_problems = generate_many(10*args.n, standard, args.n_fup)
             
             print("Standard", str(standard))
             for i, g_problem in enumerate(g_problems):
@@ -1390,7 +1390,7 @@ if __name__ == '__main__':
                 ]
                 messages_to_sym = [
                     {"role": "system", "content": """You are an assistant that generates symbolic structures from a given math problem. The symbolic structure must accurately reflect all steps in the math problem, and result in the correct final answer. Do not generate a theme or math concept in your symbolic structure. The only thing you return should be the symbolic structure. It is possible that the symbolic structure consists of only a question. Don't repeat variable names in the symbolic structure. All lines in the symbolic structure except the last one will use the 'var' keyword. The last line will use the 'question' keyword. Do not use any other keywords. If there are multiple answers (like in a system of equations), then the variables on the right hand side of the equal to symbol in the question should be a list where each variable is in quotes. If the problem is a followup problem to a problem above it, also incorporate the information from the original problem into the new symbolic structure.
-                        If the problem does not have complete information, do not generate a symbolic structure."""}
+                        If the problem does not have complete information, do not generate a symbolic structure. AGAIN, DO NOT INCLUDE THE MATH CONCEPT OR THEME IN YOUR SYMBOLIC STRUCTURE. RETURN ONLY THE STRUCTURE, NOTHING ELSE. """}
                 ]
                 
                 for x in range(int(len(standard.samples)/2 + 1)):
@@ -1507,7 +1507,7 @@ if __name__ == '__main__':
                                 # save even if new final answer doesnt match old, "cycle_consistent": t/f, add "bad_problem" field, set to null originally, manually edit
                                 })
                         else:
-                            if check_sym_struct(gpt_symbolic_structure, final_answer, standard):
+                            if True:
                                 p_seq_data.append({
                                     "id": standard.id + "-" + str(i) + "-" + str(j),
                                     "standard": standard.id,

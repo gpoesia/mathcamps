@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
 
 
+import ast
 import collections
+import re
 from dataclasses import dataclass
-import grammar
-from scipy.stats import pearsonr
-
+from typing import Union, Tuple
+import re
+import ast
 import argparse
 import json
+
+from scipy.stats import pearsonr
+from tqdm import tqdm
+
+import grammar
+from grammar import load_standards
 
 
 TABLE_CONFIG_PATH = "config/main_table.json"
@@ -49,6 +57,12 @@ class Model:
     display_name: str
     category: str  # open or closed.
 
+    def __eq__(self, other):
+        return isinstance(other, Model) and self.model_id == other.model_id and self.vendor == other.vendor
+
+    def __hash__(self):
+        return hash((self.vendor, self.model_id))
+
 
 def load_results(results: list[str]) -> (dict, set, set):
     all_results = {}
@@ -65,12 +79,16 @@ def load_results(results: list[str]) -> (dict, set, set):
 
 def compute_accuracy(results: dict, model_id: str,
                      predicate,
-                     followups=None) -> float:
-    total = 0
-    correct = 0
+                     followups=None,
+                     return_responses=False) -> Union[Tuple[float, list], float]:
+    total, correct = 0, 0
+    responses = []
+
     for result in results.values():
         if result['model'] == model_id and predicate(result['standard'], result['problem'], None):
             total += 1
+            responses.append(result)
+
             if result['correct']:
                 if not followups:
                     correct += 1
@@ -80,7 +98,10 @@ def compute_accuracy(results: dict, model_id: str,
                     for followup in result['followups'].values():
                         if not predicate(result['standard'], result['problem'], followup['problem']):
                             continue
+
                         total_followups += 1
+                        responses.append({**followup, 'is_followup': True})
+
                         if followup['correct']:
                             total_followups_correct += 1
 
@@ -94,8 +115,52 @@ def compute_accuracy(results: dict, model_id: str,
                         raise ValueError(f'Invalid followups value: {followups} (should be all, any or None)')
     if not total:
         print('Warning: incomplete results for', model_id)
-        return 0
-    return correct / total
+        return (0, []) if return_responses else 0
+    accuracy = correct / total
+    return (accuracy, responses) if return_responses else accuracy
+
+
+def fup_type_from_id(s):
+    pattern = r'.*-([0-9]+)$'
+    match = re.search(pattern, s)
+    if match:
+        num = match.group(1)
+    else:
+        num = None
+    if num == '1':
+        fup_type = 'ifup'
+    elif num == '2':
+        fup_type = 'cfup'
+    else:
+        raise ValueError("Non-followup ID passed")
+    return fup_type
+
+
+def compute_fup_accuracy(results: dict, model_id: str,
+                         predicate,
+                         followup_type) -> float:
+    total_followups, total_followups_correct = 0, 0
+    for result in results.values():
+        if result['model'] == model_id and predicate(result['standard'], result['problem'], None):
+            if result['correct']:
+                for id, followup in result['followups'].items():
+                    if not predicate(result['standard'], result['problem'], followup['problem']):
+                        continue
+                    type_fup = ast.literal_eval(id)
+
+                    if fup_type_from_id(type_fup[0]) == followup_type:
+                        total_followups += 1
+                        if followup['correct']:
+                            total_followups_correct += 1
+
+    if total_followups == 0:
+        return 0, 0
+    return (total_followups_correct / total_followups), total_followups
+
+
+def is_standard_from_grade(standard, grade):
+    standard_grade = standard.split('.')[0]
+    return standard_grade == grade
 
 
 def get_followups_with_correct_answers(results: dict) -> (set, set):
@@ -132,7 +197,135 @@ def get_ordinal_str(n: int) -> str:
         return f'${n}^{{th}}$'
 
 
-def generate_main_table(results):
+def generate_accuracy_table_data(results: list[str]):
+    all_results, standards, grades = load_results(results)
+    # Sort grades in ascending order, with 'K' coming first.
+    grades = sorted(list(grades), key=lambda x: (x[0] != 'K', x))
+
+    with open(TABLE_CONFIG_PATH, 'r') as f:
+        table_config = json.load(f)
+
+    models = []
+
+    for row in table_config['models']:
+        models.append(Model(*row))
+
+    columns = [('All', lambda standard, _p, _f: True)]
+
+    for grade in grades:
+        columns.append((grade, lambda standard, _p, _f: standard.startswith(grade + '.')))
+
+    results_table = []
+
+    for model in models:
+        model_results = []
+        for grade, predicate in columns:
+            model_results.append({"accuracy": compute_accuracy(all_results,
+                                                               model.model_id,
+                                                               predicate),
+                                  "grade": grade})
+        results_table.append({
+            'vendor': model.vendor,
+            'model': model.display_name,
+            'category': model.category,
+            'model_id': model.model_id,
+            'display_name': model.display_name,
+            'is_open': model.category == 'open',
+            'accuracies': model_results
+        })
+
+    results_table.sort(key=lambda x: (x['accuracies'][0]['accuracy']), reverse=True)
+    return columns, results_table
+
+
+def generate_standardwise_accuracy(results: list[str]):
+    # model: {standard:accuracy}
+    all_results, standards, grades = load_results(results)
+    # Sort grades in ascending order, with 'K' coming first.
+    grades = sorted(list(grades), key=lambda x: (x[0] != 'K', x))
+
+    with open(TABLE_CONFIG_PATH, 'r') as f:
+        table_config = json.load(f)
+
+    results_by_model = {}
+    models_by_id = {}
+    headers = ['Standard', 'Overall Acc.', 'IFUP Acc.', 'CFUP Acc.', 'Total FUPs']
+
+    for row in table_config['models']:
+        m = Model(*row)
+        results_by_model[m.model_id] = {}
+        models_by_id[m.model_id] = m
+
+    followups_with_correct_answers, problems_with_followups, standards_with_followups = \
+        get_followups_with_correct_answers(all_results)
+
+    results_table = {}
+
+    for i, model_id in tqdm(list(enumerate(results_by_model))):
+        model = models_by_id[model_id]
+        model_responses = []
+
+        for grade in grades:
+            results_by_model[model_id][grade] = []
+            for standard in standards:
+                standard_results = {}
+                if is_standard_from_grade(standard, grade):
+                    def standard_predicate(s, p, f):
+                        return (s == standard and p in problems_with_followups)
+
+                    # append main results
+                    overall_acc = compute_accuracy(all_results,
+                                                   model.model_id,
+                                                   lambda s, _p, _f: s == standard,
+                                                   return_responses=False)
+
+                    _, responses = compute_accuracy(all_results,
+                                                    model.model_id,
+                                                    lambda s, _p, _f: s == standard,
+                                                    followups='any',
+                                                    return_responses=True)
+
+                    model_responses.extend(responses)
+
+                    standard_results['overall_acc'] = f"{overall_acc:.2f}"
+
+                    # append ifup results
+                    ifup_results, ifup_total = compute_fup_accuracy(all_results,
+                                                                    model.model_id,
+                                                                    standard_predicate,
+                                                                    'ifup')
+
+                    standard_results['num_ifup_corr'] = f"{ifup_results:.2f}" if ifup_results != 0 else "-"
+
+                    # append cfup results
+                    cfup_results, cfup_total = compute_fup_accuracy(all_results,
+                                                                    model.model_id,
+                                                                    standard_predicate,
+                                                                    'cfup')
+                    standard_results['num_cfup_corr'] = f"{cfup_results:.2f}" if cfup_results != 0 else "-"
+
+                    # append total number of fups seen
+                    total_fup_seen = ifup_total + cfup_total
+                    standard_results['total_fup_seen'] = total_fup_seen if total_fup_seen != 0 else "-"
+
+                    results_by_model[model_id][grade].append({'standard': standard, 'standard_results': standard_results})
+
+        results_table[model_id] = {
+            'vendor': model.vendor,
+            'model': model.display_name,
+            'category': model.category,
+            'model_id': model.model_id,
+            'display_name': model.display_name,
+            'is_open': model.category == 'open',
+            'accuracies': results_by_model[model_id],
+            'responses': model_responses,
+        }
+
+    # results_table.sort(key=lambda x: (x['accuracies'][0]['accuracy']), reverse=True)
+    return headers, results_table
+
+
+def generate_main_table(results, html=False):
     all_results, _standards, grades = load_results(results)
     print(len(all_results), 'results loaded')
 
@@ -166,14 +359,40 @@ def generate_main_table(results):
     for model, model_results in zip(models, results_table):
         table_contents.append([model] + model_results)
 
-    table_contents.sort(key=lambda x: (x[0].category, x[1]), reverse=True)
+    table_contents.sort(key=lambda x: (x[0].category == "closed", x[1]), reverse=True)
+
+    # Calculate and print grade-wise averages
+    num_models = len(models)
+    num_grades = len(columns)
+    grade_sums = [0] * num_grades
+
+    for model_results in results_table:
+        for i, result in enumerate(model_results):
+            grade_sums[i] += result
+
+    print("Grade-wise averages:")
+    for i, (grade, _) in enumerate(columns):
+        average = grade_sums[i] / num_models
+        print(f'{grade}: {average:.2f}')
 
     headers = ['Vendor', 'Model'] + [column[0] for column in columns]
 
     latex_lines = []
+    html_lines = []
+
     latex_lines.append(r'\begin{tabular}{c c|' + ' '.join(['c'] * len(columns)) + '}')
     latex_lines.append(r'\toprule')
     latex_lines.append(' & '.join(['\\textbf{' + header + '}' for header in headers]) + r'\\')
+
+    html_lines.append('<table>')
+    html_lines.append('    <thead>')
+    html_lines.append('        <tr>')
+    for header in headers:
+        html_lines.append(f'            <th>{header}</th>')
+    html_lines.append('        </tr>')
+    html_lines.append('    </thead>')
+    html_lines.append('    <tbody>')
+
     last_category = None
     for model, *model_results in table_contents:
         if model.category != last_category:
@@ -181,14 +400,112 @@ def generate_main_table(results):
         last_category = model.category
         latex_lines.append(' & '.join([model.vendor, model.display_name] +
                                       [f'{result:.2f}' for result in model_results]) + r'\\')
+        html_lines.append('        <tr>')
+        html_lines.append(f'            <td>{model.vendor}</td>')
+        html_lines.append(f'            <td>{model.display_name}</td>')
+        for result in model_results:
+            html_lines.append(f'            <td>{result:.2f}</td>')
+        html_lines.append('        </tr>')
+
+    latex_lines.append(r'\bottomrule')
+    latex_lines.append(r'\end{tabular}')
+    html_lines.append('    </tbody>')
+    html_lines.append('</table>')
+
+    if not html:
+        print('\n'.join(latex_lines))
+    else:
+        print('\n'.join(html_lines))
+
+
+def generate_standards_table():
+    print('--------------------------------------------------------------------------------------------------------------------')
+    standards = load_standards()
+    headers = ['Standard ID', 'Description']
+    
+    
+    for grade in ['K', '1', '2', '3', '4', '5', '6', '7', '8']:
+        latex_lines = []
+        latex_lines.append(r'\begin{table}')
+        latex_lines.append(r'\centering')
+        latex_lines.append(r'\begin{tabular}{|p{2cm}|p{10cm}|}')
+        latex_lines.append(r'\hline')
+        latex_lines.append(' & '.join(['\\textbf{' + header + '}' for header in headers]) + r'\\')
+        latex_lines.append(r'\hline')
+        
+        for standard in standards:
+            id = standards[standard].id
+            description = standards[standard].description
+            if id[0] == grade: # checks that the first char is the grade
+                latex_lines.append(f'{id} & {description}' + r'\\')
+                latex_lines.append(r'\hline')
+    
+        latex_lines.append(r'\end{tabular}')
+        latex_lines.append(r'\caption{CC Standards for Grade '  + grade + '}')
+        latex_lines.append(r'\label{tab:standards' + f'-{grade}' + '}')
+        latex_lines.append(r'\end{table}')
+
+        print('\n'.join(latex_lines))
+
+def generate_fup_table(results):
+    all_results, _standards, grades = load_results(results)
+    print(len(all_results), 'results loaded')
+
+
+    with open(TABLE_CONFIG_PATH, 'r') as f:
+        table_config = json.load(f)
+
+    models = []
+
+    for row in table_config['models']:
+        models.append(Model(*row))
+
+    columns = [('All', lambda standard, _p, _f: True)]
+
+    results_table = []
+    
+    headers = ['Vendor', 'Model', 'Main Acc.', 'IFUP Acc.', 'CFUP Acc.', 'Total FUPs seen']
+
+    latex_lines = []
+    latex_lines.append(r'\begin{tabular}{c c|c c c c}')
+    latex_lines.append(r'\toprule')
+    latex_lines.append(' & '.join(['\\textbf{' + header + '}' for header in headers]) + r'\\')
+
+    for model in models:
+        model_results = []
+        for grade, predicate in columns:
+            # append main results
+            model_results.append(compute_accuracy(all_results,
+                                                  model.model_id,
+                                                  predicate))
+                                     
+            # append ifup results
+            ifup_results, ifup_total = compute_fup_accuracy(all_results,
+                                                  model.model_id,
+                                                  predicate, 'ifup')
+            
+            # append cfup results
+            model_results.append(ifup_results)
+            cfup_results, cfup_total = compute_fup_accuracy(all_results,
+                                                  model.model_id,
+                                                  predicate, 'cfup')
+            model_results.append(cfup_results)
+            
+            # append total number of fups seen
+            model_results.append(ifup_total + cfup_total)
+        # results_table.append(model_results)
+        model_results = [f"{result:.2f}" for result in model_results]
+
+        latex_lines.append(' & '.join([model.vendor, model.display_name] +
+                                      model_results) + r'\\')
     latex_lines.append(r'\bottomrule')
     latex_lines.append(r'\end{tabular}')
 
     print('\n'.join(latex_lines))
 
-
 def generate_followups_accuracy_drop_table(results: list[str], n=2):
-    standards = grammar.load_standards().values()
+    standards_by_id = grammar.load_standards()
+    standards = standards_by_id.values()
     all_results, _, _ = load_results(results)
 
     followups_with_correct_answers, problems_with_followups, standards_with_followups = \
@@ -213,7 +530,7 @@ def generate_followups_accuracy_drop_table(results: list[str], n=2):
         for model in models
     }
 
-    models.sort(key=lambda m: overall_ranking.index(m.model_id))
+    models.sort(key=lambda m: (m.category == "open", overall_ranking.index(m.model_id)))
 
     # Filter out standards without followups.
     standards = [standard
@@ -250,9 +567,9 @@ def generate_followups_accuracy_drop_table(results: list[str], n=2):
                                  followups='all')
 
     latex_lines = []
-    latex_lines.append(r'\begin{tabular}{c p{4cm}' + ' c ' * n + '}')
+    latex_lines.append(r'\begin{tabular}{c c ' + ' c ' * 2*n + '}')
     latex_lines.append(r'\toprule')
-    latex_lines.append(rf'\textbf{{Model}} & Acc. w/ Follow-ups & \multicolumn{{{n}}}{{c}}{{\textbf{{Top {n} accuracy drops with follow-ups}}}} \\')
+    latex_lines.append(rf'\textbf{{Model}} & \textbf{{Acc. with follow-ups}} & \multicolumn{{{2*n}}}{{c}}{{\textbf{{Largest accuracy drop w/ follow-ups}}}} \\')
 
     last_category = None
 
@@ -276,7 +593,8 @@ def generate_followups_accuracy_drop_table(results: list[str], n=2):
         accuracy_drops.sort(key=lambda x: x[3], reverse=True)
 
         for standard, no_followups_accuracy, all_followups_accuracy, accuracy_drop in accuracy_drops[:n]:
-            model_columns.append(f'{standard} ({no_followups_accuracy:.2f} \\downto {all_followups_accuracy:.2f})')
+            model_columns.append(f'{standard} - {standards_by_id[standard].short_description}')
+            model_columns.append(f'{no_followups_accuracy:.2f} \\downto {all_followups_accuracy:.2f})')
 
         latex_lines.append(' & '.join(model_columns) + r'\\')
 
@@ -286,8 +604,10 @@ def generate_followups_accuracy_drop_table(results: list[str], n=2):
     print('\n'.join(latex_lines))
 
 
-def generate_strengths_weaknesses_table(results: list[str], n=2):
+def generate_strengths_weaknesses_table(results: list[str], n=1):
     results, standards, grades = load_results(results)
+
+    all_standards = grammar.load_standards()
 
     with open(TABLE_CONFIG_PATH, 'r') as f:
         table_config = json.load(f)
@@ -322,23 +642,25 @@ def generate_strengths_weaknesses_table(results: list[str], n=2):
         large_deviations_by_model[m.model_id] = deviations
 
     latex_lines = []
-    latex_lines.append(r'\begin{tabular}{c ' + ' c ' * n + '}')
+    latex_lines.append(r'\begin{tabular}{c ' + ' c ' * (2*n) + '}')
     latex_lines.append(r'\toprule')
-    latex_lines.append(rf'\textbf{{Model}} & \multicolumn{{{n}}}{{c}}{{\textbf{{Top outlier skills}}}} \\')
+    latex_lines.append(rf'\textbf{{Model}} & \textbf{{Top outlier skill}} & \textbf{{Rank change}} \\')
 
     last_category = None
-    models.sort(key=lambda m: overall_ranking.index(m.model_id))
+    models.sort(key=lambda m: (m.category == "open", overall_ranking.index(m.model_id)))
 
     for model in models:
         if last_category != model.category:
             latex_lines.append(r'\midrule')
+
         last_category = model.category
         model_columns = []
         model_columns.append(model.display_name)
 
         for standard, original_rank, standard_rank in large_deviations_by_model[model.model_id][:n]:
             direction = '\\downto' if standard_rank > original_rank else '\\upto'
-            model_columns.append(f'{standard} ({get_ordinal_str(original_rank)} {direction} {get_ordinal_str(standard_rank)})')
+            model_columns.append(f'{standard} - {all_standards[standard].short_description}')
+            model_columns.append(f' ({get_ordinal_str(original_rank)} {direction} {get_ordinal_str(standard_rank)})')
 
         latex_lines.append(' & '.join(model_columns) + r'\\')
 
@@ -510,6 +832,132 @@ def pareto_comparison(results: list[str]):
     print(f"Percentage of model pairs where one model is better-Pareto: {percentage:.2f}%")
 
 
+def generate_fup_table(results):
+    all_results, _standards, grades = load_results(results)
+    print(len(all_results), 'results loaded')
+
+    with open(TABLE_CONFIG_PATH, 'r') as f:
+        table_config = json.load(f)
+
+    models = []
+
+    for row in table_config['models']:
+        models.append(Model(*row))
+
+    columns = [('All', lambda standard, _p, _f: True)]
+    headers = ['Vendor', 'Model', 'Main Acc.', 'IFUP Acc.', 'CFUP Acc.',
+               'Total FUPs seen']
+    latex_lines = []
+    latex_lines.append(r'\begin{tabular}{c c|c c c c}')
+    latex_lines.append(r'\toprule')
+    latex_lines.append(' & '.join(['\\textbf{' + header + '}'
+                                   for header in headers]) + r'\\')
+    latex_lines.append(r'\midrule')
+    for model in models:
+        model_results = []
+        for grade, predicate in columns:
+            # append main results
+            model_results.append(compute_accuracy(all_results,
+                                                  model.model_id,
+                                                  predicate))
+            # append ifup results
+            ifup_results, ifup_total = compute_fup_accuracy(all_results,
+                                                            model.model_id,
+                                                            predicate, 'ifup')
+            # append cfup results
+            model_results.append(ifup_results)
+            cfup_results, cfup_total = compute_fup_accuracy(all_results,
+                                                            model.model_id,
+                                                            predicate, 'cfup')
+            model_results.append(cfup_results)
+            # append total number of fups seen
+            model_results.append(ifup_total + cfup_total)
+        # results_table.append(model_results)
+        model_results = [f"{result:.2f}" for result in model_results[:-1]] + [str(model_results[-1])]
+        latex_lines.append(' & '.join([model.vendor, model.display_name] +
+                                      model_results) + r'\\')
+    latex_lines.append(r'\bottomrule')
+    latex_lines.append(r'\end{tabular}')
+    print('\n'.join(latex_lines))
+
+
+def generate_performance_by_standards(results):
+    full_info_standards = load_standards()
+    all_results, standards, _ = load_results(results)
+    standards = sorted(list(standards), key=lambda x: (x[0] != 'K', x))
+    # print(len(all_results), 'results loaded')
+    
+    # columns = [('All', lambda standard, _p, _f: True)]
+    
+    with open(TABLE_CONFIG_PATH, 'r') as f:
+        table_config = json.load(f)
+
+    models = []
+    for row in table_config['models']:
+        models.append(Model(*row))
+    
+
+    """
+    # prints the list of model options
+    for model in models:
+        print(r'<option value="' + model.model_id + r'">' + model.display_name + '</option>')
+    """
+    
+    """
+    # prints the list of standards and their descriptions
+    
+    for standard in full_info_standards:
+        print(f'\"{standard}\": \"{full_info_standards[standard].short_description}\",')
+    """
+    model_accuracies = {}
+    for model in models:
+        model_accuracies[model.model_id] = {}
+        for standard in standards:
+            accuracy = compute_accuracy(all_results, model.model_id, lambda s, _p, _f: s == standard)
+            model_accuracies[model.model_id][standard] = accuracy
+            
+    data_dict_lines = []
+    for model in models:
+        data_dict_lines.append(f'\'' + f'{model.model_id}' + f'\'' + ': '+ '{')
+        data_dict_lines.append(f'    name: \'{model.display_name}\',')
+        data_dict_lines.append(r'    skills: {')
+        for standard in standards:
+            data_dict_lines.append(f'        \"' + standard + f'\": ' + f'\"{model_accuracies[model.model_id][standard]:.2f}\",')
+        data_dict_lines.append(r'    }')
+        data_dict_lines.append(r'},')
+            
+    
+    print('\n'.join(data_dict_lines))
+    
+    """
+
+    columns = [('All', lambda standard, _p, _f: True)]
+
+    for grade in grades:
+        columns.append((grade, lambda standard, _p, _f: standard.startswith(grade + '.')))
+
+    results_table = []
+
+    for model in models:
+        model_results = []
+        for grade, predicate in columns:
+            model_results.append(compute_accuracy(all_results,
+                                                  model.model_id,
+                                                  predicate))
+        results_table.append(model_results)
+
+    table_contents = []
+    for model, model_results in zip(models, results_table):
+        table_contents.append([model] + model_results)
+
+    table_contents.sort(key=lambda x: (x[0].category, x[1]), reverse=True)
+
+    # Calculate and print grade-wise averages
+    num_models = len(models)
+    num_grades = len(columns)
+    grade_sums = [0] * num_grades
+    
+    """
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--main-table', action='store_true',
@@ -527,14 +975,22 @@ def main():
                         help='Compare two models and display top standards where each model has an advantage.')
     parser.add_argument('--pythia-checkpoints-eval', action='store_true',
                         help='Visualize CC learning dynamics using Pythia checkpoints.')
+    parser.add_argument('--fup-table', action='store_true',
+                        help='Table comparing followup performance.')
     parser.add_argument('--model1', type=str, help='Model ID of the first model to compare.')
     parser.add_argument('--model2', type=str, help='Model ID of the second model to compare.')
     parser.add_argument('--top-k', type=int, default=5, help='Number of top standards to display for each model.')
-
+    parser.add_argument('--standards-table', action='store_true',
+                        help='Appendix table listing standards and descriptions')
+    parser.add_argument('--performance-by-standards', action='store_true')
+    parser.add_argument('--fup-table', action='store_true',
+                        help='Table comparing followup performance.')
+    parser.add_argument('--html', action='store_true',
+                        help='When this tag is specified, the methods return the HTML code for making a table. The default without this option is LaTeX code.')
     opt = parser.parse_args()
 
     if opt.main_table:
-        generate_main_table(opt.results)
+        generate_main_table(opt.results, opt.html)
     elif opt.outlier_skills_table:
         generate_strengths_weaknesses_table(opt.results)
     elif opt.gsm8k_correlation:
@@ -547,7 +1003,14 @@ def main():
         generate_followups_accuracy_drop_table(opt.results)
     elif opt.pythia_checkpoints_eval:
         analyze_pythia_checkpoints(opt.results)
-
+    elif opt.fup_table:
+        generate_fup_table(opt.results)
+    elif opt.standards_table:
+        generate_standards_table()
+    elif opt.fup_table:
+        generate_fup_table(opt.results)
+    elif opt.performance_by_standards:
+        generate_performance_by_standards(opt.results)
 
 if __name__ == '__main__':
     main()

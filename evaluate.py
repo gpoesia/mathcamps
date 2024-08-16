@@ -36,7 +36,6 @@ try:
     from transformers import AutoTokenizer, AutoModelForCausalLM
 except:
     print('Could not import huggingface - will not be able to run inference on those models')
-#import torch
 
 
 api_calls_log = open('api_calls.log.json', 'a')
@@ -349,7 +348,14 @@ def extract_first_sign(input_string):
 
 def compare_floats(answer: str, prediction: str) -> bool:
     # Compare the prediction up to the number of significant digits in it.
-
+    
+    if prediction.count('.') > 1:
+        match = re.search(r'\d+\.\d+', prediction)
+        if match:
+            prediction = match.group()
+        else:
+            return False
+        
     if answer.count('.') == 0 or float(answer).is_integer():
         return float(prediction).is_integer() and \
             float(answer) == float(prediction)
@@ -418,7 +424,7 @@ def parse_fraction(s: str) -> F:
 def extract_set(extractor):
     def extract(input_string):
         a = extractor(input_string)
-        if a is not None:
+        if a is not None and a in input_string:
             _, end = input_string.split(a, 1)
             return set([a]).union(extract(end))
         return set()
@@ -451,7 +457,10 @@ def parse_predictions_and_answers(answers, predictions):
         # Floating point
         return set(float(a) for a in answers), set(float(p) for p in predictions)
     if '/' in first_answer:
-        return set(parse_fraction(a) for a in answers), set(parse_fraction(p) for p in predictions)
+        try:
+            return set(parse_fraction(a) for a in answers), set(parse_fraction(p) for p in predictions)
+        except ZeroDivisionError:
+            return set(parse_fraction(a) for a in answers), set()
 
     return set(answers), set(predictions)
 
@@ -464,12 +473,27 @@ def grade_prediction(answer, prediction, abstol=1e-6):
         # NOTE: this will not work for sets of floats, since it will do exact comparison,
         # but we shouldn't have that case for now.
         return answers == predictions
+        
+    is_percent = bool(re.search('%', prediction))
+    if is_percent:
+        prediction = str(eval(extract_first_number(prediction))/100)
+    
+    is_sentence = bool(re.search('[a-zA-Z]', prediction))
+    contains_currency = bool(re.search('[$¢]', prediction))
+    if is_sentence or contains_currency:
+        prediction = extract_first_number(prediction)
+        if prediction == None:
+            return False
 
     if '.' in answer or '.' in prediction:
         return compare_floats(answer, prediction)
     if '/' in answer:
-        if '/' in prediction:
-            return parse_fraction(answer) == parse_fraction(prediction)
+        try:
+            if '/' in prediction:
+                return parse_fraction(answer) == parse_fraction(prediction)
+        except ZeroDivisionError:
+            # This is sometimes an extraction error that can be fixed during regrading.
+            return False
         # Else, convert both to floating point.
         answer_fp = float(parse_fraction(answer))
         prediction_fp = float(prediction)
@@ -567,7 +591,8 @@ def evaluate_local_lm(lm: LanguageModel, problems: list[dict], output_path: str)
                 model_str, revision = model_str_revision[0], None
             llm = LLM(model=model_str,
                       revision=revision,
-                      tensor_parallel_size=torch.cuda.device_count())
+                      tensor_parallel_size=torch.cuda.device_count(),
+                      trust_remote_code=True)
 
         responses = llm.generate(prompts, sampling_params)
         outputs = [r.outputs[0].text for r in responses]
@@ -830,14 +855,17 @@ def eval_results(path, granularity='standard'):
     else:
         ids = {r['problem'] for r in results}
         problem_groups.append(('All problems', ids))
-
+    
+    p_grp_to_acc = {}
     for problem_group, problem_ids in problem_groups:
 #        print('###', problem_group)
-
+        
         for m in models:
             correct = [bool(r['correct']) for r in results if r['problem'] in problem_ids and r['model'] == m and r['model_answer'] is not None]
             accuracy = 'N/A' if not correct else f'{sum(correct) / len(correct):.3f}'
             print(problem_group, ',', m, ',', accuracy)
+            p_grp_to_acc[(problem_group, m)] = accuracy
+    return p_grp_to_acc
             
             
 

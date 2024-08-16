@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    text-align: center;
+}
+img {
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+h1 {
+    color: #333;
+}
+h2 {
+    text-align: center;
+    color: #2A3D45;
+}
+.json-container {
+    background-color: #FFCFE4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.model-row-open {
+    /*background-color: #FFF5E0;*/
+    background-color: #fcf1d9;
+}
+
+.model-row-closed {
+    /*background-color: #FFE2D6;*/
+    background-color: #f7e8e1;
+}
+
+
+
+a {
+    color: #300030;
+    text-decoration: none;
+}
+
+.authors {
+    font-size: 1em;
+}
+.authors span {
+    display: block;
+}
+.buttons {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: #300030;
+    background-color: #FFCFE4;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #FF93C2;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+th {
+    color: #2A3D45;
+}
+
+.hover-cell:hover {
+    background-color: #FFCFE4;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center, if needed */
+    flex-direction: column; /* Stack elements vertically */
+    margin-top: 20px; /* Add space from the top, if needed */
+    width: 90%;
+}
+
+.center-container label, .center-container select {
+    margin: 10px;
+}
+
+.model-response {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #E4CFFF;
+}
+
+.model-response-followup {
+    margin-left: 10%;
+    background-color: #FFFFAA;
+}
+
+.response-field {
+    font-weight: bold;
+}
+
+.correct-response-label {
+    font-weight: bold;
+    color: green;
+}
+
+.incorrect-response-label {
+    font-weight: bold;
+    color: red;
+}
+
+.cc-standard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffafaa;
+    max-width: 50%;
+    align-self: center;
+}
+
+.cc-standard-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #2A3D45;
+}
+
+.cc-standard-description {
+    font-style: italic;
+}

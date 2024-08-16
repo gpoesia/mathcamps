@@ -6,3 +6,4 @@ transformers
 vllm
 scipy
 torch
+chevron

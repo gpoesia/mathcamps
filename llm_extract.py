@@ -107,8 +107,8 @@ def llm_regrade(results, llm=None, regrader_llm='meta-llama/Meta-Llama-3-70B') -
         max_tokens=30,
     ))
 
-    #outputs = [r.outputs[0].text for r in responses]
-    outputs = v['llm_extracted_answer']
+    outputs = [r.outputs[0].text for r in responses]
+    # outputs = v['llm_extracted_answer']
     outputs_by_key = dict(zip(keys, outputs))
 
     n_changes = 0
