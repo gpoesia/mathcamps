@@ -112,15 +112,17 @@ th {
 }
 
 .model-response {
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 2em;
+    padding: 2em;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #E4CFFF;
+    width: 100%;
 }
 
 .model-response-followup {
     margin-left: 10%;
+    width: 90%;
     background-color: #FFFFAA;
 }
 
@@ -142,7 +144,7 @@ th {
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #ffafaa;
-    max-width: 50%;
+    padding: 1em;
     align-self: center;
 }
 
@@ -154,4 +156,15 @@ th {
 
 .cc-standard-description {
     font-style: italic;
+}
+
+.problem-link, .followup-link {
+    font-variant: small-caps;
+}
+
+.model-raw-response {
+    padding: 2em;
+    font-size: 1.25em;
+    line-height: 0.9em;
+    background-color: #eee;
 }
