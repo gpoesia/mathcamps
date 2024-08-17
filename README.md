@@ -22,6 +22,7 @@ MathCAMPS v1.0 contains 9707 total problems (4900 original problems, and a total
 {
   "id": "<<unique problem identifier>>",
   "standard": "<<ID of the Common Core standard this problem belongs to>>",
+  "symbolic-struct": "<<A symbolic representation of the problem, sampled from our grammar>>",
   "statement": "<<problem statement, in natural language>>",
   "answer": "<<expected final answer>>",
   "type": "<<either 'original-problem', 'incremental-follow-up' or 'counterfactual-followup'>>",
@@ -35,6 +36,7 @@ For example:
 {
   "id": "2.MD.C.8-0-0",
   "standard": "2.MD.C.8",
+  "symbolic-struct": "[[var l = (90 - 81)]]\n[[question c = ['l']]]\nmath concept: create a problem that is about money ...",
   "statement": "Liam had $90 in twenties, tens and fives. He spent $81 on a new video game. How much money in dollars does Liam have left?",
   "answer": "9",
   "type": "original-problem",
